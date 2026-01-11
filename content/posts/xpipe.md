@@ -1,9 +1,9 @@
 ---
 title: xpipe
-date: 2026-01-09T12:40:20+08:00
+date: 2026-01-11T12:48:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765207287803-827decc32f9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765207287803-827decc32f9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
 ---
 
 # [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe)

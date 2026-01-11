@@ -1,9 +1,9 @@
 ---
 title: MiroThinker
-date: 2026-01-10T12:34:01+08:00
+date: 2026-01-11T12:48:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764416755879-093302077362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764416755879-093302077362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764013833355-de8d3a5625f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764013833355-de8d3a5625f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
 ---
 
 # [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)
@@ -425,7 +425,7 @@ The following optional tools are available but were not used in MiroThinker v1.5
 | `tool-reasoning-os`  | Open-Source  | Reasoning engine (open-source alternative)  |
 | `tool-reading`       | Open-Source  | Document reading using MarkItDown           |
 | `tool-google-search` | Commercial   | Web search using Google + scraping          |
-| `tool-sougou-search` | Commercial   | Web search using Sougou (Chinese)           |
+| `tool-sogou-search` | Commercial   | Web search using Sogou (Chinese)           |
 
 > **📖 Local Deployment**: For instructions on deploying open-source tools (`tool-vqa-os`, `tool-transcribe-os`, `tool-reasoning-os`) locally, see [Local Tool Deployment Guide](assets/LOCAL-TOOL-DEPLOYMENT.md).
 
@@ -557,7 +557,7 @@ REASONING_BASE_URL="https://your_reasoning_base_url/v1/chat/completions"
 # API for Claude Sonnet 3.7 as Commercial Tools (optional)
 ANTHROPIC_API_KEY=your_anthropic_key
 
-# API for Sougou Search (optional)
+# API for Sogou Search (optional)
 TENCENTCLOUD_SECRET_ID=your_tencent_cloud_secret_id
 TENCENTCLOUD_SECRET_KEY=your_tencent_cloud_secret_key
 

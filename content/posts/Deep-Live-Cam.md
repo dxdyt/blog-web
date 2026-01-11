@@ -1,14 +1,14 @@
 ---
 title: Deep-Live-Cam
-date: 2025-11-04T12:23:12+08:00
+date: 2026-01-11T12:48:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759829429449-ba88609dfbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759829429449-ba88609dfbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
 
-<h1 align="center">Deep-Live-Cam</h1>
+<h1 align="center">Deep-Live-Cam 2.0.1c</h1>
 
 <p align="center">
   Real-time face swap and video deepfake with a single click and only a single image.
@@ -40,7 +40,7 @@ By using this software, you agree to these terms and commit to using it in a man
 
 Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online. We are not responsible for end-user actions.
 
-## Exclusive v2.3 Quick Start - Pre-built (Windows/Mac Silicon)
+## Exclusive v2.4 Quick Start - Pre-built (Windows/Mac Silicon)
 
   <a href="https://deeplivecam.net/index.php/quickstart"> <img src="media/Download.png" width="285" height="77" />
 
@@ -364,11 +364,13 @@ Looking for a CLI mode? Using the -s/--source argument will make the run program
  - [*"Alright look look look, now look chat, we can do any face we want to look like chat"*](https://www.youtube.com/live/mFsCe7AIxq8?feature=shared&t=2686) - IShowSpeed
  - [*"They do a pretty good job matching poses, expression and even the lighting"*](https://www.youtube.com/watch?v=wnCghLjqv3s&t=551s) - TechLinked (LTT)
  - [*"Als Sean Connery an der Redaktionskonferenz teilnahm"*](https://www.golem.de/news/deepfakes-als-sean-connery-an-der-redaktionskonferenz-teilnahm-2408-188172.html) - Golem.de (German)
+ - [*"What the F***! Why do I look like Vinny Jr? I look exactly like Vinny Jr!? No, this shit is crazy! Bro This is F*** Crazy! "*](https://youtu.be/JbUPRmXRUtE?t=3964) - IShowSpeed
 
 
 ## Credits
 
 -   [ffmpeg](https://ffmpeg.org/): for making video-related operations easy
+-   [Henry](https://github.com/henryruhs): One of the major contributor in this repo
 -   [deepinsight](https://github.com/deepinsight): for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models. Please be reminded that the [use of the model is for non-commercial research purposes only](https://github.com/deepinsight/insightface?tab=readme-ov-file#license).
 -   [havok2-htwo](https://github.com/havok2-htwo): for sharing the code for webcam
 -   [GosuDRM](https://github.com/GosuDRM): for the open version of roop

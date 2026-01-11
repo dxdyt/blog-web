@@ -1,9 +1,9 @@
 ---
 title: awesome-copilot
-date: 2025-12-21T12:36:43+08:00
+date: 2026-01-11T12:47:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765706729982-e5475767c4ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765706729982-e5475767c4ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765498069322-27eb70ae2d9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765498069322-27eb70ae2d9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
 ---
 
 # [github/awesome-copilot](https://github.com/github/awesome-copilot)
