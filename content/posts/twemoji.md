@@ -1,9 +1,9 @@
 ---
 title: twemoji
-date: 2023-04-03T12:17:41+08:00
+date: 2026-01-12T12:50:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImage: https://images.unsplash.com/photo-1766570764539-297a1cd82956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766570764539-297a1cd82956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
 ---
 
 # [twitter/twemoji](https://github.com/twitter/twemoji)
@@ -34,7 +34,7 @@ This guarantees that you will always use the latest version of the library.
 
 If, instead, you'd like to include the latest version explicitly, you can add the following tag:
 ```html
-<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" integrity="sha384-ICOlZarapRIX6UjKPcWKEpubjg7lGADN7Y9fYP4DU9zm0aPFhgnP5ef+XFaPyKv+" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/twemoji@14.0.3/dist/twemoji.min.js" integrity="sha384-eoGiwFCoIsUzdZGbvJ/7h/ICofqh5LolgoDnsgdbLptvnpK4+/swGDdkv3sb6bq+" crossorigin="anonymous"></script>
 ```
 
 ### Download

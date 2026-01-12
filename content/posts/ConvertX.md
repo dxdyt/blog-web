@@ -1,9 +1,9 @@
 ---
 title: ConvertX
-date: 2026-01-11T12:48:30+08:00
+date: 2026-01-12T12:51:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766921466663-e3bb91ca67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxMDY4Mzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
 ---
 
 # [C4illin/ConvertX](https://github.com/C4illin/ConvertX)
@@ -48,6 +48,7 @@ A self-hosted online file converter. Supports over a thousand different formats.
 | [Dasel](https://github.com/TomWright/dasel)                     | Data Files       | 5             | 4           |
 | [Pandoc](https://pandoc.org/)                                   | Documents        | 43            | 65          |
 | [msgconvert](https://github.com/mvz/email-outlook-message-perl) | Outlook          | 1             | 1           |
+| VCF to CSV                                                      | Contacts         | 1             | 1           |
 | [dvisvgm](https://dvisvgm.de/)                                  | Vector images    | 4             | 2           |
 | [ImageMagick](https://imagemagick.org/)                         | Images           | 245           | 183         |
 | [GraphicsMagick](http://www.graphicsmagick.org/)                | Images           | 167           | 130         |

@@ -1,9 +1,9 @@
 ---
 title: home-assistant.io
-date: 2025-07-07T12:34:12+08:00
+date: 2026-01-12T12:51:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766570764539-297a1cd82956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766570764539-297a1cd82956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
 ---
 
 # [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io)
@@ -16,6 +16,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6
 # Home Assistant website
 
 This is the source for the [Home-Assistant.io website](https://home-assistant.io).
+
+## Access
+
+You can access the site at the following URLs, depending on the target branch:
+
+- **Production** (`current` branch): https://www.home-assistant.io
+- **Beta** (`rc` branch): https://rc.home-assistant.io
+- **Development** (`next` branch): https://next.home-assistant.io
+
+Additionally, Netlify provides a preview deployment for every pull request, linked in the first PR comment.
 
 ## Setup
 

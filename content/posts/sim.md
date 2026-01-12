@@ -1,9 +1,9 @@
 ---
 title: sim
-date: 2025-12-18T12:33:32+08:00
+date: 2026-01-12T12:51:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763415364262-1ec086926326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763415364262-1ec086926326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766133238998-b6813eaea76f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766133238998-b6813eaea76f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
 ---
 
 # [simstudioai/sim](https://github.com/simstudioai/sim)
@@ -198,7 +198,7 @@ DATABASE_URL="postgresql://postgres:your_password@localhost:5432/simstudio"
 
 Then run the migrations:
 ```bash
-cd apps/sim # Required so drizzle picks correct .env file
+cd packages/db # Required so drizzle picks correct .env file
 bunx drizzle-kit migrate --config=./drizzle.config.ts
 ```
 

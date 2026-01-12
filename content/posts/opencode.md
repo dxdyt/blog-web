@@ -1,9 +1,9 @@
 ---
 title: opencode
-date: 2026-01-10T12:34:23+08:00
+date: 2026-01-12T12:50:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767163039395-938b39d64ffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767163039395-938b39d64ffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765600112366-6688f98dfa33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765600112366-6688f98dfa33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
 ---
 
 # [anomalyco/opencode](https://github.com/anomalyco/opencode)
