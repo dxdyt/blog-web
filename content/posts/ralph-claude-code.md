@@ -1,9 +1,9 @@
 ---
 title: ralph-claude-code
-date: 2026-01-12T12:50:26+08:00
+date: 2026-01-13T12:39:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765274993134-0cd145a53485?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765274993134-0cd145a53485?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766393030118-51b24ee58c0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766393030118-51b24ee58c0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
 ---
 
 # [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code)

@@ -1,9 +1,9 @@
 ---
 title: MediaCrawler
-date: 2025-12-27T12:31:53+08:00
+date: 2026-01-13T12:39:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764869024302-a344a7046be6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4MDk4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764869024302-a344a7046be6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4MDk4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767857393552-9e6a7a7e669a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767857393552-9e6a7a7e669a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
 ---
 
 # [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)

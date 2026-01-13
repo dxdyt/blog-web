@@ -1,9 +1,9 @@
 ---
 title: mpv
-date: 2024-08-20T12:20:13+08:00
+date: 2026-01-13T12:40:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1766229298250-88f02fa015ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766229298250-88f02fa015ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
 ---
 
 # [mpv-player/mpv](https://github.com/mpv-player/mpv)
@@ -30,6 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1722956467257-37e6e52750
 
 
 * [Wiki](https://github.com/mpv-player/mpv/wiki)
+* [User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 * [FAQ][FAQ]
 * [Manual](https://mpv.io/manual/master/)
 
@@ -86,6 +87,9 @@ on every release.
 Changes to the default key bindings are indicated in
 [restore-old-bindings.conf][restore-old-bindings].
 
+Changes to the default OSC bindings are indicated in
+[restore-osc-bindings.conf][restore-osc-bindings].
+
 ## Compilation
 
 
@@ -130,7 +134,7 @@ Essential dependencies (incomplete list):
 
 Libass dependencies (when building libass):
 
-- gcc or clang, yasm on x86 and x86_64
+- gcc or clang, nasm on x86 and x86_64
 - fribidi, freetype, fontconfig development headers (for libass)
 - harfbuzz (required for correct rendering of combining characters, particularly
   for correct rendering of non-English text on macOS, and Arabic/Indic scripts on
@@ -138,7 +142,7 @@ Libass dependencies (when building libass):
 
 FFmpeg dependencies (when building FFmpeg):
 
-- gcc or clang, yasm on x86 and x86_64
+- gcc or clang, nasm on x86 and x86_64
 - OpenSSL or GnuTLS (have to be explicitly enabled when compiling FFmpeg)
 - libx264/libmp3lame/libfdk-aac if you want to use encoding (have to be
   explicitly enabled when compiling FFmpeg)
@@ -224,4 +228,5 @@ Most activity happens on the IRC channel and the GitHub issue tracker.
 [interface-changes]: https://github.com/mpv-player/mpv/blob/master/DOCS/interface-changes.rst
 [api-changes]: https://github.com/mpv-player/mpv/blob/master/DOCS/client-api-changes.rst
 [restore-old-bindings]: https://github.com/mpv-player/mpv/blob/master/etc/restore-old-bindings.conf
+[restore-osc-bindings]: https://github.com/mpv-player/mpv/blob/master/etc/restore-osc-bindings.conf
 [contribute.md]: https://github.com/mpv-player/mpv/blob/master/DOCS/contribute.md
