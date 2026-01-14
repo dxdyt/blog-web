@@ -1,9 +1,9 @@
 ---
 title: home-assistant.io
-date: 2026-01-13T12:40:28+08:00
+date: 2026-01-14T12:46:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765707886188-9d526ab67d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765707886188-9d526ab67d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766860161994-d3d23ee8ce53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgzNjU5NDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766860161994-d3d23ee8ce53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgzNjU5NDF8&ixlib=rb-4.1.0
 ---
 
 # [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io)

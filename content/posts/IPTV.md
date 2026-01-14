@@ -1,9 +1,9 @@
 ---
 title: IPTV
-date: 2025-12-18T12:33:42+08:00
+date: 2026-01-14T12:46:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765734482984-c4a850a67577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765734482984-c4a850a67577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766860161994-d3d23ee8ce53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgzNjU5NDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766860161994-d3d23ee8ce53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgzNjU5NDF8&ixlib=rb-4.1.0
 ---
 
 # [Free-TV/IPTV](https://github.com/Free-TV/IPTV)
