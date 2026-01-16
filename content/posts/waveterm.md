@@ -1,9 +1,9 @@
 ---
 title: waveterm
-date: 2025-10-21T12:22:22+08:00
+date: 2026-01-16T12:39:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758677821677-33ad96c07cf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758677821677-33ad96c07cf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766351826045-d5d08890e1e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766351826045-d5d08890e1e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
 ---
 
 # [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
@@ -34,11 +34,27 @@ Modern development involves constantly switching between terminals and browsers 
 - Flexible drag & drop interface to organize terminal blocks, editors, web browsers, and AI assistants
 - Built-in editor for seamlessly editing remote files with syntax highlighting and modern editor features
 - Rich file preview system for remote files (markdown, images, video, PDFs, CSVs, directories)
-- Integrated AI chat with support for multiple models (OpenAI, Claude, Azure, Perplexity, Ollama)
+- Quick full-screen toggle for any block - expand terminals, editors, and previews for better visibility, then instantly return to multi-block view
+- Wave AI - Context-aware terminal assistant that reads your terminal output, analyzes widgets, and performs file operations
+- AI chat widget with support for multiple models (OpenAI, Claude, Azure, Perplexity, Ollama)
 - Command Blocks for isolating and monitoring individual commands with auto-close options
 - One-click remote connections with full terminal and file system access
+- Secure secret storage using native system backends - store API keys and credentials locally, access them across SSH sessions
 - Rich customization including tab themes, terminal styles, and background images
 - Powerful `wsh` command system for managing your workspace from the CLI and sharing data between terminal sessions
+- Connected file management with `wsh file` - seamlessly copy and sync files between local, remote SSH hosts, Wave filesystem, and S3
+
+## Wave AI
+
+Wave AI is your context-aware terminal assistant with access to your workspace:
+
+- **Terminal Context**: Reads terminal output and scrollback for debugging and analysis
+- **File Operations**: Read, write, and edit files with automatic backups and user approval
+- **CLI Integration**: Use `wsh ai` to pipe output or attach files directly from the command line
+- **Free Beta**: Included AI credits while we refine the experience
+- **Coming Soon**: Command execution (with approval), local model support, and alternate AI providers (BYOK)
+
+Learn more in our [Wave AI documentation](https://docs.waveterm.dev/waveai).
 
 ## Installation
 
@@ -90,7 +106,6 @@ Find more information in our [Contributions Guide](CONTRIBUTING.md), which inclu
 
 - [Ways to contribute](CONTRIBUTING.md#contributing-to-wave-terminal)
 - [Contribution guidelines](CONTRIBUTING.md#before-you-start)
-- [Storybook](https://docs.waveterm.dev/storybook)
 
 ## License
 

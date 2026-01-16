@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2026-01-15T12:40:22+08:00
+date: 2026-01-16T12:39:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767176515955-a4497524fa3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg0NTE5OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767176515955-a4497524fa3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg0NTE5OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767049147097-7742651f6644?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767049147097-7742651f6644?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
 ---
 
 # [mudler/LocalAI](https://github.com/mudler/LocalAI)

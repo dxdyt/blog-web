@@ -1,9 +1,9 @@
 ---
 title: mediapipe
-date: 2024-10-17T12:20:47+08:00
+date: 2026-01-16T12:40:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1764966894769-4b2944571d12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764966894769-4b2944571d12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
 ---
 
 # [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)
