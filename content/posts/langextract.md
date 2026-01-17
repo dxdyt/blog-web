@@ -1,9 +1,9 @@
 ---
 title: langextract
-date: 2025-12-25T12:37:07+08:00
+date: 2026-01-17T12:31:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762423780504-bb663dd65a9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762423780504-bb663dd65a9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765706729547-57ad9c7f2814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg2MjQyOTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765706729547-57ad9c7f2814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg2MjQyOTJ8&ixlib=rb-4.1.0
 ---
 
 # [google/langextract](https://github.com/google/langextract)
@@ -98,6 +98,8 @@ examples = [
     )
 ]
 ```
+
+> **Note:** Examples drive model behavior. Each `extraction_text` should ideally be verbatim from the example's `text` (no paraphrasing), listed in order of appearance. LangExtract raises `Prompt alignment` warnings by default if examples don't follow this pattern—resolve these for best results.
 
 ### 2. Run the Extraction
 

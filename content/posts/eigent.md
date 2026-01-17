@@ -1,9 +1,9 @@
 ---
 title: eigent
-date: 2026-01-16T12:39:10+08:00
+date: 2026-01-17T12:32:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762245832988-149462a4a8cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762245832988-149462a4a8cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg1MzgzNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768310481123-9c8e4e6fc61a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg2MjQyOTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768310481123-9c8e4e6fc61a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg2MjQyOTJ8&ixlib=rb-4.1.0
 ---
 
 # [eigent-ai/eigent](https://github.com/eigent-ai/eigent)
@@ -33,7 +33,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1762245832988-149462a4a8
 <hr/>
 <div align="center">
 
-**English** · [简体中文](./README_CN.md) · [日本語](./README_JA.md) · [Official Site][eigent-site] · [Documents][docs-site] · [Feedback][github-issue-link]
+**English** · [Português](./README_PT-BR.md) · [简体中文](./README_CN.md) · [日本語](./README_JA.md) · [Official Site][eigent-site] · [Documents][docs-site] · [Feedback][github-issue-link]
 
 </div>
 <br/>
@@ -161,7 +161,7 @@ Employs a team of specialized AI agents that collaborate to solve complex tasks.
 Eigent pre-defined the following agent workers:
 
 - **Developer Agent:** Writes and executes code, runs terminal commands.
-- **Search Agent:** Searches the web and extracts content.
+- **Browser Agent:** Searches the web and extracts content.
 - **Document Agent:** Creates and manages documents.
 - **Multi-Modal Agent:** Processes images and audio.
 
