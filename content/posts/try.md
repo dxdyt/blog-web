@@ -1,169 +1,289 @@
 ---
 title: try
-date: 2023-06-27T12:19:38+08:00
+date: 2026-01-19T12:52:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1766425597308-2cea2422283c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766425597308-2cea2422283c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
 ---
 
-# [binpash/try](https://github.com/binpash/try)
+# [tobi/try](https://github.com/tobi/try)
 
-# try
+# try - fresh directories for every vibe
 
-<img src="docs/try_logo.png" alt="try logo" width="100" height="130">
+**[Website](https://pages.tobi.lutke.com/try/)** · **[RubyGems](https://rubygems.org/gems/try-cli)** · **[GitHub](https://github.com/tobi/try)**
 
-"Do, or do not. There is no try."
+*Your experiments deserve a home.* 🏠
 
-We're setting out to change that.
+> For everyone who constantly creates new projects for little experiments, a one-file Ruby script to quickly manage and navigate to keep them somewhat organized
 
-## Description
-[![LocalTests](https://github.com/binpash/try/actions/workflows/test.yaml/badge.svg)](https://github.com/binpash/try/actions/workflows/test.yaml)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-[![issues - try](https://img.shields.io/github/issues/binpash/try)](https://github.com/binpash/try/issues)
+Ever find yourself with 50 directories named `test`, `test2`, `new-test`, `actually-working-test`, scattered across your filesystem? Or worse, just coding in `/tmp` and losing everything?
 
-`try` lets you run a command and inspect its effects before changing your live system. `try` uses Linux's [namespaces (via `unshare`)](https://docs.kernel.org/userspace-api/unshare.html) and the [overlayfs](https://docs.kernel.org/filesystems/overlayfs.html) union filesystem.
+**try** is here for your beautifully chaotic mind.
 
-Please note that `try` is a prototype and not a full sandbox, and should not be used to execute
-commands that you don't already trust on your system, (i.e. devices in `/dev` are
-mounted in the sandbox, and network calls are all allowed.) Please do not
-attempt any commands that will remove everything in /dev or write zeros to your
-disks.
+# What it does 
 
-<img src="docs/try_pip_install_example.gif" alt="try gif">
+![Fuzzy Search Demo](assets/try-fuzzy-search-demo.gif)
 
-## Getting Started
+*[View interactive version on asciinema](https://asciinema.org/a/ve8AXBaPhkKz40YbqPTlVjqgs)*
 
-### Dependencies
+Instantly navigate through all your experiment directories with:
+- **Fuzzy search** that just works
+- **Smart sorting** - recently used stuff bubbles to the top
+- **Auto-dating** - creates directories like `2025-08-17-redis-experiment`
+- **Zero config** - just one Ruby file, no dependencies
 
-Has been tested on the following distributions:
-* `Ubuntu 20.04 LTS` or later
-* `Debian 12`
-* `Centos 9 Stream 5.14.0-325.el9`
-* `Arch 6.1.33-1-lts`
-* `Alpine 6.1.34-1-lts`
-* `Rocky 9 5.14.0-284.11.1.el9_2`
-* `SteamOS 3.4.8 5.13.0-valve36-1-neptune`
+## Installation
 
-### Installing
+### RubyGems (Recommended)
 
-You only need the [`try` script](https://raw.githubusercontent.com/binpash/try/main/try), which you can download by cloning this repository:
-
-```ShellSession
-$ git clone https://github.com/binpash/try.git
+```bash
+gem install try-cli
 ```
 
-#### Arch Linux
+Then add to your shell:
 
-`Try` is present in [AUR](https://aur.archlinux.org/packages/try), you can install it with your preferred AUR helper:
+```bash
+# Bash/Zsh - add to .zshrc or .bashrc
+eval "$(try init)"
 
-```shellsession
-yay -s try
+# Fish - add to config.fish
+eval (try init | string collect)
 ```
 
-or manually:
+### Quick Start (Manual)
 
-```shellsession
-git clone https://aur.archlinux.org/try.git
-cd try
-makepkg -sic
+```bash
+curl -sL https://raw.githubusercontent.com/tobi/try/refs/heads/main/try.rb > ~/.local/try.rb
+
+# Make "try" executable so it can be run directly
+chmod +x ~/.local/try.rb
+
+# Add to your shell (bash/zsh)
+echo 'eval "$(ruby ~/.local/try.rb init ~/src/tries)"' >> ~/.zshrc
+
+# for fish shell users
+echo 'eval (~/.local/try.rb init ~/src/tries | string collect)' >> ~/.config/fish/config.fish
 ```
 
-## Example Usage
+## The Problem
 
-`try` is a higher-order command, like `xargs`, `exec`, `nohup`, or `find`. For example, to install a package via `pip3`, you can invoke `try` as follows:
+You're learning Redis. You create `/tmp/redis-test`. Then `~/Desktop/redis-actually`. Then `~/projects/testing-redis-again`. Three weeks later you can't find that brilliant connection pooling solution you wrote at 2am.
 
-```ShellSession
-$ try pip3 install libdash
-... # output continued below
+## The Solution
+
+All your experiments in one place, with instant fuzzy search:
+
+```bash
+$ try pool
+→ 2025-08-14-redis-connection-pool    2h, 18.5
+  2025-08-03-thread-pool              3d, 12.1
+  2025-07-22-db-pooling               2w, 8.3
+  + Create new: pool
 ```
 
-By default, `try` will ask you to commit the changes made at the end of its execution.
+Type, arrow down, enter. You're there.
 
-```ShellSession
-...
-Defaulting to user installation because normal site-packages is not writeable
-Collecting libdash
-  Downloading libdash-0.3.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (254 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 254.6/254.6 KB 2.1 MB/s eta 0:00:00
-Installing collected packages: libdash
-Successfully installed libdash-0.3.1
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+## Features
 
-Changes detected in the following files:
+### 🎯 Smart Fuzzy Search
+Not just substring matching - it's smart:
+- `rds` matches `redis-server`
+- `connpool` matches `connection-pool`
+- Recent stuff scores higher
+- Shorter names win on equal matches
 
-/tmp/tmp.zHCkY9jtIT/upperdir/home/gliargovas/.local/lib/python3.10/site-packages/libdash/ast.py (modified/added)
-/tmp/tmp.zHCkY9jtIT/upperdir/home/gliargovas/.local/lib/python3.10/site-packages/libdash/_dash.py (modified/added)
-/tmp/tmp.zHCkY9jtIT/upperdir/home/gliargovas/.local/lib/python3.10/site-packages/libdash/__init__.py (modified/added)
-/tmp/tmp.zHCkY9jtIT/upperdir/home/gliargovas/.local/lib/python3.10/site-packages/libdash/__pycache__/printer.cpython-310.pyc (modified/added)
-/tmp/tmp.zHCkY9jtIT/upperdir/home/gliargovas/.local/lib/python3.10/site-packages/libdash/__pycache__/ast.cpython-310.pyc (modified/added)
-<snip>
+### ⏰ Time-Aware
+- Shows how long ago you touched each project
+- Recently accessed directories float to the top
+- Perfect for "what was I working on yesterday?"
 
-Commit these changes? [y/N] y
+### 🎨 Pretty TUI
+- Clean, minimal interface
+- Highlights matches as you type
+- Shows scores so you know why things are ranked
+- Dark mode by default (because obviously)
+
+### 📁 Organized Chaos
+- Everything lives in `~/src/tries` (configurable via `TRY_PATH`)
+- Auto-prefixes with dates: `2025-08-17-your-idea`
+- Skip the date prompt if you already typed a name
+
+### Shell Integration
+
+- Bash/Zsh:
+
+  ```bash
+  # default is ~/src/tries
+  eval "$(~/.local/try.rb init)"
+  # or pick a path
+  eval "$(~/.local/try.rb init ~/src/tries)"
+  ```
+
+- Fish:
+
+  ```fish
+  eval (~/.local/try.rb init | string collect)
+  # or pick a path
+  eval (~/.local/try.rb init ~/src/tries | string collect)
+  ```
+
+Notes:
+- The runtime commands printed by `try` are shell-neutral (absolute paths, quoted). Only the small wrapper function differs per shell.
+
+## Usage
+
+```bash
+try                                          # Browse all experiments
+try redis                                    # Jump to redis experiment or create new
+try new api                                  # Start with "2025-08-17-new-api"
+try . [name]                                   # Create a dated worktree dir for current repo
+try ./path/to/repo [name]                      # Use another repo as the worktree source
+try worktree dir [name]                        # Same as above, explicit CLI form
+try clone https://github.com/user/repo.git  # Clone repo into date-prefixed directory
+try https://github.com/user/repo.git        # Shorthand for clone (same as above)
+try --help                                   # See all options
 ```
 
-Sometimes, you might want to pre-execute a command and commit its result at a later time. Running `try -n` will print the overlay directory on STDOUT without committing the result.
+Notes on worktrees (`try .` / `try worktree dir`):
+- With a custom [name], uses that; otherwise uses cwd’s basename. Both are prefixed with today’s date.
+- Inside a Git repo: adds a detached HEAD git worktree to the created directory.
+- Outside a repo: simply creates the directory and changes into it.
 
-```ShellSession
-$ try -n "curl https://sh.rustup.rs | sh"
-/tmp/tmp.uCThKq7LBK
+### Git Repository Cloning
+
+**try** can automatically clone git repositories into properly named experiment directories:
+
+```bash
+# Clone with auto-generated directory name
+try clone https://github.com/tobi/try.git
+# Creates: 2025-08-27-tobi-try
+
+# Clone with custom name
+try clone https://github.com/tobi/try.git my-fork
+# Creates: my-fork
+
+# Shorthand syntax (no need to type 'clone')
+try https://github.com/tobi/try.git
+# Creates: 2025-08-27-tobi-try
 ```
 
-Alternatively, you can specify your own existing overlay directory using the `-D [dir]` flag:
+Supported git URI formats:
+- `https://github.com/user/repo.git` (HTTPS GitHub)
+- `git@github.com:user/repo.git` (SSH GitHub)
+- `https://gitlab.com/user/repo.git` (GitLab)
+- `git@host.com:user/repo.git` (SSH other hosts)
 
-```ShellSession
-$ mkdir rustup-sandbox
-$ try -D rustup-sandbox "curl https://sh.rustup.rs | sh"
-$ ls rustup-sandbox
-temproot  upperdir  workdir
+The `.git` suffix is automatically removed from URLs when generating directory names.
+
+### Keyboard Shortcuts
+
+- `↑/↓` or `Ctrl-P/N/J/K` - Navigate
+- `Enter` - Select or create
+- `Backspace` - Delete character
+- `Ctrl-D` - Delete directory (with confirmation)
+- `ESC` - Cancel
+- Just type to filter
+
+## Configuration
+
+Set `TRY_PATH` to change where experiments are stored:
+
+```bash
+export TRY_PATH=~/code/sketches
 ```
 
-As you can see from the output above, `try` has created an overlay environment in the `rustup-sandbox` directory.
+Default: `~/src/tries`
 
-Manually inspecting upperdir reveals the changes to the files made inside the overlay during the execution of the previous command with *try*:
+## Nix
 
-```ShellSession
-~/try/rustup-sandbox/upperdir$ du -hs .
-1.2G    .
+### Quick start
+
+```bash
+nix run github:tobi/try
+nix run github:tobi/try -- --help
+nix run github:tobi/try init ~/my-tries
 ```
 
-You can inspect the changes made inside a given overlay directory using `try`:
+### Home Manager
 
-```ShellSession
-$ try summary rustup-sandbox/ | head
-
-Changes detected in the following files:
-
-rustup-sandbox//upperdir/home/ubuntu/.profile (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.bashrc (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.rustup/update-hashes/stable-x86_64-unknown-linux-gnu (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.rustup/settings.toml (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libstd-8389830094602f5a.so (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/lldb_commands (modified/added)
-rustup-sandbox//upperdir/home/ubuntu/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/gdb_lookup.py (modified/added)
+```nix
+{
+  inputs.try.url = "github:tobi/try";
+  
+  imports = [ inputs.try.homeManagerModules.default ];
+  
+  programs.try = {
+    enable = true;
+    path = "~/experiments";  # optional, defaults to ~/src/tries
+  };
+}
 ```
 
-You can also choose to commit the overlay directory contents:
+## Homebrew
 
-```ShellSession
-$ try commit rustup-sandbox
+### Quick start
+
+```bash
+brew tap tobi/try https://github.com/tobi/try
+brew install try
 ```
 
-## Known Issues
-Any command that interacts with other users/groups will fail since only the
-current user's UID/GID are mapped. However, the [future
-branch](https://github.com/binpash/try/tree/future) has support for uid/mapping;
-please refer to the that branch's readme for installation instructions for the
-uid/gidmapper.
+After installation, add to your shell:
 
-Please also report any issue you run into while using the future branch!
+- Bash/Zsh:
 
-## Version History
+  ```bash
+  # default is ~/src/tries
+  eval "$(try init)"
+  # or pick a path
+  eval "$(try init ~/src/tries)"
+  ```
 
-* 0.1.0 - 2023-06-25
-    * Initial release.
+- Fish:
+
+  ```fish
+  eval "(try init | string collect)"
+  # or pick a path
+  eval "(try init ~/src/tries | string collect)"
+  ```
+
+## Why Ruby?
+
+- One file, no dependencies
+- Works on any system with Ruby (macOS has it built-in)
+- Fast enough for thousands of directories
+- Easy to hack on
+
+## The Philosophy
+
+Your brain doesn't work in neat folders. You have ideas, you try things, you context-switch like a caffeinated squirrel. This tool embraces that.
+
+Every experiment gets a home. Every home is instantly findable. Your 2am coding sessions are no longer lost to the void.
+
+## FAQ
+
+**Q: Why not just use `cd` and `ls`?**
+A: Because you have 200 directories and can't remember if you called it `test-redis`, `redis-test`, or `new-redis-thing`.
+
+**Q: Why not use `fzf`?**
+A: fzf is great for files. This is specifically for project directories, with time-awareness and auto-creation built in.
+
+**Q: Can I use this for real projects?**
+A: You can, but it's designed for experiments. Real projects deserve real names in real locations.
+
+**Q: What if I have thousands of experiments?**
+A: First, welcome to the club. Second, it handles it fine - the scoring algorithm ensures relevant stuff stays on top.
+
+## Contributing
+
+It's one file. If you want to change something, just edit it. Send a PR if you think others would like it too.
 
 ## License
 
-This project is licensed under the MIT License - see LICENSE for details.
+MIT - Do whatever you want with it.
 
-Copyright (c) 2023 The PaSh Authors.
+---
+
+*Built for developers with ADHD by developers with ADHD.*
+
+*Your experiments deserve a home.* 🏠

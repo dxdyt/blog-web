@@ -1,9 +1,9 @@
 ---
 title: langextract
-date: 2026-01-18T12:41:37+08:00
+date: 2026-01-19T12:51:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767310692117-46708ff1970a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3MTEyNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767310692117-46708ff1970a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3MTEyNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767193315637-0594a9156948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767193315637-0594a9156948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
 ---
 
 # [google/langextract](https://github.com/google/langextract)

@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-12-30T12:38:54+08:00
+date: 2026-01-19T12:52:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767053624567-f9078bcd7fb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767053624567-f9078bcd7fb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -63,21 +63,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5
   - <ins>**`Install Service`** - установка любой стратегии в автозапуск (services.msc)</ins>
   - **`Remove Services`** - удаление стратегии и WinDivert из служб
   - **`Check Status`** - проверка статуса обхода и служб (стратегии на автозапуске и WinDivert)
-  - **`Run Diagnostics`** - диагностика на распространённые причины, по которым zapret может не работать.  
-  В конце можно очистить кэш <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=11 /> `Discord`, что может помочь, если он неожиданно перестал работать
-  - **`Check Updates`** - проверка на обновления
-  - **`Switch Check Updates`** - Вкл/Выкл автоматическую проверку на обновления
-  - **`Switch Game Filter`** - переключение режима обхода для игр (и других сервисов, использующих UDP и TCP на портах выше 1023).  
+  - **`Game Filter`** - переключение режима обхода для игр (и других сервисов, использующих UDP и TCP на портах выше 1023).  
   **После переключения требуется перезапуск стратегии.**  
   В скобках указан текущий статус (включено/выключено).
-  - **`Switch ipset`** - переключение режима обхода сервисов из `ipset-all.txt`.  
+  - **`IPSet Filter`** - переключение режима обхода сервисов из `ipset-all.txt`.  
   Полезно при тестировании, если не работает ресурс, который без zapret работает  
   В скобках указан текущий статус:
     - `none` - никакие айпи не попадают под проверку
     - `loaded` - айпи проверяется на вхождение в список
     - `any` - любой айпи попадает под фильтр  
-  - **`Update ipset list`** - обновление списка `ipset-all.txt` актуальным из репозитория
-  - **`Update hosts file`** - обновление файла hosts <ins>**для починки подключения к голосовому чату Discord**</ins>
+  - **`Auto-Update Check`** - Вкл/Выкл автоматическую проверку на обновления
+  - **`Update IPSet List`** - обновление списка `ipset-all.txt` актуальным из репозитория
+  - **`Update Hosts File`** - обновление файла hosts <ins>**для починки подключения к голосовому чату Discord**</ins>
+  - **`Check for Updates`** - проверка на обновления
+  - **`Run Diagnostics`** - диагностика на распространённые причины, по которым zapret может не работать.  
+  В конце можно очистить кэш <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=11 /> `Discord`, что может помочь, если он неожиданно перестал работать
   - **`Run Tests`** - запуск утилиты для проверки стратегий на работоспособность:
     - `Standard tests` - проверка сайтов из `utils/targets.txt`
     - `DPI checkers` - проверка DPI на различных провайдерах (Cloudflare, Amazon и др.)
@@ -91,8 +91,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5
 Если этого не произошло, то см. [#522](https://github.com/Flowseal/zapret-discord-youtube/issues/522)
 
 ### Бесконечное "подключение" к голосовому чату Discord
-Запустите **`service.bat`**, выберите пункт **`Update hosts file (for discord voice)`**. После чего, если ваш hosts будет неактуальным, то Вам будет предложено обновить его самостоятельно:  
-  - Cкопируйте весь текст из открывшегося блокнота
+Запустите **`service.bat`**, выберите пункт **`Update hosts file`**. После чего, если ваш hosts будет неактуальным, то Вам будет предложено обновить его самостоятельно:  
+  - Скопируйте весь текст из открывшегося блокнота
   - Откройте файл `hosts` в появившейся папке с помощью текстового редактора
   - Добавьте в конец файла `hosts` то, что скопировали (или замените, если до этого Вы уже добавляли подобное)
   - Сохраните и перепроверьте подключение. Если не работает - убедитесь, что файл `hosts` действительно сохранился.
@@ -115,7 +115,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5
 
 - См. [#765](https://github.com/Flowseal/zapret-discord-youtube/issues/765)
 
-### Как переустновить/обновить полностью?
+### Как переустановить/обновить полностью?
 - Сохраните ресурсы/данные, которые вы сами добавляли
 - Перезапустите устройство
 - `service.bat` -> `Remove Services`
@@ -129,7 +129,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1765873360299-f49fb1f9c5
 
 ### Не работает игра/приложение с включённым запретом
 
-- Проверьте, что в service.bat `Game Filter` **`disabled`**, а `ipset` **`empty`**. Иначе это может затронуть доступность ресурсов, которых вы не ожидали.
+- Проверьте, что в service.bat `Game Filter` **`disabled`**, а `IPSet Filter` **`none`**. Иначе это может затронуть доступность ресурсов, которых вы не ожидали.
 
 ### Античит ругается на WinDivert
 
