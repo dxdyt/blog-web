@@ -1,9 +1,9 @@
 ---
 title: blender-mcp
-date: 2025-09-11T12:22:17+08:00
+date: 2026-01-20T12:44:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768488314310-3742b3c75579?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg4ODQyNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768488314310-3742b3c75579?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg4ODQyNDh8&ixlib=rb-4.1.0
 ---
 
 # [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
@@ -24,41 +24,29 @@ Give feedback, get inspired, and build on top of the MCP: [Discord](https://disc
 
 ### Supporters
 
-<div align="center" markdown="1">
-   <sup>Special thanks to:</sup>
-   <br>
-   <br>
-   <a href="https://www.warp.dev/blender-mcp">
-      <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/c21102f7-bab9-4344-a731-0cf6b341cab2">
-   </a>
-
-### [Warp, the intelligent terminal for developers](https://www.warp.dev/blender-mcp)
-[Available for MacOS, Linux, & Windows](https://www.warp.dev/blender-mcp)<br>
-
-</div>
-<hr>
-
-**Other supporters:**
-
 [CodeRabbit](https://www.coderabbit.ai/)
-
-[Satish Goda](https://github.com/satishgoda)
 
 **All supporters:**
 
 [Support this project](https://github.com/sponsors/ahujasid)
 
-## Release notes (1.2.0)
-- View screenshots for Blender viewport to better understand the scene
-- Search and download Sketchfab models
+## Release notes (1.4.0)
+- Added Hunyuan3D support
 
 
 ### Previously added features:
+- View screenshots for Blender viewport to better understand the scene
+- Search and download Sketchfab models
 - Support for Poly Haven assets through their API
 - Support to generate 3D models using Hyper3D Rodin
+- Run Blender MCP on a remote host
+- Telemetry for tools executed (completely anonymous)
+
+### Installating a new version (existing users)
 - For newcomers, you can go straight to Installation. For existing users, see the points below
 - Download the latest addon.py file and replace the older one, then add it to Blender
 - Delete the MCP server from Claude and add it back again, and you should be good to go!
+
 
 ## Features
 
@@ -89,12 +77,14 @@ The system consists of two main components:
 brew install uv
 ```
 **On Windows**
-```bash
+```powershell
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex" 
 ```
-and then
-```bash
-set Path=C:\Users\nntra\.local\bin;%Path%
+and then add uv to the user path in Windows (you may need to restart Claude Desktop after):
+```powershell
+$localBin = "$env:USERPROFILE\.local\bin"
+$userPath = [Environment]::GetEnvironmentVariable("Path", "User")
+[Environment]::SetEnvironmentVariable("Path", "$userPath;$localBin", "User")
 ```
 
 Otherwise installation instructions are on their website: [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
@@ -132,6 +122,15 @@ Go to Claude > Settings > Developer > Edit Config > claude_desktop_config.json t
     }
 }
 ```
+<details>
+<summary>Claude Code</summary>
+
+Use the Claude Code CLI to add the blender MCP server:
+
+```bash
+claude mcp add blender uvx blender-mcp
+```
+</details>
 
 ### Cursor integration
 

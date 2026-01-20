@@ -1,9 +1,9 @@
 ---
 title: VoxCPM
-date: 2026-01-19T12:52:06+08:00
+date: 2026-01-20T12:44:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766360507587-eb05b08fcc05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766360507587-eb05b08fcc05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768470039304-25fbe6691565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg4ODQyNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768470039304-25fbe6691565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg4ODQyNDh8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
