@@ -1,9 +1,9 @@
 ---
 title: try
-date: 2026-01-19T12:52:26+08:00
+date: 2026-01-21T12:44:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766425597308-2cea2422283c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766425597308-2cea2422283c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765790859163-53e82c11775a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg5NzA1OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765790859163-53e82c11775a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg5NzA1OTh8&ixlib=rb-4.1.0
 ---
 
 # [tobi/try](https://github.com/tobi/try)
