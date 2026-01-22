@@ -1,9 +1,9 @@
 ---
 title: grok-1
-date: 2024-05-30T12:21:58+08:00
+date: 2026-01-22T12:48:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1767091032259-c9f175df0b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767091032259-c9f175df0b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
 ---
 
 # [xai-org/grok-1](https://github.com/xai-org/grok-1)
