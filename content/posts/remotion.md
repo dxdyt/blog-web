@@ -1,9 +1,9 @@
 ---
 title: remotion
-date: 2026-01-23T12:41:50+08:00
+date: 2026-01-24T12:34:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763902426504-f8d1176fcdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNDMzMDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763902426504-f8d1176fcdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNDMzMDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767464952673-ecab55254859?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767464952673-ecab55254859?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
 ---
 
 # [remotion-dev/remotion](https://github.com/remotion-dev/remotion)

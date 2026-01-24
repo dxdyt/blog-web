@@ -1,212 +1,306 @@
 ---
 title: browser-use
-date: 2025-04-05T12:20:58+08:00
+date: 2026-01-24T12:35:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1765742653559-8662cd11b2a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765742653559-8662cd11b2a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./static/browser-use-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./static/browser-use.png">
-  <img alt="Shows a black Browser Use Logo in light color mode and a white one in dark color mode." src="./static/browser-use.png"  width="full">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/2ccdb752-22fb-41c7-8948-857fc1ad7e24"">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/774a46d5-27a0-490c-b7d0-e65fcbbfa358">
+  <img alt="Shows a black Browser Use Logo in light color mode and a white one in dark color mode." src="https://github.com/user-attachments/assets/2ccdb752-22fb-41c7-8948-857fc1ad7e24"  width="full">
 </picture>
 
-<h1 align="center">Enable AI to control your browser 🤖</h1>
+<div align="center">
+    <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/9955dda9-ede3-4971-8ee0-91cbc3850125"">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/6797d09b-8ac3-4cb9-ba07-b289e080765a">
+    <img alt="The AI browser agent." src="https://github.com/user-attachments/assets/9955dda9-ede3-4971-8ee0-91cbc3850125"  width="400">
+    </picture>
+</div>
 
-[![GitHub stars](https://img.shields.io/github/stars/gregpr07/browser-use?style=social)](https://github.com/gregpr07/browser-use/stargazers)
-[![Discord](https://img.shields.io/discord/1303749220842340412?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://link.browser-use.com/discord)
-[![Cloud](https://img.shields.io/badge/Cloud-☁️-blue)](https://cloud.browser-use.com)
-[![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.browser-use.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/gregpr07)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/mamagnus00)
-[![Weave Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.workweave.ai%2Fapi%2Frepository%2Fbadge%2Forg_T5Pvn3UBswTHIsN1dWS3voPg%2F881458615&labelColor=#EC6341)](https://app.workweave.ai/reports/repository/org_T5Pvn3UBswTHIsN1dWS3voPg/881458615)
-
-🌐 Browser-use is the easiest way to connect your AI agents with the browser.
-
-💡 See what others are building and share your projects in our [Discord](https://link.browser-use.com/discord)! Want Swag? Check out our [Merch store](https://browsermerch.com).
-
-🌤️ Skip the setup - try our <b>hosted version</b> for instant browser automation! <b>[Try the cloud ☁︎](https://cloud.browser-use.com)</b>.
-
-# Quick start
-
-With pip (Python>=3.11):
-
-```bash
-pip install browser-use
-```
-
-Install Playwright:
-```bash
-playwright install chromium
-```
-
-Spin up your agent:
-
-```python
-from langchain_openai import ChatOpenAI
-from browser_use import Agent
-import asyncio
-from dotenv import load_dotenv
-load_dotenv()
-
-async def main():
-    agent = Agent(
-        task="Compare the price of gpt-4o and DeepSeek-V3",
-        llm=ChatOpenAI(model="gpt-4o"),
-    )
-    await agent.run()
-
-asyncio.run(main())
-```
-
-Add your API keys for the provider you want to use to your `.env` file.
-
-```bash
-OPENAI_API_KEY=
-ANTHROPIC_API_KEY=
-AZURE_ENDPOINT=
-AZURE_OPENAI_API_KEY=
-GEMINI_API_KEY=
-DEEPSEEK_API_KEY=
-```
-
-For other settings, models, and more, check out the [documentation 📕](https://docs.browser-use.com).
-
-### Test with UI
-
-You can test [browser-use with a UI repository](https://github.com/browser-use/web-ui)
-
-Or simply run the gradio example:
-
-```
-uv pip install gradio
-```
-
-```bash
-python examples/ui/gradio_demo.py
-```
-
-# Demos
-
-<br/><br/>
-
-[Task](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/shopping.py): Add grocery items to cart, and checkout.
-
-[![AI Did My Groceries](https://github.com/user-attachments/assets/d9359085-bde6-41d4-aa4e-6520d0221872)](https://www.youtube.com/watch?v=L2Ya9PYNns8)
-
-<br/><br/>
-
-Prompt: Add my latest LinkedIn follower to my leads in Salesforce.
-
-![LinkedIn to Salesforce](https://github.com/user-attachments/assets/1440affc-a552-442e-b702-d0d3b277b0ae)
-
-<br/><br/>
-
-[Prompt](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/find_and_apply_to_jobs.py): Read my CV & find ML jobs, save them to a file, and then start applying for them in new tabs, if you need help, ask me.'
-
-https://github.com/user-attachments/assets/171fb4d6-0355-46f2-863e-edb04a828d04
-
-<br/><br/>
-
-[Prompt](https://github.com/browser-use/browser-use/blob/main/examples/browser/real_browser.py): Write a letter in Google Docs to my Papa, thanking him for everything, and save the document as a PDF.
-
-![Letter to Papa](https://github.com/user-attachments/assets/242ade3e-15bc-41c2-988f-cbc5415a66aa)
-
-<br/><br/>
-
-[Prompt](https://github.com/browser-use/browser-use/blob/main/examples/custom-functions/save_to_file_hugging_face.py): Look up models with a license of cc-by-sa-4.0 and sort by most likes on Hugging face, save top 5 to file.
-
-https://github.com/user-attachments/assets/de73ee39-432c-4b97-b4e8-939fd7f323b3
-
-<br/><br/>
-
-## More examples
-
-For more examples see the [examples](examples) folder or join the [Discord](https://link.browser-use.com/discord) and show off your project.
-
-# Vision
-
-Tell your computer what to do, and it gets it done.
-
-## Roadmap
-
-### Agent
-
-- [ ] Improve agent memory (summarize, compress, RAG, etc.)
-- [ ] Enhance planning capabilities (load website specific context)
-- [ ] Reduce token consumption (system prompt, DOM state)
-
-### DOM Extraction
-
-- [ ] Improve extraction for datepickers, dropdowns, special elements
-- [ ] Improve state representation for UI elements
-
-### Rerunning tasks
-
-- [ ] LLM as fallback
-- [ ] Make it easy to define workflow templates where LLM fills in the details
-- [ ] Return playwright script from the agent
-
-### Datasets
-
-- [ ] Create datasets for complex tasks
-- [ ] Benchmark various models against each other
-- [ ] Fine-tuning models for specific tasks
-
-### User Experience
-
-- [ ] Human-in-the-loop execution
-- [ ] Improve the generated GIF quality
-- [ ] Create various demos for tutorial execution, job application, QA testing, social media, etc.
-
-## Contributing
-
-We love contributions! Feel free to open issues for bugs or feature requests. To contribute to the docs, check out the `/docs` folder.
-
-## Local Setup
-
-To learn more about the library, check out the [local setup 📕](https://docs.browser-use.com/development/local-setup).
-
-
-`main` is the primary development branch with frequent changes. For production use, install a stable [versioned release](https://github.com/browser-use/browser-use/releases) instead.
+<div align="center">
+<a href="https://cloud.browser-use.com"><img src="https://media.browser-use.tools/badges/package" height="48" alt="Browser-Use Package Download Statistics"></a>
+</div>
 
 ---
 
-## Cooperations
+<div align="center">
+<a href="#demos"><img src="https://media.browser-use.tools/badges/demos" alt="Demos"></a>
+<img width="16" height="1" alt="">
+<a href="https://docs.browser-use.com"><img src="https://media.browser-use.tools/badges/docs" alt="Docs"></a>
+<img width="16" height="1" alt="">
+<a href="https://browser-use.com/posts"><img src="https://media.browser-use.tools/badges/blog" alt="Blog"></a>
+<img width="16" height="1" alt="">
+<a href="https://browsermerch.com"><img src="https://media.browser-use.tools/badges/merch" alt="Merch"></a>
+<img width="100" height="1" alt="">
+<a href="https://github.com/browser-use/browser-use"><img src="https://media.browser-use.tools/badges/github" alt="Github Stars"></a>
+<img width="4" height="1" alt="">
+<a href="https://x.com/intent/user?screen_name=browser_use"><img src="https://media.browser-use.tools/badges/twitter" alt="Twitter"></a>
+<img width="4 height="1" alt="">
+<a href="https://link.browser-use.com/discord"><img src="https://media.browser-use.tools/badges/discord" alt="Discord"></a>
+<img width="4" height="1" alt="">
+<a href="https://cloud.browser-use.com"><img src="https://media.browser-use.tools/badges/cloud" height="48" alt="Browser-Use Cloud"></a>
+</div>
 
-We are forming a commission to define best practices for UI/UX design for browser agents.
-Together, we're exploring how software redesign improves the performance of AI agents and gives these companies a competitive advantage by designing their existing software to be at the forefront of the agent age.
+</br>
 
-Email [Toby](mailto:tbiddle@loop11.com?subject=I%20want%20to%20join%20the%20UI/UX%20commission%20for%20AI%20agents&body=Hi%20Toby%2C%0A%0AI%20found%20you%20in%20the%20browser-use%20GitHub%20README.%0A%0A) to apply for a seat on the committee.
+🌤️ Want to skip the setup? Use our <b>[cloud](https://cloud.browser-use.com)</b> for faster, scalable, stealth-enabled browser automation!
 
-## Swag
+# 🤖 LLM Quickstart
 
-Want to show off your Browser-use swag? Check out our [Merch store](https://browsermerch.com). Good contributors will receive swag for free 👀.
+1. Direct your favorite coding agent (Cursor, Claude Code, etc) to [Agents.md](https://docs.browser-use.com/llms-full.txt)
+2. Prompt away!
 
-## Citation
+<br/>
 
-If you use Browser Use in your research or project, please cite:
+# 👋 Human Quickstart
 
-```bibtex
-@software{browser_use2024,
-  author = {Müller, Magnus and Žunič, Gregor},
-  title = {Browser Use: Enable AI to control your browser},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/browser-use/browser-use}
-}
+**1. Create environment with [uv](https://docs.astral.sh/uv/) (Python>=3.11):**
+```bash
+uv init
 ```
 
- <div align="center"> <img src="https://github.com/user-attachments/assets/06fa3078-8461-4560-b434-445510c1766f" width="400"/> 
- 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/gregpr07)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/mamagnus00)
- 
- </div>
+**2. Install Browser-Use package:**
+```bash
+#  We ship every day - use the latest version!
+uv add browser-use
+uv sync
+```
+
+**3. Get your API key from [Browser Use Cloud](https://cloud.browser-use.com/new-api-key) and add it to your `.env` file (new signups get $10 free credits):**
+```
+# .env
+BROWSER_USE_API_KEY=your-key
+```
+
+**4. Install Chromium browser:**
+```bash
+uvx browser-use install
+```
+
+**5. Run your first agent:**
+```python
+from browser_use import Agent, Browser, ChatBrowserUse
+import asyncio
+
+async def example():
+    browser = Browser(
+        # use_cloud=True,  # Uncomment to use a stealth browser on Browser Use Cloud
+    )
+
+    llm = ChatBrowserUse()
+
+    agent = Agent(
+        task="Find the number of stars of the browser-use repo",
+        llm=llm,
+        browser=browser,
+    )
+
+    history = await agent.run()
+    return history
+
+if __name__ == "__main__":
+    history = asyncio.run(example())
+```
+
+Check out the [library docs](https://docs.browser-use.com) and the [cloud docs](https://docs.cloud.browser-use.com) for more!
+
+<br/>
+
+# 🔥 Deploy on Sandboxes
+
+We handle agents, browsers, persistence, auth, cookies, and LLMs. The agent runs right next to the browser for minimal latency.
+
+```python
+from browser_use import Browser, sandbox, ChatBrowserUse
+from browser_use.agent.service import Agent
+import asyncio
+
+@sandbox()
+async def my_task(browser: Browser):
+    agent = Agent(task="Find the top HN post", browser=browser, llm=ChatBrowserUse())
+    await agent.run()
+
+# Just call it like any async function
+asyncio.run(my_task())
+```
+
+See [Going to Production](https://docs.browser-use.com/production) for more details.
+
+<br/>
+
+# 🚀 Template Quickstart
+
+**Want to get started even faster?** Generate a ready-to-run template:
+
+```bash
+uvx browser-use init --template default
+```
+
+This creates a `browser_use_default.py` file with a working example. Available templates:
+- `default` - Minimal setup to get started quickly
+- `advanced` - All configuration options with detailed comments
+- `tools` - Examples of custom tools and extending the agent
+
+You can also specify a custom output path:
+```bash
+uvx browser-use init --template default --output my_agent.py
+```
+
+<br/>
+
+# 💻 CLI
+
+Fast, persistent browser automation from the command line:
+
+```bash
+browser-use open https://example.com    # Navigate to URL
+browser-use state                       # See clickable elements
+browser-use click 5                     # Click element by index
+browser-use type "Hello"                # Type text
+browser-use screenshot page.png         # Take screenshot
+browser-use close                       # Close browser
+```
+
+The CLI keeps the browser running between commands for fast iteration. See [CLI docs](browser_use/skill_cli/README.md) for all commands.
+
+### Claude Code Skill
+
+For [Claude Code](https://claude.ai/code), install the skill to enable AI-assisted browser automation:
+
+```bash
+mkdir -p ~/.claude/skills/browser-use
+curl -o ~/.claude/skills/browser-use/SKILL.md \
+  https://raw.githubusercontent.com/browser-use/browser-use/main/skills/browser-use/SKILL.md
+```
+
+<br/>
+
+# Demos
+
+
+### 📋 Form-Filling
+#### Task = "Fill in this job application with my resume and information."
+![Job Application Demo](https://github.com/user-attachments/assets/57865ee6-6004-49d5-b2c2-6dff39ec2ba9)
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/apply_to_job.py)
+
+
+### 🍎 Grocery-Shopping
+#### Task = "Put this list of items into my instacart."
+
+https://github.com/user-attachments/assets/a6813fa7-4a7c-40a6-b4aa-382bf88b1850
+
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/buy_groceries.py)
+
+
+### 💻 Personal-Assistant.
+#### Task = "Help me find parts for a custom PC."
+
+https://github.com/user-attachments/assets/ac34f75c-057a-43ef-ad06-5b2c9d42bf06
+
+[Example code ↗](https://github.com/browser-use/browser-use/blob/main/examples/use-cases/pcpartpicker.py)
+
+
+### 💡See [more examples here ↗](https://docs.browser-use.com/examples) and give us a star!
+
+<br/>
+
+## Integrations, hosting, custom tools, MCP, and more on our [Docs ↗](https://docs.browser-use.com)
+
+<br/>
+
+# FAQ
+
+<details>
+<summary><b>What's the best model to use?</b></summary>
+
+We optimized **ChatBrowserUse()** specifically for browser automation tasks. On avg it completes tasks 3-5x faster than other models with SOTA accuracy.
+
+**Pricing (per 1M tokens):**
+- Input tokens: $0.20
+- Cached input tokens: $0.02
+- Output tokens: $2.00
+
+For other LLM providers, see our [supported models documentation](https://docs.browser-use.com/supported-models).
+</details>
+
+
+<details>
+<summary><b>Can I use custom tools with the agent?</b></summary>
+
+Yes! You can add custom tools to extend the agent's capabilities:
+
+```python
+from browser_use import Tools
+
+tools = Tools()
+
+@tools.action(description='Description of what this tool does.')
+def custom_tool(param: str) -> str:
+    return f"Result: {param}"
+
+agent = Agent(
+    task="Your task",
+    llm=llm,
+    browser=browser,
+    tools=tools,
+)
+```
+
+</details>
+
+<details>
+<summary><b>Can I use this for free?</b></summary>
+
+Yes! Browser-Use is open source and free to use. You only need to choose an LLM provider (like OpenAI, Google, ChatBrowserUse, or run local models with Ollama).
+</details>
+
+<details>
+<summary><b>How do I handle authentication?</b></summary>
+
+Check out our authentication examples:
+- [Using real browser profiles](https://github.com/browser-use/browser-use/blob/main/examples/browser/real_browser.py) - Reuse your existing Chrome profile with saved logins
+- If you want to use temporary accounts with inbox, choose AgentMail
+- To sync your auth profile with the remote browser, run `curl -fsSL https://browser-use.com/profile.sh | BROWSER_USE_API_KEY=XXXX sh` (replace XXXX with your API key)
+
+These examples show how to maintain sessions and handle authentication seamlessly.
+</details>
+
+<details>
+<summary><b>How do I solve CAPTCHAs?</b></summary>
+
+For CAPTCHA handling, you need better browser fingerprinting and proxies. Use [Browser Use Cloud](https://cloud.browser-use.com) which provides stealth browsers designed to avoid detection and CAPTCHA challenges.
+</details>
+
+<details>
+<summary><b>How do I go into production?</b></summary>
+
+Chrome can consume a lot of memory, and running many agents in parallel can be tricky to manage.
+
+For production use cases, use our [Browser Use Cloud API](https://cloud.browser-use.com) which handles:
+- Scalable browser infrastructure
+- Memory management
+- Proxy rotation
+- Stealth browser fingerprinting
+- High-performance parallel execution
+</details>
+
+<br/>
 
 <div align="center">
-Made with ❤️ in Zurich and San Francisco
- </div>
+
+**Tell your computer what to do, and it gets it done.**
+
+<img src="https://github.com/user-attachments/assets/06fa3078-8461-4560-b434-445510c1766f" width="400"/>
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/intent/user?screen_name=mamagnus00)
+&emsp;&emsp;&emsp;
+[![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/intent/user?screen_name=gregpr07)
+
+</div>
+
+<div align="center"> Made with ❤️ in Zurich and San Francisco </div>

@@ -1,9 +1,9 @@
 ---
 title: claude-code
-date: 2026-01-12T12:51:20+08:00
+date: 2026-01-24T12:35:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767893609750-904544ebb882?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767893609750-904544ebb882?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgxOTMzOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767464952673-ecab55254859?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767464952673-ecab55254859?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-code](https://github.com/anthropics/claude-code)
@@ -21,30 +21,37 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 <img src="./demo.gif" />
 
 ## Get started
+> [!NOTE]
+> Installation via npm is deprecated. Use one of the recommended methods below.
+
+For more installation options, uninstall steps, and troubleshooting, see the [setup documentation](https://code.claude.com/docs/en/setup).
 
 1. Install Claude Code:
 
-**MacOS/Linux:**
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
+    **MacOS/Linux (Recommended):**
+    ```bash
+    curl -fsSL https://claude.ai/install.sh | bash
+    ```
 
-**Homebrew (MacOS):**
-```bash
-brew install --cask claude-code
-```
+    **Homebrew (MacOS/Linux):**
+    ```bash
+    brew install --cask claude-code
+    ```
 
-**Windows:**
-```powershell
-irm https://claude.ai/install.ps1 | iex
-```
+    **Windows (Recommended):**
+    ```powershell
+    irm https://claude.ai/install.ps1 | iex
+    ```
 
-**NPM:**
-```bash
-npm install -g @anthropic-ai/claude-code
-```
+    **WinGet (Windows):**
+    ```powershell
+    winget install Anthropic.ClaudeCode
+    ```
 
-NOTE: If installing with NPM, you also need to install [Node.js 18+](https://nodejs.org/en/download/)
+    **NPM (Deprecated):**
+    ```bash
+    npm install -g @anthropic-ai/claude-code
+    ```
 
 2. Navigate to your project directory and run `claude`.
 
