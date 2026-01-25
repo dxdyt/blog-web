@@ -1,9 +1,9 @@
 ---
 title: FinRobot
-date: 2024-05-31T12:20:35+08:00
+date: 2026-01-25T12:53:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715586042534-4534fad6863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715586042534-4534fad6863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot)
@@ -12,12 +12,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1715586042534-4534fad686
 <img align="center" width="30%" alt="image" src="https://github.com/AI4Finance-Foundation/FinGPT/assets/31713746/e0371951-1ce1-488e-aa25-0992dafcc139">
 </div>
 
-# FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models
+# FinRobot: An Open-Source AI Agent Platform for Financial Analysis using Large Language Models
 [![Downloads](https://static.pepy.tech/badge/finrobot)]([https://pepy.tech/project/finrobot](https://pepy.tech/project/finrobot))
 [![Downloads](https://static.pepy.tech/badge/finrobot/week)](https://pepy.tech/project/finrobot)
+[![Join Discord](https://img.shields.io/badge/Discord-Join-blue)](https://discord.gg/trsr8SXpW5)
 [![Python 3.8](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI](https://img.shields.io/pypi/v/finrobot.svg)](https://pypi.org/project/finrobot/)
 ![License](https://img.shields.io/github/license/AI4Finance-Foundation/finrobot.svg?color=brightgreen)
+![](https://img.shields.io/github/issues-raw/AI4Finance-Foundation/finrobot?label=Issues)
+![](https://img.shields.io/github/issues-closed-raw/AI4Finance-Foundation/finrobot?label=Closed+Issues)
+![](https://img.shields.io/github/issues-pr-raw/AI4Finance-Foundation/finrobot?label=Open+PRs)
+![](https://img.shields.io/github/issues-pr-closed-raw/AI4Finance-Foundation/finrobot?label=Closed+PRs)
+
 
 <div align="center">
 <img align="center" src=figs/logo_white_background.jpg width="40%"/>
@@ -30,6 +36,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1715586042534-4534fad686
 [Whitepaper of FinRobot](https://arxiv.org/abs/2405.14767)
 
 [![](https://dcbadge.vercel.app/api/server/trsr8SXpW5)](https://discord.gg/trsr8SXpW5)
+
+
+![Visitors](https://api.visitorbadge.io/api/VisitorHit?user=AI4Finance-Foundation&repo=FinRobot&countColor=%23B17A)
+[![](https://dcbadge.limes.pink/api/server/trsr8SXpW5?cb=1)](https://discord.gg/trsr8SXpW5)
+
+## FinRobot Pro — An AI Powered Equity Research Platform: https://finrobot.ai/
+
+<div align="center">
+<img align="center" src="https://github.com/user-attachments/assets/de3b9f9c-50aa-49f0-82c6-3d2b938f4670" width="90%"/>
+</div>
+
+## What is FinRobot Pro?
+
+[FinRobot Pro](https://finrobot.ai/ ) is an AI-powered equity research platform that automates professional stock analysis using Large Language Models (LLMs) and AI Agents.
+
+**Key Features:**
+
+- **Automated Report Generation** – Generate professional equity research reports instantly
+- **Financial Analysis** – Deep dive into income statements, balance sheets, and cash flows
+- **Valuation Analysis** – P/E ratio, EV/EBITDA multiples, and peer comparison
+- **Risk Assessment** – Comprehensive investment risk evaluation
+
 
 ## FinRobot Ecosystem
 <div align="center">
@@ -296,22 +324,47 @@ assistant.chat(message, use_cache=True, max_turns=50,
 
 
 ## AI Agent Open-Source Framework & Tool
-+ [AutoGPT (161k stars)](https://github.com/Significant-Gravitas/AutoGPT) is a tool for everyone to use, aiming to democratize AI, making it accessible for everyone to use and build upon.
-+ [LangChain (82.7k stars)](https://github.com/langchain-ai/langchain) is a framework for developing context-aware applications powered by language models, enabling them to connect to sources of context and rely on the model's reasoning capabilities for responses and actions.
-+ [MetaGPT (39.1k stars)](https://github.com/geekan/MetaGPT) is a multi-agent open-source framework that assigns different roles to GPTs, forming a collaborative software entity to execute complex tasks.
-+ [AutoGen (24.8k stars)](https://github.com/microsoft/autogen) is a framework for developing LLM applications with conversational agents that collaborate to solve tasks. These agents are customizable, support human interaction, and operate in modes combining LLMs, human inputs, and tools.
-+ [dify (22.7k stars)](https://github.com/langgenius/dify) is an LLM application development platform. It integrates the concepts of Backend as a Service and LLMOps, covering the core tech stack required for building generative AI-native applications, including a built-in RAG engine
-+ [ChatDev (22.7k stars)](https://github.com/OpenBMB/ChatDev) is a framework that focuses on developing conversational AI Agents capable of dialogue and question-answering. It provides a range of pre-trained models and interactive interfaces, facilitating the development of customized chat Agents for users.
-+ [BabyAGI (19.2k stars)](https://github.com/yoheinakajima/babyagi) is an AI-powered task management system, dedicated to building AI Agents with preliminary general intelligence. 
-+ [SuperAGI (14.4k stars)](https://github.com/TransformerOptimus/SuperAGI) is a dev-first open-source autonomous AI agent framework enabling developers to build, manage & run useful autonomous agents.
-+ [FastGPT (12.5k stars)](https://github.com/labring/FastGPT) is a knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization.
-+ [CrewAI (12.1k stars)](https://github.com/joaomdmoura/crewAI) is a framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-+ [XAgent (7.5k stars)](https://github.com/OpenBMB/XAgent) is an open-source experimental Large Language Model (LLM) driven autonomous agent that can automatically solve various tasks.
-+ [Bisheng (5.5k stars)](https://github.com/dataelement/bisheng) is a leading open-source platform for developing LLM applications.
-+ [Voyager (5.1k stars)](https://github.com/OpenBMB/XAgent) An Open-Ended Embodied Agent with Large Language Models.
-+ [CAMEL (4.4k stars)](https://github.com/camel-ai/camel) is a framework that offers a comprehensive set of tools and algorithms for building multimodal AI Agents, enabling them to handle various data forms such as text, images, and speech.
-+ [Langfuse (2.9k stars)](https://github.com/langfuse/langfuse) is a language fusion framework that can integrate the language abilities of multiple AI Agents, enabling them to simultaneously possess multilingual understanding and generation capabilities.
++ [AutoGPT (163k stars)](https://github.com/Significant-Gravitas/AutoGPT) is a tool for everyone to use, aiming to democratize AI, making it accessible for everyone to use and build upon.
++ [LangChain (87.4k stars)](https://github.com/langchain-ai/langchain) is a framework for developing context-aware applications powered by language models, enabling them to connect to sources of context and rely on the model's reasoning capabilities for responses and actions.
++ [MetaGPT (41k stars)](https://github.com/geekan/MetaGPT) is a multi-agent open-source framework that assigns different roles to GPTs, forming a collaborative software entity to execute complex tasks.
++ [dify (34.1.7k stars)](https://github.com/langgenius/dify) is an LLM application development platform. It integrates the concepts of Backend as a Service and LLMOps, covering the core tech stack required for building generative AI-native applications, including a built-in RAG engine
++ [AutoGen (27.4k stars)](https://github.com/microsoft/autogen) is a framework for developing LLM applications with conversational agents that collaborate to solve tasks. These agents are customizable, support human interaction, and operate in modes combining LLMs, human inputs, and tools.
++ [ChatDev (24.1k stars)](https://github.com/OpenBMB/ChatDev) is a framework that focuses on developing conversational AI Agents capable of dialogue and question-answering. It provides a range of pre-trained models and interactive interfaces, facilitating the development of customized chat Agents for users.
++ [BabyAGI (19.5k stars)](https://github.com/yoheinakajima/babyagi) is an AI-powered task management system, dedicated to building AI Agents with preliminary general intelligence.
++ [CrewAI (16k stars)](https://github.com/joaomdmoura/crewAI) is a framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
++ [SuperAGI (14.8k stars)](https://github.com/TransformerOptimus/SuperAGI) is a dev-first open-source autonomous AI agent framework enabling developers to build, manage & run useful autonomous agents.
++ [FastGPT (14.6k stars)](https://github.com/labring/FastGPT) is a knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization.
++ [XAgent (7.8k stars)](https://github.com/OpenBMB/XAgent) is an open-source experimental Large Language Model (LLM) driven autonomous agent that can automatically solve various tasks.
++ [Bisheng (7.8k stars)](https://github.com/dataelement/bisheng) is a leading open-source platform for developing LLM applications.
++ [Voyager (5.3k stars)](https://github.com/OpenBMB/XAgent) An Open-Ended Embodied Agent with Large Language Models.
++ [CAMEL (4.7k stars)](https://github.com/camel-ai/camel) is a framework that offers a comprehensive set of tools and algorithms for building multimodal AI Agents, enabling them to handle various data forms such as text, images, and speech.
++ [Langfuse (4.3k stars)](https://github.com/langfuse/langfuse) is a language fusion framework that can integrate the language abilities of multiple AI Agents, enabling them to simultaneously possess multilingual understanding and generation capabilities.
 
+## Citing FinRobot
+```
+@inproceedings{
+zhou2024finrobot,
+title={FinRobot: {AI} Agent for Equity Research and Valuation with Large Language Models},
+author={Tianyu Zhou and Pinqiao Wang and Yilin Wu and Hongyang Yang},
+booktitle={ICAIF 2024: The 1st Workshop on Large Language Models and Generative AI for Finance},
+year={2024}
+}
+
+@article{yang2024finrobot,
+  title={FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models},
+  author={Yang, Hongyang and Zhang, Boyu and Wang, Neng and Guo, Cheng and Zhang, Xiaoli and Lin, Likun and Wang, Junlin and Zhou, Tianyu and Guan, Mao and Zhang, Runjia and others},
+  journal={arXiv preprint arXiv:2405.14767},
+  year={2024}
+}
+
+@inproceedings{han2024enhancing,
+  title={Enhancing Investment Analysis: Optimizing AI-Agent Collaboration in Financial Research},
+  author={Han, Xuewen and Wang, Neng and Che, Shangkun and Yang, Hongyang and Zhang, Kunpeng and Xu, Sean Xin},
+  booktitle={ICAIF 2024: Proceedings of the 5th ACM International Conference on AI in Finance},
+  pages={538--546},
+  year={2024}
+}
+```
 **Disclaimer**: The codes and documents provided herein are released under the Apache-2.0 license. They should not be construed as financial counsel or recommendations for live trading. It is imperative to exercise caution and consult with qualified financial professionals prior to any trading or investment actions.
 
 

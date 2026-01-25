@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2026-01-24T12:35:18+08:00
+date: 2026-01-25T12:52:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765742653559-8662cd11b2a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765742653559-8662cd11b2a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)

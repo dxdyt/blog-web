@@ -1,9 +1,9 @@
 ---
 title: UltraRAG
-date: 2026-01-24T12:36:10+08:00
+date: 2026-01-25T12:52:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764418658650-73b7abef4cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764418658650-73b7abef4cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766546407207-4b2a236edda6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766546407207-4b2a236edda6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG)
@@ -265,6 +265,7 @@ If you find this repository helpful for your research, please consider giving us
 
 - For technical issues and feature requests, please use [GitHub Issues](https://github.com/OpenBMB/UltraRAG/issues).
 - For questions about usage, feedback, or any discussions related to RAG technologies, you are welcome to join our [WeChat group](https://github.com/OpenBMB/UltraRAG/blob/main/docs/wechat_qr.png), [Feishu group](https://github.com/OpenBMB/UltraRAG/blob/main/docs/feishu_qr.png), and [Discord](https://discord.gg/yRFFjjJnnS) to exchange ideas with us.
+- If you have any questions, feedback, or would like to get in touch, please feel free to reach out to us via email at yanyk.thu@gmail.com
 
 <table>
   <tr>

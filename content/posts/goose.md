@@ -1,9 +1,9 @@
 ---
 title: goose
-date: 2026-01-24T12:35:02+08:00
+date: 2026-01-25T12:52:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764418658650-73b7abef4cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764418658650-73b7abef4cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [block/goose](https://github.com/block/goose)

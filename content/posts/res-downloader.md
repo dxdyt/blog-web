@@ -1,9 +1,9 @@
 ---
 title: res-downloader
-date: 2025-07-10T12:32:10+08:00
+date: 2026-01-25T12:53:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [putyy/res-downloader](https://github.com/putyy/res-downloader)
@@ -41,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1750757822527-b5adab7136
 - 📘 [在线文档](https://res.putyy.com/)
 - 💬 [加入交流群](https://www.putyy.com/app/admin/upload/img/20250418/6801d9554dc7.webp)
 - 🧩 [最新版](https://github.com/putyy/res-downloader/releases) ｜ [Mini版 使用默认浏览器展示UI](https://github.com/putyy/resd-mini) ｜ [Electron旧版 支持Win7](https://github.com/putyy/res-downloader/tree/old)
-  > *群满时可加微信 `AmorousWorld`，请备注“来源”*
+  > *群满时可加微信 `AmorousWorld`，请备注“github”*
 
 ## 🧩 下载地址
 

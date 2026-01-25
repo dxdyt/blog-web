@@ -1,9 +1,9 @@
 ---
 title: PageIndex
-date: 2026-01-22T12:48:23+08:00
+date: 2026-01-25T12:52:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767551726035-64844f5c4a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767551726035-64844f5c4a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768076644388-b42d2e7aea16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768076644388-b42d2e7aea16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
 ---
 
 # [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
@@ -249,7 +249,7 @@ Leave us a star 🌟 if you like our project. Thank you!
 
 ### Connect with Us
 
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/VectifyAI)&nbsp;
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PageIndexAI)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/vectify-ai/)&nbsp;
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/VuXuf29EUj)&nbsp;
 [![Contact Us](https://img.shields.io/badge/Contact_Us-3B82F6?style=for-the-badge&logo=envelope&logoColor=white)](https://ii2abc2jejf.typeform.com/to/tK3AXl8T)
