@@ -1,9 +1,9 @@
 ---
 title: VibeVoice
-date: 2026-01-25T12:52:54+08:00
+date: 2026-01-26T12:55:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
@@ -14,6 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1766678003099-9df6ac5f37
 [![Project Page](https://img.shields.io/badge/Project-Page-blue?logo=githubpages)](https://microsoft.github.io/VibeVoice)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
 [![TTS Report](https://img.shields.io/badge/TTS-Report-red?logo=arxiv)](https://arxiv.org/pdf/2508.19205)
+[![ASR Report](https://img.shields.io/badge/ASR-Report-yellow?logo=arxiv)](docs/VibeVoice-ASR-Report.pdf)
 [![Colab](https://img.shields.io/badge/StreamingTTS-Colab-green?logo=googlecolab)](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb)
 [![ASR Playground](https://img.shields.io/badge/ASR-Playground-6F42C1?logo=gradio)](https://aka.ms/vibevoice-asr)
 
@@ -32,9 +33,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1766678003099-9df6ac5f37
 <h3>📰 News</h3>
 
 <strong>2026-01-21: 📣 We open-sourced <a href="docs/vibevoice-asr.md"><strong>VibeVoice-ASR</strong></a>, a unified speech-to-text model designed to handle 60-minute long-form audio in a single pass, generating structured transcriptions containing Who (Speaker), When (Timestamps), and What (Content), with support for User-Customized Context. Try it in [Playground](https://aka.ms/vibevoice-asr)</strong>. 
-- ⭐️ VibeVoice-ASR is natively multilingual, supporting over 100 languages — check the [supported languages](docs/vibevoice-asr.md#language-distribution) for details.
+- ⭐️ VibeVoice-ASR is natively multilingual, supporting over 50 languages — check the [supported languages](docs/vibevoice-asr.md#language-distribution) for details.
 - 🔥 The VibeVoice-ASR [finetuning code](finetuning-asr/README.md) is now available!
 - ⚡️ **vLLM inference** is now supported for faster inference; see [vllm-asr](docs/vibevoice-vllm-asr.md) for more details.
+- 📑 [VibeVoice-ASR Technique Report](docs/VibeVoice-ASR-Report.pdf) is available.
 
 2025-12-16: 📣 We added experimental speakers to <a href="docs/vibevoice-realtime-0.5b.md"><strong>VibeVoice‑Realtime‑0.5B</strong></a> for exploration, including multilingual voices in nine languages (DE, FR, IT, JP, KR, NL, PL, PT, ES) and 11 distinct English style voices. [Try it](docs/vibevoice-realtime-0.5b.md#optional-more-experimental-voices). More speaker types will be added over time.
 

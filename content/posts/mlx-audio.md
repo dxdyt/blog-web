@@ -1,9 +1,9 @@
 ---
 title: mlx-audio
-date: 2026-01-25T12:52:39+08:00
+date: 2026-01-26T12:54:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765706730202-d8ec6a18ecfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765706730202-d8ec6a18ecfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
 ---
 
 # [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio)
@@ -185,11 +185,13 @@ mlx_audio.tts.generate \
 ### Whisper STT
 
 ```python
-from mlx_audio.stt.utils import load_model, transcribe
+from mlx_audio.stt.generate import generate_transcription
 
-model = load_model("mlx-community/whisper-large-v3-turbo-asr-fp16")
-result = transcribe("audio.wav", model=model)
-print(result["text"])
+result = generate_transcription(
+    model="mlx-community/whisper-large-v3-turbo-asr-fp16",
+    audio="audio.wav",
+)
+print(result.text)
 ```
 
 ### VibeVoice-ASR
@@ -328,16 +330,6 @@ curl -X POST http://localhost:8000/v1/audio/transcriptions \
 
 ## Quantization
 
-- MLX
-- Python 3.8+
-- Apple Silicon Mac (for optimal performance)
-- For the web interface and API:
-  - FastAPI
-  - Uvicorn
-
-## Swift
-
-Looking for Swift/iOS support? Check out [mlx-audio-swift](https://github.com/Blaizzy/mlx-audio-swift) for on-device TTS using MLX on macOS and iOS.
 Reduce model size and improve performance with quantization using the convert script:
 
 ```bash
@@ -368,6 +360,9 @@ python -m mlx_audio.convert \
 | `--dtype` | Weight dtype: `float16`, `bfloat16`, `float32` |
 | `--upload-repo` | Upload converted model to HF Hub |
 
+## Swift
+
+Looking for Swift/iOS support? Check out [mlx-audio-swift](https://github.com/Blaizzy/mlx-audio-swift) for on-device TTS using MLX on macOS and iOS.
 
 ## Requirements
 

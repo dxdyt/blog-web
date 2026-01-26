@@ -1,9 +1,9 @@
 ---
 title: UltraRAG
-date: 2026-01-25T12:52:17+08:00
+date: 2026-01-26T12:55:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766546407207-4b2a236edda6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766546407207-4b2a236edda6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767640947944-ad125ebfcd36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767640947944-ad125ebfcd36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG)

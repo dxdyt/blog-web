@@ -1,19 +1,20 @@
 ---
 title: czkawka
-date: 2025-08-16T12:25:27+08:00
+date: 2026-01-26T12:55:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749226707461-de8a7da679fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749226707461-de8a7da679fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
 ---
 
 # [qarmin/czkawka](https://github.com/qarmin/czkawka)
 
-![com github qarmin czkawka](https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png)
+![krokiet_logo](https://github.com/user-attachments/assets/567a7a38-d754-4a79-86b5-3cc898dbbade)
 
-**Czkawka** (_tch•kav•ka_ (IPA: [ˈʧ̑kafka]), "hiccup" in Polish) is a simple, fast and free app to remove unnecessary
-files from your computer.
+**Krokiet** ((IPA: [ˈkrɔcɛt]), "croquette" in Polish) new generation GUI frontend, simple, multiplatform, fast and free app to remove unnecessary files from your computer.
 
-**Krokiet** ((IPA: [ˈkrɔcɛt]), "croquet" in Polish) same as above, but uses Slint frontend.
+![czkawka_logo](https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png)
+
+**Czkawka** (_tch•kav•ka_ (IPA: [ˈʧ̑kafka]), "hiccup" in Polish) older gtk4 GUI frontend, superseded by Krokiet, but still receiving bugfix updates.
 
 ## Features
 
@@ -23,7 +24,8 @@ files from your computer.
 - Multiplatform - works on Linux, Windows, macOS, FreeBSD and many more
 - Cache support - second and further scans should be much faster than the first one
 - CLI frontend - for easy automation
-- GUI frontend - uses GTK 4 or Slint frameworks
+- GUI frontend - uses Slint or GTK 4 frameworks
+- Core library - allows to reuse functionality in other apps
 - No spying - Czkawka does not have access to the Internet, nor does it collect any user information or statistics
 - Multilingual - support multiple languages like Polish, English or Italian
 - Multiple tools to use:
@@ -38,10 +40,13 @@ files from your computer.
     - Invalid Symbolic Links - Shows symbolic links which point to non-existent files/directories
     - Broken Files - Finds files that are invalid or corrupted
     - Bad Extensions - Lists files whose content not match with their extension
+    - Exif Remover - Removes Exif metadata from various file types
+    - Video Optimizer - Crops from static parts and converts videos to more efficient formats
+    - Bad Names - Finds files with names that may be not wanted (e.g., containing special characters)
+
+![Krokiet](https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6)
 
 ![Czkawka](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
-
-![Krokiet](https://github.com/user-attachments/assets/906cbbc3-f011-4306-81da-9e4e53b49a9f)
 
 Changelog about each version can be found in [CHANGELOG.md](Changelog.md).
 
@@ -51,10 +56,10 @@ New releases can be found in [Github releases](https://github.com/qarmin/czkawka
 
 Each tool uses different technologies, so you can find instructions for each of them in the appropriate file:
 
+- [Krokiet GUI (Slint frontend)](krokiet/README.md)</br>
 - [Czkawka GUI (GTK frontend)](czkawka_gui/README.md)</br>
 - [Czkawka CLI](czkawka_cli/README.md)</br>
 - [Czkawka Core](czkawka_core/README.md)</br>
-- [Krokiet GUI (Slint frontend)](krokiet/README.md)</br>
 
 ## Comparison to other tools
 
@@ -64,32 +69,40 @@ two apps shouldn't be compared directly or be considered as an alternative to on
 In this comparison remember, that even if app have same features they may work different(e.g. one app may have more
 options to choose than other).
 
-|                          |   Czkawka   |   Krokiet   | FSlint |     DupeGuru      |  Bleachbit  |
-|:------------------------:|:-----------:|:-----------:|:------:|:-----------------:|:-----------:|
-|         Language         |    Rust     |    Rust     | Python |   Python/Obj-C    |   Python    |
-| Framework base language  |      C      |    Rust     |   C    | C/C++/Obj-C/Swift |      C      |
-|        Framework         |    GTK 4    |    Slint    | PyGTK2 | Qt 5 (PyQt)/Cocoa |   PyGTK3    |
-|            OS            | Lin,Mac,Win | Lin,Mac,Win |  Lin   |    Lin,Mac,Win    | Lin,Mac,Win |
-|     Duplicate finder     |      ✔      |      ✔      |   ✔    |         ✔         |             |
-|       Empty files        |      ✔      |      ✔      |   ✔    |                   |             |
-|      Empty folders       |      ✔      |      ✔      |   ✔    |                   |             |
-|     Temporary files      |      ✔      |      ✔      |   ✔    |                   |      ✔      |
-|        Big files         |      ✔      |      ✔      |        |                   |             |
-|      Similar images      |      ✔      |      ✔      |        |         ✔         |             |
-|      Similar videos      |      ✔      |      ✔      |        |                   |             |
-|  Music duplicates(tags)  |      ✔      |      ✔      |        |         ✔         |             |
-|     Invalid symlinks     |      ✔      |      ✔      |   ✔    |                   |             |
-|       Broken files       |      ✔      |      ✔      |        |                   |             |
-|      Names conflict      |      ✔      |      ✔      |   ✔    |                   |             |
-| Invalid names/extensions |      ✔      |      ✔      |   ✔    |                   |             |
-|    Installed packages    |             |             |   ✔    |                   |             |
-|          Bad ID          |             |             |   ✔    |                   |             |
-|  Non stripped binaries   |             |             |   ✔    |                   |             |
-|   Redundant whitespace   |             |             |   ✔    |                   |             |
-|    Overwriting files     |             |             |   ✔    |                   |      ✔      |
-|    Multiple languages    |      ✔      |      ✔      |   ✔    |         ✔         |      ✔      |
-|      Cache support       |      ✔      |      ✔      |        |         ✔         |             |
-|  In active development   |     Yes     |     Yes     |   No   |        Yes        |     Yes     |
+|                           |     Czkawka      |   Krokiet   | FSlint |     DupeGuru      |  Bleachbit  |
+|:-------------------------:|:----------------:|:-----------:|:------:|:-----------------:|:-----------:|
+|         Language          |       Rust       |    Rust     | Python |   Python/Obj-C    |   Python    |
+|  Framework base language  |        C         |    Rust     |   C    | C/C++/Obj-C/Swift |      C      |
+|         Framework         |      GTK 4       |    Slint    | PyGTK2 | Qt 5 (PyQt)/Cocoa |   PyGTK3    |
+|            OS             |   Lin,Mac,Win    | Lin,Mac,Win |  Lin   |    Lin,Mac,Win    | Lin,Mac,Win |
+|     Duplicate finder      |        ✔         |      ✔      |   ✔    |         ✔         |             |
+|        Empty files        |        ✔         |      ✔      |   ✔    |                   |             |
+|       Empty folders       |        ✔         |      ✔      |   ✔    |                   |             |
+|      Temporary files      |        ✔         |      ✔      |   ✔    |                   |      ✔      |
+|         Big files         |        ✔         |      ✔      |        |                   |             |
+|      Similar images       |        ✔         |      ✔      |        |         ✔         |             |
+|      Similar videos       |        ✔         |      ✔      |        |                   |             |
+|  Music duplicates(tags)   |        ✔         |      ✔      |        |         ✔         |             |
+| Music duplicates(content) |        ✔         |      ✔      |        |                   |             |
+|     Invalid symlinks      |        ✔         |      ✔      |   ✔    |                   |             |
+|       Broken files        |        ✔         |      ✔      |        |                   |             |
+| Invalid names/extensions  |        ✔         |      ✔      |   ✔    |                   |             |
+|       Exif cleaner        |                  |      ✔      |        |                   |             |
+|      Video optimizer      |                  |      ✔      |        |                   |             |
+|         Bad Names         |                  |      ✔      |        |                   |             |
+|      Names conflict       |                  |             |   ✔    |                   |             |
+|    Installed packages     |                  |             |   ✔    |                   |             |
+|          Bad ID           |                  |             |   ✔    |                   |             |
+|   Non stripped binaries   |                  |             |   ✔    |                   |             |
+|   Redundant whitespace    |                  |             |   ✔    |                   |             |
+|     Overwriting files     |                  |             |   ✔    |                   |      ✔      |
+|     Portable version      |        ✔         |      ✔      |        |                   |      ✔      |
+|    Multiple languages     |        ✔         |      ✔      |   ✔    |         ✔         |      ✔      |
+|       Cache support       |        ✔         |      ✔      |        |         ✔         |             |
+|   In active development   | Yes<sup>**</sup> |     Yes     |   No   |  No<sup>*</sup>   |     Yes     |
+
+<p><sup>*</sup> Few small commits added recently and last version released in 2023</p> 
+<p><sup>**</sup> Czkawka GTK is in maintenance mode receiving only bugfixes</p>
 
 ## Other apps
 
@@ -112,11 +125,31 @@ console apps, then take a look at these:
 - [Rmlint](https://github.com/sahib/rmlint) - Nice console interface and also is feature packed
 - [RdFind](https://github.com/pauldreik/rdfind) - Fast, but written in C++ ¯\\\_(ツ)\_/¯
 
+
+## Projects using Czkawka
+
+Czkawka exposes its common functionality through a crate called **`czkawka_core`**, which can be reused by other projects.
+
+It is written in Rust and is used by all Czkawka frontends (`czkawka_gui`, `czkawka_cli`, `krokiet`).
+
+It is also used by external projects, such as:
+
+- **Czkawka Tauri** - https://github.com/shixinhuang99/czkawka-tauri - A Tauri-based GUI frontend for Czkawka.
+- **page-dewarp** – https://github.com/lmmx/page-dewarp - A library for dewarping document images using a cubic sheet model.
+
+Bindings are also available for:
+
+- **Python** – https://pypi.org/project/czkawka/
+
+Some projects work as wrappers around `czkawka_cli`. Without directly depending on `czkawka_core`, they allow simple scanning and retrieving results in JSON format:
+
+- **Schluckauf** – https://github.com/fadykuzman/schluckauf
+
 ## Thanks
 
 Big thanks to Pádraig Brady, creator of fantastic FSlint, because without his work I wouldn't create this tool.
 
-Thanks also to all the people who create patches for this program, make it available on other systems, create videos,
+Thanks also to all the people who create patches for this program, create and fix translations, make it available on other systems, create videos,
 articles about it etc.
 
 Also, I really appreciate work of people that create crates on which Czkawka is based and for that I try to report bugs
@@ -141,3 +174,4 @@ The Czkawka GTK GUI and CLI applications are licensed under the [MIT](https://mi
 
 If you are using the app, I would appreciate a donation for its further development, which can be
 done [here](https://github.com/sponsors/qarmin).
+
