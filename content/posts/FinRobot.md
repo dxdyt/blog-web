@@ -1,9 +1,9 @@
 ---
 title: FinRobot
-date: 2026-01-25T12:53:08+08:00
+date: 2026-01-27T12:47:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767822561883-60a14363e1bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkzMTY3MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766596539688-1e0acf7c8d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766596539688-1e0acf7c8d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
 ---
 
 # [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot)

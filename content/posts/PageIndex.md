@@ -1,9 +1,9 @@
 ---
 title: PageIndex
-date: 2026-01-26T12:55:05+08:00
+date: 2026-01-27T12:46:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768560515099-ef4d8960f6cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768560515099-ef4d8960f6cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767194316686-e3ebed20c54a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767194316686-e3ebed20c54a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
 ---
 
 # [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)

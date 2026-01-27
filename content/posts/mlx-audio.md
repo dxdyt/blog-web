@@ -1,9 +1,9 @@
 ---
 title: mlx-audio
-date: 2026-01-26T12:54:56+08:00
+date: 2026-01-27T12:46:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768638687896-35bde623d532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768638687896-35bde623d532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
 ---
 
 # [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio)
@@ -56,16 +56,16 @@ pip install -e ".[dev]"
 
 ```bash
 # Basic TTS generation
-mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text "Hello, world!" --lang_code a
+mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text 'Hello, world!' --lang_code a
 
 # With voice selection and speed adjustment
-mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text "Hello!" --voice af_heart --speed 1.2 --lang_code a
+mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text 'Hello!' --voice af_heart --speed 1.2 --lang_code a
 
 # Play audio immediately
-mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text "Hello!" --play  --lang_code a
+mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text 'Hello!' --play  --lang_code a
 
 # Save to a specific directory
-mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text "Hello!" --output_path ./my_audio  --lang_code a
+mlx_audio.tts.generate --model mlx-community/Kokoro-82M-bf16 --text 'Hello!' --output_path ./my_audio  --lang_code a
 ```
 
 ### Python API
