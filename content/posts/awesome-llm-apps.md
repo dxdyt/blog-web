@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-12-29T12:49:55+08:00
+date: 2026-01-28T12:43:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766355583257-680e48b7189c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766355583257-680e48b7189c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767171361732-c8a90df5c94f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk1NzUzNjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767171361732-c8a90df5c94f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk1NzUzNjd8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -118,8 +118,10 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 *   [🕸️ Web Scraping AI Agent (Local & Cloud SDK)](starter_ai_agents/web_scrapping_ai_agent/)
 
 ### 🚀 Advanced AI Agents
-*   [🏚️ 🍌 AI Home Renovation Agent with Nano Banana](advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent)
+*   [🏚️ 🍌 AI Home Renovation Agent with Nano Banana Pro](advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent)
 *   [🔍 AI Deep Research Agent](advanced_ai_agents/single_agent_apps/ai_deep_research_agent/)
+*   [📊 AI VC Due Diligence Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team)
+*   [🔬 AI Research Planner & Executor (Google Interactions API)](advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api)
 *   [🤝 AI Consultant Agent](advanced_ai_agents/single_agent_apps/ai_consultant_agent)
 *   [🏗️ AI System Architect Agent](advanced_ai_agents/single_agent_apps/ai_system_architect_r1/)
 *   [💰 AI Financial Coach Agent](advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent/)
@@ -131,7 +133,9 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 *   [🧠 AI Mental Wellbeing Agent](advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/)
 *   [📑 AI Meeting Agent](advanced_ai_agents/single_agent_apps/ai_meeting_agent/)
 *   [🧬 AI Self-Evolving Agent](advanced_ai_agents/multi_agent_apps/ai_Self-Evolving_agent/)
+*   [👨🏻‍💼 AI Sales Intelligence Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team)
 *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/)
+*   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/openwork)
 
 ### 🎮 Autonomous Game Playing Agents
 
@@ -159,7 +163,7 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 *   [🗣️ AI Audio Tour Agent](voice_ai_agents/ai_audio_tour_agent/)
 *   [📞 Customer Support Voice Agent](voice_ai_agents/customer_support_voice_agent/)
 *   [🔊 Voice RAG Agent (OpenAI SDK)](voice_ai_agents/voice_rag_openaisdk/)
-
+*   [🎙️ OpenSource Voice Dictation Agent (like Wispr Flow](https://github.com/akshayaggarwal99/jarvis-ai-assistant)
 
 ### <img src="https://cdn.simpleicons.org/modelcontextprotocol"  alt="mcp logo" width="25" height="20"> MCP AI Agents 
 
