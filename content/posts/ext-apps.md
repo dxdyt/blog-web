@@ -1,9 +1,9 @@
 ---
 title: ext-apps
-date: 2026-01-29T13:05:23+08:00
+date: 2026-01-30T13:08:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768663319879-e6a2b4c7408f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768663319879-e6a2b4c7408f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763688506377-b08fe56e4586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763688506377-b08fe56e4586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
 ---
 
 # [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps)
@@ -183,6 +183,16 @@ To use these examples with MCP clients that support the stdio transport (such as
         "--silent",
         "--registry=https://registry.npmjs.org/",
         "@modelcontextprotocol/server-basic-solid",
+        "--stdio"
+      ]
+    },
+    "arcade": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--silent",
+        "--registry=https://registry.npmjs.org/",
+        "@modelcontextprotocol/server-arcade",
         "--stdio"
       ]
     },
@@ -401,6 +411,13 @@ Then configure your MCP client to build and run the local server. Replace `~/cod
       "args": [
         "-c",
         "cd ~/code/ext-apps/examples/basic-server-solid && npm run build >&2 && node dist/index.js --stdio"
+      ]
+    },
+    "arcade": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "cd ~/code/ext-apps/examples/arcade-server && npm run build >&2 && node dist/index.js --stdio"
       ]
     },
     "budget-allocator": {

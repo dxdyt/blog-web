@@ -1,9 +1,9 @@
 ---
 title: kimi-cli
-date: 2026-01-29T13:05:31+08:00
+date: 2026-01-30T13:07:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767738912566-9071adbe014b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767738912566-9071adbe014b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
 ---
 
 # [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli)
@@ -168,10 +168,13 @@ make test  # run tests
 make test-kimi-cli  # run Kimi Code CLI tests only
 make test-kosong  # run kosong tests only
 make test-pykaos  # run pykaos tests only
+make build-web  # build the web UI and sync it into the package (requires Node.js/npm)
 make build  # build python packages
 make build-bin  # build standalone binary
 make help  # show all make targets
 ```
+
+Note: `make build` and `make build-bin` automatically run `make build-web` to embed the web UI.
 
 ## Contributing
 

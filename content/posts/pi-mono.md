@@ -1,9 +1,9 @@
 ---
 title: pi-mono
-date: 2026-01-29T13:04:52+08:00
+date: 2026-01-30T13:08:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768592068933-d5291708b2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768592068933-d5291708b2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk2NjMwNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769008303219-eaf84b0e916c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769008303219-eaf84b0e916c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
 ---
 
 # [badlogic/pi-mono](https://github.com/badlogic/pi-mono)

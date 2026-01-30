@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2026-01-28T12:43:39+08:00
+date: 2026-01-30T13:09:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767171361732-c8a90df5c94f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk1NzUzNjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767171361732-c8a90df5c94f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk1NzUzNjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767594682072-c888276884d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767594682072-c888276884d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -213,6 +213,7 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 ### 🎯 LLM Optimization Tools
 
 *   [🎯 Toonify Token Optimization](advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/) - Reduce LLM API costs by 30-60% using TOON format
+*   [🧠 Headroom Context Optimization](advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/) - Reduce LLM API costs by 50-90% through intelligent context compression for AI agents (includes persistent memory & MCP support)
 
 ### 🔧 LLM Fine-tuning Tutorials
 
