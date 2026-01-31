@@ -1,9 +1,9 @@
 ---
 title: lobehub
-date: 2026-01-30T13:09:17+08:00
+date: 2026-01-31T13:02:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768641999760-6ba37484dd95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768641999760-6ba37484dd95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769107993668-83447fbc3359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769107993668-83447fbc3359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
 ---
 
 # [lobehub/lobehub](https://github.com/lobehub/lobehub)
@@ -47,7 +47,7 @@ We’re building the world’s largest human–agent co-evolving network.
 [![][share-mastodon-shield]][share-mastodon-link]
 [![][share-linkedin-shield]][share-linkedin-link]
 
-<sup>Agent teams that grow with you</sup>
+<sup>Agent teammates that grow with you</sup>
 
 [![][github-trending-shield]][github-trending-url]
 

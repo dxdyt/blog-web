@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2026-01-30T13:08:39+08:00
+date: 2026-01-31T13:01:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769063238167-d00e112147c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769063238167-d00e112147c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768254580151-0ce666a0cb7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768254580151-0ce666a0cb7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)

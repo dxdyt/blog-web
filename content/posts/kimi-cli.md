@@ -1,9 +1,9 @@
 ---
 title: kimi-cli
-date: 2026-01-30T13:07:53+08:00
+date: 2026-01-31T13:00:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764099363026-46d0c56f5d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764099363026-46d0c56f5d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
 ---
 
 # [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli)
@@ -34,6 +34,12 @@ Kimi Code CLI is not only a coding agent, but also a shell. You can switch the s
 
 > [!NOTE]
 > Built-in shell commands like `cd` are not supported yet.
+
+### VS Code extension
+
+Kimi Code CLI can be integrated with [Visual Studio Code](https://code.visualstudio.com/) via the [Kimi Code VS Code Extension](https://marketplace.visualstudio.com/items?itemName=moonshot-ai.kimi-code).
+
+![VS Code Extension](./docs/media/vscode.png)
 
 ### IDE integration via ACP
 
@@ -175,7 +181,3 @@ make help  # show all make targets
 ```
 
 Note: `make build` and `make build-bin` automatically run `make build-web` to embed the web UI.
-
-## Contributing
-
-We welcome contributions to Kimi Code CLI! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.

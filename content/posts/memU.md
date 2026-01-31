@@ -1,9 +1,9 @@
 ---
 title: memU
-date: 2026-01-30T13:08:11+08:00
+date: 2026-01-31T13:00:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767250752862-2d473323c5da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767250752862-2d473323c5da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk3NDk2NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
 ---
 
 # [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU)
@@ -36,7 +36,7 @@ memU **continuously captures and understands user intent**. Even without a comma
 
 ---
 
-## 🤖 [Moltbot (Clawdbot) Alternative](https://memu.bot)
+## 🤖 [OpenClaw (Moltbot, Clawdbot) Alternative](https://memu.bot)
 
 <img width="100%" src="https://github.com/NevaMind-AI/memU/blob/main/assets/memUbot.png" />
 
