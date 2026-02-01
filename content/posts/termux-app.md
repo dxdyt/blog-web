@@ -1,9 +1,9 @@
 ---
 title: termux-app
-date: 2025-06-03T12:26:50+08:00
+date: 2026-02-01T13:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768449864366-b78dda95c9a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768449864366-b78dda95c9a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
 ---
 
 # [termux/termux-app](https://github.com/termux/termux-app)
@@ -39,6 +39,7 @@ Quick how-to about Termux package management is available at [Package Management
 - [Debugging](#debugging)
 - [For Maintainers and Contributors](#for-maintainers-and-contributors)
 - [Forking](#forking)
+- [Sponsors and Funders](#sponsors-and-funders)
 ##
 
 
@@ -274,3 +275,31 @@ Commit messages **must** use the [Conventional Commits](https://www.conventional
 - You also need to recompile bootstrap zip for the new package name. Check [building bootstrap](https://github.com/termux/termux-packages/wiki/For-maintainers#build-bootstrap-archives), [here](https://github.com/termux/termux-app/issues/1983) and [here](https://github.com/termux/termux-app/issues/2081#issuecomment-865280111).
 - Currently, not all plugins use `TermuxConstants` from `termux-shared` library and have hardcoded `com.termux` values and will need to be manually patched.
 - If forking termux plugins, check [Forking and Local Development](https://github.com/termux/termux-app/wiki/Termux-Libraries#forking-and-local-development) for info on how to use termux libraries for plugins.
+##
+
+
+
+## Sponsors and Funders
+
+[<img alt="GitHub Accelerator" width="25%" src="site/assets/sponsors/github.png" />](https://github.com)  
+*[GitHub Accelerator](https://github.com/accelerator) ([1](https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next))*
+
+&nbsp;
+
+[<img alt="GitHub Secure Open Source Fund" width="25%" src="site/assets/sponsors/github.png" />](https://github.com)  
+*[GitHub Secure Open Source Fund](https://resources.github.com/github-secure-open-source-fund) ([1](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects), [2](https://termux.dev/en/posts/general/2025/08/11/termux-selected-for-github-secure-open-source-fund-session-2.html))*
+
+&nbsp;
+
+[<img alt="NLnet NGI Mobifree" width="25%" src="site/assets/sponsors/nlnet-ngi-mobifree.png" />](https://nlnet.nl/mobifree)  
+*[NLnet NGI Mobifree](https://nlnet.nl/mobifree) ([1](https://nlnet.nl/news/2024/20241111-NGI-Mobifree-grants.html), [2](https://termux.dev/en/posts/general/2024/11/11/termux-selected-for-nlnet-ngi-mobifree-grant.html))*
+
+&nbsp;
+
+[<img alt="Cloudflare" width="25%" src="site/assets/sponsors/cloudflare.png" />](https://www.cloudflare.com)  
+*[Cloudflare](https://www.cloudflare.com) ([1](https://packages-cf.termux.dev))*
+
+&nbsp;
+
+[<img alt="Warp" width="25%" src="https://github.com/warpdotdev/brand-assets/blob/640dffd347439bbcb535321ab36b7281cf4446c0/Github/Sponsor/Warp-Github-LG-03.png" />](https://www.warp.dev/?utm_source=github&utm_medium=readme&utm_campaign=termux)  
+[*Warp, built for coding with multiple AI agents*](https://www.warp.dev/?utm_source=github&utm_medium=readme&utm_campaign=termux)

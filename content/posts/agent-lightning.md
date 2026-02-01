@@ -1,9 +1,9 @@
 ---
 title: agent-lightning
-date: 2026-01-23T12:42:25+08:00
+date: 2026-02-01T13:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765498069315-86fbdc6c6d1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNDMzMDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765498069315-86fbdc6c6d1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNDMzMDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768463852105-2a373807af52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768463852105-2a373807af52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning)
