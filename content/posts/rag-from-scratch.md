@@ -1,9 +1,9 @@
 ---
 title: rag-from-scratch
-date: 2025-07-25T12:39:08+08:00
+date: 2026-02-03T13:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752629609835-698e219167f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752629609835-698e219167f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767436620092-7cab0404e444?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767436620092-7cab0404e444?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
 ---
 
 # [langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch)

@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2026-01-13T12:40:41+08:00
+date: 2026-02-03T13:14:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767041573027-f77c33df6b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767041573027-f77c33df6b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgyNzkxNjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767436620092-7cab0404e444?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767436620092-7cab0404e444?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
@@ -137,6 +137,7 @@ See our paper in [Multi-Agent Collaboration via Evolving Orchestration](https://
     # Run from the project root
     uv run python server_main.py --port 6400 --reload
     ```
+    > Remove `--reload` if output files (e.g., GameDev) trigger restarts, which interrupts tasks and loses progress.
 
 2.  **Start Frontend**:
     ```bash
@@ -144,6 +145,14 @@ See our paper in [Multi-Agent Collaboration via Evolving Orchestration](https://
     VITE_API_BASE_URL=http://localhost:6400 npm run dev
     ```
     > Then access the Web Console at **[http://localhost:5173](http://localhost:5173)**. 
+    
+    
+    > **💡 Tip**: If the frontend fails to connect to the backend, the default port `6400` may already be occupied.
+    > Please switch both services to an available port, for example:
+    >
+    > * **Backend**: start with `--port 6401`
+    > * **Frontend**: set `VITE_API_BASE_URL=http://localhost:6401`
+
 
 ### 🔑 Configuration
 

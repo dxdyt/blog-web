@@ -1,9 +1,9 @@
 ---
 title: calibre
-date: 2026-02-02T13:23:11+08:00
+date: 2026-02-03T13:15:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763084601215-4861799de1f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763084601215-4861799de1f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767815044485-fd17b054ab54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767815044485-fd17b054ab54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
 ---
 
 # [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre)

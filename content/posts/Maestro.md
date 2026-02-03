@@ -1,9 +1,9 @@
 ---
 title: Maestro
-date: 2026-02-02T13:23:05+08:00
+date: 2026-02-03T13:14:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768861020377-3fdead073d13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768861020377-3fdead073d13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767170476039-e2bc8916684a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767170476039-e2bc8916684a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
 ---
 
 # [pedramamini/Maestro](https://github.com/pedramamini/Maestro)
@@ -20,7 +20,7 @@ Maestro is a cross-platform desktop app for orchestrating your fleet of AI agent
 
 Collaborate with AI to create detailed specification documents, then let Auto Run execute them automatically, each task in a fresh session with clean context. Allowing for long-running unattended sessions, my current record is nearly 24 hours of continuous runtime.
 
-Run multiple agents in parallel with a Linear/Superhuman-level responsive interface. Currently supporting **Claude Code**, **OpenAI Codex**, and **OpenCode** with plans for additional agentic coding tools (Aider, Gemini CLI, Qwen3 Coder) based on user demand.
+Run multiple agents in parallel with a Linear/Superhuman-level responsive interface. Currently supporting **Claude Code**, **OpenAI Codex**, **OpenCode**, and **Factory Droid** with plans for additional agentic coding tools (Gemini CLI, Qwen3 Coder) based on user demand.
 
 <div align="center">
   <a href="https://youtu.be/fmwwTOg7cyA?si=dJ89K54tGflKa5G4">
@@ -89,7 +89,7 @@ Run multiple agents in parallel with a Linear/Superhuman-level responsive interf
 
 Additional interactions: Drag nodes to reposition, scroll to zoom, use mini-map for overview.
 
-> **Note**: Maestro supports Claude Code, OpenAI Codex, and OpenCode. Support for additional agents (Aider, Gemini CLI, Qwen3 Coder) may be added in future releases based on community demand.
+> **Note**: Maestro supports Claude Code, OpenAI Codex, OpenCode, and Factory Droid. Support for additional agents (Gemini CLI, Qwen3 Coder) may be added in future releases based on community demand.
 
 ## Quick Start
 

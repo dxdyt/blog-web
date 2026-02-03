@@ -1,9 +1,9 @@
 ---
 title: netbird
-date: 2026-01-10T12:33:40+08:00
+date: 2026-02-03T13:14:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765204363270-5b43829a84fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765204363270-5b43829a84fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1582310646320-849379bfce28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1582310646320-849379bfce28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
 ---
 
 # [netbirdio/netbird](https://github.com/netbirdio/netbird)
@@ -48,6 +48,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1765204363270-5b43829a84
  
 </strong>
 <br>
+<strong>
+  🚀 <a href="https://careers.netbird.io">We are hiring! Join us at careers.netbird.io</a>
+</strong>
+<br>
+<br>
 <a href="https://registry.terraform.io/providers/netbirdio/netbird/latest">
     New: NetBird terraform provider
   </a> 
@@ -65,8 +70,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1765204363270-5b43829a84
 
 https://github.com/user-attachments/assets/10cec749-bb56-4ab3-97af-4e38850108d2
 
-### NetBird on Lawrence Systems (Video)
-[![Watch the video](https://img.youtube.com/vi/Kwrff6h0rEw/0.jpg)](https://www.youtube.com/watch?v=Kwrff6h0rEw)
+### Self-Host NetBird (Video)
+[![Watch the video](https://img.youtube.com/vi/bZAgpT6nzaQ/0.jpg)](https://youtu.be/bZAgpT6nzaQ)
 
 ### Key features
 
