@@ -1,9 +1,9 @@
 ---
 title: Maestro
-date: 2026-02-03T13:14:36+08:00
+date: 2026-02-04T13:09:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767170476039-e2bc8916684a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767170476039-e2bc8916684a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768157691814-238f75972a64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768157691814-238f75972a64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
 ---
 
 # [pedramamini/Maestro](https://github.com/pedramamini/Maestro)
@@ -176,8 +176,13 @@ Full documentation and usage guide available at **[docs.runmaestro.ai](https://d
 - **Discord**: [Join Us](https://runmaestro.ai/discord)
 - **GitHub Issues**: [Report bugs & request features](https://github.com/pedramamini/Maestro/issues)
 
-## Contributing
+## Contributors
 
+- [@pedramamini](https://github.com/pedramamini) - Creator and Benevolent Dictator
+- [@mattjay](https://github.com/mattjay) - Contributor and tester
+- [@chr1syy](https://github.com/chr1syy) - Windows Contributor and tester
+
+### Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, architecture details, and contribution guidelines.
 
 ## License
