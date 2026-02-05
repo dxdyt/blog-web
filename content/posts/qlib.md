@@ -1,9 +1,9 @@
 ---
 title: qlib
-date: 2025-09-29T12:22:44+08:00
+date: 2026-02-05T13:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750210955902-ce0e71765fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750210955902-ce0e71765fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768222780460-3cb1027f51e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768222780460-3cb1027f51e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/qlib](https://github.com/microsoft/qlib)

@@ -1,9 +1,9 @@
 ---
 title: WrenAI
-date: 2025-08-31T12:21:55+08:00
+date: 2026-02-05T13:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751647670934-66f2dde5e3f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MTQwMTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751647670934-66f2dde5e3f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MTQwMTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768222780460-3cb1027f51e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768222780460-3cb1027f51e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
 ---
 
 # [Canner/WrenAI](https://github.com/Canner/WrenAI)
@@ -44,12 +44,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1751647670934-66f2dde5e3
   <a href="https://trendshift.io/repositories/9263" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9263" alt="Canner%2FWrenAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
-> Wren AI is your GenBI Agent, that you can query any database with natural language → get accurate SQL(Text-to-SQL), charts(Text-to-Charts) & AI-generated insights in seconds. ⚡️
+> ⚡ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. ️
 
 <p align="center">
-  <img src="./misc/workflow.png">
+  <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/bba9d37a-33e3-49ab-b7cb-32fd6dddc8d1" />
 </p>
-
+ 
 ## 😍 Demos
 
 https://github.com/user-attachments/assets/f9c1cb34-5a95-4580-8890-ec9644da4160
@@ -71,6 +71,10 @@ https://github.com/user-attachments/assets/f9c1cb34-5a95-4580-8890-ec9644da4160
 
 Using Wren AI is super simple, you can set it up within 3 minutes, and start to interact with your data!
 
+<p align="center">
+  <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/6555f539-9ef2-485d-9135-0071741fda96" />
+</p>
+
 - Visit our [Install in your local environment](http://docs.getwren.ai/oss/installation?utm_source=github&utm_medium=content&utm_campaign=readme).
 - Visit the [Usage Guides](https://docs.getwren.ai/oss/guide/connect/overview?utm_source=github&utm_medium=content&utm_campaign=readme) to learn more about how to use Wren AI.
 - Or just start with [Wren AI Cloud](https://getwren.ai/?utm_source=github&utm_medium=content&utm_campaign=readme) our Managed Cloud Service. ([OSS vs. Commercial Plans](https://docs.getwren.ai/oss/overview/cloud_vs_self_host)).
@@ -78,10 +82,11 @@ Using Wren AI is super simple, you can set it up within 3 minutes, and start to 
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="./misc/how_wrenai_works.png">
+  <img width="1011" height="682" alt="wrenai-architecture" src="https://github.com/user-attachments/assets/e99b999f-9912-4fa7-921a-9c86b6b83354" />
 </p>
 
 👉 [Learn more about our Design](https://getwren.ai/post/how-we-design-our-semantic-engine-for-llms-the-backbone-of-the-semantic-layer-for-llm-architecture?utm_source=github&utm_medium=content&utm_campaign=readme)
+
 
 
 ## 🔌 Data Sources
@@ -91,6 +96,7 @@ If your data source is not listed here, vote for it in our [GitHub discussion th
 - Redshift
 - BigQuery
 - DuckDB
+- Databricks
 - PostgreSQL
 - MySQL
 - Microsoft SQL Server
