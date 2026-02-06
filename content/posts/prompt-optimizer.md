@@ -1,9 +1,9 @@
 ---
 title: prompt-optimizer
-date: 2025-07-31T12:41:46+08:00
+date: 2026-02-06T13:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750688650545-d9e2a060dfe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750688650545-d9e2a060dfe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769095384079-fe74a7f1e7aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769095384079-fe74a7f1e7aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
 ---
 
 # [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)
@@ -17,12 +17,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1750688650545-d9e2a060df
 [![GitHub stars](https://img.shields.io/github/stars/linshenkx/prompt-optimizer)](https://github.com/linshenkx/prompt-optimizer/stargazers)
 ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cakkkhboolfnadechdlgdcnjammejlna?style=flat&label=Chrome%20Users&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2F%25E6%258F%2590%25E7%25A4%25BA%25E8%25AF%258D%25E4%25BC%2598%25E5%258C%2596%25E5%2599%25A8%2Fcakkkhboolfnadechdlgdcnjammejlna)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<a href="https://trendshift.io/repositories/13813" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13813" alt="linshenkx%2Fprompt-optimizer | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+[![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/linshen/prompt-optimizer)](https://hub.docker.com/r/linshen/prompt-optimizer)
 ![GitHub forks](https://img.shields.io/github/forks/linshenkx/prompt-optimizer?style=flat)
 [![Deploy with Vercel](https://img.shields.io/badge/Vercel-indigo?style=flat&logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flinshenkx%2Fprompt-optimizer)
 
-[在线体验](https://prompt.always200.com) | [快速开始](#快速开始) | [常见问题](#常见问题) | [Chrome插件](https://chromewebstore.google.com/detail/prompt-optimizer/cakkkhboolfnadechdlgdcnjammejlna)
+[在线体验](https://prompt.always200.com) | [快速开始](#快速开始) | [常见问题](#常见问题) | [Chrome插件](https://chromewebstore.google.com/detail/prompt-optimizer/cakkkhboolfnadechdlgdcnjammejlna) | [💖赞助支持](images/other/sponsor_wx.jpg)
 
 [开发文档](dev.md) | [Vercel部署指南](docs/user/deployment/vercel.md) | [MCP部署使用说明](docs/user/mcp-server.md) | [DeepWiki文档](https://deepwiki.com/linshenkx/prompt-optimizer) | [ZRead文档](https://zread.ai/linshenkx/prompt-optimizer)
 
@@ -54,10 +56,29 @@ Prompt Optimizer是一个强大的AI提示词优化工具，帮助你编写更�
 - 📝 **双模式优化**：支持系统提示词优化和用户提示词优化，满足不同使用场景
 - 🔄 **对比测试**：支持原始提示词和优化后提示词的实时对比，直观展示优化效果
 - 🤖 **多模型集成**：支持OpenAI、Gemini、DeepSeek、智谱AI、SiliconFlow等主流AI模型
+- 🖼️ **图像生成**：支持文生图（T2I）和图生图（I2I），集成Gemini、Seedream等图像模型
+- 📊 **高级测试模式**：上下文变量管理、多轮会话测试、工具调用（Function Calling）支持
 - 🔒 **安全架构**：纯客户端处理，数据直接与AI服务商交互，不经过中间服务器
 - 📱 **多端支持**：同时提供Web应用、桌面应用、Chrome插件和Docker部署四种使用方式
 - 🔐 **访问控制**：支持密码保护功能，保障部署安全
 - 🧩 **MCP协议支持**：支持Model Context Protocol (MCP) 协议，可与Claude Desktop等MCP兼容应用集成
+
+## 🚀 高级功能
+
+### 图像生成模式
+- 🖼️ **文生图（T2I）**：通过文本提示词生成图像
+- 🎨 **图生图（I2I）**：基于本地图片进行图像变换和优化
+- 🔌 **多模型支持**：集成Gemini、Seedream等主流图像生成模型
+- ⚙️ **模型参数**：支持各模型特有参数配置（如尺寸、风格等）
+- 📥 **预览与下载**：实时预览生成结果，支持下载保存
+
+### 高级测试模式
+- 📊 **上下文变量管理**：自定义变量、批量替换、变量预览
+- 💬 **多轮会话测试**：模拟真实对话场景，测试提示词在多轮交互中的表现
+- 🛠️ **工具调用支持**：Function Calling集成，支持OpenAI和Gemini工具调用
+- 🎯 **灵活调试**：更强大的提示词测试和调试能力
+
+详细使用说明请查看 [图像模式文档](docs/image-mode.md)
 
 ## 快速开始
 
@@ -266,10 +287,14 @@ Docker部署时通过 `-e` 参数配置环境变量：
 -e VITE_DEEPSEEK_API_KEY=your_key
 -e VITE_ZHIPU_API_KEY=your_key
 -e VITE_SILICONFLOW_API_KEY=your_key
--e VITE_CUSTOM_API_KEY=your_custom_api_key
--e VITE_CUSTOM_API_BASE_URL=your_custom_api_base_url
--e VITE_CUSTOM_API_MODEL=your_custom_model_name
+
+# 多自定义模型配置（支持无限数量）
+-e VITE_CUSTOM_API_KEY_ollama=dummy_key
+-e VITE_CUSTOM_API_BASE_URL_ollama=http://localhost:11434/v1
+-e VITE_CUSTOM_API_MODEL_ollama=qwen2.5:7b
 ```
+
+> 📖 **详细配置指南**: 查看 [多自定义模型配置文档](./docs/user/multi-custom-models.md) 了解完整的配置方法和高级用法
 
 </details>
 
@@ -302,7 +327,11 @@ pnpm dev:fresh        # 完整重置并重新启动开发环境
 - [x] 国际化支持
 - [x] 支持系统提示词优化和用户提示词优化
 - [x] 桌面应用发布
-- [x] mcp服务发布
+- [x] MCP服务发布
+- [x] 高级模式：变量管理、上下文测试、工具调用
+- [x] 图像生成：文生图（T2I）和图生图（I2I）支持
+- [ ] 支持工作区/项目管理
+- [ ] 支持提示词收藏和模板管理
 
 详细的项目状态可查看 [项目状态文档](docs/project-status.md)
 
@@ -345,29 +374,46 @@ pnpm dev:fresh        # 完整重置并重新启动开发环境
 #### Q3: 如何解决商业API（如Nvidia的DS API、字节跳动的火山API）的跨域问题？
 **A**: 这些平台通常有严格的跨域限制，推荐以下解决方案：
 
-1. **使用Vercel代理**（便捷方案）
-   - 使用在线版本：[prompt.always200.com](https://prompt.always200.com)
-   - 或自行部署到Vercel平台
-   - 在模型设置中勾选"使用Vercel代理"选项
-   - 请求流向：浏览器→Vercel→模型服务提供商
-   - 详细步骤请参考 [Vercel部署指南](docs/user/deployment/vercel.md)
+1. **使用桌面版应用**（最推荐）
+   - 桌面应用作为原生应用，完全没有跨域限制
+   - 可以直接连接任何API服务，包括本地部署的模型
+   - 提供最完整、最稳定的功能体验
+   - 从 [GitHub Releases](https://github.com/linshenkx/prompt-optimizer/releases) 下载
 
-2. **使用自部署的API中转服务**（可靠方案）
-   - 部署如OneAPI等开源API聚合/代理工具
+2. **使用自部署的API中转服务**（专业方案）
+   - 部署如OneAPI、NewAPI等开源API聚合/代理工具
    - 在设置中配置为自定义API端点
    - 请求流向：浏览器→中转服务→模型服务提供商
+   - 完全控制安全策略和访问权限
 
-#### Q4: Vercel代理有什么缺点或风险？
-**A**: 使用Vercel代理可能会触发某些模型服务提供商的风控机制。部分厂商可能会将来自Vercel的请求判定为代理行为，从而限制或拒绝服务。如遇此问题，建议使用自部署的中转服务。
+**注意**：Web版（包括在线版、Vercel部署、Docker部署）都是纯前端应用，都会受到浏览器CORS限制。只有桌面版或使用API中转服务才能解决跨域问题。
 
-#### Q5: 我已正确配置本地模型（如Ollama）的跨域策略，为什么使用在线版依然无法连接？
+#### Q4: 我已正确配置本地模型（如Ollama）的跨域策略，为什么使用在线版依然无法连接？
 **A**: 这是由浏览器的**混合内容（Mixed Content）安全策略**导致的。出于安全考虑，浏览器会阻止安全的HTTPS页面（如在线版）向不安全的HTTP地址（如您的本地Ollama服务）发送请求。
 
 **解决方案**：
-为了绕过此限制，您需要让应用和API处于同一种协议下（例如，都是HTTP）。推荐以下几种方式：
-1. **使用桌面版**：桌面应用没有浏览器限制，是连接本地模型最稳定可靠的方式。
-2. **docker部署**：docker部署也是http
-3. **使用Chrome插件**：插件在某些情况下也可以绕过部分安全限制。
+为了绕过此限制，您需要让应用和API处于同一种协议下（例如，都是HTTP）。推荐以下方式：
+1. **使用桌面版**：桌面应用没有浏览器限制，是连接本地模型最稳定可靠的方式
+2. **使用Docker部署（HTTP）**：通过 `http://localhost:8081` 访问，与本地Ollama都是HTTP
+3. **使用Chrome插件**：插件在某些情况下也可以绕过部分安全限制
+
+### macOS 桌面应用问题
+
+#### Q5: macOS 打开应用时提示「已损坏」或「无法验证开发者」怎么办？
+**A**: 这是因为应用未经过 Apple 签名认证。由于 Apple 开发者账号费用较高，目前桌面应用暂未进行签名。
+
+**解决方案**：
+在终端中执行以下命令移除安全隔离属性：
+
+```bash
+# 对于已安装的应用
+xattr -rd com.apple.quarantine /Applications/PromptOptimizer.app
+
+# 对于下载的 .dmg 文件（安装前执行）
+xattr -rd com.apple.quarantine ~/Downloads/PromptOptimizer-*.dmg
+```
+
+执行后重新打开应用即可正常使用。
 
 </details>
 
@@ -404,7 +450,26 @@ pnpm dev:fresh        # 完整重置并重新启动开发环境
 
 ## 📄 开源协议
 
-本项目采用 [MIT](LICENSE) 协议开源。
+本项目采用 [AGPL-3.0](LICENSE) 协议开源。
+
+**简单来说**：你可以自由使用、修改和商用本项目，但如果你把它做成网站或服务给别人用，需要公开你的源代码。
+
+<details>
+<summary>👉 点击查看详细说明</summary>
+
+**允许做什么：**
+- ✅ 个人使用、学习、研究
+- ✅ 公司内部使用（不对外提供服务）
+- ✅ 修改代码并用于商业项目
+- ✅ 收费销售或提供服务
+
+**需要做什么：**
+- 📖 如果分发软件或提供网络服务，必须公开源代码
+- 📝 保留原作者的版权声明
+
+**一句话核心**：可以商用，但不能闭源。
+
+</details>
 
 ---
 

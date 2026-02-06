@@ -1,9 +1,9 @@
 ---
 title: superpowers
-date: 2026-02-04T13:08:39+08:00
+date: 2026-02-06T13:15:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768797767719-dad3da9a6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768797767719-dad3da9a6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768311172651-9f0a3a1d4a22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768311172651-9f0a3a1d4a22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
 ---
 
 # [obra/superpowers](https://github.com/obra/superpowers)
@@ -54,18 +54,7 @@ Then install the plugin from this marketplace:
 
 ### Verify Installation
 
-Check that commands appear:
-
-```bash
-/help
-```
-
-```
-# Should see:
-# /superpowers:brainstorm - Interactive design refinement
-# /superpowers:write-plan - Create implementation plan
-# /superpowers:execute-plan - Execute plan in batches
-```
+Start a new session and ask Claude to help with something that would trigger a skill (e.g., "help me plan this feature" or "let's debug this issue"). Claude should automatically invoke the relevant superpowers skill.
 
 ### Codex
 

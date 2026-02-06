@@ -1,9 +1,9 @@
 ---
 title: prek
-date: 2026-02-02T13:23:55+08:00
+date: 2026-02-06T13:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766820024965-16f6e49cbd36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766820024965-16f6e49cbd36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768311172651-9f0a3a1d4a22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768311172651-9f0a3a1d4a22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAzNTQ4NTh8&ixlib=rb-4.1.0
 ---
 
 # [j178/prek](https://github.com/j178/prek)
@@ -388,6 +388,8 @@ prek is pretty new, but it is already being used or recommend by some projects a
 - [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep.github.io/commit/e30818144b2967a7f9172c8cf2f4596bba219bf5)
 - [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
 - [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex/pull/1564)
+- [cachix/devenv](https://github.com/cachix/devenv/pull/2304)
+- [copper-project/copper-rs](https://github.com/copper-project/copper-rs/pull/783)
 
 <!-- --8<-- [end: why] -->
 
