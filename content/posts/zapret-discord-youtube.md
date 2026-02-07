@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2026-01-19T12:52:19+08:00
+date: 2026-02-07T13:05:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767053624567-f9078bcd7fb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767053624567-f9078bcd7fb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767819131072-b77f14ce0ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -30,10 +30,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1767053624567-f9078bcd7f
 > Замена iptables и NFQUEUE в Linux, которых нет под Windows.
 > Он может использоваться как хорошими, так и плохими программами, но сам по себе не является вирусом.
 > Драйвер WinDivert64.sys подписан для возможности загрузки в 64-битное ядро Windows.
-> Но антивирусы склонны относить подобное к классам повышенного риска или хакерским инструментам.
-> В случае проблем используйте исключения или выключайте антивирус совсем.
 >
 > **Выдержка из [`readme.md`](https://github.com/bol-van/zapret-win-bundle/blob/master/readme.md#%D0%B0%D0%BD%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B) репозитория [bol-van/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle)*
+>
+> Некоторые антивирусы склонны относить файлы WinDivert к классам повышенного риска или хакерским инструментам. Происходит удаление файла и помещение его в карантин. При этом детект обязательно имеет название `WinDivert` или `Not-a-virus:RiskTool.Multi.WinDivert`
+>
+> В случае проблем с антивирусом добавьте папку с запретом в исключения, либо отключите детектирование PUA (потенциально нежелательных приложений). Например, в касперском есть галочка "Обнаруживать легальные приложения, которые злоумышленники часто используют для нанесения вреда". При аккуратной и правильной настройке исключений - рекомендуется настроить исключение, но если вы не до конца понимаете что делаете - рекомендуется отключить детект PUA.
 
 > [!IMPORTANT]
 > Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
