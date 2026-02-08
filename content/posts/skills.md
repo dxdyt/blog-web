@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-02-07T13:04:32+08:00
+date: 2026-02-08T13:22:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767820551144-f69b9b9f41ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767820551144-f69b9b9f41ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
 ---
 
 # [openai/skills](https://github.com/openai/skills)
