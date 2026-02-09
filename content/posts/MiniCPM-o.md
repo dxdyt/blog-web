@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-o
-date: 2026-02-08T13:23:28+08:00
+date: 2026-02-09T13:27:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768326943626-a80f242a7970?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768326943626-a80f242a7970?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768590342579-dfcc5681108b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768590342579-dfcc5681108b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o)
@@ -129,6 +129,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1768326943626-a80f242a79
   - [Model Initialization](#model-initialization)
   - [Duplex Omni Mode](#duplex-omni-mode)
   - [Simplex Omni Mode](#simplex-omni-mode)
+  - [Simplex Realtime Speech Conversation Mode](#simplex-realtime-speech-conversation-mode)
   - [Visual Understanding](#visual-understanding)
   - [Structured Content Input](#structured-content-input)
 - [Supported Frameworks](#supported-frameworks)
@@ -2159,7 +2160,7 @@ else:
 
 </details>
 
-### Simplex Realtime Speech Conversation Mode <!-- omit in toc -->
+### Simplex Realtime Speech Conversation Mode
 
 
 <details>

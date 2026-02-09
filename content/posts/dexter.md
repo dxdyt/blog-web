@@ -1,9 +1,9 @@
 ---
 title: dexter
-date: 2026-02-04T13:08:46+08:00
+date: 2026-02-09T13:27:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768797767719-dad3da9a6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768797767719-dad3da9a6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAxODE2ODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767859306038-4a5f26e8f324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767859306038-4a5f26e8f324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
 ---
 
 # [virattt/dexter](https://github.com/virattt/dexter)
@@ -93,11 +93,11 @@ cp env.example .env
 # XAI_API_KEY=your-xai-api-key (optional)
 # OPENROUTER_API_KEY=your-openrouter-api-key (optional)
 
+# Institutional-grade market data for agents; AAPL, NVDA, MSFT are free
+# FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
+
 # (Optional) If using Ollama locally
 # OLLAMA_BASE_URL=http://127.0.0.1:11434
-
-# Other required keys
-# FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
 # Web Search (Exa preferred, Tavily fallback)
 # EXASEARCH_API_KEY=your-exa-api-key

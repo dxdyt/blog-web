@@ -1,9 +1,9 @@
 ---
 title: shannon
-date: 2026-02-08T13:22:44+08:00
+date: 2026-02-09T13:26:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MjgxNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765498067718-e6e2c27b2a48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765498067718-e6e2c27b2a48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
 ---
 
 # [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)
