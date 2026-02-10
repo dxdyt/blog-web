@@ -1,9 +1,9 @@
 ---
 title: monty
-date: 2026-02-09T13:26:47+08:00
+date: 2026-02-10T13:27:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768590342579-dfcc5681108b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768590342579-dfcc5681108b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA2MTQ3OTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769208053971-4ea17d87cbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769208053971-4ea17d87cbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
 ---
 
 # [pydantic/monty](https://github.com/pydantic/monty)

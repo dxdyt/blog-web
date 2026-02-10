@@ -1,16 +1,17 @@
 ---
 title: ebook2audiobook
-date: 2026-01-08T12:39:44+08:00
+date: 2026-02-10T13:28:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764377847910-72d7800421b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764377847910-72d7800421b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769295746989-9b2144a4e20c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769295746989-9b2144a4e20c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
 ---
 
 # [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)
 
 # 📚 ebook2audiobook
-CPU/GPU Converter from eBooks to audiobooks with chapters and metadata<br/>
-using XTTSv2, Bark, Vits, Fairseq, YourTTS, Tacotron2 and more. Supports voice cloning and 1158 languages!
+CPU/GPU Converter from E-Book to audiobook with chapters and metadata<br/>
+using XTTSv2, Piper-TTS, Vits, Fairseq, Tacotron2, YourTTS and much more.<br/>
+Supports voice cloning and 1158 languages!
 > [!IMPORTANT]
 **This tool is intended for use with non-DRM, legally acquired eBooks only.** <br>
 The authors are not responsible for any misuse of this software or any resulting legal consequences. <br>
@@ -88,21 +89,21 @@ https://github.com/user-attachments/assets/81c4baad-117e-4db5-ac86-efc2b7fea921
 - [Supported Languages](#supported-languages)
 - [Minimum Requirements](#hardware-requirements)
 - [Usage](#launching-gradio-web-interface)
-  - [Run Locally](#launching-gradio-web-interface)
-    - [Launching Gradio Web Interface](#launching-gradio-web-interface)
+  - [Run Locally](#instructions)
+    - [Launching Gradio Web Interface](#instructions)
     - [Basic Headless Usage](#basic--usage)
     - [Headless Custom XTTS Model Usage](#example-of-custom-model-zip-upload)
     - [Help command output](#help-command-output)
   - [Run Remotely](#run-remotely)
   - [Docker](#docker)
-    - [Steps to Run](#steps-to-run)
+    - [Steps to Run](#docker)
     - [Common Docker Issues](#common-docker-issues)
   
 - [Fine Tuned TTS models](#fine-tuned-tts-models)
   - [Collection of Fine-Tuned TTS Models](#fine-tuned-tts-collection)
   - [Train XTTSv2](#fine-tune-your-own-xttsv2-model)
 - [Supported eBook Formats](#supported-ebook-formats)
-- [Output Formats](#output-formats)
+- [Output Formats](#output-and-process-formats)
 - [Updating to Latest Version](#updating-to-latest-version)
 - [Revert to older Version](#reverting-to-older-versions)
 - [Common Issues](#common-issues)
@@ -111,13 +112,28 @@ https://github.com/user-attachments/assets/81c4baad-117e-4db5-ac86-efc2b7fea921
 
 
 ## Features
-- 📚 Splits eBook into chapters for organized audio.
-- 🎙️ High-quality text-to-speech with [XTTSv2](https://huggingface.co/coqui/XTTS-v2), [Fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms) and much more.
-- 🗣️ Optional voice cloning with your own voice file.
-- 🗣️ Optional custom model with your own training model.
-- 🌍 Supports 1158 languages. [List of Supported languages](https://dl.fbaipublicfiles.com/mms/tts/all-tts-languages.html)
-- 🖥️ Designed to run on 2GB RAM 1GB VRAM Min.
+- 📚 **Convert multiple file formats**: `.epub`, `.mobi`, `.azw3`, `.fb2`, `.lrf`, `.rb`, `.snb`, `.tcr`, `.pdf`, `.txt`, `.rtf`, `.doc`, `.docx`, `.html`, `.odt`, `.azw`, `.tiff`, `.tif`, `.png`, `.jpg`, `.jpeg`, `.bmp`
+- 🔍 **OCR scanning** for files with text pages as images
+- 🔊 **High-quality text-to-speech** from near realtime to near real voice
+- 🗣️ **Optional voice cloning** using your own voice file
+- 🌐 **Supports 1158 languages** ([supported languages list](https://dl.fbaipublicfiles.com/mms/tts/all-tts-languages.html))
+- 💻 **Low-resource friendly** — runs on **2 GB RAM / 1 GB VRAM (minimum)**
+- 🎵 **Audiobook output formats**: mono or stereo `aac`, `flac`, `mp3`, `m4b`, `m4a`, `mp4`, `mov`, `ogg`, `wav`, `webm`
+- 🧠 **SML tags supported** — fine-grained control of breaks, pauses, voice switching and more ([see below](#sml-tags-available))
+- 🧩 **Optional custom model** using your own trained model (XTTSv2 only, other on request)
+- 🎛️ **Fine-tuned preset models** trained by the E2A Team<br/>
+     <i>(Contact us if you need additional fine-tuned models, or if you’d like to share yours to the official preset list)</i>
 
+
+##  Hardware Requirements
+- 2GB RAM min, 8GB recommended.
+- 1GB VRAM min, 4GB recommended.
+- Virtualization enabled if running on windows (Docker only).
+- CPU, XPU (intel, AMD, ARM)*.
+- CUDA, ROCm, JETSON
+- MPS (Apple Silicon CPU)
+
+*<i> Modern TTS engines are very slow on CPU, so use lower quality TTS like YourTTS, Tacotron2 etc..</i>
 
 ## Supported Languages
 | **Arabic (ar)**    | **Chinese (zh)**    | **English (en)**   | **Spanish (es)**   |
@@ -131,15 +147,21 @@ https://github.com/user-attachments/assets/81c4baad-117e-4db5-ac86-efc2b7fea921
 - [**+1130 languages and dialects here**](https://dl.fbaipublicfiles.com/mms/tts/all-tts-languages.html)
 
 
-##  Hardware Requirements
-- 2GB RAM min, 8GB recommended.
-- 1GB VRAM min, 4GB recommended.
-- Virtualization enabled if running on windows (Docker only).
-- CPU (intel, AMD, ARM)*.
-- GPU (CUDA, ROCm, XPU).
-- MPS (Apple Silicon CPU).
+## Supported eBook Formats
+- `.epub`, `.pdf`, `.mobi`, `.txt`, `.html`, `.rtf`, `.chm`, `.lit`,
+  `.pdb`, `.fb2`, `.odt`, `.cbr`, `.cbz`, `.prc`, `.lrf`, `.pml`,
+  `.snb`, `.cbc`, `.rb`, `.tcr`
+- **Best results**: `.epub` or `.mobi` for automatic chapter detection
 
-*<i> Modern TTS engines are very slow on CPU</i>
+## Output and process Formats
+- `.m4b`, `.m4a`, `.mp4`, `.webm`, `.mov`, `.mp3`, `.flac`, `.wav`, `.ogg`, `.aac`
+- Process format can be changed in lib/conf.py
+
+## SML tags available
+- `[break]` — silence (random range **0.3–0.6 sec.**)
+- `[pause]` — silence (random range **1.0–1.6 sec.**)
+- `[pause:N]` — fixed pause (**N sec.**)
+- `[voice:/path/to/voice/file]...[/voice]` — switch voice from default or selected voice from GUI/CLI
 
 > [!IMPORTANT]
 **Before to post an install or bug issue search carefully to the opened and closed issues TAB<br>
@@ -148,6 +170,7 @@ to be sure your issue does not exist already.**
 >[!NOTE]
 **EPUB format lacks any standard structure like what is a chapter, paragraph, preface etc.<br>
 So you should first remove manually any text you don't want to be converted in audio.**
+
 
 ### Instructions 
 1. **Clone repo**
@@ -160,7 +183,7 @@ So you should first remove manually any text you don't want to be converted in a
 
    - **Linux/MacOS**  
      ```bash
-     ./ebook2audiobook.sh  # Run launch script
+     ./ebook2audiobook.command  # Run launch script
      ```
      <i>Note for MacOS users: homebrew is installed to install missing programs.</i>
      
@@ -179,7 +202,7 @@ So you should first remove manually any text you don't want to be converted in a
    
 1. **Open the Web App**: Click the URL provided in the terminal to access the web app and convert eBooks. `http://localhost:7860/`
 2. **For Public Link**:
-   `./ebook2audiobook.sh --share` (Linux/MacOS)
+   `./ebook2audiobook.command --share` (Linux/MacOS)
    `ebook2audiobook.cmd --share` (Windows)
    `python app.py --share` (all OS)
 
@@ -190,7 +213,7 @@ to let the web page reconnect to the new connection socket.**
 ### Basic  Usage
    - **Linux/MacOS**:
      ```bash
-     ./ebook2audiobook.sh --headless --ebook <path_to_ebook_file> --voice [path_to_voice_file] --language [language_code]
+     ./ebook2audiobook.command --headless --ebook <path_to_ebook_file> --voice [path_to_voice_file] --language [language_code]
      ```
    - **Windows**
      ```bash
@@ -208,7 +231,7 @@ to let the web page reconnect to the new connection socket.**
   (must be a .zip file containing the mandatory model files. Example for XTTSv2: config.json, model.pth, vocab.json and ref.wav)
    - **Linux/MacOS**
      ```bash
-     ./ebook2audiobook.sh --headless --ebook <ebook_file_path> --language <language> --custom_model <custom_model_path>
+     ./ebook2audiobook.command --headless --ebook <ebook_file_path> --language <language> --custom_model <custom_model_path>
      ```
    - **Windows**
      ```bash
@@ -223,7 +246,7 @@ to let the web page reconnect to the new connection socket.**
 ### For Detailed Guide with list of all Parameters to use
    - **Linux/MacOS**
      ```bash
-     ./ebook2audiobook.sh --help
+     ./ebook2audiobook.command --help
      ```
    - **Windows**
      ```bash
@@ -327,15 +350,15 @@ Windows:
     ebook2audiobook.cmd --headless --ebook '/path/to/file' --language eng
 Linux/Mac:
     Gradio/GUI:
-    ./ebook2audiobook.sh
+    ./ebook2audiobook.command
     Headless mode:
-    ./ebook2audiobook.sh --headless --ebook '/path/to/file' --language eng
+    ./ebook2audiobook.command --headless --ebook '/path/to/file' --language eng
 
 Docker build image:
     Windows:
     ebook2audiobook.cmd --script_mode build_docker
     Linux/Mac
-    ./ebook2audiobook.sh --script_mode build_docker
+    ./ebook2audiobook.command --script_mode build_docker
 Docker run image:
     Gradio/GUI:
         CPU:
@@ -360,24 +383,33 @@ Docker run image:
         JETSON:
         docker run --runtime nvidia --rm -it -v "/my/real/ebooks/folder/absolute/path:/app/ebooks" -v "/my/real/output/folder/absolute/path:/app/audiobooks" -p 7860:7860 ebook2audiobook:jetson[51/60/61 etc...] --headless --ebook "/app/ebooks/myfile.pdf" [--voice /app/my/voicepath/voice.mp3 etc..]
 
-    Docker Compose (i.e. for cuda 11.8, add --build to rebuild):
-        DEVICE_TAG=cu118 docker compose up -d
+Docker Compose (i.e. cuda 12.8:
+        Build
+            DEVICE_TAG=cu128 docker compose --progress plain --profile gpu up -d --build
+        Run Gradio GUI:
+            DEVICE_TAG=cu128 docker compose --profile gpu up -d
+        Run Headless mode:
+            DEVICE_TAG=cu128 docker compose --profile gpu run --rm ebook2audiobook --headless --ebook "/app/ebooks/myfile.pdf" [--voice /app/my/voicepath/voice.mp3 etc..]
 
-    Podman Compose (i.e. for cuda 12.4, add --build to rebuild):
-        DEVICE_TAG=cu124 podman-compose up -d
+Podman Compose (i.e. cuda 12.8:
+        Build
+            DEVICE_TAG=cu128 podman-compose -f podman-compose.yml up -d --build
+        Run Gradio GUI:
+            DEVICE_TAG=cu128 podman-compose -f podman-compose.yml up -d
+        Run Headless mode:
+            DEVICE_TAG=cu128 podman-compose -f podman-compose.yml run --rm ebook2audiobook --headless --ebook "/app/ebooks/myfile.pdf" [--voice /app/my/voicepath/voice.mp3 etc..]
 
     * MPS is not exposed in docker so CPU must be used.
 
-Tip: to add of silence (random duration between 1.0 and 1.8 seconds) into your text just use "###" or "[pause]".
-
+SML tags available:
+        [break]` — silence (random range **0.3–0.6 sec.**)
+        [pause]` — silence (random range **1.0–1.6 sec.**)
+        [pause:N]` — fixed pause (**N sec.**)
+        [voice:/path/to/voice/file]...[/voice]` — switch voice from default or selected voice from GUI/CLI
 ```
 
 NOTE: in gradio/gui mode, to cancel a running conversion, just click on the [X] from the ebook upload component.
-
-TIP: if it needs some more pauses, just add '###' or 
-'[pause]' between the words you wish more pause. 
-one [pause] is a random between 0.8 to 1.6 seconds
-
+TIP: if it needs some more pause, add '[pause:3]' for 3 sec. etc.
 
 ### Docker
 1. **Clone the Repository**:
@@ -391,7 +423,7 @@ one [pause] is a random between 0.8 to 1.6 seconds
    ebook2audiobook.cmd --script_mode build_docker
 
    # Linux/MacOS
-   ./ebook2audiobook.sh --script_mode build_docker 
+   ./ebook2audiobook.command --script_mode build_docker 
 ```
 4. **Run the Container:**
 ```bash
@@ -453,21 +485,11 @@ one [pause] is a random between 0.8 to 1.6 seconds
 
 For an XTTSv2 custom model a ref audio clip of the voice reference is mandatory:
 
-## Supported eBook Formats
-- `.epub`, `.pdf`, `.mobi`, `.txt`, `.html`, `.rtf`, `.chm`, `.lit`,
-  `.pdb`, `.fb2`, `.odt`, `.cbr`, `.cbz`, `.prc`, `.lrf`, `.pml`,
-  `.snb`, `.cbc`, `.rb`, `.tcr`
-- **Best results**: `.epub` or `.mobi` for automatic chapter detection
-
-## Output and process Formats
-- `.m4b`, `.m4a`, `.mp4`, `.webm`, `.mov`, `.mp3`, `.flac`, `.wav`, `.ogg`, `.aac`
-- Process format can be changed in lib/conf.py
-
 ## Your own Ebook2Audiobook customization
 You are free to modify libs/conf.py to add or remove the settings you wish. If you plan to do it just make
 a copy of the original conf.py so on each ebook2audiobook update you will backup your modified conf.py and put
 back the original one. You must plan the same process for models.py. If you wish to make your own custom model
-as an official ebook2audiobook fine tuned model so please contact us and we'll ad it to the models.py list.
+as an official ebook2audiobook fine tuned model so please contact us and we'll add it to the presets list.
 
 ## Reverting to older Versions
 Releases can be found -> [here](https://github.com/DrewThomasson/ebook2audiobook/releases)
@@ -489,7 +511,7 @@ git checkout tags/VERSION_NUM # Locally/Compose -> Example: git checkout tags/v2
 
 
 ## What we need help with! 🙌 
-## [Full list of things can be found here](https://github.com/DrewThomasson/ebook2audiobook/issues/32)
+## [Roadmap and Full list of things can be found here](https://github.com/DrewThomasson/ebook2audiobook/issues/32)
 - Any help from people speaking any of the supported languages to help us improve the models
   
 <!--

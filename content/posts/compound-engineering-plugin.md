@@ -1,21 +1,24 @@
 ---
 title: compound-engineering-plugin
-date: 2026-01-22T12:47:55+08:00
+date: 2026-02-10T13:28:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767199289299-e9aa3ffba350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767199289299-e9aa3ffba350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkwNTcyNjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766898211697-158d058acfe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766898211697-158d058acfe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
 ---
 
 # [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)
 
 # Compound Marketplace
 
+[![Build Status](https://github.com/EveryInc/compound-engineering-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/EveryInc/compound-engineering-plugin/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@every-env/compound-plugin)](https://www.npmjs.com/package/@every-env/compound-plugin)
+
 A Claude Code plugin marketplace featuring the **Compound Engineering Plugin** — tools that make each unit of engineering work easier than the last.
 
 ## Claude Code Install
 
 ```bash
-/plugin marketplace add https://github.com/kieranklaassen/compound-engineering-plugin
+/plugin marketplace add https://github.com/EveryInc/compound-engineering-plugin
 /plugin install compound-engineering
 ```
 
@@ -37,9 +40,27 @@ Local dev:
 bun run src/index.ts install ./plugins/compound-engineering --to opencode
 ```
 
-OpenCode output is written to `~/.opencode` by default, with `opencode.json` at the root and `agents/`, `skills/`, and `plugins/` alongside it.
+OpenCode output is written to `~/.config/opencode` by default, with `opencode.json` at the root and `agents/`, `skills/`, and `plugins/` alongside it.
 Both provider targets are experimental and may change as the formats evolve.
 Codex output is written to `~/.codex/prompts` and `~/.codex/skills`, with each Claude command converted into both a prompt and a skill (the prompt instructs Codex to load the corresponding skill). Generated Codex skill descriptions are truncated to 1024 characters (Codex limit).
+
+## Sync Personal Config
+
+Sync your personal Claude Code config (`~/.claude/`) to OpenCode or Codex:
+
+```bash
+# Sync skills and MCP servers to OpenCode
+bunx @every-env/compound-plugin sync --target opencode
+
+# Sync to Codex
+bunx @every-env/compound-plugin sync --target codex
+```
+
+This syncs:
+- Personal skills from `~/.claude/skills/` (as symlinks)
+- MCP servers from `~/.claude/settings.json`
+
+Skills are symlinked (not copied) so changes in Claude Code are reflected immediately.
 
 ## Workflow
 
