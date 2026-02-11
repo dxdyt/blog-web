@@ -1,9 +1,9 @@
 ---
 title: gitbutler
-date: 2026-02-10T13:27:51+08:00
+date: 2026-02-11T13:26:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769208053971-4ea17d87cbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769208053971-4ea17d87cbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762245832997-d214d359c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762245832997-d214d359c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
 ---
 
 # [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)

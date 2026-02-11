@@ -1,9 +1,9 @@
 ---
 title: shannon
-date: 2026-02-10T13:26:44+08:00
+date: 2026-02-11T13:26:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768286626597-3f47880c3843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768286626597-3f47880c3843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768677675301-627aae4d9427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
 ---
 
 # [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)
@@ -129,12 +129,10 @@ cd shannon
 
 # Option A: Export environment variables
 export ANTHROPIC_API_KEY="your-api-key"              # or CLAUDE_CODE_OAUTH_TOKEN
-export CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000           # recommended
 
 # Option B: Create a .env file
 cat > .env << 'EOF'
 ANTHROPIC_API_KEY=your-api-key
-CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000
 EOF
 
 # 3. Run a pentest

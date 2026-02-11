@@ -1,9 +1,9 @@
 ---
 title: gh-aw
-date: 2026-02-10T13:27:31+08:00
+date: 2026-02-11T13:26:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768638687896-35bde623d532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768638687896-35bde623d532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3MDExOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766498019113-133d6eb646b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766498019113-133d6eb646b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
 ---
 
 # [github/gh-aw](https://github.com/github/gh-aw)
