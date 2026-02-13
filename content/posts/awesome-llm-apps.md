@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2026-02-11T13:26:59+08:00
+date: 2026-02-13T13:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766498019113-133d6eb646b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766498019113-133d6eb646b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA3ODc1NDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766488679837-b87f8311a82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766488679837-b87f8311a82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -58,11 +58,11 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 <table align="center" cellpadding="16" cellspacing="12">
   <tr>
     <td align="center">
-      <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" title="TinyFish">
+      <a href="https://github.com/tinyfish-io/tinyfish-cookbook" target="_blank" rel="noopener" title="TinyFish">
         <img src="docs/banner/sponsors/tinyfish.png" alt="TinyFish" width="500">
       </a>
       <br>
-      <a href="https://bit.ly/4ci0r4v" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+      <a href="https://github.com/tinyfish-io/tinyfish-cookbook" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
         TinyFish
       </a>
     </td>

@@ -1,9 +1,9 @@
 ---
 title: Hands-On-Large-Language-Models
-date: 2026-01-02T12:41:11+08:00
+date: 2026-02-13T13:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764377723685-31e60ed8e550?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764377723685-31e60ed8e550?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766488679837-b87f8311a82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766488679837-b87f8311a82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
 ---
 
 # [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
