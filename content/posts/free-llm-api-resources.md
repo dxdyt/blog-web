@@ -1,9 +1,9 @@
 ---
 title: free-llm-api-resources
-date: 2026-02-12T13:24:18+08:00
+date: 2026-02-14T13:08:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769251846168-6181604d0682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA4NzM4MDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769251846168-6181604d0682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA4NzM4MDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767885588830-31f05bc57de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEwNDU2ODN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767885588830-31f05bc57de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEwNDU2ODN8&ixlib=rb-4.1.0
 ---
 
 # [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources)

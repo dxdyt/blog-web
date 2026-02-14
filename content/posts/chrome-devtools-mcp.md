@@ -1,9 +1,9 @@
 ---
 title: chrome-devtools-mcp
-date: 2026-02-13T13:20:36+08:00
+date: 2026-02-14T13:08:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760807741161-2818c3f088c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760807741161-2818c3f088c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769115032967-f9a7e5342ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEwNDU2ODN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769115032967-f9a7e5342ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEwNDU2ODN8&ixlib=rb-4.1.0
 ---
 
 # [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
@@ -123,11 +123,30 @@ Chrome DevTools MCP will not start the browser instance automatically using this
 
 <details>
   <summary>Claude Code</summary>
-    Use the Claude Code CLI to add the Chrome DevTools MCP server (<a href="https://code.claude.com/docs/en/mcp">guide</a>):
+
+**Install via CLI (MCP only)**
+
+Use the Claude Code CLI to add the Chrome DevTools MCP server (<a href="https://code.claude.com/docs/en/mcp">guide</a>):
 
 ```bash
 claude mcp add chrome-devtools --scope user npx chrome-devtools-mcp@latest
 ```
+
+**Install as a Plugin (MCP + Skills)**
+
+To install Chrome DevTools MCP with skills, add the marketplace registry in Claude Code:
+
+```sh
+/plugin marketplace add ChromeDevTools/chrome-devtools-mcp
+```
+
+Then, install the plugin:
+
+```sh
+/plugin install chrome-devtools-mcp
+```
+
+Restart Claude Code to have the MCP server and skills load (check with `/skills`).
 
 </details>
 
@@ -273,6 +292,30 @@ The same way chrome-devtools-mcp can be configured for JetBrains Junie in `Setti
 In **Kiro Settings**, go to `Configure MCP` > `Open Workspace or User MCP Config` > Use the configuration snippet provided above.
 
 Or, from the IDE **Activity Bar** > `Kiro` > `MCP Servers` > `Click Open MCP Config`. Use the configuration snippet provided above.
+
+</details>
+
+<details>
+  <summary>Katalon Studio</summary>
+
+The Chrome DevTools MCP server can be used with <a href="https://docs.katalon.com/katalon-studio/studioassist/mcp-servers/setting-up-chrome-devtools-mcp-server-for-studioassist">Katalon StudioAssist</a> via an MCP proxy.
+
+**Step 1:** Install the MCP proxy by following the <a href="https://docs.katalon.com/katalon-studio/studioassist/mcp-servers/setting-up-mcp-proxy-for-stdio-mcp-servers">MCP proxy setup guide</a>.
+
+**Step 2:** Start the Chrome DevTools MCP server with the proxy:
+
+```bash
+mcp-proxy --transport streamablehttp --port 8080 -- npx -y chrome-devtools-mcp@latest
+```
+
+**Note:** You may need to pick another port if 8080 is already in use.
+
+**Step 3:** In Katalon Studio, add the server to StudioAssist with the following settings:
+
+- **Connection URL:** `http://127.0.0.1:8080/mcp`
+- **Transport type:** `HTTP`
+
+Once connected, the Chrome DevTools MCP tools will be available in StudioAssist.
 
 </details>
 
@@ -679,11 +722,4 @@ Please consult [these instructions](./docs/debugging-android.md).
 
 ## Known limitations
 
-### Operating system sandboxes
-
-Some MCP clients allow sandboxing the MCP server using macOS Seatbelt or Linux
-containers. If sandboxes are enabled, `chrome-devtools-mcp` is not able to start
-Chrome that requires permissions to create its own sandboxes. As a workaround,
-either disable sandboxing for `chrome-devtools-mcp` in your MCP client or use
-`--browser-url` to connect to a Chrome instance that you start manually outside
-of the MCP client sandbox.
+See [Troubleshooting](./docs/troubleshooting.md).
