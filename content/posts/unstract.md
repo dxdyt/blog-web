@@ -1,9 +1,9 @@
 ---
 title: unstract
-date: 2025-02-18T12:19:53+08:00
+date: 2026-02-15T13:19:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1656489782764-443559c29211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1656489782764-443559c29211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1770246875321-16e16c247ff7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770246875321-16e16c247ff7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
 ---
 
 # [Zipstack/unstract](https://github.com/Zipstack/unstract)
@@ -13,13 +13,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1656489782764-443559c292
 
 # Unstract
 
-## Intelligent Document Processing 2.0 (IDP 2.0) Platform Powered by Large Language Models
+## The Data Layer for your Agentic Workflows—Automate Document-based workflows with close to 100% accuracy!
 
-#### No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents
 
-## 
-
-[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FZipstack%2Funstract%2Frefs%2Fheads%2Fmain%2Fpyproject.toml)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+![GitHub License](https://img.shields.io/github/license/Zipstack/unstract)
+![Docker Pulls](https://img.shields.io/docker/pulls/unstract/backend)
 [![CLA assistant](https://cla-assistant.io/readme/badge/Zipstack/unstract)](https://cla-assistant.io/Zipstack/unstract)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Zipstack/unstract/main.svg)](https://results.pre-commit.ci/latest/github/Zipstack/unstract/main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Zipstack_unstract&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Zipstack_unstract)
@@ -32,26 +32,44 @@ featuredImagePreview: https://images.unsplash.com/photo-1656489782764-443559c292
 
 ## 🤖 Prompt Studio
 
-Prompt Studio's primary reason for existence is so you can develop the necessary prompts for document data extraction super efficiently. It is a purpose-built environment that makes this not just easy for you—but, lot of fun! The document sample, its variants, the prompts you're developing, outputs from different LLMs, the schema you're developing, costing details of the extraction and various tools that let you measure the effectiveness of your prompts are just a click away and easily accessible. Prompt Studio is designed for effective and high speed development and iteration of prompts for document data extraction. Welcome to IDP 2.0!
-
+Prompt Studio is a purpose-built environment that supercharges your schema definition efforts. Compare outputs from different LLMs side-by-side, keep tab on costs while you develop generic prompts that work across wide-ranging document variations. And when you're ready, launch extraction APIs with a single click.
 
 ![img Prompt Studio](docs/assets/prompt_studio.png)
 
-## 🧘‍♀️ Three step nirvana with Workflow Studio
+## 🔌 Integrations that suit your environment
 
-Automate critical business processes that involve complex documents with a human in the loop. Go beyond RPA with the power of Large Language Models.
+Once you've used Prompt Studio to define your schema, Unstract makes it easy to integrate into your existing workflows. Simply choose the integration type that best fits your environment:
 
-🌟 **Step 1**: Add documents to no-code Prompt Studio and do prompt engineering to extract required fields <br>
-🌟 **Step 2**: Configure Prompt Studio project as API deployment or configure input source and output destination for ETL Pipeline<br>
-🌟 **Step 3**: Deploy Workflows as unstructured data APIs or unstructured data ETL Pipelines!
+| Integration Type | Description | Best For | Documentation |
+|------------------|-------------|----------|---------------|
+| 🖥️ **MCP Servers** | Run Unstract as an MCP Server to provide structured data extraction to Agents or LLMs in your ecosystem. | Developers building **Agentic/LLM apps/tools** that speak MCP. | [Unstract MCP Server Docs](https://docs.unstract.com/unstract/unstract_platform/mcp/unstract_platform_mcp_server/) |
+| 🌐 **API Deployments** | Turn any document into JSON with an API call. Deploy any Prompt Studio project as a REST API endpoint with a single click. | Teams needing **programmatic access** in apps, services, or custom tooling. | [API Deployment Docs](https://docs.unstract.com/unstract/unstract_platform/api_deployment/unstract_api_deployment_intro/) |
+| ⚙️ **ETL Pipelines** | Embed Unstract directly into your ETL jobs to transform unstructured data before loading it into your warehouse / database. | **Engineering and Data engineering teams** that need to batch process documents into clean JSON. | [ETL Pipelines Docs](https://docs.unstract.com/unstract/unstract_platform/etl_pipeline/unstract_etl_pipeline_intro/) |
+| 🧩 **n8n Nodes** | Use Unstract as ready-made nodes in n8n workflows for drag-and-drop automation. | **Low-code users** and **ops teams** automating workflows. | [Unstract n8n Nodes Docs](https://docs.unstract.com/unstract/unstract_platform/api_deployment/unstract_api_deployment_n8n_custom_node/) |
 
-![img Using Unstract](docs/assets/Using_Unstract.png)
+## ☁️ Getting Started (Cloud / Enterprise)
 
-## 🚀 Getting started
+The easy-peasy way to try Unstract is to [sign up for a **14-day free trial**](https://unstract.com/start-for-free/). Give Unstract a spin now!  
+
+Unstract Cloud also comes with some really awesome features that give serious accuracy boosts to agentic/LLM-powered document-centric workflows in the enterprise.
+
+| Feature | Description | Documentation |
+|---------|-------------|---------------|
+| 🧪 **LLMChallenge** | Uses two Large Language Models to ensure trustworthy output. You either get the right response or no response at all. | [Docs](https://docs.unstract.com/unstract/unstract_platform/features/llm_challenge/llm_challenge_intro/) |
+| ⚡ **SinglePass Extraction** | Reduces LLM token usage by up to **8x**, dramatically cutting costs. | [Docs](https://docs.unstract.com/unstract/editions/cloud_edition/#singlepass-extraction) |
+| 📉 **SummarizedExtraction** | Reduces LLM token usage by up to **6x**, saving costs while keeping accuracy. | [Docs](https://docs.unstract.com/unstract/unstract_platform/features/summarized_extraction/summarized_extraction_intro/) |
+| 👀 **Human-In-The-Loop** | Side-by-side comparison of extracted value and source document, with highlighting for human review and tweaking. | [Docs](https://docs.unstract.com/unstract/unstract_platform/human_quality_review/human_quality_review_intro/) |
+| 🔐 **SSO Support** | Enterprise-ready authentication options for seamless onboarding and off-boarding. | [Docs](https://docs.unstract.com/unstract/editions/cloud_edition/#enterprise-features) |
+
+## ⏩ Quick Start Guide
+
+Unstract comes well documented. You can get introduced to the [basics of Unstract](https://docs.unstract.com/unstract/), and [learn how to connect](https://docs.unstract.com/unstract/unstract_platform/setup_accounts/whats_needed) various systems like LLMs, Vector Databases, Embedding Models and Text Extractors to it. The easiest way to wet your feet is to go through our [Quick Start Guide](https://docs.unstract.com/unstract/unstract_platform/quick_start) where you actually get to do some prompt engineering in Prompt Studio and launch an API to structure varied credit card statements!
+
+## 🚀 Getting started (self-hosted)
 
 ### System Requirements
 
-- 8GB RAM (recommended)
+- 8GB RAM (minimum)
 
 ### Prerequisites
 
@@ -66,17 +84,40 @@ Next, either download a release or clone this repo and do the following:
 ✅ Now visit [http://frontend.unstract.localhost](http://frontend.unstract.localhost) in your browser <br>
 ✅ Use username and password `unstract` to login
 
-
 That's all there is to it!
 
-Follow [these steps](backend/README.md#authentication) to change the default username and password.  
-See [user guide](https://docs.unstract.com/unstract/unstract_platform/user_guides/run_platform) for more details on managing the platform.  
+Follow [these steps](backend/README.md#authentication) to change the default username and password.
+See [user guide](https://docs.unstract.com/unstract/unstract_platform/user_guides/run_platform) for more details on managing the platform.
 
 Another really quick way to experience Unstract is by signing up for our [hosted version](https://us-central.unstract.com/). It comes with a 14 day free trial!
 
-## ⏩ Quick Start Guide
+## 📄 Supported File Types
 
-Unstract comes well documented. You can get introduced to the [basics of Unstract](https://docs.unstract.com/unstract/), and [learn how to connect](https://docs.unstract.com/unstract/unstract_platform/setup_accounts/whats_needed) various systems like LLMs, Vector Databases, Embedding Models and Text Extractors to it. The easiest way to wet your feet is to go through our [Quick Start Guide](https://docs.unstract.com/unstract/unstract_platform/quick_start) where you actually get to do some prompt engineering in Prompt Studio and launch an API to structure varied credit card statements!
+Unstract supports a wide range of file formats for document processing:
+
+| Category | Format | Description |
+|----------|---------|-------------|
+| **Word Processing** | DOCX | Microsoft Word Open XML |
+| | DOC | Microsoft Word |
+| | ODT | OpenDocument Text |
+| **Presentation** | PPTX | Microsoft PowerPoint Open XML |
+| | PPT | Microsoft PowerPoint |
+| | ODP | OpenDocument Presentation |
+| **Spreadsheet** | XLSX | Microsoft Excel Open XML |
+| | XLS | Microsoft Excel |
+| | ODS | OpenDocument Spreadsheet |
+| **Document & Text** | PDF | Portable Document Format |
+| | TXT | Plain Text |
+| | CSV | Comma-Separated Values |
+| | JSON | JavaScript Object Notation |
+| **Image** | BMP | Bitmap Image |
+| | GIF | Graphics Interchange Format |
+| | JPEG | Joint Photographic Experts Group |
+| | JPG | Joint Photographic Experts Group |
+| | PNG | Portable Network Graphics |
+| | TIF | Tagged Image File Format |
+| | TIFF | Tagged Image File Format |
+| | WEBP | Web Picture Format |
 
 ## 🤝 Ecosystem support
 
@@ -93,8 +134,6 @@ Unstract comes well documented. You can get introduced to the [basics of Unstrac
 | <img src="docs/assets/3rd_party/palm.png" width="32"/>         | Google PaLM                 | ✅ Working |
 | <img src="docs/assets/3rd_party/anyscale.png" width="32"/>     | Anyscale                    | ✅ Working |
 | <img src="docs/assets/3rd_party/mistral_ai.png" width="32"/>   | Mistral AI                  | ✅ Working |
-| <img src="docs/assets/3rd_party/replicate.png" width="32"/>    | Replicate                   | 🗓️ Coming soon! |
-
 
 ### Vector Databases
 
@@ -106,8 +145,6 @@ Unstract comes well documented. You can get introduced to the [basics of Unstrac
 |<img src="docs/assets/3rd_party/postgres.png" width="32"/>| PostgreSQL | ✅ Working |
 |<img src="docs/assets/3rd_party/milvus.png" width="32"/>| Milvus | ✅ Working |
 
-
-
 ### Embeddings
 
 || Provider | Status |
@@ -116,15 +153,17 @@ Unstract comes well documented. You can get introduced to the [basics of Unstrac
 |<img src="docs/assets/3rd_party/azure_openai.png" width="32"/>| Azure OpenAI | ✅ Working  |
 |<img src="docs/assets/3rd_party/palm.png" width="32"/>| Google PaLM | ✅ Working  |
 |<img src="docs/assets/3rd_party/ollama.png" width="32"/>| Ollama | ✅ Working |
+|<img src="docs/assets/3rd_party/vertex_ai.png" width="32"/>    | VertexAI | ✅ Working |
+| <img src="docs/assets/3rd_party/bedrock.png" width="32"/>      | Bedrock                     | ✅ Working |
 
 ### Text Extractors
 
-|| Provider | Status |
-|---|---|---|
-|<img src="docs/assets/unstract_u_logo.png" width="32"/>| Unstract LLMWhisperer | ✅ Working |
-|<img src="docs/assets/3rd_party/unstructured_io.png" width="32"/>| Unstructured.io Community | ✅ Working |
+|| Provider                   | Status |
+|---|----------------------------|---|
+|<img src="docs/assets/unstract_u_logo.png" width="32"/>| Unstract LLMWhisperer V2   | ✅ Working |
+|<img src="docs/assets/3rd_party/unstructured_io.png" width="32"/>| Unstructured.io Community  | ✅ Working |
 |<img src="docs/assets/3rd_party/unstructured_io.png" width="32"/>| Unstructured.io Enterprise | ✅ Working |
-|<img src="docs/assets/3rd_party/llamaindex.png" width="32"/>| LlamaIndex Parse | ✅ Working |
+|<img src="docs/assets/3rd_party/llamaindex.png" width="32"/>| LlamaIndex Parse           | ✅ Working |
 
 ### ETL Sources
 
@@ -137,20 +176,19 @@ Unstract comes well documented. You can get introduced to the [basics of Unstrac
 |<img src="docs/assets/3rd_party/google_drive.png" width="32"/>| Google Drive | ✅ Working |
 |<img src="docs/assets/3rd_party/dropbox.png" width="32"/>| Dropbox | ✅ Working |
 |<img src="docs/assets/3rd_party/sftp.png" width="32"/>| SFTP | ✅ Working |
-|<img src="docs/assets/3rd_party/box.png" width="32"/>| Box | 🗓️ Coming soon! |
-|<img src="docs/assets/3rd_party/http.png" width="32"/>| HTTP/HTTPS | 🗓️ Coming soon! |
 
 ### ETL Destinations
 
-|| Provider | Status |
-|---|---|---|
-|<img src="docs/assets/3rd_party/snowflake.png" width="32"/>| Snowflake | ✅ Working |
-|<img src="docs/assets/3rd_party/amazon_redshift.png" width="32"/>| Amazon Redshift | ✅ Working |
-|<img src="docs/assets/3rd_party/google_bigquery.png" width="32"/>| Google BigQuery | ✅ Working |
-|<img src="docs/assets/3rd_party/postgres.png" width="32"/>| PostgreSQL | ✅ Working |
-|<img src="docs/assets/3rd_party/mysql.png" width="32"/>| MySQL | ✅ Working |
-|<img src="docs/assets/3rd_party/mariadb.png" width="32"/>| MariaDB | ✅ Working |
-|<img src="docs/assets/3rd_party/ms_sql.png" width="32"/>| Microsoft SQL Server | ✅ Working |
+|                                                                   | Provider             | Status |
+|-------------------------------------------------------------------|----------------------|---|
+| <img src="docs/assets/3rd_party/snowflake.png" width="32"/>       | Snowflake            | ✅ Working |
+| <img src="docs/assets/3rd_party/amazon_redshift.png" width="32"/> | Amazon Redshift      | ✅ Working |
+| <img src="docs/assets/3rd_party/google_bigquery.png" width="32"/> | Google BigQuery      | ✅ Working |
+| <img src="docs/assets/3rd_party/postgres.png" width="32"/>        | PostgreSQL           | ✅ Working |
+| <img src="docs/assets/3rd_party/mysql.png" width="32"/>           | MySQL                | ✅ Working |
+| <img src="docs/assets/3rd_party/mariadb.png" width="32"/>         | MariaDB              | ✅ Working |
+| <img src="docs/assets/3rd_party/ms_sql.png" width="32"/>          | Microsoft SQL Server | ✅ Working |
+| <img src="docs/assets/3rd_party/oracle.png" width="32"/>          | Oracle               | ✅ Working |
 
 ## 🙌 Contributing
 
@@ -164,9 +202,9 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for fur
 
 ## 🚨 Backup encryption key
 
-Do copy the value of `ENCRYPTION_KEY` config in either `backend/.env` or `platform-service/.env` file to a secure location.  
+Do copy the value of `ENCRYPTION_KEY` config in either `backend/.env` or `platform-service/.env` file to a secure location.
 
-Adapter credentials are encrypted by the platform using this key. Its loss or change will make all existing adapters inaccessible!  
+Adapter credentials are encrypted by the platform using this key. Its loss or change will make all existing adapters inaccessible!
 
 ## 📊 A note on analytics
 

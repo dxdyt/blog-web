@@ -1,9 +1,9 @@
 ---
 title: tambo
-date: 2026-02-13T13:20:13+08:00
+date: 2026-02-15T13:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760807741161-2818c3f088c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760807741161-2818c3f088c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770860354865-415bd1e5af6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770860354865-415bd1e5af6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
 ---
 
 # [tambo-ai/tambo](https://github.com/tambo-ai/tambo)
