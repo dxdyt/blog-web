@@ -1,9 +1,9 @@
 ---
 title: zvec
-date: 2026-02-15T13:18:53+08:00
+date: 2026-02-16T13:26:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768861020377-3fdead073d13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768861020377-3fdead073d13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768321140168-fa4795cb03f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768321140168-fa4795cb03f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/zvec](https://github.com/alibaba/zvec)
@@ -24,6 +24,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1768861020377-3fdead073d
   <a href="https://pypi.org/project/zvec/"><img src="https://img.shields.io/pypi/v/zvec.svg" alt="PyPI Release"/></a>
   <a href="https://pypi.org/project/zvec/"><img src="https://img.shields.io/pypi/pyversions/zvec.svg" alt="Python Versions"/></a>
   <a href="https://github.com/alibaba/zvec/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"/></a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/20830" target="_blank"><img src="https://trendshift.io/api/badge/repositories/20830" alt="alibaba%2Fzvec | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
 <p align="center">

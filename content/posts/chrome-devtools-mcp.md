@@ -1,9 +1,9 @@
 ---
 title: chrome-devtools-mcp
-date: 2026-02-15T13:18:44+08:00
+date: 2026-02-16T13:26:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770860354865-415bd1e5af6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770860354865-415bd1e5af6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770462988088-36a42abcc35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770462988088-36a42abcc35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)

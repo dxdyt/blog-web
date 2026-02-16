@@ -1,9 +1,9 @@
 ---
 title: wifi-densepose
-date: 2026-02-15T13:18:58+08:00
+date: 2026-02-16T13:26:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765498069280-b863094c17bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765498069280-b863094c17bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768612351277-e9647ad832e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768612351277-e9647ad832e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose)

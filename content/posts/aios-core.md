@@ -1,9 +1,9 @@
 ---
 title: aios-core
-date: 2026-02-15T13:18:21+08:00
+date: 2026-02-16T13:26:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770246875321-16e16c247ff7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770246875321-16e16c247ff7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770419252709-322eb8d259b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770419252709-322eb8d259b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core)
@@ -21,6 +21,55 @@ featuredImagePreview: https://images.unsplash.com/photo-1770246875321-16e16c247f
 [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-Contributor%20Covenant-blue.svg)](CODE_OF_CONDUCT.md)
 
 Framework de Desenvolvimento Auto-Modificável Alimentado por IA. Fundado em Desenvolvimento Ágil Dirigido por Agentes, oferecendo capacidades revolucionárias para desenvolvimento dirigido por IA e muito mais. Transforme qualquer domínio com expertise especializada de IA: desenvolvimento de software, entretenimento, escrita criativa, estratégia de negócios, bem-estar pessoal e muito mais.
+
+## Comece Aqui (10 Min)
+
+Se é sua primeira vez no AIOS, siga este caminho linear:
+
+1. Instale em um projeto novo ou existente:
+```bash
+# novo projeto
+npx aios-core init meu-projeto
+
+# projeto existente
+cd seu-projeto
+npx aios-core install
+```
+2. Escolha sua IDE/CLI e o caminho de ativação:
+- Claude Code: `/agent-name`
+- Gemini CLI: `/aios-menu` → `/aios-<agent>`
+- Codex CLI: `/skills` → `aios-<agent-id>`
+- Cursor/Copilot/AntiGravity: siga os limites e workarounds em `docs/ide-integration.md`
+3. Ative 1 agente e confirme o greeting.
+4. Rode 1 comando inicial (`*help` ou equivalente) para validar first-value.
+
+Definição de first-value (binária): ativação de agente + greeting válido + comando inicial com output útil em <= 10 minutos.
+
+
+## Compatibilidade de Hooks por IDE (Realidade AIOS 4.0.4)
+
+Muitos recursos avançados do AIOS dependem de eventos de ciclo de vida (hooks). A tabela abaixo mostra a paridade real entre IDEs/plataformas:
+
+| IDE/CLI | Paridade de Hooks vs Claude | Impacto Prático |
+| --- | --- | --- |
+| Claude Code | Completa (referência) | Automação máxima de contexto, guardrails e auditoria |
+| Gemini CLI | Alta (eventos nativos) | Cobertura forte de automações pre/post tool e sessão |
+| Codex CLI | Parcial/limitada | Parte das automações depende de `AGENTS.md`, `/skills`, MCP e fluxo operacional |
+| Cursor | Sem lifecycle hooks equivalentes | Menor automação de pre/post tool; foco em regras, MCP e fluxo do agente |
+| GitHub Copilot | Sem lifecycle hooks equivalentes | Menor automação de sessão/tooling; foco em instruções de repositório + MCP no VS Code |
+| AntiGravity | Workflow-based (não hook-based) | Integração por workflows, não por eventos de hook equivalentes ao Claude |
+
+Impactos e mitigação detalhados: `docs/ide-integration.md`.
+
+## Acknowledgments & Attribution
+
+Synkra AIOS was originally derived from the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD), created by [Brian Madison](https://github.com/bmadcode) (BMad Code, LLC). We gratefully acknowledge the BMad Method for providing the foundation from which this project began.
+
+**Important:** This project is **NOT affiliated with, endorsed by, or sanctioned by** the BMad Method or BMad Code, LLC. Contributors appearing in the git history from the original BMad Method repository do not imply active participation in or endorsement of Synkra AIOS.
+
+Since its origin, AIOS has evolved significantly with its own architecture, terminology, and features (v4.x+), and does not depend on BMad for current operation. The BMad Method remains an excellent framework in its own right — please visit the [official BMad Method repository](https://github.com/bmad-code-org/BMAD-METHOD) to learn more.
+
+BMad, BMad Method, and BMad Core are trademarks of BMad Code, LLC. See [TRADEMARK.md](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/TRADEMARK.md) for usage guidelines.
 
 ## Visão Geral
 
@@ -90,10 +139,10 @@ Esta abordagem de duas fases elimina tanto a **inconsistência de planejamento**
 - **[Aprender como usar o AIOS](docs/guides/user-guide.md)** → Guia completo do usuário e passo a passo
 - **[Ver agentes IA disponíveis](#agentes-disponíveis)** → Papéis especializados para sua equipe
 - **[Explorar usos não técnicos](#-além-do-desenvolvimento-de-software---squads)** → Escrita criativa, negócios, bem-estar, educação
-- **[Criar meus próprios agentes IA](#criando-seu-próprio-expansion-pack)** → Construir agentes para seu domínio
+- **[Criar meus próprios agentes IA](#criando-seu-próprio-squad)** → Construir agentes para seu domínio
 - **[Navegar Squads prontos](docs/guides/squads-overview.md)** → Veja como criar e usar equipes de agentes IA
 - **[Entender a arquitetura](docs/architecture/ARCHITECTURE-INDEX.md)** → Mergulho técnico profundo
-- **[Juntar-se à comunidade](https://discord.gg/gk8jAdXWmj)** → Obter ajuda e compartilhar ideias
+- **[Reportar problemas](https://github.com/SynkraAI/aios-core/issues)** → Bug reports e feature requests
 
 ## Importante: Mantenha Sua Instalação AIOS Atualizada
 
@@ -149,7 +198,7 @@ O Synkra AIOS agora inclui uma experiência de instalação interativa de últim
 
 - ✅ Download da versão mais recente do NPM
 - ✅ Assistente de instalação interativo moderno
-- ✅ Configuração automática do IDE (Windsurf, Cursor ou Claude Code)
+- ✅ Configuração automática do IDE (Codex CLI, Cursor ou Claude Code)
 - ✅ Configuração de todos os agentes e fluxos de trabalho AIOS
 - ✅ Criação dos arquivos de configuração necessários
 - ✅ Inicialização do sistema de meta-agentes
@@ -173,16 +222,37 @@ npx aios-core@latest install
 
 O Synkra AIOS inclui regras pré-configuradas para IDE para melhorar sua experiência de desenvolvimento:
 
-#### Para Windsurf ou Cursor:
+#### Para Cursor:
 
-1. Abra as configurações do seu IDE
-2. Navegue até **Global Rules** (Windsurf) ou **User Rules** (Cursor)
-3. Copie o conteúdo de `.windsurf/global-rules.md` ou `.cursor/global-rules.md`
+1. Abra as configurações do Cursor
+2. Navegue até **User Rules**
+3. Copie o conteúdo de `.cursor/global-rules.md`
 4. Cole na seção de regras e salve
 
 #### Para Claude Code:
 
 - ✅ Já configurado! O arquivo `.claude/CLAUDE.md` é carregado automaticamente
+- Sync dedicado de agentes: `npm run sync:ide:claude`
+- Validacao dedicada: `npm run validate:claude-sync && npm run validate:claude-integration`
+
+#### Para Codex CLI:
+
+- ✅ Integração de primeira classe no AIOS 4.0.4 (pipeline de ativação e greeting compartilhado)
+- ✅ Já configurado! O arquivo `AGENTS.md` na raiz é carregado automaticamente
+- Opcional: sincronize agentes auxiliares com `npm run sync:ide:codex`
+- Recomendado neste repositório: gerar e versionar skills locais com `npm run sync:skills:codex`
+- Use `npm run sync:skills:codex:global` apenas fora deste projeto (para evitar duplicidade no `/skills`)
+- Validacao dedicada: `npm run validate:codex-sync && npm run validate:codex-integration`
+- Guardrails de skills/paths: `npm run validate:codex-skills && npm run validate:paths`
+
+#### Para Gemini CLI:
+
+- ✅ Regras e agentes sincronizaveis com `npm run sync:ide:gemini`
+- Arquivos gerados em `.gemini/rules.md`, `.gemini/rules/AIOS/agents/` e `.gemini/commands/*.toml`
+- ✅ Hooks e settings locais no fluxo de instalacao (`.gemini/hooks/` + `.gemini/settings.json`)
+- ✅ Ativacao rapida por slash commands (`/aios-menu`, `/aios-dev`, `/aios-architect`, etc.)
+- Validacao dedicada: `npm run validate:gemini-sync && npm run validate:gemini-integration`
+- Paridade multi-IDE em um comando: `npm run validate:parity`
 
 Estas regras fornecem:
 
@@ -195,7 +265,7 @@ Estas regras fornecem:
 ### Início Mais Rápido com Interface Web (2 minutos)
 
 1. **Instale o AIOS**: Execute `npx aios-core init meu-projeto`
-2. **Configure seu IDE**: Siga as instruções de configuração para Windsurf, Cursor ou Claude Code
+2. **Configure seu IDE**: Siga as instruções de configuração para Codex CLI, Cursor ou Claude Code
 3. **Comece a Planejar**: Ative um agente como `@analyst` para começar a criar seu briefing
 4. **Use comandos AIOS**: Digite `*help` para ver comandos disponíveis
 5. **Siga o fluxo**: Veja o [Guia do usuário](docs/guides/user-guide.md) para mais detalhes
@@ -522,17 +592,17 @@ User Request → Spec Pipeline → Execution Engine → QA Review → Working Co
 
 ## Criando Seu Próprio Squad
 
-Expansion packs permitem estender o AIOS para qualquer domínio. Estrutura básica:
+Squads permitem estender o AIOS para qualquer domínio. Estrutura básica:
 
 ```
-squads/seu-pack/
-├── config.yaml           # Configuração do pack
+squads/seu-squad/
+├── config.yaml           # Configuração do squad
 ├── agents/              # Agentes especializados
 ├── tasks/               # Fluxos de trabalho de tarefas
 ├── templates/           # Templates de documentos
 ├── checklists/          # Checklists de validação
 ├── data/                # Base de conhecimento
-├── README.md            # Documentação do pack
+├── README.md            # Documentação do squad
 └── user-guide.md        # Guia do usuário
 ```
 
@@ -569,12 +639,10 @@ npm install @aios-fullstack/pro
 
 Para mais informações, execute `npx aios-core pro --help` após a instalação.
 
-## Suporte & Comunidade
+## Suporte
 
-- 📖 [Guia da Comunidade](docs/community.md) - Como participar e contribuir
-- 💬 [Discussões GitHub](https://github.com/SynkraAI/aios-core/discussions) - Hub central da comunidade
+- 🐛 [Rastreador de Issues](https://github.com/SynkraAI/aios-core/issues) - Bug reports e feature requests
 - 💡 [Processo de Features](docs/FEATURE_PROCESS.md) - Como propor novas funcionalidades
-- 🐛 [Rastreador de Issues](https://github.com/SynkraAI/aios-core/issues)
 - 📋 [Como Contribuir](CONTRIBUTING.md)
 - 🗺️ [Roadmap](docs/roadmap.md) - Veja o que estamos construindo
 - 🤖 [Guia de Squads](docs/guides/squads-guide.md) - Crie equipes de agentes IA
@@ -660,6 +728,7 @@ Veja também:
 | Documento             | English                                     | Português                             |
 | --------------------- | ------------------------------------------- | ------------------------------------- |
 | **Licença**           | [MIT License](LICENSE)                      | -                                     |
+| **Modelo de Licença** | [Core vs Pro](docs/legal/license-clarification.md) | -                               |
 | **Privacidade**       | [Privacy Policy](docs/legal/privacy.md)     | -                                     |
 | **Termos de Uso**     | [Terms of Use](docs/legal/terms.md)         | -                                     |
 | **Código de Conduta** | [Code of Conduct](CODE_OF_CONDUCT.md)       | [PT-BR](docs/pt/code-of-conduct.md)   |
@@ -670,6 +739,10 @@ Veja também:
 | **Changelog**         | [Version History](CHANGELOG.md)             | -                                     |
 
 ## Reconhecimentos
+
+This project was originally derived from the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD) by [Brian Madison](https://github.com/bmadcode). We thank Brian and all BMad Method contributors for the original work that made this project possible.
+
+**Note:** Some contributors shown in the GitHub contributors graph are inherited from the original BMad Method git history and do not represent active participation in or endorsement of Synkra AIOS.
 
 [![Contributors](https://contrib.rocks/image?repo=SynkraAI/aios-core)](https://github.com/SynkraAI/aios-core/graphs/contributors)
 

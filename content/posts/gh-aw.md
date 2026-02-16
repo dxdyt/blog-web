@@ -1,9 +1,9 @@
 ---
 title: gh-aw
-date: 2026-02-13T13:21:14+08:00
+date: 2026-02-16T13:26:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770173047431-1af521ed5481?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770173047431-1af521ed5481?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA5NjAwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768612351277-e9647ad832e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768612351277-e9647ad832e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [github/gh-aw](https://github.com/github/gh-aw)
@@ -40,7 +40,7 @@ Ready to get your first agentic workflow running? Follow our step-by-step [Quick
 
 ## Overview
 
-Learn about the concepts behind agentic workflows, explore available workflow types, and understand how AI can automate your repository tasks. See [How It Works](https://github.github.io/gh-aw/introduction/how-they-work/).
+Learn about the concepts behind agentic workflows, explore available workflow types, and understand how AI can automate your repository tasks. See [How It Works](https://github.github.com/gh-aw/introduction/how-they-work/).
 
 ## Guardrails
 
@@ -58,7 +58,10 @@ For development setup and contribution guidelines, see [CONTRIBUTING.md](CONTRIB
 
 ## Share Feedback
 
-We welcome your feedback on GitHub Agentic Workflows! Please file bugs and feature requests as issues in this repository, and share your thoughts in the [GitHub Next Discord](https://gh.io/next-discord).
+We welcome your feedback on GitHub Agentic Workflows! 
+
+- [Community Feedback Discussions](https://github.com/orgs/community/discussions/186451)
+- [GitHub Next Discord](https://gh.io/next-discord)
 
 ## Peli's Agent Factory
 

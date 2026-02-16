@@ -1,9 +1,9 @@
 ---
 title: brave-browser
-date: 2024-07-29T12:18:38+08:00
+date: 2026-02-16T13:26:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718839932371-7adaf5edc96a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718839932371-7adaf5edc96a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [brave/brave-browser](https://github.com/brave/brave-browser)
@@ -36,12 +36,12 @@ Our [Wiki](https://github.com/brave/brave-browser/wiki) also has some useful tec
 
 ## Community
 
-[Join the Q&A community](https://community.brave.com/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.com/c/support-and-troubleshooting),
-[discuss features you'd like to see](https://community.brave.com/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
+[Join the Q&A community](https://community.brave.app/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.app/c/support-and-troubleshooting),
+[discuss features you'd like to see](https://community.brave.app/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
 
 Help us translate Brave to your language by submitting translations at https://explore.transifex.com/brave/brave_en/.
 
-Follow [@brave](https://twitter.com/brave) on Twitter for important news and announcements.
+Follow [@brave](https://x.com/brave) on X for important news and announcements.
 
 ## Install prerequisites
 
@@ -50,7 +50,8 @@ Follow the instructions for your platform:
 - [macOS](https://github.com/brave/brave-browser/wiki/macOS-Development-Environment)
 - [iOS](https://github.com/brave/brave-browser/wiki/iOS-Development-Environment)
 - [Windows](https://github.com/brave/brave-browser/wiki/Windows-Development-Environment)
-- [Linux/Android](https://github.com/brave/brave-browser/wiki/Linux-Development-Environment)
+- [Linux](https://github.com/brave/brave-browser/wiki/Linux-Development-Environment)
+- [Android](https://github.com/brave/brave-browser/wiki/Android-Development-Environment)
 
 ## Clone and initialize the repo
 
@@ -78,7 +79,7 @@ npm config set target_arch arm
 
 Additional parameters needed to build are documented at https://github.com/brave/brave-browser/wiki/Build-configuration
 
-Internal developers can find more information at https://github.com/brave/devops/wiki/%60.env%60-config-for-Brave-Developers
+Internal developers can find more information at https://github.com/brave/internal/wiki/Build-configuration
 
 ## Build Brave
 The default build type is component.
@@ -137,8 +138,8 @@ To start the build:
 | flag | Description |
 |---|---|
 |`[no flags]`|updates chromium if needed and re-applies patches. If the chromium version did not change, it will only re-apply patches that have changed. Will update child dependencies **only if any project needed updating during this script run**. <br> **Use this if you want the script to manage keeping you up to date instead of pulling or switching branches manually. **|
-|`--force`|updates both _Chromium_ and _brave-core_ to the latest remote commit for the current brave-core branch and the _Chromium_ ref specified in brave-browser/package.json (e.g. `master` or `74.0.0.103`). Will re-apply all patches. Will force update all child dependencies. <br> **Use this if you're having trouble and want to force the branches back to a known state. **|
-|`--init`|force update both _Chromium_ and _brave-core_ to the versions specified in brave-browser/package.json and force updates all dependent repos - same as `npm run init`|
+|`--force`|updates both _Chromium_ and _brave-core_ to the latest remote commit for the current brave-core branch and the _Chromium_ ref specified in brave-core/package.json (e.g. `master` or `74.0.0.103`). Will re-apply all patches. Will force update all child dependencies. <br> **Use this if you're having trouble and want to force the branches back to a known state. **|
+|`--init`|force update both _Chromium_ and _brave-core_ to the versions specified in brave-core/package.json and force updates all dependent repos - same as `npm run init`|
 |`--sync_chromium (true/false)`|Will force or skip the chromium version update when applicable. Useful if you want to avoid a minor update when not ready for the larger build time a chromium update may result in. A warning will be output about the current code state expecting a different chromium version. Your build may fail as a result.|
 |`-D, --delete_unused_deps`|Will delete from the working copy any dependencies that have been removed since the last sync. Mimics `gclient sync -D`.|
 
@@ -148,15 +149,15 @@ Run `npm run sync brave_core_ref` to checkout the specified _brave-core_ ref and
 
 #### Create a new branch:
 ```bash
-brave-browser> cd src/brave
-brave-browser/src/brave> git checkout -b branch_name
+> cd src/brave
+src/brave> git checkout -b branch_name
 ```
 
 #### Checkout an existing branch or tag:
 ```bash
-brave-browser/src/brave> git fetch origin
-brave-browser/src/brave> git checkout [-b] branch_name
-brave-browser/src/brave> npm run sync
+src/brave> git fetch origin
+src/brave> git checkout [-b] branch_name
+src/brave> npm run sync
 ...Updating 2 patches...
 ...Updating child dependencies...
 ...Running hooks...
@@ -164,26 +165,25 @@ brave-browser/src/brave> npm run sync
 
 #### Update the current branch to the latest remote:
 ```bash
-brave-browser/src/brave> git pull
-brave-browser/src/brave> npm run sync
+src/brave> git pull
+src/brave> npm run sync
 ...Updating 2 patches...
 ...Updating child dependencies...
 ...Running hooks...
 ```
 
-#### Reset to latest brave-browser master and brave-core master (via `init`, will always result in a longer build and will remove any pending changes in your brave-core working directory):
+#### Reset to latest brave-core master (via `init`, will always result in a longer build and will remove any pending changes in your brave-core working directory):
 ```bash
-brave-browser> git checkout master
-brave-browser> git pull
-brave-browser> npm run sync -- --init
+src/brave> git checkout master
+src/brave> git pull
+src/brave> npm run sync -- --init
 ```
 
 #### When you know that DEPS didn't change, but .patch files did (quickest attempt to perform a mini-sync before a build):
 ```bash
-brave-browser/src/brave> git checkout featureB
-brave-browser/src/brave> git pull
-brave-browser/src/brave> cd ../..
-brave-browser> npm run apply_patches
+src/brave> git checkout featureB
+src/brave> git pull
+src/brave> npm run apply_patches
 ...Applying 2 patches...
 ```
 

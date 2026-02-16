@@ -1,9 +1,9 @@
 ---
 title: rowboat
-date: 2026-02-15T13:18:29+08:00
+date: 2026-02-16T13:25:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768663319879-e6a2b4c7408f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768663319879-e6a2b4c7408f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770934800594-f1deaef763bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770934800594-f1deaef763bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
@@ -76,7 +76,12 @@ To enable voice notes (optional), add a Deepgram API key in ~/.rowboat/config/de
   "apiKey": "<key>"
 }
 ```
+### Web search
+To use Brave web search (optional), add the Brave API key in ~/.rowboat/config/brave-search.json.
 
+To use Exa research search (optional), add the Exa API key in ~/.rowboat/config/exa-search.json.
+
+(same format as above)
 
 ## What it does
 
