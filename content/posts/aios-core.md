@@ -1,9 +1,9 @@
 ---
 title: aios-core
-date: 2026-02-16T13:26:50+08:00
+date: 2026-02-17T13:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770419252709-322eb8d259b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770419252709-322eb8d259b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
 ---
 
 # [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core)
@@ -46,7 +46,7 @@ npx aios-core install
 Definição de first-value (binária): ativação de agente + greeting válido + comando inicial com output útil em <= 10 minutos.
 
 
-## Compatibilidade de Hooks por IDE (Realidade AIOS 4.0.4)
+## Compatibilidade de Hooks por IDE (Realidade AIOS 4.2)
 
 Muitos recursos avançados do AIOS dependem de eventos de ciclo de vida (hooks). A tabela abaixo mostra a paridade real entre IDEs/plataformas:
 
@@ -237,7 +237,7 @@ O Synkra AIOS inclui regras pré-configuradas para IDE para melhorar sua experi�
 
 #### Para Codex CLI:
 
-- ✅ Integração de primeira classe no AIOS 4.0.4 (pipeline de ativação e greeting compartilhado)
+- ✅ Integração de primeira classe no AIOS 4.2 (pipeline de ativação e greeting compartilhado)
 - ✅ Já configurado! O arquivo `AGENTS.md` na raiz é carregado automaticamente
 - Opcional: sincronize agentes auxiliares com `npm run sync:ide:codex`
 - Recomendado neste repositório: gerar e versionar skills locais com `npm run sync:skills:codex`
@@ -386,7 +386,7 @@ $ npx aios-core doctor
 ✔ npm version: 10.2.3
 ✔ Git installed: version 2.43.0
 ✔ GitHub CLI: gh 2.40.1
-✔ Synkra AIOS: v1.0.0
+✔ Synkra AIOS: v4.2.11
 
 Configuration:
 ✔ .aios-core/ directory exists
@@ -506,7 +506,7 @@ O Synkra AIOS vem com 11 agentes especializados:
 
 ## 🤖 AIOS Autonomous Development Engine (ADE)
 
-O Synkra AIOS v1.0.0 introduz o **Autonomous Development Engine (ADE)** - um sistema completo para desenvolvimento autônomo que transforma requisitos em código funcional.
+O Synkra AIOS introduz o **Autonomous Development Engine (ADE)** - um sistema completo para desenvolvimento autônomo que transforma requisitos em código funcional.
 
 ### 🎯 O Que é o ADE?
 

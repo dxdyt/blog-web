@@ -1,9 +1,9 @@
 ---
 title: letta-code
-date: 2026-02-15T13:19:16+08:00
+date: 2026-02-17T13:20:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766326802078-1675c192356f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766326802078-1675c192356f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzExMzI2ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769089220479-5389dc5d2268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769089220479-5389dc5d2268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
 ---
 
 # [letta-ai/letta-code](https://github.com/letta-ai/letta-code)

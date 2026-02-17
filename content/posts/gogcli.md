@@ -1,9 +1,9 @@
 ---
 title: gogcli
-date: 2026-02-16T13:25:44+08:00
+date: 2026-02-17T13:20:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771255217891-f113091332ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771255217891-f113091332ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
 ---
 
 # [steipete/gogcli](https://github.com/steipete/gogcli)
@@ -688,6 +688,8 @@ gog calendar events <calendarId> --from today --to friday   # Relative dates
 gog calendar events <calendarId> --from today --to friday --weekday   # Include weekday columns
 gog calendar events <calendarId> --from 2025-01-01T00:00:00Z --to 2025-01-08T00:00:00Z
 gog calendar events --all             # Fetch events from all calendars
+gog calendar events --calendars 1,3   # Fetch events from calendar indices (see gog calendar calendars)
+gog calendar events --cal Work --cal Personal  # Fetch events from calendars by name/ID
 gog calendar event <calendarId> <eventId>
 gog calendar get <calendarId> <eventId>                     # Alias for event
 gog calendar search "meeting" --today
