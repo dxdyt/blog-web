@@ -1,9 +1,9 @@
 ---
 title: aios-core
-date: 2026-02-17T13:20:42+08:00
+date: 2026-02-18T13:23:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768813282031-2aec62eee8b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768813282031-2aec62eee8b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
 ---
 
 # [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core)

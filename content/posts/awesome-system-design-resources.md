@@ -1,15 +1,17 @@
 ---
 title: awesome-system-design-resources
-date: 2025-10-26T12:21:43+08:00
+date: 2026-02-18T13:23:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760020423741-500a95bc5237?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760020423741-500a95bc5237?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)
 
+# Awesome System Design Resources
+
 <p align="center">
-  <img src="diagrams/system-design-github-logo.png" width="350" height="200">
+  <img src="diagrams/system-design-github.png" width="400" height="250">
 </p>
 
 This repository contains free resources to learn System Design concepts and prepare for interviews.
@@ -21,9 +23,11 @@ This repository contains free resources to learn System Design concepts and prep
 ## ⚙️ Core Concepts
 - [Scalability](https://algomaster.io/learn/system-design/scalability)
 - [Availability](https://algomaster.io/learn/system-design/availability)
-- [CAP Theorem](https://blog.algomaster.io/p/cap-theorem-explained)
-- [Consistent Hashing](https://blog.algomaster.io/p/consistent-hashing-explained)
-- [SPOF](https://blog.algomaster.io/p/system-design-how-to-avoid-single-point-of-failures)
+- [Reliability](https://algomaster.io/learn/system-design/reliability)
+- [SPOF](https://algomaster.io/learn/system-design/single-point-of-failure-spof)
+- [Latency vs Throughput vs Bandwidth](https://algomaster.io/learn/system-design/latency-vs-throughput)
+- [Consistent Hashing](https://algomaster.io/learn/system-design/consistent-hashing)
+- [CAP Theorem](https://algomaster.io/learn/system-design/cap-theorem)
 - [Failover](https://www.druva.com/glossary/what-is-a-failover-definition-and-related-faqs)
 - [Fault Tolerance](https://www.cockroachlabs.com/blog/what-is-fault-tolerance/)
 
@@ -40,6 +44,7 @@ This repository contains free resources to learn System Design concepts and prep
 ## 🔌 API Fundamentals
 - [APIs](https://algomaster.io/learn/system-design/what-is-an-api)
 - [API Gateway](https://blog.algomaster.io/p/what-is-an-api-gateway)
+- [REST vs GraphQL](https://blog.algomaster.io/p/rest-vs-graphql)
 - [WebSockets](https://blog.algomaster.io/p/websockets)
 - [Webhooks](https://algomaster.io/learn/system-design/webhooks)
 - [Idempotency](https://algomaster.io/learn/system-design/idempotency)
@@ -74,7 +79,6 @@ This repository contains free resources to learn System Design concepts and prep
 - [Service Discovery](https://blog.algomaster.io/p/service-discovery-in-distributed-systems)
 - [Consensus Algorithms](https://medium.com/@sourabhatta1819/consensus-in-distributed-system-ac79f8ba2b8c)
 - [Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
-- [Microservices Guidelines](https://newsletter.systemdesign.one/p/netflix-microservices) 
 - [Gossip Protocol](http://highscalability.com/blog/2023/7/16/gossip-protocol-explained.html)
 - [Circuit Breaker](https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33)
 - [Disaster Recovery](https://cloud.google.com/learn/what-is-disaster-recovery)
@@ -101,11 +105,13 @@ This repository contains free resources to learn System Design concepts and prep
 - [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
 - [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
 
-## ✅ [How to Answer a System Design Interview Problem](https://blog.algomaster.io/p/how-to-answer-a-system-design-interview-problem)
+## ✅ [How to Answer a System Design Interview Problem](https://algomaster.io/learn/system-design-interviews/answering-framework)
 
 ## 💻 System Design Interview Problems
 ### Easy
-- [Design URL Shortener like TinyURL](https://blog.algomaster.io/p/design-a-url-shortener)
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
 - [Design Content Delivery Network (CDN)](https://www.youtube.com/watch?v=8zX0rue2Hic)
 - [Design Parking Garage](https://www.youtube.com/watch?v=NtMvNh0WFVM)
 - [Design Vending Machine](https://www.youtube.com/watch?v=D0kDMUgo27c)
@@ -114,11 +120,11 @@ This repository contains free resources to learn System Design concepts and prep
 - [Design Authentication System](https://www.youtube.com/watch?v=uj_4vxm9u90)
 - [Design Unified Payments Interface (UPI)](https://www.youtube.com/watch?v=QpLy0_c_RXk)
 ### Medium
-- [Design WhatsApp](https://blog.algomaster.io/p/design-a-chat-application-like-whatsapp)
-- [Design Spotify](https://blog.algomaster.io/p/design-spotify-system-design-interview)
+- [Design WhatsApp](https://algomaster.io/learn/system-design-interviews/design-whatsapp)
+- [Design Spotify](https://algomaster.io/learn/system-design-interviews/design-spotify)
+- [Design Instagram](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Notification Service](https://algomaster.io/learn/system-design-interviews/design-notification-service)
 - [Design Distributed Job Scheduler](https://blog.algomaster.io/p/design-a-distributed-job-scheduler)
-- [Design a Scalable Notification Service](https://blog.algomaster.io/p/design-a-scalable-notification-service)
-- [Design Instagram](https://www.youtube.com/watch?v=VJpfO6KdyWE)
 - [Design Tinder](https://www.youtube.com/watch?v=tndzLznxq40)
 - [Design Facebook](https://www.youtube.com/watch?v=9-hjBGxuiEs)
 - [Design Twitter](https://www.youtube.com/watch?v=wYk0xPP_P_8)
@@ -130,7 +136,6 @@ This repository contains free resources to learn System Design concepts and prep
 - [Design TikTok](https://www.youtube.com/watch?v=Z-0g_aJL5Fw)
 - [Design Shopify](https://www.youtube.com/watch?v=lEL4F_0J3l8)
 - [Design Airbnb](https://www.youtube.com/watch?v=YyOXt2MEkv4)
-- [Design Autocomplete for Search Engines](https://www.youtube.com/watch?v=us0qySiUsGU)
 - [Design Rate Limiter](https://www.youtube.com/watch?v=mhUQe4BKZXs)
 - [Design Distributed Message Queue like Kafka](https://www.youtube.com/watch?v=iJLL-KPqBpM)
 - [Design Flight Booking System](https://www.youtube.com/watch?v=qsGcfVGvFSs)
@@ -145,24 +150,22 @@ This repository contains free resources to learn System Design concepts and prep
 - [Design Google Docs](https://www.youtube.com/watch?v=2auwirNBvGg)
 - [Design Google Maps](https://www.youtube.com/watch?v=jk3yvVfNvds)
 - [Design Zoom](https://www.youtube.com/watch?v=G32ThJakeHk)
-- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
 - [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
 - [Design Ticket Booking System like BookMyShow](https://www.youtube.com/watch?v=lBAwJgoO3Ek)
 - [Design Distributed Web Crawler](https://www.youtube.com/watch?v=BKZxZwUgL3Y)
 - [Design Code Deployment System](https://www.youtube.com/watch?v=q0KGYwNbf-0)
 - [Design Distributed Cloud Storage like S3](https://www.youtube.com/watch?v=UmWtcgC96X8)
 - [Design Distributed Locking Service](https://www.youtube.com/watch?v=v7x75aN9liM)
-- [Design Slack](https://systemdesign.one/slack-architecture/)
-- [Design Live Comments](https://systemdesign.one/live-comment-system-design/)
 
 ## 📇 Courses
-- [Master System Design](https://algomaster.io/learn/system-design/what-is-system-design)
-
-## 📚 Books
-- [Designing Data-Intensive Applications](https://www.amazon.in/dp/9352135245)
+- [System Design Fundamentals](https://algomaster.io/learn/system-design/course-introduction)
+- [System Design Interviews](https://algomaster.io/learn/system-design-interviews/introduction)
 
 ## 📩 Newsletters
 - [AlgoMaster Newsletter](https://blog.algomaster.io/)
+
+## 📚 Books
+- [Designing Data-Intensive Applications](https://www.amazon.in/dp/9352135245)
 
 ## 📺 YouTube Channels
 - [Tech Dummies Narendra L](https://www.youtube.com/@TechDummiesNarendraL)

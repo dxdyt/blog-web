@@ -1,9 +1,9 @@
 ---
 title: opencti
-date: 2024-08-25T12:18:48+08:00
+date: 2026-02-18T13:24:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724093834407-da3e0fcb7c9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724093834407-da3e0fcb7c9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
 ---
 
 # [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti)
@@ -36,7 +36,7 @@ The goal is to create a comprehensive tool allowing users to capitalize technica
 
 Once data has been capitalized and processed by the analysts within OpenCTI, new relations may be inferred from existing ones to facilitate the understanding and the representation of this information. This allows the user to extract and leverage meaningful knowledge from the raw data.
 
-OpenCTI not only allows [imports](https://docs.opencti.io/latest/usage/import-automated/) but also [exports of data](https://docs.opencti.io/latest/usage/feeds/) under different formats (CSV, STIX2 bundles, etc.). [Connectors](https://filigran.notion.site/OpenCTI-Ecosystem-868329e9fb734fca89692b2ed6087e76) are currently developed to accelerate interactions between the tool and other platforms.
+OpenCTI not only allows [imports](https://docs.opencti.io/latest/usage/import-automated/) but also [exports of data](https://docs.opencti.io/latest/usage/feeds/) under different formats (CSV, STIX2 bundles, etc.). [Connectors](https://hub.filigran.io/cybersecurity-solutions/open-cti-integrations) are currently developed to accelerate interactions between the tool and other platforms.
 
 ## Editions of the platform
 

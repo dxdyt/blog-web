@@ -1,9 +1,9 @@
 ---
 title: seerr
-date: 2026-02-17T13:21:02+08:00
+date: 2026-02-18T13:22:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769614923544-1a147f778ea6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769614923544-1a147f778ea6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMDU1OTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770211163195-a5f663ad0afd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770211163195-a5f663ad0afd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
 ---
 
 # [seerr-team/seerr](https://github.com/seerr-team/seerr)
