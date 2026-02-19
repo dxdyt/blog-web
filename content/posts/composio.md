@@ -1,327 +1,266 @@
 ---
 title: composio
-date: 2025-03-08T12:16:19+08:00
+date: 2026-02-19T13:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740600379671-46903506e162?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740600379671-46903506e162?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1769489050916-cc095f626886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769489050916-cc095f626886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
 ---
 
 # [ComposioHQ/composio](https://github.com/ComposioHQ/composio)
 
-<p>
-  <a href="https://github.com/composiohq/composio/blob/master/README.md">EN</a> | <a
-    href="https://github.com/composiohq/composio/blob/master/README-CN.md">CN</a> | <a
-    href="https://github.com/composiohq/composio/blob/master/README-JP.md">JP</a>
-</p>
-<p align="center">
-  <a href="https://composio.dev//#gh-dark-mode-only">
-    <img src="./python/docs/imgs/composio_white_font.svg" width="318px" alt="Composio logo" />
-  </a>
-  <a href="https://composio.dev//#gh-light-mode-only">
-    <img src="./python/docs/imgs/composio_black_font.svg" width="318px" alt="Composio Logo" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://docs.composio.dev">
-    <img
-      src="https://img.shields.io/badge/Read%20the%20Documentation-Click%20Here-green?style=for-the-badge&logo=read-the-docs"
-      alt="Read the Docs">
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://pypi.org/project/composio-core/">
-    <img alt="PyPI"
-      src="https://img.shields.io/pypi/v/composio_core?label=Latest&style=plastic&logo=pypi&color=blue&cacheSeconds=60&logoColor=white">
-  </a>
-  <a href="https://www.npmjs.com/package/composio-core">
-    <img alt="NPM"
-      src="https://img.shields.io/npm/v/composio-core?style=plastic&logo=npm&logoColor=white&label=latest&color=blue&cacheSeconds=60">
-  </a>
-  <a href="https://pypi.org/project/composio-core/">
-    <img alt="Downloads"
-      src="https://img.shields.io/pypi/dm/composio-core?label=Downloads&style=plastic&logo=github&color=blue&cacheSeconds=60">
-  </a>
-</p>
+<div align="center">
 
-<h2 align="center">
-  Production Ready Toolset for AI Agents
-</h2>
-
-<p align="center">
-  <a href="https://docs.composio.dev/mcp/overview?utm=readme">
-    <img src="./assets/mcp-banner.png" alt="Composio MCP Servers" width="100%" style="border-radius: 8px; margin: 20px 0;" />
-  </a>
-</p>
-<a href="https://docs.composio.dev/mcp/overview?utm=readme">
-  <img alt="Composio Cursor" src="./assets/cursor-mcp.webp" style="border-radius: 5px" />
-</a>
+<img src="https://raw.githubusercontent.com/ComposioHQ/composio/next/public/cover.png" alt="Composio Logo" width="auto" height="auto" style="margin-bottom: 20px;"/>
 
 
-<h2 align="center">🚀 Now launching Composio MCP🚀</h2>
+# Composio SDK
 
-<p align="center">
-  We're excited to announce the launch of <strong>Composio MCP Servers</strong>!
-  Connect Claude, Cursor and Windsurf to 100+ fully-managed MCP Servers with built-in auth! Check it out <a href="https://mcp.composio.dev">here</a>
-</p>
+Skills that evolve for your Agents
 
-<p align="center">
+[🌐 Website](https://composio.dev) • [📚 Documentation](https://docs.composio.dev)
 
-</p>
+[![GitHub Stars](https://img.shields.io/github/stars/ComposioHQ/composio?style=social)](https://github.com/ComposioHQ/composio/stargazers)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/composio?label=PyPI%20Downloads)](https://pypi.org/project/composio/)
+[![NPM Downloads](https://img.shields.io/npm/dt/@composio/core?label=NPM%20Downloads)](https://www.npmjs.com/package/@composio/core)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/composio)
+</div>
 
-<p align="center">
-  <a href="https://docs.composio.dev/mcp/overview">
-    <img src="https://img.shields.io/badge/Learn%20More-MCP%20Servers-blue?style=for-the-badge" alt="Learn More About MCP Servers">
-  </a>
-</p>
+This repository contains the official Software Development Kits (SDKs) for Composio, providing seamless integration capabilities for Python and Typescript Agentic Frameworks and Libraries.
 
+## Getting Started
 
-
-<h2>What is Composio?</h2>
-<p><strong>Composio provides production-ready toolset for AI agents</strong>, offering:</p>
-<ul>
-  <li>Support for over 250+ tools across multiple categories:
-    <ul>
-      <li>Software tools like GitHub, Notion, Linear, Gmail, Slack, Hubspot, Salesforce &
-        <a href="https://app.composio.dev/apps">
-          more
-        </a>
-      </li>
-      <li>OS operations including file tool, shell tool, code analysis tool &
-        <a href="https://app.composio.dev/apps">
-          more
-        </a>
-      </li>
-      <li>Search capabilities through Google, Perplexity, Tavily, and Exa &
-        <a href="https://app.composio.dev/apps">
-          more
-        </a>
-      </li>
-    </ul>
-  </li>
-  <li>Comprehensive framework support including OpenAI, Groq, Claude, LlamaIndex, Langchain, CrewAI, Autogen, Gemini,
-    and <a href="https://docs.composio.dev/framework">more</a></li>
-  <li>Managed authentication supporting multiple protocols (OAuth, API Keys, Basic JWT)</li>
-  <li>Up to 40% improved tool call accuracy through optimized design</li>
-  <li>Whitelabel solution for backend integration</li>
-  <li>Pluggable architecture supporting custom tools and extensions</li>
-</ul>
-
-## Table of contents
-
-- [Getting Started with Python](#1-installation)
-  - [1. Installation](#1-installation)
-  - [2. Creating an agent & executing a tool](#2-creating-an-agent--executing-a-tool)
-- [Getting Started with Javascript](#getting-started-with-javascript)
-  - [1. Installation](#1-installation-1)
-  - [2. Creating an agent & executing a tool](#2-creating-an-agent--executing-a-tool-1)
-- [Examples](#examples)
-  - [Python Examples](#python-examples)
-  - [Javascript Examples](#javascript-examples)
-- [Star History](#star-history)
-- [Getting help](#getting-help)
-- [Contributions](#contributions)
-- [Request a feature](#request-a-feature)
-- [Thanks To All Contributors](#thanks-to-all-contributors)
-
-
-## Getting Started with Python
-
-### 1. Installation
-
-Start by installing the package
+### TypeScript SDK Installation
 
 ```bash
-pip install composio-core
+# Using npm
+npm install @composio/core
+
+# Using yarn
+yarn add @composio/core
+
+# Using pnpm
+pnpm add @composio/core
 ```
 
-If you want to install the 'composio' package along with its openai plugin: `pip install composio-openai`.
+#### Quick start:
 
-### 2. Creating an agent & executing a tool
+```typescript
+import { Composio } from '@composio/core';
+// Initialize the SDK
+const composio = new Composio({
+  // apiKey: 'your-api-key',
+});
+```
 
-Let's create an AI Agent using OpenAI and use Composio's GitHub tool to star a GitHub repository
+#### Simple Agent with OpenAI Agents
 
-> [!NOTE]
-> Set your COMPOSIO_API_KEY & OPENAI_API_KEY in your environment variables.
-
-Connect your GitHub account to Composio
 ```bash
-composio add github # Run this in terminal
+npm install @composio/openai-agents @openai/agents
+```
+
+```typescript
+import { Composio } from '@composio/core';
+import { OpenAIAgentsProvider } from '@composio/openai-agents';
+import { Agent, run } from '@openai/agents';
+
+const composio = new Composio({
+  provider: new OpenAIAgentsProvider(),
+});
+
+const userId = 'user@acme.org';
+
+const tools = await composio.tools.get(userId, {
+  toolkits: ['HACKERNEWS'],
+});
+
+const agent = new Agent({
+  name: 'Hackernews assistant',
+  tools: tools,
+});
+
+const result = await run(agent, 'What is the latest hackernews post about?');
+
+console.log(JSON.stringify(result.finalOutput, null, 2));
+// will return the response from the agent with data from HACKERNEWS API.
+```
+
+### Python SDK Installation
+
+```bash
+# Using pip
+pip install composio
+
+# Using poetry
+poetry add composio
+```
+
+#### Quick start:
+
+```python
+from composio import Composio
+
+composio = Composio(
+  # api_key="your-api-key",
+)
+```
+
+#### Simple Agent with OpenAI Agents
+
+```bash
+pip install composio_openai_agents openai-agents
 ```
 
 ```python
+import asyncio
+from agents import Agent, Runner
+from composio import Composio
+from composio_openai_agents import OpenAIAgentsProvider
 
-from openai import OpenAI
-from composio_openai import ComposioToolSet, App, Action
+# Initialize Composio client with OpenAI Agents Provider
+composio = Composio(provider=OpenAIAgentsProvider())
 
-openai_client = OpenAI(
-api_key="{{OPENAIKEY}}"
+user_id = "user@acme.org"
+tools = composio.tools.get(user_id=user_id, toolkits=["HACKERNEWS"])
+
+# Create an agent with the tools
+agent = Agent(
+    name="Hackernews Agent",
+    instructions="You are a helpful assistant.",
+    tools=tools,
 )
 
-# Initialise the Composio Tool Set
+# Run the agent
+async def main():
+    result = await Runner.run(
+        starting_agent=agent,
+        input="What's the latest Hackernews post about?",
+    )
+    print(result.final_output)
 
-composio_tool_set = ComposioToolSet()
-
-# Get GitHub tools that are pre-configured
-actions = composio_tool_set.get_actions(
-actions=[Action.GITHUB_STAR_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER]
-)
-
-my_task = "Star a repo composiodev/composio on GitHub"
-
-# Setup openai assistant
-assistant_instruction = "You are a super intelligent personal assistant"
-
-assistant = openai_client.beta.assistants.create(
-name="Personal Assistant",
-instructions=assistant_instruction,
-model="gpt-4-turbo",
-tools=actions,
-)
-
-# create a thread
-thread = openai_client.beta.threads.create()
-
-message = openai_client.beta.threads.messages.create(
-thread_id=thread.id,
-role="user",
-content=my_task
-)
-
-# Execute Agent with integrations
-run = openai_client.beta.threads.runs.create(
-thread_id=thread.id,
-assistant_id=assistant.id
-)
-
-
-# Execute Function calls
-response_after_tool_calls = composio_tool_set.wait_and_handle_assistant_tool_calls(
-client=openai_client,
-run=run,
-thread=thread,
-)
-
-print(response_after_tool_calls)
+asyncio.run(main())
+# will return the response from the agent with data from HACKERNEWS API.
 ```
 
-## Getting Started with JavaScript
+For more detailed usage instructions and examples, please refer to each SDK's specific documentation.
 
-To get started with the Composio SDK in JavaScript, follow these steps:
+### Open API Specification
 
-### 1. Installation:
+To update the OpenAPI specifications used for generating SDK documentation:
+
 ```bash
-npm install composio-core
+# Pull the latest API specifications from the backend
+pnpm api:pull
 ```
 
-### 2. Creating an agent & executing a tool
+This command pulls the OpenAPI specification from `https://backend.composio.dev/api/v3/openapi.json` (defined in `fern/scripts/pull-openapi-spec.sh`) and updates the local API documentation files.
 
-Let's create an AI Agent using OpenAI and use Composio's GitHub tool to star a GitHub repository
+This is pulled automatically with build step.
 
-> [!NOTE]
-> Set your COMPOSIO_API_KEY & OPENAI_API_KEY in your environment variables.
+## Available SDKs
 
-Connect your GitHub account to Composio
-```bash
-composio add github # Run this in terminal
-```
+### TypeScript SDK (/ts)
 
-```javascript
-import { OpenAIToolSet } from "composio-core";
-import OpenAI from "openai";
+The TypeScript SDK provides a modern, type-safe way to interact with Composio's services. It's designed for both Node.js and browser environments, offering full TypeScript support with comprehensive type definitions.
 
-const toolset = new OpenAIToolSet({ apiKey: process.env.COMPOSIO_API_KEY });
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+For detailed information about the TypeScript SDK, please refer to the [TypeScript SDK Documentation](/ts/README.md).
 
-const tools = await toolset.getTools({ actions: ["GITHUB_STAR_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER"] });
+### Python SDK (/python)
 
-async function createGithubAssistant(openai, tools) {
-return await openai.beta.assistants.create({
-name: "Github Assistant",
-instructions: "You're a GitHub Assistant, you can do operations on GitHub",
-tools: tools,
-model: "gpt-4o"
-});
-}
+The Python SDK offers a Pythonic interface to Composio's services, making it easy to integrate Composio into your Python applications. It supports Python 3.10+ and follows modern Python development practices.
 
-async function executeAssistantTask(openai, toolset, assistant, task) {
-const thread = await openai.beta.threads.create();
-const run = await openai.beta.threads.runs.create(thread.id, {
-assistant_id: assistant.id,
-instructions: task,
-tools: tools,
-model: "gpt-4o",
-stream: false
-});
-const call = await toolset.waitAndHandleAssistantToolCalls(openai, run, thread);
-console.log(call);
-}
+For detailed information about the Python SDK, please refer to the [Python SDK Documentation](/python/README.md).
 
-(async () => {
-const githubAssistant = await createGithubAssistant(openai, tools);
-await executeAssistantTask(
-openai,
-toolset,
-githubAssistant,
-"Star the repository 'composiohq/composio'"
-);
-})();
-```
+## Provider Support
 
-## Examples
+The following table shows which AI frameworks and platforms are supported in each SDK:
 
-### [Python Examples](https://docs.composio.dev/guides/python/)
+| Provider | TypeScript | Python |
+|----------|:----------:|:------:|
+| OpenAI | ✅ | ✅ |
+| OpenAI Agents | ✅ | ✅ |
+| Anthropic | ✅ | ✅ |
+| LangChain | ✅ | ✅ |
+| LangGraph | ✅* | ✅ |
+| LlamaIndex | ✅ | ✅ |
+| Vercel AI SDK | ✅ | ❌ |
+| Google Gemini | ✅ | ✅ |
+| Google ADK | ❌ | ✅ |
+| Mastra | ✅ | ❌ |
+| Cloudflare Workers AI | ✅ | ❌ |
+| CrewAI | ❌ | ✅ |
+| AutoGen | ❌ | ✅ |
 
-### [Javascript Examples](https://docs.composio.dev/guides/javascript/)
+\* *LangGraph in TypeScript is supported via the `@composio/langchain` package.*
 
-## Star History
+> **Don't see your provider?** Learn how to [build a custom provider](https://docs.composio.dev/sdk/typescript/custom-providers) to integrate with any AI framework.
 
-[![Star History
-Chart](https://api.star-history.com/svg?repos=composiohq/composio&type=Date)](https://star-history.com/#composiohq/composio&Date)
+## Packages
 
-## Getting help
+### Core Packages
 
-- Read the docs at <a href="https://docs.composio.dev" target="_blank" rel="noopener noreferrer">docs.composio.dev</a>
-- Post your questions on <a href="https://discord.com/channels/1170785031560646836/1268871288156323901" target="_blank"
-  rel="noopener noreferrer">discord</a>
+| Package | Version |
+|---------|---------|
+| **TypeScript** | |
+| [@composio/core](https://www.npmjs.com/package/@composio/core) | ![npm version](https://img.shields.io/npm/v/@composio/core) |
+| **Python** | |
+| [composio](https://pypi.org/project/composio/) | ![PyPI version](https://img.shields.io/pypi/v/composio) |
 
-## Contributions
+### Provider Packages
 
-We're an open-source project and welcome contributions. Please read the <a
-  href="https://github.com/composiodev/composio/blob/master/CONTRIBUTING.md" target="_blank"
-  rel="noopener noreferrer">contributing guide</a> for more information and check our <a
-  href="https://github.com/composiodev/composio/blob/master/CODE_OF_CONDUCT.md" target="_blank"
-  rel="noopener noreferrer">code of conduct</a> before you start.
+| Package | Version |
+|---------|---------|
+| **TypeScript** | |
+| [@composio/openai](https://www.npmjs.com/package/@composio/openai) | ![npm version](https://img.shields.io/npm/v/@composio/openai) |
+| [@composio/openai-agents](https://www.npmjs.com/package/@composio/openai-agents) | ![npm version](https://img.shields.io/npm/v/@composio/openai-agents) |
+| [@composio/anthropic](https://www.npmjs.com/package/@composio/anthropic) | ![npm version](https://img.shields.io/npm/v/@composio/anthropic) |
+| [@composio/langchain](https://www.npmjs.com/package/@composio/langchain) | ![npm version](https://img.shields.io/npm/v/@composio/langchain) |
+| [@composio/llamaindex](https://www.npmjs.com/package/@composio/llamaindex) | ![npm version](https://img.shields.io/npm/v/@composio/llamaindex) |
+| [@composio/vercel](https://www.npmjs.com/package/@composio/vercel) | ![npm version](https://img.shields.io/npm/v/@composio/vercel) |
+| [@composio/google](https://www.npmjs.com/package/@composio/google) | ![npm version](https://img.shields.io/npm/v/@composio/google) |
+| [@composio/mastra](https://www.npmjs.com/package/@composio/mastra) | ![npm version](https://img.shields.io/npm/v/@composio/mastra) |
+| [@composio/cloudflare](https://www.npmjs.com/package/@composio/cloudflare) | ![npm version](https://img.shields.io/npm/v/@composio/cloudflare) |
+| **Python** | |
+| [composio-openai](https://pypi.org/project/composio-openai/) | ![PyPI version](https://img.shields.io/pypi/v/composio-openai) |
+| [composio-openai-agents](https://pypi.org/project/composio-openai-agents/) | ![PyPI version](https://img.shields.io/pypi/v/composio-openai-agents) |
+| [composio-anthropic](https://pypi.org/project/composio-anthropic/) | ![PyPI version](https://img.shields.io/pypi/v/composio-anthropic) |
+| [composio-langchain](https://pypi.org/project/composio-langchain/) | ![PyPI version](https://img.shields.io/pypi/v/composio-langchain) |
+| [composio-langgraph](https://pypi.org/project/composio-langgraph/) | ![PyPI version](https://img.shields.io/pypi/v/composio-langgraph) |
+| [composio-llamaindex](https://pypi.org/project/composio-llamaindex/) | ![PyPI version](https://img.shields.io/pypi/v/composio-llamaindex) |
+| [composio-crewai](https://pypi.org/project/composio-crewai/) | ![PyPI version](https://img.shields.io/pypi/v/composio-crewai) |
+| [composio-autogen](https://pypi.org/project/composio-autogen/) | ![PyPI version](https://img.shields.io/pypi/v/composio-autogen) |
+| [composio-gemini](https://pypi.org/project/composio-gemini/) | ![PyPI version](https://img.shields.io/pypi/v/composio-gemini) |
+| [composio-google](https://pypi.org/project/composio-google/) | ![PyPI version](https://img.shields.io/pypi/v/composio-google) |
+| [composio-google-adk](https://pypi.org/project/composio-google-adk/) | ![PyPI version](https://img.shields.io/pypi/v/composio-google-adk) |
 
-## Request a feature
+### Utility Packages
 
-- If you have a feature request, please open an <a
-  href="https://github.com/composiodev/composio/issues/new?assignees=&labels=feature&template=feature_request.yml&title=%F0%9F%9A%80+Feature%3A+">issue</a>,
-make a pull request, or submit it in our <a href="https://discord.com/channels/1170785031560646836/1247166813205303379"
-  target="_blank" rel="noopener noreferrer">feature requests channel</a>.
-- If you have ideas for improvements, you can also start a discussion in our GitHub repository.
+| Package | Version |
+|---------|---------|
+| [@composio/json-schema-to-zod](https://www.npmjs.com/package/@composio/json-schema-to-zod) | ![npm version](https://img.shields.io/npm/v/@composio/json-schema-to-zod) |
+| [@composio/ts-builders](https://www.npmjs.com/package/@composio/ts-builders) | ![npm version](https://img.shields.io/npm/v/@composio/ts-builders) |
 
-## Thanks To All Contributors
+_if you are looking for the older sdk, you can find them [here](https://github.com/ComposioHQ/composio/tree/master)_
 
-<a href="https://github.com/composiohq/composio/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=composiodev/composio" alt="List of Contributors" />
-</a>
+## Rube
 
-<br><br>
+[Rube](https://rube.app) is a Model Context Protocol (MCP) server built with Composio. It connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like "Send an email" or "Create a task." 
 
-<div align="center">
-  <p>
-    <a href="https://dub.composio.dev/JoinHQ" target="_blank" rel="noopener noreferrer">
-      <img src="https://github.com/user-attachments/assets/c499721b-d3c2-4bfc-891f-4d74b587911f" alt="discord" />
-    </a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.youtube.com/@Composio" target="_blank" rel="noopener noreferrer">
-      <img src="https://github.com/user-attachments/assets/57072338-3e7a-42a5-bd2b-c58b143ffa29" alt="youtube" />
-    </a>&nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/composiohq" target="_blank" rel="noopener noreferrer">
-      <img src="https://github.com/user-attachments/assets/14b87a1d-8ac7-48b4-ae7c-3a36aacc260b" alt="x" />
-    </a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/company/composio-dev" target="_blank" rel="noopener noreferrer">
-      <img src="https://github.com/user-attachments/assets/cb6cc650-672e-41f6-8abf-dfc97fddfcbc" alt="linkedin" />
-    </a>
-  </p>
-</div>
+It integrates with major AI clients like Cursor, Claude Desktop, VS Code, Claude Code and any custom MCP‑compatible client. You can switch between these clients and your integrations follow you.
+
+
+## Contributing
+
+We welcome contributions to both SDKs! Please read our [contribution guidelines](https://github.com/ComposioHQ/composio/blob/next/CONTRIBUTING.md) before submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+If you encounter any issues or have questions about the SDKs:
+
+- Open an issue in this repository
+- Contact our [support team](mailto:support@composio.dev)
+- Check our [documentation](https://docs.composio.dev/)

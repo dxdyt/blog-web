@@ -1,9 +1,9 @@
 ---
 title: RAG_Techniques
-date: 2025-06-10T12:27:40+08:00
+date: 2026-02-19T13:21:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748311698468-dd2c11315b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748311698468-dd2c11315b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769372131380-a6cccb922301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769372131380-a6cccb922301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
 ---
 
 # [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
@@ -11,12 +11,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1748311698468-dd2c11315b
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nir-diamant-759323134/)
 [![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantAI)
+[![Reddit](https://img.shields.io/badge/Reddit-Join%20our%20subreddit-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/EducationalAI/)
 [![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/cA6Aa4uyDX)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4)](https://github.com/sponsors/NirDiamant)
 
 
 
-> 🌟 **Support This Project:** Your sponsorship fuels innovation in RAG technologies. **[Become a sponsor](https://github.com/sponsors/NirDiamant)** to help maintain and expand this valuable resource!
+> 🌟 **Support This Project:** Your sponsorship fuels innovation in RAG technologies. **[Become a sponsor](https://www.diamant-ai.com/sponsorship)** to help maintain and expand this valuable resource!
 
 ## Sponsors ❤️
 
@@ -24,7 +25,37 @@ We gratefully acknowledge the organizations and individuals who have made signif
 
 **Company Sponsors**
 
-<a href="https://zilliz.com" target="_blank"><img src="images/ziliz_logo.png" style="border-radius: 12px; margin-right: 24px; vertical-align: middle;" height="96" alt="Zilliz: Key Collaborator"></a>
+<div align="center">
+
+<table style="border: none; border-collapse: collapse; width: 100%; max-width: 840px; margin: 0 auto; background: transparent; table-layout: fixed;">
+  <tr>
+    <td style="border: none; text-align: center; padding: 16px 24px; width: 33.33%; vertical-align: top;">
+      <a href="https://app.contextual.ai?utm_campaign=rag-techniques&utm_source=diamantai&utm_medium=github&utm_content=notebook" target="_blank" style="text-decoration: none; display: inline-block; transition: transform 0.2s ease;">
+        <img src="images/trimmed_padded_contextual_white.png#gh-light-mode-only" 
+             alt="Contextual AI"
+             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="images/trimmed_padded_contextual_black.png#gh-dark-mode-only" 
+             alt="Contextual AI"
+             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      </a>
+    </td>
+    <td style="border: none; text-align: center; padding: 16px 24px; width: 33.33%; vertical-align: middle;">
+      <a href="https://coderabbit.link/nir" target="_blank" style="text-decoration: none; display: inline-block; transition: transform 0.2s ease;">
+        <img src="images/coderabbit_Light_Type_Mark_Orange.png#gh-light-mode-only"
+             alt="CodeRabbit"
+             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="images/coderabbit_Dark_Type_Mark.png#gh-dark-mode-only"
+             alt="CodeRabbit"
+             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+
+
 
 **Individual Sponsors**
 
@@ -48,7 +79,7 @@ Welcome to one of the most comprehensive and dynamic collections of Retrieval-Au
 
 [![Subscribe to DiamantAI Newsletter](images/subscribe-button.svg)](https://diamantai.substack.com/?r=336pe4&utm_campaign=pub-share-checklist)
 
-*Join over 20,000 of AI enthusiasts getting unique cutting-edge insights and free tutorials!* ***Plus, subscribers get exclusive early access and special 33% discounts to my book and the upcoming RAG Techniques course!***
+*Join over 50,000 AI enthusiasts getting unique cutting-edge insights and free tutorials!* ***Plus, subscribers get exclusive early access and special 33% discounts to my book and the upcoming RAG Techniques course!***
 </div>
 
 
@@ -64,13 +95,19 @@ Our goal is to provide a valuable resource for researchers and practitioners loo
 
 ## Related Projects
 
-🖋️ Check out my  **[Prompt Engineering Techniques guide](https://github.com/NirDiamant/Prompt_Engineering)** for a comprehensive collection of prompting strategies, from basic concepts to advanced techniques, enhancing your ability to interact effectively with AI language models.
+🚀 Level up with my **[Agents Towards Production](https://github.com/NirDiamant/agents-towards-production)** repository. It delivers horizontal, code-first tutorials that cover every tool and step in the lifecycle of building production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches, making it the smartest place to start if you're serious about shipping agents to production.
 
 🤖 Explore my **[GenAI Agents Repository](https://github.com/NirDiamant/GenAI_Agents)** to discover a variety of AI agent implementations and tutorials, showcasing how different AI technologies can be combined to create powerful, interactive systems.
 
+
+🖋️ Check out my  **[Prompt Engineering Techniques guide](https://github.com/NirDiamant/Prompt_Engineering)** for a comprehensive collection of prompting strategies, from basic concepts to advanced techniques, enhancing your ability to interact effectively with AI language models.
+
+
 ## A Community-Driven Knowledge Hub
 
-**This repository grows stronger with your contributions!** Join our vibrant Discord community — the central hub for shaping and advancing this project together 🤝
+**This repository grows stronger with your contributions!** Join our vibrant communities - the central hubs for shaping and advancing this project together 🤝
+
+**[Educational AI Subreddit](https://www.reddit.com/r/EducationalAI/)**
 
 **[RAG Techniques Discord Community](https://discord.gg/cA6Aa4uyDX)**
 
@@ -91,7 +128,7 @@ Explore our extensive list of cutting-edge RAG techniques:
 
 | # | Category | Technique | View |
 |---|----------|-----------|------|
-| 1 | ⭐ Key Collaboration | Graph RAG with Milvus Vector DB | [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) |
+| 1 | ⭐ Key Collaboration | Agentic RAG with Contextual AI | [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/Agentic_RAG.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Agentic_RAG.ipynb) |
 | 2 | Foundational 🌱 | Basic RAG | [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/simple_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb) |
 | 3 | Foundational 🌱 | RAG with CSV Files | [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/simple_csv_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag.ipynb) |
 | 4 | Foundational 🌱 | Reliable RAG | [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/reliable_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reliable_rag.ipynb) |
@@ -194,7 +231,7 @@ Explore our extensive list of cutting-edge RAG techniques:
    - 🧩 **Sub-query Decomposition:** Break complex queries into simpler sub-queries.
 
 7. Hypothetical Questions (HyDE Approach) ❓  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb)  
    - **[Runnable Script](all_rag_techniques_runnable_scripts/HyDe_Hypothetical_Document_Embedding.py)**
 
    #### Overview 🔎
@@ -432,8 +469,20 @@ Explore our extensive list of cutting-edge RAG techniques:
 
 ### 🏗️ Advanced Architectures
 
-28. Graph RAG with Milvus Vector Database 🔍 
-    - **Graph RAG with Milvus**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb)  
+28. Agentic RAG with Contextual AI 🤖 
+    - **Agentic RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/Agentic_RAG.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Agentic_RAG.ipynb)  
+
+    #### Overview 🔎
+    Building production-ready agentic RAG pipelines for financial document analysis with Contextual AI's managed platform. This comprehensive tutorial demonstrates how to leverage agentic RAG to solve complex queries through intelligent query reformulation, document parsing, reranking, and grounded language models.
+    
+    #### Implementation 🛠️
+    - **Document Parser**: Enterprise-grade parsing with vision models for complex tables, charts, and multi-page documents
+    - **Instruction-Following Reranker**: SOTA reranker with instruction-following capabilities for handling conflicting information
+    - **Grounded Language Model (GLM)**: World's most grounded LLM specifically engineered to minimize hallucinations for RAG use cases
+    - **LMUnit**: Natural language unit testing framework for evaluating and optimizing RAG system performance
+
+29. Graph RAG with Milvus Vector Database 🔍 
+    - **Graph RAG with Milvus**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb)  
 
     #### Overview 🔎
     A simple yet powerful approach to implement Graph RAG using Milvus vector databases. This technique significantly improves performance on complex multi-hop questions by combining relationship-based retrieval with vector search and reranking.
@@ -444,7 +493,7 @@ Explore our extensive list of cutting-edge RAG techniques:
     - Use an LLM to rerank retrieved relationships based on their relevance to the query 
     - Retrieve the final passages based on the most relevant relationships
 
-29. Knowledge Graph Integration (Graph RAG) 🕸️  
+30. Knowledge Graph Integration (Graph RAG) 🕸️  
     - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graph_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graph_rag.ipynb)  
     - **[Runnable Script](all_rag_techniques_runnable_scripts/graph_rag.py)**
 
@@ -454,7 +503,7 @@ Explore our extensive list of cutting-edge RAG techniques:
     #### Implementation 🛠️
     Retrieve entities and their relationships from a knowledge graph relevant to the query, combining this structured data with unstructured text for more informative responses.
 
-30. GraphRag (Microsoft) 🎯
+31. GraphRag (Microsoft) 🎯
     - **GraphRag**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Microsoft_GraphRag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Microsoft_GraphRag.ipynb)  
 
     #### Overview 🔎
@@ -463,7 +512,7 @@ Explore our extensive list of cutting-edge RAG techniques:
     #### Implementation 🛠️
     • Analyze an input corpus by extracting entities, relationships from text units. generates summaries of each community and its constituents from the bottom-up.
 
-31. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval 🌳  
+32. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval 🌳  
     - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/raptor.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/raptor.ipynb)  
     - **[Runnable Script](all_rag_techniques_runnable_scripts/raptor.py)**
 
@@ -473,7 +522,7 @@ Explore our extensive list of cutting-edge RAG techniques:
     #### Implementation 🛠️
     Use abstractive summarization to recursively process and summarize retrieved documents, organizing the information in a tree structure for hierarchical context.
 
-32. Self RAG 🔁  
+33. Self RAG 🔁  
     - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/self_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/self_rag.ipynb)  
     - **[Runnable Script](all_rag_techniques_runnable_scripts/self_rag.py)**
 
@@ -483,7 +532,7 @@ Explore our extensive list of cutting-edge RAG techniques:
     #### Implementation 🛠️
     • Implement a multi-step process including retrieval decision, document retrieval, relevance evaluation, response generation, support assessment, and utility evaluation to produce accurate, relevant, and useful outputs.
 
-33. Corrective RAG 🔧  
+34. Corrective RAG 🔧  
     - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/crag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/crag.ipynb)  
     - **[Runnable Script](all_rag_techniques_runnable_scripts/crag.py)**
 
@@ -495,7 +544,7 @@ Explore our extensive list of cutting-edge RAG techniques:
 
 ## 🌟 Special Advanced Technique 🌟
 
-34. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
+35. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
 
     #### Overview 🔎
     An advanced RAG solution designed to tackle complex questions that simple semantic similarity-based retrieval cannot solve. This approach uses a sophisticated deterministic graph as the "brain" 🧠 of a highly controllable autonomous agent, capable of answering non-trivial questions from your own data.
@@ -540,5 +589,7 @@ This project is licensed under a custom non-commercial license - see the [LICENS
 ---
 
 ⭐️ If you find this repository helpful, please consider giving it a star!
+
+![](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme)
 
 Keywords: RAG, Retrieval-Augmented Generation, NLP, AI, Machine Learning, Information Retrieval, Natural Language Processing, LLM, Embeddings, Semantic Search

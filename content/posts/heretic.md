@@ -1,9 +1,9 @@
 ---
 title: heretic
-date: 2026-02-18T13:22:33+08:00
+date: 2026-02-19T13:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768980916747-fd6dc938f8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768980916747-fd6dc938f8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770135878277-73e589248b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770135878277-73e589248b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
 ---
 
 # [p-e-w/heretic](https://github.com/p-e-w/heretic)

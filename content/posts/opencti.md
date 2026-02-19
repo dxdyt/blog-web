@@ -1,9 +1,9 @@
 ---
 title: opencti
-date: 2026-02-18T13:24:05+08:00
+date: 2026-02-19T13:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771183262507-62916a29ea63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzOTIxNDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768727043774-04a8a3849331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768727043774-04a8a3849331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
 ---
 
 # [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti)
