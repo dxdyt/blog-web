@@ -1,9 +1,9 @@
 ---
 title: cs249r_book
-date: 2026-02-19T13:21:18+08:00
+date: 2026-02-20T13:15:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767961932888-6bd98b732200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767961932888-6bd98b732200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE0Nzg0Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768820416651-92137322999e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768820416651-92137322999e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
 ---
 
 # [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1767961932888-6bd98b7322
   <!-- Reader Navigation -->
   **[📖 Read Online](https://mlsysbook.ai)** •
   **[Tiny🔥Torch](https://mlsysbook.ai/tinytorch)** •
-  **[📄 Download PDF](https://mlsysbook.ai/assets/downloads/Machine-Learning-Systems.pdf)** •
+  **[📄 Download PDF](https://mlsysbook.ai/book/assets/downloads/Machine-Learning-Systems.pdf)** •
   **[📓 Download EPUB](https://mlsysbook.ai/epub)** •
   **[🌐 Explore Ecosystem](https://mlsysbook.org)**
 
@@ -436,6 +436,7 @@ Thanks goes to these wonderful people who have contributed to making this resour
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/harvard-edge/cs249r_book/graphs/contributors"><img src="https://www.gravatar.com/avatar/43b1feff77c8a95fd581774fb8ec891f?d=identicon&s=100?v=4?s=50" width="50px;" alt="Zishen"/><br /><sub><b>Zishen</b></sub></a><br />✍️</td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/BunningsWarehouseOfficial"><img src="https://avatars.githubusercontent.com/u/49220945?v=4?v=4?s=50" width="50px;" alt="Kristian Radoš"/><br /><sub><b>Kristian Radoš</b></sub></a><br />✍️</td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/minhdang26403"><img src="https://avatars.githubusercontent.com/u/86156224?v=4?v=4?s=50" width="50px;" alt="Dang Truong"/><br /><sub><b>Dang Truong</b></sub></a><br />🧑‍💻</td>
+      <td align="center" valign="top" width="11.11%"><a href="https://github.com/pipme"><img src="https://avatars.githubusercontent.com/pipme?v=4?s=50" width="50px;" alt="pipme"/><br /><sub><b>pipme</b></sub></a><br />✍️</td>
     </tr>
   </tbody>
 </table>
@@ -478,6 +479,7 @@ Thanks goes to these wonderful people who have contributed to making this resour
     <tr>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/harishb00a"><img src="https://avatars.githubusercontent.com/harishb00a?v=4?s=50" width="50px;" alt="harishb00a"/><br /><sub><b>harishb00a</b></sub></a><br />✍️</td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/sotoblanco"><img src="https://avatars.githubusercontent.com/u/46135649?v=4?v=4?s=50" width="50px;" alt="Pastor Soto"/><br /><sub><b>Pastor Soto</b></sub></a><br />✍️</td>
+      <td align="center" valign="top" width="11.11%"><a href="https://github.com/Pratham-ja"><img src="https://avatars.githubusercontent.com/u/114498234?v=4?v=4?s=50" width="50px;" alt="Pratham Chaudhary"/><br /><sub><b>Pratham Chaudhary</b></sub></a><br />✍️</td>
     </tr>
   </tbody>
 </table>
