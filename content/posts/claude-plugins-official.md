@@ -1,9 +1,9 @@
 ---
 title: claude-plugins-official
-date: 2026-02-01T13:21:35+08:00
+date: 2026-02-21T13:05:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765447041759-636af333f1ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765447041759-636af333f1ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763902426504-f8d1176fcdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763902426504-f8d1176fcdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
@@ -51,6 +51,10 @@ plugin-name/
 ├── skills/              # Skill definitions (optional)
 └── README.md            # Documentation
 ```
+
+## License
+
+Please see each linked plugin for the relevant LICENSE file.
 
 ## Documentation
 

@@ -1,9 +1,9 @@
 ---
 title: freemocap
-date: 2026-02-20T13:16:14+08:00
+date: 2026-02-21T13:06:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768820416651-92137322999e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768820416651-92137322999e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768470039304-25fbe6691565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768470039304-25fbe6691565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
 ---
 
 # [freemocap/freemocap](https://github.com/freemocap/freemocap)

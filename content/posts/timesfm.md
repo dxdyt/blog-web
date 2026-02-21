@@ -1,9 +1,9 @@
 ---
 title: timesfm
-date: 2025-09-20T12:22:13+08:00
+date: 2026-02-21T13:05:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756547275308-b06ff9708b33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756547275308-b06ff9708b33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767818375518-dd9693075d19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767818375518-dd9693075d19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
 ---
 
 # [google-research/timesfm](https://github.com/google-research/timesfm)
@@ -32,6 +32,11 @@ This open version is not an officially supported Google product.
     install timesfm==1.3.0` to install an older version of this package to load
     them.
 
+## Update - Oct. 29, 2025
+
+Added back the covariate support through XReg for TimesFM 2.5.
+
+
 ## Update - Sept. 15, 2025
 
 TimesFM 2.5 is out!
@@ -54,23 +59,46 @@ will be under construction over the next few weeks to
 
 ### Install
 
-TODO(siriuz42): Package timesfm==2.0.0 and upload to PyPI .
+1.  Clone the repository:
+    ```shell
+    git clone https://github.com/google-research/timesfm.git
+    cd timesfm
+    ```
 
-Run
+2.  Create a virtual environment and install dependencies using `uv`:
+    ```shell
+    # Create a virtual environment
+    uv venv
+    
+    # Activate the environment
+    source .venv/bin/activate
+    
+    # Install the package in editable mode with torch
+    uv pip install -e .[torch]
+    # Or with flax
+    uv pip install -e .[flax]
+    # Or XReg is needed
+    uv pip install -e .[xreg]
+    ```
 
-```shell
-git clone https://github.com/google-research/timesfm.git
-cd timesfm
-pip install -e .
-```
+3. [Optional] Install your preferred `torch` / `jax` backend based on your OS and accelerators
+(CPU, GPU, TPU or Apple Silicon).:
+
+-   [Install PyTorch](https://pytorch.org/get-started/locally/).
+-   [Install Jax](https://docs.jax.dev/en/latest/installation.html#installation)
+    for Flax.
 
 ### Code Example
 
 ```python
+import torch
 import numpy as np
 import timesfm
-model = timesfm.TimesFM_2p5_200M_torch()
-model.load_checkpoint()
+
+torch.set_float32_matmul_precision("high")
+
+model = timesfm.TimesFM_2p5_200M_torch.from_pretrained("google/timesfm-2.5-200m-pytorch")
+
 model.compile(
     timesfm.ForecastConfig(
         max_context=1024,
