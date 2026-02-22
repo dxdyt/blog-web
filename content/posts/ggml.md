@@ -1,9 +1,9 @@
 ---
 title: ggml
-date: 2025-11-07T12:23:01+08:00
+date: 2026-02-22T13:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759675274095-e19cc2e12055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759675274095-e19cc2e12055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769788873505-c2d2f570ae0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769788873505-c2d2f570ae0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
 ---
 
 # [ggml-org/ggml](https://github.com/ggml-org/ggml)
