@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2026-02-22T13:16:38+08:00
+date: 2026-02-23T13:25:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771238496984-448d28941ea6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771238496984-448d28941ea6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771694583804-485942f4447e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771694583804-485942f4447e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
 ---
 
 # [cloudflare/agents](https://github.com/cloudflare/agents)

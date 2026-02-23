@@ -1,14 +1,16 @@
 ---
 title: GitNexus
-date: 2026-02-22T13:15:25+08:00
+date: 2026-02-23T13:25:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769082106222-b6adc40b7b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769082106222-b6adc40b7b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770346016333-ecf89df4845c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770346016333-ecf89df4845c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
 
 # GitNexus
+
+<a href="https://trendshift.io/repositories/19809" target="_blank"><img src="https://trendshift.io/api/badge/repositories/19809" alt="abhigyanpatwari%2FGitNexus | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 **Building git for agent context.**
 
@@ -28,6 +30,11 @@ https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 **TL;DR:** The **Web UI** is a quick way to chat with any repo. The **CLI + MCP** is how you make your AI agent actually reliable — it gives Cursor, Claude Code, and friends a deep architectural view of your codebase so they stop missing dependencies, breaking call chains, and shipping blind edits. Even smaller models get full architectural clarity, making it compete with goliath models.
 
 ---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=abhigyanpatwari/GitNexus&type=date&legend=top-left)](https://www.star-history.com/#abhigyanpatwari/GitNexus&type=date&legend=top-left)
+
 
 ## Two Ways to Use GitNexus
 

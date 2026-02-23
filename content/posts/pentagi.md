@@ -1,9 +1,9 @@
 ---
 title: pentagi
-date: 2026-02-22T13:15:15+08:00
+date: 2026-02-23T13:24:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771345207849-e4713a7a3fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771345207849-e4713a7a3fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3MzczMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770346016333-ecf89df4845c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770346016333-ecf89df4845c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
 ---
 
 # [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
