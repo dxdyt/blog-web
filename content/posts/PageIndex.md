@@ -1,9 +1,9 @@
 ---
 title: PageIndex
-date: 2026-02-03T13:15:21+08:00
+date: 2026-02-24T13:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769011091803-31d2f550d86a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769011091803-31d2f550d86a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwOTU2NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770128076185-0dc32b42e9f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770128076185-0dc32b42e9f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
 ---
 
 # [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
@@ -242,6 +242,25 @@ Explore the full [benchmark results](https://github.com/VectifyAI/Mafin2.5-Finan
 ---
 
 # ⭐ Support Us
+Please cite this work as:
+```
+Mingtian Zhang, Yu Tang and PageIndex Team,
+"PageIndex: Next-Generation Vectorless, Reasoning-based RAG",
+PageIndex Blog, Sep 2025.
+```
+
+Or use the BibTeX citation:
+
+```
+@article{zhang2025pageindex,
+  author = {Mingtian Zhang and Yu Tang and PageIndex Team},
+  title = {PageIndex: Next-Generation Vectorless, Reasoning-based RAG},
+  journal = {PageIndex Blog},
+  year = {2025},
+  month = {September},
+  note = {https://pageindex.ai/blog/pageindex-intro},
+}
+```
 
 Leave us a star 🌟 if you like our project. Thank you!  
 

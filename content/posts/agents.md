@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2026-02-23T13:25:32+08:00
+date: 2026-02-24T13:21:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771694583804-485942f4447e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771694583804-485942f4447e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE4MjQyNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769945539465-dd1119f56f08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769945539465-dd1119f56f08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
 ---
 
 # [cloudflare/agents](https://github.com/cloudflare/agents)
@@ -175,6 +175,13 @@ npx changeset
 ```
 
 See [`AGENTS.md`](AGENTS.md) for deeper contributor guidance.
+
+## Contributing
+
+We are not accepting external pull requests at this time — the SDK is evolving quickly and we want to keep the surface area manageable. That said, we'd love to hear from you:
+
+- **Bug reports & feature requests** — [open an issue](https://github.com/cloudflare/agents/issues)
+- **Questions & ideas** — [start a discussion](https://github.com/cloudflare/agents/discussions)
 
 ## License
 

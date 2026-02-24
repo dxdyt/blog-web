@@ -1,9 +1,9 @@
 ---
 title: memU
-date: 2026-01-31T13:00:58+08:00
+date: 2026-02-24T13:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767749580008-9f836a3849a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
 ---
 
 # [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU)
@@ -45,6 +45,43 @@ memU **continuously captures and understands user intent**. Even without a comma
 - **Cuts LLM token cost** with smaller context.
 
 Try now: [memU bot](https://memu.bot)
+
+---
+
+## 🗃️ Memory as File System, File System as Memory
+
+memU treats **memory like a file system**—structured, hierarchical, and instantly accessible.
+
+| File System | memU Memory |
+|-------------|-------------|
+| 📁 Folders | 🏷️ Categories (auto-organized topics) |
+| 📄 Files | 🧠 Memory Items (extracted facts, preferences, skills) |
+| 🔗 Symlinks | 🔄 Cross-references (related memories linked) |
+| 📂 Mount points | 📥 Resources (conversations, documents, images) |
+
+**Why this matters:**
+- **Navigate memories** like browsing directories—drill down from broad categories to specific facts
+- **Mount new knowledge** instantly—conversations and documents become queryable memory
+- **Cross-link everything**—memories reference each other, building a connected knowledge graph
+- **Persistent & portable**—export, backup, and transfer memory like files
+
+```
+memory/
+├── preferences/
+│   ├── communication_style.md
+│   └── topic_interests.md
+├── relationships/
+│   ├── contacts/
+│   └── interaction_history/
+├── knowledge/
+│   ├── domain_expertise/
+│   └── learned_skills/
+└── context/
+    ├── recent_conversations/
+    └── pending_tasks/
+```
+
+Just as a file system turns raw bytes into organized data, memU transforms raw interactions into **structured, searchable, proactive intelligence**.
 
 ---
 
@@ -458,8 +495,6 @@ result = await service.retrieve(
 - `where={"agent_id__in": ["1", "2"]}` - Multi-agent coordination
 - Omit `where` for global context awareness
 
-> 📚 **For complete API documentation**, see [SERVICE_API.md](docs/SERVICE_API.md) - includes proactive workflow patterns, pipeline configuration, and real-time update handling.
-
 ---
 
 ## 💡 Proactive Scenarios
@@ -555,6 +590,7 @@ View detailed experimental data: [memU-experiment](https://github.com/NevaMind-A
 <a href="https://github.com/Buddie-AI/Buddie"><img src="assets/partners/buddie.png" alt="Buddie" height="40" style="margin: 10px;"></a>
 <a href="https://github.com/bytebase/bytebase"><img src="assets/partners/bytebase.png" alt="Bytebase" height="40" style="margin: 10px;"></a>
 <a href="https://github.com/LazyAGI/LazyLLM"><img src="assets/partners/LazyLLM.png" alt="LazyLLM" height="40" style="margin: 10px;"></a>
+<a href="https://clawdchat.ai/"><img src="assets/partners/Clawdchat.png" alt="Clawdchat" height="40" style="margin: 10px;"></a>
 
 </div>
 
