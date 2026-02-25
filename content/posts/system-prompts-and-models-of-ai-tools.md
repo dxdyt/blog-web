@@ -1,9 +1,9 @@
 ---
 title: system-prompts-and-models-of-ai-tools
-date: 2026-02-24T13:20:46+08:00
+date: 2026-02-25T13:22:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769010934261-ce846f3053dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769010934261-ce846f3053dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
 ---
 
 # [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)

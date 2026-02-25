@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-02-24T13:20:53+08:00
+date: 2026-02-25T13:22:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771518667360-ed8fb9aaebda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771518667360-ed8fb9aaebda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769117438355-a418184cddcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769117438355-a418184cddcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/skills](https://github.com/huggingface/skills)

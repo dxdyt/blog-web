@@ -1,9 +1,9 @@
 ---
 title: Agent-Skills-for-Context-Engineering
-date: 2026-02-24T13:21:05+08:00
+date: 2026-02-25T13:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769489050916-cc095f626886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769489050916-cc095f626886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771250824234-fc8248313204?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771250824234-fc8248313204?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
 ---
 
 # [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
@@ -210,7 +210,7 @@ The [book-sft-pipeline](examples/book-sft-pipeline/) example demonstrates traini
 Integrates with context engineering skills: project-development, context-compression, multi-agent-patterns, evaluation.
 
 ## Star History
-<img width="3664" height="2648" alt="star-history-2026113" src="https://github.com/user-attachments/assets/c60fd73f-4a6c-4679-b7c6-bb8ebf2f3a48" />
+<img width="3664" height="2648" alt="star-history-2026224" src="https://github.com/user-attachments/assets/b3bdbf23-4b6a-4774-ae85-42ef4d9b2d79" />
 
 ## Structure
 
