@@ -1,9 +1,9 @@
 ---
 title: claudecodeui
-date: 2026-02-24T13:21:57+08:00
+date: 2026-02-26T13:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771591947330-814081db8626?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771591947330-814081db8626?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771387515473-a7b737d70efb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771387515473-a7b737d70efb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
 ---
 
 # [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui)
@@ -16,6 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771591947330-814081db86
 
 A desktop and mobile UI for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Cursor CLI](https://docs.cursor.com/en/cli/overview) and [Codex](https://developers.openai.com/codex). You can use it locally or remotely to view your active projects and sessions in Claude Code, Cursor, or Codex and make changes to them from everywhere (mobile or desktop). This gives you a proper interface that works everywhere. 
 
+<a href="https://trendshift.io/repositories/15586" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15586" alt="siteboon%2Fclaudecodeui | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 <div align="right"><i><b>English</b> · <a href="./README.ko.md">한국어</a> · <a href="./README.zh-CN.md">中文</a> · <a href="./README.ja.md">日本語</a></i></div>
 
 ## Screenshots

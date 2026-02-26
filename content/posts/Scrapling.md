@@ -1,9 +1,9 @@
 ---
 title: Scrapling
-date: 2026-02-25T13:23:25+08:00
+date: 2026-02-26T13:18:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767749505538-23e71d1af2c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767749505538-23e71d1af2c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5OTY5Mzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770983437998-5c16779d7586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770983437998-5c16779d7586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
 ---
 
 # [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)

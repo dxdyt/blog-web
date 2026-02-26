@@ -1,9 +1,9 @@
 ---
 title: GitNexus
-date: 2026-02-24T13:21:24+08:00
+date: 2026-02-26T13:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771607068123-732a746b2edd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771607068123-732a746b2edd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771272338329-1ab5145559a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771272338329-1ab5145559a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
@@ -81,6 +81,12 @@ To configure MCP for your editor, run `npx gitnexus setup` once — or set it up
 | **OpenCode**    | Yes | Yes    | —                   | MCP + Skills   |
 
 > **Claude Code** gets the deepest integration: MCP tools + agent skills + PreToolUse hooks that automatically enrich grep/glob/bash calls with knowledge graph context.
+
+### Community Integrations
+
+| Agent | Install | Source |
+|-------|---------|--------|
+| [pi](https://pi.dev) | `pi install npm:pi-gitnexus` | [pi-gitnexus](https://github.com/tintinweb/pi-gitnexus) |
 
 If you prefer manual configuration:
 

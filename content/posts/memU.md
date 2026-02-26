@@ -1,9 +1,9 @@
 ---
 title: memU
-date: 2026-02-24T13:22:06+08:00
+date: 2026-02-26T13:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771456609733-c18051fd026c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
 ---
 
 # [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU)
