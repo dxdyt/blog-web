@@ -1,9 +1,9 @@
 ---
 title: moonshine
-date: 2026-02-16T13:26:34+08:00
+date: 2026-02-27T13:15:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770064319432-9c5f134afca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEyMTk1Mjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755018237558-5f9edc544504?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755018237558-5f9edc544504?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
 ---
 
 # [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)
@@ -108,14 +108,14 @@ I've recorded [a screencast on YouTube](https://www.youtube.com/watch?v=NNcqx1wF
 
 TL;DR - When you're working with live speech.
 
-| Model                      | WER    | # Parameters | MacBook Pro | Linux x86 | 
-| -------------------------- | ------ | ------------ | ----------- | --------- | 
-| Moonshine Medium Streaming | 6.65%  | 245 million  | 258ms       | 347ms     | 
-| Whisper Large v3           | 7.44%  | 1.5 billion  | 11,286ms    | 16,919ms  | 
-| Moonshine Small Streaming  | 7.84%  | 123 million  | 148ms       | 201ms     | 
-| Whisper Small              | 8.59%  | 244 million  | 1940ms      | 3,425ms   | 
-| Moonshine Tiny Streaming   | 12.00% | 34 million   | 50ms        | 76ms      | 
-| Whisper Tiny               | 12.81% | 39 million   | 277ms       | 1,141ms   | 
+| Model                      | WER    | # Parameters | MacBook Pro | Linux x86 | R. Pi 5   |
+| -------------------------- | ------ | ------------ | ----------- | --------- | --------- |
+| Moonshine Medium Streaming | 6.65%  | 245 million  | 107ms       | 269ms     | 802ms     |
+| Whisper Large v3           | 7.44%  | 1.5 billion  | 11,286ms    | 16,919ms  | N/A       |
+| Moonshine Small Streaming  | 7.84%  | 123 million  | 73ms        | 165ms     | 527ms     |
+| Whisper Small              | 8.59%  | 244 million  | 1940ms      | 3,425ms   | 10,397ms  |
+| Moonshine Tiny Streaming   | 12.00% | 34 million   | 34ms        | 69ms      | 237ms     |
+| Whisper Tiny               | 12.81% | 39 million   | 277ms       | 1,141ms   | 5,863ms   |
 
 _See [benchmarks](#benchmarks) for how these numbers were measured._
 
@@ -386,7 +386,7 @@ For reference purposes you can find Xcode projects with these changes applied in
 
 #### Android
 
-On Android we publish [the package to Maven](https://mvnrepository.com/artifact/ai.moonshine/moonshine-voice). To include it in your project using Android Studio and Gradle, first add the version number you want to the `gradle/libs.versions.toml` file by inserting a line in the `[versions]` section, for example `moonshineVoice = "0.0.48"`. Then in the `[libraries]` part, add a reference to the package: `moonshine-voice = { group = "ai.moonshine", name = "moonshine-voice", version.ref = "moonshineVoice" }`.
+On Android we publish [the package to Maven](https://mvnrepository.com/artifact/ai.moonshine/moonshine-voice). To include it in your project using Android Studio and Gradle, first add the version number you want to the `gradle/libs.versions.toml` file by inserting a line in the `[versions]` section, for example `moonshineVoice = "0.0.49"`. Then in the `[libraries]` part, add a reference to the package: `moonshine-voice = { group = "ai.moonshine", name = "moonshine-voice", version.ref = "moonshineVoice" }`.
 
 Finally, in your `app/build.gradle.kts` add the library to the `dependencies` list: `implementation(libs.moonshine.voice)`. You can find a working example of all these changes in [`examples/android/Transcriber`].
 
@@ -554,6 +554,12 @@ The experimental setup is as follows:
 
 Moonshine Voice is based on a family of speech to text models created by the team at Moonshine AI. If you want to download models to use with the framework, you can use [the Python package to access them](#downloading-models). This section contains more information about the history and characteristics of the models we offer.
 
+ - [Papers](#papers)
+ - [Available Models](#available-models)
+ - [Domain Customization](#domain-customization)
+ - [Quantization](#quantization)
+ - [HuggingFace](#huggingface)
+
 ### Papers
 
 These research papers are a good resource for understanding the architectures and performance strategies behind the models:
@@ -565,7 +571,7 @@ These research papers are a good resource for understanding the architectures an
 
 ### Available Models
 
-Here are the models currently available. See [Downloading Models](#downloading-models) for how to obtain them.
+Here are the models currently available. See [Downloading Models](#downloading-models) for how to obtain them. This library uses the Onnx model format, converted to the memory-mappable OnnxRuntime (`.ort`) flatbuffer encoding. For `safetensor` versions, see the [HuggingFace](#huggingface) section.
 
 | Language   | Architecture     | # Parameters | WER/CER |
 | ---------- | ---------------- | ------------ | ------- |
@@ -589,6 +595,16 @@ One common issue to watch out for if you're using models that don't use the Lati
 ### Domain Customization
 
 It's often useful to be able to calibrate a speech to text model towards certain words that you're expecting to hear in your application, whether it's technical terms, slang, or a particular dialect or accent. [Moonshine AI offers full retraining using our internal dataset for customization as a commercial service](mailto:contact@moonshine.ai) and we do hope to support free lighter-weight approaches in the future. You can find a community project working on this at [github.com/pierre-cheneau/finetune-moonshine-asr](https://github.com/pierre-cheneau/finetune-moonshine-asr).
+
+### Quantization
+
+We typically quantize our models to eight-bit weights across the board, and eight-bit calculations for heavy operations like MatMul. This is all post-training quantization, using a combination of OnnxRuntime's tools and [my Onnx Shrink Ray utility](https://pypi.org/project/onnx-shrink-ray/). The only anomaly in the process is the treatment of the frontend, which uses convolution layers to generate features, which produces results similar to the more traditional MEL spectrogram preprocessing, but in a learned way with standard ML operations. The inputs to this initial stage correspond to 16-bit signed integers from the raw audio data (though they're encoded as floats) so we've found it necessary to leave the convolution operations in at least B16 float precision. 
+
+You can see the options we use for the conversions in [scripts/quantize-streaming-model.sh](scripts/quantize-streaming-model.sh).
+
+### HuggingFace
+
+We have `safetensors` versions of the models linked from our organization on HF, [huggingface.co/UsefulSensors/models](https://huggingface.co/UsefulSensors/models). The organization name is from an earlier incarnation of the company, when we were focused on supplying complete voice interface solutions integrated onto a low-cost chip with a built-in microphone. These are all floating-point checkpoints exported from our training pipeline
 
 ## API Reference
 
@@ -668,6 +684,8 @@ Handles the speech to text pipeline.
     - `vad_look_behind_sample_count`: Because we're averaging over time, the mean VAD signal will lag behind the initial speech detection. To compensate for that, when speech is detected we pull in some of the audio immediately before the average passed the threshold. This value is the number of samples to prepend, and defaults to 8192 (all at 16KHz).
     - `vad_max_segment_duration`: It can be hard to find gaps in rapid-fire speech, but a lot of applications want their text in chunks that aren't endless. This option sets the longest duration a line can be before it's marked as complete and a new segment is started. The default is 15 seconds, and to increase the chance that a natural break is found, the `vad_threshold` is linearly decreased over time from two thirds of the maximum duration until the maximum is reached.
     - `identify_speakers`: A boolean that controls whether to run the speaker identification stage in the pipeline.
+    - `return_audio_data`: By default the transcriber returns the segment of audio data corresponding to a line of text along with the transcription. You can disable this if you want to reduce memory overhead.
+    - `log_output_text`: If this is enabled then the results of the speech to text model will be logged to the console.
 
 - <a id="transcriber-transcribe-without-streaming"></a>`transcribe_without_streaming()`: A convenience function to extract text from a non-live audio source, such as a file. We optimize for streaming use cases, so you're probably better off using libraries that specialize in bulk, batched transcription if you use this a lot and have performance constraints. This will still call any registered event listeners as it processes the lines, so this can be useful to test your application using pre-recorded files, or to easily integrate offline audio sources.
   - `audio_data`: An array of 32-bit float values, representing mono PCM audio between -1.0 and 1.0, to be analyzed for speech.

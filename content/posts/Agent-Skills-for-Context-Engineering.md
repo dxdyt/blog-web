@@ -1,9 +1,9 @@
 ---
 title: Agent-Skills-for-Context-Engineering
-date: 2026-02-26T13:19:24+08:00
+date: 2026-02-27T13:14:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767463551794-b78c924b98a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767463551794-b78c924b98a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
 ---
 
 # [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)

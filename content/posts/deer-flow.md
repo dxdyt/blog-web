@@ -1,9 +1,9 @@
 ---
 title: deer-flow
-date: 2026-02-26T13:19:40+08:00
+date: 2026-02-27T13:14:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769433492607-80dca9807b4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769433492607-80dca9807b4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770490085047-1460359929e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770490085047-1460359929e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
@@ -79,6 +79,7 @@ Learn more and see **real demos** on our official website.
        temperature: 0.7                  # Sampling temperature
    ```
 
+  
 4. **Set API keys for your configured model(s)**
 
    Choose one of the following methods:

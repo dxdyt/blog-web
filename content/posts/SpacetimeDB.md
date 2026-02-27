@@ -1,9 +1,9 @@
 ---
 title: SpacetimeDB
-date: 2025-10-23T12:23:21+08:00
+date: 2026-02-27T13:14:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760000196444-864caf3b3687?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760000196444-864caf3b3687?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770490085047-1460359929e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770490085047-1460359929e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
 ---
 
 # [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1760000196444-864caf3b36
         <img width="250" src="./images/light/logo-text.svg" alt="SpacetimeDB">
     </a>
     <h3 align="center">
-        Multiplayer at the speed of light.
+        Development at the speed of light.
     </h3>
 </p>
 <p align="center">
@@ -122,7 +122,7 @@ curl -sSf https://install.spacetimedb.com | sh
 
 #### Install on Windows
 
-Installing on Windows is as simple as pasting the above snippet into PowerShell. If you would like to use WSL instead, please follow the Linux install instructions.
+Installing on Windows is as simple as pasting the snippet below into PowerShell. If you would like to use WSL instead, please follow the Linux install instructions.
 
 ```ps1
 iwr https://windows.spacetimedb.com -useb | iex

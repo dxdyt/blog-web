@@ -1,9 +1,9 @@
 ---
 title: Scrapling
-date: 2026-02-26T13:18:59+08:00
+date: 2026-02-27T13:14:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770983437998-5c16779d7586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770983437998-5c16779d7586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
 ---
 
 # [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
@@ -88,6 +88,7 @@ MySpider().start()
 
 # Platinum Sponsors
 
+<i><sub>Do you want to be the first company to show up here? Click [here](https://github.com/sponsors/D4Vinci/sponsorships?tier_id=586646)</sub></i>
 # Sponsors 
 
 <!-- sponsors -->
@@ -376,10 +377,19 @@ This installation only includes the parser engine and its dependencies, without 
     ```bash
     pip install "scrapling[fetchers]"
     
-    scrapling install
+    scrapling install           # normal install
+    scrapling install  --force  # force reinstall
     ```
 
     This downloads all browsers, along with their system dependencies and fingerprint manipulation dependencies.
+
+    Or you can install them from the code instead of running a command like this:
+    ```python
+    from scrapling.cli import install
+    
+    install([], standalone_mode=False)          # normal install
+    install(["--force"], standalone_mode=False) # force reinstall
+    ```
 
 2. Extra features:
    - Install the MCP server feature:
