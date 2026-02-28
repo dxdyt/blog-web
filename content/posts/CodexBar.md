@@ -1,16 +1,16 @@
 ---
 title: CodexBar
-date: 2026-02-02T13:23:47+08:00
+date: 2026-02-28T12:56:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769516923374-db476c12f92b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAwMDk3NjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768245342484-35667bcd7922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768245342484-35667bcd7922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
 ---
 
 # [steipete/CodexBar](https://github.com/steipete/CodexBar)
 
 # CodexBar 🎚️ - May your tokens never run out.
 
-Tiny macOS 14+ menu bar app that keeps your Codex, Claude, Cursor, Gemini, Antigravity, Droid (Factory), Copilot, z.ai, Kiro, Vertex AI, Augment, Amp, and JetBrains AI limits visible (session + weekly where available) and shows when each window resets. One status item per provider (or Merge Icons mode); enable what you use from Settings. No Dock icon, minimal UI, dynamic bar icons in the menu bar.
+Tiny macOS 14+ menu bar app that keeps your Codex, Claude, Cursor, Gemini, Antigravity, Droid (Factory), Copilot, z.ai, Kiro, Vertex AI, Augment, Amp, JetBrains AI, and OpenRouter limits visible (session + weekly where available) and shows when each window resets. One status item per provider (or Merge Icons mode with a provider switcher and optional Overview tab); enable what you use from Settings. No Dock icon, minimal UI, dynamic bar icons in the menu bar.
 
 <img src="codexbar.png" alt="CodexBar menu screenshot" width="520" />
 
@@ -56,6 +56,7 @@ Linux support via Omarchy: community Waybar module and TUI, driven by the `codex
 - [Augment](docs/augment.md) — Browser cookie-based authentication with automatic session keepalive; credits tracking and usage monitoring.
 - [Amp](docs/amp.md) — Browser cookie-based authentication with Amp Free usage tracking.
 - [JetBrains AI](docs/jetbrains.md) — Local XML-based quota from JetBrains IDE configuration; monthly credits tracking.
+- [OpenRouter](docs/openrouter.md) — API token for credit-based usage tracking across multiple AI providers.
 - Open to new providers: [provider authoring guide](docs/provider.md).
 
 ## Icon & Screenshot
@@ -70,7 +71,7 @@ The menu bar icon is a tiny two-bar meter:
 - Optional Codex web dashboard enrichments (code review remaining, usage breakdown, credits history).
 - Local cost-usage scan for Codex + Claude (last 30 days).
 - Provider status polling with incident badges in the menu and icon overlay.
-- Merge Icons mode to combine providers into one status item + switcher.
+- Merge Icons mode to combine providers into one status item + switcher, with an optional Overview tab for up to three providers.
 - Refresh cadence presets (manual, 1m, 2m, 5m, 15m).
 - Bundled CLI (`codexbar`) for scripts and CI (including `codexbar cost --provider codex|claude` for local cost usage); Linux CLI builds available.
 - WidgetKit widget mirrors the menu card snapshot.

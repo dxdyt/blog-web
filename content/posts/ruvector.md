@@ -1,9 +1,9 @@
 ---
 title: ruvector
-date: 2026-02-27T13:14:59+08:00
+date: 2026-02-28T12:56:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771300996859-da0bdfb6ceea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771300996859-da0bdfb6ceea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxNjkyMzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771837602968-625b78cfb48d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771837602968-625b78cfb48d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/ruvector](https://github.com/ruvnet/ruvector)
@@ -508,9 +508,9 @@ npx @ruvector/rvf-mcp-server --transport stdio # MCP server for AI agents
 | Tamper-evident audit | Hash-linked witness chain for every insert, query, and deletion |
 | Post-quantum signatures | ML-DSA-65 and Ed25519 signing on every segment |
 | DNA-style lineage | Parent/child derivation chains with cryptographic verification |
-| 24 segment types | VEC, INDEX, KERNEL, EBPF, WASM, COW_MAP, WITNESS, CRYPTO, and 16 more |
+| 28 segment types | VEC, INDEX, KERNEL, EBPF, WASM, COW_MAP, WITNESS, CRYPTO, FEDERATED_MANIFEST, and 19 more |
 
-**Rust crates** (22): [`rvf-types`](https://crates.io/crates/rvf-types) `rvf-wire` `rvf-manifest` `rvf-quant` `rvf-index` `rvf-crypto` [`rvf-runtime`](https://crates.io/crates/rvf-runtime) `rvf-kernel` `rvf-ebpf` `rvf-launch` `rvf-server` `rvf-import` [`rvf-cli`](https://crates.io/crates/rvf-cli) `rvf-wasm` `rvf-solver-wasm` `rvf-node` + 6 adapters (claude-flow, agentdb, ospipe, agentic-flow, rvlite, sona)
+**Rust crates** (23): [`rvf-types`](https://crates.io/crates/rvf-types) `rvf-wire` `rvf-manifest` `rvf-quant` `rvf-index` `rvf-crypto` [`rvf-runtime`](https://crates.io/crates/rvf-runtime) `rvf-kernel` `rvf-ebpf` [`rvf-federation`](./crates/rvf/rvf-federation) `rvf-launch` `rvf-server` `rvf-import` [`rvf-cli`](https://crates.io/crates/rvf-cli) `rvf-wasm` `rvf-solver-wasm` `rvf-node` + 6 adapters (claude-flow, agentdb, ospipe, agentic-flow, rvlite, sona)
 
 **npm packages** (4): [`@ruvector/rvf`](https://www.npmjs.com/package/@ruvector/rvf) [`@ruvector/rvf-node`](https://www.npmjs.com/package/@ruvector/rvf-node) [`@ruvector/rvf-wasm`](https://www.npmjs.com/package/@ruvector/rvf-wasm) [`@ruvector/rvf-mcp-server`](https://www.npmjs.com/package/@ruvector/rvf-mcp-server)
 
@@ -1577,6 +1577,7 @@ let syndrome = gate.assess_coherence(&quantum_state)?;
 | [ruvector-sparse-inference-wasm](./crates/ruvector-sparse-inference-wasm) | WASM bindings for sparse inference | [![crates.io](https://img.shields.io/crates/v/ruvector-sparse-inference-wasm.svg)](https://crates.io/crates/ruvector-sparse-inference-wasm) |
 | [ruvector-hyperbolic-hnsw](./crates/ruvector-hyperbolic-hnsw) | HNSW in hyperbolic space (Poincaré/Lorentz) | [![crates.io](https://img.shields.io/crates/v/ruvector-hyperbolic-hnsw.svg)](https://crates.io/crates/ruvector-hyperbolic-hnsw) |
 | [ruvector-hyperbolic-hnsw-wasm](./crates/ruvector-hyperbolic-hnsw-wasm) | WASM bindings for hyperbolic HNSW | [![crates.io](https://img.shields.io/crates/v/ruvector-hyperbolic-hnsw-wasm.svg)](https://crates.io/crates/ruvector-hyperbolic-hnsw-wasm) |
+| [ruvector-dither](./crates/ruvector-dither) | Deterministic golden-ratio and pi-digit dithering for quantization (`no_std`) | [![crates.io](https://img.shields.io/crates/v/ruvector-dither.svg)](https://crates.io/crates/ruvector-dither) |
 
 ### FPGA & Hardware Acceleration
 
@@ -1598,12 +1599,45 @@ let syndrome = gate.assess_coherence(&quantum_state)?;
 | [ruvector-exotic-wasm](./crates/ruvector-exotic-wasm) | Exotic AI primitives (strange loops, time crystals) | [![crates.io](https://img.shields.io/crates/v/ruvector-exotic-wasm.svg)](https://crates.io/crates/ruvector-exotic-wasm) |
 | [ruvector-attention-unified-wasm](./crates/ruvector-attention-unified-wasm) | Unified 18+ attention mechanisms (Neural, DAG, Mamba SSM) | [![crates.io](https://img.shields.io/crates/v/ruvector-attention-unified-wasm.svg)](https://crates.io/crates/ruvector-attention-unified-wasm) |
 | [micro-hnsw-wasm](./crates/micro-hnsw-wasm) | Neuromorphic HNSW with spiking neurons (11.8KB WASM) | [![crates.io](https://img.shields.io/crates/v/micro-hnsw-wasm.svg)](https://crates.io/crates/micro-hnsw-wasm) |
+| [thermorust](./crates/thermorust) | Thermodynamic neural motif engine — Ising/soft-spin Hamiltonians, Langevin dynamics, Landauer dissipation | [![crates.io](https://img.shields.io/crates/v/thermorust.svg)](https://crates.io/crates/thermorust) |
 
 **Bio-inspired features:**
 - **Spiking Neural Networks (SNNs)** — 10-50x energy efficiency vs traditional ANNs
 - **BTSP Learning** — Behavioral Time-Scale Synaptic Plasticity for rapid adaptation
 - **MicroLoRA** — Sub-microsecond fine-tuning for per-operator learning
 - **Mamba SSM** — State Space Model attention for linear-time sequences
+
+### Cognitive Robotics
+
+<details>
+<summary>Perception, planning, behavior trees, and swarm coordination for autonomous robots</summary>
+
+| Crate | Description | crates.io |
+|-------|-------------|-----------|
+| [ruvector-robotics](./crates/ruvector-robotics) | Cognitive robotics platform — perception, A* planning, behavior trees, swarm coordination | [![crates.io](https://img.shields.io/crates/v/ruvector-robotics.svg)](https://crates.io/crates/ruvector-robotics) |
+
+**Modules:**
+
+| Module | What It Does |
+|--------|--------------|
+| **bridge** | OccupancyGrid, PointCloud, SensorFrame, SceneGraph data types with spatial kNN |
+| **perception** | Scene-graph construction from point clouds, obstacle detection pipeline |
+| **planning** | A* grid search (octile heuristic) and potential-field velocity commands |
+| **cognitive** | Perceive-think-act-learn loop with utility-based reasoning |
+| **domain_expansion** | Cross-domain transfer learning via Meta Thompson Sampling and Beta priors |
+
+**Key features:** 290 tests, clippy-clean, `no_std`-friendly types, optional `domain-expansion` feature flag for cross-domain transfer, pluggable `PotentialFieldConfig` for obstacle avoidance, Byzantine-tolerant swarm coordination via `ruvector-domain-expansion`.
+
+```rust
+use ruvector_robotics::planning::{astar, potential_field, PotentialFieldConfig};
+use ruvector_robotics::bridge::OccupancyGrid;
+
+let grid = OccupancyGrid::new(100, 100, 0.1);
+let path = astar(&grid, (5, 5), (90, 90))?;
+let cmd = potential_field(&[0.0, 0.0, 0.0], &[5.0, 3.0, 0.0], &[], &PotentialFieldConfig::default());
+```
+
+</details>
 
 ### Self-Learning (SONA)
 
@@ -1634,12 +1668,13 @@ let syndrome = gate.assess_coherence(&quantum_state)?;
 | [rvf-runtime](./crates/rvf/rvf-runtime) | Full store API, COW engine, compaction | [![crates.io](https://img.shields.io/crates/v/rvf-runtime.svg)](https://crates.io/crates/rvf-runtime) |
 | [rvf-kernel](./crates/rvf/rvf-kernel) | Linux kernel builder, initramfs, Docker pipeline | [![crates.io](https://img.shields.io/crates/v/rvf-kernel.svg)](https://crates.io/crates/rvf-kernel) |
 | [rvf-ebpf](./crates/rvf/rvf-ebpf) | Real BPF programs (XDP, socket filter, TC) | [![crates.io](https://img.shields.io/crates/v/rvf-ebpf.svg)](https://crates.io/crates/rvf-ebpf) |
+| [rvf-federation](./crates/rvf/rvf-federation) | Federated transfer learning — PII stripping, differential privacy, FedAvg/FedProx | [![crates.io](https://img.shields.io/crates/v/rvf-federation.svg)](https://crates.io/crates/rvf-federation) |
 | [rvf-launch](./crates/rvf/rvf-launch) | QEMU microvm launcher, KVM/TCG | [![crates.io](https://img.shields.io/crates/v/rvf-launch.svg)](https://crates.io/crates/rvf-launch) |
 | [rvf-server](./crates/rvf/rvf-server) | HTTP REST + TCP streaming server | [![crates.io](https://img.shields.io/crates/v/rvf-server.svg)](https://crates.io/crates/rvf-server) |
 | [rvf-import](./crates/rvf/rvf-import) | JSON, CSV, NumPy importers | [![crates.io](https://img.shields.io/crates/v/rvf-import.svg)](https://crates.io/crates/rvf-import) |
 | [rvf-cli](./crates/rvf/rvf-cli) | Unified CLI with 17 subcommands | [![crates.io](https://img.shields.io/crates/v/rvf-cli.svg)](https://crates.io/crates/rvf-cli) |
 
-**RVF Features:** Single-file cognitive containers that boot as Linux microservices, COW branching at cluster granularity, eBPF acceleration, witness chains, post-quantum signatures, 24 segment types. [Full README](./crates/rvf/README.md)
+**RVF Features:** Single-file cognitive containers that boot as Linux microservices, COW branching at cluster granularity, eBPF acceleration, witness chains, post-quantum signatures, federated transfer learning with differential privacy, 28 segment types. [Full README](./crates/rvf/README.md)
 
 ### Formal Verification
 
@@ -3162,15 +3197,23 @@ println!("{}", response.text);
 ### Federated Learning
 
 ```rust
-// Ephemeral agents collect trajectories
-let agent = EphemeralAgent::new("task-specific-agent");
-agent.process_task(&task).await?;
-let export = agent.export();
+use rvf_federation::{ExportBuilder, DiffPrivacyEngine, FederationPolicy};
 
-// Central coordinator aggregates learning
-coordinator.accept_export(export)?;
-coordinator.consolidate();  // Share patterns with new agents
+// Build a privacy-preserving federated export
+let mut dp = DiffPrivacyEngine::gaussian(1.0, 1e-5, 1.0, 10.0)?;
+let export = ExportBuilder::new("contributor_pseudo".into(), "code_review".into())
+    .add_priors(local_engine.extract_priors())
+    .add_weights(sona_weights)
+    .with_policy(FederationPolicy::default())  // quality gate + min observations
+    .build(&mut dp)?;                          // PII strip → DP noise → manifest
+
+// Import and merge federated learning from another contributor
+let merger = ImportMerger::new();
+merger.validate(&remote_export)?;              // signature + witness chain check
+merger.merge_priors(&mut local, &remote_export.priors, 1);  // version-aware merge
 ```
+
+See [`rvf-federation`](./crates/rvf/rvf-federation) for FedAvg/FedProx aggregation, Byzantine tolerance, RDP privacy accounting, and PII stripping pipeline.
 
 ### Dynamic Embedding Fine-Tuning
 
