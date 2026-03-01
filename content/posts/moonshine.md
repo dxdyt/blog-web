@@ -1,9 +1,9 @@
 ---
 title: moonshine
-date: 2026-02-28T12:55:17+08:00
+date: 2026-03-01T13:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768245342484-35667bcd7922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768245342484-35667bcd7922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772171695283-824cff8e3d39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772171695283-824cff8e3d39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
 ---
 
 # [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)

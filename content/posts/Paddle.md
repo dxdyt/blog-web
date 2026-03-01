@@ -1,9 +1,9 @@
 ---
 title: Paddle
-date: 2024-07-17T12:19:11+08:00
+date: 2026-03-01T13:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719228324632-39312a4cd1fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719228324632-39312a4cd1fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1770941550709-a555ac4a69b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770941550709-a555ac4a69b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
 ---
 
 # [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)

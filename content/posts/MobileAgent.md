@@ -1,136 +1,189 @@
 ---
 title: MobileAgent
-date: 2024-02-08T12:18:24+08:00
+date: 2026-03-01T13:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707045531422-11b4fef815b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707045531422-11b4fef815b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
 ---
 
 # [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent)
 
-
-# Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
-![](assets/logo.png?v=1&type=image)
 <div align="center">
-    <a href="https://arxiv.org/abs/2401.16158"><img src="https://img.shields.io/badge/Arxiv-2401.16158-b31b1b.svg?logo=arXiv" alt=""></a>
-    <a href="https://huggingface.co/papers/2401.16158"><img src="https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg" alt=""></a>
-</div>
-<br>
-<div align="center">
-Junyang Wang<sup>1</sup>, Haiyang Xu<sup>2†</sup>, Jiabo Ye<sup>2</sup>, Ming Yan<sup>2†</sup>,
-</div>
-<div align="center">
-Weizhou Shen<sup>2</sup>, Ji Zhang<sup>2</sup>, Fei Huang<sup>2</sup>, Jitao Sang<sup>1†</sup>
-</div>
-<div align="center">
-{junyangwang, jtsang}@bjtu.edu.cn, {shuofeng.xhy, ym119608}@alibaba-inc.com
-</div>
-<br>
-<div align="center">
-<sup>1</sup>Beijing Jiaotong University    <sup>2</sup>Alibaba Group
-</div>
-<div align="center">
-<sup>†</sup>Corresponding author
+<p align="center">
+  <img src="assets/logo.png"/>
+</p>
 </div>
 
-## 📋Introduction
-![](assets/example.png?v=1&type=image)
-* Pure visual solution, independent of XML and system metadata.
-* Unrestricted operation scope, capable of multi-app operations.
-* Multiple visual perception tools for operation localization.
-* No need for exploration and training, plug and play.
+<div align="center">
+<h2 style="font-size: 28px;">
+	<img src="assets/tongyi.png" width="30px" style="vertical-align: middle; margin-right: 10px;">
+ 	Mobile-Agent: The Powerful GUI Agent Family by Tongyi Lab, Alibaba Group
+</h2>
+
+<div align="center">
+<p align="center">
+  <img src="assets/gui_owl_15_logo.png"/>
+</p>
+</div>
+
+<p align="center">
+<a href="https://trendshift.io/repositories/7423" target="_blank"><img src="https://trendshift.io/api/badge/repositories/7423" alt="MobileAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
+
+👏 Welcome to try Mobile-Agent-v3.5 via our **[<img src="./assets/tongyi.png" width="14px" style="display:inline;"> Modelscope online demo](http://modelscope.cn/studios/MobileAgentTest/computer_use)** or **[<img src="./assets/aliyun.png" width="14px" style="display:inline;"> Bailian online demo](https://bailian.console.aliyun.com/next?tab=demohouse#/experience/adk-computer-use/pc)**!
+
+❗️We provide the limited-time free Mobile-Agent-v3 API on <img src="./assets/aliyun.png" width="14px" style="display:inline;">Bailian for quick experience. View the [documentation](https://help.aliyun.com/zh/model-studio/ui-agent-api).
+
+<p align="center">
+	🤗 <a href="https://huggingface.co/collections/mPLUG/gui-owl-15" target="_blank">GUI-Owl-1.5 Collection</a> |
+	<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/collections/iic/GUI-Owl-15" target="_blank">GUI-Owl-1.5 Collection</a> 
+</p>
+<p align="center">
+	🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> | 
+	<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> ｜
+	🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-7B" target="_blank">GUI-Owl-7B</a> |
+	<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/GUI-Owl-7B" target="_blank">GUI-Owl-7B</a>
+</p>
+
+</div>
+<div align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+<hr>
+</div>
 
 ## 📢News
-*  [2.5] 🔥🔥We provide a **free** API and deploy the entire process for experiencing Mobile Agent, even if **you don't have an OpenAI API Key**. Check out [Quick Start](#quick_start).
-*  [2.2] 🔥We are deploying the demo based on Gradio and users will be able to upload the screenshots.
-* [1.31] 🔥Our code is available! Welcome to try Mobile-Agent.
-* [1.31] 🔥Human-operated data in Mobile-Eval is in preparation and will be open-sourced soon.
-* [1.30] Our paper is available at [LINK](https://arxiv.org/abs/2401.16158).
-* [1.30] Our evaluation results on Mobile-Eval are available.
-* [1.30] The code and Mobile-Eval benchmark are coming soon!
+
+- `[2026.2.14]`🔥🔥 **GUI-Owl 1.5** is released, a new family of native multi-platform GUI agent foundation models (2B/4B/8B/32B/235B; Instruct & Thinking). The next-generation native GUI agent model family built on Qwen3-VL, supporting **desktop/mobile/browser** automation and achieving **SOTA results on 20+ GUI benchmarks**, with strong performance on end-to-end tasks, grounding, tool/MCP calling, and long-horizon memory. Model weights are available on [HuggingFace](https://huggingface.co/collections/mPLUG/gui-owl-15). Technical report is avaliable on [Link](https://arxiv.org/abs/2602.16855). See the [GUI-Owl 1.5 README](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) for details.
+- `[2025.11.25]`🔥 The GUI-Owl series models are now available for online inference, thanks to [**Alibaba Cloud Bailian**](https://bailian.console.aliyun.com/?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.131.39712f3dOmFAxI&scm=20140722.S_card%40%40%E4%BA%A7%E5%93%81%40%402983180.S_card0.ID_card%40%40%E4%BA%A7%E5%93%81%40%402983180-RL_%E7%99%BE%E7%82%BC-LOC_search%7EUND%7Ecard%7EUND%7Eitem-OR_ser-V_3-P0_0&tab=model#/model-market/detail/gui-plus) for providing computing power support. Please refer to the [Link](https://modelscope.cn/models/iic/GUI-Owl-7B).
+- `[2025.10.30]` We released **OSWorld-MCP**, which is a benchmark for evaluating Model Context Protocol (MCP) tool invocation capabilities in real-world scenarios. See the [Link](https://github.com/X-PLUG/OSWorld-MCP).
+- `[2025.9.24]` We've released the demo on ModelScope that's based on Wuying Cloud Desktop and Phone. No need to deploy models locally or prepare devices, just input your instruction to experience Mobile-Agent-v3! [<img src="./assets/tongyi.png" width="14px" style="display:inline;"> ModelScope Demo Link](https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3) and [<img src="./assets/aliyun.png" width="14px" style="display:inline;"> Bailian Demo Link](https://bailian.console.aliyun.com/next?tab=demohouse#/experience/adk-computer-use/pc). For a limited-time free Mobile-Agent-v3 API, please check the [documentation](https://help.aliyun.com/zh/model-studio/ui-agent-api). The new version based on Qwen-3-VL is coming soon.
+- `[2025.9.19]` GUI-Critic-R1 has been accepted by **The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)**. 
+- `[2025.9.16]` We have released our latest work, **UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning**. The [paper](https://www.arxiv.org/abs/2509.11543), [code](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1), [dataset](https://huggingface.co/datasets/mPLUG/UI_S1_dataset) and [model](https://huggingface.co/mPLUG/UI-S1-7B) are now open-sourced.
+- `[2025.9.16]` We've open-sourced the code of GUI-Owl and Mobile-Agent-v3 on OSWorld, AndroidWorld, and real-world mobile scenarios. See the [OSWorld Code](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#evaluation-on-osworld). The OSWorld RL-tuned [checkpoint](https://huggingface.co/mPLUG/GUI-Owl-7B-Desktop-RL) of GUI-Owl is also released. See the [AndroidWorld Code](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#evaluation-on-androidworld) and [Real-world Scenarios Code](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#deploy-mobile-agent-v3-on-your-mobile-device).
+- `[2025.8.20]`All new **GUI-Owl** and **Mobile-Agent-v3** are released! Technical report can be found [here](https://arxiv.org/abs/2508.15144). And model checkpoint will be released on [GUI-Owl-7B](https://huggingface.co/mPLUG/GUI-Owl-7B) and [GUI-Owl-32B](https://huggingface.co/mPLUG/GUI-Owl-32B).
+  - GUI-Owl is a multi-modal cross-platform GUI VLM with GUI perception, grounding, and end-to-end operation capabilities.
+  - Mobile-Agent-v3 is a cross-platform multi-agent framework based on GUI-Owl. It provides capabilities such as planning, progress management, reflection, and memory.
+- `[2025.8.14]`Mobile-Agent-v3 won the **best demo award** at the ***The 24rd China National Conference on Computational Linguistics*** (CCL 2025).
+- `[2025.3.17]` PC-Agent has been accepted by the **ICLR 2025 Workshop**.
+- `[2024.9.26]` Mobile-Agent-v2 has been accepted by **The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024)**.
+- `[2024.7.29]` Mobile-Agent won the **best demo award** at the ***The 23rd China National Conference on Computational Linguistics*** (CCL 2024).
+- `[2024.3.10]` Mobile-Agent has been accepted by the **ICLR 2024 Workshop**.
+
+## 📊Results
+
+<div align="center">
+<p align="center">
+  <img src="assets/result.png"/>
+</p>
+</div>
+
+## 👀Features
+
+<div align="center">
+<p align="center">
+  <img src="assets/framework.png"/>
+</p>
+</div>
+
+## 📝Series of Work
+
+- [**Mobile-Agent-v3.5**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) (Preprint): Multi-platform Fundamental GUI Agents. [**[Paper]**](https://arxiv.org/abs/2602.16855) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5)
+- [**Mobile-Agent-v3**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3) (Preprint): Multi-modal and multi-platform GUI agent. [**[Paper]**](https://arxiv.org/abs/2508.15144) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3)
+- [**UI-S1**](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1) (Preprint): Advancing GUI Automation via Semi-online Reinforcement Learning. [**[Paper]**](https://arxiv.org/abs/2509.11543) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1) [**[Dataset]**](https://huggingface.co/datasets/mPLUG/UI_S1_dataset)
+- [**GUI-Critic-R1**](https://github.com/X-PLUG/MobileAgent/tree/main/GUI-Critic-R1) (NeurIPS 2025): A GUI-Critic for pre-operative error diagnosis method. [**[Paper]**](https://arxiv.org/abs/2506.04614) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/GUI-Critic-R1)
+- [**PC-Agent**](https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent) (ICLR 2025 Workshop): Multi-agent for multimodal PC operation. [**[Paper]**](https://arxiv.org/abs/2502.14282) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent)
+- [**Mobile-Agent-E**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-E) (Preprint): Multi-agent for self-evolving mobile phone operation. [**[Paper]**](https://arxiv.org/abs/2501.11733) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-E)
+- [**Mobile-Agent-v2**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v2) (NeurIPS 2024): Multi-agent for multimodal mobile phone operation. [**[Paper]**](https://arxiv.org/abs/2406.01014) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v2)
+- [**Mobile-Agent-v1**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1) (ICLR 2024 Workshop): Single-agent for multimodal mobile phone operation. [**[Paper]**](https://arxiv.org/abs/2401.16158) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1)
 
 ## 📺Demo
-https://github.com/X-PLUG/MobileAgent/assets/127390760/26c48fb0-67ed-4df6-97b2-aa0c18386d31
 
-## 🔧Preparation
-### Installation
-```
-git clone https://github.com/X-PLUG/MobileAgent.git
-cd MobileAgent
-pip install -r requirements.txt
-```
+<div align="left">
+    <h3>Learn about Mobile-Agent-v3.5</h3>
+    <video src= "https://github.com/user-attachments/assets/97871c8c-5d1d-4f0f-aab0-84adddacbd0f"/>
+</div>
 
-### Preparation for Connecting Mobile Device
-1. Download the [Android Debug Bridge](https://developer.android.com/tools/releases/platform-tools?hl=en).
-2. Turn on the ADB debugging switch on your Android phone, it needs to be turned on in the developer options first.
-3. Connect your phone to the computer with a data cable and select "Transfer files".
-4. Test your ADB environment as follow: ```/path/to/adb devices```. If the connected devices are displayed, the preparation is complete.
-5. If you are using a MAC or Linux system, make sure to turn on adb permissions as follow: ```sudo chmod +x /path/to/adb```
-6. If you are using Windows system, the path will be ```xx/xx/adb.exe```
+### 💻PC + 🌐Web
 
-<a id="quick_start"></a>
-## 🔧Quick Start
-### Note
-❗Since the GPT-4V will have severe hallucinations when perceiving non-English screenshots, we strongly recommend using Mobile-Agent under English-only systems and apps to ensure the performance.
-❗Due to current limited resources, please contact us to get a free API Key consisting of a **url** and a **token**.
+<div align="left">
+    <h3>Search for the stock prices of Apple and Nvidia respectively. Then create a new spreadsheet in WPS Office. Enter the company names in column A and the retrieved stock prices in column B.</h3>
+    <video src= "https://github.com/user-attachments/assets/5dbc349b-0c99-4e66-a5c6-ad6d8accb933"/>
+</div>
 
-* Email: junyangwang@bjtu.edu.cn, junyangwang287@gmail.com(If the former cannot be reached)
-* WeChat: Wangjunyang0410
+<div align="left">
+    <h3>Create a new document in WPS Office and write a brief introduction about Alibaba with font size 12. Then search for Alibaba's logo in Edge browser, copy an image, and paste it at the end of the document.</h3>
+    <video src= "https://github.com/user-attachments/assets/8122baec-b5a1-49d8-a47d-cb613d21ec72"/>
+</div>
 
-### Run
-```
-python run_api.py --adb_path /path/to/adb --url "The url you got" --token "The token you got" --instruction "your instruction"
-```
+### 📱Phone
 
-## 🔧Getting Started with your own API Key
-### Preparation for Visual Perception Tools
-1. Download the icon detection model [Grounding DION](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
-2. The text detection model will be automatically downloaded from modelscope after you run Mobile-Agent.
+<div align="left">
+    <h3>Today is Sunday, February 15, 2025. Search for flights from Guangzhou to Chengdu five days from now on Ctrip, check the cheapest flight, then search for the cheapest train ticker on the same route and tell me their prices.</h3>
+    <video src= "https://github.com/user-attachments/assets/4c5f29b1-c319-41bb-876d-9915bc3e215f"/>
+</div>
 
-### Run
-```
-python run.py --grounding_ckpt /path/to/GroundingDION --adb_path /path/to/adb --api "your API_TOKEN" --instruction "your instruction"
-```
-API_TOKEN is an API Key from OpenAI with the permission to access ```gpt-4-vision-preview```.
+<div align="left">
+    <h3>Check the "魔搭ModelScope社区" (ModelScope Community) account on Xiaohongshu and Douyin, then tell me the total follower count across both platforms.</h3>
+    <video src= "https://github.com/user-attachments/assets/4ff3e951-f93a-49e8-b800-f060f765d67d"/>
+</div>
 
-## 📱Mobile-Eval
-Mobile-Eval is a benchmark designed for evaluating the performance of mobile device agents. This benchmark includes 10 mainstream single-app scenarios and 1 multi-app scenario. 
+## ⭐Star History
 
-For each scenario, we have designed three instructions:
-* Instruction 1: relatively simple and basic task
-* Instruction 2: additional requirements added on top of the difficulty of Instruction 1
-* Instruction 3: user demands with no explicit task indication
-
-The detailed content of Mobile-Eval is as follows:
-| Application   | Instruction   |
-|-------|-------|
-| Alibaba.com   | 1. Help me find caps in Alibaba.com.<br>2. Help me find caps in Alibaba.com. If the "Add to cart" is available in the item information page, please add the item to my cart.<br>3. I want to buy a cap. I've heard things are cheap on Alibaba.com. Maybe you can find it for me. |
-| Amazon Music   | 1. Search singer Jay Chou in Amazon Music.<br>2. Search a music about "agent" in Amazon Music and play it.<br>3. I want to listen music to relax. Find an App to help me. |
-| Chrome   | 1. Search result for today's Lakers game.<br>2. Search the information about Taylor Swift.<br>3. I want to know the result for today's Lakers game. Find an App to help me. |
-| Gmail   | 1. Send an empty email to to {address}.<br>2. Send an email to {address}n to tell my new work.<br>3. I want to let my friend know my new work, and his address is {address}. Find an App to help me. |
-| Google Maps   | 1. Navigate to Hangzhou West Lake.<br>2. Navigate to a nearby gas station.<br>3. I want to go to Hangzhou West Lake, but I don't know the way. Find an App to help me. |
-| Google Play   | 1. Download WhatsApp in Play Store.<br>2. Download Instagram in Play Store.<br>3. I want WhatsApp on my phone. Find an App to help me. |
-| Notes   | 1. Create a new note in Notes.<br>2. Create a new note in Notes and write "Hello, this is a note", then save it.<br>3. I suddenly have something to record, so help me find an App and write down the following content: meeting at 3pm. |
-| Settings   | 1. Turn on the dark mode.<br>2. Turn on the airplane mode.<br>3. I want to see the real time internet speed at the battery level, please turn on this setting for me. |
-| TikTok   | 1. Swipe a video about pet cat in TikTok and click a "like" for this video.<br>2. Swipe a video about pet cat in TikTok and comment "Ohhhh, so cute cat!".<br>3. Swipe videos in TikTok. Click "like" for 3 pet video cat. |
-| YouTube  | 1. Search for videos about Stephen Curry on YouTube.<br>2. Search for videos about Stephen Curry on YouTube and open "Comments" to comment "Oh, chef, your basketball spirit has always inspired me".<br>3. I need you to help me show my love for Stephen Curry on YouTube. |
-| Multi-App  | 1. Open the calendar and look at today's date, then go to Notes and create a new note to write "Today is {today's data}".<br>2. Check the temperature in the next 5 days, and then create a new note in Notes and write a temperature analysis.<br>3. Search the result for today's Lakers game, and then create a note in Notes to write a sport news for this result. |
-
-## 📝Evaluation results
-We evaluated Mobile-Agent on Mobile-Eval. The evaluation results are available at [LINK](https://github.com/X-PLUG/MobileAgent/tree/main/results).
-*   We have stored the evaluation results for the 10 apps and the multi-app scenario in folders named after each app.
-* The numbers within each app's folder represent the results for different types of instruction within that app.
-*   For example, if you want to view the results of Mobile-Agent for the second instruction in Google Maps, you should go to the following path:```results/Google Maps/2```.
-* If the last action of Mobile-Agent is not "stop", it indicates that Mobile-Agent did not complete the corresponding instruction. During the evaluation, we manually terminated these cases where completion was not possible.
-
-## 📄To-do List
-* Development of Mobile-Agent app on Android platform.
-* Adaptation to other mobile device platforms.
+[![Star History Chart](https://api.star-history.com/svg?repos=X-PLUG/MobileAgent&type=Date)](https://star-history.com/#X-PLUG/MobileAgent&Date)
 
 ## 📑Citation
 
 If you find Mobile-Agent useful for your research and applications, please cite using this BibTeX:
 ```
+@article{xu2026mobile,
+  title={Mobile-Agent-v3. 5: Multi-platform Fundamental GUI Agents},
+  author={Xu, Haiyang and Zhang, Xi and Liu, Haowei and Wang, Junyang and Zhu, Zhaozai and Zhou, Shengjie and Hu, Xuhao and Gao, Feiyu and Cao, Junjie and Wang, Zihua and others},
+  journal={arXiv preprint arXiv:2602.16855},
+  year={2026}
+}
+
+@article{ye2025mobile,
+  title={Mobile-Agent-v3: Foundamental Agents for GUI Automation},
+  author={Ye, Jiabo and Zhang, Xi and Xu, Haiyang and Liu, Haowei and Wang, Junyang and Zhu, Zhaoqing and Zheng, Ziwei and Gao, Feiyu and Cao, Junjie and Lu, Zhengxi and others},
+  journal={arXiv preprint arXiv:2508.15144},
+  year={2025}
+}
+
+@article{lu2025ui,
+  title={UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning},
+  author={Lu, Zhengxi and Ye, Jiabo and Tang, Fei and Shen, Yongliang and Xu, Haiyang and Zheng, Ziwei and Lu, Weiming and Yan, Ming and Huang, Fei and Xiao, Jun and others},
+  journal={arXiv preprint arXiv:2509.11543},
+  year={2025}
+}
+
+@article{wanyan2025look,
+  title={Look Before You Leap: A GUI-Critic-R1 Model for Pre-Operative Error Diagnosis in GUI Automation},
+  author={Wanyan, Yuyang and Zhang, Xi and Xu, Haiyang and Liu, Haowei and Wang, Junyang and Ye, Jiabo and Kou, Yutong and Yan, Ming and Huang, Fei and Yang, Xiaoshan and others},
+  journal={arXiv preprint arXiv:2506.04614},
+  year={2025}
+}
+
+@article{liu2025pc,
+  title={PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC},
+  author={Liu, Haowei and Zhang, Xi and Xu, Haiyang and Wanyan, Yuyang and Wang, Junyang and Yan, Ming and Zhang, Ji and Yuan, Chunfeng and Xu, Changsheng and Hu, Weiming and Huang, Fei},
+  journal={arXiv preprint arXiv:2502.14282},
+  year={2025}
+}
+
+@article{wang2025mobile,
+  title={Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks},
+  author={Wang, Zhenhailong and Xu, Haiyang and Wang, Junyang and Zhang, Xi and Yan, Ming and Zhang, Ji and Huang, Fei and Ji, Heng},
+  journal={arXiv preprint arXiv:2501.11733},
+  year={2025}
+}
+
+@article{wang2024mobile2,
+  title={Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration},
+  author={Wang, Junyang and Xu, Haiyang and Jia, Haitao and Zhang, Xi and Yan, Ming and Shen, Weizhou and Zhang, Ji and Huang, Fei and Sang, Jitao},
+  journal={arXiv preprint arXiv:2406.01014},
+  year={2024}
+}
+
 @article{wang2024mobile,
   title={Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception},
   author={Wang, Junyang and Xu, Haiyang and Ye, Jiabo and Yan, Ming and Shen, Weizhou and Zhang, Ji and Huang, Fei and Sang, Jitao},
@@ -138,7 +191,3 @@ If you find Mobile-Agent useful for your research and applications, please cite 
   year={2024}
 }
 ```
-
-## 📦Related Projects
-* [GroundingDINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://github.com/IDEA-Research/GroundingDINO)
-* [CLIP: Contrastive Language-Image Pretraining](https://github.com/openai/CLIP)

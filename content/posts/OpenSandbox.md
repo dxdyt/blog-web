@@ -1,9 +1,9 @@
 ---
 title: OpenSandbox
-date: 2026-02-28T12:57:06+08:00
+date: 2026-03-01T13:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770287691979-6b8ec41f5331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770287691979-6b8ec41f5331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770548037928-a29bfacc84ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770548037928-a29bfacc84ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)
