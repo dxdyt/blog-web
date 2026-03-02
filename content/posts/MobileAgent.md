@@ -1,9 +1,9 @@
 ---
 title: MobileAgent
-date: 2026-03-01T13:18:26+08:00
+date: 2026-03-02T13:15:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771197265637-3ed8f0039e20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771197265637-3ed8f0039e20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent)

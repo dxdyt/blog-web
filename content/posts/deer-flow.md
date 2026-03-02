@@ -1,9 +1,9 @@
 ---
 title: deer-flow
-date: 2026-03-01T13:17:24+08:00
+date: 2026-03-02T13:14:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769626124735-80cb3bb31ecb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770988966461-5dfb033f8e5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770988966461-5dfb033f8e5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
@@ -30,21 +30,31 @@ Learn more and see **real demos** on our official website.
 
 ## Table of Contents
 
-- [Quick Start](#quick-start)
-- [Sandbox Mode](#sandbox-mode)
-- [From Deep Research to Super Agent Harness](#from-deep-research-to-super-agent-harness)
-- [Core Features](#core-features)
-  - [Skills & Tools](#skills--tools)
-  - [Sub-Agents](#sub-agents)
-  - [Sandbox & File System](#sandbox--file-system)
-  - [Context Engineering](#context-engineering)
-  - [Long-Term Memory](#long-term-memory)
-- [Recommended Models](#recommended-models)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Star History](#star-history)
+- [🦌 DeerFlow - 2.0](#-deerflow---20)
+  - [Offiical Website](#offiical-website)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+    - [Configuration](#configuration)
+    - [Running the Application](#running-the-application)
+      - [Option 1: Docker (Recommended)](#option-1-docker-recommended)
+      - [Option 2: Local Development](#option-2-local-development)
+    - [Advanced](#advanced)
+      - [Sandbox Mode](#sandbox-mode)
+      - [MCP Server](#mcp-server)
+  - [From Deep Research to Super Agent Harness](#from-deep-research-to-super-agent-harness)
+  - [Core Features](#core-features)
+    - [Skills \& Tools](#skills--tools)
+    - [Sub-Agents](#sub-agents)
+    - [Sandbox \& File System](#sandbox--file-system)
+    - [Context Engineering](#context-engineering)
+    - [Long-Term Memory](#long-term-memory)
+  - [Recommended Models](#recommended-models)
+  - [Documentation](#documentation)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+    - [Key Contributors](#key-contributors)
+  - [Star History](#star-history)
 
 ## Quick Start
 
@@ -165,6 +175,7 @@ See the [Sandbox Configuration Guide](backend/docs/CONFIGURATION.md#sandbox) to 
 #### MCP Server
 
 DeerFlow supports configurable MCP servers and skills to extend its capabilities.
+For HTTP/SSE MCP servers, OAuth token flows are supported (`client_credentials`, `refresh_token`).
 See the [MCP Server Guide](backend/docs/MCP_SERVER.md) for detailed instructions.
 
 ## From Deep Research to Super Agent Harness

@@ -1,9 +1,9 @@
 ---
 title: airi
-date: 2026-03-01T13:16:42+08:00
+date: 2026-03-02T13:14:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770131105102-054c3869f50a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770131105102-054c3869f50a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771030669953-f9eb204d8aab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771030669953-f9eb204d8aab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [moeru-ai/airi](https://github.com/moeru-ai/airi)
@@ -72,11 +72,11 @@ Therefore, this project, AIRI, offers another possibility here: **let you own yo
 
 ## DevLogs We Posted & Recent Updates
 
+- [DevLog @ 2026.02.16](https://airi.moeru.ai/docs/en/blog/DevLog-2026.02.16/) on February 16, 2026
 - [DevLog @ 2026.01.01](https://airi.moeru.ai/docs/en/blog/DevLog-2026.01.01/) on January 1, 2026
 - [DevLog @ 2025.10.20](https://airi.moeru.ai/docs/en/blog/DevLog-2025.10.20/) on October 20, 2025
 - [DevLog @ 2025.08.05](https://airi.moeru.ai/docs/en/blog/DevLog-2025.08.05/) on August 5, 2025
 - [DevLog @ 2025.08.01](https://airi.moeru.ai/docs/en/blog/DevLog-2025.08.01/) on August 1, 2025
-- [DevLog @ 2025.07.18](https://airi.moeru.ai/docs/en/blog/DevLog-2025.07.18/) on July 18, 2025
 - [DreamLog 0x1](https://airi.moeru.ai/docs/en/blog/dreamlog-0x1/) on June 16, 2025
 - ...more on [documentation site](https://airi.moeru.ai/docs/en/)
 

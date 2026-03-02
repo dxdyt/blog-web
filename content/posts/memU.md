@@ -1,9 +1,9 @@
 ---
 title: memU
-date: 2026-02-26T13:19:57+08:00
+date: 2026-03-02T13:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771867549384-791a34a79e63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIwODMxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769321725396-fdb0ee42d605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769321725396-fdb0ee42d605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU)
@@ -36,15 +36,17 @@ memU **continuously captures and understands user intent**. Even without a comma
 
 ---
 
-## 🤖 [OpenClaw (Moltbot, Clawdbot) Alternative](https://memu.bot)
+## 🤖 [OpenClaw (Moltbot, Clawdbot) Alternative](https://github.com/NevaMind-AI/memUBot)
 
 <img width="100%" src="https://github.com/NevaMind-AI/memU/blob/main/assets/memUbot.png" />
 
-- **Download-and-use and simple** to get started.
-- Builds long-term memory to **understand user intent** and act proactively.
-- **Cuts LLM token cost** with smaller context.
+**[memU Bot](https://github.com/NevaMind-AI/memUBot)** — Now open source. The enterprise-ready OpenClaw. Your proactive AI assistant that remembers everything.
 
-Try now: [memU bot](https://memu.bot)
+- **Download-and-use and simple** to get started (one-click install, &lt; 3 min).
+- Builds long-term memory to **understand user intent** and act proactively (24/7).
+- **Cuts LLM token cost** with smaller context (~1/10 of comparable usage).
+
+Try now: [memu.bot](https://memu.bot) · Source: [memUBot on GitHub](https://github.com/NevaMind-AI/memUBot)
 
 ---
 

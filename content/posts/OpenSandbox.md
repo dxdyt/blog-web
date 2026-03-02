@@ -1,9 +1,9 @@
 ---
 title: OpenSandbox
-date: 2026-03-01T13:18:33+08:00
+date: 2026-03-02T13:15:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770548037928-a29bfacc84ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770548037928-a29bfacc84ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIzNDIxODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1770548037928-a29bfacc84
   <hr />
 </div>
 
-English | [中文](docs/README_zh.md)
+[Document](https://open-sandbox.ai/) | [文档](https://open-sandbox.ai/zh/)
 
 OpenSandbox is a **general-purpose sandbox platform** for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.
 
@@ -165,6 +165,7 @@ OpenSandbox provides rich examples demonstrating sandbox usage in different scen
 - **[claude-code](examples/claude-code/README.md)** - Run Claude Code inside OpenSandbox.
 - **[gemini-cli](examples/gemini-cli/README.md)** - Run Google Gemini CLI inside OpenSandbox.
 - **[codex-cli](examples/codex-cli/README.md)** - Run OpenAI Codex CLI inside OpenSandbox.
+- **[kimi-cli](examples/kimi-cli/README.md)** - Run [Kimi CLI](https://github.com/MoonshotAI/kimi-cli) (Moonshot AI) inside OpenSandbox.
 - **[iflow-cli](examples/iflow-cli/README.md)** - Run iFLow CLI inside OpenSandbox.
 - **[langgraph](examples/langgraph/README.md)** - LangGraph state-machine workflow that creates/runs a sandbox job with fallback retry.
 - **[google-adk](examples/google-adk/README.md)** - Google ADK agent using OpenSandbox tools to write/read files and run commands.
@@ -207,8 +208,8 @@ For detailed architecture, see [docs/architecture.md](docs/architecture.md).
 
 - [docs/architecture.md](docs/architecture.md) – Overall architecture & design philosophy
 - SDK
-  - Sandbox base SDK ([Java\Kotlin SDK](sdks/sandbox/kotlin/README.md), [Python SDK](sdks/sandbox/python/README.md), [JavaScript/TypeScript SDK](sdks/sandbox/javascript/README.md), [C#/.NET SDK](sdks/sandbox/csharp/README.md)) - includes sandbox lifecycle, command execution, file operations
-  - Code Interpreter SDK ([Java\Kotlin SDK](sdks/code-interpreter/kotlin/README.md), [Python SDK](sdks/code-interpreter/python/README.md), [JavaScript/TypeScript SDK](sdks/code-interpreter/javascript/README.md), [C#/.NET SDK](sdks/code-interpreter/csharp/README.md)) - code interpreter
+  - Sandbox base SDK ([Java/Kotlin SDK](sdks/sandbox/kotlin/README.md), [Python SDK](sdks/sandbox/python/README.md), [JavaScript/TypeScript SDK](sdks/sandbox/javascript/README.md), [C#/.NET SDK](sdks/sandbox/csharp/README.md)) - includes sandbox lifecycle, command execution, file operations
+  - Code Interpreter SDK ([Java/Kotlin SDK](sdks/code-interpreter/kotlin/README.md), [Python SDK](sdks/code-interpreter/python/README.md), [JavaScript/TypeScript SDK](sdks/code-interpreter/javascript/README.md), [C#/.NET SDK](sdks/code-interpreter/csharp/README.md)) - code interpreter
 - [specs/README.md](specs/README.md) - OpenAPI definitions for sandbox lifecycle API and sandbox execution API
 - [server/README.md](server/README.md) - Sandbox server startup and configuration; supports Docker and Kubernetes runtimes
 

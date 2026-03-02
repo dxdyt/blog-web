@@ -1,9 +1,9 @@
 ---
 title: hello-agents
-date: 2026-02-28T12:55:53+08:00
+date: 2026-03-02T13:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771600850519-3064e2c14141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771600850519-3064e2c14141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIyNTQ0ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
