@@ -1,9 +1,9 @@
 ---
 title: prompt-eng-interactive-tutorial
-date: 2026-01-08T12:40:16+08:00
+date: 2026-03-03T13:13:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765708712347-14740f00fa64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765708712347-14740f00fa64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)

@@ -1,9 +1,9 @@
 ---
 title: servo
-date: 2025-10-23T12:22:02+08:00
+date: 2026-03-03T13:14:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755104571966-46b8c90dfc29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755104571966-46b8c90dfc29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770816306935-d0a08e93d823?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770816306935-d0a08e93d823?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
 ---
 
 # [servo/servo](https://github.com/servo/servo)
@@ -26,12 +26,10 @@ Coordination of Servo development happens:
 
 ## Getting started
 
-For more detailed build instructions, see the Servo book under [Setting up your environment], [Building Servo], [Building for Android] and [Building for OpenHarmony].
+For more detailed build instructions, see the Servo Book under [Getting the Code] and [Building Servo].
 
-[Setting up your environment]: https://book.servo.org/hacking/setting-up-your-environment.html
-[Building Servo]: https://book.servo.org/hacking/building-servo.html
-[Building for Android]: https://book.servo.org/hacking/building-for-android.html
-[Building for OpenHarmony]: https://book.servo.org/hacking/building-for-openharmony.html
+[Getting the Code]: https://book.servo.org/building/getting-the-code.html
+[Building Servo]: https://book.servo.org/building/building.html
 
 ### macOS
 

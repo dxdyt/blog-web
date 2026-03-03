@@ -1,9 +1,9 @@
 ---
 title: claude-scientific-skills
-date: 2026-03-02T13:15:20+08:00
+date: 2026-03-03T13:14:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769321725396-fdb0ee42d605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769321725396-fdb0ee42d605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768425780577-dbb9de83171b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
 ---
 
 # [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
@@ -472,8 +472,9 @@ This repository contains **148 scientific and research skills** organized across
 - Exploratory data analysis: EDA workflows
 - Statistical analysis: Statistical Analysis workflows
 
-#### 🧪 **Laboratory Automation** (3 skills)
+#### 🧪 **Laboratory Automation** (4 skills)
 - Liquid handling: PyLabRobot
+- Cloud lab: Ginkgo Cloud Lab (cell-free protein expression, fluorescent pixel art via autonomous RAC infrastructure)
 - Protocol management: Protocols.io
 - LIMS integration: Benchling, LabArchives
 
