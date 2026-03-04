@@ -1,9 +1,9 @@
 ---
 title: OpenSandbox
-date: 2026-03-03T13:14:13+08:00
+date: 2026-03-04T13:08:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771926927841-1a81a1094b81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771926927841-1a81a1094b81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI1MTQ4MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771926927841-1a81a1094b
     <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" />
   </a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0.html">
-    <img src="https://img.shields.io/github/license/alibaba/OpenSandbox.svg" alt="license" />
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="license" />
   </a>
   <a href="https://badge.fury.io/py/opensandbox">
     <img src="https://badge.fury.io/py/opensandbox.svg" alt="PyPI version" />
@@ -240,4 +240,3 @@ This project is open source under the [Apache 2.0 License](LICENSE).
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=alibaba/OpenSandbox&type=date&legend=top-left)](https://www.star-history.com/#alibaba/OpenSandbox&type=date&legend=top-left)
-
