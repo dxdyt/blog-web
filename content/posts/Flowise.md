@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2025-10-10T12:22:44+08:00
+date: 2026-03-05T13:12:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758012561437-5e272eb9e1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758012561437-5e272eb9e1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771151910219-e14b1654f34f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771151910219-e14b1654f34f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
@@ -199,6 +199,10 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
     -   [Railway](https://docs.flowiseai.com/configuration/deployment/railway)
 
         [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/pn4G8S?referralCode=WVNPD9)
+
+    -   [Northflank](https://northflank.com/stacks/deploy-flowiseai)
+
+        [![Deploy to Northflank](https://assets.northflank.com/deploy_to_northflank_smm_36700fb050.svg)](https://northflank.com/stacks/deploy-flowiseai)
 
     -   [Render](https://docs.flowiseai.com/configuration/deployment/render)
 

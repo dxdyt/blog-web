@@ -1,9 +1,9 @@
 ---
 title: claude-scientific-skills
-date: 2026-03-04T13:07:50+08:00
+date: 2026-03-05T13:11:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772289495953-1271fe108a6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772289495953-1271fe108a6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
@@ -141,6 +141,7 @@ Copy the individual skill folders from `scientific-skills/` to one of the suppor
 | Cursor | `~/.cursor/skills/` |
 | Claude Code | `~/.claude/skills/` |
 | Codex | `~/.codex/skills/` |
+| Gemini CLI | `~/.gemini/skills/` |
 
 **Project-level installation** (skills scoped to a single project):
 
@@ -149,8 +150,9 @@ Copy the individual skill folders from `scientific-skills/` to one of the suppor
 | Cursor | `.cursor/skills/` (in your project root) |
 | Claude Code | `.claude/skills/` (in your project root) |
 | Codex | `.codex/skills/` (in your project root) |
+| Gemini CLI | `.gemini/skills/` (in your project root) |
 
-> **Note:** Cursor also reads from `.claude/skills/` and `.codex/skills/` directories, and vice versa, so skills are cross-compatible between tools.
+> **Note:** Cursor also reads from `.claude/skills/`, `.codex/skills/`, and `.gemini/skills/` directories, and vice versa, so skills are cross-compatible between tools.
 
 **Example — global install for Cursor:**
 ```bash
@@ -160,6 +162,11 @@ cp -r claude-scientific-skills/scientific-skills/* ~/.cursor/skills/
 **Example — global install for Claude Code:**
 ```bash
 cp -r claude-scientific-skills/scientific-skills/* ~/.claude/skills/
+```
+
+**Example — global install for Gemini CLI:**
+```bash
+cp -r claude-scientific-skills/scientific-skills/* ~/.gemini/skills/
 ```
 
 **Example — project-level install:**
@@ -191,7 +198,7 @@ Claude Scientific Skills is powered by **50+ incredible open source projects** m
 
 - **Python**: 3.9+ (3.12+ recommended for best compatibility)
 - **uv**: Python package manager (required for installing skill dependencies)
-- **Client**: Any agent that supports the [Agent Skills](https://agentskills.io/) standard (Cursor, Claude Code, Codex, etc.)
+- **Client**: Any agent that supports the [Agent Skills](https://agentskills.io/) standard (Cursor, Claude Code, Gemini CLI, Codex, etc.)
 - **System**: macOS, Linux, or Windows with WSL2
 - **Dependencies**: Automatically handled by individual skills (check `SKILL.md` files for specific requirements)
 

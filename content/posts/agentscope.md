@@ -1,9 +1,9 @@
 ---
 title: agentscope
-date: 2026-03-04T13:08:09+08:00
+date: 2026-03-05T13:12:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)

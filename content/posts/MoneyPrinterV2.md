@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterV2
-date: 2025-07-11T12:37:14+08:00
+date: 2026-03-05T13:12:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771681744660-d3ff70bc24a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771681744660-d3ff70bc24a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
@@ -27,7 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1751315039431-86ad38f1b0
 An Application that automates the process of making money online.
 MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of the MoneyPrinter project. It is a complete rewrite of the original project, with a focus on a wider range of features and a more modular architecture.
 
-> **Note:** MPV2 needs Python 3.9 to function effectively.
+> **Note:** MPV2 needs Python 3.12 to function effectively.
 > Watch the YouTube video [here](https://youtu.be/wAZ_ZSuIqfk)
 
 ## Features
@@ -46,8 +46,6 @@ MoneyPrinter has different versions for multiple languages developed by the comm
 If you would like to submit your own version/fork of MoneyPrinter, please open an issue describing the changes you made to the fork.
 
 ## Installation
-
-Please install [Microsoft Visual C++ build tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/) first, so that CoquiTTS can function correctly.
 
 > ⚠️ If you are planning to reach out to scraped businesses per E-Mail, please first install the [Go Programming Language](https://golang.org/).
 
@@ -102,7 +100,7 @@ MoneyPrinterV2 is licensed under `Affero General Public License v3.0`. See [LICE
 
 ## Acknowledgments
 
-- [CoquiTTS](https://github.com/coqui-ai/TTS)
+- [KittenTTS](https://github.com/KittenML/KittenTTS)
 - [gpt4free](https://github.com/xtekky/gpt4free)
 
 ## Disclaimer

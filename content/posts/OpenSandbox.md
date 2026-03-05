@@ -1,9 +1,9 @@
 ---
 title: OpenSandbox
-date: 2026-03-04T13:08:49+08:00
+date: 2026-03-05T13:12:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771507411121-62eb9b7a812a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769334440627-35cbcbf3cadb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769334440627-35cbcbf3cadb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771507411121-62eb9b7a81
   <hr />
 </div>
 
-[Document](https://open-sandbox.ai/) | [文档](https://open-sandbox.ai/zh/)
+[Documentation](https://open-sandbox.ai/) | [中文文档](https://open-sandbox.ai/zh/)
 
 OpenSandbox is a **general-purpose sandbox platform** for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.
 

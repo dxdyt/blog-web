@@ -1,9 +1,9 @@
 ---
 title: codebuff
-date: 2026-03-04T13:08:03+08:00
+date: 2026-03-05T13:11:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772400077647-cdda433bf23c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772400077647-cdda433bf23c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2MDA4NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772146518546-315e5f80f706?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772146518546-315e5f80f706?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)
