@@ -1,9 +1,9 @@
 ---
 title: agency-agents
-date: 2026-03-05T13:11:34+08:00
+date: 2026-03-06T13:09:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769334440627-35cbcbf3cadb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769334440627-35cbcbf3cadb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769096914324-c8186f3ae3b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769096914324-c8186f3ae3b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
 ---
 
 # [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
@@ -15,6 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1769334440627-35cbcbf3ca
 [![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)
 
 ---
 
@@ -219,6 +220,16 @@ The unique specialists who don't fit in a box.
 
 ---
 
+### Scenario 4: Full Agency Product Discovery
+
+**Your Team**: All 8 divisions working in parallel on a single mission.
+
+See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd, and XR Interface Architect) were deployed simultaneously to evaluate a software opportunity and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
+
+**Result**: Comprehensive, cross-functional product blueprint produced in a single session. [More examples](examples/).
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
@@ -311,7 +322,7 @@ Each agent is designed with:
 ## 🗺️ Roadmap
 
 - [ ] Interactive agent selector web tool
-- [ ] Multi-agent workflow examples
+- [x] Multi-agent workflow examples — see [examples/](examples/)
 - [ ] Video tutorials on agent design
 - [ ] Community agent marketplace
 - [ ] Agent "personality quiz" for project matching
@@ -357,7 +368,7 @@ Special recognition to the 50+ Redditors who requested this within the first 12 
 
 **🎭 The Agency: Your AI Dream Team Awaits 🎭**
 
-[⭐ Star this repo](https://github.com/msitarzewski/agency-agents) • [🍴 Fork it](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Report an issue](https://github.com/msitarzewski/agency-agents/issues)
+[⭐ Star this repo](https://github.com/msitarzewski/agency-agents) • [🍴 Fork it](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Report an issue](https://github.com/msitarzewski/agency-agents/issues) • [❤️ Sponsor](https://github.com/sponsors/msitarzewski)
 
 Made with ❤️ by the community, for the community
 
