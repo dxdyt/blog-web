@@ -1,9 +1,9 @@
 ---
 title: airi
-date: 2026-03-06T13:09:42+08:00
+date: 2026-03-07T12:59:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767915051381-e25038436891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767915051381-e25038436891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770118469095-29e9bee1980f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770118469095-29e9bee1980f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
 ---
 
 # [moeru-ai/airi](https://github.com/moeru-ai/airi)

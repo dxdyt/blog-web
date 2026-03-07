@@ -1,9 +1,9 @@
 ---
 title: AReaL
-date: 2026-03-06T13:09:51+08:00
+date: 2026-03-07T13:00:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772554699613-970ec79a2ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772554699613-970ec79a2ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771749141621-cf9a4d91c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771749141621-cf9a4d91c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
 ---
 
 # [inclusionAI/AReaL](https://github.com/inclusionAI/AReaL)
@@ -174,21 +174,21 @@ For comprehensive setup instructions, see
 All RL algorithms support both asynchronous and synchronous versions by setting
 `max_head_offpolicyness=0`. See [Asynchronous RL Guide](docs/algorithms/async.md).
 
-| Algorithm                | Documentation                             | Paper                                          | Configuration                                                |
-| ------------------------ | ----------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
-| **GRPO**                 | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/pdf/2402.03300)   | [🔗 GSM8K Example](examples/math/gsm8k_grpo.yaml)            |
-| **GSPO**                 | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/abs/2507.18071)   | [🔗 GSM8K Example](examples/math/gsm8k_gspo.yaml)            |
-| **PPO**                  | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/pdf/2203.02155)   | [🔗 GSM8K Example](examples/math/gsm8k_ppo.yaml)             |
-| **DAPO**                 | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/abs/2503.14476)   | [🔗 GSM8K Example](examples/math/gsm8k_dapo_dynamic_bs.yaml) |
-| **LitePPO**              | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/abs/2508.08221)   | [🔗 GSM8K Example](examples/math/gsm8k_liteppo.yaml)         |
-| **Dr.GRPO**              | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/abs/2503.20783)   | [🔗 GSM8K Example](examples/math/gsm8k_drgrpo.yaml)          |
-| **REINFORCE++**          | -                                         | [📄 Paper](https://arxiv.org/pdf/2501.03262)   | [🔗 GSM8K Example](examples/math/gsm8k_reinforce.yaml)       |
-| **RLOO**                 | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/pdf/2402.14740v1) | [🔗 GSM8K Example](examples/math/gsm8k_rloo.yaml)            |
-| **SAPO**                 | [📖 Docs](docs/algorithms/grpo_series.md) | [📄 Paper](https://arxiv.org/abs/2511.20347)   | [🔗 GSM8K Example](examples/math/gsm8k_sapo.yaml)            |
-| **M2PO**                 | [📖 Docs](docs/algorithms/m2po.md)        | [📄 Paper](https://arxiv.org/abs/2510.01161)   | [🔗 GSM8K Example](examples/math/gsm8k_m2po.yaml)            |
-| **RLHF Reward Modeling** | -                                         | -                                              | [🔗 RLHF Example](examples/alignment/)                       |
-| **SFT**                  | -                                         | -                                              | [🔗 GSM8K Example](examples/math/gsm8k_sft.py)               |
-| **Distillation**                  | [📖 Docs](docs/en/algorithms/distillation.md)                                         |  [📄 Paper](https://arxiv.org/pdf/2506.02208)                                              | [🔗 GSM8K Example](examples/distillation/gsm8k_grpo_distill.yaml)               |
+| Algorithm                | Documentation                                 | Paper                                          | Configuration                                                     |
+| ------------------------ | --------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------- |
+| **GRPO**                 | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/pdf/2402.03300)   | [🔗 GSM8K Example](examples/math/gsm8k_grpo.yaml)                 |
+| **GSPO**                 | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/abs/2507.18071)   | [🔗 GSM8K Example](examples/math/gsm8k_gspo.yaml)                 |
+| **PPO**                  | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/pdf/2203.02155)   | [🔗 GSM8K Example](examples/math/gsm8k_ppo.yaml)                  |
+| **DAPO**                 | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/abs/2503.14476)   | [🔗 GSM8K Example](examples/math/gsm8k_dapo_dynamic_bs.yaml)      |
+| **LitePPO**              | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/abs/2508.08221)   | [🔗 GSM8K Example](examples/math/gsm8k_liteppo.yaml)              |
+| **Dr.GRPO**              | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/abs/2503.20783)   | [🔗 GSM8K Example](examples/math/gsm8k_drgrpo.yaml)               |
+| **REINFORCE++**          | -                                             | [📄 Paper](https://arxiv.org/pdf/2501.03262)   | [🔗 GSM8K Example](examples/math/gsm8k_reinforce.yaml)            |
+| **RLOO**                 | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/pdf/2402.14740v1) | [🔗 GSM8K Example](examples/math/gsm8k_rloo.yaml)                 |
+| **SAPO**                 | [📖 Docs](docs/en/algorithms/grpo_series.md)  | [📄 Paper](https://arxiv.org/abs/2511.20347)   | [🔗 GSM8K Example](examples/math/gsm8k_sapo.yaml)                 |
+| **M2PO**                 | [📖 Docs](docs/algorithms/m2po.md)            | [📄 Paper](https://arxiv.org/abs/2510.01161)   | [🔗 GSM8K Example](examples/math/gsm8k_m2po.yaml)                 |
+| **RLHF Reward Modeling** | -                                             | -                                              | [🔗 RLHF Example](examples/alignment/)                            |
+| **SFT**                  | -                                             | -                                              | [🔗 GSM8K Example](examples/math/gsm8k_sft.py)                    |
+| **Distillation**         | [📖 Docs](docs/en/algorithms/distillation.md) | [📄 Paper](https://arxiv.org/pdf/2506.02208)   | [🔗 GSM8K Example](examples/distillation/gsm8k_grpo_distill.yaml) |
 
 ### Models
 
@@ -281,14 +281,14 @@ uv sync --extra cuda --group dev
 # Or without CUDA support
 # uv sync --group dev
 
-# Set up pre-commit hooks for automatic formatting
-pre-commit install
+# Set up pre-commit hooks (formatting, linting, commit message checks)
+pre-commit install --install-hooks
 
 # Make changes
 git checkout -b feat/gpt-o5
 git add .
-# `git commit` will automatically format your file
-git commit -m "Implement gpt-o5 training loop"
+# `git commit` will automatically check your files and commit messages
+git commit -m "feat: implement gpt-o5 training loop"
 git push
 ```
 

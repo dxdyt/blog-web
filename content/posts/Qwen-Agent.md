@@ -1,25 +1,41 @@
 ---
 title: Qwen-Agent
-date: 2025-05-03T12:21:56+08:00
+date: 2026-03-07T12:59:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1771749141621-cf9a4d91c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771749141621-cf9a4d91c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
 ---
 
 # [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
 
+<!---
+Copyright 2023 The Qwen team, Alibaba Group. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
 [中文](https://github.com/QwenLM/Qwen-Agent/blob/main/README_CN.md) ｜ English
 
 <p align="center">
-    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/logo-qwen-agent.png" width="400"/>
+    <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/logo_qwen_agent.png" width="400"/>
 <p>
 <br>
 
 <p align="center">
-          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwenlm.github.io/Qwen-Agent/en/">Documentation</a>
 
 <br>
-💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
+📊 <a href="https://qwenlm.github.io/Qwen-Agent/en/benchmarks/deepplanning/">Benchmark</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
 </p>
 
 
@@ -29,7 +45,11 @@ It also comes with example applications such as Browser Assistant, Code Interpre
 Now Qwen-Agent plays as the backend of [Qwen Chat](https://chat.qwen.ai/).
 
 # News
-* 🔥🔥🔥May 1, 2025: Add [Qwen3 Tool-call Demo](./examples/assistant_qwen3.py).
+* 🔥🔥🔥Feb 16, 2026: Open-sourced Qwen3.5. For usage examples, refer to [Qwen3.5 Agent Demo](./examples/assistant_qwen3.5.py).
+* Jan 27, 2026: Open-sourced agent evaluation benchmark [DeepPlanning](https://qwenlm.github.io/Qwen-Agent/en/benchmarks/deepplanning/) and added Qwen-Agent [documentation](https://qwenlm.github.io/Qwen-Agent/en/guide/).
+* Sep 23, 2025: Added [Qwen3-VL Tool-call Demo](./examples/cookbook_think_with_images.ipynb), supporting tools such as zoom in, image search, and web search.
+* Jul 23, 2025: Add [Qwen3-Coder Tool-call Demo](./examples/assistant_qwen3_coder.py); Added native API tool call interface support, such as using vLLM's built-in tool call parsing.
+* May 1, 2025: Add [Qwen3 Tool-call Demo](./examples/assistant_qwen3.py), and add [MCP Cookbooks](./examples/).
 * Mar 18, 2025: Support for the `reasoning_content` field; adjust the default [Function Call template](./qwen_agent/llm/fncall_prompts/nous_fncall_prompt.py), which is applicable to the Qwen2.5 series general models and QwQ-32B. If you need to use the old version of the template, please refer to the [example](./examples/function_calling.py) for passing parameters.
 * Mar 7, 2025: Added [QwQ-32B Tool-call Demo](./examples/assistant_qwq.py). It supports parallel, multi-step, and multi-turn tool calls.
 * Dec 3, 2024: Upgrade GUI to Gradio 5 based. Note: GUI requires Python 3.10 or higher.
@@ -69,7 +89,8 @@ variable `DASHSCOPE_API_KEY` to your unique DashScope API key.
 
 - Alternatively, if you prefer to deploy and use your own model service, please follow the instructions provided in the README of Qwen2 for deploying an OpenAI-compatible API service.
 Specifically, consult the [vLLM](https://github.com/QwenLM/Qwen2?tab=readme-ov-file#vllm) section for high-throughput GPU deployment or the [Ollama](https://github.com/QwenLM/Qwen2?tab=readme-ov-file#ollama) section for local CPU (+GPU) deployment.
-For the QwQ and Qwen3 model, it is recommended to add the `--enable-reasoning` and `--reasoning-parser deepseek_r1` parameters when starting the service. **Do not** add the `--enable-auto-tool-choice` and `--tool-call-parser hermes` parameters, as Qwen-Agent will parse the tool outputs from vLLM on its own.
+For the QwQ and Qwen3 model, it is recommended to **do not** add the `--enable-auto-tool-choice` and `--tool-call-parser hermes` parameters, as Qwen-Agent will parse the tool outputs from vLLM on its own.
+For Qwen3-Coder, it is recommended to enable both of the above parameters, use vLLM's built-in tool parsing, and combine with the `use_raw_api` parameter [usage](#how-to-pass-llm-parameters-to-the-agent).
 
 ## Developing Your Own Agent
 
@@ -114,7 +135,7 @@ class MyImageGen(BaseTool):
 llm_cfg = {
     # Use the model service provided by DashScope:
     'model': 'qwen-max-latest',
-    'model_server': 'dashscope',
+    'model_type': 'qwen_dashscope',
     # 'api_key': 'YOUR_DASHSCOPE_API_KEY',
     # It will use the `DASHSCOPE_API_KEY' environment variable if 'api_key' is not set here.
 
@@ -135,7 +156,7 @@ system_instruction = '''After receiving the user's request, you should:
 - then run code `request.get(image_url)` to download the image,
 - and finally select an image operation from the given document to process the image.
 Please show the image using `plt.show()`.'''
-tools = ['my_image_gen', 'code_interpreter']  # `code_interpreter` is a built-in tool for executing code.
+tools = ['my_image_gen', 'code_interpreter']  # `code_interpreter` is a built-in tool for executing code. For configuration details, please refer to the FAQ.
 files = ['./examples/resource/doc.pdf']  # Give the bot a PDF file to read.
 bot = Assistant(llm=llm_cfg,
                 system_message=system_instruction,
@@ -171,6 +192,12 @@ WebUI(bot).run()  # bot is the agent defined in the above code, we do not repeat
 Now you can chat with the Agent in the web UI. Please refer to the [examples](https://github.com/QwenLM/Qwen-Agent/blob/main/examples) directory for more usage examples.
 
 # FAQ
+## How to Use the Code Interpreter Tool?
+
+We implement a code interpreter tool based on local Docker containers. You can enable the built-in `code interpreter` tool for your agent, allowing it to autonomously write code according to specific scenarios, execute it securely within an isolated sandbox environment, and return the execution results.
+
+⚠️ **Note**: Before using this tool, please ensure that Docker is installed and running on your local operating system. The time required to build the container image for the first time depends on your network conditions. For Docker installation and setup instructions, please refer to the [official documentation](https://docs.docker.com/desktop/).
+
 
 ## How to Use MCP?
 
@@ -219,6 +246,45 @@ winget install git.git sqlite.sqlite
 
 Yes. The LLM classes provide [function calling](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/function_calling.py). Additionally, some Agent classes also are built upon the function calling capability, e.g., FnCallAgent and ReActChat.
 
+The current default tool calling template natively supports **Parallel Function Calls**.
+
+## How to pass LLM parameters to the Agent?
+```py
+llm_cfg = {
+    # The model name being used:
+    'model': 'qwen3-32b',
+    # The model service being used:
+    'model_type': 'qwen_dashscope',
+    # If 'api_key' is not set here, it will default to reading the `DASHSCOPE_API_KEY` environment variable:
+    'api_key': 'YOUR_DASHSCOPE_API_KEY',
+
+    # Using an OpenAI API compatible model service, such as vLLM or Ollama:
+    # 'model': 'qwen3-32b',
+    # 'model_server': 'http://localhost:8000/v1',  # base_url, also known as api_base
+    # 'api_key': 'EMPTY',
+
+    # (Optional) LLM hyperparameters:
+    'generate_cfg': {
+        # This parameter will affect the tool-call parsing logic. Default is False:
+          # Set to True: when content is `<think>this is the thought</think>this is the answer`
+          # Set to False: when response consists of reasoning_content and content
+        # 'thought_in_content': True,
+
+        # tool-call template: default is nous (recommended for qwen3):
+        # 'fncall_prompt_type': 'nous'
+
+        # Maximum input length, messages will be truncated if they exceed this length, please adjust according to model API:
+        # 'max_input_tokens': 58000
+
+        # Parameters that will be passed directly to the model API, such as top_p, enable_thinking, etc., according to the API specifications:
+        # 'top_p': 0.8
+
+        # Using the API's native tool call interface
+        # 'use_raw_api': True,
+    }
+}
+```
+
 ## How to do question-answering over super-long documents involving 1M tokens?
 
 We have released [a fast RAG solution](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/assistant_rag.py), as well as [an expensive but competitive agent](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/parallel_doc_qa.py), for doing question-answering over super-long documents. They have managed to outperform native long-context models on two challenging benchmarks while being more efficient, and perform perfectly in the single-needle "needle-in-the-haystack" pressure test involving 1M-token contexts. See the [blog](https://qwenlm.github.io/blog/qwen-agent-2405/) for technical details.
@@ -233,4 +299,4 @@ BrowserQwen is a browser assistant built upon Qwen-Agent. Please refer to its [d
 
 # Disclaimer
 
-The code interpreter is not sandboxed, and it executes code in your own environment. Please do not ask Qwen to perform dangerous tasks, and do not directly use the code interpreter for production purposes.
+The Docker container-based code interpreter mounts only the specified working directory and implements basic sandbox isolation, but it should still be used with caution in production environments.
