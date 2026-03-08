@@ -1,33 +1,24 @@
 ---
 title: generative-ai
-date: 2025-02-08T12:18:58+08:00
+date: 2026-03-08T13:09:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736437381508-9f19d2936f7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736437381508-9f19d2936f7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1771466883437-cdf99809a137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771466883437-cdf99809a137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
 
-# Generative AI
+# Generative AI on Google Cloud
 
-> NOTE: [Gemini 2.0 Flash-Lite and Gemini 2.0 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2) have been released!
+> **[Gemini 3.1 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro) has been released!**
 >
-> Here are the latest notebooks and demos using the new models:
-> - [Intro to Gemini 2.0 Pro](gemini/getting-started/intro_gemini_2_0_pro.ipynb)
-> - [Intro to Gemini 2.0 Flash-Lite](gemini/getting-started/intro_gemini_2_0_flash_lite.ipynb)
-> - [Intro to Gemini 2.0 Flash](gemini/getting-started/intro_gemini_2_0_flash.ipynb)
-> - [Intro to Multimodal Live API with Gen AI SDK](gemini/multimodal-live-api/intro_multimodal_live_api_genai_sdk.ipynb)
-> - [Intro to Gemini 2.0 Thinking Mode](gemini/getting-started/intro_gemini_2_0_flash_thinking_mode.ipynb)
-> - [Intro to Code Execution](gemini/code-execution/intro_code_execution.ipynb)
-> - [Multimodal Live API Demo App](gemini/multimodal-live-api/websocket-demo-app/)
-
+> Here are the latest notebooks and demos using the new model:
+>
+> - [Intro to Gemini 3.1 Pro](gemini/getting-started/intro_gemini_3_1_pro.ipynb)
+>
 <!-- markdownlint-disable MD033 -->
 
-<a href="gemini"><img src="https://lh3.googleusercontent.com/eDr6pYKs1tT0iK0nt3pPhvVlP2Wn96fbGqbWgBAARRZ7isej037g_tWobjV8zQkxOsWzJuEH8p-fksczXUOeqxGZZIo_HUCdkn8q-a4fuwATD7Q9Xrs=w2456-l100-sg-rj-c0xffffff" style="width:35em" alt="Welcome to the Gemini era"></a>
-
-This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop and manage generative AI workflows using [Generative AI on Google Cloud](https://cloud.google.com/ai/generative-ai), powered by [Vertex AI](https://cloud.google.com/vertex-ai).
-
-For more Vertex AI samples, please visit the [Vertex AI samples GitHub repository](https://github.com/GoogleCloudPlatform/vertex-ai-samples/).
+This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop and manage generative AI workflows using [Generative AI on Google Cloud](https://cloud.google.com/ai/generative-ai) with [Vertex AI](https://cloud.google.com/vertex-ai).
 
 ## Using this repository
 
@@ -63,24 +54,6 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
       <a href="rag-grounding/"><code>rag-grounding/</code></a>
     </td>
     <td>Use this folder for information on Retrieval Augmented Generation (RAG) and Grounding with Vertex AI. This is an index of notebooks and samples across other directories focused on this topic.</td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://www.gstatic.com/images/branding/gcpiconscolors/dialogflow_cx/v1/24px.svg" width="40px" alt="Conversation">
-      <br>
-      <a href="conversation/"><code>conversation/</code></a>
-    </td>
-    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/generative-ai-app-builder">Vertex AI Conversation</a>, a Google-managed solution to help you rapidly build chat bots for websites and across enterprise data. (Formerly known as Chat Apps on Generative AI App Builder).</td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/edit_note/default/40px.svg" alt="Language">
-      <br>
-      <a href="language/"><code>language/</code></a>
-    </td>
-    <td>
-      Use this folder if you're interested in building your own solutions from scratch using Google's language foundation models (Vertex AI PaLM API).
-    </td>
   </tr>
   <tr>
     <td>
@@ -130,8 +103,14 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
 
 ## Related Repositories
 
+- ✨ [Agent Development Kit (ADK) Samples](https://github.com/google/adk-samples): This repository provides ready-to-use agents built on top of the Agent Development Kit, designed to accelerate your development process. These agents cover a range of common use cases and complexities, from simple conversational bots to complex multi-agent workflows.
+- [🚀 Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)
+  - A collection of production-ready Generative AI Agent templates built for Google Cloud.
+  - It accelerates development by providing a holistic, production-ready solution, addressing common challenges (Deployment & Operations, Evaluation, Customization, Observability) in building and deploying Gen AI agents.
 - [Gemini Cookbook](https://github.com/google-gemini/cookbook/)
 - [Google Cloud Applied AI Engineering](https://github.com/GoogleCloudPlatform/applied-ai-engineering-samples)
+- [Vertex AI GenMedia Creative Studio](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio) - Experience Google's generative media foundational models + custom workflows.
+- [MCP Servers for GenMedia](https://goo.gle/vertex-genmedia-mcp) - Empower your agents with generative media tools.
 - [Generative AI for Marketing using Google Cloud](https://github.com/GoogleCloudPlatform/genai-for-marketing)
 - [Generative AI for Developer Productivity](https://github.com/GoogleCloudPlatform/genai-for-developers)
 - Vertex AI Core
@@ -146,7 +125,7 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
   - [Reimagining Customer Experience 360](https://github.com/GoogleCloudPlatform/dialogflow-ccai-omnichannel)
 - Document AI
   - [Document AI Samples](https://github.com/GoogleCloudPlatform/document-ai-samples)
-- Duet AI
+- Gemini in Google Cloud
   - [Cymbal Superstore](https://github.com/GoogleCloudPlatform/cymbal-superstore)
 - Cloud Databases
   - [Gen AI Databases Retrieval App](https://github.com/GoogleCloudPlatform/genai-databases-retrieval-app)
@@ -162,6 +141,7 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
   - [mis-ai-accelerator](https://github.com/GoogleCloudPlatform/mis-ai-accelerator)
   - [dataflow-opinion-analysis](https://github.com/GoogleCloudPlatform/dataflow-opinion-analysis)
   - [genai-beyond-basics](https://github.com/meteatamel/genai-beyond-basics)
+  - [Gemini by Example](https://geminibyexample.com)
 
 ## Contributing
 

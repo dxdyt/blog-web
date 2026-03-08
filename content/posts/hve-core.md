@@ -1,9 +1,9 @@
 ---
 title: hve-core
-date: 2026-03-07T12:59:51+08:00
+date: 2026-03-08T13:09:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772289093121-453fc4f01128?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772289093121-453fc4f01128?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI4NTk1Njd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771466883437-cdf99809a137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771466883437-cdf99809a137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/hve-core](https://github.com/microsoft/hve-core)

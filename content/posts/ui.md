@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2025-12-16T12:35:09+08:00
+date: 2026-03-08T13:10:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764257416209-e2044659503f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764257416209-e2044659503f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770260071751-0711b6f26ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770260071751-0711b6f26ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
 ---
 
 # [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
@@ -16,7 +16,7 @@ A set of beautifully designed components that you can customize, extend, and bui
 
 ## Documentation
 
-Visit http://ui.shadcn.com/docs to view the documentation.
+Visit https://ui.shadcn.com/docs to view the documentation.
 
 ## Contributing
 
@@ -24,4 +24,4 @@ Please read the [contributing guide](/CONTRIBUTING.md).
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](./LICENSE.md).
