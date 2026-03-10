@@ -1,9 +1,9 @@
 ---
 title: notebooklm-py
-date: 2026-03-09T13:19:36+08:00
+date: 2026-03-10T13:10:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770236597463-5d2c7081f09b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770236597463-5d2c7081f09b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770230901490-a9e30b2f3e75?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770230901490-a9e30b2f3e75?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
 ---
 
 # [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1770236597463-5d2c7081f0
   <img src="https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/notebooklm-py.png" alt="notebooklm-py logo" width="128">
 </p>
 
-**Comprehensive Python API for Google NotebookLM.** Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—from Python or the command line.
+**Unofficial Python API and agentic skill for Google NotebookLM.** Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.
 
 [![PyPI version](https://img.shields.io/pypi/v/notebooklm-py.svg)](https://pypi.org/project/notebooklm-py/)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](https://pypi.org/project/notebooklm-py/)

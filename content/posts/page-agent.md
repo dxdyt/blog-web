@@ -1,9 +1,9 @@
 ---
 title: page-agent
-date: 2026-03-08T13:10:07+08:00
+date: 2026-03-10T13:10:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770386286788-cfd88b1d209f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770386286788-cfd88b1d209f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/page-agent](https://github.com/alibaba/page-agent)
@@ -59,8 +59,8 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 | Mirrors | URL                                                                                |
 | ------- | ---------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.5.2/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.5.2/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.5.4/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.5.4/files/dist/iife/page-agent.demo.js |
 
 > **⚠️ For technical evaluation only.** This demo CDN uses our free [testing LLM API](https://alibaba.github.io/page-agent/docs/features/models#free-testing-api). By using it, you agree to its [terms](https://github.com/alibaba/page-agent/blob/main/docs/terms-and-privacy.md).
 
@@ -122,10 +122,10 @@ file and in the node_modules directory after installation.
 
 **⭐ Star this repo if you find PageAgent helpful!**
 
-<a href="https://www.star-history.com/?repos=alibaba%2Fpage-agent&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=alibaba%2Fpage-agent&type=date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left&r=1" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&r=1" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&r=1" />
  </picture>
 </a>

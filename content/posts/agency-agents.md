@@ -1,9 +1,9 @@
 ---
 title: agency-agents
-date: 2026-03-08T13:09:08+08:00
+date: 2026-03-10T13:09:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771387454781-e8c0c7eed825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771387454781-e8c0c7eed825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI5NDY1MjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
 ---
 
 # [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
@@ -53,6 +53,23 @@ Each agent file contains:
 - Success metrics & communication style
 
 Browse the agents below and copy/adapt the ones you need!
+
+### Option 3: Use with Other Tools (Cursor, Aider, Windsurf, Gemini CLI, OpenCode)
+
+```bash
+# Step 1 -- generate integration files for all supported tools
+./scripts/convert.sh
+
+# Step 2 -- install interactively (auto-detects what you have installed)
+./scripts/install.sh
+
+# Or target a specific tool directly
+./scripts/install.sh --tool cursor
+./scripts/install.sh --tool aider
+./scripts/install.sh --tool windsurf
+```
+
+See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
 
 ---
 
@@ -299,19 +316,19 @@ Each agent is designed with:
 
 > "I don't just test your code - I default to finding 3-5 issues and require visual proof for everything."
 >
-> — **Evidence Collector** (Testing Division)
+> -- **Evidence Collector** (Testing Division)
 
 > "You're not marketing on Reddit - you're becoming a valued community member who happens to represent a brand."
 >
-> — **Reddit Community Builder** (Marketing Division)
+> -- **Reddit Community Builder** (Marketing Division)
 
 > "Every playful element must serve a functional or emotional purpose. Design delight that enhances rather than distracts."
 >
-> — **Whimsy Injector** (Design Division)
+> -- **Whimsy Injector** (Design Division)
 
 > "Let me add a celebration animation that reduces task completion anxiety by 40%"
 >
-> — **Whimsy Injector** (during a UX review)
+> -- **Whimsy Injector** (during a UX review)
 
 ---
 
@@ -325,21 +342,223 @@ Each agent is designed with:
 
 ---
 
+## 🔌 Multi-Tool Integrations
+
+The Agency works natively with Claude Code, and ships conversion + install scripts so you can use the same agents across every major agentic coding tool.
+
+### Supported Tools
+
+- **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
+- **[Antigravity](https://github.com/google-gemini/antigravity)** — `SKILL.md` per agent → `~/.gemini/antigravity/skills/`
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — extension + `SKILL.md` files → `~/.gemini/extensions/agency-agents/`
+- **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agent/`
+- **[Cursor](https://cursor.sh)** — `.mdc` rule files → `.cursor/rules/`
+- **[Aider](https://aider.chat)** — single `CONVENTIONS.md` → `./CONVENTIONS.md`
+- **[Windsurf](https://codeium.com/windsurf)** — single `.windsurfrules` → `./.windsurfrules`
+
+---
+
+### ⚡ Quick Install
+
+**Step 1 -- Generate integration files:**
+```bash
+./scripts/convert.sh
+```
+
+**Step 2 -- Install (interactive, auto-detects your tools):**
+```bash
+./scripts/install.sh
+```
+
+The installer scans your system for installed tools, shows a checkbox UI, and lets you pick exactly what to install:
+
+```
+  +------------------------------------------------+
+  |   The Agency -- Tool Installer                 |
+  +------------------------------------------------+
+
+  System scan: [*] = detected on this machine
+
+  [x]  1)  [*]  Claude Code     (claude.ai/code)
+  [x]  2)  [*]  Antigravity     (~/.gemini/antigravity)
+  [ ]  3)  [ ]  Gemini CLI      (gemini extension)
+  [ ]  4)  [ ]  OpenCode        (opencode.ai)
+  [x]  5)  [*]  Cursor          (.cursor/rules)
+  [ ]  6)  [ ]  Aider           (CONVENTIONS.md)
+  [ ]  7)  [ ]  Windsurf        (.windsurfrules)
+
+  [1-7] toggle   [a] all   [n] none   [d] detected
+  [Enter] install   [q] quit
+```
+
+**Or install a specific tool directly:**
+```bash
+./scripts/install.sh --tool cursor
+./scripts/install.sh --tool opencode
+./scripts/install.sh --tool antigravity
+```
+
+**Non-interactive (CI/scripts):**
+```bash
+./scripts/install.sh --no-interactive --tool all
+```
+
+---
+
+### Tool-Specific Instructions
+
+<details>
+<summary><strong>Claude Code</strong></summary>
+
+Agents are copied directly from the repo into `~/.claude/agents/` -- no conversion needed.
+
+```bash
+./scripts/install.sh --tool claude-code
+```
+
+Then activate in Claude Code:
+```
+Use the Frontend Developer agent to review this component.
+```
+
+See [integrations/claude-code/README.md](integrations/claude-code/README.md) for details.
+</details>
+
+<details>
+<summary><strong>Antigravity (Gemini)</strong></summary>
+
+Each agent becomes a skill in `~/.gemini/antigravity/skills/agency-<slug>/`.
+
+```bash
+./scripts/install.sh --tool antigravity
+```
+
+Activate in Gemini with Antigravity:
+```
+@agency-frontend-developer review this React component
+```
+
+See [integrations/antigravity/README.md](integrations/antigravity/README.md) for details.
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong></summary>
+
+Installs as a Gemini CLI extension with 61 skills + a manifest.
+
+```bash
+./scripts/install.sh --tool gemini-cli
+```
+
+See [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) for details.
+</details>
+
+<details>
+<summary><strong>OpenCode</strong></summary>
+
+Agents are placed in `.opencode/agent/` in your project root (project-scoped).
+
+```bash
+cd /your/project
+/path/to/agency-agents/scripts/install.sh --tool opencode
+```
+
+Or install globally:
+```bash
+mkdir -p ~/.config/opencode/agent
+cp integrations/opencode/agent/*.md ~/.config/opencode/agent/
+```
+
+Activate in OpenCode:
+```
+Use the Backend Architect agent to design this API.
+```
+
+See [integrations/opencode/README.md](integrations/opencode/README.md) for details.
+</details>
+
+<details>
+<summary><strong>Cursor</strong></summary>
+
+Each agent becomes a `.mdc` rule file in `.cursor/rules/` of your project.
+
+```bash
+cd /your/project
+/path/to/agency-agents/scripts/install.sh --tool cursor
+```
+
+Rules are auto-applied when Cursor detects them in the project. Reference them explicitly:
+```
+Use the @security-engineer rules to review this code.
+```
+
+See [integrations/cursor/README.md](integrations/cursor/README.md) for details.
+</details>
+
+<details>
+<summary><strong>Aider</strong></summary>
+
+All agents are compiled into a single `CONVENTIONS.md` file that Aider reads automatically.
+
+```bash
+cd /your/project
+/path/to/agency-agents/scripts/install.sh --tool aider
+```
+
+Then reference agents in your Aider session:
+```
+Use the Frontend Developer agent to refactor this component.
+```
+
+See [integrations/aider/README.md](integrations/aider/README.md) for details.
+</details>
+
+<details>
+<summary><strong>Windsurf</strong></summary>
+
+All agents are compiled into `.windsurfrules` in your project root.
+
+```bash
+cd /your/project
+/path/to/agency-agents/scripts/install.sh --tool windsurf
+```
+
+Reference agents in Windsurf's Cascade:
+```
+Use the Reality Checker agent to verify this is production ready.
+```
+
+See [integrations/windsurf/README.md](integrations/windsurf/README.md) for details.
+</details>
+
+---
+
+### Regenerating After Changes
+
+When you add new agents or edit existing ones, regenerate all integration files:
+
+```bash
+./scripts/convert.sh        # regenerate all
+./scripts/convert.sh --tool cursor   # regenerate just one tool
+```
+
+---
+
 ## 🗺️ Roadmap
 
 - [ ] Interactive agent selector web tool
-- [x] Multi-agent workflow examples — see [examples/](examples/)
+- [x] Multi-agent workflow examples -- see [examples/](examples/)
+- [x] Multi-tool integration scripts (Claude Code, Antigravity, Gemini CLI, OpenCode, Cursor, Aider, Windsurf)
 - [ ] Video tutorials on agent design
 - [ ] Community agent marketplace
 - [ ] Agent "personality quiz" for project matching
-- [ ] Integration examples with popular tools
 - [ ] "Agent of the Week" showcase series
 
 ---
 
 ## 🌐 Community Translations & Localizations
 
-Community-maintained translations and regional adaptations. These are independently maintained — see each repo for coverage and version compatibility.
+Community-maintained translations and regional adaptations. These are independently maintained -- see each repo for coverage and version compatibility.
 
 | Language | Maintainer | Link | Notes |
 |----------|-----------|------|-------|

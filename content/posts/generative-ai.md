@@ -1,9 +1,9 @@
 ---
 title: generative-ai
-date: 2026-03-09T13:18:31+08:00
+date: 2026-03-10T13:09:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772606270537-6eb199b55aed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772606270537-6eb199b55aed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1631159614310-19296c53489b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1631159614310-19296c53489b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
