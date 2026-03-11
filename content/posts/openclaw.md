@@ -1,9 +1,9 @@
 ---
 title: openclaw
-date: 2026-03-10T13:09:11+08:00
+date: 2026-03-11T13:12:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763979366987-a48e62e25113?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763979366987-a48e62e25113?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771513181348-1217661f0893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771513181348-1217661f0893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
 ---
 
 # [openclaw/openclaw](https://github.com/openclaw/openclaw)

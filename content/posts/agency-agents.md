@@ -1,9 +1,9 @@
 ---
 title: agency-agents
-date: 2026-03-10T13:09:54+08:00
+date: 2026-03-11T13:10:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771551962347-532f35d630ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770347277163-ea9dc1b1ebc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770347277163-ea9dc1b1ebc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
 ---
 
 # [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
@@ -65,6 +65,7 @@ Browse the agents below and copy/adapt the ones you need!
 
 # Or target a specific tool directly
 ./scripts/install.sh --tool cursor
+./scripts/install.sh --tool copilot
 ./scripts/install.sh --tool aider
 ./scripts/install.sh --tool windsurf
 ```
@@ -103,6 +104,20 @@ Making it beautiful, usable, and delightful.
 | 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia content | Compelling visual stories, brand storytelling |
 | ✨ [Whimsy Injector](design/design-whimsy-injector.md) | Personality, delight, playful interactions | Adding joy, micro-interactions, Easter eggs, brand personality |
 | 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
+
+### 💰 Paid Media Division
+
+Turning ad spend into measurable business outcomes.
+
+| Agent | Specialty | When to Use |
+| --- | --- | --- |
+| 💰 [PPC Campaign Strategist](paid-media/paid-media-ppc-strategist.md) | Google/Microsoft/Amazon Ads, account architecture, bidding | Account buildouts, budget allocation, scaling, performance diagnosis |
+| 🔍 [Search Query Analyst](paid-media/paid-media-search-query-analyst.md) | Search term analysis, negative keywords, intent mapping | Query audits, wasted spend elimination, keyword discovery |
+| 📋 [Paid Media Auditor](paid-media/paid-media-auditor.md) | 200+ point account audits, competitive analysis | Account takeovers, quarterly reviews, competitive pitches |
+| 📡 [Tracking & Measurement Specialist](paid-media/paid-media-tracking-specialist.md) | GTM, GA4, conversion tracking, CAPI | New implementations, tracking audits, platform migrations |
+| ✍️ [Ad Creative Strategist](paid-media/paid-media-creative-strategist.md) | RSA copy, Meta creative, Performance Max assets | Creative launches, testing programs, ad fatigue refreshes |
+| 📺 [Programmatic & Display Buyer](paid-media/paid-media-programmatic-buyer.md) | GDN, DSPs, partner media, ABM display | Display planning, partner outreach, ABM programs |
+| 📱 [Paid Social Strategist](paid-media/paid-media-paid-social-strategist.md) | Meta, LinkedIn, TikTok, cross-platform social | Social ad programs, platform selection, audience strategy |
 
 ### 📢 Marketing Division
 
@@ -198,6 +213,55 @@ The unique specialists who don't fit in a box.
 | 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Sales data aggregation, dashboard reports | Territory summaries, rep performance, pipeline snapshots |
 | 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Territory-based report distribution, scheduled sends |
 | 🔐 [Agentic Identity & Trust Architect](specialized/agentic-identity-trust.md) | Agent identity, authentication, trust verification | Multi-agent identity systems, agent authorization, audit trails |
+| 🔗 [Identity Graph Operator](specialized/identity-graph-operator.md) | Shared identity resolution for multi-agent systems | Entity deduplication, merge proposals, cross-agent identity consistency |
+
+### 🎮 Game Development Division
+
+Building worlds, systems, and experiences across every major engine.
+
+#### Cross-Engine Agents (Engine-Agnostic)
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🎯 [Game Designer](game-development/game-designer.md) | Systems design, GDD authorship, economy balancing, gameplay loops | Designing game mechanics, progression systems, writing design documents |
+| 🗺️ [Level Designer](game-development/level-designer.md) | Layout theory, pacing, encounter design, environmental storytelling | Building levels, designing encounter flow, spatial narrative |
+| 🎨 [Technical Artist](game-development/technical-artist.md) | Shaders, VFX, LOD pipeline, art-to-engine optimization | Bridging art and engineering, shader authoring, performance-safe asset pipelines |
+| 🔊 [Game Audio Engineer](game-development/game-audio-engineer.md) | FMOD/Wwise, adaptive music, spatial audio, audio budgets | Interactive audio systems, dynamic music, audio performance |
+| 📖 [Narrative Designer](game-development/narrative-designer.md) | Story systems, branching dialogue, lore architecture | Writing branching narratives, implementing dialogue systems, world lore |
+
+#### Unity
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🏗️ [Unity Architect](game-development/unity/unity-architect.md) | ScriptableObjects, data-driven modularity, DOTS/ECS | Large-scale Unity projects, data-driven system design, ECS performance work |
+| ✨ [Unity Shader Graph Artist](game-development/unity/unity-shader-graph-artist.md) | Shader Graph, HLSL, URP/HDRP, Renderer Features | Custom Unity materials, VFX shaders, post-processing passes |
+| 🌐 [Unity Multiplayer Engineer](game-development/unity/unity-multiplayer-engineer.md) | Netcode for GameObjects, Unity Relay/Lobby, server authority, prediction | Online Unity games, client prediction, Unity Gaming Services integration |
+| 🛠️ [Unity Editor Tool Developer](game-development/unity/unity-editor-tool-developer.md) | EditorWindows, AssetPostprocessors, PropertyDrawers, build validation | Custom Unity Editor tooling, pipeline automation, content validation |
+
+#### Unreal Engine
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| ⚙️ [Unreal Systems Engineer](game-development/unreal-engine/unreal-systems-engineer.md) | C++/Blueprint hybrid, GAS, Nanite constraints, memory management | Complex Unreal gameplay systems, Gameplay Ability System, engine-level C++ |
+| 🎨 [Unreal Technical Artist](game-development/unreal-engine/unreal-technical-artist.md) | Material Editor, Niagara, PCG, Substrate | Unreal materials, Niagara VFX, procedural content generation |
+| 🌐 [Unreal Multiplayer Architect](game-development/unreal-engine/unreal-multiplayer-architect.md) | Actor replication, GameMode/GameState hierarchy, dedicated server | Unreal online games, replication graphs, server authoritative Unreal |
+| 🗺️ [Unreal World Builder](game-development/unreal-engine/unreal-world-builder.md) | World Partition, Landscape, HLOD, LWC | Large open-world Unreal levels, streaming systems, terrain at scale |
+
+#### Godot
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 📜 [Godot Gameplay Scripter](game-development/godot/godot-gameplay-scripter.md) | GDScript 2.0, signals, composition, static typing | Godot gameplay systems, scene composition, performance-conscious GDScript |
+| 🌐 [Godot Multiplayer Engineer](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI, ENet/WebRTC, RPCs, authority model | Online Godot games, scene replication, server-authoritative Godot |
+| ✨ [Godot Shader Developer](game-development/godot/godot-shader-developer.md) | Godot shading language, VisualShader, RenderingDevice | Custom Godot materials, 2D/3D effects, post-processing, compute shaders |
+
+#### Roblox Studio
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| ⚙️ [Roblox Systems Scripter](game-development/roblox-studio/roblox-systems-scripter.md) | Luau, RemoteEvents/Functions, DataStore, server-authoritative module architecture | Building secure Roblox game systems, client-server communication, data persistence |
+| 🎯 [Roblox Experience Designer](game-development/roblox-studio/roblox-experience-designer.md) | Engagement loops, monetization, D1/D7 retention, onboarding flow | Designing Roblox game loops, Game Passes, daily rewards, player retention |
+| 👗 [Roblox Avatar Creator](game-development/roblox-studio/roblox-avatar-creator.md) | UGC pipeline, accessory rigging, Creator Marketplace submission | Roblox UGC items, HumanoidDescription customization, in-experience avatar shops |
 
 ---
 
@@ -240,6 +304,21 @@ The unique specialists who don't fit in a box.
 6. 🔍 **Reality Checker** - Production readiness
 
 **Result**: Enterprise-grade delivery with quality gates and documentation.
+
+---
+
+### Scenario 5: Paid Media Account Takeover
+
+**Your Team**:
+
+1. 📋 **Paid Media Auditor** - Comprehensive account assessment
+2. 📡 **Tracking & Measurement Specialist** - Verify conversion tracking accuracy
+3. 💰 **PPC Campaign Strategist** - Redesign account architecture
+4. 🔍 **Search Query Analyst** - Clean up wasted spend from search terms
+5. ✍️ **Ad Creative Strategist** - Refresh all ad copy and extensions
+6. 📊 **Analytics Reporter** (Support Division) - Build reporting dashboards
+
+**Result**: Systematic account takeover with tracking verified, waste eliminated, structure optimized, and creative refreshed — all within the first 30 days.
 
 ---
 
@@ -334,7 +413,7 @@ Each agent is designed with:
 
 ## 📊 Stats
 
-- 🎭 **61 Specialized Agents** across 9 divisions
+- 🎭 **112 Specialized Agents** across 11 divisions
 - 📝 **10,000+ lines** of personality, process, and code examples
 - ⏱️ **Months of iteration** from real-world usage
 - 🌟 **Battle-tested** in production environments
@@ -349,12 +428,14 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 ### Supported Tools
 
 - **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
+- **[Github Copilot](https://github.com/copilot)** — native `.md` agents, no conversion needed → `~/.github/agents/`
 - **[Antigravity](https://github.com/google-gemini/antigravity)** — `SKILL.md` per agent → `~/.gemini/antigravity/skills/`
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — extension + `SKILL.md` files → `~/.gemini/extensions/agency-agents/`
-- **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agent/`
+- **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agents/`
 - **[Cursor](https://cursor.sh)** — `.mdc` rule files → `.cursor/rules/`
 - **[Aider](https://aider.chat)** — single `CONVENTIONS.md` → `./CONVENTIONS.md`
 - **[Windsurf](https://codeium.com/windsurf)** — single `.windsurfrules` → `./.windsurfrules`
+- **[OpenClaw](https://openclaw.com)** — `SOUL.md` + `AGENTS.md` + `IDENTITY.md` per agent
 
 ---
 
@@ -380,14 +461,15 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
   System scan: [*] = detected on this machine
 
   [x]  1)  [*]  Claude Code     (claude.ai/code)
-  [x]  2)  [*]  Antigravity     (~/.gemini/antigravity)
-  [ ]  3)  [ ]  Gemini CLI      (gemini extension)
-  [ ]  4)  [ ]  OpenCode        (opencode.ai)
-  [x]  5)  [*]  Cursor          (.cursor/rules)
-  [ ]  6)  [ ]  Aider           (CONVENTIONS.md)
-  [ ]  7)  [ ]  Windsurf        (.windsurfrules)
+  [x]  2)  [*]  Copilot         (~/.github/agents)
+  [x]  3)  [*]  Antigravity     (~/.gemini/antigravity)
+  [ ]  4)  [ ]  Gemini CLI      (gemini extension)
+  [ ]  5)  [ ]  OpenCode        (opencode.ai)
+  [x]  6)  [*]  Cursor          (.cursor/rules)
+  [ ]  7)  [ ]  Aider           (CONVENTIONS.md)
+  [ ]  8)  [ ]  Windsurf        (.windsurfrules)
 
-  [1-7] toggle   [a] all   [n] none   [d] detected
+  [1-8] toggle   [a] all   [n] none   [d] detected
   [Enter] install   [q] quit
 ```
 
@@ -425,6 +507,23 @@ See [integrations/claude-code/README.md](integrations/claude-code/README.md) for
 </details>
 
 <details>
+<summary><strong>Github Copilot</strong></summary>
+
+Agents are copied directly from the repo into `~/.github/agents/` -- no conversion needed.
+
+```bash
+./scripts/install.sh --tool copilot
+```
+
+Then activate in Github Copilot:
+```
+Use the Frontend Developer agent to review this component.
+```
+
+See [integrations/github-copilot/README.md](integrations/github-copilot/README.md) for details.
+</details>
+
+<details>
 <summary><strong>Antigravity (Gemini)</strong></summary>
 
 Each agent becomes a skill in `~/.gemini/antigravity/skills/agency-<slug>/`.
@@ -444,7 +543,7 @@ See [integrations/antigravity/README.md](integrations/antigravity/README.md) for
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
-Installs as a Gemini CLI extension with 61 skills + a manifest.
+Installs as a Gemini CLI extension with 80 skills + a manifest.
 
 ```bash
 ./scripts/install.sh --tool gemini-cli
@@ -456,7 +555,7 @@ See [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) for d
 <details>
 <summary><strong>OpenCode</strong></summary>
 
-Agents are placed in `.opencode/agent/` in your project root (project-scoped).
+Agents are placed in `.opencode/agents/` in your project root (project-scoped).
 
 ```bash
 cd /your/project
@@ -465,13 +564,13 @@ cd /your/project
 
 Or install globally:
 ```bash
-mkdir -p ~/.config/opencode/agent
-cp integrations/opencode/agent/*.md ~/.config/opencode/agent/
+mkdir -p ~/.config/opencode/agents
+cp integrations/opencode/agents/*.md ~/.config/opencode/agents/
 ```
 
 Activate in OpenCode:
 ```
-Use the Backend Architect agent to design this API.
+@backend-architect design this API.
 ```
 
 See [integrations/opencode/README.md](integrations/opencode/README.md) for details.
@@ -548,7 +647,7 @@ When you add new agents or edit existing ones, regenerate all integration files:
 
 - [ ] Interactive agent selector web tool
 - [x] Multi-agent workflow examples -- see [examples/](examples/)
-- [x] Multi-tool integration scripts (Claude Code, Antigravity, Gemini CLI, OpenCode, Cursor, Aider, Windsurf)
+- [x] Multi-tool integration scripts (Claude Code, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf)
 - [ ] Video tutorials on agent design
 - [ ] Community agent marketplace
 - [ ] Agent "personality quiz" for project matching
@@ -562,9 +661,15 @@ Community-maintained translations and regional adaptations. These are independen
 
 | Language | Maintainer | Link | Notes |
 |----------|-----------|------|-------|
-| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 26 translated agents + 4 China-market agents |
+| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 100 translated agents + 9 China-market originals |
 
 Want to add a translation? Open an issue and we'll link it here.
+
+---
+
+## 🔗 Related Resources
+
+- [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — Community-maintained OpenClaw agent collection (derived from this repo)
 
 ---
 

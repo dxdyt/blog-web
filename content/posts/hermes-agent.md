@@ -1,9 +1,9 @@
 ---
 title: hermes-agent
-date: 2026-03-10T13:09:42+08:00
+date: 2026-03-11T13:11:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772441849348-c99fcd2dd2dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772441849348-c99fcd2dd2dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMxMTkzMzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770037367952-dcf2a9ea64c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770037367952-dcf2a9ea64c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
 ---
 
 # [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
