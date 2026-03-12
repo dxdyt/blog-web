@@ -1,9 +1,9 @@
 ---
 title: hermes-agent
-date: 2026-03-11T13:11:12+08:00
+date: 2026-03-12T13:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770037367952-dcf2a9ea64c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770037367952-dcf2a9ea64c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772307736241-e0d5203379c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772307736241-e0d5203379c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
 ---
 
 # [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
@@ -51,7 +51,6 @@ After installation:
 
 ```bash
 source ~/.bashrc    # reload shell (or: source ~/.zshrc)
-hermes setup        # configure your LLM provider
 hermes              # start chatting!
 ```
 
@@ -61,9 +60,11 @@ hermes              # start chatting!
 
 ```bash
 hermes              # Interactive CLI — start a conversation
-hermes model        # Switch provider or model
-hermes setup        # Re-run the setup wizard
+hermes model        # Choose your LLM provider and model
+hermes tools        # Configure which tools are enabled
+hermes config set   # Set individual config values
 hermes gateway      # Start the messaging gateway (Telegram, Discord, etc.)
+hermes setup        # Run the full setup wizard (configures everything at once)
 hermes update       # Update to the latest version
 hermes doctor       # Diagnose any issues
 ```
