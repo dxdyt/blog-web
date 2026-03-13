@@ -1,9 +1,9 @@
 ---
 title: page-agent
-date: 2026-03-12T13:15:50+08:00
+date: 2026-03-13T13:12:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772307736241-e0d5203379c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772307736241-e0d5203379c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/page-agent](https://github.com/alibaba/page-agent)
@@ -89,6 +89,8 @@ We welcome contributions from the community! Follow our instructions in [CONTRIB
 
 Please read [Code of Conduct](docs/CODE_OF_CONDUCT.md) before contributing.
 
+Contributions generated entirely by bots or agents without substantial human involvement will not be accepted, and bot accounts may be blocked.
+
 ## 👏 Acknowledgments
 
 This project builds upon the excellent work of **[`browser-use`](https://github.com/browser-use/browser-use)**.
@@ -120,8 +122,8 @@ file and in the node_modules directory after installation.
 
 <a href="https://www.star-history.com/?repos=alibaba%2Fpage-agent&type=date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left&v=3" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=3" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=3" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left&v=4" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=4" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=4" />
  </picture>
 </a>

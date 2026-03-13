@@ -1,9 +1,9 @@
 ---
 title: fish-speech
-date: 2026-03-12T13:15:31+08:00
+date: 2026-03-13T13:12:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772588627400-3cfb94322e5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772588627400-3cfb94322e5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770873263537-fbb8d39b6103?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770873263537-fbb8d39b6103?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
 ---
 
 # [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)
@@ -47,7 +47,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1772588627400-3cfb94322e
         <img alt="Fish Audio Blog" src="https://img.shields.io/badge/Blog-Fish_Audio_S2-1f7a8c?style=flat-square&logo=readme&logoColor=white"/>
     </a>
     <a target="_blank" href="https://github.com/fishaudio/fish-speech/blob/main/FishAudioS2TecReport.pdf">
-        <img alt="Paper | Technical Report" src="https://img.shields.io/badge/Paper-Tecnical_Report-b31b1b?style=flat-square"/>
+        <img alt="Paper | Technical Report" src="https://img.shields.io/badge/Paper-Technical_Report-b31b1b?style=flat-square"/>
     </a>
 </div>
 
@@ -87,7 +87,7 @@ Fish Audio S2 is the latest model developed by [Fish Audio](https://fish.audio/)
 
 S2 supports fine-grained inline control of prosody and emotion using natural-language tags like `[laugh]`, `[whispers]`, and `[super happy]`, as well as native multi-speaker and multi-turn generation.
 
-Visit the [Fish Audio website](https://fish.audio/) for live playground. Read the [blog post](https://fish.audio/blog/fish-audio-open-sources-s2/) and [tecnical report](https://github.com/fishaudio/fish-speech/blob/main/FishAudioS2TecReport.pdf) for more details.
+Visit the [Fish Audio website](https://fish.audio/) for live playground. Read the [blog post](https://fish.audio/blog/fish-audio-open-sources-s2/) and [technical report](https://github.com/fishaudio/fish-speech/blob/main/FishAudioS2TecReport.pdf) for more details.
 
 ### Model Variants
 
