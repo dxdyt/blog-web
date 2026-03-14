@@ -1,9 +1,9 @@
 ---
 title: A2UI
-date: 2026-03-13T13:13:21+08:00
+date: 2026-03-14T13:11:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770936997277-1c5732085160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770936997277-1c5732085160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772588627373-729b0f47e5bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772588627373-729b0f47e5bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [google/A2UI](https://github.com/google/A2UI)

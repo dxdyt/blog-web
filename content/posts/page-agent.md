@@ -1,9 +1,9 @@
 ---
 title: page-agent
-date: 2026-03-13T13:12:37+08:00
+date: 2026-03-14T13:11:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772588627373-729b0f47e5bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772588627373-729b0f47e5bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/page-agent](https://github.com/alibaba/page-agent)
@@ -21,7 +21,7 @@ The GUI Agent Living in Your Webpage. Control web interfaces with natural langua
 
 🌐 **English** | [中文](./docs/README-zh.md)
 
-👉 <a href="https://alibaba.github.io/page-agent/" target="_blank"><b>🚀 Demo</b></a> | <a href="https://alibaba.github.io/page-agent/docs/introduction/overview" target="_blank"><b>📖 Documentation</b></a> | <a href="https://news.ycombinator.com/item?id=47264138" target="_blank"><b>📢 Join HN Discussion</b></a>
+👉 <a href="https://alibaba.github.io/page-agent/" target="_blank"><b>🚀 Demo</b></a> | <a href="https://alibaba.github.io/page-agent/docs/introduction/overview" target="_blank"><b>📖 Documentation</b></a> | <a href="https://news.ycombinator.com/item?id=47264138" target="_blank"><b>📢 Join HN Discussion</b></a> | <a href="https://x.com/simonluvramen" target="_blank"><b>𝕏 Follow on X</b></a>
 
 <video id="demo-video" src="https://github.com/user-attachments/assets/a1f2eae2-13fb-4aae-98cf-a3fc1620a6c2" controls crossorigin muted></video>
 
@@ -59,8 +59,8 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 | Mirrors | URL                                                                                |
 | ------- | ---------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.5.6/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.5.6/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.5.7/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.5.7/files/dist/iife/page-agent.demo.js |
 
 ### NPM Installation
 
@@ -122,8 +122,8 @@ file and in the node_modules directory after installation.
 
 <a href="https://www.star-history.com/?repos=alibaba%2Fpage-agent&type=date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left&v=4" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=4" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=4" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&theme=dark&legend=top-left&v=6" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=6" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=alibaba/page-agent&type=date&legend=top-left&v=6" />
  </picture>
 </a>

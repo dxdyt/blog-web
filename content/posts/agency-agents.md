@@ -1,9 +1,9 @@
 ---
 title: agency-agents
-date: 2026-03-13T13:13:12+08:00
+date: 2026-03-14T13:10:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772758333787-76d0c2f4019b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772758333787-76d0c2f4019b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
@@ -318,6 +318,12 @@ Building worlds, systems, and experiences across every major engine.
 | 🌐 [Godot Multiplayer Engineer](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI, ENet/WebRTC, RPCs, authority model | Online Godot games, scene replication, server-authoritative Godot |
 | ✨ [Godot Shader Developer](game-development/godot/godot-shader-developer.md) | Godot shading language, VisualShader, RenderingDevice | Custom Godot materials, 2D/3D effects, post-processing, compute shaders |
 
+#### Blender
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🧩 [Blender Addon Engineer](game-development/blender/blender-addon-engineer.md) | Blender Python (`bpy`), custom operators/panels, asset validators, exporters, pipeline automation | Building Blender add-ons, asset prep tools, export workflows, and DCC pipeline automation |
+
 #### Roblox Studio
 
 | Agent | Specialty | When to Use |
@@ -491,7 +497,7 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 ### Supported Tools
 
 - **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
-- **[GitHub Copilot](https://github.com/copilot)** — native `.md` agents, no conversion needed → `~/.github/agents/`
+- **[GitHub Copilot](https://github.com/copilot)** — native `.md` agents, no conversion needed → `~/.github/agents/` + `~/.copilot/agents/`
 - **[Antigravity](https://github.com/google-gemini/antigravity)** — `SKILL.md` per agent → `~/.gemini/antigravity/skills/`
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — extension + `SKILL.md` files → `~/.gemini/extensions/agency-agents/`
 - **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agents/`
@@ -525,7 +531,7 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
   System scan: [*] = detected on this machine
 
   [x]  1)  [*]  Claude Code     (claude.ai/code)
-  [x]  2)  [*]  Copilot         (~/.github/agents)
+  [x]  2)  [*]  Copilot         (~/.github + ~/.copilot)
   [x]  3)  [*]  Antigravity     (~/.gemini/antigravity)
   [ ]  4)  [ ]  Gemini CLI      (gemini extension)
   [ ]  5)  [ ]  OpenCode        (opencode.ai)
@@ -576,7 +582,7 @@ See [integrations/claude-code/README.md](integrations/claude-code/README.md) for
 <details>
 <summary><strong>GitHub Copilot</strong></summary>
 
-Agents are copied directly from the repo into `~/.github/agents/` -- no conversion needed.
+Agents are copied directly from the repo into `~/.github/agents/` and `~/.copilot/agents/` -- no conversion needed.
 
 ```bash
 ./scripts/install.sh --tool copilot

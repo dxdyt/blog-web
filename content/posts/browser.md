@@ -1,9 +1,9 @@
 ---
 title: browser
-date: 2025-01-27T12:19:55+08:00
+date: 2026-03-14T13:10:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
@@ -18,7 +18,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1736942145278-92d39eaabe
 
 <div align="center">
 
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/lightpanda-io/browser)](https://github.com/lightpanda-io/browser/commits/main)
 [![License](https://img.shields.io/github/license/lightpanda-io/browser)](https://github.com/lightpanda-io/browser/blob/main/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/lightpanda_io)](https://twitter.com/lightpanda_io)
 [![GitHub stars](https://img.shields.io/github/stars/lightpanda-io/browser)](https://github.com/lightpanda-io/browser)
@@ -29,60 +28,109 @@ Lightpanda is the open-source browser made for headless usage:
 
 - Javascript execution
 - Support of Web APIs (partial, WIP)
-- Compatible with Playwright, Puppeteer through CDP (WIP)
+- Compatible with Playwright[^1], Puppeteer, chromedp through [CDP](https://chromedevtools.github.io/devtools-protocol/)
 
-Fast web automation for AI agents, LLM training, scraping and testing with minimal memory footprint:
+Fast web automation for AI agents, LLM training, scraping and testing:
 
 - Ultra-low memory footprint (9x less than Chrome)
-- Exceptionally fast execution (11x faster than Chrome) & instant startup
+- Exceptionally fast execution (11x faster than Chrome)
+- Instant startup
 
-<img width=500px src="https://cdn.lightpanda.io/assets/images/benchmark_2024-12-04.png">
+[<img width="350px" src="https://cdn.lightpanda.io/assets/images/github/execution-time.svg">
+](https://github.com/lightpanda-io/demo)
+&emsp;
+[<img width="350px" src="https://cdn.lightpanda.io/assets/images/github/memory-frame.svg">
+](https://github.com/lightpanda-io/demo)
+</div>
 
-See [benchmark details](https://github.com/lightpanda-io/demo).
+_Puppeteer requesting 100 pages from a local website on a AWS EC2 m5.large instance.
+See [benchmark details](https://github.com/lightpanda-io/demo)._
+
+[^1]: **Playwright support disclaimer:**
+Due to the nature of Playwright, a script that works with the current version of the browser may not function correctly with a future version. Playwright uses an intermediate JavaScript layer that selects an execution strategy based on the browser's available features. If Lightpanda adds a new [Web API](https://developer.mozilla.org/en-US/docs/Web/API), Playwright may choose to execute different code for the same script. This new code path could attempt to use features that are not yet implemented. Lightpanda makes an effort to add compatibility tests, but we can't cover all scenarios. If you encounter an issue, please create a [GitHub issue](https://github.com/lightpanda-io/browser/issues) and include the last known working version of the script.
 
 ## Quick start
 
-### Install from the nightly builds
+### Install
+**Install from the nightly builds**
 
 You can download the last binary from the [nightly
 builds](https://github.com/lightpanda-io/browser/releases/tag/nightly) for
 Linux x86_64 and MacOS aarch64.
 
+*For Linux*
 ```console
-# Download the binary
-$ wget https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux
-$ chmod a+x ./lightpanda-x86_64-linux
-$ ./lightpanda-x86_64-linux -h
-usage: ./lightpanda-x86_64-linux [options] [URL]
-
-  start Lightpanda browser
-
-  * if an url is provided the browser will fetch the page and exit
-  * otherwhise the browser starts a CDP server
-
-  -h, --help      Print this help message and exit.
-  --host          Host of the CDP server (default "127.0.0.1")
-  --port          Port of the CDP server (default "9222")
-  --timeout       Timeout for incoming connections of the CDP server (in seconds, default "3")
-  --dump          Dump document in stdout (fetch mode only)
+curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \
+chmod a+x ./lightpanda
 ```
 
-### Dump an URL
+*For MacOS*
+```console
+curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-aarch64-macos && \
+chmod a+x ./lightpanda
+```
+
+*For Windows + WSL2*
+
+The Lightpanda browser is compatible to run on windows inside WSL. Follow the Linux instruction for installation from a WSL terminal.
+It is recommended to install clients like Puppeteer on the Windows host.
+
+**Install from Docker**
+
+Lightpanda provides [official Docker
+images](https://hub.docker.com/r/lightpanda/browser) for both Linux amd64 and
+arm64 architectures.
+The following command fetches the Docker image and starts a new container exposing Lightpanda's CDP server on port `9222`.
+```console
+docker run -d --name lightpanda -p 9222:9222 lightpanda/browser:nightly
+```
+
+### Dump a URL
 
 ```console
-$ ./lightpanda-x86_64-linux --dump https://lightpanda.io
-info(browser): GET https://lightpanda.io/ http.Status.ok
-info(browser): fetch script https://api.website.lightpanda.io/js/script.js: http.Status.ok
-info(browser): eval remote https://api.website.lightpanda.io/js/script.js: TypeError: Cannot read properties of undefined (reading 'pushState')
+./lightpanda fetch --obey_robots --log_format pretty  --log_level info https://demo-browser.lightpanda.io/campfire-commerce/
+```
+```console
+INFO  telemetry : telemetry status . . . . . . . . . . . . .  [+0ms]
+      disabled = false
+
+INFO  page : navigate . . . . . . . . . . . . . . . . . . . . [+6ms]
+      url = https://demo-browser.lightpanda.io/campfire-commerce/
+      method = GET
+      reason = address_bar
+      body = false
+      req_id = 1
+
+INFO  browser : executing script . . . . . . . . . . . . . .  [+118ms]
+      src = https://demo-browser.lightpanda.io/campfire-commerce/script.js
+      kind = javascript
+      cacheable = true
+
+INFO  http : request complete . . . . . . . . . . . . . . . . [+140ms]
+      source = xhr
+      url = https://demo-browser.lightpanda.io/campfire-commerce/json/product.json
+      status = 200
+      len = 4770
+
+INFO  http : request complete . . . . . . . . . . . . . . . . [+141ms]
+      source = fetch
+      url = https://demo-browser.lightpanda.io/campfire-commerce/json/reviews.json
+      status = 200
+      len = 1615
 <!DOCTYPE html>
 ```
 
 ### Start a CDP server
 
 ```console
-$ ./lightpanda-x86_64-linux --host 127.0.0.1 --port 9222
-info(websocket): starting blocking worker to listen on 127.0.0.1:9222
-info(server): accepting new conn...
+./lightpanda serve --obey_robots --log_format pretty  --log_level info --host 127.0.0.1 --port 9222
+```
+```console
+INFO  telemetry : telemetry status . . . . . . . . . . . . .  [+0ms]
+      disabled = false
+
+INFO  app : server running . . . . . . . . . . . . . . . . .  [+0ms]
+      address = 127.0.0.1:9222
 ```
 
 Once the CDP server started, you can run a Puppeteer script by configuring the
@@ -102,95 +150,109 @@ const browser = await puppeteer.connect({
 const context = await browser.createBrowserContext();
 const page = await context.newPage();
 
-await page.goto('https://wikipedia.com/');
+// Dump all the links from the page.
+await page.goto('https://demo-browser.lightpanda.io/amiibo/', {waitUntil: "networkidle0"});
+
+const links = await page.evaluate(() => {
+  return Array.from(document.querySelectorAll('a')).map(row => {
+    return row.getAttribute('href');
+  });
+});
+
+console.log(links);
 
 await page.close();
 await context.close();
+await browser.disconnect();
 ```
+
+### Telemetry
+By default, Lightpanda collects and sends usage telemetry. This can be disabled by setting an environment variable `LIGHTPANDA_DISABLE_TELEMETRY=true`. You can read Lightpanda's privacy policy at: [https://lightpanda.io/privacy-policy](https://lightpanda.io/privacy-policy).
+
+## Status
+
+Lightpanda is in Beta and currently a work in progress. Stability and coverage are improving and many websites now work.
+You may still encounter errors or crashes. Please open an issue with specifics if so.
+
+Here are the key features we have implemented:
+
+- [x] HTTP loader ([Libcurl](https://curl.se/libcurl/))
+- [x] HTML parser ([html5ever](https://github.com/servo/html5ever))
+- [x] DOM tree
+- [x] Javascript support ([v8](https://v8.dev/))
+- [x] DOM APIs
+- [x] Ajax
+  - [x] XHR API
+  - [x] Fetch API
+- [x] DOM dump
+- [x] CDP/websockets server
+- [x] Click
+- [x] Input form
+- [x] Cookies
+- [x] Custom HTTP headers
+- [x] Proxy support
+- [x] Network interception
+- [x] Respect `robots.txt` with option `--obey_robots`
+
+NOTE: There are hundreds of Web APIs. Developing a browser (even just for headless mode) is a huge task. Coverage will increase over time.
+
+You can also follow the progress of our Javascript support in our dedicated [zig-js-runtime](https://github.com/lightpanda-io/zig-js-runtime#development) project.
 
 ## Build from sources
 
 ### Prerequisites
 
-Lightpanda is written with [Zig](https://ziglang.org/) `0.13.0`. You have to
+Lightpanda is written with [Zig](https://ziglang.org/) `0.15.2`. You have to
 install it with the right version in order to build the project.
 
 Lightpanda also depends on
 [zig-js-runtime](https://github.com/lightpanda-io/zig-js-runtime/) (with v8),
-[Netsurf libs](https://www.netsurf-browser.org/) and
-[Mimalloc](https://microsoft.github.io/mimalloc).
+[Libcurl](https://curl.se/libcurl/) and [html5ever](https://github.com/servo/html5ever).
 
 To be able to build the v8 engine for zig-js-runtime, you have to install some libs:
 
-For Debian/Ubuntu based Linux:
+For **Debian/Ubuntu based Linux**:
 
 ```
-sudo apt install xz-utils \
-    python3 ca-certificates git \
+sudo apt install xz-utils ca-certificates \
     pkg-config libglib2.0-dev \
-    gperf libexpat1-dev \
-    cmake clang
+    clang make curl git
+```
+You also need to [install Rust](https://rust-lang.org/tools/install/).
+
+For systems with [**Nix**](https://nixos.org/download/), you can use the devShell:
+```
+nix develop
 ```
 
-For MacOS, you only need cmake:
-
+For **MacOS**, you need cmake and [Rust](https://rust-lang.org/tools/install/).
 ```
 brew install cmake
 ```
 
-### Install and build dependencies
+### Build and run
 
-#### All in one build
+You an build the entire browser with `make build` or `make build-dev` for debug
+env.
 
-You can run `make install` to install deps all in one (or `make install-dev` if you need the development versions).
+But you can directly use the zig command: `zig build run`.
 
-Be aware that the build task is very long and cpu consuming, as you will build from sources all dependencies, including the v8 Javascript engine.
+#### Embed v8 snapshot
 
-#### Step by step build dependency
+Lighpanda uses v8 snapshot. By default, it is created on startup but you can
+embed it by using the following commands:
 
-The project uses git submodules for dependencies.
-
-To init or update the submodules in the `vendor/` directory:
-
+Generate the snapshot.
 ```
-make install-submodule
-```
-
-**Netsurf libs**
-
-Netsurf libs are used for HTML parsing and DOM tree generation.
-
-```
-make install-netsurf
+zig build snapshot_creator -- src/snapshot.bin
 ```
 
-For dev env, use `make install-netsurf-dev`.
-
-**Mimalloc**
-
-Mimalloc is used as a C memory allocator.
-
+Build using the snapshot binary.
 ```
-make install-mimalloc
+zig build -Dsnapshot_path=../../snapshot.bin
 ```
 
-For dev env, use `make install-mimalloc-dev`.
-
-Note: when Mimalloc is built in dev mode, you can dump memory stats with the
-env var `MIMALLOC_SHOW_STATS=1`. See
-[https://microsoft.github.io/mimalloc/environment.html](https://microsoft.github.io/mimalloc/environment.html).
-
-**zig-js-runtime**
-
-Our own Zig/Javascript runtime, which includes the v8 Javascript engine.
-
-This build task is very long and cpu consuming, as you will build v8 from sources.
-
-```
-make install-zig-js-runtime
-```
-
-For dev env, use `make iinstall-zig-js-runtime-dev`.
+See [#1279](https://github.com/lightpanda-io/browser/pull/1279) for more details.
 
 ## Test
 
@@ -198,40 +260,94 @@ For dev env, use `make iinstall-zig-js-runtime-dev`.
 
 You can test Lightpanda by running `make test`.
 
+### End to end tests
+
+To run end to end tests, you need to clone the [demo
+repository](https://github.com/lightpanda-io/demo) into `../demo` dir.
+
+You have to install the [demo's node
+requirements](https://github.com/lightpanda-io/demo?tab=readme-ov-file#dependencies-1)
+
+You also need to install [Go](https://go.dev) > v1.24.
+
+```
+make end2end
+```
+
 ### Web Platform Tests
 
 Lightpanda is tested against the standardized [Web Platform
 Tests](https://web-platform-tests.org/).
 
-The relevant tests cases are committed in a [dedicated repository](https://github.com/lightpanda-io/wpt) which is fetched by the `make install-submodule` command.
-
-All the tests cases executed are located in the `tests/wpt` sub-directory.
+We use [a fork](https://github.com/lightpanda-io/wpt/tree/fork) including a custom
+[`testharnessreport.js`](https://github.com/lightpanda-io/wpt/commit/01a3115c076a3ad0c84849dbbf77a6e3d199c56f).
 
 For reference, you can easily execute a WPT test case with your browser via
 [wpt.live](https://wpt.live).
 
+#### Configure WPT HTTP server
+
+To run the test, you must clone the repository, configure the custom hosts and generate the
+`MANIFEST.json` file.
+
+Clone the repository with the `fork` branch.
+```
+git clone -b fork --depth=1 git@github.com:lightpanda-io/wpt.git
+```
+
+Enter into the `wpt/` dir.
+
+Install custom domains in your `/etc/hosts`
+```
+./wpt make-hosts-file | sudo tee -a /etc/hosts
+```
+
+Generate `MANIFEST.json`
+```
+./wpt manifest
+```
+Use the [WPT's setup
+guide](https://web-platform-tests.org/running-tests/from-local-system.html) for
+details.
+
 #### Run WPT test suite
 
-To run all the tests:
+An external [Go](https://go.dev) runner is provided by
+[github.com/lightpanda-io/demo/](https://github.com/lightpanda-io/demo/)
+repository, located into `wptrunner/` dir.
+You need to clone the project first.
+
+First start the WPT's HTTP server from your `wpt/` clone dir.
+```
+./wpt serve
+```
+
+Run a Lightpanda browser
 
 ```
-make wpt
+zig build run -- --insecure_disable_tls_host_verification
+```
+
+Then you can start the wptrunner from the Demo's clone dir:
+```
+cd wptrunner && go run .
 ```
 
 Or one specific test:
 
 ```
-make wpt Node-childNodes.html
+cd wptrunner && go run . Node-childNodes.html
 ```
 
-#### Add a new WPT test case
+`wptrunner` command accepts `--summary` and `--json` options modifying output.
+Also `--concurrency` define the concurrency limit.
 
-We add new relevant tests cases files when we implemented changes in Lightpanda.
+:warning: Running the whole test suite will take a long time. In this case,
+it's useful to build in `releaseFast` mode to make tests faster.
 
-To add a new test, copy the file you want from the [WPT
-repo](https://github.com/web-platform-tests/wpt) into the `tests/wpt` directory.
-
-:warning: Please keep the original directory tree structure of `tests/wpt`.
+```
+zig build -Doptimize=ReleaseFast run
+```
 
 ## Contributing
 
@@ -264,25 +380,3 @@ If we want both Javascript and performance in a true headless browser, we need t
 - Not based on Chromium, Blink or WebKit
 - Low-level system programming language (Zig) with optimisations in mind
 - Opinionated: without graphical rendering
-
-## Status
-
-Lightpanda is still a work in progress and is currently at a Beta stage.
-
-:warning: You should expect most websites to fail or crash.
-
-Here are the key features we have implemented:
-
-- [x] HTTP loader
-- [x] HTML parser and DOM tree (based on Netsurf libs)
-- [x] Javascript support (v8)
-- [x] Basic DOM APIs
-- [x] Ajax
-  - [x] XHR API
-  - [x] Fetch API
-- [x] DOM dump
-- [x] Basic CDP/websockets server
-
-NOTE: There are hundreds of Web APIs. Developing a browser (even just for headless mode) is a huge task. Coverage will increase over time.
-
-You can also follow the progress of our Javascript support in our dedicated [zig-js-runtime](https://github.com/lightpanda-io/zig-js-runtime#development) project.

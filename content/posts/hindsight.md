@@ -1,9 +1,9 @@
 ---
 title: hindsight
-date: 2026-03-13T13:12:30+08:00
+date: 2026-03-14T13:11:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771596703839-f0cbdb32d65a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMzNzg3MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772831902679-3f41c106d7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772831902679-3f41c106d7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
@@ -80,7 +80,7 @@ docker run --rm -it --pull always -p 8888:8888 -p 9999:9999 \
 >API: http://localhost:8888
 >UI: http://localhost:9999
 
-You can modify the LLM provider by setting `HINDSIGHT_API_LLM_PROVIDER`. Valid options are `openai`, `anthropic`, `gemini`, `groq`, `ollama`, and `lmstudio`. The documentation provides more details on [supported models](https://hindsight.vectorize.io/developer/models).
+You can modify the LLM provider by setting `HINDSIGHT_API_LLM_PROVIDER`. Valid options are `openai`, `anthropic`, `gemini`, `groq`, `ollama`, `lmstudio`, and `minimax`. The documentation provides more details on [supported models](https://hindsight.vectorize.io/developer/models).
 
 
 

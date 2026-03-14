@@ -1,9 +1,9 @@
 ---
 title: promptfoo
-date: 2026-03-12T13:15:12+08:00
+date: 2026-03-14T13:10:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769427470211-413623a9333b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769427470211-413623a9333b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)

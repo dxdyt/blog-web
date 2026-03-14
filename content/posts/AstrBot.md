@@ -1,9 +1,9 @@
 ---
 title: AstrBot
-date: 2026-03-12T13:16:07+08:00
+date: 2026-03-14T13:11:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771615432333-62434433cb66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771615432333-62434433cb66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyOTI0OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770752609290-264c53dc54a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770752609290-264c53dc54a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
 ---
 
 # [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)
