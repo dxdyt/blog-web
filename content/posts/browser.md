@@ -1,9 +1,9 @@
 ---
 title: browser
-date: 2026-03-14T13:10:18+08:00
+date: 2026-03-15T13:27:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772710954725-883fc4e93f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM0NjQ5OTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770793384393-94dfcb7a351f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770793384393-94dfcb7a351f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
 ---
 
 # [lightpanda-io/browser](https://github.com/lightpanda-io/browser)

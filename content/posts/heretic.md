@@ -1,9 +1,9 @@
 ---
 title: heretic
-date: 2026-02-20T13:16:21+08:00
+date: 2026-03-15T13:27:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768775883249-9cd8d4486908?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768775883249-9cd8d4486908?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NjQ1MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770251912565-27cdc3354a94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770251912565-27cdc3354a94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
 ---
 
 # [p-e-w/heretic](https://github.com/p-e-w/heretic)
@@ -11,6 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1768775883249-9cd8d44869
 <img width="128" height="128" align="right" alt="Logo" src="https://github.com/user-attachments/assets/df5f2840-2f92-4991-aa57-252747d7182e" />
 
 # Heretic: Fully automatic censorship removal for language models<br><br>[![Discord](https://img.shields.io/discord/1447831134212984903?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/gdXc48gSyT) [![Follow us on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/follow-us-on-hf-md-dark.svg)](https://huggingface.co/heretic-org)
+
+[![#1 Repository of the Day](https://trendshift.io/api/badge/repositories/20538)](https://trendshift.io/repositories/20538)
 
 Heretic is a tool that removes censorship (aka "safety alignment") from
 transformer-based language models without expensive post-training.
