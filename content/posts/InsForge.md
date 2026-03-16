@@ -1,9 +1,9 @@
 ---
 title: InsForge
-date: 2026-03-15T13:28:10+08:00
+date: 2026-03-16T13:49:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771251004016-d879327b33c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771251004016-d879327b33c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
 ---
 
 # [InsForge/InsForge](https://github.com/InsForge/InsForge)

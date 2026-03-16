@@ -1,9 +1,9 @@
 ---
 title: OpenViking
-date: 2026-03-15T13:27:04+08:00
+date: 2026-03-16T13:48:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770988042769-8457db10f3c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770988042769-8457db10f3c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NTI0MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771385706186-52d203076e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771385706186-52d203076e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
 ---
 
 # [volcengine/OpenViking](https://github.com/volcengine/OpenViking)

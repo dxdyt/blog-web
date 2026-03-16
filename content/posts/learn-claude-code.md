@@ -1,20 +1,15 @@
 ---
 title: learn-claude-code
-date: 2026-03-09T13:19:11+08:00
+date: 2026-03-16T13:48:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772657257833-ed30e5e3e402?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772657257833-ed30e5e3e402?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwMzM1MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772442126046-29faff1ad234?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772442126046-29faff1ad234?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
 ---
 
 # [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
 
 [English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)  
 # Learn Claude Code -- A nano Claude Code-like agent, built from 0 to 1
-<img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
-
-Scan with Wechat to fellow us,  
-or fellow on X: [shareAI-Lab](https://x.com/baicai003)  
-
 
 ```
                     THE AGENT PATTERN
@@ -236,6 +231,12 @@ learn-claude-code                   claw0
  loop, tools, planning,              heartbeat, cron, IM channels,
  teams, worktree isolation)          memory, soul personality)
 ```
+
+## About
+<img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
+
+Scan with Wechat to fellow us,  
+or fellow on X: [shareAI-Lab](https://x.com/baicai003)  
 
 ## License
 
