@@ -1,15 +1,53 @@
 ---
 title: learn-claude-code
-date: 2026-03-16T13:48:49+08:00
+date: 2026-03-17T13:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772442126046-29faff1ad234?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772442126046-29faff1ad234?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770110000218-e9376e581258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770110000218-e9376e581258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
 ---
 
 # [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
 
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)  
+[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
 # Learn Claude Code -- A nano Claude Code-like agent, built from 0 to 1
+
+## The Model IS the Agent
+
+Before we talk about code, let's get one thing straight.
+
+**An agent is a model. Not a framework. Not a flowchart. Not a prompt chain.**
+
+The word "agent" has been hijacked. Somewhere along the way, an entire cottage industry decided that wiring together prompt nodes, if-else branches, and LLM API calls in a directed acyclic graph constitutes "building an agent." It doesn't. What they built is a Rube Goldberg machine -- an over-engineered, brittle pipeline of hardcoded rules dressed up with an LLM as a glorified text-completion node. That is not an agent. That is a shell script with delusions of grandeur.
+
+**Let's be blunt: prompt-flow "agents" are the fantasy of programmers who don't train models.** They attempt to brute-force intelligence by stacking procedural logic -- massive if-else trees, node graphs, chain-of-prompt waterfalls -- and praying that enough glue code will somehow emergently produce autonomous behavior. It won't. You cannot engineer your way to agency. Agency is learned, not programmed. Those systems are dead on arrival: fragile, unscalable, and fundamentally incapable of generalization. They are the modern equivalent of GOFAI (Good Old-Fashioned AI) -- symbolic rule systems that the field abandoned decades ago, now resurrected with a coat of LLM paint.
+
+### What an Agent Actually Is
+
+Long before LLMs existed, the AI community had a precise definition: **an agent is a model that perceives its environment, makes decisions, and takes actions to achieve goals.** The emphasis is on *model* -- a learned function, not a scripted procedure.
+
+The proof is written in history:
+
+- **2013 -- DeepMind DQN plays Atari.** A single neural network, receiving only raw pixels and game scores, learned to play 7 Atari 2600 games -- surpassing all prior algorithms and beating human experts on 3 of them. By 2015, the same architecture scaled to [49 games and matched professional human testers](https://www.nature.com/articles/nature14236), published in *Nature*. No game-specific rules. No decision trees. Just a model, learning from experience. That model was the agent.
+
+- **2019 -- OpenAI Five conquers Dota 2.** Five neural networks, having played [45,000 years of Dota 2](https://openai.com/index/openai-five-defeats-dota-2-world-champions/) against themselves in 10 months, defeated **OG** -- the reigning TI8 world champions -- 2-0 on a San Francisco livestream. In a subsequent public arena, the AI won 99.4% of 42,729 games against all comers. No scripted strategies. No meta-programmed team coordination logic. The models learned teamwork, tactics, and real-time adaptation entirely through self-play.
+
+- **2019 -- DeepMind AlphaStar masters StarCraft II.** AlphaStar [beat professional players 10-1](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/) in a closed-door match, and later achieved [Grandmaster status](https://www.nature.com/articles/d41586-019-03298-6) on European servers -- top 0.15% of 90,000 players. A game with imperfect information, real-time decisions, and a combinatorial action space that dwarfs chess and Go. The agent? A model. Trained. Not scripted.
+
+- **2019 -- Tencent Jueyu dominates Honor of Kings.** Tencent AI Lab's "Jueyu" (绝悟) [defeated KPL professional players](https://www.jiemian.com/article/3371171.html) in a full 5v5 match on August 2, 2019 at the World Champion Cup. In 1v1 mode, pros won only [1 out of 15 games and never survived past 8 minutes](https://developer.aliyun.com/article/851058). Training intensity: one day equaled 440 human years. By 2021, Jueyu surpassed KPL pros across the full hero pool. No handcrafted hero matchup tables. No scripted team compositions. A model that learned the game from scratch through self-play.
+
+Every one of these milestones shares the same architecture: **a trained model, placed in an environment, given the ability to perceive and act.** The "agent" is never the harness. The agent is always the model.
+
+### Two Meanings of "Developing an Agent"
+
+When someone says "I'm developing an agent," they can only mean one of two things:
+
+1. **Training the model.** Adjusting weights through reinforcement learning, fine-tuning, RLHF, or other gradient-based methods. This is what DeepMind, OpenAI, Tencent AI Lab, and Anthropic do. This is agent development in the truest sense -- you are literally shaping the agent's capabilities.
+
+2. **Building the harness.** Writing the code that gives the model an environment to operate in -- tools (file I/O, shell, network), knowledge bases (product docs, domain references), observation channels (git diff, error logs, browser state), and action interfaces (CLI, API calls). This is what this repository teaches. It is valuable, necessary, and real engineering. But it is not "building the agent." It is **building the world the agent lives in.**
+
+The model decides. The harness executes. The model reasons. The harness provides context. The model is the pilot. The harness is the cockpit.
+
+This repo teaches you to build cockpits. Great cockpits matter -- they determine what the agent can see and do. But never confuse the cockpit with the pilot.
 
 ```
                     THE AGENT PATTERN
@@ -27,7 +65,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1772442126046-29faff1ad2
 
 
     That's the minimal loop. Every AI coding agent needs this loop.
-    Production agents add policy, permissions, and lifecycle layers.
+    The MODEL decides when to call tools and when to stop.
+    The CODE just executes what the model asks for.
 ```
 
 **12 progressive sessions, from a simple loop to isolated autonomous execution.**
@@ -244,4 +283,4 @@ MIT
 
 ---
 
-**The model is the agent. Our job is to give it tools and stay out of the way.**
+**The model is the agent. The code is the harness. Know which one you're building.**

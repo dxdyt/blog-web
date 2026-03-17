@@ -1,9 +1,9 @@
 ---
 title: MiroFish
-date: 2026-03-16T13:49:19+08:00
+date: 2026-03-17T13:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/MiroFish](https://github.com/666ghj/MiroFish)

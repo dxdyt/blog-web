@@ -1,9 +1,9 @@
 ---
 title: vite-plus
-date: 2026-03-16T13:49:44+08:00
+date: 2026-03-17T13:22:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772907952251-09e722aafa6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772907952251-09e722aafa6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772357176935-f6e3574ca35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772357176935-f6e3574ca35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
 ---
 
 # [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus)
