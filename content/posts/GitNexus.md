@@ -1,9 +1,9 @@
 ---
 title: GitNexus
-date: 2026-03-17T13:21:13+08:00
+date: 2026-03-18T13:24:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772475385350-d130ebe22bf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772475385350-d130ebe22bf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772366088815-78352eb7f5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772366088815-78352eb7f5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)

@@ -1,9 +1,9 @@
 ---
 title: deepagents
-date: 2026-03-17T13:21:54+08:00
+date: 2026-03-18T13:25:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770110000218-e9376e581258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770110000218-e9376e581258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM3MjQ4MzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771149076648-d0fdcd270f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771149076648-d0fdcd270f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
 ---
 
 # [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
