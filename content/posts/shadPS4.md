@@ -1,15 +1,15 @@
 ---
 title: shadPS4
-date: 2025-07-21T12:43:02+08:00
+date: 2026-03-19T13:22:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752403854672-b42182f0b90e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752403854672-b42182f0b90e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772442164696-7d65192147ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4OTc2OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772442164696-7d65192147ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4OTc2OTJ8&ixlib=rb-4.1.0
 ---
 
 # [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4)
 
 <!--
-SPDX-FileCopyrightText: 2024 shadPS4 Emulator Project
+SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
 SPDX-License-Identifier: GPL-2.0-or-later
 -->
 
@@ -34,39 +34,44 @@ SPDX-License-Identifier: GPL-2.0-or-later
         <img src="https://img.shields.io/github/stars/shadps4-emu/shadPS4" width="120">
 </h1>
 
-<p align="center">
-  <a href="https://shadps4.net/">
-  <img src="https://github.com/shadps4-emu/shadPS4/blob/main/documents/Screenshots/1.png" width="400">
-  <img src="https://github.com/shadps4-emu/shadPS4/blob/main/documents/Screenshots/2.png" width="400">
-  <img src="https://github.com/shadps4-emu/shadPS4/blob/main/documents/Screenshots/3.png" width="400">
-  <img src="https://github.com/shadps4-emu/shadPS4/blob/main/documents/Screenshots/4.png" width="400">
-</p>
+|               Bloodborne by From Software                   |                     Hatsune Miku Project DIVA Future Tone by SEGA                         |
+| :-----------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| ![Bloodborne screenshot](./documents/Screenshots/1.png) | ![Project DIVA screenshot](./documents/Screenshots/2.png) |
+
+|                  Yakuza 0 by SEGA                     |                 DRIVECLUB™ by Evolution Studios                    |
+| :------------------------------------------------------------------------: | :------------------------------------------------------------------: |
+| ![Yakuza screenshot](./documents/Screenshots/3.png) | ![DRIVECLUB screenshot](./documents/Screenshots/4.png) |
 
 # General information
 
 **shadPS4** is an early **PlayStation 4** emulator for **Windows**, **Linux** and **macOS** written in C++.
 
+> [!IMPORTANT]
+> This is the emulator core, which does not include a GUI. If you just want to use the emulator as an end user, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases) instead.
+
 If you encounter problems or have doubts, do not hesitate to look at the [**Quickstart**](https://github.com/shadps4-emu/shadPS4/wiki/I.-Quick-start-%5BUsers%5D).\
 To verify that a game works, you can look at [**shadPS4 Game Compatibility**](https://github.com/shadps4-compatibility/shadps4-game-compatibility).\
 To discuss shadPS4 development, suggest ideas or to ask for help, join our [**Discord server**](https://discord.gg/bFJxfftGW6).\
 To get the latest news, go to our [**X (Twitter)**](https://x.com/shadps4) or our [**website**](https://shadps4.net/).\
-For those who'd like to donate to the project, we now have a [**Kofi page**](https://ko-fi.com/shadps4)!
+You can donate to the project via our [**Kofi page**](https://ko-fi.com/shadps4).
 
 # Status
 
 > [!IMPORTANT]
 > shadPS4 is early in development, don't expect a flawless experience.
 
-Currently, the emulator can successfully run games like [**Bloodborne**](https://www.youtube.com/watch?v=wC6s0avpQRE), [**Dark Souls Remastered**](https://www.youtube.com/watch?v=-3PA-Xwszts), [**Red Dead Redemption**](https://www.youtube.com/watch?v=Al7yz_5nLag) and many other games.
+Currently, the emulator can successfully run games like [**Bloodborne**](https://www.youtube.com/watch?v=5sZgWyVflFM), [**Dark Souls Remastered**](https://www.youtube.com/watch?v=-3PA-Xwszts), [**Red Dead Redemption**](https://www.youtube.com/watch?v=Al7yz_5nLag), and many other games.
 
 # Why
 
-This project began as a fun project. Given our limited free time, it may take some time before shadPS4 can run more complex games, but we're committed to making small, regular updates.
+This project began for fun. Given our limited free time, it may take some time before shadPS4 can run more complex games, but we're committed to making small, regular updates.
 
 # Building
 
-> [!IMPORTANT]
-> If you want to use shadPS4 to play your games, you don't have to follow the build instructions, you can simply download the emulator from either the [**release tab**](https://github.com/shadps4-emu/shadPS4/releases) or the [**action tab**](https://github.com/shadps4-emu/shadPS4/actions).
+## Docker
+
+For building shadPS4 in a containerized environment using Docker and VSCode, check the instructions here:  
+[**Docker Build Instructions**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/building-docker.md)
 
 ## Windows
 
@@ -82,6 +87,22 @@ Check the build instructions for [**macOS**](https://github.com/shadps4-emu/shad
 
 > [!IMPORTANT]
 > macOS users need at least macOS 15.4 to run shadPS4. Due to GPU issues there are currently heavy bugs on Intel Macs.
+
+# Usage examples
+
+> [!IMPORTANT]
+> For a user-friendly GUI, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases).
+
+To get the list of all available commands and also a more detailed description of what each command does, please refer to the `--help` flag's output.
+
+Below is a list of commonly used command patterns:
+```sh
+shadPS4 CUSA00001 # Searches for a game folder called CUSA00001 in the list of game install folders, and boots it.
+shadPS4 --fullscreen true --config-clean CUSA00001    # the game argument is always the last one,
+shadPS4 -g CUSA00001 --fullscreen true --config-clean # ...unless manually specified otherwise.
+shadPS4 /path/to/game.elf # Boots a PS4 ELF file directly. Useful if you want to boot an executable that is not named eboot.bin.
+shadPS4 CUSA00001 -- -flag1 -flag2 # Passes '-flag1' and '-flag2' to the game executable in argv.
+```
 
 # Debugging and reporting issues
 
@@ -134,7 +155,7 @@ Keyboard and mouse inputs can be customized in the settings menu by clicking the
 
 # Firmware files
 
-shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console.
+shadPS4 can load some PlayStation 4 firmware files.
 The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
 
 <div align="center">
@@ -142,13 +163,13 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | Modules                 | Modules                 | Modules                 | Modules                 |  
 |-------------------------|-------------------------|-------------------------|-------------------------|  
 | libSceCesCs.sprx        | libSceFont.sprx         | libSceFontFt.sprx       | libSceFreeTypeOt.sprx   |
-| libSceJson.sprx         | libSceJson2.sprx        | libSceLibcInternal.sprx | libSceNgs2.sprx         |  
-| libSceRtc.sprx          | libSceUlt.sprx          |                         |                         |
-
+| libSceJpegDec.sprx      | libSceJpegEnc.sprx      | libSceJson.sprx         | libSceJson2.sprx        |  
+| libSceLibcInternal.sprx | libSceNgs2.sprx         | libScePngEnc.sprx       | libSceRtc.sprx          |
+| libSceUlt.sprx          | libSceAudiodec.sprx     |                         |                         |
 </div>
 
 > [!Caution]
-> The above modules are required to run the games properly and must be extracted from your PlayStation 4.
+> The above modules are required to run the games properly and must be dumped from your legally owned PlayStation 4 console.
 
 
 
@@ -169,15 +190,6 @@ Logo is done by [**Xphalnos**](https://github.com/Xphalnos)
 
 If you want to contribute, please read the [**CONTRIBUTING.md**](https://github.com/shadps4-emu/shadPS4/blob/main/CONTRIBUTING.md) file.\
 Open a PR and we'll check it :)
-
-# Translations
-
-If you want to translate shadPS4 to your language we use [**Crowdin**](https://crowdin.com/project/shadps4-emulator).
-# Contributors
-
-<a href="https://github.com/shadps4-emu/shadPS4/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=shadps4-emu/shadPS4&max=24">
-</a>
 
 
 # Special Thanks

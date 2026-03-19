@@ -1,9 +1,9 @@
 ---
 title: claude-hud
-date: 2026-03-18T13:25:10+08:00
+date: 2026-03-19T13:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772723822792-a97f03d4bffc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772723822792-a97f03d4bffc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773083405877-de30a150a39b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4OTc2OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773083405877-de30a150a39b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4OTc2OTJ8&ixlib=rb-4.1.0
 ---
 
 # [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud)
