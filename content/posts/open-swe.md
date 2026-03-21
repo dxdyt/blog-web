@@ -1,9 +1,9 @@
 ---
 title: open-swe
-date: 2026-03-20T13:14:50+08:00
+date: 2026-03-21T13:05:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770131091442-e672bd558370?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770131091442-e672bd558370?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
 ---
 
 # [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe)

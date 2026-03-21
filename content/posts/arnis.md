@@ -1,9 +1,9 @@
 ---
 title: arnis
-date: 2026-03-20T13:15:40+08:00
+date: 2026-03-21T13:05:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771850081383-444b1f1b3470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771850081383-444b1f1b3470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
 ---
 
 # [louis-e/arnis](https://github.com/louis-e/arnis)
