@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2026-01-31T13:01:26+08:00
+date: 2026-03-22T13:19:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768254580151-0ce666a0cb7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768254580151-0ce666a0cb7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk4MzU2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774084527313-39b4f1e8c844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774084527313-39b4f1e8c844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
@@ -46,7 +46,7 @@ release commits.
 ### Bazel with Bzlmod
 
 Protobuf supports
-[Bzlmod](https://bazel.build/external/module) with Bazel 7 +.
+[Bzlmod](https://bazel.build/external/module) with Bazel 8 +.
 Users should specify a dependency on protobuf in their MODULE.bazel file as
 follows.
 

@@ -1,9 +1,9 @@
 ---
 title: opendataloader-pdf
-date: 2026-03-21T13:05:50+08:00
+date: 2026-03-22T13:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772887438776-28a6f8b2e29d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772887438776-28a6f8b2e29d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
 ---
 
 # [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)

@@ -1,9 +1,9 @@
 ---
 title: trivy
-date: 2026-03-06T13:09:32+08:00
+date: 2026-03-22T13:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771511244250-18a322ec7693?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771511244250-18a322ec7693?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI3NzM3Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1731533622011-155f51dfe8bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1731533622011-155f51dfe8bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
 ---
 
 # [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
