@@ -1,9 +1,9 @@
 ---
 title: TradingAgents
-date: 2026-03-21T13:06:17+08:00
+date: 2026-03-23T13:38:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771876002358-e870981466d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771876002358-e870981466d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773982055669-b537fd6d010c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773982055669-b537fd6d010c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
 ---
 
 # [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
@@ -38,7 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771876002358-e870981466
 # TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ## News
-- [2026-03] **TradingAgents v0.2.1** released with GPT-5.4, Gemini 3.1, Claude 4.6 model coverage and improved system stability.
+- [2026-03] **TradingAgents v0.2.2** released with GPT-5.4/Gemini 3.1/Claude 4.6 model coverage, five-tier rating scale, OpenAI Responses API, Anthropic effort control, and cross-platform stability.
 - [2026-02] **TradingAgents v0.2.0** released with multi-provider LLM support (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x) and improved system architecture.
 - [2026-01] **Trading-R1** [Technical Report](https://arxiv.org/abs/2509.11420) released, with [Terminal](https://github.com/TauricResearch/Trading-R1) expected to land soon.
 
@@ -122,9 +122,9 @@ conda create -n tradingagents python=3.13
 conda activate tradingagents
 ```
 
-Install dependencies:
+Install the package and its dependencies:
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
 ### Required APIs
@@ -149,11 +149,12 @@ cp .env.example .env
 
 ### CLI Usage
 
-You can also try out the CLI directly by running:
+Launch the interactive CLI:
 ```bash
-python -m cli.main
+tradingagents          # installed command
+python -m cli.main     # alternative: run directly from source
 ```
-You will see a screen where you can select your desired tickers, date, LLMs, research depth, etc.
+You will see a screen where you can select your desired tickers, analysis date, LLM provider, research depth, and more.
 
 <p align="center">
   <img src="assets/cli/cli_init.png" width="100%" style="display: inline-block; margin: 0 2%;">

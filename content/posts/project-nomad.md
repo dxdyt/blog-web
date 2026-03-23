@@ -1,9 +1,9 @@
 ---
 title: project-nomad
-date: 2026-03-22T13:18:43+08:00
+date: 2026-03-23T13:39:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773686044509-adb532478af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773686044509-adb532478af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQxNTY2OTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773062177647-76cf543b1795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773062177647-76cf543b1795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
 ---
 
 # [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
