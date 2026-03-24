@@ -1,9 +1,9 @@
 ---
 title: everything-claude-code
-date: 2026-03-23T13:39:09+08:00
+date: 2026-03-24T13:23:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773556663208-a03e86597258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773556663208-a03e86597258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769788873200-58f77bd8bcdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769788873200-58f77bd8bcdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
 ---
 
 # [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)

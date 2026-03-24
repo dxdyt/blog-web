@@ -1,9 +1,9 @@
 ---
 title: TradingAgents-CN
-date: 2026-03-23T13:39:44+08:00
+date: 2026-03-24T13:23:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772339014113-29414e7295b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772339014113-29414e7295b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
 ---
 
 # [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)

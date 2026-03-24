@@ -1,18 +1,16 @@
 ---
 title: MoneyPrinterV2
-date: 2026-03-23T13:38:45+08:00
+date: 2026-03-24T13:22:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770983438675-b188d9276ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770983438675-b188d9276ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772381617906-507db21eba68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772381617906-507db21eba68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 
 # MoneyPrinter V2
-
-> **Have an idea?** Let’s build it — [reach out](https://forms.gle/bFGvhbYpDJZeoVDRA)
-> 
-> ♥︎ **Sponsor**: The Best AI Chat App: [shiori.ai](https://www.shiori.ai)
+ 
+> ♥︎ **Sponsor**: The Best AI Chat App: [shiori.ai](https://www.shiori.ai). Use code **MPV2** for 20% off.
 
 ---
 

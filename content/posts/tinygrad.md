@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2025-05-21T12:24:17+08:00
+date: 2026-03-24T13:22:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745236781096-be405b87d05c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745236781096-be405b87d05c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771964427867-1b734fc7f5a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771964427867-1b734fc7f5a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
 ---
 
 # [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad)
@@ -31,17 +31,38 @@ tinygrad: For something between [PyTorch](https://github.com/pytorch/pytorch) an
 
 ---
 
-This may not be the best deep learning framework, but it is a deep learning framework.
+tinygrad is an end-to-end deep learning stack:
 
-Due to its extreme simplicity, it aims to be the easiest framework to add new accelerators to, with support for both inference and training. If XLA is CISC, tinygrad is RISC.
+- **Tensor library** with autograd
+- **IR and compiler** that fuse and lower kernels
+- **JIT + graph execution**
+- **nn / optim / datasets** for real training
 
-tinygrad is still alpha software, but we [raised some money](https://geohot.github.io/blog/jekyll/update/2023/05/24/the-tiny-corp-raised-5M.html) to make it good. Someday, we will tape out chips.
+It’s inspired by PyTorch (ergonomics), JAX (functional transforms and IR-based AD), and TVM (scheduling and codegen), but stays intentionally tiny and hackable.
 
-## Features
+---
 
-### LLaMA and Stable Diffusion
+## How tinygrad compares
 
-tinygrad can run [LLaMA](/docs/showcase.md#llama) and [Stable Diffusion](/docs/showcase.md#stable-diffusion)!
+**PyTorch**
+
+- ✅ Similar: eager `Tensor` API, autograd, `optim`, basic datasets and layers.
+- ✅ You can write familiar training loops.
+- 🔁 Unlike PyTorch, the entire compiler and IR are visible and hackable.
+
+**JAX**
+
+- ✅ IR-based autodiff over primitives (like JAXPR + XLA).
+- ✅ Function-level JIT (`TinyJit`) that captures and replays kernels.
+- 🔁 Fewer functional transforms (no full `vmap`/`pmap` yet), but far easier to read.
+
+**TVM**
+
+- ✅ Multiple lowering passes, scheduling, and BEAM search over kernels.
+- ✅ Device “graphs” for batched execution.
+- 🔁 tinygrad also ships the **front-end framework** (tensors, nn, optim), not just the compiler.
+
+---
 
 ### Laziness
 
@@ -49,9 +70,8 @@ Try a matmul. See how, despite the style, it is fused into one kernel with the p
 
 ```sh
 DEBUG=3 python3 -c "from tinygrad import Tensor;
-N = 1024; a, b = Tensor.rand(N, N), Tensor.rand(N, N);
-c = (a.reshape(N, 1, N) * b.T.reshape(1, N, N)).sum(axis=2);
-print((c.numpy() - (a.numpy() @ b.numpy())).mean())"
+N = 1024; a, b = Tensor.empty(N, N), Tensor.empty(N, N);
+(a.reshape(N, 1, N) * b.T.reshape(1, N, N)).sum(axis=2).realize()"
 ```
 
 And we can change `DEBUG` to `4` to see the generated code.
@@ -90,9 +110,8 @@ See [examples/beautiful_mnist.py](examples/beautiful_mnist.py) for the full vers
 
 tinygrad already supports numerous accelerators, including:
 
-- [x] [GPU (OpenCL)](tinygrad/runtime/ops_gpu.py)
-- [x] [CPU (C Code)](tinygrad/runtime/ops_cpu.py)
-- [x] [LLVM](tinygrad/runtime/ops_llvm.py)
+- [x] [OpenCL](tinygrad/runtime/ops_cl.py)
+- [x] [CPU](tinygrad/runtime/ops_cpu.py)
 - [x] [METAL](tinygrad/runtime/ops_metal.py)
 - [x] [CUDA](tinygrad/runtime/ops_cuda.py)
 - [x] [AMD](tinygrad/runtime/ops_amd.py)
@@ -183,7 +202,7 @@ For more examples on how to run the full test suite please refer to the [CI work
 Some examples of running tests locally:
 ```sh
 python3 -m pip install -e '.[testing]'  # install extra deps for testing
-python3 test/test_ops.py                # just the ops tests
+python3 test/backend/test_ops.py        # just the ops tests
 python3 -m pytest test/                 # whole test suite
 ```
 

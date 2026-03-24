@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2026-03-23T13:39:30+08:00
+date: 2026-03-24T13:22:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772339014113-29414e7295b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772339014113-29414e7295b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
@@ -99,6 +99,32 @@ if __name__ == "__main__":
 ```
 
 Check out the [library docs](https://docs.browser-use.com/open-source/introduction) and the [cloud docs](https://docs.cloud.browser-use.com) for more!
+
+<br/>
+
+# Open Source vs Cloud
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="static/accuracy_by_model_light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="static/accuracy_by_model_dark.png">
+  <img alt="BU Bench V1 - LLM Success Rates" src="static/accuracy_by_model_light.png" width="100%">
+</picture>
+
+We benchmark Browser Use across 100 real-world browser tasks. Full benchmark is open source: **[browser-use/benchmark](https://github.com/browser-use/benchmark)**.
+
+**Use Open Source**
+- You need [custom tools](https://docs.browser-use.com/customize/tools/basics) or deep code-level integration
+- You want to self-host and deploy browser agents on your own machines
+
+**Use [Cloud](https://cloud.browser-use.com) (recommended)**
+- Much better agent for complex tasks (see plot above)
+- Easiest way to start and scale
+- Best stealth with proxy rotation and captcha solving
+- 1000+ integrations (Gmail, Slack, Notion, and more)
+- Persistent filesystem and memory
+
+**Use Both**
+- Use the open-source library with your [custom tools](https://docs.browser-use.com/customize/tools/basics) while running our [cloud browsers](https://docs.browser-use.com/open-source/customize/browser/remote) and [ChatBrowserUse model](https://docs.browser-use.com/open-source/supported-models)
 
 <br/>
 
