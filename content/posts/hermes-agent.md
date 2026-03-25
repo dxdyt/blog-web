@@ -1,9 +1,9 @@
 ---
 title: hermes-agent
-date: 2026-03-24T13:23:15+08:00
+date: 2026-03-25T13:23:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771925183858-88607574e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772490184343-38f6b4b260c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772490184343-38f6b4b260c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
 ---
 
 # [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
@@ -154,16 +154,14 @@ Quick start for contributors:
 ```bash
 git clone https://github.com/NousResearch/hermes-agent.git
 cd hermes-agent
-git submodule update --init mini-swe-agent   # required terminal backend
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv venv --python 3.11
 source venv/bin/activate
 uv pip install -e ".[all,dev]"
-uv pip install -e "./mini-swe-agent"
 python -m pytest tests/ -q
 ```
 
-> **RL Training (optional):** To work on the RL/Tinker-Atropos integration, also run:
+> **RL Training (optional):** To work on the RL/Tinker-Atropos integration:
 > ```bash
 > git submodule update --init tinker-atropos
 > uv pip install -e "./tinker-atropos"
