@@ -1,9 +1,9 @@
 ---
 title: deer-flow
-date: 2026-03-25T13:22:46+08:00
+date: 2026-03-26T13:40:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773539649767-98dc585833fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773539649767-98dc585833fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774084930632-fe6b5d7f785f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774084930632-fe6b5d7f785f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/deer-flow](https://github.com/bytedance/deer-flow)

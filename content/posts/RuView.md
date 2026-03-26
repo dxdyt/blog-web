@@ -1,9 +1,9 @@
 ---
 title: RuView
-date: 2026-03-25T13:24:15+08:00
+date: 2026-03-26T13:41:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770983437961-e8e78e1ce8e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770983437961-e8e78e1ce8e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773754371144-9dcb02249c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773754371144-9dcb02249c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/RuView](https://github.com/ruvnet/RuView)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1770983437961-e8e78e1ce8
 
 Instead of relying on cameras or cloud models, it observes whatever signals exist in a space such as WiFi, radio waves across the spectrum, motion patterns, vibration, sound, or other sensory inputs and builds an understanding of what is happening locally.
 
-Built on top of [RuVector](https://github.com/ruvnet/ruvector/), the project became widely known for its implementation of WiFi DensePose — a sensing technique first explored in academic research such as Carnegie Mellon University's *DensePose From WiFi* work. That research demonstrated that WiFi signals can be used to reconstruct human pose.
+Built on top of [RuVector](https://github.com/ruvnet/ruvector/) Self Learning Vector Memory system and [Cognitum.One](https://Cognitum.One) , the project became widely known for its implementation of WiFi DensePose — a sensing technique first explored in academic research such as Carnegie Mellon University's *DensePose From WiFi* work. That research demonstrated that WiFi signals can be used to reconstruct human pose.
 
 RuView extends that concept into a practical edge system. By analyzing Channel State Information (CSI) disturbances caused by human movement, RuView reconstructs body position, breathing rate, heart rate, and presence in real time using physics-based signal processing and machine learning.
 
