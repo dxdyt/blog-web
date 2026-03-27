@@ -1,9 +1,9 @@
 ---
 title: agentscope
-date: 2026-03-05T13:12:33+08:00
+date: 2026-03-27T13:42:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770045518075-2ffa2c27ddfd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI2ODc0Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773008891997-24b7bcfb6f14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773008891997-24b7bcfb6f14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
 ---
 
 # [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)
@@ -62,7 +62,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1770045518075-2ffa2c27dd
 </p>
 
 <p align="center">
-<img src="https://trendshift.io/api/badge/repositories/10079" alt="modelscope%2Fagentscope | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+<img src="https://trendshift.io/api/badge/repositories/20310" alt="agentscope-ai%2Fagentscope | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </p>
 
 ## What is AgentScope?
@@ -81,7 +81,7 @@ rather than constraining them with strict prompts and opinionated orchestrations
 
 
 <p align="center">
-<img src="./assets/images/agentscope_20260120.png" width="90%" />
+<img src="./assets/images/agentscope.png" width="90%" />
 <br/>
 The AgentScope Ecosystem
 </p>
@@ -96,7 +96,7 @@ The AgentScope Ecosystem
 - **[2025-12] `FEAT`:** TTS (Text-to-Speech) support. [Example](https://github.com/agentscope-ai/agentscope/tree/main/examples/functionality/tts) | [Tutorial](https://doc.agentscope.io/tutorial/task_tts.html)
 - **[2025-11] `INTG`:** Anthropic Agent Skill support. [Example](https://github.com/agentscope-ai/agentscope/tree/main/examples/functionality/agent_skill) | [Tutorial](https://doc.agentscope.io/tutorial/task_agent_skill.html)
 - **[2025-11] `RELS`:** Alias-Agent for diverse real-world tasks and Data-Juicer Agent for data processing open-sourced. [Alias-Agent](https://github.com/agentscope-ai/agentscope-samples/tree/main/alias) | [Data-Juicer Agent](https://github.com/agentscope-ai/agentscope-samples/tree/main/data_juicer_agent)
-- **[2025-11] `INTG`:** Agentic RL via Trinity-RFT library. [Example](https://github.com/agentscope-ai/agentscope/tree/main/examples/tuner/react_agent) | [Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT)
+- **[2025-11] `INTG`:** Agentic RL via Trinity-RFT library. [Example](https://github.com/agentscope-ai/agentscope/tree/main/examples/tuner/model_tuning) | [Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT)
 - **[2025-11] `INTG`:** ReMe for enhanced long-term memory. [Example](https://github.com/agentscope-ai/agentscope/tree/main/examples/functionality/long_term_memory/reme)
 - **[2025-11] `RELS`:** agentscope-samples repository launched and agentscope-runtime upgraded with Docker/K8s deployment and VNC-powered GUI sandboxes. [Samples](https://github.com/agentscope-ai/agentscope-samples) | [Runtime](https://github.com/agentscope-ai/agentscope-runtime)
 <!-- END NEWS -->
@@ -371,7 +371,7 @@ asyncio.run(multi_agent_conversation())
 
 ### Tuner
 
-- [Tune ReAct Agent](https://github.com/agentscope-ai/agentscope/tree/main/examples/tuner/react_agent)
+- [Tune ReAct Agent](https://github.com/agentscope-ai/agentscope/tree/main/examples/tuner/model_tuning)
 
 
 ## Contributing

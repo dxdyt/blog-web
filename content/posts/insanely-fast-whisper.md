@@ -1,9 +1,9 @@
 ---
 title: insanely-fast-whisper
-date: 2023-12-03T12:18:20+08:00
+date: 2026-03-27T13:42:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1631159614310-19296c53489b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1631159614310-19296c53489b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
 ---
 
 # [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
@@ -13,6 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1700399366735-b23820fb18
 An opinionated CLI to transcribe Audio files w/ Whisper on-device! Powered by 🤗 *Transformers*, *Optimum* & *flash-attn*
 
 **TL;DR** - Transcribe **150** minutes (2.5 hours) of audio in less than **98** seconds - with [OpenAI's Whisper Large v3](https://huggingface.co/openai/whisper-large-v3). Blazingly fast transcription is now a reality!⚡️
+
+```
+pipx install insanely-fast-whisper==0.0.15 --force
+```
 
 <p align="center">
 <img src="https://huggingface.co/datasets/reach-vb/random-images/resolve/main/insanely-fast-whisper-img.png" width="615" height="308">
@@ -43,7 +47,14 @@ Install `insanely-fast-whisper` with `pipx` (`pip install pipx` or `brew install
 ```bash
 pipx install insanely-fast-whisper
 ```
-*Note: Due to a dependency on [`onnxruntime`, Python 3.12 is currently not supported](https://github.com/microsoft/onnxruntime/issues/17842). You can force a Python version (e.g. 3.11) by adding `--python python3.11` to the command.*
+
+⚠️ If you have python 3.11.XX installed, `pipx` may parse the version incorrectly and install a very old version of `insanely-fast-whisper` without telling you (version `0.0.8`, which won't work anymore with the current `BetterTransformers`). In that case, you can install the latest version by passing `--ignore-requires-python` to `pip`:
+
+```bash
+pipx install insanely-fast-whisper --force --pip-args="--ignore-requires-python"
+```
+
+If you're installing with `pip`, you can pass the argument directly: `pip install insanely-fast-whisper --ignore-requires-python`.
 
 
 Run inference from any path on your computer:
@@ -51,6 +62,7 @@ Run inference from any path on your computer:
 ```bash
 insanely-fast-whisper --file-name <filename or URL>
 ```
+*Note: if you are running on macOS, you also need to add `--device-id mps` flag.*
 
 🔥 You can run [Whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) w/ [Flash Attention 2](https://github.com/Dao-AILab/flash-attention) from this CLI too:
 
@@ -97,8 +109,16 @@ The `insanely-fast-whisper` repo provides an all round support for running Whisp
                         Use Flash Attention 2. Read the FAQs to see how to install FA2 correctly. (default: False)
   --timestamp {chunk,word}
                         Whisper supports both chunked as well as word level timestamps. (default: chunk)
-  --hf_token
+  --hf-token HF_TOKEN
                         Provide a hf.co/settings/token for Pyannote.audio to diarise the audio clips
+  --diarization_model DIARIZATION_MODEL
+                        Name of the pretrained model/ checkpoint to perform diarization. (default: pyannote/speaker-diarization)
+  --num-speakers NUM_SPEAKERS
+                        Specifies the exact number of speakers present in the audio file. Useful when the exact number of participants in the conversation is known. Must be at least 1. Cannot be used together with --min-speakers or --max-speakers. (default: None)
+  --min-speakers MIN_SPEAKERS
+                        Sets the minimum number of speakers that the system should consider during diarization. Must be at least 1. Cannot be used together with --num-speakers. Must be less than or equal to --max-speakers if both are specified. (default: None)
+  --max-speakers MAX_SPEAKERS
+                        Defines the maximum number of speakers that the system should consider in diarization. Must be at least 1. Cannot be used together with --num-speakers. Must be greater than or equal to --min-speakers if both are specified. (default: None)
 ```
 
 ## Frequently Asked Questions
@@ -113,7 +133,7 @@ The root cause of this problem is still unknown, however, you can resolve this b
 
 **How to avoid Out-Of-Memory (OOM) exceptions on Mac?**
 
-The *mps* backend isn't as optimised as CUDA, hence is way more memory hungry. Typically you can run with `--batch-size 4` without any issues (should use roughly 12GB GPU VRAM). Don't forget to set `--device mps`.
+The *mps* backend isn't as optimised as CUDA, hence is way more memory hungry. Typically you can run with `--batch-size 4` without any issues (should use roughly 12GB GPU VRAM). Don't forget to set `--device-id mps`.
 
 ## How to use Whisper without a CLI?
 
@@ -121,27 +141,28 @@ The *mps* backend isn't as optimised as CUDA, hence is way more memory hungry. T
 <summary>All you need to run is the below snippet:</summary>
 
 ```
-pip install transformers optimum accelerate
+pip install --upgrade transformers optimum accelerate
 ```
 
 ```python
 import torch
 from transformers import pipeline
+from transformers.utils import is_flash_attn_2_available
 
 pipe = pipeline(
     "automatic-speech-recognition",
-    model=args.model_name,
+    model="openai/whisper-large-v3", # select checkpoint from https://huggingface.co/openai/whisper-large-v3#model-details
     torch_dtype=torch.float16,
-    device="cuda", # or mps for Mac devices
-    model_kwargs={"use_flash_attention_2": True}, # set to False for old GPUs
+    device="cuda:0", # or mps for Mac devices
+    model_kwargs={"attn_implementation": "flash_attention_2"} if is_flash_attn_2_available() else {"attn_implementation": "sdpa"},
 )
 
-pipe.model = pipe.model.to_bettertransformer() # only if `use_flash_attention_2` is set to False
-
-outputs = pipe("<FILE_NAME>",
-               chunk_length_s=30,
-               batch_size=24,
-               return_timestamps=True)
+outputs = pipe(
+    "<FILE_NAME>",
+    chunk_length_s=30,
+    batch_size=24,
+    return_timestamps=True,
+)
 
 outputs
 ```
