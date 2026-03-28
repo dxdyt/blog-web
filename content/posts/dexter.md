@@ -1,9 +1,9 @@
 ---
 title: dexter
-date: 2026-03-27T13:41:39+08:00
+date: 2026-03-28T13:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773008891997-24b7bcfb6f14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773008891997-24b7bcfb6f14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1OTAwNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774028156721-706b219614b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774028156721-706b219614b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
 ---
 
 # [virattt/dexter](https://github.com/virattt/dexter)

@@ -1,9 +1,9 @@
 ---
 title: superpowers
-date: 2026-03-21T13:05:45+08:00
+date: 2026-03-28T13:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771682390082-eb3f9821efd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
 ---
 
 # [obra/superpowers](https://github.com/obra/superpowers)

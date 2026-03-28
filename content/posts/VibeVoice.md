@@ -1,9 +1,9 @@
 ---
 title: VibeVoice
-date: 2026-01-26T12:55:34+08:00
+date: 2026-03-28T13:20:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0MDMyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773670867823-8742554140d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773670867823-8742554140d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd
 [![Project Page](https://img.shields.io/badge/Project-Page-blue?logo=githubpages)](https://microsoft.github.io/VibeVoice)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
 [![TTS Report](https://img.shields.io/badge/TTS-Report-red?logo=arxiv)](https://arxiv.org/pdf/2508.19205)
-[![ASR Report](https://img.shields.io/badge/ASR-Report-yellow?logo=arxiv)](docs/VibeVoice-ASR-Report.pdf)
+[![ASR Report](https://img.shields.io/badge/ASR-Report-yellow?logo=arxiv)](https://arxiv.org/pdf/2601.18184)
 [![Colab](https://img.shields.io/badge/StreamingTTS-Colab-green?logo=googlecolab)](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb)
 [![ASR Playground](https://img.shields.io/badge/ASR-Playground-6F42C1?logo=gradio)](https://aka.ms/vibevoice-asr)
 
@@ -32,11 +32,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1766394609400-0e7b1548cd
 
 <h3>📰 News</h3>
 
-<strong>2026-01-21: 📣 We open-sourced <a href="docs/vibevoice-asr.md"><strong>VibeVoice-ASR</strong></a>, a unified speech-to-text model designed to handle 60-minute long-form audio in a single pass, generating structured transcriptions containing Who (Speaker), When (Timestamps), and What (Content), with support for User-Customized Context. Try it in [Playground](https://aka.ms/vibevoice-asr)</strong>. 
+<strong>2026-03-06: 🚀 VibeVoice ASR is now part of a <a href="https://github.com/huggingface/transformers/releases/tag/v5.3.0">Transformers release</a>! You can now use our speech recognition model directly through the Hugging Face Transformers library for seamless integration into your projects.</strong>
+
+<strong>2026-01-21: 📣 We open-sourced <a href="docs/vibevoice-asr.md"><strong>VibeVoice-ASR</strong></a>, a unified speech-to-text model designed to handle 60-minute long-form audio in a single pass, generating structured transcriptions containing Who (Speaker), When (Timestamps), and What (Content), with support for User-Customized Context. Try it in [Playground](https://aka.ms/vibevoice-asr)</strong>.
 - ⭐️ VibeVoice-ASR is natively multilingual, supporting over 50 languages — check the [supported languages](docs/vibevoice-asr.md#language-distribution) for details.
 - 🔥 The VibeVoice-ASR [finetuning code](finetuning-asr/README.md) is now available!
 - ⚡️ **vLLM inference** is now supported for faster inference; see [vllm-asr](docs/vibevoice-vllm-asr.md) for more details.
-- 📑 [VibeVoice-ASR Technique Report](docs/VibeVoice-ASR-Report.pdf) is available.
+- 📑 [VibeVoice-ASR Technique Report](https://arxiv.org/pdf/2601.18184) is available.
 
 2025-12-16: 📣 We added experimental speakers to <a href="docs/vibevoice-realtime-0.5b.md"><strong>VibeVoice‑Realtime‑0.5B</strong></a> for exploration, including multilingual voices in nine languages (DE, FR, IT, JP, KR, NL, PL, PT, ES) and 11 distinct English style voices. [Try it](docs/vibevoice-realtime-0.5b.md#optional-more-experimental-voices). More speaker types will be added over time.
 
@@ -85,7 +87,7 @@ For more information, demos, and examples, please visit our [Project Page](https
 - **📝 Rich Transcription (Who, When, What)**:
   The model jointly performs ASR, diarization, and timestamping, producing a structured output that indicates *who* said *what* and *when*.
 
-[📖 Documentation](docs/vibevoice-asr.md) | [🤗 Hugging Face](https://huggingface.co/microsoft/VibeVoice-ASR) | [🎮 Playground](https://aka.ms/vibevoice-asr) | [🛠️ Finetuning](finetuning-asr/README.md)
+[📖 Documentation](docs/vibevoice-asr.md) | [🤗 Hugging Face](https://huggingface.co/microsoft/VibeVoice-ASR) | [🎮 Playground](https://aka.ms/vibevoice-asr) | [🛠️ Finetuning](finetuning-asr/README.md) |  [📊 Paper](docs/VibeVoice-ASR-Report.pdf)
 
 
 <p align="center">
@@ -189,6 +191,12 @@ https://github.com/user-attachments/assets/0901d274-f6ae-46ef-a0fd-3c4fba4f76dc
 </div>
 
 <br>
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
+
 
 ## ⚠️ Risks and Limitations
 
