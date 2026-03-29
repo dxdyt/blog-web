@@ -1,9 +1,9 @@
 ---
 title: twenty
-date: 2026-03-28T13:20:45+08:00
+date: 2026-03-29T13:42:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289935218-78954128824a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289935218-78954128824a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
 ---
 
 # [twentyhq/twenty](https://github.com/twentyhq/twenty)

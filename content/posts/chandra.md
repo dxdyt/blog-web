@@ -1,9 +1,9 @@
 ---
 title: chandra
-date: 2026-03-28T13:20:51+08:00
+date: 2026-03-29T13:43:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772588627488-cd80adbe891d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773937464832-f43fde4fa71e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773937464832-f43fde4fa71e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
 ---
 
 # [datalab-to/chandra](https://github.com/datalab-to/chandra)

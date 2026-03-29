@@ -1,9 +1,9 @@
 ---
 title: AI-Scientist-v2
-date: 2026-03-28T13:20:31+08:00
+date: 2026-03-29T13:42:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770988966858-da0a4bde2f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770988966858-da0a4bde2f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772971837855-4f64761b3de1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772971837855-4f64761b3de1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
 ---
 
 # [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)
