@@ -1,9 +1,9 @@
 ---
 title: learn-claude-code
-date: 2026-03-20T13:16:06+08:00
+date: 2026-03-30T13:58:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764549906172-0153db0825bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764549906172-0153db0825bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
 ---
 
 # [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
@@ -373,7 +373,7 @@ learn-claude-code                   claw0
 ## About
 <img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
 
-Scan with Wechat to follow us,
+Scan with WeChat to follow us,
 or follow on X: [shareAI-Lab](https://x.com/baicai003)
 
 ## License

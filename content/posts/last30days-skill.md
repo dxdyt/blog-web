@@ -1,9 +1,9 @@
 ---
 title: last30days-skill
-date: 2026-03-28T13:20:14+08:00
+date: 2026-03-30T13:58:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772737465607-adcaab218fd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772737465607-adcaab218fd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ2NzUyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770954179855-0871734fb34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770954179855-0871734fb34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
 ---
 
 # [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
@@ -22,12 +22,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1772737465607-adcaab218f
 clawhub install last30days-official
 ```
 
-**The AI world reinvents itself every month. This skill keeps you current.** /last30days researches your topic across Reddit, X, Bluesky, YouTube, TikTok, Instagram, Hacker News, Polymarket, and the web from the last 30 days, finds what the community is actually upvoting, sharing, betting on, and saying on camera, and writes you a grounded narrative with real citations. Whether it's Seedance 2.0 access, paper.design prompts, or the latest Nano Banana Pro techniques, you'll know what people who are paying attention already know.
+**The AI world reinvents itself every month. This skill keeps you current.** /last30days researches your topic across Reddit, X, YouTube, and other sources from the last 30 days, finds what the community is actually upvoting, sharing, betting on, and saying on camera, and writes you a grounded narrative with real citations. Whether it's Seedance 2.0 access, paper.design prompts, or the latest Nano Banana Pro techniques, you'll know what people who are paying attention already know.
 
 **New in v2.9.5 — Bluesky, Comparative Mode, and Config Improvements:**
 
 - **Bluesky/AT Protocol** is now a social source. Opt-in via `BSKY_HANDLE` + `BSKY_APP_PASSWORD` (create at bsky.app/settings/app-passwords). Full pipeline: search, score, dedupe, render.
-- **Comparative mode** - ask "X vs Y" (e.g., `/last30 cursor vs windsurf`) and get 3 parallel research passes with a side-by-side comparison: strengths, weaknesses, head-to-head table, and a data-driven verdict.
+- **Comparative mode** - ask "X vs Y" (e.g., `/last30 Claude Code vs Codex`) and get 3 parallel research passes with a side-by-side comparison: strengths, weaknesses, head-to-head table, and a data-driven verdict.
 - **Per-project .env config** - drop a `.claude/last30days.env` in your project root for per-project API keys.
 - **SessionStart config check** - validates your config automatically when a Claude Code session starts.
 - **Expanded test coverage** - 455+ tests across all modules.
@@ -73,44 +73,101 @@ gemini extensions install https://github.com/mvanhorn/last30days-skill.git
 
 ### Manual Install (Claude Code / Codex)
 ```bash
-# Clone the repo
 git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/skills/last30days
-
-# Add your API keys (optional if signed in to Codex)
-mkdir -p ~/.config/last30days
-cat > ~/.config/last30days/.env << 'EOF'
-SCRAPECREATORS_API_KEY=... # Reddit + TikTok + Instagram (one key, all three) - scrapecreators.com
-OPENAI_API_KEY=sk-...      # optional - legacy Reddit fallback if using `codex login`
-AUTH_TOKEN=...             # recommended for X search - copy once from x.com cookies
-CT0=...                    # recommended for X search - copy once from x.com cookies
-XAI_API_KEY=xai-...        # optional - X fallback if you do not want cookie-based auth
-BSKY_HANDLE=you.bsky.social       # optional - Bluesky search (create app password below)
-BSKY_APP_PASSWORD=xxxx-xxxx-xxxx  # optional - bsky.app/settings/app-passwords
-EOF
-chmod 600 ~/.config/last30days/.env
 ```
 
-If you're signed in to Codex (`codex login`), the skill will use your Codex credentials for the OpenAI Responses API and you can omit `OPENAI_API_KEY`. If you're not signed in, run `codex login` first.
+That's it. Reddit, Hacker News, and Polymarket work immediately with zero configuration. Run `/last30days` to unlock more sources.
+
+---
+
+## Setup: Progressive Source Unlocking
+
+Start using /last30days immediately. Add sources when you want better results.
+
+### 1. Zero Config (3 sources) — Just install
+
+Reddit (public JSON), Hacker News, and Polymarket work out of the box. No API keys, no configuration.
+
+### 2. Run the setup wizard (5+ sources)
+
+```
+/last30days setup
+```
+
+The setup wizard automatically extracts X/Twitter login cookies from your browsers (Chrome, Firefox, Safari) and checks for yt-dlp. Takes about 30 seconds. Your cookies stay in memory and are never saved to disk.
+
+### 3. Add Exa (FREE — semantic web search)
+
+Register at [exa.ai](https://exa.ai) for 1,000 free searches/month, no credit card required.
+
+```bash
+# Add to ~/.config/last30days/.env
+EXA_API_KEY=...
+```
+
+### 4. Add ScrapeCreators (RECOMMENDED — Reddit comments + TikTok + Instagram)
+
+**This is the single most impactful upgrade.** Reddit comments are often the highest-value research content — top-voted replies with real insights. ScrapeCreators unlocks comment enrichment plus TikTok and Instagram. Register at [scrapecreators.com](https://scrapecreators.com) for 100 free API calls (no credit card required). After that, pay-as-you-go. last30days receives no money from any API provider — no referrals, no kickbacks.
+
+```bash
+# Add to ~/.config/last30days/.env
+SCRAPECREATORS_API_KEY=...
+```
+
+### 5. Add Bluesky (FREE — app password)
+
+Create an app password at [bsky.app/settings/app-passwords](https://bsky.app/settings/app-passwords).
+
+```bash
+# Add to ~/.config/last30days/.env
+BSKY_HANDLE=you.bsky.social
+BSKY_APP_PASSWORD=xxxx-xxxx-xxxx
+```
+
+### 6. Optional paid web search backends
+
+```bash
+# Add to ~/.config/last30days/.env
+PARALLEL_API_KEY=...    # Parallel AI (preferred — LLM-optimized results)
+BRAVE_API_KEY=...       # Brave Search (free tier: 2,000 queries/month)
+OPENROUTER_API_KEY=...  # OpenRouter/Perplexity Sonar Pro
+```
+
+---
+
+### Do I need API keys?
+
+| Source | Free Method | API Key | Do you need the API key? |
+|--------|------------|---------|--------------------------|
+| Reddit | Public JSON (always works) | ScrapeCreators | **Yes, strongly recommended.** Unlocks top comments — often the most valuable content. |
+| X/Twitter | Browser cookies (auto-extracted) | xAI API key (`XAI_API_KEY`) | **No.** Cookies give identical quality. The setup wizard handles this. |
+| YouTube | yt-dlp (`brew install yt-dlp`) | N/A | **No API key exists.** Install yt-dlp for search; transcripts work without it. |
+| Hacker News | Always free | N/A | **No.** Always works, no config needed. |
+| Polymarket | Always free | N/A | **No.** Always works, no config needed. |
+| Web search | N/A | Exa (`EXA_API_KEY`) | **Optional.** 1,000 free searches/month at exa.ai. |
+| Bluesky | Free app password | N/A | **Optional.** Free app password at bsky.app. |
+| TikTok | N/A | ScrapeCreators | **Optional.** Included with ScrapeCreators key. |
+| Instagram | N/A | ScrapeCreators | **Optional.** Included with ScrapeCreators key. |
+| Truth Social | Browser cookies | N/A | **Optional.** Auto-extracted if logged in. |
+
+*last30days receives no money from any API provider — no referrals, no kickbacks.*
+
+---
+
+### Config file locations
 
 For project-specific overrides, create `.claude/last30days.env` in the repo root. It overrides the global `~/.config/last30days/.env`.
 
-### X Search Authentication
-
-X search prefers explicit env auth. This keeps local runs headless and avoids browser-cookie and macOS Keychain prompts.
-
-**Recommended setup:**
-1. While logged into x.com once, open browser dev tools and copy the `auth_token` and `ct0` cookies for `x.com`.
-2. Save them as `AUTH_TOKEN` and `CT0` in `~/.config/last30days/.env`, export them in your shell, or add them to `.claude/last30days.env` for a single project.
-3. Re-run `/last30days`.
-
-**xAI fallback:** If you do not want to provide `AUTH_TOKEN` and `CT0`, set `XAI_API_KEY` and the skill will use xAI's `x_search` backend instead.
-
-**Verify it's working:**
 ```bash
-node ~/.claude/skills/last30days/scripts/lib/vendor/bird-search/bird-search.mjs --whoami
+# Global config
+mkdir -p ~/.config/last30days
+chmod 600 ~/.config/last30days/.env
+
+# Project-specific config (optional)
+# .claude/last30days.env
 ```
 
-**Requirements:** Node.js 22+ (for the vendored Twitter GraphQL client).
+Check source availability: `python3 scripts/last30days.py --diagnose`
 
 ### Codex CLI
 
@@ -154,21 +211,6 @@ The open variant adds four modes on top of one-shot research:
 
 Both variants use the same Python engine and scripts directory. The open variant adds command routing (`watch`, `briefing`, `history`) and references mode-specific instruction files.
 
-**Optional web search API keys** (add to `~/.config/last30days/.env`):
-```bash
-PARALLEL_API_KEY=...    # Parallel AI (preferred  - LLM-optimized results)
-BRAVE_API_KEY=...       # Brave Search (free tier: 2,000 queries/month)
-OPENROUTER_API_KEY=...  # OpenRouter/Perplexity Sonar Pro
-```
-
-**Optional Bluesky credentials** (add to `~/.config/last30days/.env`):
-```bash
-BSKY_HANDLE=you.bsky.social       # Your Bluesky handle
-BSKY_APP_PASSWORD=xxxx-xxxx-xxxx  # Create at bsky.app/settings/app-passwords
-```
-
-Check source availability: `python3 scripts/last30days.py --diagnose`
-
 ## Usage
 
 ```
@@ -184,7 +226,7 @@ Examples:
 
 ## What It Does
 
-1. **Researches** - Scans Reddit, X, Bluesky, Truth Social, YouTube, TikTok, Instagram, Hacker News, Polymarket, and the web for discussions from the last 30 days
+1. **Researches** - Scans Reddit, X, YouTube, and other sources for discussions from the last 30 days
 2. **Synthesizes** - Identifies patterns, best practices, and what actually works
 3. **Delivers** - Either writes copy-paste-ready prompts for your target tool, or gives you a curated expert-level answer
 
@@ -938,13 +980,11 @@ This example shows /last30days discovering **emerging developer workflows** - re
 
 ## Requirements
 
-- **OpenAI auth** - For Reddit research (uses web search via Responses API). Use `OPENAI_API_KEY` or `codex login`.
+- **Python 3** - For the research engine
 - **Node.js 22+** - For X search (bundled Twitter GraphQL client)
-- **Bundled X auth** - Set `AUTH_TOKEN` and `CT0` for popup-free local X search
-- **Alternate X backend** - Set `XAI_API_KEY` if bundled X auth is not configured
-- **yt-dlp** (optional) - For YouTube search + transcript extraction. Install via `brew install yt-dlp` or `pip install yt-dlp`. When present, automatically searches YouTube and extracts video transcripts as an additional source.
+- **yt-dlp** (recommended) - For YouTube search. Install via `brew install yt-dlp` or `pip install yt-dlp`. Transcripts work without it.
 
-At least one auth path is required. Reddit needs OpenAI auth. X needs either `AUTH_TOKEN` plus `CT0` or `XAI_API_KEY`. YouTube search activates automatically when yt-dlp is in your PATH.
+No API keys are required to start. Reddit, Hacker News, and Polymarket work out of the box. Run `/last30days setup` to unlock X/Twitter via browser cookies and configure additional sources. See [Setup: Progressive Source Unlocking](#setup-progressive-source-unlocking) for the full progression.
 
 ## Troubleshooting
 
@@ -996,7 +1036,7 @@ If your OpenAI org doesn't have access to a model (e.g., unverified for gpt-4.1)
 
 ### ScrapeCreators Reddit as default
 
-Reddit now runs on [ScrapeCreators](https://scrapecreators.com) by default. One `SCRAPECREATORS_API_KEY` powers Reddit, TikTok, and Instagram — three sources, one key. No more `OPENAI_API_KEY` required for Reddit search.
+Reddit now runs on [ScrapeCreators](https://scrapecreators.com) by default. One `SCRAPECREATORS_API_KEY` powers Reddit, TikTok, and Instagram — three sources, one key. No more `OPENAI_API_KEY` required for Reddit search. 100 free API calls, no credit card required — just register at [scrapecreators.com](https://scrapecreators.com), then pay-as-you-go. last30days receives no money from any API provider — no referrals, no kickbacks.
 
 ```bash
 echo 'SCRAPECREATORS_API_KEY=your_key_here' >> ~/.config/last30days/.env
@@ -1049,7 +1089,7 @@ Search "AI tools" and you get:
 
 ### TikTok + Instagram on ScrapeCreators
 
-Both TikTok and Instagram are powered by [ScrapeCreators](https://scrapecreators.com) — one API key covers both sources. 100 free credits, then pay-as-you-go.
+Both TikTok and Instagram are powered by [ScrapeCreators](https://scrapecreators.com) — one API key covers both sources. Register at [scrapecreators.com](https://scrapecreators.com) for 100 free API calls (no credit card required). After that, pay-as-you-go. last30days receives no money from any API provider — no referrals, no kickbacks.
 
 ```bash
 echo 'SCRAPECREATORS_API_KEY=your_key_here' >> ~/.config/last30days/.env
