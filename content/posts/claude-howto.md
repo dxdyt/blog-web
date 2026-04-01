@@ -1,9 +1,9 @@
 ---
 title: claude-howto
-date: 2026-03-31T13:43:33+08:00
+date: 2026-04-01T13:54:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773098587137-1a62971cfedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ5MzU3OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773098587137-1a62971cfedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ5MzU3OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772453609632-2f4aa857f56e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772453609632-2f4aa857f56e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)
@@ -12,6 +12,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1773098587137-1a62971cfe
   <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
   <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
 </picture>
+
+<p align="center">
+  <a href="https://github.com/trending">
+    <img src="https://img.shields.io/badge/GitHub-🔥%20%231%20Trending-purple?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 [![GitHub Stars](https://img.shields.io/github/stars/luongnv89/claude-howto?style=flat&color=gold)](https://github.com/luongnv89/claude-howto/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/luongnv89/claude-howto?style=flat)](https://github.com/luongnv89/claude-howto/network/members)

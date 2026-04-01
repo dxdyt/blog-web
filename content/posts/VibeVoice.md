@@ -1,9 +1,9 @@
 ---
 title: VibeVoice
-date: 2026-03-31T13:43:24+08:00
+date: 2026-04-01T13:54:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723952776528-b5f783f91127?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ5MzU3OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1723952776528-b5f783f91127?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ5MzU3OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773420595405-354b5ea776a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773420595405-354b5ea776a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
@@ -34,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1723952776528-b5f783f911
 
 <h3>📰 News</h3>
 
-<strong>2026-03-29: 🎉 VibeVoice-ASR is being adopted by the open-source community! <a href="https://vibingjustspeakit.github.io/Vibing/">Vibing</a>, a voice-powered input method, is now built on top of VibeVoice-ASR. Download: [macOS](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-mac.dmg) | [Windows](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-windows.exe)</strong>
+<strong>🎉 VibeVoice-ASR is being adopted by the open-source community! <a href="https://vibingjustspeakit.github.io/Vibing/">Vibing</a>, a voice-powered input method, is now built on top of VibeVoice-ASR. Download: [macOS](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-mac.dmg) | [Windows](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-windows.exe)</strong>
 
 https://github.com/user-attachments/assets/db0bb23f-ae06-4135-a66a-1ff1669f4f84
 

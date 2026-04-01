@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2026-02-05T13:16:23+08:00
+date: 2026-04-01T13:55:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769167693699-ff3e3b91abb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769167693699-ff3e3b91abb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzAyNjg1NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
@@ -130,9 +130,29 @@ See our paper in [Multi-Agent Collaboration via Evolving Orchestration](https://
     cd frontend && npm install
     ```
 
+### 🔑 Configuration
+
+*   **Environment Variables**:
+    ```bash
+    cp .env.example .env
+    ```
+*   **Model Keys**: Set `API_KEY` and `BASE_URL` in `.env` for your LLM provider.
+*   **YAML placeholders**: Use `${VAR}`（e.g., `${API_KEY}`）in configuration files to reference these variables.
+
 ### ⚡️ Run the Application
 
-1.  **Start Backend** :
+#### Using Makefile (Recommended)
+
+**Start both Backend and Frontent**:
+```bash
+make dev
+```
+
+> Then access the Web Console at **[http://localhost:5173](http://localhost:5173)**.
+
+#### Manual Commands
+
+1.  **Start Backend**:
     ```bash
     # Run from the project root
     uv run python server_main.py --port 6400 --reload
@@ -153,12 +173,66 @@ See our paper in [Multi-Agent Collaboration via Evolving Orchestration](https://
     > * **Backend**: start with `--port 6401`
     > * **Frontend**: set `VITE_API_BASE_URL=http://localhost:6401`
 
+#### Utility Commands
 
-### 🔑 Configuration
+*   **Help command**:
+    ```bash
+    make help
+    ```
 
-*   **Environment Variables**: Create a `.env` file in the project root.
-*   **Model Keys**: Set `API_KEY` and `BASE_URL` in `.env` for your LLM provider.
-*   **YAML placeholders**: Use `${VAR}`（e.g., `${API_KEY}`）in configuration files to reference these variables.
+*   **Sync YAML workflows to frontend**:
+    ```bash
+    make sync
+    ```
+    Uploads all workflow files from `yaml_instance/` to the database.
+
+*   **Validate all YAML workflows**:
+    ```bash
+    make validate-yamls
+    ```
+    Checks all YAML files for syntax and schema errors.
+
+### 🦞 Run with OpenClaw
+OpenClaw can integrate with ChatDev by invoking existing agent teams or dynamically creating new agent teams within ChatDev.
+To get started:
+1. Start the ChatDev 2.0 backend.
+2. Install the required skills for your OpenClaw instance:
+    ```bash
+    clawdhub install chatdev
+    ```
+
+3. Ask your OpenClaw to create a ChatDev workflow. For example:
+
+* **Automated information collection and content publishing**
+
+  ```
+  Create a ChatDev workflow to automatically collect trending information, generate a Xiaohongshu post, and publish it.
+  ```
+
+* **Multi-agent geopolitical simulation**
+  ```
+  Create a ChatDev workflow with multiple agents to simulate possible future developments of the Middle East situation.
+  ```
+
+
+### 🐳 Run with Docker
+Alternatively, you can run the entire application using Docker Compose. This method simplifies dependency management and provides a consistent environment.
+
+1.  **Prerequisites**:
+    *   [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
+    *   Ensure you have a `.env` file in the project root for your API keys.
+
+2.  **Build and Run**:
+    ```bash
+    # From the project root
+    docker compose up --build
+    ```
+
+3.  **Access**:
+    *   **Backend**: `http://localhost:6400`
+    *   **Frontend**: `http://localhost:5173`
+
+> The services will automatically restart if they crash, and local file changes will be reflected inside the containers for live development.
 
 ---
 
@@ -194,6 +268,8 @@ result = run_workflow(
 if result.final_message:
     print(f"Output: {result.final_message.text_content()}")
 ```
+
+**We have released the ChatDev Python SDK (PyPI package `chatdev`)**, so you can also run YAML workflow and multi-agent tasks directly in Python. For installation and version details, see [PyPI: chatdev 0.1.0](https://pypi.org/project/chatdev/0.1.0/).
 
 ---
 
@@ -262,9 +338,20 @@ By contributing to DevAll, you'll be recognized in our **Contributors** list bel
 #### Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/shiowen"><img src="https://github.com/shiowen.png?size=100" width="64px;" alt=""/><br /><sub><b>shiowen</b></sub></a></td>
-    <td align="center"><a href="https://github.com/kilo2127"><img src="https://github.com/kilo2127.png?size=100" width="64px;" alt=""/><br /><sub><b>kilo2127</b></sub></a></td>
-    <td align="center"><a href="https://github.com/AckerlyLau"><img src="https://github.com/AckerlyLau.png?size=100" width="64px;" alt=""/><br /><sub><b>AckerlyLau</b></sub></a></td>
+    <td align="center"><a href="https://github.com/LaansDole"><img src="https://github.com/LaansDole.png?size=100" width="64px;"/><br /><sub><b>LaansDole</b></sub></a></td>
+    <td align="center"><a href="https://github.com/zivkovicp"><img src="https://github.com/zivkovicp.png?size=100" width="64px;"/><br /><sub><b>zivkovicp</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ACE-Prism"><img src="https://github.com/ACE-Prism.png?size=100" width="64px;"/><br /><sub><b>ACE-Prism</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shiowen"><img src="https://github.com/shiowen.png?size=100" width="64px;"/><br /><sub><b>shiowen</b></sub></a></td>
+    <td align="center"><a href="https://github.com/kilo2127"><img src="https://github.com/kilo2127.png?size=100" width="64px;"/><br /><sub><b>kilo2127</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AckerlyLau"><img src="https://github.com/AckerlyLau.png?size=100" width="64px;"/><br /><sub><b>AckerlyLau</b></sub></a></td>
+    <td align="center"><a href="https://github.com/rainoeelmae"><img src="https://github.com/rainoeelmae.png?size=100" width="64px;"/><br /><sub><b>rainoeelmae</b></sub></a></td>
+    <td align="center"><a href="https://github.com/conprour"><img src="https://github.com/conprour.png?size=100" width="64px;"/><br /><sub><b>conprour</b></sub></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Br1an67"><img src="https://github.com/Br1an67.png?size=100" width="64px;"/><br /><sub><b>Br1an67</b></sub></a></td>
+    <td align="center"><a href="https://github.com/NINE-J"><img src="https://github.com/NINE-J.png?size=100" width="64px;"/><br /><sub><b>NINE-J</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Yanghuabei-design"><img src="https://github.com/Yanghuabei-design.png?size=100" width="64px;"/><br /><sub><b>Yanghuabei</b></sub></a></td>
+  </tr>
 </table>
 
 ## 🤝 Acknowledgments

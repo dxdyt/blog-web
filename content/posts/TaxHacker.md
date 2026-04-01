@@ -1,9 +1,9 @@
 ---
 title: TaxHacker
-date: 2026-03-21T13:06:10+08:00
+date: 2026-04-01T13:55:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771876002358-e870981466d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771876002358-e870981466d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773322024439-52af5a3c1f28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773322024439-52af5a3c1f28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker)
@@ -22,6 +22,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1771876002358-e870981466
 [![Donate](https://img.shields.io/badge/-Donate-f04f88?logo=githubsponsors&logoColor=white&style=flat-square)](https://vas3k.com/donate/)
 
 </div>
+
+> 🙏 I'm currently looking for a job! Here's [my CV](https://raw.githubusercontent.com/vas3k/vas3k/master/cv.pdf) and my [Github profile](https://github.com/vas3k).
 
 TaxHacker is a self-hosted accounting app designed for freelancers, indie hackers, and small businesses who want to save time and automate expense and income tracking using the power of modern AI.
 

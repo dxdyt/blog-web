@@ -1,9 +1,9 @@
 ---
 title: oh-my-claudecode
-date: 2026-03-30T13:57:55+08:00
+date: 2026-04-01T13:54:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772290617722-8f61e2672adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)

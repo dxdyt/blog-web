@@ -1,9 +1,9 @@
 ---
 title: superpowers
-date: 2026-03-30T13:58:23+08:00
+date: 2026-04-01T13:55:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773186527348-753562cbb587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772366715796-ba08bad65a33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772366715796-ba08bad65a33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [obra/superpowers](https://github.com/obra/superpowers)
@@ -91,6 +91,13 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ```
 
 **Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
+
+### GitHub Copilot CLI
+
+```bash
+copilot plugin marketplace add obra/superpowers-marketplace
+copilot plugin install superpowers@superpowers-marketplace
+```
 
 ### Gemini CLI
 
