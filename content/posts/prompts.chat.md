@@ -1,9 +1,9 @@
 ---
 title: prompts.chat
-date: 2026-02-24T13:21:10+08:00
+date: 2026-04-02T13:41:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770128076185-0dc32b42e9f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770128076185-0dc32b42e9f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE5MTA0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
 ---
 
 # [f/prompts.chat](https://github.com/f/prompts.chat)
@@ -213,14 +213,6 @@ Use prompts.chat as an MCP server in your AI tools.
       <img height="30" alt="Sentry" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/sentry.svg">
     </picture>
   </a>&nbsp;&nbsp;
-  <!-- MitteAI -->
-  <a href="https://mitte.ai/?utm_source=prompts.chat">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/mitte-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/mitte.svg">
-      <img height="35" alt="MitteAI" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/mitte.svg">
-    </picture>
-  </a>&nbsp;&nbsp;
   <!-- Each Labs (py-[6px]) -->
   <a href="https://www.eachlabs.ai/?utm_source=promptschat&utm_medium=referral">
     <picture>
@@ -229,12 +221,12 @@ Use prompts.chat as an MCP server in your AI tools.
       <img height="28" alt="Each Labs" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/eachlabs.png">
     </picture>
   </a>&nbsp;&nbsp;
-  <!-- Warp (py-2) -->
-  <a href="https://warp.dev/?utm_source=prompts.chat">
+  <!-- CommandCode (py-1) -->
+  <a href="https://commandcode.ai/?utm_source=prompts.chat">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/warp-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/warp.svg">
-      <img height="25" alt="Warp" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/warp.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/commandcode-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/commandcode.svg">
+      <img height="30" alt="CommandCode" src="https://raw.githubusercontent.com/f/prompts.chat/main/public/sponsors/commandcode.svg">
     </picture>
   </a>
 </p>

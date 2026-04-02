@@ -1,9 +1,9 @@
 ---
 title: timesfm
-date: 2026-02-21T13:05:53+08:00
+date: 2026-04-02T13:41:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767818375518-dd9693075d19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767818375518-dd9693075d19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771613934266-0f474dc34245?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771613934266-0f474dc34245?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
 ---
 
 # [google-research/timesfm](https://github.com/google-research/timesfm)
@@ -31,6 +31,10 @@ This open version is not an officially supported Google product.
 -   1.0 and 2.0: relevant code archived in the sub directory `v1`. You can `pip
     install timesfm==1.3.0` to install an older version of this package to load
     them.
+
+## Update - Mar. 19, 2026
+
+Huge shoutout to [@borealBytes](https://github.com/borealBytes)! TimesFM [SKILLS.md](https://github.com/google-research/timesfm/tree/master/timesfm-forecasting) is out.
 
 ## Update - Oct. 29, 2025
 
