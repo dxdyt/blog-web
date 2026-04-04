@@ -1,9 +1,9 @@
 ---
 title: timesfm
-date: 2026-04-02T13:41:01+08:00
+date: 2026-04-04T13:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771613934266-0f474dc34245?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771613934266-0f474dc34245?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773398348702-500c3d26a6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773398348702-500c3d26a6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
 ---
 
 # [google-research/timesfm](https://github.com/google-research/timesfm)
@@ -34,7 +34,7 @@ This open version is not an officially supported Google product.
 
 ## Update - Mar. 19, 2026
 
-Huge shoutout to [@borealBytes](https://github.com/borealBytes)! TimesFM [SKILLS.md](https://github.com/google-research/timesfm/tree/master/timesfm-forecasting) is out.
+Huge shoutout to [@borealBytes](https://github.com/borealBytes) for adding the support for [AGENTS](https://github.com/google-research/timesfm/blob/master/AGENTS.md)! TimesFM [SKILL.md](https://github.com/google-research/timesfm/tree/master/timesfm-forecasting) is out.
 
 ## Update - Oct. 29, 2025
 

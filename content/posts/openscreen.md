@@ -1,9 +1,9 @@
 ---
 title: openscreen
-date: 2026-04-03T13:40:59+08:00
+date: 2026-04-04T13:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774342814458-0d82cca937b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxOTQ4NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774342814458-0d82cca937b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxOTQ4NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773549809566-09143ebf6cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773549809566-09143ebf6cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
 ---
 
 # [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)

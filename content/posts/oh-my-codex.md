@@ -1,9 +1,9 @@
 ---
 title: oh-my-codex
-date: 2026-04-03T13:41:08+08:00
+date: 2026-04-04T13:20:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772475385327-ae6212f900aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxOTQ4NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772475385327-ae6212f900aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxOTQ4NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773577822818-2787811552ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773577822818-2787811552ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
 ---
 
 # [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)

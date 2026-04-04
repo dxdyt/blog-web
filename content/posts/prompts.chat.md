@@ -1,9 +1,9 @@
 ---
 title: prompts.chat
-date: 2026-04-02T13:41:35+08:00
+date: 2026-04-04T13:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289767370-9caabfb3f5f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289767370-9caabfb3f5f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
 ---
 
 # [f/prompts.chat](https://github.com/f/prompts.chat)
