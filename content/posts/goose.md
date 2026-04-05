@@ -1,9 +1,9 @@
 ---
 title: goose
-date: 2026-01-27T12:46:57+08:00
+date: 2026-04-05T13:44:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766596539688-1e0acf7c8d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766596539688-1e0acf7c8d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk0ODkxODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773751392365-dba450a242b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773751392365-dba450a242b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
 ---
 
 # [block/goose](https://github.com/block/goose)
@@ -15,15 +15,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1766596539688-1e0acf7c8d
 _a local, extensible, open source AI agent that automates engineering tasks_
 
 <p align="center">
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg">
-  </a>
-  <a href="https://discord.gg/goose-oss">
-    <img src="https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet" alt="Discord">
-  </a>
-  <a href="https://github.com/block/goose/actions/workflows/ci.yml">
-     <img src="https://img.shields.io/github/actions/workflow/status/block/goose/ci.yml?branch=main" alt="CI">
-  </a>
+  <a href="https://opensource.org/licenses/Apache-2.0"
+    ><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"></a>
+  <a href="https://discord.gg/goose-oss"
+    ><img src="https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet" alt="Discord"></a>
+  <a href="https://github.com/block/goose/actions/workflows/ci.yml"
+     ><img src="https://img.shields.io/github/actions/workflow/status/block/goose/ci.yml?branch=main" alt="CI"></a>
 </p>
 </div>
 
@@ -40,14 +37,14 @@ Designed for maximum flexibility, goose works with any LLM and supports multi-mo
 - [Installation](https://block.github.io/goose/docs/getting-started/installation)
 - [Tutorials](https://block.github.io/goose/docs/category/tutorials)
 - [Documentation](https://block.github.io/goose/docs/category/getting-started)
-- [Responsible AI-Assisted Coding Guide](https://github.com/block/goose/blob/main/HOWTOAI.md)
 - [Governance](https://github.com/block/goose/blob/main/GOVERNANCE.md)
+- [Custom Distributions](https://github.com/block/goose/blob/main/CUSTOM_DISTROS.md) - build your own goose distro with preconfigured providers, extensions, and branding
 
 ## Need Help?
 - [Diagnostics & Reporting](https://block.github.io/goose/docs/troubleshooting/diagnostics-and-reporting)
 - [Known Issues](https://block.github.io/goose/docs/troubleshooting/known-issues)
 
-# a little goose humor 🦢
+# a little goose humor 🪿
 
 > Why did the developer choose goose as their AI agent?
 > 

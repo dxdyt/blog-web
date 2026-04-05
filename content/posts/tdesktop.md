@@ -1,9 +1,9 @@
 ---
 title: tdesktop
-date: 2024-08-27T12:21:03+08:00
+date: 2026-04-05T13:44:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719090024435-d0e527968e55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719090024435-d0e527968e55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1771030668418-390b3edf33e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771030668418-390b3edf33e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
 ---
 
 # [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
@@ -68,12 +68,13 @@ Version **1.8.15** was the last that supports older systems
 * Guideline Support Library ([MIT License](https://github.com/Microsoft/GSL/blob/master/LICENSE))
 * Range-v3 ([Boost License](https://github.com/ericniebler/range-v3/blob/master/LICENSE.txt))
 * Open Sans font ([Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html))
-* Vazir font ([SIL Open Font License 1.1](https://github.com/rastikerdar/vazir-font/blob/master/OFL.txt))
+* Vazirmatn font ([SIL Open Font License 1.1](https://github.com/rastikerdar/vazirmatn/blob/master/OFL.txt))
 * Emoji alpha codes ([MIT License](https://github.com/emojione/emojione/blob/master/extras/alpha-codes/LICENSE.md))
 * xxHash ([BSD License](https://github.com/Cyan4973/xxHash/blob/dev/LICENSE))
 * QR Code generator ([MIT License](https://github.com/nayuki/QR-Code-generator#license))
 * CMake ([New BSD License](https://github.com/Kitware/CMake/blob/master/Copyright.txt))
 * Hunspell ([LGPL](https://github.com/hunspell/hunspell/blob/master/COPYING.LESSER))
+* Ada ([Apache License 2.0](https://github.com/ada-url/ada/blob/main/LICENSE-APACHE))
 
 ## Build instructions
 

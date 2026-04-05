@@ -1,9 +1,9 @@
 ---
 title: openscreen
-date: 2026-04-04T13:21:05+08:00
+date: 2026-04-05T13:44:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773549809566-09143ebf6cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773549809566-09143ebf6cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772710101199-c5c196debd0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772710101199-c5c196debd0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
 ---
 
 # [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)
@@ -17,6 +17,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1773549809566-09143ebf6c
   <br />
   <a href="https://deepwiki.com/siddharthvaddem/openscreen">
     <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" />
+  </a>
+  &nbsp;
+  <a href="https://discord.gg/yAQQhRaEeg">
+    <img src="https://img.shields.io/discord/pHAUbcqNd?logo=discord&label=Discord&color=5865F2" alt="Join Discord" />
   </a>
 </p>
 
