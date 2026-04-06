@@ -1,9 +1,9 @@
 ---
 title: tdesktop
-date: 2026-04-05T13:44:18+08:00
+date: 2026-04-06T13:59:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771030668418-390b3edf33e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771030668418-390b3edf33e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUzNjc4MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773936850486-eadf8cf81872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU0NTUwNzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773936850486-eadf8cf81872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU0NTUwNzZ8&ixlib=rb-4.1.0
 ---
 
 # [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)

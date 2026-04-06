@@ -1,9 +1,9 @@
 ---
 title: fff.nvim
-date: 2026-04-04T13:21:13+08:00
+date: 2026-04-06T13:58:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772289935739-3225a8b3e9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772289935739-3225a8b3e9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774230380285-bb1104cef073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU0NTUwNzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774230380285-bb1104cef073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU0NTUwNzZ8&ixlib=rb-4.1.0
 ---
 
 # [dmtrKovalenko/fff.nvim](https://github.com/dmtrKovalenko/fff.nvim)
