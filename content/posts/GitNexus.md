@@ -1,9 +1,9 @@
 ---
 title: GitNexus
-date: 2026-03-18T13:24:55+08:00
+date: 2026-04-07T13:45:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772366088815-78352eb7f5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772366088815-78352eb7f5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MTE0NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775126679367-3057683ced2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775126679367-3057683ced2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
@@ -29,6 +29,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1772366088815-78352eb7f5
     <img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg" alt="License: PolyForm Noncommercial"/>
   </a>
 
+  <p><strong>Enterprise (SaaS & Self-hosted)</strong> - <a href="https://akonlabs.com">akonlabs.com</a></p>
+
 </div>
 
 **Building nervous system for agent context.**
@@ -44,7 +46,7 @@ https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 
 > *Like DeepWiki, but deeper.* DeepWiki helps you *understand* code. GitNexus lets you *analyze* it — because a knowledge graph tracks every relationship, not just descriptions.
 
-**TL;DR:** The **Web UI** is a quick way to chat with any repo. The **CLI + MCP** is how you make your AI agent actually reliable — it gives Cursor, Claude Code, and friends a deep architectural view of your codebase so they stop missing dependencies, breaking call chains, and shipping blind edits. Even smaller models get full architectural clarity, making it compete with goliath models.
+**TL;DR:** The **Web UI** is a quick way to chat with any repo. The **CLI + MCP** is how you make your AI agent actually reliable — it gives Cursor, Claude Code, Codex, and friends a deep architectural view of your codebase so they stop missing dependencies, breaking call chains, and shipping blind edits. Even smaller models get full architectural clarity, making it compete with goliath models.
 
 ---
 
@@ -58,7 +60,7 @@ https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 |                   | **CLI + MCP**                                            | **Web UI**                                             |
 | ----------------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
 | **What**    | Index repos locally, connect AI agents via MCP                 | Visual graph explorer + AI chat in browser                   |
-| **For**     | Daily development with Cursor, Claude Code, Windsurf, OpenCode, Codex | Quick exploration, demos, one-off analysis                   |
+| **For**     | Daily development with Cursor, Claude Code, Codex, Windsurf, OpenCode | Quick exploration, demos, one-off analysis                   |
 | **Scale**   | Full repos, any size                                           | Limited by browser memory (~5k files), or unlimited via backend mode |
 | **Install** | `npm install -g gitnexus`                                    | No install —[gitnexus.vercel.app](https://gitnexus.vercel.app) |
 | **Storage** | LadybugDB native (fast, persistent)                               | LadybugDB WASM (in-memory, per session)                         |
@@ -68,6 +70,36 @@ https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 > **Bridge mode:** `gitnexus serve` connects the two — the web UI auto-detects the local server and can browse all your CLI-indexed repos without re-uploading or re-indexing.
 
 ---
+
+## Enterprise
+
+GitNexus is available as an **enterprise offering** - either as a fully managed **SaaS** or a **self-hosted** deployment. Also available for **commercial use** of the OSS version with proper licensing.
+
+Enterprise includes:
+- **PR Review** - automated blast radius analysis on pull requests
+- **Auto-updating Code Wiki** - always up-to-date documentation (Code Wiki is also available in OSS)
+- **Auto-reindexing** - knowledge graph stays fresh automatically
+- **Multi-repo support** - unified graph across repositories
+- **OCaml support** - additional language coverage
+- **Priority feature/language support** - request new languages or features
+
+**Upcoming:**
+- Auto regression forensics
+- End-to-end test generation
+
+👉 Learn more at [akonlabs.com](https://akonlabs.com)
+
+💬 For commercial licensing or enterprise inquiries, ping us on [Discord](https://discord.gg/AAsRVT6fGb) or drop an email at founders@akonlabs.com
+
+---
+
+## Development
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — packages, index → graph → MCP flow, where to change code
+- [RUNBOOK.md](RUNBOOK.md) — analyze, embeddings, stale index, MCP recovery, CI snippets
+- [GUARDRAILS.md](GUARDRAILS.md) — safety rules and operational “Signs” for contributors and agents
+- [CONTRIBUTING.md](CONTRIBUTING.md) — license, setup, commits, and pull requests
+- [TESTING.md](TESTING.md) — test commands for `gitnexus` and `gitnexus-web`
 
 ## CLI + MCP (recommended)
 
@@ -94,24 +126,39 @@ To configure MCP for your editor, run `npx gitnexus setup` once — or set it up
 | --------------------- | --- | ------ | -------------------- | -------------- |
 | **Claude Code** | Yes | Yes    | Yes (PreToolUse + PostToolUse) | **Full** |
 | **Cursor**      | Yes | Yes    | —                   | MCP + Skills   |
+| **Codex**       | Yes | Yes    | —                   | MCP + Skills   |
 | **Windsurf**    | Yes | —     | —                   | MCP            |
 | **OpenCode**    | Yes | Yes    | —                   | MCP + Skills   |
-| **Codex**       | Yes | —     | —                   | MCP            |
 
 > **Claude Code** gets the deepest integration: MCP tools + agent skills + PreToolUse hooks that enrich searches with graph context + PostToolUse hooks that auto-reindex after commits.
 
-### Community Integrations
+## Community Integrations
 
-| Agent | Install | Source |
-|-------|---------|--------|
-| [pi](https://pi.dev) | `pi install npm:pi-gitnexus` | [pi-gitnexus](https://github.com/tintinweb/pi-gitnexus) |
+Built by the community — not officially maintained, but worth checking out.
+
+| Project | Author | Description |
+|---------|--------|-------------|
+| [pi-gitnexus](https://github.com/tintinweb/pi-gitnexus) | [@tintinweb](https://github.com/tintinweb) | GitNexus plugin for [pi](https://pi.dev) — `pi install npm:pi-gitnexus` |
+| [gitnexus-stable-ops](https://github.com/ShunsukeHayashi/gitnexus-stable-ops) | [@ShunsukeHayashi](https://github.com/ShunsukeHayashi) | Stable ops & deployment workflows (Miyabi ecosystem) |
+
+> Have a project built on GitNexus? Open a PR to add it here!
 
 If you prefer manual configuration:
 
 **Claude Code** (full support — MCP + skills + hooks):
 
 ```bash
+# macOS / Linux
 claude mcp add gitnexus -- npx -y gitnexus@latest mcp
+
+# Windows
+claude mcp add gitnexus -- cmd /c npx -y gitnexus@latest mcp
+```
+
+**Codex** (full support — MCP + skills):
+
+```bash
+codex mcp add gitnexus -- npx -y gitnexus@latest mcp
 ```
 
 **Cursor** (`~/.cursor/mcp.json` — global, works for all projects):
@@ -133,8 +180,8 @@ claude mcp add gitnexus -- npx -y gitnexus@latest mcp
 {
   "mcp": {
     "gitnexus": {
-      "command": "npx",
-      "args": ["-y", "gitnexus@latest", "mcp"]
+      "type": "local",
+      "command": ["gitnexus", "mcp"]
     }
   }
 }
@@ -151,13 +198,14 @@ args = ["-y", "gitnexus@latest", "mcp"]
 ### CLI Commands
 
 ```bash
-gitnexus setup                    # Configure MCP for your editors (one-time)
-gitnexus analyze [path]           # Index a repository (or update stale index)
-gitnexus analyze --force          # Force full re-index
-gitnexus analyze --skills         # Generate repo-specific skill files from detected communities
+gitnexus setup                   # Configure MCP for your editors (one-time)
+gitnexus analyze [path]          # Index a repository (or update stale index)
+gitnexus analyze --force         # Force full re-index
+gitnexus analyze --skills        # Generate repo-specific skill files from detected communities
 gitnexus analyze --skip-embeddings  # Skip embedding generation (faster)
-gitnexus analyze --embeddings     # Enable embedding generation (slower, better search)
-gitnexus analyze --verbose        # Log skipped files when parsers are unavailable
+gitnexus analyze --skip-agents-md  # Preserve custom AGENTS.md/CLAUDE.md gitnexus section edits
+gitnexus analyze --embeddings    # Enable embedding generation (slower, better search)
+gitnexus analyze --verbose       # Log skipped files when parsers are unavailable
 gitnexus mcp                     # Start MCP server (stdio) — serves all indexed repos
 gitnexus serve                   # Start local HTTP server (multi-repo) for web UI connection
 gitnexus list                    # List all indexed repositories
@@ -167,11 +215,21 @@ gitnexus clean --all --force     # Delete all indexes
 gitnexus wiki [path]             # Generate repository wiki from knowledge graph
 gitnexus wiki --model <model>    # Wiki with custom LLM model (default: gpt-4o-mini)
 gitnexus wiki --base-url <url>   # Wiki with custom LLM API base URL
+
+# Repository groups (multi-repo / monorepo service tracking)
+gitnexus group create <name>     # Create a repository group
+gitnexus group add <name> <repo> # Add a repo to a group
+gitnexus group remove <name> <repo> # Remove a repo from a group
+gitnexus group list [name]       # List groups, or show one group's config
+gitnexus group sync <name>       # Extract contracts and match across repos/services
+gitnexus group contracts <name>  # Inspect extracted contracts and cross-links
+gitnexus group query <name> <q>  # Search execution flows across all repos in a group
+gitnexus group status <name>     # Check staleness of repos in a group
 ```
 
 ### What Your AI Agent Gets
 
-**7 tools** exposed via MCP:
+**16 tools** exposed via MCP (11 per-repo + 5 group):
 
 | Tool               | What It Does                                                      | `repo` Param |
 | ------------------ | ----------------------------------------------------------------- | -------------- |
@@ -182,6 +240,11 @@ gitnexus wiki --base-url <url>   # Wiki with custom LLM API base URL
 | `detect_changes` | Git-diff impact — maps changed lines to affected processes       | Optional       |
 | `rename`         | Multi-file coordinated rename with graph + text search            | Optional       |
 | `cypher`         | Raw Cypher graph queries                                          | Optional       |
+| `group_list`     | List configured repository groups                                 | —             |
+| `group_sync`     | Extract contracts and match across repos/services                 | —             |
+| `group_contracts`| Inspect extracted contracts and cross-links                       | —             |
+| `group_query`    | Search execution flows across all repos in a group                | —             |
+| `group_status`   | Check staleness of repos in a group                               | —             |
 
 > When only one repo is indexed, the `repo` parameter is optional. With multiple repos, specify which one: `query({query: "auth", repo: "my-app"})`.
 
@@ -277,8 +340,8 @@ Or run locally:
 
 ```bash
 git clone https://github.com/abhigyanpatwari/gitnexus.git
-cd gitnexus/gitnexus-web
-npm install
+cd gitnexus/gitnexus-shared && npm install && npm run build
+cd ../gitnexus-web && npm install
 npm run dev
 ```
 
@@ -290,7 +353,7 @@ The web UI uses the same indexing pipeline as the CLI but runs entirely in WebAs
 
 ## The Problem GitNexus Solves
 
-Tools like **Cursor**, **Claude Code**, **Cline**, **Roo Code**, and **Windsurf** are powerful — but they don't truly know your codebase structure.
+Tools like **Cursor**, **Claude Code**, **Codex**, **Cline**, **Roo Code**, and **Windsurf** are powerful — but they don't truly know your codebase structure.
 
 **What happens:**
 
@@ -361,6 +424,7 @@ GitNexus builds a complete knowledge graph of your codebase through a multi-phas
 | Swift | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | C | — | — | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
 | C++ | — | — | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| Dart | ✓ | — | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
 
 **Imports** — cross-file import resolution · **Named Bindings** — `import { X as Y }` / re-export tracking · **Exports** — public/exported symbol detection · **Heritage** — class inheritance, interfaces, mixins · **Type Annotations** — explicit type extraction for receiver resolution · **Constructor Inference** — infer receiver type from constructor calls (`self`/`this` resolution included for all languages) · **Config** — language toolchain config parsing (tsconfig, go.mod, etc.) · **Frameworks** — AST-based framework pattern detection · **Entry Points** — entry point scoring heuristics
 
@@ -525,7 +589,7 @@ The wiki generator reads the indexed graph structure, groups files into modules 
 - [X] Constructor-Inferred Type Resolution, `self`/`this` Receiver Mapping
 - [X] Wiki Generation, Multi-File Rename, Git-Diff Impact Analysis
 - [X] Process-Grouped Search, 360-Degree Context, Claude Code Hooks
-- [X] Multi-Repo MCP, Zero-Config Setup, 13 Language Support
+- [X] Multi-Repo MCP, Zero-Config Setup, 14 Language Support
 - [X] Community Detection, Process Detection, Confidence Scoring
 - [X] Hybrid Search, Vector Index
 

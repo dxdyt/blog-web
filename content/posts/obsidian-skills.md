@@ -1,9 +1,9 @@
 ---
 title: obsidian-skills
-date: 2026-03-24T13:23:35+08:00
+date: 2026-04-07T13:47:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772381617906-507db21eba68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772381617906-507db21eba68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774084930632-fe6b5d7f785f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774084930632-fe6b5d7f785f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
 ---
 
 # [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
