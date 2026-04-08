@@ -1,9 +1,9 @@
 ---
 title: personaplex
-date: 2026-04-07T13:47:32+08:00
+date: 2026-04-08T13:46:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1554919671-defc60f8a0bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1554919671-defc60f8a0bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU1NDA3NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774247993529-380998f4a548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774247993529-380998f4a548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
 ---
 
 # [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex)
