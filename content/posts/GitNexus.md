@@ -1,9 +1,9 @@
 ---
 title: GitNexus
-date: 2026-04-08T13:46:24+08:00
+date: 2026-04-09T13:48:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762743412345-a31d94cd5a88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762743412345-a31d94cd5a88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773262726194-7f2ad2fb0152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773262726194-7f2ad2fb0152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 | **What**    | Index repos locally, connect AI agents via MCP                 | Visual graph explorer + AI chat in browser                   |
 | **For**     | Daily development with Cursor, Claude Code, Codex, Windsurf, OpenCode | Quick exploration, demos, one-off analysis                   |
 | **Scale**   | Full repos, any size                                           | Limited by browser memory (~5k files), or unlimited via backend mode |
-| **Install** | `npm install -g gitnexus`                                    | No install —[gitnexus.vercel.app](https://gitnexus.vercel.app) |
+| **Install** | `npm install -g gitnexus`                                    | No install — [gitnexus.vercel.app](https://gitnexus.vercel.app) |
 | **Storage** | LadybugDB native (fast, persistent)                               | LadybugDB WASM (in-memory, per session)                         |
 | **Parsing** | Tree-sitter native bindings                                    | Tree-sitter WASM                                             |
 | **Privacy** | Everything local, no network                                   | Everything in-browser, no server                             |

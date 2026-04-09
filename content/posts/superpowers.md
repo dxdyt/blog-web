@@ -1,9 +1,9 @@
 ---
 title: superpowers
-date: 2026-04-01T13:55:00+08:00
+date: 2026-04-09T13:48:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772366715796-ba08bad65a33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772366715796-ba08bad65a33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUwMjI4NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773322024576-814ac35e18d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773322024576-814ac35e18d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [obra/superpowers](https://github.com/obra/superpowers)
@@ -195,10 +195,6 @@ MIT License - see LICENSE file for details
 
 Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of the folks at [Prime Radiant](https://primeradiant.com).
 
-For community support, questions, and sharing what you're building with Superpowers, join us on [Discord](https://discord.gg/Jd8Vphy9jq).
-
-## Support
-
-- **Discord**: [Join us on Discord](https://discord.gg/Jd8Vphy9jq)
+- **Discord**: [Join us](https://discord.gg/35wsABTejz) for community support, questions, and sharing what you're building with Superpowers
 - **Issues**: https://github.com/obra/superpowers/issues
-- **Marketplace**: https://github.com/obra/superpowers-marketplace
+- **Release announcements**: [Sign up](https://primeradiant.com/superpowers/) to get notified about new versions

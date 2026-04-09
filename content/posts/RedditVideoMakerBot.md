@@ -1,9 +1,9 @@
 ---
 title: RedditVideoMakerBot
-date: 2026-04-08T13:46:49+08:00
+date: 2026-04-09T13:48:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774247993529-380998f4a548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774247993529-380998f4a548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745613998978-fae3bf6308fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745613998978-fae3bf6308fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot)

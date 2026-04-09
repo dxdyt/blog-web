@@ -1,9 +1,9 @@
 ---
 title: gallery
-date: 2026-04-08T13:46:04+08:00
+date: 2026-04-09T13:48:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773777910397-2162b3ec2809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773777910397-2162b3ec2809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773322024576-814ac35e18d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773322024576-814ac35e18d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)

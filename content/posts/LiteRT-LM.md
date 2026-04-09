@@ -1,9 +1,9 @@
 ---
 title: LiteRT-LM
-date: 2026-04-08T13:46:11+08:00
+date: 2026-04-09T13:48:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773777910397-2162b3ec2809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773777910397-2162b3ec2809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2MjcxNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773262726194-7f2ad2fb0152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773262726194-7f2ad2fb0152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [google-ai-edge/LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM)

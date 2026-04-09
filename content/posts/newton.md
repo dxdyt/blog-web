@@ -1,9 +1,9 @@
 ---
 title: newton
-date: 2026-03-21T13:06:05+08:00
+date: 2026-04-09T13:48:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772470684953-9f6ff5e4f9c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772470684953-9f6ff5e4f9c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQwNjk1MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775185173284-36c5287cf82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775185173284-36c5287cf82b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
 ---
 
 # [newton-physics/newton](https://github.com/newton-physics/newton)
@@ -483,6 +483,9 @@ If you installed from source with uv, substitute `uv run` for `python` in the co
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://github.com/newton-physics/newton/blob/main/newton/examples/mpm/example_mpm_viscous.py">
+        <img width="320" src="https://raw.githubusercontent.com/newton-physics/newton/main/docs/images/examples/example_mpm_viscous.jpg" alt="MPM Viscous">
+      </a>
     </td>
   </tr>
   <tr>
@@ -491,6 +494,31 @@ If you installed from source with uv, substitute `uv run` for `python` in the co
     </td>
     <td align="center" width="33%">
       <code>python -m newton.examples mpm_multi_material</code>
+    </td>
+    <td align="center" width="33%">
+      <code>python -m newton.examples mpm_viscous</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/newton-physics/newton/blob/main/newton/examples/mpm/example_mpm_beam_twist.py">
+        <img width="320" src="https://raw.githubusercontent.com/newton-physics/newton/main/docs/images/examples/example_mpm_beam_twist.jpg" alt="MPM Beam Twist">
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/newton-physics/newton/blob/main/newton/examples/mpm/example_mpm_snow_ball.py">
+        <img width="320" src="https://raw.githubusercontent.com/newton-physics/newton/main/docs/images/examples/example_mpm_snow_ball.jpg" alt="MPM Snow Ball">
+      </a>
+    </td>
+    <td align="center" width="33%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <code>python -m newton.examples mpm_beam_twist</code>
+    </td>
+    <td align="center" width="33%">
+      <code>python -m newton.examples mpm_snow_ball</code>
     </td>
     <td align="center" width="33%">
     </td>
@@ -701,6 +729,9 @@ If you installed from source with uv, substitute `uv run` for `python` in the co
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://github.com/newton-physics/newton/blob/main/newton/examples/contacts/example_contacts_rj45_plug.py">
+        <img width="320" src="https://raw.githubusercontent.com/newton-physics/newton/main/docs/images/examples/example_contacts_rj45_plug.jpg" alt="RJ45 Plug">
+      </a>
     </td>
     <td align="center" width="33%">
     </td>
@@ -710,6 +741,7 @@ If you installed from source with uv, substitute `uv run` for `python` in the co
       <code>python -m newton.examples pyramid</code>
     </td>
     <td align="center" width="33%">
+      <code>python -m newton.examples contacts_rj45_plug</code>
     </td>
     <td align="center" width="33%">
     </td>
