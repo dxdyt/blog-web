@@ -1,9 +1,9 @@
 ---
 title: seomachine
-date: 2026-04-09T13:47:53+08:00
+date: 2026-04-10T13:57:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774204834734-b3f799062993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774204834734-b3f799062993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3MTM2NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772966984323-db2f8b334b60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772966984323-db2f8b334b60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
 ---
 
 # [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine)

@@ -1,9 +1,9 @@
 ---
 title: Kronos
-date: 2025-10-18T12:21:56+08:00
+date: 2026-04-10T13:58:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758331482668-6be385f58b24?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758331482668-6be385f58b24?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774342814458-0d82cca937b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774342814458-0d82cca937b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
 ---
 
 # [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
@@ -60,6 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1758331482668-6be385f58b
 </div>
 
 ## 📰 News
+*   🚩 **[2025.11.10]** Kronos has been accpeted by AAAI 2026.
 *   🚩 **[2025.08.17]** We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks.
 *   🚩 **[2025.08.02]** Our paper is now available on [arXiv](https://arxiv.org/abs/2508.02739)!
 
@@ -127,7 +128,7 @@ Create an instance of `KronosPredictor`, passing the model, tokenizer, and desir
 
 ```python
 # Initialize the predictor
-predictor = KronosPredictor(model, tokenizer, device="cuda:0", max_context=512)
+predictor = KronosPredictor(model, tokenizer, max_context=512)
 ```
 
 #### 3. Prepare Input Data
@@ -154,7 +155,7 @@ x_timestamp = df.loc[:lookback-1, 'timestamps']
 y_timestamp = df.loc[lookback:lookback+pred_len-1, 'timestamps']
 ```
 
-#### 4. Generate Forecasts
+#### 4. Generate Forecasts 
 
 Call the `predict` method to generate forecasts. You can control the sampling process with parameters like `T`, `top_p`, and `sample_count` for probabilistic forecasting.
 
@@ -334,6 +335,8 @@ If you use Kronos in your research, we would appreciate a citation to our [paper
 
 ## 📜 License 
 This project is licensed under the [MIT License](./LICENSE).
+
+
 
 
 

@@ -1,525 +1,320 @@
 ---
 title: Archon
-date: 2025-10-14T12:22:03+08:00
+date: 2026-04-10T13:58:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757868515881-fc21b6ac3614?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757868515881-fc21b6ac3614?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770045990733-6e9f6c083f0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770045990733-6e9f6c083f0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
 ---
 
 # [coleam00/Archon](https://github.com/coleam00/Archon)
 
 <p align="center">
-  <img src="./archon-ui-main/public/archon-main-graphic.png" alt="Archon Main Graphic" width="853" height="422">
+  <img src="assets/logo.png" alt="Archon" width="160" />
+</p>
+
+<h1 align="center">Archon</h1>
+
+<p align="center">
+  The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
 </p>
 
 <p align="center">
-   <a href="https://trendshift.io/repositories/13964" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13964" alt="coleam00%2FArchon | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/13964" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13964" alt="coleam00%2FArchon | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
 <p align="center">
-  <em>Power up your AI coding assistants with your own custom knowledge base and task management as an MCP server</em>
-</p>
-
-<p align="center">
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#upgrading">Upgrading</a> •
-  <a href="#whats-included">What's Included</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#troubleshooting">Troubleshooting</a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/coleam00/Archon/actions/workflows/test.yml"><img src="https://github.com/coleam00/Archon/actions/workflows/test.yml/badge.svg" alt="CI" /></a>
+  <a href="https://archon.diy"><img src="https://img.shields.io/badge/docs-archon.diy-blue" alt="Docs" /></a>
 </p>
 
 ---
 
-## 🎯 What is Archon?
+Archon is a workflow engine for AI coding agents. Define your development processes as YAML workflows - planning, implementation, validation, code review, PR creation - and run them reliably across all your projects.
 
-> Archon is currently in beta! Expect things to not work 100%, and please feel free to share any feedback and contribute with fixes/new features! Thank you to everyone for all the excitement we have for Archon already, as well as the bug reports, PRs, and discussions. It's a lot for our small team to get through but we're committed to addressing everything and making Archon into the best tool it possibly can be!
+Like what Dockerfiles did for infrastructure and GitHub Actions did for CI/CD - Archon does for AI coding workflows. Think n8n, but for software development.
 
-Archon is the **command center** for AI coding assistants. For you, it's a sleek interface to manage knowledge, context, and tasks for your projects. For the AI coding assistant(s), it's a **Model Context Protocol (MCP) server** to collaborate on and leverage the same knowledge, context, and tasks. Connect Claude Code, Kiro, Cursor, Windsurf, etc. to give your AI agents access to:
+## Why Archon?
 
-- **Your documentation** (crawled websites, uploaded PDFs/docs)
-- **Smart search capabilities** with advanced RAG strategies
-- **Task management** integrated with your knowledge base
-- **Real-time updates** as you add new content and collaborate with your coding assistant on tasks
-- **Much more** coming soon to build Archon into an integrated environment for all context engineering
+When you ask an AI agent to "fix this bug", what happens depends on the model's mood. It might skip planning. It might forget to run tests. It might write a PR description that ignores your template. Every run is different.
 
-This new vision for Archon replaces the old one (the agenteer). Archon used to be the AI agent that builds other agents, and now you can use Archon to do that and more.
+Archon fixes this. Encode your development process as a workflow. The workflow defines the phases, validation gates, and artifacts. The AI fills in the intelligence at each step, but the structure is deterministic and owned by you.
 
-> It doesn't matter what you're building or if it's a new/existing codebase - Archon's knowledge and task management capabilities will improve the output of **any** AI driven coding.
+- **Repeatable** - Same workflow, same sequence, every time. Plan, implement, validate, review, PR.
+- **Isolated** - Every workflow run gets its own git worktree. Run 5 fixes in parallel with no conflicts.
+- **Fire and forget** - Kick off a workflow, go do other work. Come back to a finished PR with review comments.
+- **Composable** - Mix deterministic nodes (bash scripts, tests, git ops) with AI nodes (planning, code generation, review). The AI only runs where it adds value.
+- **Portable** - Define workflows once in `.archon/workflows/`, commit them to your repo. They work the same from CLI, Web UI, Slack, Telegram, or GitHub.
 
-## 🔗 Important Links
+## What It Looks Like
 
-- **[GitHub Discussions](https://github.com/coleam00/Archon/discussions)** - Join the conversation and share ideas about Archon
-- **[Contributing Guide](CONTRIBUTING.md)** - How to get involved and contribute to Archon
-- **[Introduction Video](https://youtu.be/8pRc_s2VQIo)** - Getting started guide and vision for Archon
-- **[Archon Kanban Board](https://github.com/users/coleam00/projects/1)** - Where maintainers are managing issues/features
-- **[Dynamous AI Mastery](https://dynamous.ai)** - The birthplace of Archon - come join a vibrant community of other early AI adopters all helping each other transform their careers and businesses!
+Here's an example of an Archon workflow that plans, implements in a loop until tests pass, gets your approval, then creates the PR:
 
-## Quick Start
+```yaml
+# .archon/workflows/build-feature.yaml
+nodes:
+  - id: plan
+    prompt: "Explore the codebase and create an implementation plan"
 
-<p align="center">
-  <a href="https://youtu.be/DMXyDpnzNpY">
-    <img src="https://img.youtube.com/vi/DMXyDpnzNpY/maxresdefault.jpg" alt="Archon Setup Tutorial" width="640" />
-  </a>
-  <br/>
-  <em>📺 Click to watch the setup tutorial on YouTube</em>
-  <br/>
-  <a href="./archon-example-workflow">-> Example AI coding workflow in the video <-</a>
-</p>
+  - id: implement
+    depends_on: [plan]
+    loop:                                      # AI loop - iterate until done
+      prompt: "Read the plan. Implement the next task. Run validation."
+      until: ALL_TASKS_COMPLETE
+      fresh_context: true                      # Fresh session each iteration
 
-### Prerequisites
+  - id: run-tests
+    depends_on: [implement]
+    bash: "bun run validate"                   # Deterministic - no AI
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Node.js 18+](https://nodejs.org/) (for hybrid development mode)
-- [Supabase](https://supabase.com/) account (free tier or local Supabase both work)
-- [OpenAI API key](https://platform.openai.com/api-keys) (Gemini and Ollama are supported too!)
-- (OPTIONAL) [Make](https://www.gnu.org/software/make/) (see [Installing Make](#installing-make) below)
+  - id: review
+    depends_on: [run-tests]
+    prompt: "Review all changes against the plan. Fix any issues."
 
-### Setup Instructions
+  - id: approve
+    depends_on: [review]
+    loop:                                      # Human approval gate
+      prompt: "Present the changes for review. Address any feedback."
+      until: APPROVED
+      interactive: true                        # Pauses and waits for human input
 
-1. **Clone Repository**:
-   ```bash
-   git clone -b stable https://github.com/coleam00/archon.git
-   ```
-   ```bash
-   cd archon
-   ```
-   
-   **Note:** The `stable` branch is recommended for using Archon. If you want to contribute or try the latest features, use the `main` branch with `git clone https://github.com/coleam00/archon.git`
-2. **Environment Configuration**:
+  - id: create-pr
+    depends_on: [approve]
+    prompt: "Push changes and create a pull request"
+```
 
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your Supabase credentials:
-   # SUPABASE_URL=https://your-project.supabase.co
-   # SUPABASE_SERVICE_KEY=your-service-key-here
-   ```
+Tell your coding agent what you want, and Archon handles the rest:
 
-   IMPORTANT NOTES:
-   - For cloud Supabase: they recently introduced a new type of service role key but use the legacy one (the longer one).
-   - For local Supabase: set SUPABASE_URL to http://host.docker.internal:8000 (unless you have an IP address set up).
+```
+You: Use archon to add dark mode to the settings page
 
-3. **Database Setup**: In your [Supabase project](https://supabase.com/dashboard) SQL Editor, copy, paste, and execute the contents of `migration/complete_setup.sql`
+Agent: I'll run the archon-idea-to-pr workflow for this.
+       → Creating isolated worktree on branch archon/task-dark-mode...
+       → Planning...
+       → Implementing (task 1/4)...
+       → Implementing (task 2/4)...
+       → Tests failing - iterating...
+       → Tests passing after 2 iterations
+       → Code review complete - 0 issues
+       → PR ready: https://github.com/you/project/pull/47
+```
 
-4. **Start Services** (choose one):
+## Previous Version
 
-   **Full Docker Mode (Recommended for Normal Archon Usage)**
+Looking for the original Python-based Archon (task management + RAG)? It's fully preserved on the [`archive/v1-task-management-rag`](https://github.com/coleam00/Archon/tree/archive/v1-task-management-rag) branch.
 
-   ```bash
-   docker compose up --build -d
-   ```
+## Getting Started
 
-   This starts all core microservices in Docker:
-   - **Server**: Core API and business logic (Port: 8181)
-   - **MCP Server**: Protocol interface for AI clients (Port: 8051)
-   - **UI**: Web interface (Port: 3737)
+> **Most users should start with the [Full Setup](#full-setup-5-minutes)** - it walks you through credentials, installs the Archon skill into your projects, and gives you the web dashboard.
+>
+> **Already have Claude Code and just want the CLI?** Jump to the [Quick Install](#quick-install-30-seconds).
 
-   Ports are configurable in your .env as well!
+### Full Setup (5 minutes)
 
-5. **Configure API Keys**:
-   - Open http://localhost:3737
-   - You'll automatically be brought through an onboarding flow to set your API key (OpenAI is default)
-
-## ⚡ Quick Test
-
-Once everything is running:
-
-1. **Test Web Crawling**: Go to http://localhost:3737 → Knowledge Base → "Crawl Website" → Enter a doc URL (such as https://ai.pydantic.dev/llms-full.txt)
-2. **Test Document Upload**: Knowledge Base → Upload a PDF
-3. **Test Projects**: Projects → Create a new project and add tasks
-4. **Integrate with your AI coding assistant**: MCP Dashboard → Copy connection config for your AI coding assistant 
-
-## Installing Make
+Clone the repo and use the guided setup wizard. This configures credentials, platform integrations, and copies the Archon skill into your target projects.
 
 <details>
-<summary><strong>🛠️ Make installation (OPTIONAL - For Dev Workflows)</strong></summary>
+<summary><b>Prerequisites</b> - Bun, Claude Code, and the GitHub CLI</summary>
 
-### Windows
+**Bun** - [bun.sh](https://bun.sh)
 
 ```bash
-# Option 1: Using Chocolatey
-choco install make
+# macOS/Linux
+curl -fsSL https://bun.sh/install | bash
 
-# Option 2: Using Scoop
-scoop install make
-
-# Option 3: Using WSL2
-wsl --install
-# Then in WSL: sudo apt-get install make
+# Windows (PowerShell)
+irm bun.sh/install.ps1 | iex
 ```
 
-### macOS
+**GitHub CLI** - [cli.github.com](https://cli.github.com/)
 
 ```bash
-# Make comes pre-installed on macOS
-# If needed: brew install make
+# macOS
+brew install gh
+
+# Windows (via winget)
+winget install GitHub.cli
+
+# Linux (Debian/Ubuntu)
+sudo apt install gh
 ```
 
-### Linux
+**Claude Code** - [claude.ai/code](https://claude.ai/code)
 
 ```bash
-# Debian/Ubuntu
-sudo apt-get install make
+# macOS/Linux/WSL
+curl -fsSL https://claude.ai/install.sh | bash
 
-# RHEL/CentOS/Fedora
-sudo yum install make
+# Windows (PowerShell)
+irm https://claude.ai/install.ps1 | iex
 ```
 
 </details>
 
-<details>
-<summary><strong>🚀 Quick Command Reference for Make</strong></summary>
-<br/>
+```bash
+git clone https://github.com/coleam00/Archon
+cd Archon
+bun install
+claude
+```
 
-| Command           | Description                                             |
-| ----------------- | ------------------------------------------------------- |
-| `make dev`        | Start hybrid dev (backend in Docker, frontend local) ⭐ |
-| `make dev-docker` | Everything in Docker                                    |
-| `make stop`       | Stop all services                                       |
-| `make test`       | Run all tests                                           |
-| `make lint`       | Run linters                                             |
-| `make install`    | Install dependencies                                    |
-| `make check`      | Check environment setup                                 |
-| `make clean`      | Remove containers and volumes (with confirmation)       |
+Then say: **"Set up Archon"**
 
-</details>
+The setup wizard walks you through everything: CLI installation, authentication, platform selection, and copies the Archon skill to your target repo.
 
-## 🔄 Database Reset (Start Fresh if Needed)
+### Quick Install (30 seconds)
 
-If you need to completely reset your database and start fresh:
+Already have Claude Code set up? Install the standalone CLI binary and skip the wizard.
 
-<details>
-<summary>⚠️ <strong>Reset Database - This will delete ALL data for Archon!</strong></summary>
+**macOS / Linux**
+```bash
+curl -fsSL https://archon.diy/install | bash
+```
 
-1. **Run Reset Script**: In your Supabase SQL Editor, run the contents of `migration/RESET_DB.sql`
+**Windows (PowerShell)**
+```powershell
+irm https://archon.diy/install.ps1 | iex
+```
 
-   ⚠️ WARNING: This will delete all Archon specific tables and data! Nothing else will be touched in your DB though.
+**Homebrew**
+```bash
+brew install coleam00/archon/archon
+```
 
-2. **Rebuild Database**: After reset, run `migration/complete_setup.sql` to create all the tables again.
+### Start Using Archon
 
-3. **Restart Services**:
+Once you've completed either setup path, go to your project and start working:
 
-   ```bash
-   docker compose --profile full up -d
-   ```
+```bash
+cd /path/to/your/project
+claude
+```
 
-4. **Reconfigure**:
-   - Select your LLM/embedding provider and set the API key again
-   - Re-upload any documents or re-crawl websites
+```
+Use archon to fix issue #42
+```
 
-The reset script safely removes all tables, functions, triggers, and policies with proper dependency handling.
+```
+What archon workflows do I have? When would I use each one?
+```
 
-</details>
+The coding agent handles workflow selection, branch naming, and worktree isolation for you. Projects are registered automatically the first time they're used.
 
-## 📚 Documentation
+> **Important:** Always run Claude Code from your target repo, not from the Archon repo. The setup wizard copies the Archon skill into your project so it works from there.
 
-### Core Services
+## Web UI
 
-| Service            | Container Name | Default URL           | Purpose                           |
-| ------------------ | -------------- | --------------------- | --------------------------------- |
-| **Web Interface**  | archon-ui      | http://localhost:3737 | Main dashboard and controls       |
-| **API Service**    | archon-server  | http://localhost:8181 | Web crawling, document processing |
-| **MCP Server**     | archon-mcp     | http://localhost:8051 | Model Context Protocol interface  |
-| **Agents Service** | archon-agents  | http://localhost:8052 | AI/ML operations, reranking       |  
+Archon includes a web dashboard for chatting with your coding agent, running workflows, and monitoring activity. To start it, ask your coding agent to run the frontend from the Archon repo, or run `bun run dev` from the repo root yourself.
 
-## Upgrading
+Register a project by clicking **+** next to "Project" in the chat sidebar - enter a GitHub URL or local path. Then start a conversation, invoke workflows, and watch progress in real time.
 
-To upgrade Archon to the latest version:
+**Key pages:**
+- **Chat** - Conversation interface with real-time streaming and tool call visualization
+- **Dashboard** - Mission Control for monitoring running workflows, with filterable history by project, status, and date
+- **Workflow Builder** - Visual drag-and-drop editor for creating DAG workflows with loop nodes
+- **Workflow Execution** - Step-by-step progress view for any running or completed workflow
 
-1. **Pull latest changes**:
-   ```bash
-   git pull
-   ```
+**Monitoring hub:** The sidebar shows conversations from **all platforms** - not just the web. Workflows kicked off from the CLI, messages from Slack or Telegram, GitHub issue interactions - everything appears in one place.
 
-2. **Rebuild and restart containers**:
-   ```bash
-   docker compose up -d --build
-   ```
-   This rebuilds containers with the latest code and restarts all services.
+See the [Web UI Guide](https://archon.diy/adapters/web/) for full documentation.
 
-3. **Check for database migrations**:
-   - Open the Archon settings in your browser: [http://localhost:3737/settings](http://localhost:3737/settings)
-   - Navigate to the **Database Migrations** section
-   - If there are pending migrations, the UI will display them with clear instructions
-   - Click on each migration to view and copy the SQL
-   - Run the SQL scripts in your Supabase SQL editor in the order shown
+## What Can You Automate?
 
-## What's Included
+Archon ships with workflows for common development tasks:
 
-### 🧠 Knowledge Management
+| Workflow | What it does |
+|----------|-------------|
+| `archon-assist` | General Q&A, debugging, exploration - full Claude Code agent with all tools |
+| `archon-fix-github-issue` | Classify issue → investigate/plan → implement → validate → PR → smart review → self-fix |
+| `archon-idea-to-pr` | Feature idea → plan → implement → validate → PR → 5 parallel reviews → self-fix |
+| `archon-plan-to-pr` | Execute existing plan → implement → validate → PR → review → self-fix |
+| `archon-issue-review-full` | Comprehensive fix + full multi-agent review pipeline for GitHub issues |
+| `archon-smart-pr-review` | Classify PR complexity → run targeted review agents → synthesize findings |
+| `archon-comprehensive-pr-review` | Multi-agent PR review (5 parallel reviewers) with automatic fixes |
+| `archon-create-issue` | Classify problem → gather context → investigate → create GitHub issue |
+| `archon-validate-pr` | Thorough PR validation testing both main and feature branches |
+| `archon-resolve-conflicts` | Detect merge conflicts → analyze both sides → resolve → validate → commit |
+| `archon-feature-development` | Implement feature from plan → validate → create PR |
+| `archon-architect` | Architectural sweep, complexity reduction, codebase health improvement |
+| `archon-refactor-safely` | Safe refactoring with type-check hooks and behavior verification |
+| `archon-ralph-dag` | PRD implementation loop - iterate through stories until done |
+| `archon-remotion-generate` | Generate or modify Remotion video compositions with AI |
+| `archon-test-loop-dag` | Loop node test workflow - iterative counter until completion |
+| `archon-piv-loop` | Guided Plan-Implement-Validate loop with human review between iterations |
 
-- **Smart Web Crawling**: Automatically detects and crawls entire documentation sites, sitemaps, and individual pages
-- **Document Processing**: Upload and process PDFs, Word docs, markdown files, and text documents with intelligent chunking
-- **Code Example Extraction**: Automatically identifies and indexes code examples from documentation for enhanced search
-- **Vector Search**: Advanced semantic search with contextual embeddings for precise knowledge retrieval
-- **Source Management**: Organize knowledge by source, type, and tags for easy filtering
+Archon ships 17 default workflows - run `archon workflow list` or describe what you want and the router picks the right one.
 
-### 🤖 AI Integration
+**Or define your own.** Default workflows are great starting points - copy one from `.archon/workflows/defaults/` and customize it. Workflows are YAML files in `.archon/workflows/`, commands are markdown files in `.archon/commands/`. Same-named files in your repo override the bundled defaults. Commit them - your whole team runs the same process.
 
-- **Model Context Protocol (MCP)**: Connect any MCP-compatible client (Claude Code, Cursor, even non-AI coding assistants like Claude Desktop)
-- **MCP Tools**: Comprehensive yet simple set of tools for RAG queries, task management, and project operations
-- **Multi-LLM Support**: Works with OpenAI, Ollama, and Google Gemini models
-- **RAG Strategies**: Hybrid search, contextual embeddings, and result reranking for optimal AI responses
-- **Real-time Streaming**: Live responses from AI agents with progress tracking
+See [Authoring Workflows](https://archon.diy/guides/authoring-workflows/) and [Authoring Commands](https://archon.diy/guides/authoring-commands/).
 
-### 📋 Project & Task Management
+## Add a Platform
 
-- **Hierarchical Projects**: Organize work with projects, features, and tasks in a structured workflow
-- **AI-Assisted Creation**: Generate project requirements and tasks using integrated AI agents
-- **Document Management**: Version-controlled documents with collaborative editing capabilities
-- **Progress Tracking**: Real-time updates and status management across all project activities
+The Web UI and CLI work out of the box. Optionally connect a chat platform for remote access:
 
-### 🔄 Real-time Collaboration
-
-- **WebSocket Updates**: Live progress tracking for crawling, processing, and AI operations
-- **Multi-user Support**: Collaborative knowledge building and project management
-- **Background Processing**: Asynchronous operations that don't block the user interface
-- **Health Monitoring**: Built-in service health checks and automatic reconnection
+| Platform | Setup time | Guide |
+|----------|-----------|-------|
+| **Telegram** | 5 min | [Telegram Guide](https://archon.diy/adapters/telegram/) |
+| **Slack** | 15 min | [Slack Guide](https://archon.diy/adapters/slack/) |
+| **GitHub Webhooks** | 15 min | [GitHub Guide](https://archon.diy/adapters/github/) |
+| **Discord** | 5 min | [Discord Guide](https://archon.diy/adapters/community/discord/) |
 
 ## Architecture
 
-### Microservices Structure
-
-Archon uses true microservices architecture with clear separation of concerns:
-
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend UI   │    │  Server (API)   │    │   MCP Server    │    │ Agents Service  │
-│                 │    │                 │    │                 │    │                 │
-│  React + Vite   │◄──►│    FastAPI +    │◄──►│    Lightweight  │◄──►│   PydanticAI    │
-│  Port 3737      │    │    SocketIO     │    │    HTTP Wrapper │    │   Port 8052     │
-│                 │    │    Port 8181    │    │    Port 8051    │    │                 │
-└─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                        │                        │                        │
-         └────────────────────────┼────────────────────────┼────────────────────────┘
-                                  │                        │
-                         ┌─────────────────┐               │
-                         │    Database     │               │
-                         │                 │               │
-                         │    Supabase     │◄──────────────┘
-                         │    PostgreSQL   │
-                         │    PGVector     │
-                         └─────────────────┘
-```
-
-### Service Responsibilities
-
-| Service        | Location             | Purpose                      | Key Features                                                       |
-| -------------- | -------------------- | ---------------------------- | ------------------------------------------------------------------ |
-| **Frontend**   | `archon-ui-main/`    | Web interface and dashboard  | React, TypeScript, TailwindCSS, Socket.IO client                   |
-| **Server**     | `python/src/server/` | Core business logic and APIs | FastAPI, service layer, Socket.IO broadcasts, all ML/AI operations |
-| **MCP Server** | `python/src/mcp/`    | MCP protocol interface       | Lightweight HTTP wrapper, MCP tools, session management         |
-| **Agents**     | `python/src/agents/` | PydanticAI agent hosting     | Document and RAG agents, streaming responses                       |
-
-### Communication Patterns
-
-- **HTTP-based**: All inter-service communication uses HTTP APIs
-- **Socket.IO**: Real-time updates from Server to Frontend
-- **MCP Protocol**: AI clients connect to MCP Server via SSE or stdio
-- **No Direct Imports**: Services are truly independent with no shared code dependencies
-
-### Key Architectural Benefits
-
-- **Lightweight Containers**: Each service contains only required dependencies
-- **Independent Scaling**: Services can be scaled independently based on load
-- **Development Flexibility**: Teams can work on different services without conflicts
-- **Technology Diversity**: Each service uses the best tools for its specific purpose
-
-## 🔧 Configuring Custom Ports & Hostname
-
-By default, Archon services run on the following ports:
-
-- **archon-ui**: 3737
-- **archon-server**: 8181
-- **archon-mcp**: 8051
-- **archon-agents**: 8052
-- **archon-docs**: 3838 (optional)
-
-### Changing Ports
-
-To use custom ports, add these variables to your `.env` file:
-
-```bash
-# Service Ports Configuration
-ARCHON_UI_PORT=3737
-ARCHON_SERVER_PORT=8181
-ARCHON_MCP_PORT=8051
-ARCHON_AGENTS_PORT=8052
-ARCHON_DOCS_PORT=3838
+┌─────────────────────────────────────────────────────────┐
+│  Platform Adapters (Web UI, CLI, Telegram, Slack,       │
+│                    Discord, GitHub)                      │
+└──────────────────────────┬──────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                     Orchestrator                        │
+│          (Message Routing & Context Management)         │
+└─────────────┬───────────────────────────┬───────────────┘
+              │                           │
+      ┌───────┴────────┐          ┌───────┴────────┐
+      │                │          │                │
+      ▼                ▼          ▼                ▼
+┌───────────┐  ┌────────────┐  ┌──────────────────────────┐
+│  Command  │  │  Workflow  │  │    AI Assistant Clients  │
+│  Handler  │  │  Executor  │  │      (Claude / Codex)    │
+│  (Slash)  │  │  (YAML)    │  │                          │
+└───────────┘  └────────────┘  └──────────────────────────┘
+      │              │                      │
+      └──────────────┴──────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│              SQLite / PostgreSQL (7 Tables)             │
+│   Codebases • Conversations • Sessions • Workflow Runs  │
+│    Isolation Environments • Messages • Workflow Events  │
+└─────────────────────────────────────────────────────────┘
 ```
 
-Example: Running on different ports:
+## Documentation
 
-```bash
-ARCHON_SERVER_PORT=8282
-ARCHON_MCP_PORT=8151
-```
+Full documentation is available at **[archon.diy](https://archon.diy)**.
 
-### Configuring Hostname
+| Topic | Description |
+|-------|-------------|
+| [Getting Started](https://archon.diy/getting-started/overview/) | Setup guide (Web UI or CLI) |
+| [The Book of Archon](https://archon.diy/book/) | 10-chapter narrative tutorial |
+| [CLI Reference](https://archon.diy/reference/cli/) | Full CLI reference |
+| [Authoring Workflows](https://archon.diy/guides/authoring-workflows/) | Create custom YAML workflows |
+| [Authoring Commands](https://archon.diy/guides/authoring-commands/) | Create reusable AI commands |
+| [Configuration](https://archon.diy/reference/configuration/) | All config options, env vars, YAML settings |
+| [AI Assistants](https://archon.diy/getting-started/ai-assistants/) | Claude and Codex setup details |
+| [Deployment](https://archon.diy/deployment/) | Docker, VPS, production setup |
+| [Architecture](https://archon.diy/reference/architecture/) | System design and internals |
+| [Troubleshooting](https://archon.diy/reference/troubleshooting/) | Common issues and fixes |
 
-By default, Archon uses `localhost` as the hostname. You can configure a custom hostname or IP address by setting the `HOST` variable in your `.env` file:
+## Contributing
 
-```bash
-# Hostname Configuration
-HOST=localhost  # Default
+Contributions welcome! See the open [issues](https://github.com/coleam00/Archon/issues) for things to work on.
 
-# Examples of custom hostnames:
-HOST=192.168.1.100     # Use specific IP address
-HOST=archon.local      # Use custom domain
-HOST=myserver.com      # Use public domain
-```
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
-This is useful when:
+## License
 
-- Running Archon on a different machine and accessing it remotely
-- Using a custom domain name for your installation
-- Deploying in a network environment where `localhost` isn't accessible
-
-After changing hostname or ports:
-
-1. Restart Docker containers: `docker compose down && docker compose --profile full up -d`
-2. Access the UI at: `http://${HOST}:${ARCHON_UI_PORT}`
-3. Update your AI client configuration with the new hostname and MCP port
-
-## 🔧 Development
-
-### Quick Start
-
-```bash
-# Install dependencies
-make install
-
-# Start development (recommended)
-make dev        # Backend in Docker, frontend local with hot reload
-
-# Alternative: Everything in Docker
-make dev-docker # All services in Docker
-
-# Stop everything (local FE needs to be stopped manually)
-make stop
-```
-
-### Development Modes
-
-#### Hybrid Mode (Recommended) - `make dev`
-
-Best for active development with instant frontend updates:
-
-- Backend services run in Docker (isolated, consistent)
-- Frontend runs locally with hot module replacement
-- Instant UI updates without Docker rebuilds
-
-#### Full Docker Mode - `make dev-docker`
-
-For all services in Docker environment:
-
-- All services run in Docker containers
-- Better for integration testing
-- Slower frontend updates
-
-### Testing & Code Quality
-
-```bash
-# Run tests
-make test       # Run all tests
-make test-fe    # Run frontend tests
-make test-be    # Run backend tests
-
-# Run linters
-make lint       # Lint all code
-make lint-fe    # Lint frontend code
-make lint-be    # Lint backend code
-
-# Check environment
-make check      # Verify environment setup
-
-# Clean up
-make clean      # Remove containers and volumes (asks for confirmation)
-```
-
-### Viewing Logs
-
-```bash
-# View logs using Docker Compose directly
-docker compose logs -f              # All services
-docker compose logs -f archon-server # API server
-docker compose logs -f archon-mcp    # MCP server
-docker compose logs -f archon-ui     # Frontend
-```
-
-**Note**: The backend services are configured with `--reload` flag in their uvicorn commands and have source code mounted as volumes for automatic hot reloading when you make changes.
-
-## Troubleshooting
-
-### Common Issues and Solutions
-
-#### Port Conflicts
-
-If you see "Port already in use" errors:
-
-```bash
-# Check what's using a port (e.g., 3737)
-lsof -i :3737
-
-# Stop all containers and local services
-make stop
-
-# Change the port in .env
-```
-
-#### Docker Permission Issues (Linux)
-
-If you encounter permission errors with Docker:
-
-```bash
-# Add your user to the docker group
-sudo usermod -aG docker $USER
-
-# Log out and back in, or run
-newgrp docker
-```
-
-#### Windows-Specific Issues
-
-- **Make not found**: Install Make via Chocolatey, Scoop, or WSL2 (see [Installing Make](#installing-make))
-- **Line ending issues**: Configure Git to use LF endings:
-  ```bash
-  git config --global core.autocrlf false
-  ```
-
-#### Frontend Can't Connect to Backend
-
-- Check backend is running: `curl http://localhost:8181/health`
-- Verify port configuration in `.env`
-- For custom ports, ensure both `ARCHON_SERVER_PORT` and `VITE_ARCHON_SERVER_PORT` are set
-
-#### Docker Compose Hangs
-
-If `docker compose` commands hang:
-
-```bash
-# Reset Docker Compose
-docker compose down --remove-orphans
-docker system prune -f
-
-# Restart Docker Desktop (if applicable)
-```
-
-#### Hot Reload Not Working
-
-- **Frontend**: Ensure you're running in hybrid mode (`make dev`) for best HMR experience
-- **Backend**: Check that volumes are mounted correctly in `docker-compose.yml`
-- **File permissions**: On some systems, mounted volumes may have permission issues
-
-## 📈 Progress
-
-<p align="center">
-  <a href="https://star-history.com/#coleam00/Archon&Date">
-    <img src="https://api.star-history.com/svg?repos=coleam00/Archon&type=Date" width="500" alt="Star History Chart">
-  </a>
-</p>
-
-## 📄 License
-
-Archon Community License (ACL) v1.2 - see [LICENSE](LICENSE) file for details.
-
-**TL;DR**: Archon is free, open, and hackable. Run it, fork it, share it - just don't sell it as-a-service without permission.
+[MIT](LICENSE)
