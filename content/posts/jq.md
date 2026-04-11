@@ -1,21 +1,21 @@
 ---
 title: jq
-date: 2023-09-09T12:16:16+08:00
+date: 2026-04-11T13:25:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692864291133-99138c33ca03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692864291133-99138c33ca03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1773936850486-eadf8cf81872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773936850486-eadf8cf81872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
 ---
 
 # [jqlang/jq](https://github.com/jqlang/jq)
 
 # jq
 
-`jq` is a lightweight and flexible command-line JSON processor akin to`sed`,`awk`,`grep`, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.
+`jq` is a lightweight and flexible command-line JSON processor akin to `sed`,`awk`,`grep`, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.
 
 ## Documentation
 
-- **Official Documentation**: [jqlang.github.io/jq](https://jqlang.github.io/jq)
-- **Try jq Online**: [jqplay.org](https://jqplay.org)
+- **Official Documentation**: [jqlang.org](https://jqlang.org)
+- **Try jq Online**: [play.jqlang.org](https://play.jqlang.org)
 
 ## Installation
 
@@ -26,6 +26,20 @@ Download the latest releases from the [GitHub release page](https://github.com/j
 ### Docker Image
 
 Pull the [jq image](https://github.com/jqlang/jq/pkgs/container/jq) to start quickly with Docker.
+
+#### Run with Docker
+
+##### Example: Extracting the version from a `package.json` file
+
+```bash
+docker run --rm -i ghcr.io/jqlang/jq:latest < package.json '.version'
+```
+
+##### Example: Extracting the version from a `package.json` file with a mounted volume
+
+```bash
+docker run --rm -i -v "$PWD:$PWD" -w "$PWD" ghcr.io/jqlang/jq:latest '.version' package.json
+```
 
 ### Building from source
 
@@ -39,9 +53,10 @@ Pull the [jq image](https://github.com/jqlang/jq/pkgs/container/jq) to start qui
 #### Instructions
 
 ```console
-git submodule update --init # if building from git to get oniguruma
-autoreconf -i               # if building from git
+git submodule update --init    # if building from git to get oniguruma
+autoreconf -i                  # if building from git
 ./configure --with-oniguruma=builtin
+make clean                     # if upgrading from a version previously built from source
 make -j8
 make check
 sudo make install
@@ -57,7 +72,7 @@ If you're not using the latest git version but instead building a released tarba
 
 ##### Cross-Compilation
 
-For details on cross-compliation, check out the [GitHub Actions file](.github/workflows/ci.yml) and the [cross-compliation wiki page](https://github.com/jqlang/jq/wiki/Cross-compilation).
+For details on cross-compilation, check out the [GitHub Actions file](.github/workflows/ci.yml) and the [cross-compilation wiki page](https://github.com/jqlang/jq/wiki/Cross-compilation).
 
 ## Community & Support
 
@@ -67,4 +82,7 @@ For details on cross-compliation, check out the [GitHub Actions file](.github/wo
 
 ## License
 
-`jq` is released under the [MIT License](COPYING).
+`jq` is released under the [MIT License](COPYING). `jq`'s documentation is
+licensed under the [Creative Commons CC BY 3.0](COPYING).
+`jq` uses parts of the open source C library "decNumber", which is distributed
+under [ICU License](COPYING)

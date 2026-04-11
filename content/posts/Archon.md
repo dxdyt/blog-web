@@ -1,9 +1,9 @@
 ---
 title: Archon
-date: 2026-04-10T13:58:07+08:00
+date: 2026-04-11T13:24:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770045990733-6e9f6c083f0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770045990733-6e9f6c083f0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775660724954-0e135f24d3af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775660724954-0e135f24d3af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
 ---
 
 # [coleam00/Archon](https://github.com/coleam00/Archon)
@@ -204,7 +204,7 @@ The coding agent handles workflow selection, branch naming, and worktree isolati
 
 ## Web UI
 
-Archon includes a web dashboard for chatting with your coding agent, running workflows, and monitoring activity. To start it, ask your coding agent to run the frontend from the Archon repo, or run `bun run dev` from the repo root yourself.
+Archon includes a web dashboard for chatting with your coding agent, running workflows, and monitoring activity. Binary installs: run `archon serve` to download and start the web UI in one step. From source: ask your coding agent to run the frontend from the Archon repo, or run `bun run dev` from the repo root yourself.
 
 Register a project by clicking **+** next to "Project" in the chat sidebar - enter a GitHub URL or local path. Then start a conversation, invoke workflows, and watch progress in real time.
 

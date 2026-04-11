@@ -1,9 +1,9 @@
 ---
 title: DeepTutor
-date: 2026-04-10T13:57:27+08:00
+date: 2026-04-11T13:24:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774099113784-1d7ad4b4efc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774099113784-1d7ad4b4efc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4MDA2MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774532738214-6dab904e4d01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774532738214-6dab904e4d01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
@@ -45,13 +45,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1774099113784-1d7ad4b4ef
 
 ### 📦 Releases
 
+> **[2026.4.11]** [v1.0.2](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.2) — Search consolidation simplification with SearXNG fallback, provider switch fix, explicit runtime config in test runner, and frontend resource leak fixes.
+
+> **[2026.4.10]** [v1.0.1](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.1) — New Visualize capability with Chart.js/SVG rendering pipeline, quiz duplicate prevention with generation history, o4-mini model support, and server logging improvements.
+
 > **[2026.4.10]** [v1.0.0-beta.4](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.4) — Embedding progress tracking with HTTP 429 rate limit retry, cross-platform start tour dependency management, and case-insensitive MIME validation fix.
 
 > **[2026.4.8]** [v1.0.0-beta.3](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.3) — Remove litellm dependency with native OpenAI/Anthropic SDK providers, Windows Math Animator compatibility, robust JSON parsing for LLM outputs, Guided Learning KaTeX & navigation fixes, and full i18n coverage for Chinses.
 
 > **[2026.4.7]** [v1.0.0-beta.2](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.2) — Runtime cache invalidation for hot settings reload, MinerU nested output support, mimic WebSocket fix, Python 3.11+ minimum, and CI improvements.
 
-> **[2026.4.4]** [v1.0.0-beta.1](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.1) — Agent-native architecture rewrite (DeepTutor 2.0) with two-layer plugin model (Tools + Capabilities), CLI & SDK entry points, TutorBot multi-channel bot agent, Co-Writer, Guided Learning, and persistent memory.
+> **[2026.4.4]** [v1.0.0-beta.1](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.1) — Agent-native architecture rewrite (～200k lines) with two-layer plugin model (Tools + Capabilities), CLI & SDK entry points, TutorBot multi-channel bot agent, Co-Writer, Guided Learning, and persistent memory.
 
 <details>
 <summary><b>Past releases</b></summary>
