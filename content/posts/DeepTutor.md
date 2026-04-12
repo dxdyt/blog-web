@@ -1,9 +1,9 @@
 ---
 title: DeepTutor
-date: 2026-04-11T13:24:44+08:00
+date: 2026-04-12T13:54:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774532738214-6dab904e4d01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774532738214-6dab904e4d01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU4ODUwMjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU5NzMxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU5NzMxODJ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
@@ -33,15 +33,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1774532738214-6dab904e4d
 </div>
 
 ---
-### 📰 News
-
-> **[2026.4.4]** Long time no see! ✨ DeepTutor v1.0.0 is finally here — an agent-native evolution featuring a ground-up architecture rewrite, TutorBot, and flexible mode switching under the Apache-2.0 license. A new chapter begins, and our story continues! 
-
-> **[2026.2.6]** 🚀 We've reached 10k stars in just 39 days! A huge thank you to our incredible community for the support! 
-
-> **[2026.1.1]** Happy New Year! Join our [Discord](https://discord.gg/eRsjPgMU4t), [WeChat](https://github.com/HKUDS/DeepTutor/issues/78), or [Discussions](https://github.com/HKUDS/DeepTutor/discussions) — let's shape the future of DeepTutor together!
-
-> **[2025.12.29]** DeepTutor is officially released!
 
 ### 📦 Releases
 
@@ -56,6 +47,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1774532738214-6dab904e4d
 > **[2026.4.7]** [v1.0.0-beta.2](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.2) — Runtime cache invalidation for hot settings reload, MinerU nested output support, mimic WebSocket fix, Python 3.11+ minimum, and CI improvements.
 
 > **[2026.4.4]** [v1.0.0-beta.1](https://github.com/HKUDS/DeepTutor/releases/tag/v1.0.0-beta.1) — Agent-native architecture rewrite (～200k lines) with two-layer plugin model (Tools + Capabilities), CLI & SDK entry points, TutorBot multi-channel bot agent, Co-Writer, Guided Learning, and persistent memory.
+
+### 📰 News
+
+> **[2026.4.4]** Long time no see! ✨ DeepTutor v1.0.0 is finally here — an agent-native evolution featuring a ground-up architecture rewrite, TutorBot, and flexible mode switching under the Apache-2.0 license. A new chapter begins, and our story continues! 
+
+> **[2026.2.6]** 🚀 We've reached 10k stars in just 39 days! A huge thank you to our incredible community for the support! 
+
+> **[2026.1.1]** Happy New Year! Join our [Discord](https://discord.gg/eRsjPgMU4t), [WeChat](https://github.com/HKUDS/DeepTutor/issues/78), or [Discussions](https://github.com/HKUDS/DeepTutor/discussions) — let's shape the future of DeepTutor together!
+
+> **[2025.12.29]** DeepTutor is officially released!
+
 
 <details>
 <summary><b>Past releases</b></summary>
