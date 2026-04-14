@@ -1,9 +1,9 @@
 ---
 title: blender-mcp
-date: 2026-04-13T14:14:57+08:00
+date: 2026-04-14T14:01:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773318435531-101e57047732?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773318435531-101e57047732?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774607865683-114a2ba26886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774607865683-114a2ba26886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)

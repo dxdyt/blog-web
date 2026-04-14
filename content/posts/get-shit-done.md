@@ -1,9 +1,9 @@
 ---
 title: get-shit-done
-date: 2026-03-20T13:15:56+08:00
+date: 2026-04-14T14:01:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772687069217-f87131603e53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772687069217-f87131603e53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5ODM2NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774105618837-21ea179aef8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774105618837-21ea179aef8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)
@@ -12,21 +12,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1772687069217-f87131603e
 
 # GET SHIT DONE
 
-**English** · [简体中文](README.zh-CN.md)
+**English** · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md)
 
-**A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, Gemini CLI, Codex, Copilot, and Antigravity.**
+**A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, Gemini CLI, Kilo, Codex, Copilot, Cursor, Windsurf, Antigravity, Augment, Trae, Qwen Code, Cline, and CodeBuddy.**
 
 **Solves context rot — the quality degradation that happens as Claude fills its context window.**
 
-[**English**](README.md) | [**简体中文**](docs/zh-CN/README.md)
-
 [![npm version](https://img.shields.io/npm/v/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
 [![npm downloads](https://img.shields.io/npm/dm/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
-[![Tests](https://img.shields.io/github/actions/workflow/status/glittercowboy/get-shit-done/test.yml?branch=main&style=for-the-badge&logo=github&label=Tests)](https://github.com/glittercowboy/get-shit-done/actions/workflows/test.yml)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gsd)
+[![Tests](https://img.shields.io/github/actions/workflow/status/gsd-build/get-shit-done/test.yml?branch=main&style=for-the-badge&logo=github&label=Tests)](https://github.com/gsd-build/get-shit-done/actions/workflows/test.yml)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mYgfVNfA2r)
 [![X (Twitter)](https://img.shields.io/badge/X-@gsd__foundation-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/gsd_foundation)
 [![$GSD Token](https://img.shields.io/badge/$GSD-Dexscreener-1C1C1C?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgZmlsbD0iIzAwRkYwMCIvPjwvc3ZnPg==&logoColor=00FF00)](https://dexscreener.com/solana/dwudwjvan7bzkw9zwlbyv6kspdlvhwzrqy6ebk8xzxkv)
-[![GitHub stars](https://img.shields.io/github/stars/glittercowboy/get-shit-done?style=for-the-badge&logo=github&color=181717)](https://github.com/glittercowboy/get-shit-done)
+[![GitHub stars](https://img.shields.io/github/stars/gsd-build/get-shit-done?style=for-the-badge&logo=github&color=181717)](https://github.com/gsd-build/get-shit-done)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
 <br>
@@ -59,6 +57,20 @@ npx get-shit-done-cc@latest
 
 ---
 
+> [!IMPORTANT]
+> ### Welcome Back to GSD
+>
+> If you're returning to GSD after the recent Anthropic Terms of Service changes — welcome back. We kept building while you were gone.
+>
+> **To re-import an existing project into GSD:**
+> 1. Run `/gsd-map-codebase` to scan and index your current codebase state
+> 2. Run `/gsd-new-project` to initialize a fresh GSD planning structure using the codebase map as context
+> 3. Review [docs/USER-GUIDE.md](docs/USER-GUIDE.md) and the [CHANGELOG](CHANGELOG.md) for updates — a lot has changed since you were last here
+>
+> Your code is fine. GSD just needs its planning context rebuilt. The two commands above handle that.
+
+---
+
 ## Why I Built This
 
 I'm a solo developer. I don't write code — Claude Code does.
@@ -85,6 +97,16 @@ GSD fixes that. It's the context engineering layer that makes Claude Code reliab
 
 People who want to describe what they want and have it built correctly — without pretending they're running a 50-person engineering org.
 
+Built-in quality gates catch real problems: schema drift detection flags ORM changes missing migrations, security enforcement anchors verification to threat models, and scope reduction detection prevents the planner from silently dropping your requirements.
+
+### v1.34.0 Highlights
+
+- **Gates taxonomy** — 4 canonical gate types (pre-flight, revision, escalation, abort) wired into plan-checker and verifier agents
+- **Shell hooks fix** — `hooks/*.sh` files are now correctly included in the npm package, eliminating startup hook errors on fresh installs
+- **Post-merge hunk verification** — `reapply-patches` detects silently dropped hunks after three-way merge
+- **detectConfigDir fix** — Claude Code users no longer see false "update available" warnings when multiple runtimes are installed
+- **3 bug fixes** — Milestone backlog preservation, detectConfigDir priority, and npm package manifest
+
 ---
 
 ## Getting Started
@@ -94,18 +116,20 @@ npx get-shit-done-cc@latest
 ```
 
 The installer prompts you to choose:
-1. **Runtime** — Claude Code, OpenCode, Gemini, Codex, Copilot, Antigravity, or all
+1. **Runtime** — Claude Code, OpenCode, Gemini, Kilo, Codex, Copilot, Cursor, Windsurf, Antigravity, Augment, Trae, Qwen Code, CodeBuddy, Cline, or all (interactive multi-select — pick multiple runtimes in a single install session)
 2. **Location** — Global (all projects) or local (current project only)
 
 Verify with:
-- Claude Code / Gemini: `/gsd:help`
-- OpenCode: `/gsd-help`
+- Claude Code / Gemini / Copilot / Antigravity / Qwen Code: `/gsd-help`
+- OpenCode / Kilo / Augment / Trae / CodeBuddy: `/gsd-help`
 - Codex: `$gsd-help`
-- Copilot: `/gsd:help`
-- Antigravity: `/gsd:help`
+- Cline: GSD installs via `.clinerules` — verify by checking `.clinerules` exists
 
 > [!NOTE]
-> Codex installation uses skills (`skills/gsd-*/SKILL.md`) rather than custom prompts.
+> Claude Code 2.1.88+, Qwen Code, and Codex install as skills (`skills/gsd-*/SKILL.md`). Older Claude Code versions use `commands/gsd/`. Cline uses `.clinerules` for configuration. The installer handles all formats automatically.
+
+> [!TIP]
+> For source-based installs or environments where npm is unavailable, see **[docs/manual-update.md](docs/manual-update.md)**.
 
 ### Staying Updated
 
@@ -123,43 +147,79 @@ npx get-shit-done-cc@latest
 npx get-shit-done-cc --claude --global   # Install to ~/.claude/
 npx get-shit-done-cc --claude --local    # Install to ./.claude/
 
-# OpenCode (open source, free models)
+# OpenCode
 npx get-shit-done-cc --opencode --global # Install to ~/.config/opencode/
 
 # Gemini CLI
 npx get-shit-done-cc --gemini --global   # Install to ~/.gemini/
 
-# Codex (skills-first)
+# Kilo
+npx get-shit-done-cc --kilo --global     # Install to ~/.config/kilo/
+npx get-shit-done-cc --kilo --local      # Install to ./.kilo/
+
+# Codex
 npx get-shit-done-cc --codex --global    # Install to ~/.codex/
 npx get-shit-done-cc --codex --local     # Install to ./.codex/
 
-# Copilot (GitHub Copilot CLI)
+# Copilot
 npx get-shit-done-cc --copilot --global  # Install to ~/.github/
 npx get-shit-done-cc --copilot --local   # Install to ./.github/
 
-# Antigravity (Google, skills-first, Gemini-based)
+# Cursor CLI
+npx get-shit-done-cc --cursor --global      # Install to ~/.cursor/
+npx get-shit-done-cc --cursor --local       # Install to ./.cursor/
+
+# Windsurf
+npx get-shit-done-cc --windsurf --global    # Install to ~/.codeium/windsurf/
+npx get-shit-done-cc --windsurf --local     # Install to ./.windsurf/
+
+# Antigravity
 npx get-shit-done-cc --antigravity --global # Install to ~/.gemini/antigravity/
 npx get-shit-done-cc --antigravity --local  # Install to ./.agent/
+
+# Augment
+npx get-shit-done-cc --augment --global     # Install to ~/.augment/
+npx get-shit-done-cc --augment --local      # Install to ./.augment/
+
+# Trae
+npx get-shit-done-cc --trae --global        # Install to ~/.trae/
+npx get-shit-done-cc --trae --local         # Install to ./.trae/
+
+# Qwen Code
+npx get-shit-done-cc --qwen --global        # Install to ~/.qwen/
+npx get-shit-done-cc --qwen --local         # Install to ./.qwen/
+
+# CodeBuddy
+npx get-shit-done-cc --codebuddy --global   # Install to ~/.codebuddy/
+npx get-shit-done-cc --codebuddy --local    # Install to ./.codebuddy/
+
+# Cline
+npx get-shit-done-cc --cline --global       # Install to ~/.cline/
+npx get-shit-done-cc --cline --local        # Install to ./.clinerules
 
 # All runtimes
 npx get-shit-done-cc --all --global      # Install to all directories
 ```
 
 Use `--global` (`-g`) or `--local` (`-l`) to skip the location prompt.
-Use `--claude`, `--opencode`, `--gemini`, `--codex`, `--copilot`, `--antigravity`, or `--all` to skip the runtime prompt.
+Use `--claude`, `--opencode`, `--gemini`, `--kilo`, `--codex`, `--copilot`, `--cursor`, `--windsurf`, `--antigravity`, `--augment`, `--trae`, `--qwen`, `--codebuddy`, `--cline`, or `--all` to skip the runtime prompt.
+Use `--sdk` to also install the GSD SDK CLI (`gsd-sdk`) for headless autonomous execution.
 
 </details>
 
 <details>
 <summary><strong>Development Installation</strong></summary>
 
-Clone the repository and run the installer locally:
+Clone the repository, build hooks, and run the installer locally:
 
 ```bash
-git clone https://github.com/glittercowboy/get-shit-done.git
+git clone https://github.com/gsd-build/get-shit-done.git
 cd get-shit-done
+npm run build:hooks
 node bin/install.js --claude --local
 ```
+
+The `build:hooks` step is required — it compiles hook sources into `hooks/dist/` which the installer copies from. Without it, hooks won't be installed and you'll get hook errors in Claude Code. (The npm release handles this automatically via `prepublishOnly`.)
 
 Installs to `./.claude/` for testing modifications before contributing.
 
@@ -213,12 +273,12 @@ If you prefer not to use that flag, add this to your project's `.claude/settings
 
 ## How It Works
 
-> **Already have code?** Run `/gsd:map-codebase` first. It spawns parallel agents to analyze your stack, architecture, conventions, and concerns. Then `/gsd:new-project` knows your codebase — questions focus on what you're adding, and planning automatically loads your patterns.
+> **Already have code?** Run `/gsd-map-codebase` first. It spawns parallel agents to analyze your stack, architecture, conventions, and concerns. Then `/gsd-new-project` knows your codebase — questions focus on what you're adding, and planning automatically loads your patterns.
 
 ### 1. Initialize Project
 
 ```
-/gsd:new-project
+/gsd-new-project
 ```
 
 One command, one flow. The system:
@@ -237,7 +297,7 @@ You approve the roadmap. Now you're ready to build.
 ### 2. Discuss Phase
 
 ```
-/gsd:discuss-phase 1
+/gsd-discuss-phase 1
 ```
 
 **This is where you shape the implementation.**
@@ -260,12 +320,14 @@ The deeper you go here, the more the system builds what you actually want. Skip 
 
 **Creates:** `{phase_num}-CONTEXT.md`
 
+> **Assumptions Mode:** Prefer codebase analysis over questions? Set `workflow.discuss_mode` to `assumptions` in `/gsd-settings`. The system reads your code, surfaces what it would do and why, and only asks you to correct what's wrong. See [Discuss Mode](docs/workflow-discuss-mode.md).
+
 ---
 
 ### 3. Plan Phase
 
 ```
-/gsd:plan-phase 1
+/gsd-plan-phase 1
 ```
 
 The system:
@@ -283,7 +345,7 @@ Each plan is small enough to execute in a fresh context window. No degradation, 
 ### 4. Execute Phase
 
 ```
-/gsd:execute-phase 1
+/gsd-execute-phase 1
 ```
 
 The system:
@@ -334,7 +396,7 @@ This is why "vertical slices" (Plan 01: User feature end-to-end) parallelize bet
 ### 5. Verify Work
 
 ```
-/gsd:verify-work 1
+/gsd-verify-work 1
 ```
 
 **This is where you confirm it actually works.**
@@ -348,7 +410,7 @@ The system:
 3. **Diagnoses failures automatically** — Spawns debug agents to find root causes
 4. **Creates verified fix plans** — Ready for immediate re-execution
 
-If everything passes, you move on. If something's broken, you don't manually debug — you just run `/gsd:execute-phase` again with the fix plans it created.
+If everything passes, you move on. If something's broken, you don't manually debug — you just run `/gsd-execute-phase` again with the fix plans it created.
 
 **Creates:** `{phase_num}-UAT.md`, fix plans if issues found
 
@@ -357,38 +419,38 @@ If everything passes, you move on. If something's broken, you don't manually deb
 ### 6. Repeat → Ship → Complete → Next Milestone
 
 ```
-/gsd:discuss-phase 2
-/gsd:plan-phase 2
-/gsd:execute-phase 2
-/gsd:verify-work 2
-/gsd:ship 2                  # Create PR from verified work
+/gsd-discuss-phase 2
+/gsd-plan-phase 2
+/gsd-execute-phase 2
+/gsd-verify-work 2
+/gsd-ship 2                  # Create PR from verified work
 ...
-/gsd:complete-milestone
-/gsd:new-milestone
+/gsd-complete-milestone
+/gsd-new-milestone
 ```
 
 Or let GSD figure out the next step automatically:
 
 ```
-/gsd:next                    # Auto-detect and run next step
+/gsd-next                    # Auto-detect and run next step
 ```
 
 Loop **discuss → plan → execute → verify → ship** until milestone complete.
 
-If you want faster intake during discussion, use `/gsd:discuss-phase <n> --batch` to answer a small grouped set of questions at once instead of one-by-one.
+If you want faster intake during discussion, use `/gsd-discuss-phase <n> --batch` to answer a small grouped set of questions at once instead of one-by-one. Use `--chain` to auto-chain discuss into plan+execute without stopping between steps.
 
 Each phase gets your input (discuss), proper research (plan), clean execution (execute), and human verification (verify). Context stays fresh. Quality stays high.
 
-When all phases are done, `/gsd:complete-milestone` archives the milestone and tags the release.
+When all phases are done, `/gsd-complete-milestone` archives the milestone and tags the release.
 
-Then `/gsd:new-milestone` starts the next version — same flow as `new-project` but for your existing codebase. You describe what you want to build next, the system researches the domain, you scope requirements, and it creates a fresh roadmap. Each milestone is a clean cycle: define → build → ship.
+Then `/gsd-new-milestone` starts the next version — same flow as `new-project` but for your existing codebase. You describe what you want to build next, the system researches the domain, you scope requirements, and it creates a fresh roadmap. Each milestone is a clean cycle: define → build → ship.
 
 ---
 
 ### Quick Mode
 
 ```
-/gsd:quick
+/gsd-quick
 ```
 
 **For ad-hoc tasks that don't need full planning.**
@@ -403,12 +465,14 @@ Quick mode gives you GSD guarantees (atomic commits, state tracking) with a fast
 
 **`--research` flag:** Spawns a focused researcher before planning. Investigates implementation approaches, library options, and pitfalls. Use when you're unsure how to approach a task.
 
-**`--full` flag:** Enables plan-checking (max 2 iterations) and post-execution verification.
+**`--full` flag:** Enables all phases — discussion + research + plan-checking + verification. The full GSD pipeline in quick-task form.
 
-Flags are composable: `--discuss --research --full` gives discussion + research + plan-checking + verification.
+**`--validate` flag:** Enables plan-checking + post-execution verification only (the previous `--full` behavior).
+
+Flags are composable: `--discuss --research --validate` gives discussion + research + plan-checking + verification.
 
 ```
-/gsd:quick
+/gsd-quick
 > What do you want to do? "Add dark mode toggle to settings"
 ```
 
@@ -434,6 +498,8 @@ GSD handles it for you:
 | `PLAN.md` | Atomic task with XML structure, verification steps |
 | `SUMMARY.md` | What happened, what changed, committed to history |
 | `todos/` | Captured ideas and tasks for later work |
+| `threads/` | Persistent context threads for cross-session work |
+| `seeds/` | Forward-looking ideas that surface at the right milestone |
 
 Size limits based on where Claude's quality degrades. Stay under, get consistent excellence.
 
@@ -505,73 +571,119 @@ You're never locked in. The system adapts.
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:new-project [--auto]` | Full initialization: questions → research → requirements → roadmap |
-| `/gsd:discuss-phase [N] [--auto]` | Capture implementation decisions before planning |
-| `/gsd:plan-phase [N] [--auto]` | Research + plan + verify for a phase |
-| `/gsd:execute-phase <N>` | Execute all plans in parallel waves, verify when complete |
-| `/gsd:verify-work [N]` | Manual user acceptance testing ¹ |
-| `/gsd:ship [N] [--draft]` | Create PR from verified phase work with auto-generated body |
-| `/gsd:next` | Automatically advance to the next logical workflow step |
-| `/gsd:audit-milestone` | Verify milestone achieved its definition of done |
-| `/gsd:complete-milestone` | Archive milestone, tag release |
-| `/gsd:new-milestone [name]` | Start next version: questions → research → requirements → roadmap |
+| `/gsd-new-project [--auto]` | Full initialization: questions → research → requirements → roadmap |
+| `/gsd-discuss-phase [N] [--auto] [--analyze] [--chain]` | Capture implementation decisions before planning (`--analyze` adds trade-off analysis, `--chain` auto-chains into plan+execute) |
+| `/gsd-plan-phase [N] [--auto] [--reviews]` | Research + plan + verify for a phase (`--reviews` loads codebase review findings) |
+| `/gsd-execute-phase <N>` | Execute all plans in parallel waves, verify when complete |
+| `/gsd-verify-work [N]` | Manual user acceptance testing ¹ |
+| `/gsd-ship [N] [--draft]` | Create PR from verified phase work with auto-generated body |
+| `/gsd-next` | Automatically advance to the next logical workflow step |
+| `/gsd-fast <text>` | Inline trivial tasks — skips planning entirely, executes immediately |
+| `/gsd-audit-milestone` | Verify milestone achieved its definition of done |
+| `/gsd-complete-milestone` | Archive milestone, tag release |
+| `/gsd-new-milestone [name]` | Start next version: questions → research → requirements → roadmap |
+| `/gsd-forensics [desc]` | Post-mortem investigation of failed workflow runs (diagnoses stuck loops, missing artifacts, git anomalies) |
+| `/gsd-milestone-summary [version]` | Generate comprehensive project summary for team onboarding and review |
+
+### Workstreams
+
+| Command | What it does |
+|---------|--------------|
+| `/gsd-workstreams list` | Show all workstreams and their status |
+| `/gsd-workstreams create <name>` | Create a namespaced workstream for parallel milestone work |
+| `/gsd-workstreams switch <name>` | Switch active workstream |
+| `/gsd-workstreams complete <name>` | Complete and merge a workstream |
+
+### Multi-Project Workspaces
+
+| Command | What it does |
+|---------|--------------|
+| `/gsd-new-workspace` | Create isolated workspace with repo copies (worktrees or clones) |
+| `/gsd-list-workspaces` | Show all GSD workspaces and their status |
+| `/gsd-remove-workspace` | Remove workspace and clean up worktrees |
 
 ### UI Design
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:ui-phase [N]` | Generate UI design contract (UI-SPEC.md) for frontend phases |
-| `/gsd:ui-review [N]` | Retroactive 6-pillar visual audit of implemented frontend code |
+| `/gsd-ui-phase [N]` | Generate UI design contract (UI-SPEC.md) for frontend phases |
+| `/gsd-ui-review [N]` | Retroactive 6-pillar visual audit of implemented frontend code |
 
 ### Navigation
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:progress` | Where am I? What's next? |
-| `/gsd:next` | Auto-detect state and run the next step |
-| `/gsd:help` | Show all commands and usage guide |
-| `/gsd:update` | Update GSD with changelog preview |
-| `/gsd:join-discord` | Join the GSD Discord community |
+| `/gsd-progress` | Where am I? What's next? |
+| `/gsd-next` | Auto-detect state and run the next step |
+| `/gsd-help` | Show all commands and usage guide |
+| `/gsd-update` | Update GSD with changelog preview |
+| `/gsd-join-discord` | Join the GSD Discord community |
+| `/gsd-manager` | Interactive command center for managing multiple phases |
 
 ### Brownfield
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:map-codebase [area]` | Analyze existing codebase before new-project |
+| `/gsd-map-codebase [area]` | Analyze existing codebase before new-project |
 
 ### Phase Management
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:add-phase` | Append phase to roadmap |
-| `/gsd:insert-phase [N]` | Insert urgent work between phases |
-| `/gsd:remove-phase [N]` | Remove future phase, renumber |
-| `/gsd:list-phase-assumptions [N]` | See Claude's intended approach before planning |
-| `/gsd:plan-milestone-gaps` | Create phases to close gaps from audit |
+| `/gsd-add-phase` | Append phase to roadmap |
+| `/gsd-insert-phase [N]` | Insert urgent work between phases |
+| `/gsd-remove-phase [N]` | Remove future phase, renumber |
+| `/gsd-list-phase-assumptions [N]` | See Claude's intended approach before planning |
+| `/gsd-plan-milestone-gaps` | Create phases to close gaps from audit |
 
 ### Session
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:pause-work` | Create handoff when stopping mid-phase (writes HANDOFF.json) |
-| `/gsd:resume-work` | Restore from last session |
-| `/gsd:session-report` | Generate session summary with work performed and outcomes |
+| `/gsd-pause-work` | Create handoff when stopping mid-phase (writes HANDOFF.json) |
+| `/gsd-resume-work` | Restore from last session |
+| `/gsd-session-report` | Generate session summary with work performed and outcomes |
+
+### Workstreams
+
+| Command | What it does |
+|---------|--------------|
+| `/gsd-workstreams` | Manage parallel workstreams (list, create, switch, status, progress, complete) |
+
+### Code Quality
+
+| Command | What it does |
+|---------|--------------|
+| `/gsd-review` | Cross-AI peer review of current phase or branch |
+| `/gsd-secure-phase [N]` | Security enforcement with threat-model-anchored verification |
+| `/gsd-pr-branch` | Create clean PR branch filtering `.planning/` commits |
+| `/gsd-audit-uat` | Audit verification debt — find phases missing UAT |
+| `/gsd-docs-update` | Verified documentation generation with doc-writer and doc-verifier agents |
+
+### Backlog & Threads
+
+| Command | What it does |
+|---------|--------------|
+| `/gsd-plant-seed <idea>` | Capture forward-looking ideas with trigger conditions — surfaces at the right milestone |
+| `/gsd-add-backlog <desc>` | Add idea to backlog parking lot (999.x numbering, outside active sequence) |
+| `/gsd-review-backlog` | Review and promote backlog items to active milestone or remove stale entries |
+| `/gsd-thread [name]` | Persistent context threads — lightweight cross-session knowledge for work spanning multiple sessions |
 
 ### Utilities
 
 | Command | What it does |
 |---------|--------------|
-| `/gsd:settings` | Configure model profile and workflow agents |
-| `/gsd:set-profile <profile>` | Switch model profile (quality/balanced/budget/inherit) |
-| `/gsd:add-todo [desc]` | Capture idea for later |
-| `/gsd:check-todos` | List pending todos |
-| `/gsd:debug [desc]` | Systematic debugging with persistent state |
-| `/gsd:do <text>` | Route freeform text to the right GSD command automatically |
-| `/gsd:note <text>` | Zero-friction idea capture — append, list, or promote notes to todos |
-| `/gsd:quick [--full] [--discuss] [--research]` | Execute ad-hoc task with GSD guarantees (`--full` adds plan-checking and verification, `--discuss` gathers context first, `--research` investigates approaches before planning) |
-| `/gsd:health [--repair]` | Validate `.planning/` directory integrity, auto-repair with `--repair` |
-| `/gsd:stats` | Display project statistics — phases, plans, requirements, git metrics |
-| `/gsd:profile-user [--questionnaire] [--refresh]` | Generate developer behavioral profile from session analysis for personalized responses |
+| `/gsd-settings` | Configure model profile and workflow agents |
+| `/gsd-set-profile <profile>` | Switch model profile (quality/balanced/budget/inherit) |
+| `/gsd-add-todo [desc]` | Capture idea for later |
+| `/gsd-check-todos` | List pending todos |
+| `/gsd-debug [desc]` | Systematic debugging with persistent state |
+| `/gsd-do <text>` | Route freeform text to the right GSD command automatically |
+| `/gsd-note <text>` | Zero-friction idea capture — append, list, or promote notes to todos |
+| `/gsd-quick [--full] [--validate] [--discuss] [--research]` | Execute ad-hoc task with GSD guarantees (`--full` enables all phases, `--validate` adds plan-checking and verification, `--discuss` gathers context first, `--research` investigates approaches before planning) |
+| `/gsd-health [--repair]` | Validate `.planning/` directory integrity, auto-repair with `--repair` |
+| `/gsd-stats` | Display project statistics — phases, plans, requirements, git metrics |
+| `/gsd-profile-user [--questionnaire] [--refresh]` | Generate developer behavioral profile from session analysis for personalized responses |
 
 <sup>¹ Contributed by reddit user OracleGreyBeard</sup>
 
@@ -579,7 +691,7 @@ You're never locked in. The system adapts.
 
 ## Configuration
 
-GSD stores project settings in `.planning/config.json`. Configure during `/gsd:new-project` or update later with `/gsd:settings`. For the full config schema, workflow toggles, git branching options, and per-agent model breakdown, see the [User Guide](docs/USER-GUIDE.md#configuration-reference).
+GSD stores project settings in `.planning/config.json`. Configure during `/gsd-new-project` or update later with `/gsd-settings`. For the full config schema, workflow toggles, git branching options, and per-agent model breakdown, see the [User Guide](docs/USER-GUIDE.md#configuration-reference).
 
 ### Core Settings
 
@@ -587,6 +699,7 @@ GSD stores project settings in `.planning/config.json`. Configure during `/gsd:n
 |---------|---------|---------|------------------|
 | `mode` | `yolo`, `interactive` | `interactive` | Auto-approve vs confirm at each step |
 | `granularity` | `coarse`, `standard`, `fine` | `standard` | Phase granularity — how finely scope is sliced (phases × plans) |
+| `project_code` | string | `""` | Prefix phase directories with a project code |
 
 ### Model Profiles
 
@@ -601,12 +714,12 @@ Control which Claude model each agent uses. Balance quality vs token spend.
 
 Switch profiles:
 ```
-/gsd:set-profile budget
+/gsd-set-profile budget
 ```
 
 Use `inherit` when using non-Anthropic providers (OpenRouter, local models) or to follow the current runtime model selection (e.g. OpenCode `/model`).
 
-Or configure via `/gsd:settings`.
+Or configure via `/gsd-settings`.
 
 ### Workflow Agents
 
@@ -618,10 +731,15 @@ These spawn additional agents during planning/execution. They improve quality bu
 | `workflow.plan_check` | `true` | Verifies plans achieve phase goals before execution |
 | `workflow.verifier` | `true` | Confirms must-haves were delivered after execution |
 | `workflow.auto_advance` | `false` | Auto-chain discuss → plan → execute without stopping |
+| `workflow.research_before_questions` | `false` | Run research before discussion questions instead of after |
+| `workflow.discuss_mode` | `'discuss'` | Discussion mode: `discuss` (interview), `assumptions` (codebase-first) |
+| `workflow.skip_discuss` | `false` | Skip discuss-phase in autonomous mode |
+| `workflow.text_mode` | `false` | Text-only mode for remote sessions (no TUI menus) |
+| `workflow.use_worktrees` | `true` | Toggle worktree isolation for execution |
 
-Use `/gsd:settings` to toggle these, or override per-invocation:
-- `/gsd:plan-phase --skip-research`
-- `/gsd:plan-phase --skip-verify`
+Use `/gsd-settings` to toggle these, or override per-invocation:
+- `/gsd-plan-phase --skip-research`
+- `/gsd-plan-phase --skip-verify`
 
 ### Execution
 
@@ -630,6 +748,16 @@ Use `/gsd:settings` to toggle these, or override per-invocation:
 | `parallelization.enabled` | `true` | Run independent plans simultaneously |
 | `planning.commit_docs` | `true` | Track `.planning/` in git |
 | `hooks.context_warnings` | `true` | Show context window usage warnings |
+
+### Agent Skills
+
+Inject project-specific skills into subagents during execution.
+
+| Setting | Type | What it does |
+|---------|------|--------------|
+| `agent_skills.<agent_type>` | `string[]` | Paths to skill directories loaded into that agent type at spawn time |
+
+Skills are injected as `<agent_skills>` blocks in agent prompts, giving subagents access to project-specific knowledge.
 
 ### Git Branching
 
@@ -651,6 +779,20 @@ At milestone completion, GSD offers squash merge (recommended) or merge with his
 ---
 
 ## Security
+
+### Built-in Security Hardening
+
+GSD includes defense-in-depth security since v1.27:
+
+- **Path traversal prevention** — All user-supplied file paths (`--text-file`, `--prd`) are validated to resolve within the project directory
+- **Prompt injection detection** — Centralized `security.cjs` module scans for injection patterns in user-supplied text before it enters planning artifacts
+- **PreToolUse prompt guard hook** — `gsd-prompt-guard` scans writes to `.planning/` for embedded injection vectors (advisory, not blocking)
+- **Safe JSON parsing** — Malformed `--fields` arguments are caught before they corrupt state
+- **Shell argument validation** — User text is sanitized before shell interpolation
+- **CI-ready injection scanner** — `prompt-injection-scan.test.cjs` scans all agent/workflow/command files for embedded injection vectors
+
+> [!NOTE]
+> Because GSD generates markdown files that become LLM system prompts, any user-controlled text flowing into planning artifacts is a potential indirect prompt injection vector. These protections are designed to catch such vectors at multiple layers.
 
 ### Protecting Sensitive Files
 
@@ -685,11 +827,11 @@ This prevents Claude from reading these files entirely, regardless of what comma
 
 **Commands not found after install?**
 - Restart your runtime to reload commands/skills
-- Verify files exist in `~/.claude/commands/gsd/` (global) or `./.claude/commands/gsd/` (local)
+- Verify files exist in `~/.claude/skills/gsd-*/SKILL.md` (Claude Code 2.1.88+) or `~/.claude/commands/gsd/` (legacy)
 - For Codex, verify skills exist in `~/.codex/skills/gsd-*/SKILL.md` (global) or `./.codex/skills/gsd-*/SKILL.md` (local)
 
 **Commands not working as expected?**
-- Run `/gsd:help` to verify installation
+- Run `/gsd-help` to verify installation
 - Re-run `npx get-shit-done-cc` to reinstall
 
 **Updating to the latest version?**
@@ -714,16 +856,33 @@ To remove GSD completely:
 npx get-shit-done-cc --claude --global --uninstall
 npx get-shit-done-cc --opencode --global --uninstall
 npx get-shit-done-cc --gemini --global --uninstall
+npx get-shit-done-cc --kilo --global --uninstall
 npx get-shit-done-cc --codex --global --uninstall
 npx get-shit-done-cc --copilot --global --uninstall
+npx get-shit-done-cc --cursor --global --uninstall
+npx get-shit-done-cc --windsurf --global --uninstall
 npx get-shit-done-cc --antigravity --global --uninstall
+npx get-shit-done-cc --augment --global --uninstall
+npx get-shit-done-cc --trae --global --uninstall
+npx get-shit-done-cc --qwen --global --uninstall
+npx get-shit-done-cc --codebuddy --global --uninstall
+npx get-shit-done-cc --cline --global --uninstall
 
 # Local installs (current project)
 npx get-shit-done-cc --claude --local --uninstall
 npx get-shit-done-cc --opencode --local --uninstall
+npx get-shit-done-cc --gemini --local --uninstall
+npx get-shit-done-cc --kilo --local --uninstall
 npx get-shit-done-cc --codex --local --uninstall
 npx get-shit-done-cc --copilot --local --uninstall
+npx get-shit-done-cc --cursor --local --uninstall
+npx get-shit-done-cc --windsurf --local --uninstall
 npx get-shit-done-cc --antigravity --local --uninstall
+npx get-shit-done-cc --augment --local --uninstall
+npx get-shit-done-cc --trae --local --uninstall
+npx get-shit-done-cc --qwen --local --uninstall
+npx get-shit-done-cc --codebuddy --local --uninstall
+npx get-shit-done-cc --cline --local --uninstall
 ```
 
 This removes all GSD commands, agents, hooks, and settings while preserving your other configurations.
@@ -732,7 +891,7 @@ This removes all GSD commands, agents, hooks, and settings while preserving your
 
 ## Community Ports
 
-OpenCode, Gemini CLI, and Codex are now natively supported via `npx get-shit-done-cc`.
+OpenCode, Gemini CLI, Kilo, and Codex are now natively supported via `npx get-shit-done-cc`.
 
 These community ports pioneered multi-runtime support:
 
@@ -745,11 +904,11 @@ These community ports pioneered multi-runtime support:
 
 ## Star History
 
-<a href="https://star-history.com/#glittercowboy/get-shit-done&Date">
+<a href="https://star-history.com/#gsd-build/get-shit-done&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=gsd-build/get-shit-done&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=gsd-build/get-shit-done&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=gsd-build/get-shit-done&type=Date" />
  </picture>
 </a>
 

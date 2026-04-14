@@ -1,14 +1,16 @@
 ---
 title: andrej-karpathy-skills
-date: 2026-04-13T14:14:05+08:00
+date: 2026-04-14T13:59:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774331510646-a1781c4a9713?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774331510646-a1781c4a9713?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
 
 # Karpathy-Inspired Claude Code Guidelines
+
+> **Looking for a managed agents platform?** Check out [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.
 
 A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
 

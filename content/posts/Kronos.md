@@ -1,9 +1,9 @@
 ---
 title: Kronos
-date: 2026-04-13T14:13:55+08:00
+date: 2026-04-14T13:59:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775510978826-e95b14db6ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775510978826-e95b14db6ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775214593099-322805de2958?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775214593099-322805de2958?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)

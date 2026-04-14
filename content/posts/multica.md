@@ -1,9 +1,9 @@
 ---
 title: multica
-date: 2026-04-13T14:14:20+08:00
+date: 2026-04-14T14:00:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773394494764-ca67f5b978cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773394494764-ca67f5b978cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYwNjA4MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774677783913-28d8e6470c34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774677783913-28d8e6470c34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [multica-ai/multica](https://github.com/multica-ai/multica)
@@ -60,24 +60,39 @@ Multica manages the full agent lifecycle: from task assignment to execution moni
 
 ## Quick Install
 
+### macOS / Linux (Homebrew - recommended)
+
+```bash
+brew install multica-ai/tap/multica
+```
+
+Use `brew upgrade multica-ai/tap/multica` to keep the CLI current.
+
+### macOS / Linux (install script)
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/multica-ai/multica/main/scripts/install.sh | bash
 ```
 
-Installs the Multica CLI on macOS and Linux. Works with Homebrew or downloads the binary directly.
+Use this if Homebrew is not available. The script installs the Multica CLI on macOS and Linux by using Homebrew when it is on `PATH`, otherwise it downloads the binary directly.
 
-After installation:
+### Windows (PowerShell)
 
-```bash
-multica login          # Authenticate (opens browser)
-multica daemon start   # Start the local agent runtime
-multica daemon stop    # Stop the daemon when done
+```powershell
+irm https://raw.githubusercontent.com/multica-ai/multica/main/scripts/install.ps1 | iex
 ```
 
-> **Self-hosting?** Add `--local` to deploy a full Multica server on your machine:
+Then configure, authenticate, and start the daemon in one command:
+
+```bash
+multica setup          # Connect to Multica Cloud, log in, start daemon
+```
+
+> **Self-hosting?** Add `--with-server` to deploy a full Multica server on your machine:
 >
 > ```bash
-> curl -fsSL https://raw.githubusercontent.com/multica-ai/multica/main/scripts/install.sh | bash -s -- --local
+> curl -fsSL https://raw.githubusercontent.com/multica-ai/multica/main/scripts/install.sh | bash -s -- --with-server
+> multica setup self-host
 > ```
 >
 > Requires Docker. See the [Self-Hosting Guide](SELF_HOSTING.md) for details.
@@ -86,11 +101,10 @@ multica daemon stop    # Stop the daemon when done
 
 ## Getting Started
 
-### 1. Log in and start the daemon
+### 1. Set up and start the daemon
 
 ```bash
-multica login           # Authenticate with your Multica account
-multica daemon start    # Start the local agent runtime
+multica setup           # Configure, authenticate, and start the daemon
 ```
 
 The daemon runs in the background and auto-detects agent CLIs (`claude`, `codex`, `openclaw`, `opencode`) on your PATH.
@@ -120,9 +134,8 @@ The `multica` CLI connects your local machine to Multica — authenticate, manag
 | `multica login` | Authenticate (opens browser) |
 | `multica daemon start` | Start the local agent runtime |
 | `multica daemon status` | Check daemon status |
-| `multica setup` | One-command setup (configure + login + start daemon) |
-| `multica setup --local` | Same, but for self-hosted deployments |
-| `multica config local` | Configure CLI for a local self-hosted server |
+| `multica setup` | One-command setup for Multica Cloud (configure + login + start daemon) |
+| `multica setup self-host` | Same, but for self-hosted deployments |
 | `multica issue list` | List issues in your workspace |
 | `multica issue create` | Create a new issue |
 | `multica update` | Update to the latest version |

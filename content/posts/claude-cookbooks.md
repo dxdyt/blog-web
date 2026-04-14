@@ -1,9 +1,9 @@
 ---
 title: claude-cookbooks
-date: 2025-10-23T12:23:29+08:00
+date: 2026-04-14T14:00:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760199025509-2ecc68d39acd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760199025509-2ecc68d39acd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
@@ -14,7 +14,7 @@ The Claude Cookbooks provide code and guides designed to help developers build w
 
 ## Prerequisites
 
-To make the most of the examples in this cookbook, you'll need an Claude API key (sign up for free [here](https://www.anthropic.com)).
+To make the most of the examples in this cookbook, you'll need a Claude API key (sign up for free [here](https://www.anthropic.com)).
 
 While the code examples are primarily written in Python, the concepts can be adapted to any programming language that supports interaction with the Claude API.
 
