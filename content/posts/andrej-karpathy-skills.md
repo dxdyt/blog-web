@@ -1,9 +1,9 @@
 ---
 title: andrej-karpathy-skills
-date: 2026-04-14T13:59:28+08:00
+date: 2026-04-15T13:59:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775737403416-0a27310dce44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDYzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775499051030-aeefe9e76603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyMzI3NjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775499051030-aeefe9e76603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyMzI3NjF8&ixlib=rb-4.1.0
 ---
 
 # [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)

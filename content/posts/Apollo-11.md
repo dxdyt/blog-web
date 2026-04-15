@@ -1,9 +1,9 @@
 ---
 title: Apollo-11
-date: 2024-10-23T12:20:49+08:00
+date: 2026-04-15T14:00:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726503453396-14e5da2f015f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726503453396-14e5da2f015f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1773392786845-7835d229c33b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyMzI3NjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773392786845-7835d229c33b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYyMzI3NjF8&ixlib=rb-4.1.0
 ---
 
 # [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)
@@ -15,70 +15,88 @@ featuredImagePreview: https://images.unsplash.com/photo-1726503453396-14e5da2f01
 [![Comanche]][ComancheMilestone]
 [![Luminary]][LuminaryMilestone]
 
-🎌
-[Bahasa Indonesia][ID],
+🌐
+[Azerbaijani][AZ],
+[bahasa Indonesia][ID],
+[Basa Jawa][JV],
 [Català][CA],
 [Čeština][CZ],
 [Dansk][DA],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
+[Galego][GL],
 [Italiano][IT],
-[Kurdi][KU],
+[Kurdî][KU],
+[Lietuvių][LT],
+[Mongolian][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
-[Tiếng Việt][VI],
+[Suomi][FI],
+[Svenska][SV],
+[tiếng Việt][VI],
 [Türkçe][TR],
-[Ukrainian][UA],
 [Ελληνικά][GR],
+[Беларуская мова][BE],
 [Русский][RU],
+[Українська][UK],
 [العربية][AR],
 [فارسی][FA],
+[नेपाली भाषा][NE]
 [हिंदी][HI_IN],
 [অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
+[한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[മലയാളം][ML]
 
-[AR]:README.ar.md
-[AS_IN]:README.as_in.md
-[BD_BN]:README.bd_bn.md
-[CA]:README.ca.md
-[CZ]:README.cz.md
-[DA]:README.da.md
-[DE]:README.de.md
+[AR]:Translations/README.ar.md
+[AS_IN]:Translations/README.as_in.md
+[AZ]:Translations/README.az.md
+[BD_BN]:Translations/README.bd_bn.md
+[BE]:Translations/README.be.md
+[CA]:Translations/README.ca.md
+[CZ]:Translations/README.cz.md
+[DA]:Translations/README.da.md
+[DE]:Translations/README.de.md
 [EN]:README.md
-[ES]:README.es.md
-[FA]:README.fa.md
-[FR]:README.fr.md
-[GR]:README.gr.md
-[HI_IN]:README.hi_in.md
-[ID]:README.id.md
-[IT]:README.it.md
-[JA]:README.ja.md
-[KO_KR]:README.ko_kr.md
-[KU]:README.ku.md
-[LT]:README.lt.md
-[MM]:README.mm.md
-[NL]:README.nl.md
-[NO]:README.no.md
-[PL]:README.pl.md
-[PT_BR]:README.pt_br.md
-[RO]:README.ro.md
-[RU]:README.ru.md
-[TR]:README.tr.md
-[UA]:README.ua.md
-[VI]:README.vi.md
-[ZH_CN]:README.zh_cn.md
-[ZH_TW]:README.zh_tw.md
-
+[ES]:Translations/README.es.md
+[FA]:Translations/README.fa.md
+[FI]:Translations/README.fi.md
+[FR]:Translations/README.fr.md
+[GL]:Translations/README.gl.md
+[GR]:Translations/README.gr.md
+[HI_IN]:Translations/README.hi_in.md
+[ID]:Translations/README.id.md
+[IT]:Translations/README.it.md
+[JA]:Translations/README.ja.md
+[JV]:Translations/README.jv.md
+[KO_KR]:Translations/README.ko_kr.md
+[KU]:Translations/README.ku.md
+[LT]:Translations/README.lt.md
+[MM]:Translations/README.mm.md
+[MN]:Translations/README.mn.md
+[NE]:Translations/README.ne.md
+[NL]:Translations/README.nl.md
+[NO]:Translations/README.no.md
+[PL]:Translations/README.pl.md
+[PT_BR]:Translations/README.pt_br.md
+[RO]:Translations/README.ro.md
+[RU]:Translations/README.ru.md
+[SV]:Translations/README.sv.md
+[TR]:Translations/README.tr.md
+[UK]:Translations/README.uk.md
+[VI]:Translations/README.vi.md
+[ZH_CN]:Translations/README.zh_cn.md
+[ZH_TW]:Translations/README.zh_tw.md
+[ML]:Translations/README.ml.md
 Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099][5] and [Comanche 055][6], as well as any files I may have missed.
 
 ## Contributing
