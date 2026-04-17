@@ -1,9 +1,9 @@
 ---
 title: magika
-date: 2026-04-16T14:02:12+08:00
+date: 2026-04-17T14:03:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772339164169-4391cd6f0096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772339164169-4391cd6f0096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776181718372-3e5c239f0d92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776181718372-3e5c239f0d92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
 ---
 
 # [google/magika](https://github.com/google/magika)

@@ -1,9 +1,9 @@
 ---
 title: claude-mem
-date: 2026-04-16T14:00:56+08:00
+date: 2026-04-17T14:02:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773573453841-bec7b4dea2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773573453841-bec7b4dea2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774268184985-f1af67b38179?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774268184985-f1af67b38179?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
 ---
 
 # [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)

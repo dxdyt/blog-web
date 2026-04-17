@@ -1,9 +1,9 @@
 ---
 title: GenericAgent
-date: 2026-04-16T14:02:04+08:00
+date: 2026-04-17T14:02:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771957585146-e76c62faf663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771957585146-e76c62faf663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
 ---
 
 # [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent)
@@ -33,6 +33,7 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 - **Minimal Architecture**: ~3K lines of core code. Agent Loop is ~100 lines. No complex dependencies, zero deployment overhead.
 - **Strong Execution**: Injects into a real browser (preserving login sessions). 9 atomic tools take direct control of the system.
 - **High Compatibility**: Supports Claude / Gemini / Kimi / MiniMax and other major models. Cross-platform.
+- **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensures the right knowledge is always in scope. Less noise, fewer hallucinations, higher success rate — at a fraction of the cost.
 
 
 ## 🧬 Self-Evolution Mechanism
@@ -188,9 +189,9 @@ You're also welcome to join our **GenericAgent Community Group** for discussion,
 <div align="center">
   <table>
     <tr>
-      <td align="center"><strong>WeChat Group 4</strong><br><img src="assets/images/wechat_group4.jpg" alt="WeChat Group 4 QR Code" width="250"/></td>
-      <td align="center"><strong>WeChat Group 3</strong><br><img src="assets/images/wechat_group2.JPG" alt="WeChat Group 3 QR Code" width="250"/></td>
-      <td align="center"><strong>Feishu Group</strong><br><img src="assets/images/feishu_group.jpg" alt="Feishu Group QR Code" width="250"/></td>
+      <td align="center"><strong>WeChat Group 5</strong><br><img src="assets/images/wechat_group5.jpg" alt="WeChat Group 5 QR Code" width="250"/></td>
+      <td align="center"><strong>WeChat Group 6</strong><br><img src="assets/images/wechat_group6.jpg" alt="WeChat Group 6 QR Code" width="250"/></td>
+      <td align="center"><strong>WeChat Group 7</strong><br><img src="assets/images/wechat_group7.jpg" alt="WeChat Group 7 QR Code" width="250"/></td>
     </tr>
   </table>
 </div>
@@ -223,6 +224,7 @@ MIT License — see [LICENSE](LICENSE)
 - **极简架构**: ~3K 行核心代码，Agent Loop 约百行，无复杂依赖，部署零负担
 - **强执行力**: 注入真实浏览器（保留登录态），9 个原子工具直接接管系统
 - **高兼容性**: 支持 Claude / Gemini / Kimi / MiniMax 等主流模型，跨平台运行
+- **极致省 Token**: 上下文窗口不到 30K，是其他 Agent（200K–1M）的零头。分层记忆让关键信息始终在场——噪声更少，幻觉更低，成功率反而更高，而成本低一个数量级。
 
 ## 🧬 自我进化机制
 
@@ -447,9 +449,9 @@ GenericAgent 通过**分层记忆 × 最小工具集 × 自主执行循环**完�
 <div align="center">
   <table>
     <tr>
-      <td align="center"><strong>微信群 1</strong><br><img src="assets/images/wechat_group.jpg" alt="微信群 1 二维码" width="250"/></td>
-      <td align="center"><strong>微信群 2</strong><br><img src="assets/images/wechat_group2.JPG" alt="微信群 2 二维码" width="250"/></td>
-      <td align="center"><strong>飞书群</strong><br><img src="assets/images/feishu_group.jpg" alt="飞书群二维码" width="250"/></td>
+      <td align="center"><strong>微信群 5</strong><br><img src="assets/images/wechat_group5.jpg" alt="微信群 5 二维码" width="250"/></td>
+      <td align="center"><strong>微信群 6</strong><br><img src="assets/images/wechat_group6.jpg" alt="微信群 6 二维码" width="250"/></td>
+      <td align="center"><strong>微信群 7</strong><br><img src="assets/images/wechat_group7.jpg" alt="微信群 7 二维码" width="250"/></td>
     </tr>
   </table>
 </div>

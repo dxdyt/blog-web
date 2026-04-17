@@ -1,9 +1,9 @@
 ---
 title: open-agents
-date: 2026-04-16T14:01:54+08:00
+date: 2026-04-17T14:03:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773761193273-fc6eaacf9392?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773761193273-fc6eaacf9392?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
 ---
 
 # [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents)
