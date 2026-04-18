@@ -1,9 +1,9 @@
 ---
 title: openai-agents-python
-date: 2026-04-17T14:03:55+08:00
+date: 2026-04-18T13:42:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776267091706-d9036c1c4fbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776267091706-d9036c1c4fbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776002394641-0c60028fd88a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776002394641-0c60028fd88a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
 ---
 
 # [openai/openai-agents-python](https://github.com/openai/openai-agents-python)

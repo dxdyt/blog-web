@@ -1,19 +1,22 @@
 ---
 title: GenericAgent
-date: 2026-04-17T14:02:56+08:00
+date: 2026-04-18T13:40:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776105648206-fc6dd5fb0776?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776105648206-fc6dd5fb0776?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
 ---
 
 # [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent)
 
 <div align="center">
 <img src="assets/images/bar.jpg" width="880"/>
+
+<a href="https://trendshift.io/repositories/25944" target="_blank"><img src="https://trendshift.io/api/badge/repositories/25944" alt="lsdefine%2FGenericAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
 <p align="center">
-  <a href="#english">English</a> | <a href="#chinese">中文</a>
+  <a href="#english">English</a> | <a href="#chinese">中文</a> | 📄 <a href="assets/GenericAgent_Technical_Report.pdf">Technical Report</a>
 </p>
 
 ---
