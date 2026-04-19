@@ -1,9 +1,9 @@
 ---
 title: android-reverse-engineering-skill
-date: 2026-04-18T13:40:48+08:00
+date: 2026-04-19T13:58:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775533222841-095c4e19ceaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775533222841-095c4e19ceaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774966961772-c73ad3a60b10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774966961772-c73ad3a60b10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
 ---
 
 # [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill)

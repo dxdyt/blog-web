@@ -1,9 +1,9 @@
 ---
 title: evolver
-date: 2026-04-18T13:40:30+08:00
+date: 2026-04-19T13:58:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775533222841-095c4e19ceaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775533222841-095c4e19ceaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775618205018-6ca57cd46ba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775618205018-6ca57cd46ba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
 ---
 
 # [EvoMap/evolver](https://github.com/EvoMap/evolver)
@@ -52,7 +52,56 @@ Keywords: protocol-constrained evolution, audit trail, genes and capsules, promp
 - **[Node.js](https://nodejs.org/)** >= 18
 - **[Git](https://git-scm.com/)** -- Required. Evolver uses git for rollback, blast radius calculation, and solidify. Running in a non-git directory will fail with a clear error message.
 
-### Setup
+### Install from npm (recommended)
+
+```bash
+npm install -g @evomap/evolver
+```
+
+This installs the `evolver` CLI globally. Verify with `evolver --help`.
+
+If you hit `EACCES` on Linux/macOS, configure a user-level prefix instead of using `sudo`:
+
+```bash
+npm config set prefix ~/.npm-global
+echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+### Platform integration
+
+Evolver integrates with major agent runtimes through `setup-hooks`. Run the command once per platform you want to wire up.
+
+#### Cursor
+
+```bash
+evolver setup-hooks --platform=cursor
+```
+
+Writes `~/.cursor/hooks.json` and installs hook scripts under `~/.cursor/hooks/`. Restart Cursor (or open a new session) to activate. Hooks fire on `sessionStart`, `afterFileEdit`, and `stop`.
+
+#### Claude Code
+
+```bash
+evolver setup-hooks --platform=claude-code
+```
+
+Registers Evolver with Claude Code's hook system via `~/.claude/`. Restart the Claude Code CLI after installation.
+
+#### OpenClaw
+
+OpenClaw interprets the `sessions_spawn(...)` protocol that Evolver emits on stdout, so no hooks are required. Clone Evolver into your OpenClaw workspace and invoke it from within a session:
+
+```bash
+cd <your-openclaw-workspace>
+git clone https://github.com/EvoMap/evolver.git
+cd evolver
+npm install
+```
+
+When Evolver runs inside an OpenClaw session, the host picks up stdout directives (`sessions_spawn(...)`, etc.) and chains follow-up actions automatically.
+
+### Install from source (advanced)
 
 ```bash
 git clone https://github.com/EvoMap/evolver.git
@@ -60,7 +109,11 @@ cd evolver
 npm install
 ```
 
-To connect to the [EvoMap network](https://evomap.ai), create a `.env` file (optional):
+Use this mode if you want to hack on the engine itself, run unreleased builds, or inspect the source tree.
+
+### Connect to the EvoMap network (optional)
+
+To connect to the [EvoMap network](https://evomap.ai), create a `.env` file in your project root:
 
 ```bash
 # Register at https://evomap.ai to get your Node ID
