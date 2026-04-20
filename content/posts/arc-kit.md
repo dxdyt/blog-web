@@ -1,9 +1,9 @@
 ---
 title: arc-kit
-date: 2026-04-19T13:58:52+08:00
+date: 2026-04-20T14:14:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774334579254-46bdfebc711d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774334579254-46bdfebc711d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774579892278-e305439f05dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774579892278-e305439f05dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
 ---
 
 # [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit)
@@ -38,6 +38,16 @@ ArcKit is a toolkit for enterprise architects that transforms architecture gover
 - 🔧 ServiceNow service management design
 - 🔗 Maintaining requirements traceability
 - 📎 Citation traceability for external documents (inline `[DOC-CN]` markers with source quotes)
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=tractorjuice%2Farc-kit&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left&v=20260420" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&legend=top-left&v=20260420" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&legend=top-left&v=20260420" />
+ </picture>
+</a>
 
 ---
 
@@ -88,7 +98,7 @@ uv tool install arckit-cli --from git+https://github.com/tractorjuice/arc-kit.gi
 uvx --from git+https://github.com/tractorjuice/arc-kit.git arckit init my-project
 ```
 
-**Latest Release**: [v4.6.12](https://github.com/tractorjuice/arc-kit/releases/tag/v4.6.12)
+**Latest Release**: [v4.7.2](https://github.com/tractorjuice/arc-kit/releases/tag/v4.7.2)
 
 ### Platform Support
 
@@ -239,6 +249,38 @@ ArcKit includes dedicated commands for UK public sector delivery:
 - `/arckit.jsp-936` — Deliver JSP 936 AI assurance packs for defence AI systems.
 
 See the demo repositories for end-to-end examples, especially `arckit-test-project-v7-nhs-appointment` (civilian services) and `arckit-test-project-v9-cabinet-office-genai` (AI governance).
+
+---
+
+## EU & French Regulatory Compliance (Community)
+
+> ⚠️ **Community-contributed — domain-maintained by [@thomas-jardinet](https://github.com/thomas-jardinet).** The 18 commands below cover EU regulations (GDPR, NIS2, AI Act, DORA, CRA, DSA, Data Act) and French government standards (SecNumCloud, ANSSI, EBIOS, CNIL, DINUM, etc.). They are not part of the officially-maintained baseline — output should be reviewed by qualified DPO / RSSI / legal counsel before reliance, and citations to ANSSI / CNIL / EU regulations may lag current source text. Each command surfaces with a `[COMMUNITY]` prefix in `/help` listings and renders a warning banner before generating.
+
+**EU regulations** (member-state-neutral baselines, applicable across EU/EEA):
+
+- `/arckit.eu-rgpd` — GDPR (EU 2016/679) compliance assessment — legal basis, data subject rights, transfers, DPIA screening, breach notification
+- `/arckit.eu-nis2` — NIS2 Directive — operators of essential / important entities, Article 21 measures, incident reporting timelines
+- `/arckit.eu-ai-act` — EU AI Act (Regulation 2024/1689) — risk classification (prohibited / high-risk / GPAI), conformity routes
+- `/arckit.eu-dora` — Digital Operational Resilience Act (EU 2022/2554) — financial sector ICT risk, TLPT, third-party register
+- `/arckit.eu-cra` — Cyber Resilience Act (Regulation 2024/2847) — products with digital elements, SBOM, VDP, CE marking
+- `/arckit.eu-dsa` — Digital Services Act (Regulation 2022/2065) — intermediaries, platforms, VLOPs, ARCOM
+- `/arckit.eu-data-act` — Data Act (Regulation 2023/2854) — connected products, B2B FRAND, cloud switching, Article 27
+
+**French government** (apply on top of the EU baseline for French deployments):
+
+- `/arckit.fr-secnumcloud` — SecNumCloud 3.2 qualification (sovereign cloud, OIV/OSE, extraterritorial risk)
+- `/arckit.fr-dinum` — DINUM standards: RGI, RGAA, RGESN, RGS, doctrine cloud de l'État, FranceConnect, DSFR
+- `/arckit.fr-marche-public` — French public procurement (code de la commande publique, UGAP, sovereignty clauses)
+- `/arckit.fr-rgpd` — CNIL-specific GDPR layer (cookies Délibération 2020-091, HDS, age 15, DPO registration)
+- `/arckit.fr-ebios` — EBIOS Risk Manager — 5-workshop study (VM/ER/SR/CO/SS/SO/MS IDs, MITRE ATT&CK, homologation)
+- `/arckit.fr-anssi` — ANSSI Guide d'hygiène informatique (42 measures) + cloud security recommendations
+- `/arckit.fr-anssi-carto` — ANSSI SI cartography across business / application / system / network levels
+- `/arckit.fr-dr` — Diffusion Restreinte handling under II 901 / SGDSN / ANSSI
+- `/arckit.fr-algorithme-public` — Public algorithm transparency notice (Article L311-3-1 CRPA, Loi République Numérique)
+- `/arckit.fr-pssi` — Information System Security Policy (PSSI) per ANSSI / RGS
+- `/arckit.fr-code-reuse` — Public code reuse assessment (code.gouv.fr, SILL, EUPL) — build-vs-reuse decision matrix
+
+These layer cleanly on the existing baseline — `fr-rgpd` extends `eu-rgpd`, `fr-pssi` references `eu-nis2`, and `fr-secnumcloud` integrates with `arckit.research` and `arckit.evaluate` for procurement workflows.
 
 ---
 
@@ -751,6 +793,190 @@ For defence projects using AI/ML systems:
 - Approval pathways (2PUS/Ministerial → Defence-Level → TLB-Level)
 - RAISOs and Ethics Manager governance
 - Human-AI teaming strategy and continuous monitoring
+
+### Phase 14.5: Compliance Assessment (EU and French Government)
+
+ArcKit includes commands for EU regulatory compliance and French public sector governance. These commands are applicable to organisations operating in the EU or under French jurisdiction — whether public sector or private.
+
+#### EU Regulations
+
+**`/arckit.eu-rgpd`** → GDPR compliance assessment (Regulation 2016/679)
+
+Assess personal data processing obligations:
+
+- Legal basis determination (consent, contract, legitimate interest, legal obligation)
+- Data subject rights implementation (access, erasure, portability, objection)
+- CNIL registration and DPO obligations (France)
+- Cross-border transfer safeguards (SCCs, BCRs, adequacy decisions)
+- Integration with DPIA (`/arckit.dpia`) for high-risk processing
+
+**`/arckit.eu-ai-act`** → EU AI Act compliance (Regulation 2024/1689)
+
+Assess AI system obligations under the EU's risk-based AI framework:
+
+- Risk classification (unacceptable / high-risk / limited-risk / minimal)
+- High-risk system obligations: conformity assessment, CE marking, EUDB registration
+- GPAI model obligations for providers of general-purpose AI
+- Human oversight, transparency, and fundamental rights impact assessment
+- Prohibited practices (social scoring, real-time biometric surveillance)
+
+**`/arckit.eu-nis2`** → NIS2 Directive compliance (Directive 2022/2555)
+
+Assess cybersecurity obligations for essential and important entities:
+
+- Sector classification (Annex I Essential vs Annex II Important)
+- OIV/OSE designation under French transposition (LPM/LCEN)
+- Governance, risk management, and incident reporting obligations
+- Supply chain security and vulnerability disclosure
+- ANSSI notification timeline (24h → 72h → 30-day final report)
+
+**`/arckit.eu-dora`** → DORA compliance (Regulation 2022/2554) for financial entities
+
+Digital Operational Resilience Act obligations for banks, insurers, and investment firms:
+
+- ICT risk management framework (5 pillars)
+- Major ICT-related incident classification and reporting (4h → 72h → monthly final)
+- TLPT (Threat-Led Penetration Testing) requirements for significant institutions
+- Third-party ICT provider management and critical provider designation
+- Contractual requirements for ICT service agreements
+
+**`/arckit.eu-cra`** → Cyber Resilience Act compliance (Regulation 2024/2847)
+
+Mandatory cybersecurity requirements for products with digital elements (hardware + software):
+
+- Product classification (Default / Important Class I / Critical Class II)
+- 12 Annex I Part I security-by-design requirements
+- SBOM in SPDX or CycloneDX format (mandatory)
+- Vulnerability Disclosure Policy and 24h ENISA reporting
+- Conformity assessment route (internal control vs notified body)
+- Full application deadline: 11 December 2027
+
+**`/arckit.eu-dsa`** → EU Digital Services Act compliance (Regulation 2022/2065)
+
+Tiered obligations for online intermediary services:
+
+- Provider classification (mere conduit / hosting / platform / VLOP / VLOSE)
+- VLOP/VLOSE designation threshold: 45M monthly active EU users
+- Content moderation, recommender system transparency, advertising obligations
+- ARCOM as French Digital Services Coordinator (DSC)
+- Systemic risk assessment and independent audit for VLOPs
+
+**`/arckit.eu-data-act`** → EU Data Act compliance (Regulation 2023/2854)
+
+Data sharing obligations for connected products and cloud providers:
+
+- Role determination: manufacturer / data holder / DAPS / public sector body
+- User data access rights (Chapter II) and B2B sharing (Chapter III)
+- Cloud switching obligations (Chapter VI) — egress fee elimination by September 2027
+- International data transfer restrictions (Article 27)
+- Application date: 12 September 2025
+
+#### French Public Sector Governance
+
+**`/arckit.fr-rgpd`** → French GDPR compliance with CNIL-specific requirements
+
+Extends EU GDPR with French context:
+
+- CNIL enforcement priorities and sector-specific guidelines
+- French DPO registration and CNIL prior consultation obligations
+- Biometric data processing under French law (CNIL authorisation required)
+
+**`/arckit.fr-ebios`** → EBIOS Risk Manager methodology (ANSSI 2018)
+
+French standard risk analysis for IS homologation:
+
+- 5-workshop structure (Framework, Risk Sources, Strategic Scenarios, Operational Scenarios, Risk Treatment)
+- OIV/OSE/public sector IS homologation evidence
+- Attack path modelling and feared events
+- Integration with PSSI and SecNumCloud qualification
+
+**`/arckit.fr-anssi`** → ANSSI 42 Cybersecurity Hygiene Measures assessment
+
+Assess compliance with ANSSI's foundational hygiene guide:
+
+- 7 themes: administration, authentication, updates, monitoring, backups, network, workstations
+- Cloud security recommendations (ANSSI cloud qualification matrix)
+- Gap analysis with prioritised remediation (P1–P3)
+- Integration with EBIOS and PSSI
+
+**`/arckit.fr-anssi-carto`** → ANSSI SI Cartography (4-level IS mapping)
+
+Generate structured IS cartography following ANSSI's 4-level methodology:
+
+- Level 1: Business processes and core missions
+- Level 2: Application and data mapping
+- Level 3: Server, database, and system inventory
+- Level 4: Network topology, firewall rules, interconnections
+- Attack surface summary and sensitive flow identification
+
+**`/arckit.fr-secnumcloud`** → SecNumCloud qualification assessment
+
+Assess cloud provider and customer obligations under ANSSI's SecNumCloud referential:
+
+- Visa vs qualification distinction (only full qualification satisfies OIV/ministerial use)
+- IS homologation prerequisites for SecNumCloud deployment
+- SecNumCloud-compatible architecture requirements
+- Procurement clauses for public-cloud contracts
+
+**`/arckit.fr-dinum`** → DINUM digital doctrine assessment
+
+Assess compliance with French digital government doctrine:
+
+- RGI (Référentiel Général d'Interopérabilité) — interoperability standards
+- RGAA (Référentiel Général d'Amélioration de l'Accessibilité) — accessibility
+- Doctrine cloud (cloud native, cloud first, SecNumCloud for sensitive data)
+- SILL (Socle Interministériel de Logiciels Libres) — recommended open source stack
+
+**`/arckit.fr-marche-public`** → French public procurement (Code de la Commande Publique)
+
+Generate procurement documentation compliant with French public contract law:
+
+- Marché public thresholds and procedures (below/above EU thresholds)
+- CCAP, CCTP, RC documentation templates
+- ANSSI-qualified provider requirements (PASSI, PRIS, PDIS)
+- Achat public durable obligations (environmental and social clauses)
+
+**`/arckit.fr-pssi`** → PSSI (Politique de Sécurité des Systèmes d'Information)
+
+Generate IS security policy for French public sector entities:
+
+- 9-section structure approved by the Highest Authority (AA)
+- 7 security domains (network, workstations, applications, IS management, physical, personnel, continuity)
+- RSSI, DPO, DSI, and FSSI roles
+- Review cycle and integration with EBIOS and homologation
+
+**`/arckit.fr-dr`** → Diffusion Restreinte (DR) handling compliance
+
+Assess document and IS handling requirements under the DR administrative classification:
+
+- II 901/SGDSN rules for DR document lifecycle
+- Electronic storage, transmission, and physical handling obligations
+- IS homologation for DR-processing systems
+- Scope explicitly bounded: DR only — IGI 1300 (Confidentiel Défense and above) is out of scope
+
+**`/arckit.fr-algorithme-public`** → French Public Algorithm Transparency Notice
+
+Generate mandatory transparency notice under CRPA Art. L311-3-1:
+
+- Scope determination: which automated decisions are covered
+- Plain-language description per algorithm, parameters, and weights
+- Human oversight mechanisms and appeal rights
+- GDPR Art. 22 intersection (automated individual decisions)
+- EU AI Act flagging for ML-based systems
+- More legally binding than the UK ATRS equivalent
+
+**`/arckit.fr-code-reuse`** → French Public Code Reuse Assessment (Circulaire 2021-1524)
+
+Assess code reuse obligations before building or procuring:
+
+- code.gouv.fr search (French public code catalogue)
+- SILL (Socle Interministériel de Logiciels Libres) — ministerially recommended open source
+- EU public code alternatives (Joinup, European Commission repositories)
+- Licence compatibility matrix (EUPL-1.2 recommended for public code publication)
+- Decision matrix: reuse / fork / SILL adoption / procure / build
+- Circulaire 2021 publication obligation: modified public code must be released back
+
+---
 
 ### Phase 15: Project Story & Reporting
 
@@ -1374,7 +1600,7 @@ arckit init .
 
 - **Issues**: [GitHub Issues](https://github.com/tractorjuice/arc-kit/issues)
 - **Releases**: [GitHub Releases](https://github.com/tractorjuice/arc-kit/releases)
-- **Latest Version**: [v4.6.12](https://github.com/tractorjuice/arc-kit/releases/tag/v4.6.12)
+- **Latest Version**: [v4.7.2](https://github.com/tractorjuice/arc-kit/releases/tag/v4.7.2)
 
 ---
 

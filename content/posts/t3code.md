@@ -1,9 +1,9 @@
 ---
 title: t3code
-date: 2026-04-18T13:42:17+08:00
+date: 2026-04-20T14:14:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774423864869-702b21c2490a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774423864869-702b21c2490a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289935247-2de4bcacd7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289935247-2de4bcacd7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
 ---
 
 # [pingdotgg/t3code](https://github.com/pingdotgg/t3code)

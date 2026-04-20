@@ -1,9 +1,9 @@
 ---
 title: Claude-Code-Game-Studios
-date: 2026-04-18T13:41:14+08:00
+date: 2026-04-20T14:14:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776002394641-0c60028fd88a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776002394641-0c60028fd88a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774579892278-e305439f05dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774579892278-e305439f05dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
 ---
 
 # [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)

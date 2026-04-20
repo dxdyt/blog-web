@@ -1,9 +1,9 @@
 ---
 title: thunderbolt
-date: 2026-04-19T13:57:45+08:00
+date: 2026-04-20T14:14:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775157478713-d05f92f8285c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775157478713-d05f92f8285c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775791912390-bd18ca903abf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775791912390-bd18ca903abf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
 ---
 
 # [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt)
