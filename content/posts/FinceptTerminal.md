@@ -1,9 +1,9 @@
 ---
 title: FinceptTerminal
-date: 2026-04-20T14:13:53+08:00
+date: 2026-04-21T14:01:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775791912390-bd18ca903abf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775791912390-bd18ca903abf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2NjU2MjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770650777008-d4eab4103ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770650777008-d4eab4103ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
 ---
 
 # [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)
@@ -17,6 +17,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1775791912390-bd18ca903a
 [![Qt6](https://img.shields.io/badge/Qt-6-41CD52?logo=qt&logoColor=white)](https://www.qt.io/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Hits](https://hits.sh/github.com/Fincept-Corporation/FinceptTerminal.svg?label=Visits)](https://hits.sh/github.com/Fincept-Corporation/FinceptTerminal/)
+
+<a href="https://trendshift.io/repositories/17028" target="_blank"><img src="https://trendshift.io/api/badge/repositories/17028" alt="Fincept-Corporation%2FFinceptTerminal | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+[![GitHub Stars](https://img.shields.io/github/stars/Fincept-Corporation/FinceptTerminal?style=social)](https://github.com/Fincept-Corporation/FinceptTerminal/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Fincept-Corporation/FinceptTerminal?style=social)](https://github.com/Fincept-Corporation/FinceptTerminal/network/members)
+[![GitHub Watchers](https://img.shields.io/github/watchers/Fincept-Corporation/FinceptTerminal?style=social)](https://github.com/Fincept-Corporation/FinceptTerminal/watchers)
+[![GitHub Release](https://img.shields.io/github/v/release/Fincept-Corporation/FinceptTerminal?color=brightgreen&logo=github)](https://github.com/Fincept-Corporation/FinceptTerminal/releases)
+[![GitHub Issues](https://img.shields.io/github/issues/Fincept-Corporation/FinceptTerminal)](https://github.com/Fincept-Corporation/FinceptTerminal/issues)
 
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20FinceptTerminal&url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/) [![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Fincept-Corporation/FinceptTerminal/) [![Reddit](https://img.shields.io/badge/-Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/&title=FinceptTerminal) [![WhatsApp](https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?text=Check%20out%20FinceptTerminal%3A%20https%3A//github.com/Fincept-Corporation/FinceptTerminal/)
 
@@ -89,14 +97,9 @@ cd FinceptTerminal
 chmod +x setup.sh && ./setup.sh
 ```
 
-```bat
-# Windows — run from Developer Command Prompt for VS 2022
-git clone https://github.com/Fincept-Corporation/FinceptTerminal.git
-cd FinceptTerminal
-setup.bat
-```
-
 The script handles: compiler check, CMake, Qt6, Python, build, and launch.
+
+> **Windows:** No setup script — use the manual build steps in Option 4 below. It's just two commands.
 
 ---
 
@@ -148,33 +151,47 @@ docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix fincept-ter
 ```bash
 git clone https://github.com/Fincept-Corporation/FinceptTerminal.git
 cd FinceptTerminal/fincept-qt
-
-# Configure + build (pick your platform)
-cmake --preset win-release     && cmake --build --preset win-release      # Windows (Dev Cmd for VS 2022)
-cmake --preset linux-release   && cmake --build --preset linux-release    # Linux
-cmake --preset macos-release   && cmake --build --preset macos-release    # macOS
 ```
 
-Debug variants: `win-debug`, `linux-debug`, `macos-debug`.
+**Step 1 — Configure** (one-time, or after `CMakeLists.txt` changes):
+```powershell
+cmake --preset win-release      # Windows (PowerShell)
+cmake --preset linux-release    # Linux
+cmake --preset macos-release    # macOS
+```
+
+**Step 2 — Compile** (run this for every code change):
+```powershell
+cmake --build --preset win-release      # Windows
+cmake --build --preset linux-release    # Linux
+cmake --build --preset macos-release    # macOS
+```
+
+Debug variants: replace `release` with `debug` (e.g. `win-debug`, `linux-debug`, `macos-debug`).
+
+> **Windows prerequisite:** The PowerShell profile at `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`
+> auto-initializes VS 2022 on every new terminal — open a fresh PowerShell and cmake works directly.
 
 #### Build (manual — if presets can't resolve your Qt path)
 
-```bash
-# Windows (Developer Command Prompt for VS 2022)
-cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release ^
+```powershell
+# Windows (PowerShell)
+cmake -B build/win-release -G Ninja -DCMAKE_BUILD_TYPE=Release `
   -DCMAKE_PREFIX_PATH="C:/Qt/6.8.3/msvc2022_64"
-cmake --build build
+cmake --build build/win-release
+```
 
+```bash
 # Linux
-cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release \
+cmake -B build/linux-release -G Ninja -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_PREFIX_PATH="$HOME/Qt/6.8.3/gcc_64"
-cmake --build build
+cmake --build build/linux-release
 
 # macOS
-cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release \
+cmake -B build/macos-release -G Ninja -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_OSX_DEPLOYMENT_TARGET=11.0 \
   -DCMAKE_PREFIX_PATH="$HOME/Qt/6.8.3/macos"
-cmake --build build
+cmake --build build/macos-release
 ```
 
 #### Run
@@ -281,6 +298,8 @@ We're building the future of financial analysis — together.
  </picture>
 </a>
 </div>
+
+[![Repobeats](https://repobeats.axiom.co/api/embed/fincept-corporation-finceptterminal.svg "Repobeats analytics image")](https://repobeats.axiom.co)
 
 [![Email](https://img.shields.io/badge/Email-support@fincept.in-blue)](mailto:support@fincept.in)
 

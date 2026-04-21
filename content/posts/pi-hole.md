@@ -1,9 +1,9 @@
 ---
 title: pi-hole
-date: 2024-07-10T12:20:18+08:00
+date: 2026-04-21T14:02:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1775813278612-1e91f893c1ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775813278612-1e91f893c1ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
 ---
 
 # [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)
@@ -13,13 +13,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1719397887764-c768f8b36c
 #
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_darkmode.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_lightmode.png">
-    <img src="https://pi-hole.github.io/graphics/Vortex/Vortex_Vertical_wordmark_lightmode.png" width="168" height="270" alt="Pi-hole website">
-  </picture>
-    <br>
-    <strong>Network-wide ad blocking via your own Linux hardware</strong>
+  <img src="https://raw.githubusercontent.com/pi-hole/graphics/refs/heads/master/Vortex/vortex_with_text.svg" alt="Pi-hole website" width="168" height="270">
+  <br>
+  <strong>Network-wide ad blocking via your own Linux hardware</strong>
 </p>
 
 <!-- markdownlint-enable MD033 -->
@@ -43,7 +39,9 @@ The Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) th
 
 Those who want to get started quickly and conveniently may install Pi-hole using the following command:
 
-### `curl -sSL https://install.pi-hole.net | bash`
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
 
 ## Alternative Install Methods
 
@@ -96,7 +94,7 @@ If you'd rather not donate (_which is okay!_), there are other ways you can help
 - [Patreon](https://patreon.com/pihole)
 - [Hetzner Cloud](https://hetzner.cloud/?ref=7aceisRX3AzA) _affiliate link_
 - [Digital Ocean](https://www.digitalocean.com/?refcode=344d234950e1) _affiliate link_
-- [Stickermule](https://www.stickermule.com/unlock?ref_id=9127301701&utm_medium=link&utm_source=invite) _earn a $10 credit after your first purchase_
+- [Stickermule](https://www.stickermule.com/unlock?ref_id=6055890701&utm_medium=link&utm_source=invite) _earn a $10 credit after your first purchase_
 - [Amazon US](https://www.amazon.com/exec/obidos/redirect-home/pihole09-20) _affiliate link_
 - Spreading the word about our software and how you have benefited from it
 
@@ -140,7 +138,10 @@ Some of the statistics you can integrate include:
 - Queries cached
 - Unique clients
 
-Access the API via [`telnet`](https://github.com/pi-hole/FTL), the Web (`admin/api.php`) and Command Line (`pihole -c -j`). You can find out [more details over here](https://discourse.pi-hole.net/t/pi-hole-api/1863).
+Access the API using:
+- your browser: http://pi.hole/api/docs
+- `curl`: `curl --connect-timeout 2 -ks "https://pi.hole/api/stats/summary" -H "Accept: application/json"`;
+- the command line - examples: `pihole api config/webserver/port` or `pihole api stats/summary`.
 
 ### The Command-Line Interface
 
@@ -148,7 +149,7 @@ The [pihole](https://docs.pi-hole.net/core/pihole-command/) command has all the 
 
 Some notable features include:
 
-- [Whitelisting, Blacklisting, and Regex](https://docs.pi-hole.net/core/pihole-command/#whitelisting-blacklisting-and-regex)
+- [Allowlisting, Denylisting (fka Whitelisting, Blacklisting), and Regex](https://docs.pi-hole.net/core/pihole-command/#allowlisting-denylisting-and-regex)
 - [Debugging utility](https://docs.pi-hole.net/core/pihole-command/#debugger)
 - [Viewing the live log file](https://docs.pi-hole.net/core/pihole-command/#tail)
 - [Updating Ad Lists](https://docs.pi-hole.net/core/pihole-command/#gravity)

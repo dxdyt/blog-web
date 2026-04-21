@@ -1,9 +1,9 @@
 ---
 title: DeepGEMM
-date: 2026-04-19T13:58:13+08:00
+date: 2026-04-21T14:02:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774966961772-c73ad3a60b10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774966961772-c73ad3a60b10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774009485852-13a515d32e36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774009485852-13a515d32e36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
 ---
 
 # [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
