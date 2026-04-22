@@ -1,9 +1,9 @@
 ---
 title: FinceptTerminal
-date: 2026-04-21T14:01:44+08:00
+date: 2026-04-22T13:59:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770650777008-d4eab4103ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770650777008-d4eab4103ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
 ---
 
 # [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)
@@ -246,6 +246,17 @@ We're building the future of financial analysis — together.
 - [Python Contributor Guide](docs/PYTHON_CONTRIBUTOR_GUIDE.md)
 - [Report Bug](https://github.com/Fincept-Corporation/FinceptTerminal/issues)
 - [Request Feature](https://github.com/Fincept-Corporation/FinceptTerminal/discussions)
+
+---
+
+## Support the Project
+
+We've launched a community token on pump.fun. Holding or trading this token is purely a way to show support for Fincept Terminal's development — it has no utility inside the product, no governance rights, no revenue share, and no promised returns.
+
+- pump.fun: https://pump.fun/coin/J7Xrcq6cX4GZ3mnQXvrsCYGQyijc9gSNZT4DSUijpump
+- Solana mint address: 84zrRRB7eqF3G2zhsGsD7zk922kZw3LacxhjkSHZJXwK
+
+This token exists solely to support the project. Fincept Corporation is not responsible for any profit or loss any participant incurs from buying, selling, or holding it. Trade at your own risk and only with funds you can afford to lose.
 
 ---
 
