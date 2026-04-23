@@ -1,9 +1,9 @@
 ---
 title: FinceptTerminal
-date: 2026-04-22T13:59:16+08:00
+date: 2026-04-23T14:05:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774637776819-c09264ba037b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774637776819-c09264ba037b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
 ---
 
 # [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)
@@ -103,22 +103,19 @@ The script handles: compiler check, CMake, Qt6, Python, build, and launch.
 
 ---
 
-### Option 3 — Docker
+### Option 3 — Docker (CI / Developer Environments)
+
+> **Note:** Docker is intended for CI/CD testing and development environments only.
+> For the best experience, use the pre-built installers in **Option 1** above.
+> Docker requires Linux with X11. Windows and macOS are not supported.
 
 ```bash
-# Pull and run
-docker pull ghcr.io/fincept-corporation/fincept-terminal:latest
-docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
-    ghcr.io/fincept-corporation/fincept-terminal:latest
-
-# Or build from source
+# Build from source (Linux + X11 required)
 git clone https://github.com/Fincept-Corporation/FinceptTerminal.git
 cd FinceptTerminal
 docker build -t fincept-terminal .
 docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix fincept-terminal
 ```
-
-> **Note:** Docker is primarily intended for Linux. macOS and Windows require additional XServer configuration.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: claude-context
-date: 2026-04-22T13:59:32+08:00
+date: 2026-04-23T14:05:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774249351932-825f52f7d8d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774249351932-825f52f7d8d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY4Mzc1NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775119222921-641a304ef582?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775119222921-641a304ef582?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
 ---
 
 # [zilliztech/claude-context](https://github.com/zilliztech/claude-context)
@@ -23,6 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1774249351932-825f52f7d8
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/zilliz_universe.svg?style=social&label=Follow%20%40Zilliz)](https://twitter.com/zilliz_universe)
 [![DeepWiki](https://img.shields.io/badge/DeepWiki-AI%20Docs-purple.svg?logo=gitbook&logoColor=white)](https://deepwiki.com/zilliztech/claude-context)
 <a href="https://discord.gg/mKc3R95yE5"><img height="20" src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="discord" /></a>
+<a href="https://trendshift.io/repositories/15064"><img src="https://trendshift.io/api/badge/repositories/15064" alt="zilliztech/claude-context | Trendshift" width="250" height="55" /></a>
 </div>
 
 **Claude Context** is an MCP plugin that adds semantic code search to Claude Code and other AI coding agents, giving them deep context from your entire codebase.

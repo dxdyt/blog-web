@@ -1,9 +1,9 @@
 ---
 title: worldmonitor
-date: 2026-04-21T14:02:17+08:00
+date: 2026-04-23T14:05:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774009485852-13a515d32e36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774009485852-13a515d32e36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY3NTEyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775649136157-08fd098c269d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775649136157-08fd098c269d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
 ---
 
 # [koala73/worldmonitor](https://github.com/koala73/worldmonitor)

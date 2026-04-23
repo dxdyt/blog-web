@@ -1,305 +1,537 @@
 ---
 title: hackingtool
-date: 2024-08-31T12:20:09+08:00
+date: 2026-04-23T14:06:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720491468850-368cd24ce9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720491468850-368cd24ce9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1775649136157-08fd098c269d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775649136157-08fd098c269d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
 ---
 
 # [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
 
-### All in One Hacking tool For Hackers🥇
-![](https://img.shields.io/github/license/Z4nzu/hackingtool)
-![](https://img.shields.io/github/issues/Z4nzu/hackingtool)
-![](https://img.shields.io/github/issues-closed/Z4nzu/hackingtool)
-![](https://img.shields.io/badge/Python-3-blue)
-![](https://img.shields.io/github/forks/Z4nzu/hackingtool)
-![](https://img.shields.io/github/stars/Z4nzu/hackingtool)
-![](https://img.shields.io/github/last-commit/Z4nzu/hackingtool)
-[![HitCount](http://hits.dwyl.com/Z4nzu/hackingtool.svg)](http://hits.dwyl.com/Z4nzu/hackingtool)
-![](https://img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue)
+<div align="center">
 
-#### Install Kali Linux in WIndows10 Without VirtualBox [YOUTUBE](https://youtu.be/BsFhpIDcd9I) or use Docker
+<img src="images/logo.svg" alt="HackingTool" width="600">
 
-## Update Available V1.2.0 🚀 
-- [✔] Installation Bug Fixed
-- [x] Added New Tools 
-    - [x] Reverse Engineering
-    - [x] RAT Tools
-    - [x] Web Crawling 
-    - [x] Payload Injector
-- [x] Multitor Tools update
-- [X] Added Tool in wifijamming
-- [X] Added Tool in steganography
+<p><b>All-in-One Hacking Tool for Security Researchers & Pentesters</b></p>
 
+[![License](https://img.shields.io/github/license/Z4nzu/hackingtool)](LICENSE)&nbsp;
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)&nbsp;
+[![Version](https://img.shields.io/badge/v2.0.0-00FF88?style=flat-square)](#)&nbsp;
+[![Stars](https://img.shields.io/github/stars/Z4nzu/hackingtool?style=flat-square&color=yellow)](https://github.com/Z4nzu/hackingtool/stargazers)&nbsp;
+[![Forks](https://img.shields.io/github/forks/Z4nzu/hackingtool?style=flat-square&color=blue)](https://github.com/Z4nzu/hackingtool/network/members)&nbsp;
+[![Issues](https://img.shields.io/github/issues/Z4nzu/hackingtool?style=flat-square&color=red)](https://github.com/Z4nzu/hackingtool/issues)&nbsp;
+[![Last Commit](https://img.shields.io/github/last-commit/Z4nzu/hackingtool?style=flat-square&color=00FF88)](https://github.com/Z4nzu/hackingtool/commits/master)
 
+![](https://img.shields.io/badge/20_Categories-7B61FF?style=for-the-badge)
+![](https://img.shields.io/badge/185+_Tools-00FF88?style=for-the-badge)
+![](https://img.shields.io/badge/19_Tags-FF61DC?style=for-the-badge)
+![](https://img.shields.io/badge/Linux_%7C_Kali_%7C_Parrot_%7C_macOS-FFA116?style=for-the-badge&logo=linux&logoColor=white)
 
-# Hackingtool Menu 🧰
-- [Anonymously Hiding Tools](#anonymously-hiding-tools)
-- [Information gathering tools](#information-gathering-tools)
-- [Wordlist Generator](#wordlist-generator)
-- [Wireless attack tools](#wireless-attack-tools)
-- [SQL Injection Tools](#sql-injection-tools)
-- [Phishing attack tools](#phishing-attack-tools)
-- [Web Attack tools](#web-attack-tools)
-- [Post exploitation tools](#post-exploitation-tools)
-- [Forensic tools](#forensic-tools)
-- [Payload creation tools](#payload-creation-tools)
-- [Exploit framework](#exploit-framework)
-- [Reverse engineering tools](#reverse-engineering-tools)
-- [DDOS Attack Tools](#ddos-attack-tools)
-- [Remote Administrator Tools (RAT)](#remote-administrator-tools--rat-)
-- [XSS Attack Tools](#xss-attack-tools)
-- [Steganograhy tools](#steganograhy-tools)
-- [Other tools](#other-tools)
-    - [SocialMedia Bruteforce](#socialmedia-bruteforce)
-    - [Android Hacking tools](#android-hacking-tools)
-    - [IDN Homograph Attack](#idn-homograph-attack)
-    - [Email Verify tools](#email-verify-tools)
-    - [Hash cracking tools](#hash-cracking-tools)
-    - [Wifi Deauthenticate](#wifi-deauthenticate)
-    - [SocialMedia Finder](#socialmedia-finder)
-    - [Payload Injector](#payload-injector)
-    - [Web crawling](#web-crawling)
-    - [Mix tools](#mix-tools)
+<a href="#installation"><img src="https://img.shields.io/badge/Install_Now-00FF88?style=for-the-badge&logo=rocket&logoColor=black" alt="Install Now"></a>&nbsp;
+<a href="#quick-commands"><img src="https://img.shields.io/badge/Quick_Commands-7B61FF?style=for-the-badge&logo=terminal&logoColor=white" alt="Quick Commands"></a>&nbsp;
+<a href="https://github.com/Z4nzu/hackingtool/issues/new?template=tool_request.md"><img src="https://img.shields.io/badge/Suggest_a_Tool-FF61DC?style=for-the-badge&logo=plus&logoColor=white" alt="Suggest a Tool"></a>
+
+</div>
+
+---
 
 
-### Anonymously Hiding Tools
-- [Anonmously Surf](https://github.com/Und3rf10w/kali-anonsurf)
+## What's New in v2.0.0
+
+<table>
+<tr><td>
+
+| | Feature | Description |
+|:---:|---|---|
+| **🐍** | **Python 3.10+** | All Python 2 code removed, modern syntax throughout |
+| **🖥** | **OS-aware menus** | Linux-only tools hidden automatically on macOS |
+| **📦** | **185+ tools** | 35 new modern tools added across 6 categories |
+| **🔍** | **Search** | Type `/` to search all tools by name, description, or keyword |
+| **🏷** | **Tag filter** | Type `t` to filter by 19 tags — osint, web, c2, cloud, mobile... |
+| **💡** | **Recommend** | Type `r` — "I want to scan a network" → shows relevant tools |
+| **✅** | **Install status** | ✔/✘ shown next to every tool — know what's ready |
+| **⚡** | **Install all** | Option `97` in any category — batch install at once |
+| **🔄** | **Smart update** | Each tool has Update — auto-detects git pull / pip upgrade / go install |
+| **📂** | **Open folder** | Jump into any tool's directory for manual inspection |
+| **🐳** | **Docker** | Builds locally — no unverified external images |
+| **🚀** | **One-liner install** | `curl -sSL .../install.sh \| sudo bash` — zero manual steps |
+| **🏢** | **3 new categories** | Active Directory, Cloud Security, Mobile Security |
+
+</td></tr>
+</table>
+
+
+
+---
+
+## Quick Commands
+
+<div align="center">
+
+| Command | Action | Works in |
+|:---:|---|:---:|
+| `/query` | **Search** — find tools instantly by keyword | Main menu |
+| `t` | **Tags** — filter by osint, scanner, c2, cloud, mobile... | Main menu |
+| `r` | **Recommend** — "I want to do X" → matching tools | Main menu |
+| `?` | **Help** — quick reference card | Everywhere |
+| `q` | **Quit** — exit from any depth | Everywhere |
+| `97` | **Install All** — batch install all tools in category | Category |
+| `99` | **Back** — return to previous menu | Everywhere |
+
+</div>
+
+---
+
+
+## Tool Categories
+
+<div align="center">
+
+| # | Category | Tools | | # | Category | Tools |
+|:---:|---|:---:|---|:---:|---|:---:|
+| 1 | 🛡 [Anonymously Hiding](#anonymously-hiding-tools) | 2 | | 11 | 🧰 [Exploit Framework](#exploit-framework) | 4 |
+| 2 | 🔍 [Information Gathering](#information-gathering-tools) | 26 | | 12 | 🔁 [Reverse Engineering](#reverse-engineering-tools) | 5 |
+| 3 | 📚 [Wordlist Generator](#wordlist-generator) | 7 | | 13 | ⚡ [DDOS Attack](#ddos-attack-tools) | 5 |
+| 4 | 📶 [Wireless Attack](#wireless-attack-tools) | 13 | | 14 | 🖥 [RAT](#remote-administrator-tools-rat) | 1 |
+| 5 | 🧩 [SQL Injection](#sql-injection-tools) | 7 | | 15 | 💥 [XSS Attack](#xss-attack-tools) | 9 |
+| 6 | 🎣 [Phishing Attack](#phishing-attack-tools) | 17 | | 16 | 🖼 [Steganography](#steganography-tools) | 4 |
+| 7 | 🌐 [Web Attack](#web-attack-tools) | 20 | | 17 | 🏢 [Active Directory](#active-directory-tools) | 6 |
+| 8 | 🔧 [Post Exploitation](#post-exploitation-tools) | 10 | | 18 | ☁ [Cloud Security](#cloud-security-tools) | 4 |
+| 9 | 🕵 [Forensics](#forensic-tools) | 8 | | 19 | 📱 [Mobile Security](#mobile-security-tools) | 3 |
+| 10 | 📦 [Payload Creation](#payload-creation-tools) | 8 | | 20 | ✨ [Other Tools](#other-tools) | 24 |
+
+</div>
+
+
+
+---
+
+
+## 🛡 Anonymously Hiding Tools
+
+- [Anonymously Surf](https://github.com/Und3rf10w/kali-anonsurf)
 - [Multitor](https://github.com/trimstray/multitor)
-### Information gathering tools
+
+
+
+## 🔍 Information Gathering Tools
+
 - [Network Map (nmap)](https://github.com/nmap/nmap)
 - [Dracnmap](https://github.com/Screetsec/Dracnmap)
 - Port scanning
-- Host to IP 
+- Host to IP
 - [Xerosploit](https://github.com/LionSec/xerosploit)
-- [RED HAWK (All In One Scanning)](https://github.com/Tuhinshubhra/RED_HAWK)
-- [ReconSpider(For All Scanning)](https://github.com/bhavsec/reconspider)
-- IsItDown (Check Website Down/Up)
-- [Infoga - Email OSINT](https://github.com/m4ll0k/Infoga)
+- [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
+- [ReconSpider](https://github.com/bhavsec/reconspider)
+- IsItDown
+- [Infoga](https://github.com/m4ll0k/Infoga)
 - [ReconDog](https://github.com/s0md3v/ReconDog)
 - [Striker](https://github.com/s0md3v/Striker)
-- [SecretFinder (like API & etc)](https://github.com/m4ll0k/SecretFinder)
-- [Find Info Using Shodan](https://github.com/m4ll0k/Shodanfy.py)
-- [Port Scanner - rang3r (Python 2.7)](https://github.com/floriankunushevci/rang3r)
-- [Port Scanner - Ranger Reloaded (Python 3+)](https://github.com/joeyagreco/ranger-reloaded)
+- [SecretFinder](https://github.com/m4ll0k/SecretFinder)
+- [Shodanfy](https://github.com/m4ll0k/Shodanfy.py)
+- [rang3r](https://github.com/floriankunushevci/rang3r)
 - [Breacher](https://github.com/s0md3v/Breacher)
-### Wordlist Generator
-- [Cupp](https://github.com/Mebus/cupp.git)
+- [theHarvester](https://github.com/laramies/theHarvester) ★
+- [Amass](https://github.com/owasp-amass/amass) ★
+- [Masscan](https://github.com/robertdavidgraham/masscan) ★
+- [RustScan](https://github.com/RustScan/RustScan) ★
+- [Holehe](https://github.com/megadose/holehe) ★
+- [Maigret](https://github.com/soxoj/maigret) ★
+- [httpx](https://github.com/projectdiscovery/httpx) ★
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) ★
+- [Subfinder](https://github.com/projectdiscovery/subfinder) ★
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog) ★
+- [Gitleaks](https://github.com/gitleaks/gitleaks) ★
+
+
+
+## 📚 Wordlist Generator
+
+- [Cupp](https://github.com/Mebus/cupp)
 - [WordlistCreator](https://github.com/Z4nzu/wlcreator)
-- [Goblin WordGenerator](https://github.com/UndeadSec/GoblinWordGenerator.git)
-- [Password list (1.4 Billion Clear Text Password)](https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got)
-### Wireless attack tools
+- [Goblin WordGenerator](https://github.com/UndeadSec/GoblinWordGenerator)
+- [Password list (1.4B)](https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got)
+- [Hashcat](https://github.com/hashcat/hashcat) ★
+- [John the Ripper](https://github.com/openwall/john) ★
+- [haiti](https://github.com/noraj/haiti) ★
+
+
+
+## 📶 Wireless Attack Tools
+
 - [WiFi-Pumpkin](https://github.com/P0cL4bs/wifipumpkin3)
 - [pixiewps](https://github.com/wiire/pixiewps)
-- [Bluetooth Honeypot GUI Framework](https://github.com/andrewmichaelsmith/bluepot)
-- [Fluxion](https://github.com/thehackingsage/Fluxion)
+- [Bluetooth Honeypot (bluepot)](https://github.com/andrewmichaelsmith/bluepot)
+- [Fluxion](https://github.com/FluxionNetwork/fluxion)
 - [Wifiphisher](https://github.com/wifiphisher/wifiphisher)
 - [Wifite](https://github.com/derv82/wifite2)
 - [EvilTwin](https://github.com/Z4nzu/fakeap)
 - [Fastssh](https://github.com/Z4nzu/fastssh)
 - Howmanypeople
-### SQL Injection Tools
-- [Sqlmap tool](https://github.com/sqlmapproject/sqlmap)
+- [Airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) ★
+- [hcxdumptool](https://github.com/ZerBea/hcxdumptool) ★
+- [hcxtools](https://github.com/ZerBea/hcxtools) ★
+- [Bettercap](https://github.com/bettercap/bettercap) ★
+
+
+
+## 🧩 SQL Injection Tools
+
+- [Sqlmap](https://github.com/sqlmapproject/sqlmap)
 - [NoSqlMap](https://github.com/codingo/NoSQLMap)
-- [Damn Small SQLi Scanner](https://github.com/stamparm/DSSS)
+- [DSSS](https://github.com/stamparm/DSSS)
 - [Explo](https://github.com/dtag-dev-sec/explo)
-- [Blisqy - Exploit Time-based blind-SQL injection](https://github.com/JohnTroony/Blisqy)
-- [Leviathan - Wide Range Mass Audit Toolkit](https://github.com/leviathan-framework/leviathan)
+- [Blisqy](https://github.com/JohnTroony/Blisqy)
+- [Leviathan](https://github.com/leviathan-framework/leviathan)
 - [SQLScan](https://github.com/Cvar1984/sqlscan)
-### Phishing attack tools
+
+
+
+## 🎣 Phishing Attack Tools
+
+- [Autophisher](https://github.com/CodingRanjith/autophisher)
+- [PyPhisher](https://github.com/KasRoudra/PyPhisher)
+- [AdvPhishing](https://github.com/Ignitetch/AdvPhishing)
 - [Setoolkit](https://github.com/trustedsec/social-engineer-toolkit)
 - [SocialFish](https://github.com/UndeadSec/SocialFish)
-- [HiddenEye](https://github.com/DarkSecDevelopers/HiddenEye)
-- [Evilginx2](https://github.com/kgretzky/evilginx2)
-- [I-See_You(Get Location using phishing attack)](https://github.com/Viralmaniar/I-See-You)
-- [SayCheese (Grab target's Webcam Shots)](https://github.com/hangetzzu/saycheese)
+- [HiddenEye](https://github.com/Morsmalleo/HiddenEye)
+- [Evilginx3](https://github.com/kgretzky/evilginx2)
+- [I-See-You](https://github.com/Viralmaniar/I-See-You)
+- [SayCheese](https://github.com/hangetzzu/saycheese)
 - [QR Code Jacking](https://github.com/cryptedwolf/ohmyqr)
+- [BlackEye](https://github.com/thelinuxchoice/blackeye)
 - [ShellPhish](https://github.com/An0nUD4Y/shellphish)
+- [Thanos](https://github.com/TridevReddy/Thanos)
+- [QRLJacking](https://github.com/OWASP/QRLJacking)
+- [Maskphish](https://github.com/jaykali/maskphish)
 - [BlackPhish](https://github.com/iinc0gnit0/BlackPhish)
-### Web Attack tools
+- [dnstwist](https://github.com/elceef/dnstwist)
+
+
+
+## 🌐 Web Attack Tools
+
 - [Web2Attack](https://github.com/santatic/web2attack)
 - Skipfish
-- [SubDomain Finder](https://github.com/aboul3la/Sublist3r)
+- [Sublist3r](https://github.com/aboul3la/Sublist3r)
 - [CheckURL](https://github.com/UndeadSec/checkURL)
-- [Blazy(Also Find ClickJacking)](https://github.com/UltimateHackers/Blazy)
-- [Sub-Domain TakeOver](https://github.com/m4ll0k/takeover)
+- [Sub-Domain TakeOver](https://github.com/edoardottt/takeover)
 - [Dirb](https://gitlab.com/kalilinux/packages/dirb)
-### Post exploitation tools
-- [Vegile - Ghost In The Shell](https://github.com/Screetsec/Vegile)
+- [Nuclei](https://github.com/projectdiscovery/nuclei) ★
+- [ffuf](https://github.com/ffuf/ffuf) ★
+- [Feroxbuster](https://github.com/epi052/feroxbuster) ★
+- [Nikto](https://github.com/sullo/nikto) ★
+- [wafw00f](https://github.com/EnableSecurity/wafw00f) ★
+- [Katana](https://github.com/projectdiscovery/katana) ★
+- [Gobuster](https://github.com/OJ/gobuster) ★
+- [Dirsearch](https://github.com/maurosoria/dirsearch) ★
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) ★
+- [testssl.sh](https://github.com/drwetter/testssl.sh) ★
+- [Arjun](https://github.com/s0md3v/Arjun) ★
+- [Caido](https://github.com/caido/caido) ★
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy) ★
+
+
+
+## 🔧 Post Exploitation Tools
+
+- [Vegile](https://github.com/Screetsec/Vegile)
 - [Chrome Keylogger](https://github.com/UndeadSec/HeraKeylogger)
-### Forensic tools
+- [pwncat-cs](https://github.com/calebstewart/pwncat) ★
+- [Sliver](https://github.com/BishopFox/sliver) ★
+- [Havoc](https://github.com/HavocFramework/Havoc) ★
+- [PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng) ★
+- [Ligolo-ng](https://github.com/nicocha30/ligolo-ng) ★
+- [Chisel](https://github.com/jpillora/chisel) ★
+- [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) ★
+- [Mythic](https://github.com/its-a-feature/Mythic) ★
+
+
+
+## 🕵 Forensic Tools
+
 - Autopsy
 - Wireshark
 - [Bulk extractor](https://github.com/simsong/bulk_extractor)
-- [Disk Clone and ISO Image Acquire](https://guymager.sourceforge.io/)
+- [Guymager](https://guymager.sourceforge.io/)
 - [Toolsley](https://www.toolsley.com/)
-- [Volatility3](https://github.com/volatilityfoundation/volatility3/)
-### Payload creation tools
+- [Volatility 3](https://github.com/volatilityfoundation/volatility3) ★
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) ★
+- [pspy](https://github.com/DominicBreuker/pspy) ★
+
+
+
+## 📦 Payload Creation Tools
+
 - [The FatRat](https://github.com/Screetsec/TheFatRat)
 - [Brutal](https://github.com/Screetsec/Brutal)
 - [Stitch](https://nathanlopez.github.io/Stitch)
 - [MSFvenom Payload Creator](https://github.com/g0tmi1k/msfpc)
-- [Venom Shellcode Generator](https://github.com/r00t-3xp10it/venom)
+- [Venom](https://github.com/r00t-3xp10it/venom)
 - [Spycam](https://github.com/indexnotfound404/spycam)
 - [Mob-Droid](https://github.com/kinghacker0/Mob-Droid)
 - [Enigma](https://github.com/UndeadSec/Enigma)
-### Exploit framework
+
+
+
+## 🧰 Exploit Framework
+
 - [RouterSploit](https://github.com/threat9/routersploit)
-- [WebSploit](https://github.com/The404Hacking/websploit )
+- [WebSploit](https://github.com/The404Hacking/websploit)
 - [Commix](https://github.com/commixproject/commix)
 - [Web2Attack](https://github.com/santatic/web2attack)
-### Reverse engineering tools
-- [Androguard](https://github.com/androguard/androguard )
-- [Apk2Gold](https://github.com/lxdvs/apk2gold )
+
+
+
+## 🔁 Reverse Engineering Tools
+
+- [Androguard](https://github.com/androguard/androguard)
+- [Apk2Gold](https://github.com/lxdvs/apk2gold)
 - [JadX](https://github.com/skylot/jadx)
-### DDOS Attack Tools
-- SlowLoris
-- [Asyncrone | Multifunction SYN Flood DDoS Weapon](https://github.com/fatihsnsy/aSYNcrone)
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) ★
+- [Radare2](https://github.com/radareorg/radare2) ★
+
+
+
+## ⚡ DDOS Attack Tools
+
+- [DDoS Script](https://github.com/the-deepnet/ddos)
+- [SlowLoris](https://github.com/gkbrk/slowloris)
+- [Asyncrone](https://github.com/fatihsnsy/aSYNcrone)
 - [UFOnet](https://github.com/epsylon/ufonet)
 - [GoldenEye](https://github.com/jseidl/GoldenEye)
-### Remote Administrator Tools (RAT)
-- [Stitch](https://github.com/nathanlopez/Stitch)
+
+
+
+## 🖥 Remote Administrator Tools (RAT)
+
 - [Pyshell](https://github.com/knassar702/pyshell)
-### XSS Attack Tools
-- [DalFox(Finder of XSS)](https://github.com/hahwul/dalfox)
-- [XSS Payload Generator](https://github.com/capture0x/XSS-LOADER.git)
-- [Extended XSS Searcher and Finder](https://github.com/Damian89/extended-xss-search)
+
+
+
+## 💥 XSS Attack Tools
+
+- [DalFox](https://github.com/hahwul/dalfox)
+- [XSS Payload Generator](https://github.com/capture0x/XSS-LOADER)
+- [Extended XSS Searcher](https://github.com/Damian89/extended-xss-search)
 - [XSS-Freak](https://github.com/PR0PH3CY33/XSS-Freak)
 - [XSpear](https://github.com/hahwul/XSpear)
 - [XSSCon](https://github.com/menkrep1337/XSSCon)
 - [XanXSS](https://github.com/Ekultek/XanXSS)
-- [Advanced XSS Detection Suite](https://github.com/UltimateHackers/XSStrike)
+- [XSStrike](https://github.com/UltimateHackers/XSStrike)
 - [RVuln](https://github.com/iinc0gnit0/RVuln)
-- [Cyclops](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) 
-### Steganograhy tools
+
+
+
+## 🖼 Steganography Tools
+
 - SteganoHide
-- StegnoCracker
 - [StegoCracker](https://github.com/W1LDN16H7/StegoCracker)
 - [Whitespace](https://github.com/beardog108/snow10)
-### Other tools
+
+
+
+## 🏢 Active Directory Tools
+
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound) ★
+- [NetExec (nxc)](https://github.com/Pennyw0rth/NetExec) ★
+- [Impacket](https://github.com/fortra/impacket) ★
+- [Responder](https://github.com/lgandx/Responder) ★
+- [Certipy](https://github.com/ly4k/Certipy) ★
+- [Kerbrute](https://github.com/ropnop/kerbrute) ★
+
+
+
+## ☁ Cloud Security Tools
+
+- [Prowler](https://github.com/prowler-cloud/prowler) ★
+- [ScoutSuite](https://github.com/nccgroup/ScoutSuite) ★
+- [Pacu](https://github.com/RhinoSecurityLabs/pacu) ★
+- [Trivy](https://github.com/aquasecurity/trivy) ★
+
+
+
+## 📱 Mobile Security Tools
+
+- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) ★
+- [Frida](https://github.com/frida/frida) ★
+- [Objection](https://github.com/sensepost/objection) ★
+
+
+
+## ✨ Other Tools
+
 #### SocialMedia Bruteforce
-- [Instagram Attack](https://github.com/chinoogawa/instaBrute)
 - [AllinOne SocialMedia Attack](https://github.com/Matrix07ksa/Brute_Force)
 - [Facebook Attack](https://github.com/Matrix07ksa/Brute_Force)
 - [Application Checker](https://github.com/jakuta-tech/underhanded)
-#### Android Hacking tools
+
+#### Android Hacking Tools
 - [Keydroid](https://github.com/F4dl0/keydroid)
 - [MySMS](https://github.com/papusingh2sms/mysms)
-- [Lockphish (Grab target LOCK PIN)](https://github.com/JasonJerry/lockphish)
-- [DroidCam (Capture Image)](https://github.com/kinghacker0/WishFish)
-- [EvilApp (Hijack Session)](https://github.com/crypticterminal/EvilApp)
-- [HatCloud(Bypass CloudFlare for IP)](https://github.com/HatBashBR/HatCloud)
+- [Lockphish](https://github.com/JasonJerry/lockphish)
+- [DroidCam / WishFish](https://github.com/kinghacker0/WishFish)
+- [EvilApp](https://github.com/crypticterminal/EvilApp)
+
 #### IDN Homograph Attack
 - [EvilURL](https://github.com/UndeadSec/EvilURL)
-#### Email Verify tools
+
+#### Email Verify Tools
 - [Knockmail](https://github.com/4w4k3/KnockMail)
-#### Hash cracking tools
+
+#### Hash Cracking Tools
 - [Hash Buster](https://github.com/s0md3v/Hash-Buster)
+
 #### Wifi Deauthenticate
 - [WifiJammer-NG](https://github.com/MisterBianco/wifijammer-ng)
 - [KawaiiDeauther](https://github.com/aryanrtm/KawaiiDeauther)
+
 #### SocialMedia Finder
-- [Find SocialMedia By Facial Recognation System](https://github.com/Greenwolf/social_mapper)
+- [Find SocialMedia By Facial Recognition](https://github.com/Greenwolf/social_mapper)
 - [Find SocialMedia By UserName](https://github.com/xHak9x/finduser)
 - [Sherlock](https://github.com/sherlock-project/sherlock)
-- [SocialScan | Username or Email](https://github.com/iojw/socialscan)
+- [SocialScan](https://github.com/iojw/socialscan)
+
 #### Payload Injector
 - [Debinject](https://github.com/UndeadSec/Debinject)
 - [Pixload](https://github.com/chinarulezzz/pixload)
-#### Web crawling
+
+#### Web Crawling
 - [Gospider](https://github.com/jaeles-project/gospider)
-#### Mix tools
-- Terminal Multiplexer
+
+#### Mix Tools
+- Terminal Multiplexer (tilix)
+- [Crivo](https://github.com/GMDSantana/crivo)
 
 
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A00.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A0.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A1.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A2.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A4.png)
+---
 
-## Installation For Linux <img src="https://konpa.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="25" height="25"/></p><p align="center">
+## Contributing — Add a New Tool
 
+<table>
+<tr>
+<td width="50%">
 
-### !! RUN HACKINGTOOL AS ROOT !! 
+### Open an Issue
 
+> **Title:** `[Tool Request] ToolName — Category`
 
-## Steps are given below : 
+Use the [Tool Request](.github/ISSUE_TEMPLATE/tool_request.md) template.
 
+Required: tool name, GitHub URL, category, OS, install command, reason.
 
-## Step : 1 Download hackingtool
+</td>
+<td width="50%">
 
-    git clone https://github.com/Z4nzu/hackingtool.git
+### Open a Pull Request
 
-## Step : 2 Give Permission to hackingtool
-    
-    chmod -R 755 hackingtool  
+> **Title:** `[New Tool] ToolName — Category`
 
-## Step : 3 Move to hackingtool directory
+Use the [PR template](.github/PULL_REQUEST_TEMPLATE.md) checklist.
 
-    cd hackingtool
+Required: class in `tools/*.py`, TITLE, DESCRIPTION, INSTALL/RUN commands, SUPPORTED_OS, test locally.
 
-## Step : 4 Run hackingtool
-    
-    sudo bash install.sh
+</td>
+</tr>
+</table>
 
-## Step : 5 For installing tools in directory
+> Issues or PRs that don't follow the title format will be closed without review.
 
-    sudo hackingtool
+---
 
+## Installation
 
-## Use image with Docker
+<table>
+<tr>
+<td>
 
-### Create Docker Image
-- Create the docker image 
+### One-liner (recommended)
 
 ```bash
-docker buitl -t vgpastor/hackingtool .
+curl -sSL https://raw.githubusercontent.com/Z4nzu/hackingtool/master/install.sh | sudo bash
 ```
 
-### Run as container 
+Handles everything — prerequisites, clone, venv, launcher.
+
+</td>
+<td>
+
+### Manual
 
 ```bash
-docker-compose up -d
+git clone https://github.com/Z4nzu/hackingtool.git
+cd hackingtool
+sudo python3 install.py
 ```
 
-### Interact with terminal
+Then run: `hackingtool`
 
-- Get into the container 
+</td>
+</tr>
+</table>
+
+
+### Docker
+
 ```bash
+# Build
+docker build -t hackingtool .
+
+# Run (direct)
+docker run -it --rm hackingtool
+
+# Run (Compose — recommended)
+docker compose up -d
 docker exec -it hackingtool bash
+
+# Dev mode (live source mount)
+docker compose --profile dev up
+docker exec -it hackingtool-dev bash
+
+# Stop
+docker compose down        # stop container
+docker compose down -v     # also remove data volume
 ```
-**OUTPUT:**
+
+
+
+### Requirements
+
+| Dependency | Version | Needed for |
+|---|---|---|
+| Python | 3.10+ | Core |
+| Go | 1.21+ | nuclei, ffuf, amass, httpx, katana, dalfox, gobuster, subfinder |
+| Ruby | any | haiti, evil-winrm |
+| Docker | any | Mythic, MobSF (optional) |
+
 ```bash
-Select Best Option : 
-
-              [1] Kali Linux / Parrot-Os (apt)
-              [2] Arch Linux (pacman)
-              [0] Exit 
+pip install -r requirements.txt
 ```
-Enter the options and continue.
 
-- If need open other ports you can edit the docker-compose.yml file
-- Volumes are mounted in the container to persist data and can share files between the host and the container
+---
 
+## Star History
 
-#### Thanks to original Author of the tools used in hackingtool
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Z4nzu/hackingtool&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Z4nzu/hackingtool&type=Date" />
+  <img alt="HackingTool Star History Chart" src="https://api.star-history.com/svg?repos=Z4nzu/hackingtool&type=Date" />
+</picture>
 
-<img src ="https://img.shields.io/badge/Important-notice-red" />
-<h4>Please Don't Use for illegal Activity</h4>
+---
 
-### To do 
-- [ ] Release Tool 
-- [ ] Add Tools for CTF
-- [ ] Want to do automatic 
+## Support
 
-## Social Media :mailbox_with_no_mail:
-[![Twitter](https://img.shields.io/twitter/url?color=%231DA1F2&label=follow&logo=twitter&logoColor=%231DA1F2&style=flat-square&url=https%3A%2F%2Fwww.reddit.com%2Fuser%2FFatChicken277)](https://twitter.com/_Zinzu07)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&link=https://github.com/Z4nzu/)](https://github.com/Z4nzu/)
-##### Your Favourite Tool is not in hackingtool or Suggestions Please [CLICK HERE](https://forms.gle/b235JoCKyUq5iM3t8)
-![Z4nzu's github stats](https://github-readme-stats.vercel.app/api?username=Z4nzu&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+If this project helps you, consider buying me a coffee:
 
-#### Don't Forgot to share with Your Friends 
-### The new Update get will soon stay updated
-#### Thank you..!!
+<a href="https://buymeacoffee.com/hardikzinzu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
+
+## Social
+
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_Zinzu07)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Z4nzu/)
+
+> **For authorized security testing only.**
+> Thanks to all original authors of the tools included in hackingtool.
+
+Your favourite tool is not listed? [Suggest it here](https://github.com/Z4nzu/hackingtool/issues/new?template=tool_request.md)
