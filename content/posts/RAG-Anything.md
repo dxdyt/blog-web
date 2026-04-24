@@ -1,9 +1,9 @@
 ---
 title: RAG-Anything
-date: 2026-04-23T14:05:54+08:00
+date: 2026-04-24T14:07:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774275987611-efc9f7f3cb58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774275987611-efc9f7f3cb58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776754373072-b06d560d335b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776754373072-b06d560d335b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzJ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything)

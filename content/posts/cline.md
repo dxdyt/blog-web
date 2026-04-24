@@ -1,9 +1,9 @@
 ---
 title: cline
-date: 2026-02-01T13:22:28+08:00
+date: 2026-04-24T14:08:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767584291064-705a02adc3aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767584291064-705a02adc3aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776333181065-fe91f63d17eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776333181065-fe91f63d17eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzJ8&ixlib=rb-4.1.0
 ---
 
 # [cline/cline](https://github.com/cline/cline)
@@ -13,11 +13,6 @@ English | <a href="https://github.com/cline/cline/blob/main/locales/es/README.md
 </sub></div>
 
 # Cline
-
-<p align="center">
-  <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" />
-</p>
-
 <div align="center">
 <table>
 <tbody>
@@ -158,4 +153,4 @@ Get the same Cline experience with enterprise-grade controls: SSO (SAML/OIDC), g
 
 ## License
 
-[Apache 2.0 © 2025 Cline Bot Inc.](./LICENSE)
+[Apache 2.0 © 2026 Cline Bot Inc.](./LICENSE)
