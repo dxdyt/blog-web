@@ -1,15 +1,16 @@
 ---
 title: osv-scanner
-date: 2025-03-20T12:21:55+08:00
+date: 2026-04-25T13:47:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [google/osv-scanner](https://github.com/google/osv-scanner)
 
 <picture>
     <source srcset="/docs/images/osv-scanner-full-logo-darkmode.svg"  media="(prefers-color-scheme: dark)">
+    <!-- markdown-link-check-disable-next-line -->
     <img src="/docs/images/osv-scanner-full-logo-lightmode.svg">
 </picture>
 
@@ -93,7 +94,7 @@ $ osv-scanner scan image my-image-name:tag
 
 ![screencast of html output of container scanning](https://github.com/user-attachments/assets/8bb95366-27ec-45d1-86ed-e42890f2fb46)
 
-### [License Scanning](https://google.github.io/osv-scanner/experimental/license-scanning/)
+### [License Scanning](https://google.github.io/osv-scanner/usage/license-scanning/)
 
 Check your dependencies' licenses using deps.dev data. For a summary:
 
@@ -107,7 +108,7 @@ To check against an allowed license list (SPDX format):
 osv-scanner --licenses="MIT,Apache-2.0" path/to/directory
 ```
 
-### [Offline Scanning](https://google.github.io/osv-scanner/experimental/offline-mode/)
+### [Offline Scanning](https://google.github.io/osv-scanner/usage/offline-mode/)
 
 Scan your project against a local OSV database. No network connection is required after the initial database download. The database can also be manually downloaded.
 
@@ -116,6 +117,9 @@ osv-scanner --offline --download-offline-databases ./path/to/your/dir
 ```
 
 ### [Guided Remediation](https://google.github.io/osv-scanner/experimental/guided-remediation/) (Experimental)
+
+> [!WARNING]
+> Guided remediation (the `fix` command) can be risky when run on untrusted projects. It may trigger the package manager to execute scripts or follow external registries specified in the project. Please ensure you trust the source code and artifacts before proceeding.
 
 OSV-Scanner provides guided remediation, a feature that suggests package version upgrades based on criteria such as dependency depth, minimum severity, fix strategy, and return on investment.
 We currently support remediating vulnerabilities in the following files:
@@ -149,6 +153,35 @@ $ osv-scanner fix \
 
 <img src="https://google.github.io/osv-scanner/images/guided-remediation-relock-patches.png" alt="Screenshot of the interactive relock results screen with some relaxation patches selected">
 
+## Data Sources and Privacy
+
+OSV-Scanner communicates with the following external services during operation:
+
+### [OSV.dev API](https://osv.dev/)
+
+The primary data source for vulnerability information. OSV-Scanner queries this API to check packages for known vulnerabilities and to identify vendored C/C++ dependencies. Data sent includes package names, versions, ecosystems, and file hashes. Use [`--offline` mode](https://google.github.io/osv-scanner/usage/offline-mode/) to disable network requests and scan against a local database instead.
+
+### [deps.dev API](https://docs.deps.dev/api/)
+
+Used for supplementary package information:
+
+- **Dependency resolution**: Resolves dependency graphs for vulnerability scanning and remediation
+- **Container image scanning**: Queries container image metadata for vulnerability detection
+- **License scanning** (`--licenses` flag): Retrieves license information for packages
+- **Package deprecation**: Checks if packages are deprecated
+
+Data sent includes package names, versions, and ecosystems. No source code is transmitted.
+
+### Package Registries
+
+When using native registry for dependency resolution (instead of deps.dev), OSV-Scanner may query:
+
+| Registry      | URL                            | Used For                             |
+| ------------- | ------------------------------ | ------------------------------------ |
+| Maven Central | `repo.maven.apache.org/maven2` | Maven package metadata and POM files |
+| npm Registry  | `registry.npmjs.org`           | npm package metadata                 |
+| PyPI          | `pypi.org`                     | Python package metadata              |
+
 ## Contribute
 
 ### Report Problems
@@ -161,4 +194,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for documentation on how to contribute co
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=google/osv-scanner&type=Date)](https://star-history.com/#google/osv-scanner&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=google/osv-scanner&type=Date)](https://www.star-history.com/#google/osv-scanner&Date)

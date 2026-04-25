@@ -1,9 +1,9 @@
 ---
 title: DeepEP
-date: 2025-06-20T12:27:10+08:00
+date: 2026-04-25T13:48:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747607176083-d79cf8e1f135?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747607176083-d79cf8e1f135?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP)
@@ -63,7 +63,7 @@ We test low-latency kernels on H800 with each connected to a CX7 InfiniBand 400 
 
 ### Download and install NVSHMEM dependency
 
-DeepEP also depends on our modified NVSHMEM. Please refer to our [NVSHMEM Installation Guide](third-party/README.md) for instructions.
+DeepEP also depends on NVSHMEM. Please refer to our [NVSHMEM Installation Guide](third-party/README.md) for instructions.
 
 ### Development
 
@@ -75,7 +75,7 @@ ln -s build/lib.linux-x86_64-cpython-38/deep_ep_cpp.cpython-38-x86_64-linux-gnu.
 
 # Run test cases
 # NOTES: you may modify the `init_dist` function in `tests/utils.py`
-# according to your own cluster settings, and launch into multiple nodes 
+# according to your own cluster settings, and launch into multiple nodes
 python tests/test_intranode.py
 python tests/test_internode.py
 python tests/test_low_latency.py
@@ -89,10 +89,10 @@ NVSHMEM_DIR=/path/to/installed/nvshmem python setup.py install
 
 #### Installation environment variables
 
-- `NVSHMEM_DIR`: the path to the NVSHMEM directory, disable all internode and low-latency features if not specified 
+- `NVSHMEM_DIR`: the path to the NVSHMEM directory, disable all internode and low-latency features if not specified
 - `DISABLE_SM90_FEATURES`: 0 or 1, whether to disable SM90 features, it is required for SM90 devices or CUDA 11
 - `TORCH_CUDA_ARCH_LIST`: the list of target architectures, e.g. `TORCH_CUDA_ARCH_LIST="9.0"`
-- `DISABLE_AGGRESSIVE_PTX_INSTRS`: 0 or 1, whether to disable aggressive load/store instructions, see [Undefine behavior PTX usage](#undefined-behavior-ptx-usage) for more details
+- `DISABLE_AGGRESSIVE_PTX_INSTRS`: 0 or 1, whether to disable aggressive load/store instructions, see [Undefined-behavior PTX usage](#undefined-behavior-ptx-usage) for more details
 
 Then, import `deep_ep` in your Python project, and enjoy!
 
@@ -147,7 +147,7 @@ Buffer.set_num_sms(24)
 # You may call this function at the framework initialization
 def get_buffer(group: dist.ProcessGroup, hidden_bytes: int) -> Buffer:
     global _buffer
-    
+
     # NOTES: you may also replace `get_*_config` with your auto-tuned results via all the tests
     num_nvl_bytes, num_rdma_bytes = 0, 0
     for config in (Buffer.get_dispatch_config(group.size()), Buffer.get_combine_config(group.size())):
@@ -169,7 +169,7 @@ def dispatch_forward(x: Union[torch.Tensor, Tuple[torch.Tensor, torch.Tensor]],
                      topk_idx: torch.Tensor, topk_weights: torch.Tensor,
                      num_experts: int, previous_event: Optional[EventOverlap] = None) -> \
         Tuple[Union[torch.Tensor, Tuple[torch.Tensor, torch.Tensor]], torch.Tensor, torch.Tensor, List, Tuple, EventOverlap]:
-    # NOTES: an optional `previous_event` means a CUDA event captured that you want to make it as a dependency 
+    # NOTES: an optional `previous_event` means a CUDA event captured that you want to make it as a dependency
     # of the dispatch kernel, it may be useful with communication-computation overlap. For more information, please
     # refer to the docs of `Buffer.dispatch`
     global _buffer
@@ -313,6 +313,7 @@ For two-micro-batch overlapping, you can refer to the following figure. With our
   - [ ] Internode kernels
   - [ ] Low-latency kernels
 - [ ] SM-free kernels and refactors
+- [ ] Fully remove undefined-behavior PTX instructions
 
 ## Notices
 
@@ -334,9 +335,32 @@ For better performance on your cluster, we recommend to run all the tests and us
 
 This code repository is released under [the MIT License](LICENSE), except for codes that reference NVSHMEM (including `csrc/kernels/ibgda_device.cuh` and `third-party/nvshmem.patch`), which are subject to [NVSHMEM SLA](https://docs.nvidia.com/nvshmem/api/sla.html).
 
+## Experimental Branches
+
+- [Zero-copy](https://github.com/deepseek-ai/DeepEP/pull/453)
+  - Removing the copy between PyTorch tensors and communication buffers, which reduces the SM usages significantly for normal kernels
+  - This PR is authored by **Tencent Network Platform Department**
+- [Eager](https://github.com/deepseek-ai/DeepEP/pull/437)
+  - Using a low-latency protocol removes the extra RTT latency introduced by RDMA atomic OPs
+- [Hybrid-EP](https://github.com/deepseek-ai/DeepEP/tree/hybrid-ep)
+  - A new backend implementation using TMA instructions for minimal SM usage and larger NVLink domain support
+  - Fine-grained communication-computation overlap for single-batch scenarios
+  - PCIe kernel support for non-NVLink environments
+  - NVFP4 data type support
+- [AntGroup-Opt](https://github.com/deepseek-ai/DeepEP/tree/antgroup-opt)
+  - This optimization series is authored by **AntGroup Network Platform Department**
+  - [Normal-SMFree](https://github.com/deepseek-ai/DeepEP/pull/347) Eliminating SM from RDMA path by decoupling comm-kernel execution from NIC token transfer, freeing SMs for compute
+  - [LL-SBO](https://github.com/deepseek-ai/DeepEP/pull/483) Overlapping Down GEMM computation with Combine Send communication via signaling mechanism to reduce end-to-end latency
+  - [LL-Layered](https://github.com/deepseek-ai/DeepEP/pull/500) Optimizing cross-node LL operator communication using rail-optimized forwarding and data merging to reduce latency
+- [Mori-EP](https://github.com/deepseek-ai/DeepEP/tree/mori-ep)
+  - ROCm/AMD GPU support powered by [MORI](https://github.com/ROCm/mori) backend (low-latency mode)
+
 ## Community Forks
 
+- [uccl/uccl-ep](https://github.com/uccl-project/uccl/tree/main/ep) - Enables running DeepEP on heterogeneous GPUs (e.g., Nvidia, AMD) and NICs (e.g., EFA, Broadcom, CX7)
 - [Infrawaves/DeepEP_ibrc_dual-ports_multiQP](https://github.com/Infrawaves/DeepEP_ibrc_dual-ports_multiQP) - Adds multi-QP solution and dual-port NIC support in IBRC transport
+- [antgroup/DeepXTrace](https://github.com/antgroup/DeepXTrace) - A diagnostic analyzer for efficient and precise localization of slow ranks
+- [ROCm/mori](https://github.com/ROCm/mori) - AMD's next-generation communication library for performance-critical AI workloads (e.g., Wide EP, KVCache transfer, Collectives)
 
 ## Citation
 

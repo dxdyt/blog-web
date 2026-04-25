@@ -1,9 +1,9 @@
 ---
 title: posthog
-date: 2026-02-21T13:05:23+08:00
+date: 2026-04-25T13:48:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769458711025-b5fc150b60ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769458711025-b5fc150b60ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NTAyODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [PostHog/posthog](https://github.com/PostHog/posthog)

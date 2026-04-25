@@ -1,9 +1,9 @@
 ---
 title: OpenMetadata
-date: 2026-04-24T14:08:13+08:00
+date: 2026-04-25T13:48:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774246714923-0375b6f1e0e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774246714923-0375b6f1e0e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata)

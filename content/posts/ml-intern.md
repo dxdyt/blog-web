@@ -1,9 +1,9 @@
 ---
 title: ml-intern
-date: 2026-04-24T14:07:20+08:00
+date: 2026-04-25T13:47:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774314706341-041341ae7af5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/ml-intern](https://github.com/huggingface/ml-intern)

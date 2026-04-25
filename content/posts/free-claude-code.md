@@ -1,9 +1,9 @@
 ---
 title: free-claude-code
-date: 2026-04-24T14:08:08+08:00
+date: 2026-04-25T13:47:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774347180942-a30dc0669d61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774347180942-a30dc0669d61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
 ---
 
 # [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)
@@ -86,9 +86,9 @@ Choose your provider and edit `.env`:
 ```dotenv
 NVIDIA_NIM_API_KEY="nvapi-your-key-here"
 
-MODEL_OPUS="nvidia_nim/z-ai/glm4.7"
-MODEL_SONNET="nvidia_nim/moonshotai/kimi-k2-thinking"
-MODEL_HAIKU="nvidia_nim/stepfun-ai/step-3.5-flash"
+MODEL_OPUS=
+MODEL_SONNET=
+MODEL_HAIKU=
 MODEL="nvidia_nim/z-ai/glm4.7"                     # fallback
 
 # Global switch for provider reasoning requests and Claude thinking blocks.
@@ -323,14 +323,14 @@ free-claude-code    # starts the server
 │  Claude Code    │───────>│  Free Claude Code    │───────>│  LLM Provider    │
 │  CLI / VSCode   │<───────│  Proxy (:8082)       │<───────│  NIM / OR / LMS  │
 └─────────────────┘        └──────────────────────┘        └──────────────────┘
-   Anthropic API                                             OpenAI-compatible
-   format (SSE)                                             format (SSE)
+   Anthropic API                                             Native Anthropic
+   format (SSE)                                             or OpenAI chat SSE
 ```
 
 - **Transparent proxy**: Claude Code sends standard Anthropic API requests; the proxy forwards them to your configured provider
 - **Per-model routing**: Opus / Sonnet / Haiku requests resolve to their model-specific backend, with `MODEL` as fallback
 - **Request optimization**: 5 categories of trivial requests (quota probes, title generation, prefix detection, suggestions, filepath extraction) are intercepted and responded to locally without using API quota
-- **Format translation**: Requests are translated from Anthropic format to the provider's OpenAI-compatible format and streamed back
+- **Format handling**: OpenRouter, LM Studio, and llama.cpp use native Anthropic Messages endpoints; NIM and DeepSeek use shared OpenAI chat translation
 - **Thinking tokens**: `<think>` tags and `reasoning_content` fields are converted into native Claude thinking blocks when `ENABLE_THINKING=true`
 
 The proxy also exposes Claude-compatible probe routes: `GET /v1/models`, `POST /v1/messages`, `POST /v1/messages/count_tokens`, plus `HEAD`/`OPTIONS` support for the common probe endpoints.
@@ -512,10 +512,10 @@ Configure via `WHISPER_DEVICE` (`cpu` | `cuda` | `nvidia_nim`) and `WHISPER_MODE
 
 | Variable             | Description                                                           | Default                                           |
 | -------------------- | --------------------------------------------------------------------- | ------------------------------------------------- |
-| `MODEL`              | Fallback model (`provider/model/name` format; invalid prefix → error) | `nvidia_nim/stepfun-ai/step-3.5-flash`            |
-| `MODEL_OPUS`         | Model for Claude Opus requests (falls back to `MODEL`)                | `nvidia_nim/z-ai/glm4.7`                          |
-| `MODEL_SONNET`       | Model for Claude Sonnet requests (falls back to `MODEL`)              | `open_router/arcee-ai/trinity-large-preview:free` |
-| `MODEL_HAIKU`        | Model for Claude Haiku requests (falls back to `MODEL`)               | `open_router/stepfun/step-3.5-flash:free`         |
+| `MODEL`              | Fallback model (`provider/model/name` format; invalid prefix → error) | `nvidia_nim/z-ai/glm4.7`                          |
+| `MODEL_OPUS`         | Model for Claude Opus requests; empty falls back to `MODEL`           | empty                                             |
+| `MODEL_SONNET`       | Model for Claude Sonnet requests; empty falls back to `MODEL`         | empty                                             |
+| `MODEL_HAIKU`        | Model for Claude Haiku requests; empty falls back to `MODEL`          | empty                                             |
 | `NVIDIA_NIM_API_KEY`    | NVIDIA API key                                                        | required for NIM                                  |
 | `ENABLE_THINKING`    | Global switch for provider reasoning requests and Claude thinking blocks. Set `false` to hide thinking across all providers. | `true` |
 | `OPENROUTER_API_KEY` | OpenRouter API key                                                    | required for OpenRouter                           |
@@ -536,7 +536,7 @@ Configure via `WHISPER_DEVICE` (`cpu` | `cuda` | `nvidia_nim`) and `WHISPER_MODE
 | `PROVIDER_MAX_CONCURRENCY` | Max simultaneous open provider streams    | `5`     |
 | `HTTP_READ_TIMEOUT`        | Read timeout for provider requests (s)    | `120`   |
 | `HTTP_WRITE_TIMEOUT`       | Write timeout for provider requests (s)   | `10`    |
-| `HTTP_CONNECT_TIMEOUT`     | Connect timeout for provider requests (s) | `2`     |
+| `HTTP_CONNECT_TIMEOUT`     | Connect timeout for provider requests (s) | `10`     |
 
 ### Messaging & Voice
 
@@ -582,10 +582,10 @@ See [`.env.example`](.env.example) for all supported parameters.
 ```
 free-claude-code/
 ├── server.py              # Entry point
-├── api/                   # FastAPI routes, request detection, optimization handlers
-├── providers/             # BaseProvider, OpenAICompatibleProvider, NIM, OpenRouter, DeepSeek, LM Studio, llamacpp
-│   └── common/            # Shared utils (SSE builder, message converter, parsers, error mapping)
-├── messaging/             # MessagingPlatform ABC + Discord/Telegram bots, session management
+├── api/                   # FastAPI routes, API service layer, model routing, request detection, optimizations
+├── core/                  # Shared Anthropic protocol helpers, SSE, conversion, parsers, token counting
+├── providers/             # Provider registry, scoped runtime state, OpenAI chat + Anthropic messages transports
+├── messaging/             # MessagingPlatform ABC + Discord/Telegram bots, commands, voice, session management
 ├── config/                # Settings, NIM config, logging
 ├── cli/                   # CLI session and process management
 └── tests/                 # Pytest test suite
@@ -602,19 +602,21 @@ uv run pytest          # Run tests
 
 ### Extending
 
-**Adding an OpenAI-compatible provider** (Groq, Together AI, etc.) — extend `OpenAICompatibleProvider`:
+**Adding an OpenAI-compatible provider** (Groq, Together AI, etc.) — extend `OpenAIChatTransport`, then add a descriptor in the provider registry:
 
 ```python
-from providers.openai_compat import OpenAICompatibleProvider
+from providers.openai_compat import OpenAIChatTransport
 from providers.base import ProviderConfig
 
-class MyProvider(OpenAICompatibleProvider):
+class MyProvider(OpenAIChatTransport):
     def __init__(self, config: ProviderConfig):
         super().__init__(config, provider_name="MYPROVIDER",
                          base_url="https://api.example.com/v1", api_key=config.api_key)
 ```
 
-**Adding a fully custom provider** — extend `BaseProvider` directly and implement `stream_response()`.
+**Adding a native Anthropic provider** — extend `AnthropicMessagesTransport`, then add a descriptor in `providers.registry`.
+
+**Adding a fully custom provider** — extend `BaseProvider` directly, implement `stream_response()`, and register its descriptor.
 
 **Adding a messaging platform** — extend `MessagingPlatform` in `messaging/` and implement `start()`, `stop()`, `send_message()`, `edit_message()`, and `on_message()`.
 
