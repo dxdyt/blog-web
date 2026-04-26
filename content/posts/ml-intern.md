@@ -1,9 +1,9 @@
 ---
 title: ml-intern
-date: 2026-04-25T13:47:37+08:00
+date: 2026-04-26T14:06:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772901930607-08bd1e7ec031?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776455129114-26d420083d40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776455129114-26d420083d40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/ml-intern](https://github.com/huggingface/ml-intern)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1772901930607-08bd1e7ec0
 
 # ML Intern
 
-An ML intern that autonomously researches, writes, and ships good quality ML releated code using the Hugging Face ecosystem — with deep access to docs, papers, datasets, and cloud compute.
+An ML intern that autonomously researches, writes, and ships good quality ML related code using the Hugging Face ecosystem — with deep access to docs, papers, datasets, and cloud compute.
 
 ## Quick Start
 
@@ -37,6 +37,7 @@ Create a `.env` file in the project root (or export these in your shell):
 
 ```bash
 ANTHROPIC_API_KEY=<your-anthropic-api-key> # if using anthropic models
+OPENAI_API_KEY=<your-openai-api-key> # if using openai models
 HF_TOKEN=<your-hugging-face-token>
 GITHUB_TOKEN=<github-personal-access-token> 
 ```
@@ -60,6 +61,7 @@ ml-intern "fine-tune llama on my dataset"
 
 ```bash
 ml-intern --model anthropic/claude-opus-4-6 "your prompt"
+ml-intern --model openai/gpt-5.5 "your prompt"
 ml-intern --max-iterations 100 "your prompt"
 ml-intern --no-stream "your prompt"
 ```
@@ -220,7 +222,8 @@ def create_builtin_tools() -> list[ToolSpec]:
 
 ### Adding MCP Servers
 
-Edit `configs/main_agent_config.json`:
+Edit `configs/cli_agent_config.json` for CLI defaults, or
+`configs/frontend_agent_config.json` for web-session defaults:
 
 ```json
 {
