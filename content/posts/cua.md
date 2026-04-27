@@ -1,235 +1,230 @@
 ---
 title: cua
-date: 2025-10-09T12:22:00+08:00
+date: 2026-04-27T14:27:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774199616762-31d947dc7d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774199616762-31d947dc7d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
 ---
 
 # [trycua/cua](https://github.com/trycua/cua)
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Cua logo" height="150" srcset="img/logo_white.png">
-    <source media="(prefers-color-scheme: light)" alt="Cua logo" height="150" srcset="img/logo_black.png">
-    <img alt="Cua logo" height="150" src="img/logo_black.png">
-  </picture>
+  <a href="https://cua.ai" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" alt="Cua logo" width="150" srcset="img/logo_white.svg">
+      <source media="(prefers-color-scheme: light)" alt="Cua logo" width="150" srcset="img/logo_black.svg">
+      <img alt="Cua logo" width="150" src="img/logo_black.svg">
+    </picture>
+  </a>
 
-  [![Python](https://img.shields.io/badge/Python-333333?logo=python&logoColor=white&labelColor=333333)](#)
-  [![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)](#)
-  [![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#)
-  [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.com/invite/mVnXXpdE85)
-  <br>
-  <a href="https://trendshift.io/repositories/13685" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13685" alt="trycua%2Fcua | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <p align="center">Build, benchmark, and deploy agents that use computers</p>
+
+  <p align="center">
+    <a href="https://cua.ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/cua.ai-0ea5e9" alt="cua.ai"></a>
+    <a href="https://discord.gg/mVnXXpdE85" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discord-Join%20Server-10b981?logo=discord&logoColor=white" alt="Discord"></a>
+    <a href="https://x.com/trycua" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/twitter/follow/trycua?style=social" alt="Twitter"></a>
+    <a href="https://cua.ai/docs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Docs-0ea5e9.svg" alt="Documentation"></a>
+    <br>
+<a href="https://trendshift.io/repositories/13685" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13685" alt="trycua%2Fcua | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  </p>
+
 </div>
 
-> We’re hosting the **Computer-Use Agents SOTA Challenge** at [Hack the North](https://hackthenorth.com) and online!  
->> **Track A (On-site @ UWaterloo)**: Reserved for participants accepted to Hack the North. 🏆 Prize: **YC interview guaranteed**.  
->> **Track B (Remote)**: Open to everyone worldwide. 🏆 Prize: **Cash award**.    
->>> 👉 Sign up here: [trycua.com/hackathon](https://www.trycua.com/hackathon)  
-
-**cua** ("koo-ah") is Docker for [Computer-Use Agents](https://www.oneusefulthing.org/p/when-you-give-a-claude-a-mouse) - it enables AI agents to control full operating systems in virtual containers and deploy them locally or to the cloud.
+## Choose Your Path
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/c619b4ea-bb8e-4382-860e-f3757e36af20" width="600" controls></video>
+  <table>
+    <tr>
+      <td colspan="3" align="center">
+        <a href="#cua-driver---background-computer-use-on-macos">
+          <img src="img/card-cua-driver.png" alt="Cua Driver — The background computer-use agent" width="888">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="#cua---agentic-ui-automation--code-execution">
+          <img src="img/card-cua-sandbox.png" alt="Cua &amp; Cua Sandbox" width="280">
+        </a>
+      </td>
+      <td align="center">
+        <a href="#cua-bench---benchmarks--rl-environments">
+          <img src="img/card-cua-bench.png" alt="Cua Bench" width="280">
+        </a>
+      </td>
+      <td align="center">
+        <a href="#lume---macos-virtualization">
+          <img src="img/card-cua-lume.png" alt="Lume" width="280">
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
-With the Computer SDK, you can:
-- automate Windows, Linux, and macOS VMs with a consistent, [pyautogui-like API](https://docs.trycua.com/docs/libraries/computer#interface-actions)
-- create & manage VMs [locally](https://docs.trycua.com/docs/computer-sdk/computers#cua-local-containers) or using [cua cloud](https://www.trycua.com/)
+---
 
-With the Agent SDK, you can:
-- run computer-use models with a [consistent schema](https://docs.trycua.com/docs/agent-sdk/message-format)
-- benchmark on OSWorld-Verified, SheetBench-V2, and more [with a single line of code using HUD](https://docs.trycua.com/docs/agent-sdk/integrations/hud) ([Notebook](https://github.com/trycua/cua/blob/main/notebooks/eval_osworld.ipynb))
-- combine UI grounding models with any LLM using [composed agents](https://docs.trycua.com/docs/agent-sdk/supported-agents/composed-agents)
-- use new UI agent models and UI grounding models from the Model Zoo below with just a model string (e.g., `ComputerAgent(model="openai/computer-use-preview")`)
-- use API or local inference by changing a prefix (e.g., `openai/`, `openrouter/`, `ollama/`, `huggingface-local/`, `mlx/`, [etc.](https://docs.litellm.ai/docs/providers))
+## Cua Driver - Background computer-use on macOS
 
-### CUA Model Zoo 🐨
+Drive any native macOS app **in the background** — agents click, type, and verify without stealing the cursor, focus, or Space, even on non-AX surfaces like Chromium web content and canvas-based tools (Blender, Figma, DAWs, game engines). Use with the CLI or MCP server for Claude Code, Cursor, and custom clients. Every session records as a replayable trajectory.
 
-| [All-in-one CUAs](https://docs.trycua.com/docs/agent-sdk/supported-agents/computer-use-agents) | [UI Grounding Models](https://docs.trycua.com/docs/agent-sdk/supported-agents/composed-agents) | [UI Planning Models](https://docs.trycua.com/docs/agent-sdk/supported-agents/composed-agents) |
-|---|---|---|
-| `anthropic/claude-sonnet-4-5-20250929` | `huggingface-local/xlangai/OpenCUA-{7B,32B}` | any all-in-one CUA |
-| `openai/computer-use-preview` | `huggingface-local/HelloKKMe/GTA1-{7B,32B,72B}` | any VLM (using liteLLM, requires `tools` parameter) |
-| `openrouter/z-ai/glm-4.5v` | `huggingface-local/Hcompany/Holo1.5-{3B,7B,72B}` | any LLM (using liteLLM, requires `moondream3+` prefix ) |
-| `huggingface-local/OpenGVLab/InternVL3_5-{1B,2B,4B,8B,...}` | any all-in-one CUA | |
-| `huggingface-local/ByteDance-Seed/UI-TARS-1.5-7B` | |
-| `moondream3+{ui planning}` (supports text-only models) | |
-| `omniparser+{ui planning}` | | |
-| `{ui grounding}+{ui planning}` | | |
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/trycua/cua/main/libs/cua-driver/scripts/install.sh)"
+```
 
-- `human/human` → [Human-in-the-Loop](https://docs.trycua.com/docs/agent-sdk/supported-agents/human-in-the-loop)
+Full tool reference, architecture notes, and the Claude Code skill ship with the package: [`libs/cua-driver/README.md`](libs/cua-driver/README.md).
 
-Missing a model? [Raise a feature request](https://github.com/trycua/cua/issues/new?assignees=&labels=enhancement&projects=&title=%5BAgent%5D%3A+Add+model+support+for+) or [contribute](https://github.com/trycua/cua/blob/main/CONTRIBUTING.md)!
+---
 
-<br/>
+## Cua - Agent-Ready Sandboxes for Any OS
 
-# Quick Start 
+Build agents that see screens, click buttons, and complete tasks autonomously. One API for any VM or container image — cloud or local.
 
-- [Get started with a Computer-Use Agent UI](https://docs.trycua.com/docs/quickstart-ui)
-- [Get started with the Computer-Use Agent CLI](https://docs.trycua.com/docs/quickstart-cli)
-- [Get started with the Python SDKs](https://docs.trycua.com/docs/quickstart-devs)
+```sh
+pip install cua
+```
 
-<br/>
+<!-- <img src="img/cua-architecture.png" alt="Cua Architecture" width="100%"> -->
 
-# Usage ([Docs](https://docs.trycua.com/docs))
+```python
+# Requires Python 3.11 or later
+from cua import Sandbox, Image
+
+# Same API regardless of OS or runtime
+async with Sandbox.ephemeral(Image.linux()) as sb:   # or .macos() .windows() .android()
+    result = await sb.shell.run("echo hello")
+    screenshot = await sb.screenshot()
+    await sb.mouse.click(100, 200)
+    await sb.keyboard.type("Hello from Cua!")
+    await sb.mobile.gesture((100, 500), (100, 200))  # multi-touch gestures
+```
+
+|                    | Linux container | Linux VM | macOS | Windows | Android | BYOI (.qcow2, .iso) |
+| ------------------ | --------------- | -------- | ----- | ------- | ------- | ------------------- |
+| **Cloud (cua.ai)** | ✅              | ✅       | ✅    | ✅      | ✅      | 🔜 soon             |
+| **Local (QEMU)**   | ✅              | ✅       | ✅    | ✅      | ✅      | ✅                  |
+
+**[Get Started](https://cua.ai/docs/cua/guide/get-started/set-up-sandbox)** | **[Examples](https://cua.ai/docs/cua/examples)** | **[API Reference](https://cua.ai/docs/cua/reference/agent-sdk)**
+
+---
+
+## CuaBot - Co-op computer-use for any agent
+
+<div align="center">
+  <img src="img/cuabot-screenshot.png" alt="cuabot screenshot" width="720">
+</div>
+
+`cuabot` gives any coding agent a seamless sandbox for computer-use. Individual windows appear natively on your desktop with H.265, shared clipboard, and audio.
 
 ```bash
-pip install cua-agent[all]
+npx cuabot                 # Setup onboarding
 ```
-```python
-from agent import ComputerAgent
-
-agent = ComputerAgent(
-    model="anthropic/claude-3-5-sonnet-20241022",
-    tools=[computer],
-    max_trajectory_budget=5.0
-)
-
-messages = [{"role": "user", "content": "Take a screenshot and tell me what you see"}]
-
-async for result in agent.run(messages):
-    for item in result["output"]:
-        if item["type"] == "message":
-            print(item["content"][0]["text"])
-```
-
-### Output format (OpenAI Agent Responses Format):
-```json
-{ 
-  "output": [
-    # user input
-    {
-        "role": "user",
-        "content": "go to trycua on gh"
-    },
-    # first agent turn adds the model output to the history
-    {
-        "summary": [
-            {
-                "text": "Searching Firefox for Trycua GitHub",
-                "type": "summary_text"
-            }
-        ],
-        "type": "reasoning"
-    },
-    {
-        "action": {
-            "text": "Trycua GitHub",
-            "type": "type"
-        },
-        "call_id": "call_QI6OsYkXxl6Ww1KvyJc4LKKq",
-        "status": "completed",
-        "type": "computer_call"
-    },
-    # second agent turn adds the computer output to the history
-    {
-        "type": "computer_call_output",
-        "call_id": "call_QI6OsYkXxl6Ww1KvyJc4LKKq",
-        "output": {
-            "type": "input_image",
-            "image_url": "data:image/png;base64,..."
-        }
-    },
-    # final agent turn adds the agent output text to the history
-    {
-        "type": "message",
-        "role": "assistant",
-        "content": [
-          {
-            "text": "Success! The Trycua GitHub page has been opened.",
-            "type": "output_text"
-          }
-        ]
-    }
-  ], 
-  "usage": {
-      "prompt_tokens": 150,
-      "completion_tokens": 75,
-      "total_tokens": 225,
-      "response_cost": 0.01,
-  }
-}
-```
-
-# Computer ([Docs](https://docs.trycua.com/docs/computer-sdk/computers))
 
 ```bash
-pip install cua-computer[all]
-```
-```python
-from computer import Computer
+# Run any agent in a sandbox
+cuabot claude              # Claude Code
+cuabot openclaw            # OpenClaw in the sandbox
 
-async with Computer(
-    os_type="linux",
-    provider_type="cloud",
-    name="your-container-name",
-    api_key="your-api-key"
-) as computer:
-    # Take screenshot
-    screenshot = await computer.interface.screenshot()
-
-    # Click and type
-    await computer.interface.left_click(100, 100)
-    await computer.interface.type("Hello!")
+# Run any GUI workflow in a sandbox
+cuabot chromium
+cuabot --screenshot
+cuabot --type "hello"
+cuabot --click <x> <y> [button]
 ```
 
-# Resources
+Built-in support for `agent-browser` and `agent-device` (iOS, Android) out of the box.
 
-- [How to use the MCP Server with Claude Desktop or other MCP clients](./libs/python/mcp-server/README.md) - One of the easiest ways to get started with Cua
-- [How to use OpenAI Computer-Use, Anthropic, OmniParser, or UI-TARS for your Computer-Use Agent](./libs/python/agent/README.md)
-- [How to use Lume CLI for managing desktops](./libs/lume/README.md)
-- [Training Computer-Use Models: Collecting Human Trajectories with Cua (Part 1)](https://www.trycua.com/blog/training-computer-use-models-trajectories-1)
+<div align="center">
 
-## Modules
+**[Get Started](https://cua.ai/docs/cuabot/guide/getting-started/introduction)** | **[Installation](https://cua.ai/docs/cuabot/guide/getting-started/installation)** | First spotted at [ClawCon](https://www.claw-con.com/)
 
-| Module | Description | Installation |
-|--------|-------------|---------------|
-| [**Lume**](./libs/lume/README.md) | VM management for macOS/Linux using Apple's Virtualization.Framework | `curl -fsSL https://raw.githubusercontent.com/trycua/cua/main/libs/lume/scripts/install.sh \| bash` |
-| [**Lumier**](./libs/lumier/README.md) | Docker interface for macOS and Linux VMs | `docker pull trycua/lumier:latest` |
-| [**Computer (Python)**](./libs/python/computer/README.md) | Python Interface for controlling virtual machines | `pip install "cua-computer[all]"` |
-| [**Computer (Typescript)**](./libs/typescript/computer/README.md) | Typescript Interface for controlling virtual machines | `npm install @trycua/computer` |
-| [**Agent**](./libs/python/agent/README.md) | AI agent framework for automating tasks | `pip install "cua-agent[all]"` |
-| [**MCP Server**](./libs/python/mcp-server/README.md) | MCP server for using CUA with Claude Desktop | `pip install cua-mcp-server` |
-| [**SOM**](./libs/python/som/README.md) | Self-of-Mark library for Agent | `pip install cua-som` |
-| [**Computer Server**](./libs/python/computer-server/README.md) | Server component for Computer | `pip install cua-computer-server` |
-| [**Core (Python)**](./libs/python/core/README.md) | Python Core utilities | `pip install cua-core` |
-| [**Core (Typescript)**](./libs/typescript/core/README.md) | Typescript Core utilities | `npm install @trycua/core` |
+<img height="64" alt="cuaXclawdbot_nbg" src="https://github.com/user-attachments/assets/8b92237d-6e9b-4b3a-ae9a-b3560622ec1d" />
 
-## Community
+</div>
 
-Join our [Discord community](https://discord.com/invite/mVnXXpdE85) to discuss ideas, get assistance, or share your demos!
+---
 
-## License
+## Cua-Bench - Benchmarks & RL Environments
 
-Cua is open-sourced under the MIT License - see the [LICENSE](LICENSE) file for details.  
+Evaluate computer-use agents on OSWorld, ScreenSpot, Windows Arena, and custom tasks. Export trajectories for training.
 
-Portions of this project, specifically components adapted from Kasm Technologies Inc., are also licensed under the MIT License. See [libs/kasm/LICENSE](libs/kasm/LICENSE) for details.
+<!-- <img src="img/cua-bench-architecture.png" alt="Cua-Bench Architecture" width="100%"> -->
 
-Microsoft's OmniParser, which is used in this project, is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). See the [OmniParser LICENSE](https://github.com/microsoft/OmniParser/blob/master/LICENSE) for details.
+```bash
+# Install and create base image
+cd cua-bench
+uv tool install -e . && cb image create linux-docker
 
-### Third-Party Licenses and Optional Components
+# Run benchmark with agent
+cb run dataset datasets/cua-bench-basic --agent cua-agent --max-parallel 4
+```
 
-Some optional extras for this project depend on third-party packages that are licensed under terms different from the MIT License.
+**[Get Started](https://cua.ai/docs/cuabench/guide/getting-started/first-steps)** | **[Partner With Us](https://cuabench.ai/)** | **[Registry](https://cuabench.ai/registry)** | **[CLI Reference](https://cua.ai/docs/cuabench/reference/cli-reference)**
 
-- The optional "omni" extra (installed via `pip install "cua-agent[omni]"`) installs the `cua-som` module, which includes `ultralytics` and is licensed under the AGPL-3.0.
+---
 
-When you choose to install and use such optional extras, your use, modification, and distribution of those third-party components are governed by their respective licenses (e.g., AGPL-3.0 for `ultralytics`).
+## Lume - macOS Virtualization
+
+Create and manage macOS/Linux VMs with near-native performance on Apple Silicon using Apple's Virtualization.Framework.
+
+<!-- <img src="img/lume-architecture.png" alt="Lume Architecture" width="100%"> -->
+
+```bash
+# Install Lume
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/trycua/cua/main/libs/lume/scripts/install.sh)"
+
+# Pull & start a macOS VM
+lume run macos-sequoia-vanilla:latest
+```
+
+**[Get Started](https://cua.ai/docs/lume)** | **[FAQ](https://cua.ai/docs/lume/guide/getting-started/faq)** | **[CLI Reference](https://cua.ai/docs/lume/reference/cli-reference)**
+
+---
+
+## Packages
+
+| Package                                                                     | Description                                                |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [cuabot](https://docs.trycua.com/cuabot/guide/getting-started/introduction) | Multi-agent computer-use sandbox CLI                       |
+| [cua-agent](https://cua.ai/docs/cua/reference/agent-sdk)                    | AI agent framework for computer-use tasks                  |
+| [cua-sandbox](https://cua.ai/docs/cua/reference/sandbox-sdk)                | SDK for creating and controlling sandboxes                 |
+| [cua-computer-server](https://cua.ai/docs/cua/reference/sandbox-sdk)        | Driver for UI interactions and code execution in sandboxes |
+| [cua-bench](https://cua.ai/docs/cuabench)                                   | Benchmarks and RL environments for computer-use            |
+| [lume](https://cua.ai/docs/lume)                                            | macOS/Linux VM management on Apple Silicon                 |
+| [lumier](https://cua.ai/docs/lume/guide/advanced/lumier)                    | Docker-compatible interface for Lume VMs                   |
+
+## Resources
+
+- [Documentation](https://cua.ai/docs) — Guides, examples, and API reference
+- [Blog](https://www.cua.ai/blog) — Tutorials, updates, and research
+- [Discord](https://discord.com/invite/mVnXXpdE85) — Community support and discussions
+- [GitHub Issues](https://github.com/trycua/cua/issues) — Bug reports and feature requests
 
 ## Contributing
 
-We welcome contributions to Cua! Please refer to our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+MIT License — see [LICENSE](LICENSE.md) for details.
+
+Third-party components have their own licenses:
+
+- [Kasm](libs/kasm/LICENSE) (MIT)
+- [OmniParser](https://github.com/microsoft/OmniParser/blob/master/LICENSE) (CC-BY-4.0)
+- Optional `cua-agent[omni]` includes ultralytics (AGPL-3.0)
 
 ## Trademarks
 
-Apple, macOS, and Apple Silicon are trademarks of Apple Inc.  
-Ubuntu and Canonical are registered trademarks of Canonical Ltd.  
-Microsoft is a registered trademark of Microsoft Corporation.  
+Apple, macOS, Ubuntu, Canonical, and Microsoft are trademarks of their respective owners. This project is not affiliated with or endorsed by these companies.
 
-This project is not affiliated with, endorsed by, or sponsored by Apple Inc., Canonical Ltd., Microsoft Corporation, or Kasm Technologies.
+---
 
-## Stargazers
-
-Thank you to all our supporters!
+<div align="center">
 
 [![Stargazers over time](https://starchart.cc/trycua/cua.svg?variant=adaptive)](https://starchart.cc/trycua/cua)
+
+Thank you to all our [GitHub Sponsors](https://github.com/sponsors/trycua)!
+
+<img width="300" alt="coderabbit-cli" src="https://github.com/user-attachments/assets/23a98e38-7897-4043-8ef7-eb990520dccc" />
+
+</div>

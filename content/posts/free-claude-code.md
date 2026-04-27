@@ -1,9 +1,9 @@
 ---
 title: free-claude-code
-date: 2026-04-26T14:05:59+08:00
+date: 2026-04-27T14:26:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774910429313-98034531b71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774910429313-98034531b71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
 ---
 
 # [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1774907323911-3322ba35a1
 [![Code style: Ruff](https://img.shields.io/badge/code%20formatting-ruff-f5a623.svg?style=for-the-badge)](https://github.com/astral-sh/ruff)
 [![Logging: Loguru](https://img.shields.io/badge/logging-loguru-4ecdc4.svg?style=for-the-badge)](https://github.com/Delgan/loguru)
 
-A lightweight proxy that routes Claude Code's Anthropic API calls to **NVIDIA NIM** (40 req/min free), **OpenRouter** (hundreds of models), **DeepSeek** (direct API), **LM Studio** (fully local), **llama.cpp** (local with Anthropic endpoints), or **Ollama** (fully local, native Anthropic Messages).
+A lightweight proxy that routes Claude Code's Anthropic API calls to **NVIDIA NIM** (40 req/min free), **OpenRouter** (hundreds of models), **DeepSeek** (direct Anthropic-compatible API), **LM Studio** (fully local), **llama.cpp** (local with Anthropic endpoints), or **Ollama** (fully local, native Anthropic Messages).
 
 [Quick Start](#quick-start) · [Providers](#providers) · [Discord Bot](#discord-bot) · [Configuration](#configuration) · [Development](#development) · [Contributing](#contributing)
 
@@ -385,7 +385,7 @@ The proxy also exposes Claude-compatible probe routes: `GET /v1/models`, `POST /
 | -------------- | ------------ | ---------- | ------------------------------------ |
 | **NVIDIA NIM** | Free         | 40 req/min | Daily driver, generous free tier     |
 | **OpenRouter** | Free / Paid  | Varies     | Model variety, fallback options      |
-| **DeepSeek**   | Usage-based  | Varies     | Direct access to DeepSeek chat/reasoner |
+| **DeepSeek**   | Usage-based  | Varies     | Native Anthropic Messages on DeepSeek's API |
 | **LM Studio**  | Free (local) | Unlimited  | Privacy, offline use, no rate limits |
 | **llama.cpp**  | Free (local) | Unlimited  | Lightweight local inference engine   |
 | **Ollama**     | Free (local) | Unlimited  | Easy local LLM runtime, native Anthropic API |
@@ -396,7 +396,7 @@ Models use a prefix format: `provider_prefix/model/name`. An invalid prefix caus
 | ---------- | ----------------- | -------------------- | ----------------------------- |
 | NVIDIA NIM | `nvidia_nim/...`  | `NVIDIA_NIM_API_KEY` | `integrate.api.nvidia.com/v1` |
 | OpenRouter | `open_router/...` | `OPENROUTER_API_KEY` | `openrouter.ai/api/v1`        |
-| DeepSeek   | `deepseek/...`    | `DEEPSEEK_API_KEY`   | `api.deepseek.com`            |
+| DeepSeek   | `deepseek/...`    | `DEEPSEEK_API_KEY`   | `api.deepseek.com/anthropic`  |
 | LM Studio  | `lmstudio/...`    | (none)               | `localhost:1234/v1`           |
 | llama.cpp  | `llamacpp/...`    | (none)               | `localhost:8080/v1`           |
 | Ollama     | `ollama/...`      | (none)               | `localhost:11434`             |
@@ -433,10 +433,12 @@ Browse: [openrouter.ai/models](https://openrouter.ai/models) · [Free models](ht
 <details>
 <summary><b>DeepSeek models</b></summary>
 
-DeepSeek currently exposes the direct API models:
+The `deepseek` provider uses DeepSeek's **Anthropic-compatible** `POST /v1/messages` entrypoint
+(HTTP base `https://api.deepseek.com/anthropic`), not the OpenAI `chat/completions` API. Some
+Anthropic request features are unsupported; see the DeepSeek API docs for limits.
 
-- `deepseek/deepseek-chat`
-- `deepseek/deepseek-reasoner`
+- `deepseek/deepseek-v4-pro` / `deepseek/deepseek-v4-flash` (recommended for smokes and tools+thinking)
+- `deepseek/deepseek-chat` / `deepseek/deepseek-reasoner` (older model ids may still be available)
 
 Browse: [api-docs.deepseek.com](https://api-docs.deepseek.com)
 

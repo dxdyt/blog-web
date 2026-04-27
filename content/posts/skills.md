@@ -1,16 +1,20 @@
 ---
 title: skills
-date: 2026-04-26T14:06:08+08:00
+date: 2026-04-27T14:26:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762138012600-2ab523f8b35a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762138012600-2ab523f8b35a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
 ---
 
 # [mattpocock/skills](https://github.com/mattpocock/skills)
 
-# Agent Skills
+# Agent Skills For Real Engineers
 
-A collection of agent skills that extend capabilities across planning, development, and tooling.
+My agent skills that I use every day to do real engineering - not vibe coding.
+
+If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:
+
+[Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
 
 ## Planning & Design
 

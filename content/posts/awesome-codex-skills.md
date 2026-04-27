@@ -1,9 +1,9 @@
 ---
 title: awesome-codex-skills
-date: 2026-04-26T14:07:31+08:00
+date: 2026-04-27T14:28:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774907323911-3322ba35a11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcxODM1NTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
 ---
 
 # [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)
@@ -92,6 +92,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 
 - [brooks-lint](https://github.com/hyhmrright/brooks-lint) - AI code reviews grounded in six classic engineering books — decay risk diagnostics with book citations, severity labels, and four analysis modes (PR review, architecture audit, tech debt, test quality). Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo hyhmrright/brooks-lint --path skills/brooks-lint --name brooks-lint`
 - [codebase-migrate/](./codebase-migrate/) - Run large codebase migrations and multi-file refactors in reviewable batches with CI verification.
+- [codebase-recon](https://github.com/yujiachen-y/codebase-recon-skill) - Analyze git history to understand a codebase before reading any code — surfaces hotspots, bug magnets, bus factor, momentum, and high-risk files (hotspot ∩ bug-magnet) via auto-scaled analysis. Install: `python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo yujiachen-y/codebase-recon-skill --path skills/codebase-recon --name codebase-recon`
 - [create-plan/](./create-plan/) - Quickly draft concise execution plans for coding tasks.
 - [deploy-pipeline/](./deploy-pipeline/) - End-to-end Stripe → Supabase → Vercel release pipelines with verify and rollback.
 - [Emdash Skills](https://github.com/megabytespace/claude-skills) - 14-category autonomous product-building OS: CF Workers + Hono + Angular + D1 + Stripe. One-line prompts to deployed SaaS with 94 reference docs, 18 agents, and Codex-native `.agents/skills/` support.
@@ -102,6 +103,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [sentry-triage/](./sentry-triage/) - Diagnose Sentry issues by mapping stack frames to local source — no copy-paste.
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
 - [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
+- [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - Governed Codex skill harness for staged, test-driven work: routes 340+ skills through requirement freeze, plan approval, execution, verification evidence, and cross-session memory.
 
 ### Productivity & Collaboration
 
@@ -145,6 +147,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 ### Meta & Utilities
 
 - [brand-guidelines/](./brand-guidelines/) - Apply OpenAI/Codex brand colors and typography to artifacts.
+- [agent-deep-links/](./agent-deep-links/) - Build and validate deep links for Codex, Cursor, and VS Code with Slack-safe formatting and fallback guidance.
 - [canvas-design/](./canvas-design/) - Generate structured canvas layouts and design artifacts.
 - [image-enhancer/](./image-enhancer/) - Upscale and refine images with configurable presets.
 - [slack-gif-creator/](./slack-gif-creator/) - Generate GIFs for Slack with captions and styling.
