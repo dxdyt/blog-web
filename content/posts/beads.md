@@ -1,9 +1,9 @@
 ---
 title: beads
-date: 2026-04-27T14:27:39+08:00
+date: 2026-04-28T14:28:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1528120369764-0423708119ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1528120369764-0423708119ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775385015053-3e4aad001e22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775385015053-3e4aad001e22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
 ---
 
 # [gastownhall/beads](https://github.com/gastownhall/beads)

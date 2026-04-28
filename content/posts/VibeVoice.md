@@ -1,9 +1,9 @@
 ---
 title: VibeVoice
-date: 2026-04-02T13:40:54+08:00
+date: 2026-04-28T14:28:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770026430828-c389a6ccfad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxMDg0NDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773646933368-20ef423122da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773646933368-20ef423122da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
@@ -34,11 +34,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1770026430828-c389a6ccfa
 
 <h3>📰 News</h3>
 
-<strong>🎉 VibeVoice-ASR is being adopted by the open-source community! <a href="https://vibingjustspeakit.github.io/Vibing/">Vibing</a>, a voice-powered input method, is now built on top of VibeVoice-ASR. Download: [macOS](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-mac.dmg) | [Windows](https://github.com/VibingJustSpeakIt/Vibing/releases/download/v0.1.0/Vibing-v0.1.0-windows.exe)</strong>
 
-https://github.com/user-attachments/assets/db0bb23f-ae06-4135-a66a-1ff1669f4f84
 
-<strong>2026-03-06: 🚀 VibeVoice ASR is now part of a <a href="https://github.com/huggingface/transformers/releases/tag/v5.3.0">Transformers release</a>! You can now use our speech recognition model directly through the Hugging Face Transformers library for seamless integration into your projects.</strong>
+
+<strong>2026-03-06: 🚀 VibeVoice ASR is now part of a <a href="https://huggingface.co/microsoft/VibeVoice-ASR-HF">Transformers release</a>! You can now use our speech recognition model directly through the Hugging Face Transformers library for seamless integration into your projects.</strong>
 
 <strong>2026-01-21:</strong> 📣 We open-sourced <a href="docs/vibevoice-asr.md"><strong>VibeVoice-ASR</strong></a>, a unified speech-to-text model designed to handle 60-minute long-form audio in a single pass, generating structured transcriptions containing Who (Speaker), When (Timestamps), and What (Content), with support for User-Customized Context. Try it in [Playground](https://aka.ms/vibevoice-asr).
 - ⭐️ VibeVoice-ASR is natively multilingual, supporting over 50 languages — check the [supported languages](docs/vibevoice-asr.md#language-distribution) for details.

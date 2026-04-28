@@ -1,9 +1,9 @@
 ---
 title: awesome-codex-skills
-date: 2026-04-27T14:28:20+08:00
+date: 2026-04-28T14:28:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcyNzExOTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775315791610-f6ceaa2f3a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775315791610-f6ceaa2f3a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
 ---
 
 # [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)
