@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2025-10-22T12:23:29+08:00
+date: 2026-04-29T14:24:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759266097947-397b6b7e7440?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759266097947-397b6b7e7440?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776739835684-4078f7419f74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776739835684-4078f7419f74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -71,7 +71,7 @@ Click on these badges to see how you might be able to help:
 
 <div align="left" markdown="1">
 <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fgithub.com%2FEbookFoundation%2Ffree-programming-books&p[images][0]=&p[title]=Free%20Programming%20Books&p[summary]=">Share on Facebook</a><br>
-<a href="http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/EbookFoundation/free-programming-books&title=Free%20Programming%20Books&summary=&source=">Share on LinkedIn</a><br>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/EbookFoundation/free-programming-books&title=Free%20Programming%20Books&summary=&source=">Share on LinkedIn</a><br>
 <a href="https://toot.kytta.dev/?text=https://github.com/EbookFoundation/free-programming-books">Share on Mastodon/Fediverse</a><br>    
 <a href="https://t.me/share/url?url=https://github.com/EbookFoundation/free-programming-books">Share on Telegram</a><br>
 <a href="https://twitter.com/intent/tweet?text=https://github.com/EbookFoundation/free-programming-books%0AFree%20Programming%20Books">Share on 𝕏 (Twitter)</a><br>
@@ -123,6 +123,7 @@ This project lists books and other resources grouped by genres:
 + [Russian / Русский язык](books/free-programming-books-ru.md)
 + [Serbian / српски језик / srpski jezik](books/free-programming-books-sr.md)
 + [Slovak / slovenčina](books/free-programming-books-sk.md)
++ [Slovenian / Slovenščina](books/free-programming-books-sl.md)
 + [Spanish / español / castellano](books/free-programming-books-es.md)
 + [Swedish / Svenska](books/free-programming-books-sv.md)
 + [Tamil / தமிழ்](books/free-programming-books-ta.md)

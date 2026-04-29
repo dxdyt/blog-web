@@ -1,9 +1,9 @@
 ---
 title: free-claude-code
-date: 2026-04-28T14:28:28+08:00
+date: 2026-04-29T14:23:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775618189760-792fba0eb0f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775618189760-792fba0eb0f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776179342854-e3fdc7cc5da3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776179342854-e3fdc7cc5da3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
 ---
 
 # [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)

@@ -1,9 +1,9 @@
 ---
 title: awesome-codex-skills
-date: 2026-04-28T14:28:21+08:00
+date: 2026-04-29T14:22:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775315791610-f6ceaa2f3a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775315791610-f6ceaa2f3a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777149061738-cf99a04606fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777149061738-cf99a04606fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
 ---
 
 # [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)
@@ -52,7 +52,7 @@ A curated list of practical Codex skills for automating workflows across the Cod
 
 ```bash
 git clone https://github.com/ComposioHQ/awesome-codex-skills.git
-cd awesome-codex-skills/awesome-codex-skills
+cd awesome-codex-skills
 # Install one or more skills into $CODEX_HOME/skills (defaults to ~/.codex/skills)
 python skill-installer/scripts/install-skill-from-github.py --repo ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions
 ```
@@ -125,12 +125,14 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [skill-share/](./skill-share/) - Share skills and reusable instructions across teammates.
 
 ### Communication & Writing
+- [codex-sms-verification](https://github.com/virtualsms-io/codex-sms-verification) - External repo: real-SIM SMS verification for AI agents via VirtualSMS MCP. 145+ countries, 2000+ services, both hosted (mcp.virtualsms.io) and local stdio transports.
 
 - [email-draft-polish/](./email-draft-polish/) - Draft, rewrite, or condense emails for the right tone and audience.
 - [changelog-generator/](./changelog-generator/) - Create clear changelogs from commits or summaries.
 - [content-research-writer/](./content-research-writer/) - Research and draft content with sourced citations.
 - [novel-writing](https://github.com/wgwtest/novel-writing) - External repo: public Codex skill for fiction planning, chapter drafting, scene continuation, and revision.
 - [tailored-resume-generator/](./tailored-resume-generator/) - Tailor resumes to job descriptions with quantified impact.
+- [unslop](https://github.com/MohamedAbdallah-14/unslop) - External repo: CLI and MCP server that removes AI writing patterns from text: tricolons, em-dash overuse, hedging stacks, and sycophancy openers. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and a lint-only audit mode.
 
 ### Data & Analysis
 

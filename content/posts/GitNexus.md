@@ -1,9 +1,9 @@
 ---
 title: GitNexus
-date: 2026-04-28T14:28:16+08:00
+date: 2026-04-29T14:22:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775807346196-c12ab3c53d73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777149061738-cf99a04606fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777149061738-cf99a04606fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
 ---
 
 # [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
@@ -334,19 +334,21 @@ flowchart TD
 
 ## Web UI (browser-based)
 
-A fully client-side graph explorer and AI chat. No server, no install — your code never leaves the browser.
+A client-side graph explorer and AI chat — your code never leaves your machine.
 
-**Try it now:** [gitnexus.vercel.app](https://gitnexus.vercel.app) — drag & drop a ZIP and start exploring.
+**Try it now:** [gitnexus.vercel.app](https://gitnexus.vercel.app) — run `npx gitnexus@latest serve` locally and the page auto-connects to your local backend.
 
 <img width="2550" height="1343" alt="gitnexus_img" src="https://github.com/user-attachments/assets/cc5d637d-e0e5-48e6-93ff-5bcfdb929285" />
 
-Or run locally:
+Or run the frontend locally:
 
 ```bash
 git clone https://github.com/abhigyanpatwari/gitnexus.git
 cd gitnexus/gitnexus-shared && npm install && npm run build
 cd ../gitnexus-web && npm install
 npm run dev
+# Then in another terminal, start the backend the frontend connects to:
+npx gitnexus@latest serve
 ```
 
 ## Docker

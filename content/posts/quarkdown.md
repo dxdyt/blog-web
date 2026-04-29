@@ -1,9 +1,9 @@
 ---
 title: quarkdown
-date: 2025-06-06T12:25:49+08:00
+date: 2026-04-29T14:24:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743071441939-9ec2b3352b54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743071441939-9ec2b3352b54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
 ---
 
 # [iamgio/quarkdown](https://github.com/iamgio/quarkdown)
@@ -15,14 +15,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1743071441939-9ec2b3352b
     <img alt="Quarkdown banner" src="https://github.com/user-attachments/assets/68dfb3bf-9466-44f3-b220-7067322c4887">
   </picture>
   <br>
-  <a href="https://github.com/iamgio/quarkdown/wiki"><img alt="Wiki" src="https://img.shields.io/badge/wiki-read-darkcyan"></a>
+  <a href="https://quarkdown.com/wiki"><img alt="Wiki" src="https://img.shields.io/badge/wiki-read-darkcyan"></a>
   <a href="https://quarkdown.com/docs"><img alt="Docs" src="https://img.shields.io/badge/docs-read-blue"></a>
   <a href="https://github.com/iamgio/quarkdown/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/iamgio/quarkdown?color=mediumseagreen"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=quarkdown.quarkdown-vscode"><img alt="Visual Studio Code Extension Version" src="https://img.shields.io/github/v/release/quarkdown-labs/quarkdown-vscode?color=blue&label=vscode"></a>
   <a href="https://pinterest.github.io/ktlint"><img alt="FMT: Ktlint" src="https://img.shields.io/badge/fmt-ktlint-7f52ff?logo=kotlin&logoColor=f5f5f5"></a>
   <a href="https://www.codefactor.io/repository/github/iamgio/quarkdown"><img alt="CodeFactor" src="https://www.codefactor.io/repository/github/iamgio/quarkdown/badge/main"></a>
-  <br>
-  <br>
-  <strong>Download</strong>
+  <br><br>
+  <a href="https://trendshift.io/repositories/13945" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13945" alt="iamgio%2Fquarkdown | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <br><br>
+  <strong>Releases</strong>
   <br>
   <a href="https://github.com/iamgio/quarkdown/releases/tag/latest">Latest</a>
   &nbsp; | &nbsp;
@@ -39,19 +41,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1743071441939-9ec2b3352b
 4. [Comparison](#comparison)
 5. [Getting started](#getting-started)
     1. [Installation](#installation)
-    2. [Creating a project](#creating-a-project)
-    3. [Compiling](#compiling)
+    2. [Quickstart](#quickstart-)
+    3. [Creating a project](#creating-a-project)
+    4. [Compiling](#compiling)
 6. [Mock document](#mock-document)
 7. [Contributing](#contributing)
 8. [Sponsors](#sponsors)
 9. [Concept](#concept)
+10. [License](#license)
 
 &nbsp;
 
 # About
 
-Quarkdown is a modern Markdown-based typesetting system, designed around the key concept of **versatility**, by seamlessly compiling a project
-into a print-ready book or an interactive presentation.
+Quarkdown is a modern Markdown-based typesetting system designed for **versatility**. It allows a single project to compile seamlessly into a print-ready book, academic paper, knowledge base, or interactive presentation.
 All through an incredibly powerful Turing-complete extension of Markdown, ensuring your ideas flow automatically into paper.
 
 &nbsp;
@@ -78,7 +81,7 @@ Born as an extension of CommonMark and GFM, the Quarkdown Flavor brings **functi
 **Possibilities are unlimited** thanks to an ever-expanding [standard library](quarkdown-stdlib/src/main/kotlin/com/quarkdown/stdlib),
 which offers layout builders, I/O, math, conditional statements and loops.
 
-**Not enough?** You can still define your own functions and variables — all within Markdown.
+**Not enough?** You can still define your own functions and variables, all within Markdown.
 You can even create awesome libraries for everyone to use.
 
 <br>
@@ -97,27 +100,25 @@ You can even create awesome libraries for everyone to use.
 This out-of-the-box scripting support opens doors to complex and dynamic content that would be otherwise impossible
 to achieve with vanilla Markdown.
 
-Combined with live preview and :zap: fast compilation speed, Quarkdown simply gets the work done.
+Combined with live preview, :zap: fast compilation speed and a powerful [VS Code extension](https://marketplace.visualstudio.com/items?itemName=quarkdown.quarkdown-vscode), Quarkdown simply gets the work done,
+whether it's an academic paper, book, knowledge base or interactive presentation.
 
 &nbsp;
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/iamgio/quarkdown/project-files/video/livepreview.gif" alt="Live preview" />
+<img src="https://raw.githubusercontent.com/quarkdown-labs/quarkdown-vscode/refs/heads/project-files/live-preview.gif" alt="Live preview" />
 </p>
-
-&nbsp;
-
-Check the [wiki](https://github.com/iamgio/quarkdown/wiki) to learn more about the language and its features.
 
 &nbsp;
 
 ---
 
-<h2 align="center">Check out the demo presentation <a href="https://iamgio.eu/quarkdown/demo" target="_blank">here</a></h3>
+<h2 align="center">Looking for something?</h2>
 <p align="center">
-Built with Quarkdown itself — <a href="demo/demo.qmd" target="_blank"><strong>source code</strong></a>
-<br><br>
-<em>(Desktop view is suggested)</em>
+  <strong>
+    Check out the <a href="https://quarkdown.com/wiki" target="_blank">wiki</a>
+  </strong>
+  to get started and learn more about the language and its features!
 </p>
 
 ---
@@ -142,30 +143,44 @@ Built with Quarkdown itself — <a href="demo/demo.qmd" target="_blank"><strong>
 # Targets
 
 - **HTML**
-  - :white_check_mark: Plain output (default)
-  - :white_check_mark: Slides <sup>via [reveal.js](https://revealjs.com)</sup>
-  - :white_check_mark: Paged (books, articles) <sup>via [paged.js](https://pagedjs.org)</sup>  
-    *Paged documents require a webserver to render in the browser. See the [`-p`](#options) option below.*
+  - [X] **Plain**  
+    Continuous flow like Notion/Obsidian, perfect for static websites and knowledge management - check out the author's [personal website](https://iamgio.eu/).
+
+  - [X] **Paged** <sup>via [paged.js](https://pagedjs.org)</sup>  
+    Perfect for papers, articles and books - check out the [demo document](https://github.com/quarkdown-labs/generated/blob/main/mock/paperwhite_latex.pdf).
+
+  - [X] **Slides** <sup>via [reveal.js](https://revealjs.com)</sup>  
+    Perfect for interactive presentations.
+  
+  - [X] **Docs**  
+    Perfect for wikis, technical documentation and large knowledge bases - check out [Quarkdown's wiki](https://quarkdown.com/wiki).
 
 - **PDF**
-  - :white_check_mark: All document types and features supported by HTML are also supported when exporting to PDF.
-  - Check the wiki's [PDF export](https://github.com/iamgio/quarkdown/wiki/pdf-export) page to learn more.
+  - [X] All document types and features supported by HTML are also supported when exporting to PDF.
 
-The desired document type can be set by calling the [`.doctype` function](https://github.com/iamgio/quarkdown/wiki/document-metadata) within the source itself:
-- `.doctype {slides}`
+- **Plain text**
+
+The desired document type can be set by calling the [`.doctype` function](https://quarkdown.com/wiki/document-types) within the source itself:
+- `.doctype {plain}` (default)
 - `.doctype {paged}`
+- `.doctype {slides}`
+- `.doctype {docs}`
 
 # Comparison
 
-|                       |     Quarkdown      |      Markdown      |       LaTeX        |       Typst        |      AsciiDoc      |        MDX         |
-|-----------------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
-| Concise and readable  | :white_check_mark: | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Full document control | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: |        :x:         |        :x:         |
-| Scripting             | :white_check_mark: |        :x:         |      Partial       | :white_check_mark: |        :x:         | :white_check_mark: |
-| Book/article export   | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: | :white_check_mark: |    Third-party     |
-| Presentation export   | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: | :white_check_mark: |    Third-party     |
-| Learning curve        |   :green_circle:   |   :green_circle:   |    :red_circle:    |  :orange_circle:   |   :green_circle:   |   :green_circle:   |
-| Targets               |     HTML, PDF      |        HTML        |  PDF, PostScript   |        PDF         |  HTML, PDF, ePub   |        HTML        |
+|                       |     Quarkdown      |       LaTeX        |       Typst        |      AsciiDoc      |        MDX         |
+|-----------------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+| Concise and readable  | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Full document control[^control] | :white_check_mark: | :white_check_mark: | :white_check_mark: |        :x:         |        :x:         |
+| Scripting             | :white_check_mark: |      Partial       | :white_check_mark: |        :x:         | :white_check_mark: |
+| Book/article export   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |    Third-party     |
+| Presentation export   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |    Third-party     |
+| Static site export    | :white_check_mark: |        :x:         |    Experimental    | :white_check_mark: | :white_check_mark: |
+| Docs/wiki export      | :white_check_mark: |        :x:         |        :x:         | :white_check_mark: | :white_check_mark: |
+| Learning curve        |   :green_circle:   |    :red_circle:    |  :orange_circle:   |   :green_circle:   |   :green_circle:   |
+| Targets               |   HTML, PDF, TXT   |  PDF, PostScript   |     HTML, PDF      |  HTML, PDF, ePub   |        HTML        |
+
+[^control]: The ability to customize the properties of the document and of its output artifact through the language itself.
 
 <table>
   <thead>
@@ -243,65 +258,100 @@ The desired document type can be set by calling the [`.doctype` function](https:
 
 ## Installation
 
-Download `quarkdown.zip` from the [latest stable release](https://github.com/iamgio/quarkdown/releases/latest) or build it with `gradlew distZip`, and unzip it.
+### Install script (Linux/macOS)
 
-- The `bin` directory contains the executable scripts. Optionally, adding it to your `PATH` allows you to access Quarkdown more easily.
-- The `lib/qmd` directory contains `.qmd` libraries that can be imported into a project.
+```shell
+curl -fsSL https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.sh | sudo env "PATH=$PATH" bash
+```
 
-Java 17 or higher is required. All major operating systems are supported.
+Root privileges let the script install Quarkdown into `/opt/quarkdown` and its wrapper script into `/usr/local/bin/quarkdown`.  
+If missing, Java 17, Node.js and npm will be installed automatically using the system's package manager.
+
+For more installation options, check out [get-quarkdown](https://github.com/quarkdown-labs/get-quarkdown).
+
+### Homebrew (Linux/macOS)
+
+```shell
+brew install quarkdown-labs/quarkdown/quarkdown
+```
+
+### Install script (Windows)
+
+```powershell
+irm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex
+```
+
+### Scoop (Windows)
+
+```shell
+scoop bucket add java
+scoop bucket add quarkdown https://github.com/quarkdown-labs/scoop-quarkdown
+scoop install quarkdown
+```
+
+### GitHub Actions
+
+See [setup-quarkdown](https://github.com/quarkdown-labs/setup-quarkdown) to easily integrate Quarkdown into your GitHub Actions workflows.
+
+### Manual installation
+
+<details>
+<summary>Instructions for manual installation</summary>
+
+Download `quarkdown.zip` from the [latest stable release](https://github.com/iamgio/quarkdown/releases/latest) and unzip it,
+or build it with `gradlew installDist`.
+
+Optionally, adding `<install_dir>/bin` to your `PATH` allows you easier access Quarkdown.
+
+Requirements:
+- Java 17 or higher
+- (Only for PDF export) Node.js, npm, Puppeteer. See [*PDF export*](https://quarkdown.com/wiki/pdf-export) for details.
+
+</details>
+
+&nbsp;
+
+## Quickstart 🆕
+
+New user? You'll find **everything you need** in the **[Quickstart guide](https://quarkdown.com/wiki/quickstart)** to bring life to your first document!
+
+&nbsp;
 
 ## Creating a project
 
-Running **`quarkdown create [directory]`** will launch the prompt-based project wizard, making it quicker than ever
-to set up a new Quarkdown project, with all [metadata](https://github.com/iamgio/quarkdown/wiki/document-metadata) and initial content already present.
+**`quarkdown create [directory]`** will launch the prompt-based project wizard, making it quicker than ever
+to set up a new Quarkdown project, with all [metadata](https://quarkdown.com/wiki/document-metadata) and initial content already present.
 
-For more information about the project creator, check out its [wiki page](https://github.com/iamgio/quarkdown/wiki/cli%3A-project-creator).
+For more information about the project creator, check out its [wiki page](https://quarkdown.com/wiki/cli-project-creator).
 
-Alternatively, you may manually create a `.qmd` source file and start from there.
+Alternatively, you may manually create a `.qd` source file and start from there.
+
+&nbsp;
 
 ## Compiling
 
-Running **`quarkdown c file.qmd`** will compile the given file and save the output to file.
+Running **`quarkdown c file.qd`** will compile the given file and save the output to file.
 
 > If the project is composed by multiple source files, the target file must be the root one, i.e. the one that includes the other files.
 >
-> - [How to include other files?](https://github.com/iamgio/quarkdown/wiki/including-other-quarkdown-files)
+> - [How to include other files?](https://quarkdown.com/wiki/including-other-quarkdown-files)
 
 If you would like to familiarize yourself with Quarkdown instead, `quarkdown repl` lets you play with an interactive REPL mode.
 
 #### Options
 
-- **`-p`** or **`--preview`**: enables automatic content reloading after compiling.  
-  If a [webserver](https://github.com/iamgio/quarkdown/wiki/cli%3A-webserver) is not running yet, it is started and the document is opened in the default browser.  
-  This is required in order to render paged documents in the browser.
+The most commonly used options are:
 
-- **`-w`** or **`--watch`**: recompiles the source everytime a file from the source directory is changed.  
-  
+- **`-p`** or **`--preview`**: enables automatic content reloading after compiling.
+
+- **`-w`** or **`--watch`**: recompiles the source every time a file from the source directory is changed.
+
 > [!TIP]
 > Combine `-p -w` to achieve ***live preview***!
 
-- **`--pdf`**: produces a PDF file. Learn more in the wiki's [*PDF export*](https://github.com/iamgio/quarkdown/wiki/pdf-export) page.
+- **`--pdf`**: produces a PDF file. Learn more in the wiki's [*PDF export*](https://quarkdown.com/wiki/pdf-export) page.
 
-- `-o <dir>` or `--output <dir>`: sets the directory of the output files. Defaults to `./output`.
-
-- `-l <dir>` or `--libs <dir>`: sets the directory where external libraries can be loaded from. Defaults to `<install dir>/lib/qmd`. [(?)](https://github.com/iamgio/quarkdown/wiki/importing-external-libraries)
-
-- `-r <renderer>` or `--render <renderer>`: sets the target renderer. Defaults to `html`. Accepted values:
-  - `html`
-  - `html-pdf` (equivalent to `-r html --pdf`)
-
-- `--server-port <port>`: optional customization of the local webserver's port. Defaults to `8089`.
-
-- `--pretty`: produces pretty output code. This is useful for debugging or to read the output code more easily,
-  but it should be disabled in production as the results might be visually affected.
-
-- `--clean`: deletes the content of the output directory before producing new files. Destructive operation.
-
-- `--strict`: forces the program to exit if an error occurs. When not in strict mode, errors are shown as boxes in the document.
-
-- `--no-media-storage`: turns the media storage system off. [(?)](https://github.com/iamgio/quarkdown/wiki/media-storage)
-
-- `-Dloglevel=<level>` (JVM property): sets the log level. If set to `warning` or higher, the output content is not printed out.
+For the full list of options, check out the [CLI options](https://quarkdown.com/wiki/cli-options) wiki page.
 
 &nbsp;
 
@@ -320,8 +370,8 @@ If you would like to familiarize yourself with Quarkdown instead, `quarkdown rep
 ***Mock***, written in Quarkdown, is a comprehensive collection of visual elements offered by the language,
 making it ideal for exploring and understanding its key features — all while playing and experimenting hands-on with a concrete outcome in the form of pages or slides.
 
-- The document's source files are available in the [`mock`](mock) directory, and can be compiled via `quarkdown c mock/main.qmd -p`.
-- The PDF artifacts generated for all possible theme combinations are available and can be viewed in the [`generated`](https://github.com/iamgio/quarkdown/tree/generated/pdf/mock) branch.  
+- The document's source files are available in the [`mock`](mock) directory, and can be compiled via `quarkdown c mock/main.qd -p`.
+- The PDF artifacts generated for all possible theme combinations are available and can be viewed in the [`generated`](https://github.com/quarkdown-labs/generated) repo.  
 
 ## Contributing
 
@@ -332,8 +382,23 @@ Contributions are welcome! Please check [CONTRIBUTING.md](CONTRIBUTING.md) to kn
 A special thanks to all the sponsors who [supported this project](https://github.com/sponsors/iamgio)!
 
 <p align="center">
+<a href="https://falconer.com"><img src="https://raw.githubusercontent.com/iamgio/quarkdown/project-files/images/sponsors/falconer.jpeg" alt="Falconer" width="350"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/RayOffiah"><img src="https://avatars.githubusercontent.com/u/77050471?v=4" alt="RayOffiah" width="90"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vitto4"><img src="https://avatars.githubusercontent.com/u/128498605?v=4" alt="vitto4" width="60"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/LunaBluee"><img src="https://avatars.githubusercontent.com/u/145209701?v=4" alt="LunaBluee" width="35"></a>&nbsp;
   <a href="https://github.com/dcopia"><img src="https://avatars.githubusercontent.com/u/162327812?v=4" alt="dcopia" width="35"></a>
+  <a href="https://github.com/Pallandos"><img src="https://avatars.githubusercontent.com/u/146179143?v=4" alt="Pallandos" width="35"></a>
+  <a href="https://github.com/imogenxingren"><img src="https://avatars.githubusercontent.com/u/36161957?v=4" alt="imogenxingren" width="35"></a>
+  <a href="https://github.com/serkonda7"><img src="https://avatars.githubusercontent.com/u/40118727?v=4" alt="serkonda7" width="35"></a>
 </p>
 
 ## Concept
@@ -354,3 +419,10 @@ an elementary particle that is a major constituent of matter: they give life to 
 while also being one of the lightest objects in existence.
 
 This is, indeed, the concept **Quarkdown** is built upon. 
+
+## License
+
+By default, Quarkdown and its modules are licensed under [GNU GPLv3](./LICENSE), except for modules that include their own `LICENSE` file:
+the CLI (`quarkdown-cli`) and Language Server (`quarkdown-lsp`) modules and binaries are licensed under GNU AGPLv3.
+
+## Footnotes
