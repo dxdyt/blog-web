@@ -1,9 +1,9 @@
 ---
 title: craft-agents-oss
-date: 2026-04-18T13:41:27+08:00
+date: 2026-04-30T14:27:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775572272743-c0800347f949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775572272743-c0800347f949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0OTA4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775599452707-7dee16d9962a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1MzAzNTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775599452707-7dee16d9962a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1MzAzNTh8&ixlib=rb-4.1.0
 ---
 
 # [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss)
