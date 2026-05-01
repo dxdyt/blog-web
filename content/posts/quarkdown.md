@@ -1,12 +1,24 @@
 ---
 title: quarkdown
-date: 2026-04-29T14:24:14+08:00
+date: 2026-05-01T14:36:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774612614467-e70c1fe593cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
 ---
 
 # [iamgio/quarkdown](https://github.com/iamgio/quarkdown)
+
+<h2 align="center">
+‼️ Quarkdown is on Product Hunt <em>today</em> ‼️
+</h2>
+<p align="center">
+Your upvote shows your support and helps Quarkdown reach more people 💚
+</p>
+<p align="center">
+<a href="https://www.producthunt.com/products/quarkdown?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-quarkdown" target="_blank" rel="noopener noreferrer"><img alt="Quarkdown - Markdown with superpowers: from ideas to stunning documents. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1130470&amp;theme=light&amp;t=1777150043744"></a>
+</p>
+
+---
 
 <p align="center">
   <picture>
@@ -21,15 +33,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1774612614467-e70c1fe593
   <a href="https://marketplace.visualstudio.com/items?itemName=quarkdown.quarkdown-vscode"><img alt="Visual Studio Code Extension Version" src="https://img.shields.io/github/v/release/quarkdown-labs/quarkdown-vscode?color=blue&label=vscode"></a>
   <a href="https://pinterest.github.io/ktlint"><img alt="FMT: Ktlint" src="https://img.shields.io/badge/fmt-ktlint-7f52ff?logo=kotlin&logoColor=f5f5f5"></a>
   <a href="https://www.codefactor.io/repository/github/iamgio/quarkdown"><img alt="CodeFactor" src="https://www.codefactor.io/repository/github/iamgio/quarkdown/badge/main"></a>
-  <br><br>
+  
+<p align="center">
   <a href="https://trendshift.io/repositories/13945" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13945" alt="iamgio%2Fquarkdown | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-  <br><br>
+</p>
+
+  <p align="center">
   <strong>Releases</strong>
   <br>
   <a href="https://github.com/iamgio/quarkdown/releases/tag/latest">Latest</a>
   &nbsp; | &nbsp;
   <strong><a href="https://github.com/iamgio/quarkdown/releases/latest">Stable</a></strong>&nbsp;
-  <br>
+  </p>
   <hr>
 </p>
 

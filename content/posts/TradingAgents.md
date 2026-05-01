@@ -1,9 +1,9 @@
 ---
 title: TradingAgents
-date: 2026-04-28T14:29:15+08:00
+date: 2026-05-01T14:35:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775405325864-2981439bfe6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775405325864-2981439bfe6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTc2ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774038904807-16ec9385e091?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774038904807-16ec9385e091?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
 ---
 
 # [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
