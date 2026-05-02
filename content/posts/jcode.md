@@ -1,9 +1,9 @@
 ---
 title: jcode
-date: 2026-05-01T14:35:43+08:00
+date: 2026-05-02T14:06:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775936785130-b50d01815834?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775936785130-b50d01815834?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
 ---
 
 # [1jehuang/jcode](https://github.com/1jehuang/jcode)
@@ -339,6 +339,61 @@ For custom OpenAI-compatible endpoints, jcode now prompts for the API base and s
 If you prefer to configure things by editing files instead of using the login UI, jcode supports both a custom OpenAI-compatible endpoint config and MCP config files.
 
 #### Self-hosted OpenAI-compatible endpoints, including vLLM
+
+For agents and scripts, the preferred path is the one-shot provider profile command. It writes a named profile to `~/.jcode/config.toml`, stores secrets in jcode's private app config directory when requested, and prints exact run/validation commands:
+
+```bash
+# Secret-safe setup for a hosted OpenAI-compatible API.
+printf '%s' "$MY_API_KEY" | jcode provider add my-api \
+  --base-url https://llm.example.com/v1 \
+  --model my-model-id \
+  --api-key-stdin \
+  --set-default \
+  --json
+
+# Smoke test the profile.
+jcode --provider-profile my-api auth-test --prompt 'Reply exactly JCODE_PROVIDER_SETUP_OK'
+
+# Use it directly.
+jcode --provider-profile my-api run 'hello'
+```
+
+For local servers that do not require auth:
+
+```bash
+jcode provider add local-vllm \
+  --base-url http://localhost:8000/v1 \
+  --model Qwen/Qwen3-Coder-30B-A3B-Instruct \
+  --no-api-key \
+  --set-default
+```
+
+Useful flags:
+
+- `--api-key-env NAME`: reference an existing environment variable instead of storing a key.
+- `--api-key-stdin`: read and store a key without putting it in shell history.
+- `--context-window TOKENS`: persist the model context window for model selection and routing.
+- `--overwrite`: replace an existing profile of the same name.
+- `--model-catalog`: use the endpoint's `/models` response in addition to configured models.
+
+The generated profile can also be edited manually in `~/.jcode/config.toml`:
+
+```toml
+[provider]
+default_provider = "my-api"
+default_model = "my-model-id"
+
+[providers.my-api]
+type = "openai-compatible"
+base_url = "https://llm.example.com/v1"
+api_key_env = "JCODE_PROVIDER_MY_API_API_KEY"
+env_file = "provider-my-api.env"
+default_model = "my-model-id"
+
+[[providers.my-api.models]]
+id = "my-model-id"
+context_window = 128000
+```
 
 The custom OpenAI-compatible provider reads overrides from environment variables or from an env file in jcode's app config directory. On Linux this is usually `~/.config/jcode/`, so the default file is usually:
 

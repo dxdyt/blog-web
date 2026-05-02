@@ -1,9 +1,9 @@
 ---
 title: warp
-date: 2026-05-01T14:35:04+08:00
+date: 2026-05-02T14:06:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MTcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
 ---
 
 # [warpdotdev/warp](https://github.com/warpdotdev/warp)

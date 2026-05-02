@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2026-02-07T13:05:20+08:00
+date: 2026-05-02T14:06:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767819131072-b77f14ce0ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0ba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA0NDA2NjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773715757898-8a1dac799359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773715757898-8a1dac799359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -12,6 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0b
 
 # <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="https://github.com/Flowseal/">Flowseal</a><a href="https://github.com/Flowseal/zapret-discord-youtube">/zapret-discord-youtube</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
 
+**NEW**: Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy  
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
 </div>
@@ -38,7 +39,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0b
 > В случае проблем с антивирусом добавьте папку с запретом в исключения, либо отключите детектирование PUA (потенциально нежелательных приложений). Например, в касперском есть галочка "Обнаруживать легальные приложения, которые злоумышленники часто используют для нанесения вреда". При аккуратной и правильной настройке исключений - рекомендуется настроить исключение, но если вы не до конца понимаете что делаете - рекомендуется отключить детект PUA.
 
 > [!IMPORTANT]
-> Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
+> Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws) и [zapret/releases](https://github.com/bol-van/zapret/releases). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
 
 ## ⚙️Использование
 
@@ -76,7 +77,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0b
     - `any` - любой айпи попадает под фильтр  
   - **`Auto-Update Check`** - Вкл/Выкл автоматическую проверку на обновления
   - **`Update IPSet List`** - обновление списка `ipset-all.txt` актуальным из репозитория
-  - **`Update Hosts File`** - обновление файла hosts <ins>**для починки подключения к голосовому чату Discord**</ins>
+  - **`Update Hosts File`** - обновление файла hosts <ins>**для починки веб версии телеграма и подключения к голосовому чату Discord**</ins>
   - **`Check for Updates`** - проверка на обновления
   - **`Run Diagnostics`** - диагностика на распространённые причины, по которым zapret может не работать.  
   В конце можно очистить кэш <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=11 /> `Discord`, что может помочь, если он неожиданно перестал работать
@@ -92,10 +93,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1767819131072-b77f14ce0b
 - После запуска стратегии (отдельным bat файлом, не через service), должен открыться winws.exe (обход), который можно увидеть в панели задач.  
 Если этого не произошло, то см. [#522](https://github.com/Flowseal/zapret-discord-youtube/issues/522)
 
-### Бесконечное "подключение" к голосовому чату Discord
+### Не работает телеграм (веб версия) или бесконечное "подключение" к голосовому чату Discord
 Запустите **`service.bat`**, выберите пункт **`Update hosts file`**. После чего, если ваш hosts будет неактуальным, то Вам будет предложено обновить его самостоятельно:  
   - Скопируйте весь текст из открывшегося блокнота
-  - Откройте файл `hosts` в появившейся папке с помощью текстового редактора
+  - Откройте файл `hosts` в появившейся папке с помощью текстового редактора, открытого от имени администратора
   - Добавьте в конец файла `hosts` то, что скопировали (или замените, если до этого Вы уже добавляли подобное)
   - Сохраните и перепроверьте подключение. Если не работает - убедитесь, что файл `hosts` действительно сохранился.
 
@@ -178,10 +179,11 @@ sc delete название_из_первого_шага
 ## 🗒️Добавление адресов прочих ресурсов
 
 Список адресов для обхода можно расширить, добавляя их в:
-- [`list-general.txt`](./lists/list-general.txt) для доменов (поддомены автоматически учитываются)
-- [`list-exclude.txt`](./lists/list-exclude.txt) для исключения доменов (например, если айпи сети указан в `ipset-all.txt`, но конкретный домен из этой сети не надо фильтровать)
-- [`ipset-all.txt`](./lists/ipset-all.txt) для IP и подсетей
-- [`ipset-exclude.txt`](./lists/ipset-exclude.txt) для исключения IP и подсетей
+- **`list-general-user.txt`** для доменов (поддомены автоматически учитываются)
+- **`list-exclude-user.txt`** для исключения доменов (например, если айпи сети указан в `ipset-all.txt`, но конкретный домен из этой сети не надо фильтровать)
+- **`ipset-all.txt`** для IP и подсетей
+- **`ipset-exclude-user.txt`** для исключения IP и подсетей
+  - Файлы **`*-user.txt`** автоматически создадутся при первом запуске `zapret` или `service.bat`
 
 ## ⭐Поддержка проекта
 
