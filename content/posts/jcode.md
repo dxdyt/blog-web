@@ -1,9 +1,9 @@
 ---
 title: jcode
-date: 2026-05-02T14:06:13+08:00
+date: 2026-05-03T14:25:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775183930338-06dd99da3b29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777033481201-1938c0b79f8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777033481201-1938c0b79f8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
 ---
 
 # [1jehuang/jcode](https://github.com/1jehuang/jcode)

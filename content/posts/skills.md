@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-05-02T14:06:31+08:00
+date: 2026-05-03T14:25:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763620077650-404ff4e7a685?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763620077650-404ff4e7a685?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MDE5NDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775744113007-5f9ea0631e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775744113007-5f9ea0631e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
 ---
 
 # [browserbase/skills](https://github.com/browserbase/skills)
