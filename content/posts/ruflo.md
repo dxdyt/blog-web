@@ -1,9 +1,9 @@
 ---
 title: ruflo
-date: 2026-05-03T14:25:23+08:00
+date: 2026-05-04T14:37:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773578978637-c9771e7a9913?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773578978637-c9771e7a9913?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776221241820-6cbbb6e7cb43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776221241820-6cbbb6e7cb43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
@@ -350,9 +350,15 @@ User --> Claude Code / CLI
 
 ## Documentation
 
-Full documentation including architecture, configuration, CLI reference, API usage, plugin development, and advanced topics:
+Three docs for three audiences:
 
-**[User Guide](docs/USERGUIDE.md)** -- Complete reference documentation
+| Doc | When to read it |
+|-----|-----------------|
+| **[Status](docs/STATUS.md)** | See what currently works — capability counts, test baselines, recent fixes, what's next. The *is-it-ready* doc. |
+| **[User Guide](docs/USERGUIDE.md)** | Daily reference — every command, every config flag, every plugin. The *how-do-I* doc. |
+| **[Verification](verification.md)** | Cryptographically prove your installed bytes match the signed witness — `ruflo verify`. The *trust-but-verify* doc. |
+
+User Guide section index:
 
 | Section | Topics |
 |---------|--------|

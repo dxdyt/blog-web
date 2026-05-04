@@ -1,9 +1,9 @@
 ---
 title: openwrt
-date: 2025-09-09T12:22:30+08:00
+date: 2026-05-04T14:38:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745437723178-5f9993bc5249?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745437723178-5f9993bc5249?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1773062189964-75a471b19934?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773062189964-75a471b19934?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
 ---
 
 # [openwrt/openwrt](https://github.com/openwrt/openwrt)

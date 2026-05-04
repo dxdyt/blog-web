@@ -1,9 +1,9 @@
 ---
 title: maigret
-date: 2026-05-03T14:25:38+08:00
+date: 2026-05-04T14:37:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776757845431-87e426f718a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776757845431-87e426f718a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3ODk1MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776158401936-2565746a1785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776158401936-2565746a1785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
 ---
 
 # [soxoj/maigret](https://github.com/soxoj/maigret)
@@ -31,6 +31,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1776757845431-87e426f718
   <br>
   <div>
     <img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" height="300" alt="Maigret logo"/>
+  </div>
+  <br>
+  <div>
+    <b>English</b> · <a href="README.zh-CN.md">简体中文</a>
   </div>
   <br>
 </div>
