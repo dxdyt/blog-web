@@ -1,9 +1,9 @@
 ---
 title: ace-step-ui
-date: 2026-04-29T14:23:26+08:00
+date: 2026-05-05T14:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776179342854-e3fdc7cc5da3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776179342854-e3fdc7cc5da3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0NDM3NTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775980167814-6155503d497b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775980167814-6155503d497b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
 ---
 
 # [fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui)

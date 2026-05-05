@@ -1,9 +1,9 @@
 ---
 title: dexter
-date: 2026-03-29T13:42:39+08:00
+date: 2026-05-05T14:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771518667391-1cd172070b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771518667391-1cd172070b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ3NjI5MzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1577451581039-032debfb47b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1577451581039-032debfb47b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
 ---
 
 # [virattt/dexter](https://github.com/virattt/dexter)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771518667391-1cd172070b
 
 Dexter is an autonomous financial research agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time market data. Think Claude Code, but built specifically for financial research.
 
-<img width="1098" height="659" alt="Screenshot 2026-01-21 at 5 25 10 PM" src="https://github.com/user-attachments/assets/3bcc3a7f-b68a-4f5e-8735-9d22196ff76e" />
+<img width="665" height="452" alt="Screenshot 2026-04-02 at 4 16 57 PM" src="https://github.com/user-attachments/assets/02418111-5f48-4a66-be5d-dc9bf9806284" />
 
 ## Table of Contents
 
@@ -94,7 +94,7 @@ cp env.example .env
 # XAI_API_KEY=your-xai-api-key (optional)
 # OPENROUTER_API_KEY=your-openrouter-api-key (optional)
 
-# Institutional-grade market data for agents; AAPL, NVDA, MSFT are free
+# Institutional-grade market data for agents
 # FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
 # (Optional) If using Ollama locally

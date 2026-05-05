@@ -1,9 +1,9 @@
 ---
 title: ruflo
-date: 2026-05-04T14:37:33+08:00
+date: 2026-05-05T14:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776221241820-6cbbb6e7cb43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776221241820-6cbbb6e7cb43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776011469172-61a3e7ba6dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776011469172-61a3e7ba6dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/ruflo](https://github.com/ruvnet/ruflo)

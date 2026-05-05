@@ -1,9 +1,9 @@
 ---
 title: docuseal
-date: 2024-11-20T12:22:42+08:00
+date: 2026-05-05T14:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728607424990-40df61d7ba84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728607424990-40df61d7ba84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
 ---
 
 # [docusealco/docuseal](https://github.com/docusealco/docuseal)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1728607424990-40df61d7ba
 <h1 align="center" style="border-bottom: none">
   <div>
     <a href="https://www.docuseal.com">
-      <img  alt="DocuSeal" src="https://github.com/docusealco/docuseal/assets/5418788/c12cd051-81cd-4402-bc3a-92f2cfdc1b06" width="80" />
+      <img  alt="DocuSeal" src="https://github.com/user-attachments/assets/38b45682-ffa4-4919-abde-d2d422325c44" width="80" />
       <br>
     </a>
     DocuSeal
@@ -52,7 +52,7 @@ DocuSeal is an open source platform that provides secure and efficient digital d
 - PDF signature verification
 - Users management
 - Mobile-optimized
-- 6 UI languages with signing available in 13 languages
+- 7 UI languages with signing available in 14 languages
 - API and Webhooks for integrations
 - Easy to deploy in minutes
 
@@ -74,7 +74,7 @@ DocuSeal is an open source platform that provides secure and efficient digital d
 
 |Heroku|Railway|
 |:--:|:---:|
-| [<img alt="Deploy on Heroku" src="https://www.herokucdn.com/deploy/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://railway.app/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
+| [<img alt="Deploy on Heroku" src="https://www.herokucdn.com/deploy/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://railway.app/button.svg" height="40">](https://railway.com/deploy/IGoDnc?referralCode=ruU7JR)|
 |**DigitalOcean**|**Render**|
 | [<img alt="Deploy on DigitalOcean" src="https://www.deploytodo.com/do-btn-blue.svg" height="40">](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
 
@@ -107,8 +107,8 @@ At DocuSeal we have expertise and technologies to make documents creation, filli
 
 ## License
 
-Distributed under the AGPLv3 License. See [LICENSE](https://github.com/docusealco/docuseal/blob/master/LICENSE) for more information.
-Unless otherwise noted, all files © 2023 DocuSeal LLC.
+Distributed under the AGPLv3 License with Section 7(b) Additional Terms. See [LICENSE](https://github.com/docusealco/docuseal/blob/master/LICENSE) and [LICENSE_ADDITIONAL_TERMS](https://github.com/docusealco/docuseal/blob/master/LICENSE_ADDITIONAL_TERMS) for more information.
+Unless otherwise noted, all files © 2023-2026 DocuSeal LLC.
 
 ## Tools
 
