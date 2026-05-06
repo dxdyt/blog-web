@@ -1,9 +1,9 @@
 ---
 title: Pixelle-Video
-date: 2026-05-04T14:38:04+08:00
+date: 2026-05-06T14:29:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777335118390-969261251a29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777335118390-969261251a29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc4NzY2NDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
 ---
 
 # [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)

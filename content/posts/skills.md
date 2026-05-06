@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-05-05T14:15:44+08:00
+date: 2026-05-06T14:29:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763998861274-50ad8e2a182c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763998861274-50ad8e2a182c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
 ---
 
 # [browserbase/skills](https://github.com/browserbase/skills)
@@ -23,6 +23,7 @@ This plugin includes the following skills (see `skills/` for details):
 | [functions](skills/functions/SKILL.md) | Deploy serverless browser automation to Browserbase cloud using the `bb` CLI |
 | [site-debugger](skills/site-debugger/SKILL.md) | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook |
 | [browser-trace](skills/browser-trace/SKILL.md) | Capture a full DevTools-protocol trace (CDP firehose, screenshots, DOM dumps) alongside any browser automation, then bisect the stream into per-page searchable buckets |
+| [safe-browser](skills/safe-browser/SKILL.md) | Build local Claude Agent SDK browser agents whose only browser capability is a CDP-gated `safe_browser` tool with domain allowlist enforcement |
 | [bb-usage](skills/bb-usage/SKILL.md) | Show Browserbase usage stats, session analytics, and cost forecasts in a terminal dashboard |
 | [cookie-sync](skills/cookie-sync/SKILL.md) | Sync cookies from local Chrome to a Browserbase persistent context so the browse CLI can access authenticated sites |
 | [fetch](skills/fetch/SKILL.md) | Fetch HTML or JSON from static pages without a browser session — inspect status codes, headers, follow redirects |
@@ -67,6 +68,7 @@ Once installed, you can ask Claude to browse or use the Browserbase CLI:
 - *"Order me a pizza, you're already signed in on Doordash"*
 - *"Use `bb` to list my Browserbase projects and show the output as JSON"*
 - *"Initialize a new Browserbase Function with `bb functions init` and explain the next commands"*
+- *"Use safe-browser to build a Hacker News scraper that only stays on the main site"*
 
 Claude will handle the rest.
 

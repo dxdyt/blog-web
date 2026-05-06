@@ -1,9 +1,9 @@
 ---
 title: andrej-karpathy-skills
-date: 2026-04-17T14:02:39+08:00
+date: 2026-05-06T14:30:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776267091706-d9036c1c4fbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776267091706-d9036c1c4fbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
 ---
 
 # [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
@@ -15,6 +15,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1776267091706-d9036c1c4f
 > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)
 
 A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+
+English | [简体中文](./README.zh.md)
 
 ## The Problems
 
@@ -132,6 +134,10 @@ Existing project (append):
 echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
+
+## Using with Cursor
+
+This repository includes a committed Cursor project rule ([`.cursor/rules/karpathy-guidelines.mdc`](.cursor/rules/karpathy-guidelines.mdc)) so the same guidelines apply when you open the project in Cursor. See **[CURSOR.md](CURSOR.md)** for setup, using the rule in other projects, and how this relates to Claude Code.
 
 ## Key Insight
 

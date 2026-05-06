@@ -1,48 +1,53 @@
 ---
 title: DeepSeek-TUI
-date: 2026-05-05T14:15:54+08:00
+date: 2026-05-06T14:28:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776011469172-61a3e7ba6dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776011469172-61a3e7ba6dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
 ---
 
 # [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI)
 
-# 🐳 DeepSeek TUI
+# DeepSeek TUI
 
-> **This terminal-native coding agent is built around DeepSeek V4's 1M-token context window and prefix cache capability. It is distributed as a single binary and requires no Node.js or Python runtime. It also includes an MCP client, a sandbox, and a durable task queue out of the box.**
+> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.
 
 [简体中文 README](README.zh-CN.md)
 
-Before proceeding, ensure that `Node.js` and `npm` are installed.
+## Install
+
+`deepseek` is distributed as Rust binaries: the dispatcher command
+(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever
+install path you already use; they all put the same commands on your `PATH`.
+The npm package is an installer/wrapper for the release binaries, not the
+agent runtime itself.
 
 ```bash
-node --version
-npm --version
-```
-
-If `Node.js` and `npm` are not installed in your environment, refer to the installation guides provided below:
-
-* English version: [https://nodejs.org/en/download](https://nodejs.org/en/download)
-* Chinese version: [https://nodejs.org/zh-cn/download](https://nodejs.org/zh-cn/download)
-
-Select the version that best matches your device specifications and operating system. 
-
-Install the `deepseek-tui` now:
-
-```bash
+# 1. npm — easiest if you already use Node. The package downloads the
+#    matching prebuilt Rust binaries from GitHub Releases.
 npm install -g deepseek-tui
 
-# When installing deepseek-tui in China's internet environment, you can use an npm mirror to speed up the installation process.
-# npm install -g deepseek-tui@latest --registry=https://registry.npmmirror.com
+# 2. Cargo — no Node needed.
+cargo install deepseek-tui-cli --locked   # `deepseek` (entry point)
+cargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)
+
+# 3. Homebrew — macOS package manager.
+brew tap Hmbown/deepseek-tui
+brew install deepseek-tui
+
+# 4. Direct download — no package manager or toolchain.
+#    https://github.com/Hmbown/DeepSeek-TUI/releases
+#    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Windows x64.
 ```
+
+> In mainland China, speed up the npm path with
+> `--registry=https://registry.npmmirror.com`, or use the
+> [Cargo mirror](#china--mirror-friendly-installation) below.
 
 [![CI](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml/badge.svg)](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/deepseek-tui)](https://www.npmjs.com/package/deepseek-tui)
 [![crates.io](https://img.shields.io/crates/v/deepseek-tui-cli?label=crates.io)](https://crates.io/crates/deepseek-tui-cli)
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-Ask_AI-_.svg?style=flat&color=0052D9&labelColor=000000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/Hmbown/DeepSeek-TUI)
-
-<a href="https://www.buymeacoffee.com/hmbown" target="_blank"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-5F7FFF?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy me a coffee" /></a>
+[DeepWiki project index](https://deepwiki.com/Hmbown/DeepSeek-TUI)
 
 ![DeepSeek TUI screenshot](assets/screenshot.png)
 
@@ -50,23 +55,24 @@ npm install -g deepseek-tui
 
 ## What Is It?
 
-DeepSeek TUI is a coding agent that runs entirely in your terminal. It gives DeepSeek's frontier models direct access to your workspace — reading and editing files, running shell commands, searching the web, managing git, and orchestrating sub-agents — all through a fast, keyboard-driven TUI.
+DeepSeek TUI is a coding agent that runs in your terminal. It can read and edit files, run shell commands, search the web, manage git, and coordinate sub-agents from a keyboard-driven TUI.
 
-**Built for DeepSeek V4** (`deepseek-v4-pro` / `deepseek-v4-flash`) with 1M-token context window and native thinking-mode (chain-of-thought) streaming.
+It is built around DeepSeek V4 (`deepseek-v4-pro` / `deepseek-v4-flash`), including 1M-token context windows, streaming reasoning blocks, and prefix-cache-aware cost reporting.
 
 ### Key Features
 
-- **Native RLM** (`rlm_query`) — fans out 1–16 cheap `deepseek-v4-flash` children in parallel for batched analysis and parallel reasoning, all against the existing API client
-- **Thinking-mode streaming** — watch the model's chain-of-thought unfold in real time as it works through your tasks
+- **Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn
+- **Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works
 - **Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers
-- **1M-token context** — automatic intelligent compaction when context fills up; prefix-cache aware for cost efficiency
+- **1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry
 - **Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)
 - **Reasoning-effort tiers** — cycle through `off → high → max` with `Shift + Tab`
 - **Session save/resume** — checkpoint and resume long-running sessions
 - **Workspace rollback** — side-git pre/post-turn snapshots with `/restore` and `revert_turn`, without touching your repo's `.git`
-- **Durable task queue** — background tasks survive restarts; think scheduled automation, long-running reviews
+- **Durable task queue** — background tasks can survive restarts
 - **HTTP/SSE runtime API** — `deepseek serve --http` for headless agent workflows
 - **MCP protocol** — connect to Model Context Protocol servers for extended tooling; please see [docs/MCP.md](docs/MCP.md)
+- **Native RLM** (`rlm_query`) — run batched analysis through cheap `deepseek-v4-flash` children using the same API client
 - **LSP diagnostics** — inline error/warning surfacing after every edit via rust-analyzer, pyright, typescript-language-server, gopls, clangd
 - **User memory** — optional persistent note file injected into the system prompt for cross-session preferences
 - **Localized UI** — `en`, `ja`, `zh-Hans`, `pt-BR` with auto-detection
@@ -88,7 +94,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full walkthrough.
 ```bash
 npm install -g deepseek-tui
 deepseek --version
-deepseek
+deepseek --model auto
 ```
 
 Prebuilt binaries are published for **Linux x64**, **Linux ARM64** (v0.8.8+), **macOS x64**, **macOS ARM64**, and **Windows x64**. For other targets (musl, riscv64, FreeBSD, etc.), see [Install from source](#install-from-source) or [docs/INSTALL.md](docs/INSTALL.md).
@@ -107,6 +113,21 @@ deepseek doctor                         # verify setup
 ```
 
 > To rotate or remove a saved key: `deepseek auth clear --provider deepseek`.
+
+### Auto Mode
+
+Use `deepseek --model auto` or `/model auto` when you want DeepSeek TUI to decide how much model and reasoning power a turn needs.
+
+Auto mode controls two settings together:
+
+- Model: `deepseek-v4-flash` or `deepseek-v4-pro`
+- Thinking: `off`, `high`, or `max`
+
+Before the real turn is sent, the app makes a small `deepseek-v4-flash` routing call with thinking off. That router looks at the latest request and recent context, then selects a concrete model and thinking level for the real request. Short/simple turns can stay on Flash with thinking off; coding, debugging, release work, architecture, security review, or ambiguous multi-step tasks can move up to Pro and/or higher thinking.
+
+`auto` is local to DeepSeek TUI. The upstream API never receives `model: "auto"`; it receives the concrete model and thinking setting chosen for that turn. The TUI shows the selected route, and cost tracking is charged against the model that actually ran. If the router call fails or returns an invalid answer, the app falls back to a local heuristic. Sub-agents inherit auto mode unless you assign them an explicit model.
+
+Use a fixed model or fixed thinking level when you want repeatable benchmarking, a strict cost ceiling, or a specific provider/model mapping.
 
 ### Linux ARM64 (Raspberry Pi, Asahi, Graviton, HarmonyOS PC)
 
@@ -135,6 +156,15 @@ deepseek --version
 
 Prebuilt binaries can also be downloaded from [GitHub Releases](https://github.com/Hmbown/DeepSeek-TUI/releases). Use `DEEPSEEK_TUI_RELEASE_BASE_URL` for mirrored release assets.
 
+### Windows (Scoop)
+
+[Scoop](https://scoop.sh) is a Windows package manager. Once installed, run:
+
+```bash
+scoop install deepseek-tui
+```
+
+
 <details id="install-from-source">
 <summary>Install from source</summary>
 
@@ -148,7 +178,7 @@ Works on any Tier-1 Rust target — including musl, riscv64, FreeBSD, and older 
 git clone https://github.com/Hmbown/DeepSeek-TUI.git
 cd DeepSeek-TUI
 
-cargo install --path crates/cli --locked   # requires Rust 1.85+; provides `deepseek`
+cargo install --path crates/cli --locked   # requires Rust 1.88+; provides `deepseek`
 cargo install --path crates/tui --locked   # provides `deepseek-tui`
 ```
 
@@ -169,21 +199,22 @@ deepseek --provider fireworks --model deepseek-v4-pro
 
 # Self-hosted SGLang
 SGLANG_BASE_URL="http://localhost:30000/v1" deepseek --provider sglang --model deepseek-v4-flash
+
+# Self-hosted vLLM
+VLLM_BASE_URL="http://localhost:8000/v1" deepseek --provider vllm --model deepseek-v4-flash
 ```
 
 ---
 
-## What's New In v0.8.11
+## What's New In v0.8.14
 
-A targeted patch for the V4 cache-maxing overhaul plus three runtime fixes discovered in YOLO long-session dogfooding. [Full changelog](CHANGELOG.md).
+A stabilization release focused on first-run setup, auto model + thinking routing, cost accounting, and provider support. [Full changelog](CHANGELOG.md).
 
-- **Cache-maxing prompt path for DeepSeek V4** — the engine skips system-prompt reassembly when the stable prefix is unchanged, moves the working-set summary out of the system prompt into per-turn metadata, and anchors the tool array with `cache_control: ephemeral`. Net effect: fewer prefix rewrites, higher cache-hit rates, lower cost per turn.
-- **500K token compaction floor** — automatic compaction refuses below 500K tokens; manual `/compact` still bypasses. The message-count trigger (a 128K-era heuristic) is removed — token budget is the sole auto-trigger.
-- **`npm install` resilience** — retry with exponential backoff, per-attempt timeout + stall detector, `HTTPS_PROXY`/`HTTP_PROXY`/`NO_PROXY` support (pure Node, no new deps), and download progress to stderr. Driven by a community report from China where `npm install` took 18 minutes through a CN mirror.
-- **YOLO sandbox dropped** — YOLO now uses DangerFullAccess (no sandbox), consistent with its auto-approval + trust mode posture. Previously, the WorkspaceWrite sandbox was intercepting legitimate outside-workspace writes.
-- **Scroll lock preserved during live streaming** — scrolling up mid-stream no longer gets yanked back to the tail on the next chunk. The `user_scrolled_during_stream` lock now survives render-time clamping.
-- **Capacity controller off by default** — the controller was silently clearing transcripts independent of token usage or `auto_compact` settings. Now defaults to disabled; opt-in via `capacity.enabled = true`.
-- **README clarity pass** (#685) — title-cased headings, explicit prerequisites, China-friendly install variant. *Thanks to [@Agent-Skill-007](https://github.com/Agent-Skill-007) for this PR.*
+- **Auto mode restored** — `--model auto`, `/model auto`, config `default_model = "auto"`, one-shot prompts, and sub-agents resolve to concrete model + thinking routes before calling the API
+- **Per-turn cost accounting fix** — V4 reasoning tokens are counted as billable output when providers report them separately from completion tokens
+- **First-run setup repair** — missing config files now lead users through API key setup and create `~/.deepseek/config.toml`
+- **Settings navigation fix** — arrow-key selection and click highlighting in the config UI work reliably on Windows terminals
+- **vLLM provider support** — self-hosted vLLM endpoints can be used with `--provider vllm` and `VLLM_BASE_URL`
 
 ---
 
@@ -193,6 +224,7 @@ A targeted patch for the V4 cache-maxing overhaul plus three runtime fixes disco
 deepseek                                         # interactive TUI
 deepseek "explain this function"                 # one-shot prompt
 deepseek --model deepseek-v4-flash "summarize"   # model override
+deepseek --model auto "fix this bug"             # auto-select model + thinking
 deepseek --yolo                                  # auto-approve tools
 deepseek auth set --provider deepseek            # save API key
 deepseek doctor                                  # check setup & connectivity
@@ -201,13 +233,38 @@ deepseek setup --status                          # read-only setup status
 deepseek setup --tools --plugins                 # scaffold tool/plugin dirs
 deepseek models                                  # list live API models
 deepseek sessions                                # list saved sessions
-deepseek resume --last                           # resume latest session
+deepseek resume --last                           # resume the most recent session
+deepseek resume <SESSION_ID>                     # resume a specific session by UUID
+deepseek fork <SESSION_ID>                       # fork a session at a chosen turn
 deepseek serve --http                            # HTTP/SSE API server
+deepseek serve --acp                             # ACP stdio adapter for Zed/custom agents
 deepseek pr <N>                                  # fetch PR and pre-seed review prompt
 deepseek mcp list                                # list configured MCP servers
 deepseek mcp validate                            # validate MCP config/connectivity
 deepseek mcp-server                              # run dispatcher MCP stdio server
 ```
+
+### Zed / ACP
+
+DeepSeek can run as a custom Agent Client Protocol server for editors that
+spawn local ACP agents over stdio. In Zed, add a custom agent server:
+
+```json
+{
+  "agent_servers": {
+    "DeepSeek": {
+      "type": "custom",
+      "command": "deepseek",
+      "args": ["serve", "--acp"],
+      "env": {}
+    }
+  }
+}
+```
+
+The first ACP slice supports new sessions and prompt responses through your
+existing DeepSeek config/API key. Tool-backed editing and checkpoint replay are
+not exposed through ACP yet.
 
 ### Keyboard Shortcuts
 
@@ -223,7 +280,6 @@ deepseek mcp-server                              # run dispatcher MCP stdio serv
 | `Ctrl+S` | Stash current draft (`/stash list`, `/stash pop` to recover) |
 | `@path` | Attach file/directory context in composer |
 | `↑` (at composer start) | Select attachment row for removal |
-| `Alt+↑` | Edit last queued message |
 
 Full shortcut catalog: [docs/KEYBINDINGS.md](docs/KEYBINDINGS.md).
 
@@ -250,11 +306,12 @@ Key environment variables:
 | `DEEPSEEK_API_KEY` | API key |
 | `DEEPSEEK_BASE_URL` | API base URL |
 | `DEEPSEEK_MODEL` | Default model |
-| `DEEPSEEK_PROVIDER` | `deepseek` (default), `nvidia-nim`, `fireworks`, `sglang` |
+| `DEEPSEEK_PROVIDER` | `deepseek` (default), `nvidia-nim`, `fireworks`, `sglang`, `vllm` |
 | `DEEPSEEK_PROFILE` | Config profile name |
 | `DEEPSEEK_MEMORY` | Set to `on` to enable user memory |
-| `NVIDIA_API_KEY` / `FIREWORKS_API_KEY` / `SGLANG_API_KEY` | Provider auth |
+| `NVIDIA_API_KEY` / `FIREWORKS_API_KEY` / `SGLANG_API_KEY` / `VLLM_API_KEY` | Provider auth |
 | `SGLANG_BASE_URL` | Self-hosted SGLang endpoint |
+| `VLLM_BASE_URL` | Self-hosted vLLM endpoint |
 | `NO_ANIMATIONS=1` | Force accessibility mode at startup |
 | `SSL_CERT_FILE` | Custom CA bundle for corporate proxies |
 
@@ -271,7 +328,10 @@ UI locale is separate from model language — set `locale` in `settings.toml`, u
 
 Legacy aliases `deepseek-chat` / `deepseek-reasoner` map to `deepseek-v4-flash`. NVIDIA NIM variants use your NVIDIA account terms.
 
-*DeepSeek Pro rates currently reflect a limited-time 75% discount, which remains valid until 15:59 UTC on 5 May 2026. After that time, the TUI cost estimator will revert to the base Pro rates.*
+*DeepSeek Pro rates currently reflect a limited-time 75% discount, which remains valid until 15:59 UTC on 31 May 2026. After that time, the TUI cost estimator will revert to the base Pro rates.*
+
+> [!Note]
+> For the latest DeepSeek-V4-Pro pricing, including the current 75% discount valid until 15:59 UTC on 31 May 2026, please consult the official [DeepSeek pricing page](https://api-docs.deepseek.com/zh-cn/quick_start/pricing). All rates listed in the README correspond to the officially published values.
 
 ---
 
@@ -314,6 +374,7 @@ Commands: `/skills` (list), `/skill <name>` (activate), `/skill new` (scaffold),
 | [SUBAGENTS.md](docs/SUBAGENTS.md) | Sub-agent role taxonomy and lifecycle |
 | [KEYBINDINGS.md](docs/KEYBINDINGS.md) | Full shortcut catalog |
 | [RELEASE_RUNBOOK.md](docs/RELEASE_RUNBOOK.md) | Release process |
+| [LOCALIZATION.md](docs/LOCALIZATION.md) | UI locale matrix & switching |
 | [OPERATIONS_RUNBOOK.md](docs/OPERATIONS_RUNBOOK.md) | Ops & recovery |
 
 Full Changelog: [CHANGELOG.md](CHANGELOG.md).
@@ -322,8 +383,25 @@ Full Changelog: [CHANGELOG.md](CHANGELOG.md).
 
 ## Thanks
 
-Earlier releases shipped with help from these contributors:
+This project ships with help from a growing community of contributors:
 
+- **[merchloubna70-dot](https://github.com/merchloubna70-dot)** — 28 PRs spanning features, fixes, and VS Code extension scaffolding (#645–#681)
+- **[WyxBUPT-22](https://github.com/WyxBUPT-22)** — Markdown rendering for tables, bold/italic, and horizontal rules (#579)
+- **[loongmiaow-pixel](https://github.com/loongmiaow-pixel)** — Windows + China install documentation (#578)
+- **[20bytes](https://github.com/20bytes)** — User memory docs and help polish (#569)
+- **[staryxchen](https://github.com/staryxchen)** — glibc compatibility preflight (#556)
+- **[Vishnu1837](https://github.com/Vishnu1837)** — glibc compatibility improvements (#565)
+- **[shentoumengxin](https://github.com/shentoumengxin)** — Shell `cwd` boundary validation (#524)
+- **[toi500](https://github.com/toi500)** — Windows paste fix report
+- **[xsstomy](https://github.com/xsstomy)** — Terminal startup repaint report
+- **[melody0709](https://github.com/melody0709)** — Slash-prefix Enter activation report
+- **[lloydzhou](https://github.com/lloydzhou)** and **[jeoor](https://github.com/jeoor)** — Compaction cost reports
+- **[Agent-Skill-007](https://github.com/Agent-Skill-007)** — README clarity pass (#685)
+- **[woyxiang](https://github.com/woyxiang)** — Windows Scoop install docs (#696)
+- **[wangfeng](mailto:wangfengcsu@qq.com)** — Pricing/discount info update (#692)
+- **[zichen0116](https://github.com/zichen0116)** — CODE_OF_CONDUCT.md (#686)
+- **[dfwqdyl-ui](https://github.com/dfwqdyl-ui)** — model ID case-sensitivity compatibility report (#729)
+- **[Oliver-ZPLiu](https://github.com/Oliver-ZPLiu)** — stale `working...` state bug report with detailed reproduction and fix (#738)
 - **Hafeez Pizofreude** — SSRF protection in `fetch_url` and Star History chart
 - **Unic (YuniqueUnic)** — Schema-driven config UI (TUI + web)
 - **Jason** — SSRF security hardening
@@ -333,6 +411,8 @@ Earlier releases shipped with help from these contributors:
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Pull requests welcome — check the [open issues](https://github.com/Hmbown/DeepSeek-TUI/issues) for good first contributions.
+
+Support: [Buy me a coffee](https://www.buymeacoffee.com/hmbown).
 
 > [!Note]
 > *Not affiliated with DeepSeek Inc.*
