@@ -1,9 +1,9 @@
 ---
 title: vscode-dark-islands
-date: 2026-05-06T14:28:50+08:00
+date: 2026-05-07T14:34:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738606027750-4d731c8505a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1738606027750-4d731c8505a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775722567202-b107ba8d27d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775722567202-b107ba8d27d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
 ---
 
 # [bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands)

@@ -1,9 +1,9 @@
 ---
 title: InsForge
-date: 2026-03-16T13:49:39+08:00
+date: 2026-05-07T14:34:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770917279526-48e205f8ec9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770917279526-48e205f8ec9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
 ---
 
 # [InsForge/InsForge](https://github.com/InsForge/InsForge)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783d
   </a>
 
   <p>
-    The backend built for agentic development.<br />
+    The backend platform for AI-native developers.<br />
   </p>
 
   <p>
@@ -27,6 +27,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783d
     <a href="https://github.com/InsForge/insforge/graphs/contributors"><img src="https://img.shields.io/github/contributors/InsForge/insforge?color=green" alt="Contributors"></a>
     <a href="https://cursor.com/link/prompt?text=Help+me+set+up+InsForge+locally.+Follow+these+steps%3A%0A%0A1.+First%2C+verify+Docker+is+installed+and+running%3A%0A+++docker+--version%0A+++docker+info%0A%0A2.+Clone+the+repository%3A%0A+++git+clone+https%3A%2F%2Fgithub.com%2Finsforge%2Finsforge.git%0A+++cd+insforge%0A%0A3.+Copy+the+example+env+config+and+start+services%3A%0A+++cp+env.example+to+env+file%0A+++docker+compose+up+-d%0A%0A4.+Wait+for+all+containers+to+be+healthy+(this+may+take+1-2+minutes)%3A%0A+++docker+compose+ps%0A%0A5.+Verify+the+app+is+accessible+at+http%3A%2F%2Flocalhost%3A7131%0A%0A6.+Follow+the+steps+in+the+dashboard+to+connect+InsForge+MCP+Server+to+your+agent.%0A%0AIf+there+are+any+errors%2C+help+me+troubleshoot+them.+Common+issues%3A%0A-+Docker+not+running%0A-+Ports+already+in+use%0A-+Insufficient+memory"><img src="https://img.shields.io/badge/Set%20Up%20with-Cursor-181818?logo=cursor&logoColor=white&labelColor=555555" alt="Set Up With Cursor"></a>
     <a href="https://insforge.dev"><img src="https://img.shields.io/badge/Visit-InsForge.dev-181818?logoColor=white&labelColor=555555&logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDI0MCAyNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI2LjExODQgMTAxLjZDMjMuMjkzOSA5OC43ODMzIDIzLjI5MzkgOTQuMjE2NiAyNi4xMTg0IDkxLjRMOTcuNzE2NyAyMEwyMDAgMjBMNzcuMjYgMTQyLjRDNzQuNDM1NSAxNDUuMjE3IDY5Ljg1NjIgMTQ1LjIxNyA2Ny4wMzE3IDE0Mi40TDI2LjExODQgMTAxLjZaIiBmaWxsPSJ3aGl0ZSIvPjxwYXRoIGQ9Ik0xNTUuMjUxIDc3LjM3NUwyMDAgMTIyVjIyNEwxMDQuMTA5IDEyOC4zNzVMMTU1LjI1MSA3Ny4zNzVaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPgo=" alt="Visit InsForge.dev"></a>
+    <a href="https://gitcgr.com/InsForge/InsForge">
+      <img src="https://gitcgr.com/badge/InsForge/InsForge.svg" alt="gitcgr" />
+    </a>
   </p>
   <p>
     <a href="https://x.com/InsForge_dev"><img src="https://img.shields.io/badge/Follow%20on%20X-000000?logo=x&logoColor=white&style=for-the-badge" alt="Follow on X"></a>
@@ -41,6 +44,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1771783572385-aea248783d
     <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge-2026.svg" />
   </a>
 </div>
+
+<p align="center">
+  ⭐ <em>Help us reach more developers and grow the InsForge community. Star this repo!</em>
+</p>
 
 ## InsForge
 InsForge is a backend development platform built for AI coding agents and AI code editors. It exposes backend primitives like databases, auth, storage, and functions through a semantic layer that agents can understand, reason about, and operate end to end.
@@ -74,13 +81,14 @@ graph TB
     SL --> ST[Storage]
     SL --> EF[Edge Functions]
     SL --> MG[Model Gateway]
+    SL --> CP[Compute]
     SL --> DEP[Deployment]
 
     classDef bar fill:#0b0f14,stroke:#30363d,stroke-width:1px,color:#ffffff
     classDef card fill:#161b22,stroke:#30363d,stroke-width:1px,color:#ffffff
 
     class AG,SL bar
-    class AUTH,DB,ST,EF,MG,DEP card
+    class AUTH,DB,ST,EF,MG,CP,DEP card
 
     style TOP fill:transparent,stroke:transparent
     style MID fill:transparent,stroke:transparent
@@ -94,6 +102,7 @@ graph TB
 - **Storage**: S3 compatible file storage
 - **Model Gateway**: OpenAI compatible API across multiple LLM providers
 - **Edge Functions**: Serverless code running on the edge
+- **Compute** (private preview): Long-running container services on Fly.io with public URLs ([docs](https://docs.insforge.dev/core-concepts/compute/architecture))
 - **Site Deployment**: Site build and deployment
 
 
@@ -145,6 +154,38 @@ Follow the steps to connect InsForge MCP Server
 To verify the connection, send the following prompt to your agent:
 ```
 I'm using InsForge as my backend platform, call InsForge MCP's fetch-docs tool to learn about InsForge instructions.
+```
+
+#### 4. Running Multiple Projects
+
+You can run multiple InsForge projects on the same host by using different ports and project names.
+
+```bash
+# Create a separate env file for each project
+cp .env.example .env.project1
+cp .env.example .env.project2
+```
+
+Edit `.env.project2` with different ports:
+```
+POSTGRES_PORT=5442
+POSTGREST_PORT=5440
+APP_PORT=7230
+AUTH_PORT=7231
+DENO_PORT=7233
+```
+
+Start each project with a unique name:
+```bash
+docker compose -f docker-compose.prod.yml --env-file .env.project1 -p project1 up -d
+docker compose -f docker-compose.prod.yml --env-file .env.project2 -p project2 up -d
+```
+
+Each project gets its own isolated database, storage, and configuration. Manage them with:
+```bash
+docker compose -f docker-compose.prod.yml --env-file .env.project1 -p project1 ps      # status
+docker compose -f docker-compose.prod.yml --env-file .env.project1 -p project1 logs -f  # logs
+docker compose -f docker-compose.prod.yml --env-file .env.project1 -p project1 down     # stop
 ```
 
 ### One-click Deployment

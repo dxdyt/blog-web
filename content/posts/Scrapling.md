@@ -1,9 +1,9 @@
 ---
 title: Scrapling
-date: 2026-05-06T14:29:28+08:00
+date: 2026-05-07T14:35:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772885982770-59d1b7d0df81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772885982770-59d1b7d0df81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770355302457-10d2b94c2220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770355302457-10d2b94c2220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
 ---
 
 # [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
@@ -97,6 +97,15 @@ MySpider().start()
 
 # Platinum Sponsors
 <table>
+  <tr>
+    <td width="200">
+      <a href="https://coldproxy.com/" target="_blank" title="Residential, IPv6 & Datacenter Proxies for Web Scraping">
+        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/coldproxy.png">
+      </a>
+    </td>
+    <td> <a href="https://coldproxy.com/" target="_blank"><b>ColdProxy</b></a> provides residential and datacenter proxies for stable web scraping, public data collection, and geo-targeted testing across 195+ countries.
+    </td>
+  </tr>
   <tr>
     <td width="200">
       <a href="https://hypersolutions.co/?utm_source=github&utm_medium=readme&utm_campaign=scrapling" target="_blank" title="Bot Protection Bypass API for Akamai, DataDome, Incapsula & Kasada">

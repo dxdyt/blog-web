@@ -1,9 +1,9 @@
 ---
 title: TabPFN
-date: 2026-05-06T14:30:15+08:00
+date: 2026-05-07T14:33:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776333181065-fe91f63d17eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776333181065-fe91f63d17eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770355302457-10d2b94c2220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770355302457-10d2b94c2220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
 ---
 
 # [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN)
@@ -525,4 +525,4 @@ export TABPFN_DISABLE_TELEMETRY=1
 ```
 ---
 
-Built with ❤️ by [Prior Labs](https://priorlabs.ai) - Copyright (c) 2025 Prior Labs GmbH
+Built with ❤️ by [Prior Labs](https://priorlabs.ai) - Copyright (c) 2026 Prior Labs GmbH
