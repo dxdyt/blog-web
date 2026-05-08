@@ -1,9 +1,9 @@
 ---
 title: agent-skills
-date: 2026-05-07T14:33:30+08:00
+date: 2026-05-08T13:56:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770131100714-12a6989ec31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770131100714-12a6989ec31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
 ---
 
 # [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)

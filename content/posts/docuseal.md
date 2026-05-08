@@ -1,9 +1,9 @@
 ---
 title: docuseal
-date: 2026-05-07T14:33:46+08:00
+date: 2026-05-08T13:57:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775125423050-5623636a2490?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775125423050-5623636a2490?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxMzU1OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777260266053-fe618c38129c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777260266053-fe618c38129c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
 ---
 
 # [docusealco/docuseal](https://github.com/docusealco/docuseal)
