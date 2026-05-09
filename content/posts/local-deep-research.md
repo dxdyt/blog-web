@@ -1,9 +1,9 @@
 ---
 title: local-deep-research
-date: 2026-05-08T13:56:40+08:00
+date: 2026-05-09T14:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774607865683-114a2ba26886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774607865683-114a2ba26886?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
 ---
 
 # [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research)

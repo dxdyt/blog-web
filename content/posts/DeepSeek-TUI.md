@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-TUI
-date: 2026-05-08T13:56:21+08:00
+date: 2026-05-09T14:15:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770131100714-12a6989ec31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770131100714-12a6989ec31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
 ---
 
 # [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI)
@@ -235,40 +235,31 @@ deepseek --provider ollama --model deepseek-coder:1.3b
 
 ---
 
-## What's New In v0.8.20
+## What's New In v0.8.23
 
-A hotfix release for Chinese reasoning language, DeepSeek endpoint defaults,
-and the v0.8.18 TUI/runtime/install polish.
-[Full changelog](CHANGELOG.md).
+A security-focused follow-up to v0.8.22: sanitized child-process environments,
+tighter tool-safety classifications, and fixes for MCP, secrets, and the
+runtime API. [Full changelog](CHANGELOG.md).
 
-- **Chinese reasoning stays Chinese** - when the latest user message is in
-  Simplified Chinese, V4 `reasoning_content` and the final reply are prompted
-  to stay in Simplified Chinese even on an English system locale.
-- **DeepSeek beta endpoint stays default worldwide** - Chinese locales and
-  legacy `deepseek-cn` configs now use `https://api.deepseek.com/beta`, so
-  strict tool mode and other beta-gated features remain available.
-- **`deepseek-cn` is legacy-only** - it is no longer advertised as a separate
-  provider. Existing configs still parse it as a backwards-compatible alias for
-  `deepseek`.
-- **Plain `deepseek` starts fresh** - opening a second terminal in the same
-  folder now creates a new session instead of silently re-entering the same
-  interrupted checkpoint. Use `deepseek --continue` when you want recovery.
-- **Docker is a supported install path** - release builds publish
-  `ghcr.io/hmbown/deepseek-tui` images with `latest`, semver, and `vX.Y.Z`
-  tags; Docker publishing is part of the release gate.
-- **Chinese destructive approval dialogs are localized** - zh-Hans approval
-  copy keeps explicit destructive-risk wording while English defaults stay
-  unchanged.
-- **Transcript scrollbar dragging** - with mouse capture enabled, drag the
-  transcript scrollbar thumb to move through long sessions.
-- **Viewport drift fix** - terminal scroll margins and origin mode are reset
-  before key repaints, with a PTY regression for the blank-top-rows bug.
-- **npm installs are more resilient** - transient release-download failures
-  are recoverable at postinstall time, while checksum, platform, glibc, and
-  runtime failures remain fatal.
-- **Plus**: FreeBSD secrets-crate compile fallback, Docker Buildx cache-race
-  fix, readable light-theme toggles, softer long-session text colors, Windows
-  sandbox guarantee cleanup, and rustup mirror/install troubleshooting updates.
+- **Child-process environment scrubbed** — shells, MCP servers, hooks, and other
+  spawned subprocesses now start from an explicit env allowlist instead of
+  inheriting every parent variable. No more accidental `*_API_KEY` or
+  `GITHUB_TOKEN` leakage through subprocesses.
+- **macOS Keychain prompts gone** — the file-backed secret store is now the
+  default; the OS keyring is opt-in via `DEEPSEEK_SECRET_BACKEND=system|keyring`.
+- **MCP servers stay working** — MCP stdio launches now inherit the env vars
+  that `npx`, `uvx`, `python -m`, and proxy-bound corporate setups need, while
+  still scrubbing secrets.
+- **MCP spawn errors are visible** — instead of an opaque wrapper message, you
+  now see the real OS error ("No such file or directory") when an MCP server
+  can't start.
+- **Live thinking is compact by default** — the streaming thinking panel
+  collapses by default; expand via the details toggle.
+- **Runtime API requires auth by default** — `deepseek serve --http` no longer
+  accepts unauthenticated requests.
+- **Plus**: hardened `run_tests` approval, symlink-traversal guards, Plan-mode
+  tool-surface tightening, path-sanitization fixes, and a new
+  `docs/RELEASE_CHECKLIST.md`.
 
 ---
 
@@ -292,7 +283,7 @@ deepseek resume <SESSION_ID>                     # resume a specific session by 
 deepseek fork <SESSION_ID>                       # fork a session at a chosen turn
 deepseek serve --http                            # HTTP/SSE API server
 deepseek serve --acp                             # ACP stdio adapter for Zed/custom agents
-deepseek pr <N>                                  # fetch PR and pre-seed review prompt
+deepseek run pr <N>                              # fetch PR and pre-seed review prompt
 deepseek mcp list                                # list configured MCP servers
 deepseek mcp validate                            # validate MCP config/connectivity
 deepseek mcp-server                              # run dispatcher MCP stdio server
@@ -302,9 +293,11 @@ deepseek update                                  # check for and apply binary up
 Docker images are published to GHCR for release builds:
 
 ```bash
+docker volume create deepseek-tui-home
+
 docker run --rm -it \
   -e DEEPSEEK_API_KEY="$DEEPSEEK_API_KEY" \
-  -v ~/.deepseek:/home/deepseek/.deepseek \
+  -v deepseek-tui-home:/home/deepseek/.deepseek \
   ghcr.io/hmbown/deepseek-tui:latest
 ```
 

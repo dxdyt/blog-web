@@ -1,95 +1,60 @@
 ---
 title: skills
-date: 2026-05-06T14:29:57+08:00
+date: 2026-05-09T14:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1769095383907-b38b0b72b694?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
 ---
 
-# [browserbase/skills](https://github.com/browserbase/skills)
+# [flutter/skills](https://github.com/flutter/skills)
 
-# Browserbase Skills
+# Flutter Agent Skills
 
-A set of skills for enabling **[Claude Code](https://docs.claude.com/en/docs/claude-code/overview)** to work with Browserbase through browser automation and the official `bb` CLI.
+Agent skills for Flutter, maintained by the Flutter team.
+A collection of skills providing tailored instructions for happy path Flutter app development workflows. By giving the agent actual domain expertise and repeatable workflows, you drastically reduce mistakes and ensure agents reliably complete the task following best practices.
 
-## Skills
+Skills are essentially simple folders of files that can be seen as complementary to MCP, where MCP gives an agent access to specialized tools and a Skill teaches the agent “how” to use tools for a specific task.
 
-This plugin includes the following skills (see `skills/` for details):
-
-| Skill | Description |
-|-------|-------------|
-| [browser](skills/browser/SKILL.md) | Automate web browser interactions via CLI commands — supports remote Browserbase sessions with anti-bot stealth, CAPTCHA solving, and residential proxies |
-| [browserbase-cli](skills/browserbase-cli/SKILL.md) | Use the official `bb` CLI for Browserbase Functions and platform API workflows including sessions, projects, contexts, extensions, fetch, and dashboard |
-| [functions](skills/functions/SKILL.md) | Deploy serverless browser automation to Browserbase cloud using the `bb` CLI |
-| [site-debugger](skills/site-debugger/SKILL.md) | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook |
-| [browser-trace](skills/browser-trace/SKILL.md) | Capture a full DevTools-protocol trace (CDP firehose, screenshots, DOM dumps) alongside any browser automation, then bisect the stream into per-page searchable buckets |
-| [safe-browser](skills/safe-browser/SKILL.md) | Build local Claude Agent SDK browser agents whose only browser capability is a CDP-gated `safe_browser` tool with domain allowlist enforcement |
-| [bb-usage](skills/bb-usage/SKILL.md) | Show Browserbase usage stats, session analytics, and cost forecasts in a terminal dashboard |
-| [cookie-sync](skills/cookie-sync/SKILL.md) | Sync cookies from local Chrome to a Browserbase persistent context so the browse CLI can access authenticated sites |
-| [fetch](skills/fetch/SKILL.md) | Fetch HTML or JSON from static pages without a browser session — inspect status codes, headers, follow redirects |
-| [search](skills/search/SKILL.md) | Search the web and return structured results (titles, URLs, metadata) without a browser session |
-| [ui-test](skills/ui-test/SKILL.md) | AI-powered adversarial UI testing — analyzes git diffs to test changes, or explores the full app to find bugs |
+You can also install the [Agent Skills for Dart](https://github.com/dart-lang/skills) for Dart tasks.
 
 ## Installation
 
-To install the skill to popular coding agents:
+To install all skills into your project, run the following command. 
+The `--agent universal` flag puts it in the standard `.agents/skills` 
+folder that most agents use.
 
 ```bash
-$ npx skills add browserbase/skills
+npx skills add flutter/skills --skill '*' --agent universal
 ```
 
-### Claude Code
+## Updating Skills
 
-On Claude Code, to add the marketplace, simply run:
+To update, run the following command:
 
 ```bash
-/plugin marketplace add browserbase/skills
+npx skills update
 ```
 
-Then install the plugin:
+## Available Skills
 
-```bash
-/plugin install browse@browserbase
-```
+| Skill | Description | Example prompt |
+|---|---|---|
+| [flutter-add-integration-test](skills/flutter-add-integration-test/SKILL.md) | Configures Flutter Driver for app interaction and converts MCP actions into permanent integration tests. Use when adding integration testing to a project, exploring UI components via MCP, or automating user flows with the integration_test package. | Add an integration test that validates the checkout experience |
+| [flutter-add-widget-preview](skills/flutter-add-widget-preview/SKILL.md) | Adds interactive widget previews to the project using the previews.dart system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive testing. | Create a preview for the ProductCard widget with different price states |
+| [flutter-add-widget-test](skills/flutter-add-widget-test/SKILL.md) | Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected. | Add a widget test for the CustomButton to verify the onTap callback is called |
+| [flutter-apply-architecture-best-practices](skills/flutter-apply-architecture-best-practices/SKILL.md) | Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability. | Refactor the authentication flow to follow the recommended layered architecture |
+| [flutter-build-responsive-layout](skills/flutter-build-responsive-layout/SKILL.md) | Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create a layout that adapts to different screen sizes. Use when you need the UI to look good on both mobile and tablet/desktop form factors. | Make the home screen responsive so it displays a grid on tablets and a list on phones |
+| [flutter-fix-layout-issues](skills/flutter-fix-layout-issues/SKILL.md) | Fixes Flutter layout errors (overflows, unbounded constraints) using Dart and Flutter MCP tools. Use when addressing "RenderFlex overflowed", "Vertical viewport was given unbounded height", or similar layout issues. | Fix the overflow error on the profile page when the keyboard is visible |
+| [flutter-implement-json-serialization](skills/flutter-implement-json-serialization/SKILL.md) | Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data structures. | Implement JSON serialization for the User model class |
+| [flutter-setup-declarative-routing](skills/flutter-setup-declarative-routing/SKILL.md) | Configure `MaterialApp.router` using a package like `go_router` for advanced URL-based navigation. Use when developing web applications or mobile apps that require specific deep linking and browser history support. | Set up GoRouter with paths for home, details, and settings |
+| [flutter-setup-localization](skills/flutter-setup-localization/SKILL.md) | Add `flutter_localizations` and `intl` dependencies, enable "generate true" in `pubspec.yaml`, and create an `l10n.yaml` configuration file. Use when initializing localization support for a new Flutter project. | Setup localization and add English and Spanish translations |
+| [flutter-use-http-package](skills/flutter-use-http-package/SKILL.md) | Use the `http` package to execute GET, POST, PUT, or DELETE requests. Use when you need to fetch from or send data to a REST API. | Use the http package to fetch the list of products from the API |
+## Contributing
 
-If you prefer the manual interface:
-1. On Claude Code, type `/plugin`
-2. Select option `3. Add marketplace`
-3. Enter the marketplace source: `browserbase/skills`
-4. Press enter to select the `browse` plugin
-5. Hit enter again to `Install now`
-6. **Restart Claude Code** for changes to take effect
+We aren't accepting pull requests at this time, but we would love to hear your feedback! 
 
-## Usage
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
-Once installed, you can ask Claude to browse or use the Browserbase CLI:
-- *"Go to Hacker News, get the top post comments, and summarize them "*
-- *"QA test http://localhost:3000 and fix any bugs you encounter"*
-- *"Order me a pizza, you're already signed in on Doordash"*
-- *"Use `bb` to list my Browserbase projects and show the output as JSON"*
-- *"Initialize a new Browserbase Function with `bb functions init` and explain the next commands"*
-- *"Use safe-browser to build a Hacker News scraper that only stays on the main site"*
+## Code of Conduct
 
-Claude will handle the rest.
-
-For local and localhost work, `browse env local` now starts a clean isolated browser by default. Use `browse env local --auto-connect` when the agent should reuse your existing local Chrome session, cookies, or login state.
-
-## Troubleshooting
-
-### Chrome not found
-
-Install Chrome for your platform:
-- **macOS** or **Windows**: https://www.google.com/chrome/
-- **Linux**: `sudo apt install google-chrome-stable`
-
-### Profile refresh
-
-To refresh cookies from your main Chrome profile:
-```bash
-rm -rf .chrome-profile
-```
-
-## Resources
-
-- [Stagehand Documentation](https://github.com/browserbase/stagehand)
-- [Claude Code Skills](https://support.claude.com/en/articles/12512176-what-are-skills)
+Please see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for more information.

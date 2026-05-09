@@ -1,9 +1,9 @@
 ---
 title: hello-agents
-date: 2026-03-02T13:15:41+08:00
+date: 2026-05-09T14:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a90321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0Mjg0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
@@ -40,9 +40,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 ## 📚 快速开始
 
 ### 在线阅读
-**[🌐 点击这里开始在线阅读](https://datawhalechina.github.io/hello-agents/)** - 无需下载，随时随地学习
-
-**[📖 Cookbook](https://book.heterocat.com.cn/)**
+**[🌐 国外访问](https://datawhalechina.github.io/hello-agents/)** | **[🚀 国内加速](https://hello-agents.datawhale.cc)** - 无需下载，随时随地学习
 
 ### 本地阅读
 如果您希望在本地阅读或贡献内容，请参考下方的学习指南。
@@ -52,7 +50,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 - 📖 <strong>Datawhale 开源免费</strong> 完全免费学习本项目所有内容，与社区共同成长
 - 🔍 <strong>理解核心原理</strong> 深入理解智能体的概念、历史与经典范式
 - 🏗️ <strong>亲手实现</strong> 掌握热门低代码平台和智能体代码框架的使用
-- 🛠️ <strong>自研框架[HelloAgents](https://github.com/jjyaoao/helloagents)</strong> 基于 Openai 原生 API 从零构建一个自己的智能体框架
+- 🛠️ <strong>自研框架 [HelloAgents](https://github.com/jjyaoao/helloagents)</strong> 基于 Openai 原生 API 从零构建一个自己的智能体框架
 - ⚙️ <strong>掌握高级技能</strong> 一步步实现上下文工程、Memory、协议、评估等系统性技术
 - 🤝 <strong>模型训练</strong> 掌握 Agentic RL，从 SFT 到 GRPO 的全流程实战训练 LLM
 - 🚀 <strong>驱动真实案例</strong> 实战开发智能旅行助手、赛博小镇等综合项目
@@ -102,12 +100,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 | [07-环境配置](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra07-环境配置.md)                | 环境配置 |
 | [08-如何写出好的Skill](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-如何写出好的Skill.md) | Skill 写作最佳实践 |
 | [09-Agent应用开发实践踩坑与经验分享](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra09-Agent应用开发实践踩坑与经验分享.md) | Code Agent 应用开发踩坑与经验总结 |
+| [10-Agent Self-Evolution智能体自进化](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra10-Agent自进化.md) | Agent 自进化四类闭环与代表项目 |
 
 ### PDF 版本下载
 
 &emsp;&emsp;*<strong>本 Hello-Agents PDF 教程完全开源免费。为防止各类营销号加水印后贩卖给多智能体系统初学者，我们特地在 PDF 文件中预先添加了不影响阅读的 Datawhale 开源标志水印，敬请谅解～</strong>*
 
-> *Hello-Agents PDF : https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.0*  
+> *Hello-Agents PDF : https://github.com/datawhalechina/hello-agents/releases/latest/*  
 > *Hello-Agents PDF 国内下载地址 : https://www.datawhale.cn/learn/summary/239* 
 
 ## 💡 如何学习
@@ -136,8 +135,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 ## 下一步规划
 
 - 视频课程陆续放出（将会更加细致，实践课带领大家从设计思路到实施，授人以鱼也授人以渔）
-- 完善HelloAgents框架，开展Dev分支继续维护，兼容学习版本。
-- 感谢大家助力2W Star! 达到3W Star将会更新续作，《从零开始训练智能体》，帮助每一个学习者掌握从零到一训练自定义场景智能体模型的能力。
+- HelloAgents框架已经更新V1.0.0版本，将会继续完善，增加更多好用，轻量化的工具和特性，兼容学习版本。
+- 感谢大家助力4W Star! 现在提供调查问卷，供大家填写自己需要学习的智能体内容。后续作品《从零开始训练智能体》，帮助每一个学习者掌握从零到一训练自定义场景智能体模型的能力。
+<div align='center'>
+    <img src="./读者反馈问卷.png" alt="读者反馈问卷" width="30%">
+    <p>扫描二维码填写反馈意见，助力新项目共同成长</p>
+</div>
 
 ## 🤝 如何贡献
 
@@ -164,6 +167,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 - [黄宏晗-DW贡献者团队](https://github.com/XiaoMa-PM) (深圳大学, Extra04 内容贡献)
 - [王大鹏-Datawhale成员](https://github.com/ditingdapeng) (高级研发工程师, Extra08 内容贡献)
 - [尤逸晖-个人开发者](https://github.com/YYHDBL) (南京信息工程大学, Extra09 内容贡献)
+- [殷鑫-个人开发者](https://github.com/vinci-grape) (浙江大学, Extra10 内容贡献)
 
 ### 特别感谢
 - 感谢 [@Sm1les](https://github.com/Sm1les) 对本项目的帮助与支持
@@ -178,7 +182,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
 ## Star History
 
 <div align='center'>
-    <img src="./docs/images/star-history-2026210.png" alt="Datawhale" width="90%">
+    <img src="./docs/images/star-history-2026424.png" alt="Datawhale" width="90%">
 </div>
 
 <div align="center">
@@ -198,6 +202,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1763935383619-fb4769a903
     <img src="./docs/images/datawhale.png" alt="Datawhale" width="30%">
     <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>
 </div>
+
+## 🎓 引用
+
+如果 Hello-Agents 对您的研究或工作有所帮助，欢迎引用：
+
+```bibtex
+@misc{hello_agents2025,
+  title  = {Hello-Agents: Building an AI Agent from Scratch},
+  author = {Sizhou Chen and Tao Sun and Shufan Jiang and Peilin Huang and Xinmin Zeng and Xinzhong Zhu and all Hello-Agents contributors},
+  year   = {2025},
+  url    = {https://github.com/datawhalechina/Hello-Agents},
+  note   = {GitHub repository}
+}
+```
 
 ---
 
