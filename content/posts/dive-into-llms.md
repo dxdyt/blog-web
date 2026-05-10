@@ -1,9 +1,9 @@
 ---
 title: dive-into-llms
-date: 2026-04-19T13:58:20+08:00
+date: 2026-05-10T14:33:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775618205018-6ca57cd46ba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775618205018-6ca57cd46ba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY1NzgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769626124690-add9f2e7d15d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769626124690-add9f2e7d15d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
 ---
 
 # [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms)

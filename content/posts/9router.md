@@ -1,9 +1,9 @@
 ---
 title: 9router
-date: 2026-05-09T14:15:29+08:00
+date: 2026-05-10T14:33:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1723952776642-990ba06abd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
 ---
 
 # [decolua/9router](https://github.com/decolua/9router)

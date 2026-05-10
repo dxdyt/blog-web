@@ -1,9 +1,9 @@
 ---
 title: financial-services
-date: 2026-05-09T14:14:57+08:00
+date: 2026-05-10T14:31:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777287514156-ba7eabea01f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774455303806-753ccd0a19f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774455303806-753ccd0a19f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/financial-services](https://github.com/anthropics/financial-services)

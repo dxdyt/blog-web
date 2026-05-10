@@ -1,0 +1,159 @@
+---
+title: oracle-ai-developer-hub
+date: 2026-05-10T14:33:26+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+---
+
+# [oracle-devrel/oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub)
+
+# Oracle AI Developer Hub
+
+This repository contains technical resources to help AI Developers and Engineers build AI applications, agents, and systems using Oracle AI Database and OCI services alongside other key components of the AI/Agent stack.
+
+## What You'll Find
+
+This repository is organized into several key areas:
+
+### 📱 **Apps** (`/apps`)
+
+Applications and reference implementations demonstrating how to build AI-powered solutions with Oracle technologies. These complete, working examples showcase end-to-end implementations of AI applications, agents, and systems that leverage Oracle AI Database and OCI services. Each application includes source code, deployment configurations, and documentation to help developers understand architectural patterns, integration approaches, and best practices for building production-grade AI solutions.
+
+| Name                     | Description                                                                                                                      | Link                                                                                                           |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| FitTracker               | Gamified fitness platform built with Oracle 26ai JSON Duality Views (FastAPI + Redis), created live during a webinar.            | [![View App](https://img.shields.io/badge/View%20App-blue?style=flat-square)](./apps/FitTracker)               |
+| agentic_rag              | Intelligent RAG system with multi-agent Chain of Thought (CoT), PDF/Web/Repo processing, and Oracle AI Database 26ai integration | [![View App](https://img.shields.io/badge/View%20App-blue?style=flat-square)](./apps/agentic_rag)              |
+| finance-ai-agent-demo    | Financial services AI agent with Oracle AI Database as a unified memory core for vector, graph, spatial, and relational queries  | [![View App](https://img.shields.io/badge/View%20App-blue?style=flat-square)](./apps/finance-ai-agent-demo)    |
+| oci-generative-ai-jet-ui | Full-stack AI application with Oracle JET UI, OCI Generative AI integration, Kubernetes deployment, and Terraform infrastructure | [![View App](https://img.shields.io/badge/View%20App-blue?style=flat-square)](./apps/oci-generative-ai-jet-ui) |
+| tanstack-shoe-store      | AI chat app using TanStack Start and Oracle 26ai Select AI to query a shoe store database with natural language                  | [![View App](https://img.shields.io/badge/View%20App-blue?style=flat-square)](./apps/tanstack-shoe-store)      |
+
+### 📓 **Notebooks** (`/notebooks`)
+
+Jupyter notebooks and interactive tutorials covering:
+
+- AI/ML model development and experimentation
+- Oracle Database AI features and capabilities
+- OCI AI services integration patterns
+- Data preparation and analysis workflows
+- Agent development and orchestration examples
+
+| Name                                | Description                                                                                                     | Stack                                                     | Link                                                                                                                                             |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| agentic_rag_langchain_oracledb_demo | Multi-agent RAG with langchain-oracledb: OracleVS, OracleEmbeddings, OracleTextSplitter, and CoT agents         | Oracle AI Database, langchain-oracledb, Ollama            | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/agentic_rag_langchain_oracledb_demo.ipynb) |
+| fs_vs_dbs                           | Compare filesystem vs database agent memory architectures.                                                      | LangChain, Oracle AI Database, OpenAI                     | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/fs_vs_dbs.ipynb)                           |
+| memory_context_engineering_agents   | Build AI agents with 6 types of persistent memory.                                                              | LangChain, Oracle AI Database, OpenAI, Tavily             | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/memory_context_engineering_agents.ipynb)   |
+| oracle_langchain_example            | Build a RAG application using Oracle 26ai vector storage and LangChain                                          | Oracle AI Database, langchain-oracledb, HuggingFace       | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/oracle_langchain_example.ipynb)            |
+| oracle_rag_agents_zero_to_hero      | Learn to build RAG agents from scratch using Oracle AI Database.                                                | Oracle AI Database, OpenAI, OpenAI Agents SDK             | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/oracle_rag_agents_zero_to_hero.ipynb)      |
+| oracle_rag_with_evals               | Build RAG systems with comprehensive evaluation metrics                                                         | Oracle AI Database, OpenAI, BEIR, Galileo                 | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/oracle_rag_with_evals.ipynb)               |
+| agent_reasoning_demo                | Interactive demo of 11 cognitive architectures (CoT, ToT, ReAct, Self-Reflection, and more) for agent reasoning | Ollama, agent-reasoning                                   | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/agent_reasoning_demo.ipynb)                |
+| oracle_agentic_rag_hybrid_search    | Agentic RAG with vector, keyword, and hybrid search in a single SQL query using LangGraph ReAct agent           | Oracle AI Database, langchain-oracledb, LangGraph, OpenAI | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/oracle_agentic_rag_hybrid_search.ipynb)    |
+| f1_miami_strategy_oracle_26ai       | F1 Miami GP strategy intelligence for 2026 — SQL, hybrid vector+keyword search, JSON documents, and property graph in one Oracle 26ai database using real FastF1 data | Oracle AI Database, FastF1, sentence-transformers, Plotly  | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-orange?style=flat-square)](./notebooks/f1_miami_strategy_oracle_26ai.ipynb)       |
+| multicloud/                         | AWS, Azure, Google Cloud, and MongoDB API samples running Oracle AI Database outside OCI                        | Oracle AI Database + AWS / Azure / Google / MongoDB       | [![Browse Folder](https://img.shields.io/badge/Browse%20Folder-orange?style=flat-square)](./notebooks/multicloud)                                |
+
+### 📚 **Guides** (`/guides`)
+
+Comprehensive documentation, reference materials, and conference presentations covering AI agent architecture, reasoning strategies, and memory systems.
+
+| Name                                                              | Description                                                                                                                                                                                                                                                                                                               | Link                                                                                                                                              |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Building the Brain and Backbone of Enterprise AI Agents           | Advanced reasoning and infrastructure strategies for enterprise AI agents. Covers the 2026 agent stack (layered architecture), reasoning patterns (Chain of Thought, Tree of Thoughts, Self-Reflection, Least-to-Most, Decomposed Prompting), and context/belief updates. Presented at DevWeek SF 2026 by Nacho Martinez. | [![View Guide](https://img.shields.io/badge/View%20Guide-green?style=flat-square)](./guides/brain_backbone_enterprise_agents_devweek_sf_2026.pdf) |
+| Memory Engineering: The Discipline Behind Memory Augmented Agents | Deep dive into memory engineering as a discipline for AI agents — the science of helping agents remember, reason, and act. Covers the memory ecosystem, form factors, and key disciplines shaping memory-augmented agents. Presented at DevWeek SF 2026 (Keynote) by Richmond Alake.                                      | [![View Guide](https://img.shields.io/badge/View%20Guide-green?style=flat-square)](./guides/memory_engineering_devweek_sf_2026.pdf)               |
+| Agent Memory with Oracle AI Database                              | Agent memory architectures and Oracle AI Database as the memory core for AI agents. Presented at the AI Developer Conference hosted by DeepLearning.AI in April 2026 by Eli Schilling.                                                                                                                                    | [![View Guide](https://img.shields.io/badge/View%20Guide-green?style=flat-square)](./guides/dlai_aidev_agent_memory.pptx)                         |
+
+### 🧠 **Agent Memory** (`/notebooks/agent_memory`)
+
+Notebooks focused on the **[Oracle AI Agent Memory](https://www.oracle.com/database/ai-agent-memory/)** package (`oracleagentmemory`) — the AI-Agent Memory Package built on top of Oracle AI Database. These notebooks demonstrate how to use **Oracle AI Database as the unified memory core for AI agents**, serving conversation history, durable facts, and entity state from a single converged engine instead of stitching together a vector DB, key-value store, and relational store.
+
+The collection covers the package's developer guide, benchmarks against naive memory, and three end-to-end framework examples (OpenAI Agents SDK, Claude Agent SDK, LangGraph).
+
+| Name                       | Description                                                                                                                                                             | Stack                           | Link                                                                                                                                                       |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OAMP Developer Guide       | Step-by-step guide to the `oracleagentmemory` API: connection, the three core primitives (users/agents, memories, threads), automatic extraction, and vector retrieval. | OAMP, LiteLLM                   | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-red?style=flat-square)](./notebooks/agent_memory/oracle_agent_memory_developer_guide.ipynb) |
+| OAMP Benchmarks            | Quantify token cost, latency, and response quality of OAMP vs. naive flat-history memory across 80 scripted turns with three agent variants.                            | OAMP, LiteLLM, OpenAI           | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-red?style=flat-square)](./notebooks/agent_memory/oracle_agent_memory_benchmarks.ipynb)      |
+| Deep Research Agent        | Build a deep research agent for human genome exploration that uses Tavily for live web search and Oracle AI Agent Memory for durable findings across sessions.          | OpenAI Agents SDK, Tavily, OAMP | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-red?style=flat-square)](./notebooks/agent_memory/01_deep_research_openai_agents.ipynb)      |
+| Supply Chain Assistant     | A supply chain assistant that tracks shipment cargo via in-process tools and an MCP server, with shipment records and operational notes persisted in OAMP.              | Claude Agent SDK, MCP, OAMP     | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-red?style=flat-square)](./notebooks/agent_memory/02_supply_chain_claude_agent_sdk.ipynb)    |
+| Mortgage Approval Workflow | A deterministic mortgage approval workflow modeled as a LangGraph `StateGraph` where OAMP persists applicant data and audit trails so failed runs can resume.           | LangGraph, OAMP                 | [![Open Notebook](https://img.shields.io/badge/Open%20Notebook-red?style=flat-square)](./notebooks/agent_memory/03_mortgage_workflow_langgraph.ipynb)      |
+
+> See the [Agent Memory README](./notebooks/agent_memory/README.md) for a recommended reading order, prerequisites, and Open-in-Colab links.
+
+### 🎓 **Workshops** (`/workshops`)
+
+Hands-on workshops and guided learning experiences that take developers from fundamentals to production patterns with Oracle AI Database. Each workshop is self-contained with a student notebook (TODO gaps to fill in), a complete reference notebook, step-by-step part guides, and a ready-to-run Codespaces / devcontainer environment with Oracle AI Database pre-configured. Workshops progress from information retrieval and RAG, through agentic systems and orchestration, to memory-augmented agents — together they cover the full stack for building AI applications on Oracle.
+
+> **Pull a single workshop without cloning the whole hub** — each workshop README includes `git sparse-checkout` instructions so you can fetch only the folder you need.
+
+| Name                         | Description                                                                                                                                                                   | Stack                                                                                  | Link                                                                                                                                |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Information Retrieval to RAG | Build a Research Paper Assistant over 200 ArXiv papers by implementing five retrieval strategies (keyword, vector, hybrid, graph) and a full RAG pipeline wired to OCI GenAI. | Oracle AI Database, sentence-transformers, oracledb, OCI GenAI (xAI Grok 3 Fast)       | [![View Workshop](https://img.shields.io/badge/View%20Workshop-purple?style=flat-square)](./workshops/information_retrieval_to_RAG) |
+| From RAG to Agents           | Extend the RAG pipeline into a multi-agent system — wrap retrieval as agent tools, compose orchestration, and add persistent session memory backed by Oracle.                 | Oracle AI Database, sentence-transformers, oracledb, OpenAI API (GPT-5), openai-agents | [![View Workshop](https://img.shields.io/badge/View%20Workshop-purple?style=flat-square)](./workshops/from_rag_to_agents_workshop)  |
+| Agent Memory                 | Build memory-aware agents: implement a `MemoryManager` with six memory types in Oracle, apply context-engineering techniques, and compare agent runs with and without memory. | Oracle AI Database, langchain-oracledb, sentence-transformers, OCI GenAI, Tavily       | [![View Workshop](https://img.shields.io/badge/View%20Workshop-purple?style=flat-square)](./workshops/agent_memory_workshop)        |
+
+### 🤝 **Partners** (`/partners`)
+
+Notebooks and apps contributed by partners in the AI ecosystem. AI Developers can use these resources to understand how to use Oracle AI Database and OCI alongside tools such as LangChain, Galileo, LlamaIndex, and other popular AI/ML frameworks and platforms.
+
+| Name          | Description                                      | Stack | Link |
+| ------------- | ------------------------------------------------ | ----- | ---- |
+| _Coming soon_ | Partner-contributed resources will be added here | -     | -    |
+
+## Getting Started
+
+1. **Explore Applications**: Start with the applications in `/apps` to see complete, working examples
+2. **Follow Workshops**: Check `/workshops` for guided learning paths
+3. **Experiment with Notebooks**: Use `/notebooks` for hands-on experimentation
+4. **Build Memory-Augmented Agents**: Dive into `/notebooks/agent_memory` for the Oracle AI Agent Memory package
+5. **Reference Guides**: Consult `/guides` for detailed documentation
+6. **Check Partner Resources**: Explore `/partners` for integrations with popular AI tools and frameworks
+
+## Contributing
+
+This project is open source. Please submit your contributions by forking this repository and submitting a pull request! Oracle appreciates any contributions that are made by the open-source community.
+
+### Development Setup
+
+Before contributing, please set up pre-commit hooks to ensure code is automatically formatted:
+
+1. **Install pre-commit**:
+
+   ```bash
+   pip install pre-commit
+   ```
+
+2. **Install additional dependencies** (optional, includes pre-commit and ruff):
+
+   ```bash
+   pip install -r requirements-dev.txt
+   ```
+
+3. **Install pre-commit hooks**:
+
+   ```bash
+   pre-commit install
+   ```
+
+4. **Optional: Format existing code**:
+   ```bash
+   pre-commit run --all-files
+   ```
+
+The pre-commit hooks will automatically format your code using:
+
+- **Ruff** for Python files (formatting and linting)
+- **Prettier** for JavaScript, TypeScript, JSON, YAML, and Markdown files
+
+For more detailed information, see [SETUP_PRE_COMMIT.md](./SETUP_PRE_COMMIT.md).
+
+## License
+
+Copyright (c) 2024 Oracle and/or its affiliates.
+
+Licensed under the Universal Permissive License (UPL), Version 1.0.
+
+See [LICENSE](LICENSE) for more details.
+
+ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK.
+
+---
+
+**Note**: This repository is actively maintained and updated with new resources, examples, and best practices for Oracle AI development.

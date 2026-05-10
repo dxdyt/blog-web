@@ -1,9 +1,9 @@
 ---
 title: agent-skills
-date: 2026-05-09T14:15:07+08:00
+date: 2026-05-10T14:33:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775809565692-9da825ac565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775809565692-9da825ac565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774455303806-753ccd0a19f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774455303806-753ccd0a19f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
 ---
 
 # [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
@@ -135,9 +135,9 @@ Skills are plain Markdown - they work with any agent that accepts system prompts
 
 ---
 
-## All 21 Skills
+## All 22 Skills
 
-The commands above are entry points. The pack includes 21 skills total — each a structured workflow with steps, verification gates, and anti-rationalization tables. You can also reference any skill directly.
+The commands above are entry points. The pack includes 22 skills total — 21 lifecycle skills plus the `using-agent-skills` meta-skill. Each skill is a structured workflow with steps, verification gates, and anti-rationalization tables. You can also reference any skill directly.
 
 ### Meta - Discover which skill applies
 
@@ -258,7 +258,7 @@ Every skill follows a consistent anatomy:
 
 ```
 agent-skills/
-├── skills/                            # 21 core skills (SKILL.md per directory)
+├── skills/                            # 22 skills (21 lifecycle + 1 meta)
 │   ├── idea-refine/                   #   Define
 │   ├── spec-driven-development/       #   Define
 │   ├── planning-and-task-breakdown/   #   Plan
