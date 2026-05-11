@@ -1,9 +1,9 @@
 ---
 title: easy-vibe
-date: 2026-05-10T14:32:19+08:00
+date: 2026-05-11T15:40:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773751392342-17d8ae9e9f93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773751392342-17d8ae9e9f93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzOTQ2OTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774287469369-ee230c07ca28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774287469369-ee230c07ca28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe)
@@ -13,6 +13,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1773751392342-17d8ae9e9f
 
 <img src="assets/easy-vibe-logo-hd.svg" alt="Easy-Vibe Logo" width="300">
 
+<img src="assets/banner.png" alt="Easy-Vibe Banner" width="100%">
+
 <p align="center" style="font-size: 1.2em; color: #666; margin: 20px 0;">
   Jump right in and vibe together — if you can talk, you can build apps.<br>
   <span style="font-size: 0.9em; color: #888;">直接上手，一起 vibe！会说话就会做应用。</span>
@@ -21,8 +23,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1773751392342-17d8ae9e9f
 <a href="https://trendshift.io/repositories/22079" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22079" alt="datawhalechina/easy-vibe | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 <p align="center">
-  🚀 <a href="https://datawhalechina.github.io/easy-vibe/welcome.html">Start Exploring</a> · ✨ <a href="https://datawhalechina.github.io/easy-vibe/en/appendix/">Interactive Tutorial</a> · 🦞 <a href="https://github.com/datawhalechina/hello-claw">Learn OpenClaw</a><br>
-  <span style="font-size: 0.85em; color: #888;">🚀 <a href="https://datawhalechina.github.io/easy-vibe/welcome.html">开始体验</a> · ✨ <a href="https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/">交互式教程</a> · 🦞 <a href="https://github.com/datawhalechina/hello-claw">学习 OpenClaw</a></span>
+  🚀 <a href="https://datawhalechina.github.io/easy-vibe/welcome.html">Start Exploring</a> · ✨ <a href="https://datawhalechina.github.io/easy-vibe/en/appendix/">Interactive Tutorial</a> · 🦞 <a href="https://github.com/datawhalechina/hello-claw">Learn OpenClaw</a> · 📖 <a href="#table-of-contents">Table of Contents</a><br>
+  <span style="font-size: 0.85em; color: #888;">🚀 <a href="https://datawhalechina.github.io/easy-vibe/welcome.html">开始体验</a> · ✨ <a href="https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/">交互式教程</a> · 🦞 <a href="https://github.com/datawhalechina/hello-claw">学习 OpenClaw</a> · 📖 <a href="#table-of-contents">查看目录</a></span>
 </p>
 
 <p align="center">
@@ -120,6 +122,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1773751392342-17d8ae9e9f
     Submit it here and inspire others!
   </p>
 </div>
+
+## Table of Contents
+
+- [Why Easy-Vibe](#why-easy-vibe)
+- [News](#-news)
+- [Who This Is For](#who-this-is-for)
+- [Your Learning Paths](#your-learning-paths)
+- [Study Suggestions](#study-suggestions)
+  - [I. Beginner Entry](#i-beginner-entry)
+  - [II. Junior and Mid-Level Developers](#ii-junior-and-mid-level-developers)
+  - [III. Advanced Developers](#iii-advanced-developers)
+  - [Appendix Knowledge Base](#-appendix-knowledge-base)
+- [How To Learn](#️-how-to-learn)
+- [Run Locally](#-run-locally)
+- [Other Courses](#other-courses)
+- [Contributing & Contributors](#-contributing--contributors)
+- [LICENSE](#-license)
 
 ## Why Easy-Vibe
 
@@ -336,6 +355,11 @@ Easy-Vibe teaches you how to turn that into a real product.
 >
 > 👉 [View the full appendix](https://datawhalechina.github.io/easy-vibe/en/appendix/)
 
+### 🎓 Other Courses
+
+- [Hands-on Modern RL](#other-courses)
+- [Learn Harness Engineering](#other-courses)
+
 ## 🛠️ How To Learn
 
 - Read and practice the sections that match your current level. If you get stuck, feel free to open an issue.
@@ -356,13 +380,25 @@ Please help me run this project locally.
 2. `npm run dev`
 3. Open `http://localhost:3000` in your browser.
 
-## 🤝 Contributing
+## Other Courses 
+ 
+Our team has also created other courses! Check them out: 
+ 
+[![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
+ 
+**Hands-on Modern RL**: An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems. 
+
+[![Learn Harness Engineering](https://img.shields.io/badge/LEARN_HARNESS_ENGINEERING-0052cc?style=for-the-badge)](https://github.com/walkinglabs/learn-harness-engineering/tree/main)
+
+**Learn Harness Engineering**: A comprehensive guide to harness engineering.
+
+## 🤝 Contributing & Contributors
 
 - If you find an issue or see something that can be improved, feel free to open an issue. If nobody replies, you can also contact the [Datawhale support team](https://github.com/datawhalechina/DOPMC/blob/main/OP.md).
 - If you want to contribute, open a pull request. If nobody replies, you can also contact the [Datawhale support team](https://github.com/datawhalechina/DOPMC/blob/main/OP.md).
 - If you want to start a new Datawhale open-source project, please follow the [Datawhale Open Source Project Guide](https://github.com/datawhalechina/DOPMC/blob/main/GUIDE.md).
 
-## 🙏 Contributors
+### 🙏 Contributors
 
 - [Sanbu - Project Lead](https://github.com/sanbuphy) (Datawhale member)
 - Fang Ke - Mentor (Datawhale member, Tsinghua University)

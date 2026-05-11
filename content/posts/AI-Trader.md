@@ -1,9 +1,9 @@
 ---
 title: AI-Trader
-date: 2026-05-09T14:15:52+08:00
+date: 2026-05-11T15:40:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775887134611-d856f03b6edd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775887134611-d856f03b6edd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774272864432-97dc997432c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774272864432-97dc997432c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader)

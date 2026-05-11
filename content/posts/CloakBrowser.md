@@ -1,9 +1,9 @@
 ---
 title: CloakBrowser
-date: 2026-05-09T14:15:37+08:00
+date: 2026-05-11T15:39:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776334979940-b52b86e0e0b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776334979940-b52b86e0e0b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMDcyODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
 ---
 
 # [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
@@ -1202,5 +1202,7 @@ Issues and PRs welcome. If something isn't working, [open an issue](https://gith
 - [@evelaa123](https://github.com/evelaa123) — humanize behavior, persistent contexts, Windows fix
 - [@yahooguntu](https://github.com/yahooguntu) — persistent contexts
 - [@kitiho](https://github.com/kitiho) — null viewport fix
-- [@eofreternal](https://github.com/eofreternal) — humanConfig type fix
+- [@eofreternal](https://github.com/eofreternal) — humanConfig type fix, humanized method option types
+- [@manaskarra](https://github.com/manaskarra) — iframe scope fix for humanized frame actions
+- [@Youhai020616](https://github.com/Youhai020616) — SOCKS5 credential encoding logging
 - [@AlexTech314](https://github.com/AlexTech314) — AWS Lambda integration
