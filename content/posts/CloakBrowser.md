@@ -1,9 +1,9 @@
 ---
 title: CloakBrowser
-date: 2026-05-11T15:39:56+08:00
+date: 2026-05-12T14:36:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777329857342-e07584bd6c63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777329857342-e07584bd6c63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
 ---
 
 # [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
@@ -580,6 +580,7 @@ Access the original un-patched Playwright page at `page._original` if you need r
 | `CLOAKBROWSER_DOWNLOAD_URL` | `cloakbrowser.dev` | Custom download URL for binary |
 | `CLOAKBROWSER_AUTO_UPDATE` | `true` | Set to `false` to disable background update checks |
 | `CLOAKBROWSER_SKIP_CHECKSUM` | `false` | Set to `true` to skip SHA-256 verification after download |
+| `CLOAKBROWSER_GEOIP_TIMEOUT_SECONDS` | `5` | Max seconds for GeoIP resolution before continuing without it |
 
 ## Fingerprint Management
 
@@ -1203,6 +1204,6 @@ Issues and PRs welcome. If something isn't working, [open an issue](https://gith
 - [@yahooguntu](https://github.com/yahooguntu) — persistent contexts
 - [@kitiho](https://github.com/kitiho) — null viewport fix
 - [@eofreternal](https://github.com/eofreternal) — humanConfig type fix, humanized method option types
-- [@manaskarra](https://github.com/manaskarra) — iframe scope fix for humanized frame actions
+- [@manaskarra](https://github.com/manaskarra) — iframe scope fix for humanized frame actions, GeoIP timeout guard
 - [@Youhai020616](https://github.com/Youhai020616) — SOCKS5 credential encoding logging
 - [@AlexTech314](https://github.com/AlexTech314) — AWS Lambda integration

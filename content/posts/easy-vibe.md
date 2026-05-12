@@ -1,9 +1,9 @@
 ---
 title: easy-vibe
-date: 2026-05-11T15:40:15+08:00
+date: 2026-05-12T14:36:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774287469369-ee230c07ca28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774287469369-ee230c07ca28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774493501214-3eec01cc2f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774493501214-3eec01cc2f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe)

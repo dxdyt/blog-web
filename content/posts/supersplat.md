@@ -1,9 +1,9 @@
 ---
 title: supersplat
-date: 2026-05-11T15:40:22+08:00
+date: 2026-05-12T14:36:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776111463785-a6268bd14541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776011469177-6035c9c6d6a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776011469177-6035c9c6d6a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
 ---
 
 # [playcanvas/supersplat](https://github.com/playcanvas/supersplat)
