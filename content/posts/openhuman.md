@@ -1,9 +1,9 @@
 ---
 title: openhuman
-date: 2026-05-12T14:37:01+08:00
+date: 2026-05-13T14:46:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776951132458-ad9b69be6d89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776951132458-ad9b69be6d89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
 ---
 
 # [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
@@ -40,12 +40,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1776951132458-ad9b69be6d
 
 > **Early Beta**: Under active development. Expect rough edges.
 
-To install or get started, either download from the website over at [tinyhumans.ai/openhuman](https://tinyhumans.ai/openhuman) or run
+To install or get started, either download from the website over at [tinyhumans.ai/openhuman](https://tinyhumans.ai/openhuman?utm_source=github&utm_medium=readme) or run
 
 ```
-# Download DMG, EXEs over at https://tinyhumans.ai/openhuman or run in from your terminal
+# Download DMG, EXEs over at https://tinyhumans.ai/openhuman?utm_source=github&utm_medium=readme or run in from your terminal
 
-# For MacOS/Linux
+# For macOS or Linux x64
 curl -fsSL https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts/install.sh | bash
 
 # For Windows

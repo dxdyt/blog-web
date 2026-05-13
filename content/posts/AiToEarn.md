@@ -1,9 +1,9 @@
 ---
 title: AiToEarn
-date: 2026-05-12T14:36:30+08:00
+date: 2026-05-13T14:48:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771143527938-a0ed2f30f326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771143527938-a0ed2f30f326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778392120781-a6b2b55dc12a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778392120781-a6b2b55dc12a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
 ---
 
 # [yikart/AiToEarn](https://github.com/yikart/AiToEarn)
@@ -353,7 +353,7 @@ Electron 项目为 AiToEarn 提供桌面客户端。
 <img src="presentation/wechat.jpg" alt="微信二维码" width="200">
 
 ## 推荐
-
+- [AtomGit托管](https://atomgit.com/yikart/AitoEarn)
 - [MuseTalk](https://github.com/TMElyralab/MuseTalk)
 - [video_spider](https://github.com/5ime/video_spider)
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice?tab=readme-ov-file)

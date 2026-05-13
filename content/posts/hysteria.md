@@ -1,9 +1,9 @@
 ---
 title: hysteria
-date: 2023-11-07T12:15:49+08:00
+date: 2026-05-13T14:47:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698723590091-36d0e352eb5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698723590091-36d0e352eb5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
 ---
 
 # [apernet/hysteria](https://github.com/apernet/hysteria)
@@ -33,23 +33,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1698723590091-36d0e352eb
 
 <div class="feature-grid">
   <div>
-    <h3>🛠️ Packed to the gills</h3>
-    <p>Expansive range of modes including SOCKS5, HTTP proxy, TCP/UDP forwarding, Linux TProxy - not to mention additional features continually being added.</p>
+    <h3>🛠️ Jack of all trades</h3>
+    <p>Wide range of modes including SOCKS5, HTTP Proxy, TCP/UDP Forwarding, Linux TProxy, TUN - with more features being added constantly.</p>
   </div>
 
   <div>
-    <h3>⚡ Lightning fast</h3>
-    <p>Powered by a custom QUIC protocol, Hysteria delivers unparalleled performance over even the most unreliable and lossy networks.</p>
+    <h3>⚡ Blazing fast</h3>
+    <p>Powered by a customized QUIC protocol, Hysteria is designed to deliver unparalleled performance over unreliable and lossy networks.</p>
   </div>
 
   <div>
     <h3>✊ Censorship resistant</h3>
-    <p>Our protocol is designed to masquerade as standard HTTP/3 traffic, making it very difficult to detect and block without widespread collateral damage.</p>
+    <p>The protocol masquerades as standard HTTP/3 traffic, making it very difficult for censors to detect and block without widespread collateral damage.</p>
   </div>
   
   <div>
     <h3>💻 Cross-platform</h3>
-    <p>We have builds for all major platforms and architectures. Deploy anywhere & use everywhere.</p>
+    <p>We have builds for every major platform and architecture. Deploy anywhere & use everywhere. Not to mention the long list of 3rd party apps.</p>
   </div>
 
   <div>
@@ -58,8 +58,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1698723590091-36d0e352eb
   </div>
   
   <div>
-    <h3>🤗 Open standards</h3>
-    <p>We have well-documented specifications and code for developers to contribute and build their own apps.</p>
+    <h3>🤗 Chill and supportive</h3>
+    <p>We have well-documented specifications and code for developers to contribute and/or build their own apps. And a helpful community, too.</p>
   </div>
 </div>
 

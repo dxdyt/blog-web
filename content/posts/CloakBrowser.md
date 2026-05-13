@@ -1,9 +1,9 @@
 ---
 title: CloakBrowser
-date: 2026-05-12T14:36:23+08:00
+date: 2026-05-13T14:47:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777329857342-e07584bd6c63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777329857342-e07584bd6c63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1Njc3Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776404019151-46201bbde19d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776404019151-46201bbde19d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
 ---
 
 # [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser)

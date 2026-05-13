@@ -1,9 +1,9 @@
 ---
 title: hello-agents
-date: 2026-05-11T15:40:55+08:00
+date: 2026-05-13T14:47:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg0ODUxNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1617507089522-cef1a40c4c61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1617507089522-cef1a40c4c61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
@@ -154,7 +154,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1777342767198-6e42b5f612
 ## 🙏 致谢
 
 ### 核心贡献者
-- [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale 成员, 全文写作和校对)
+- [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale 成员, 全文写作和校对) <a href="https://www.xiaohongshu.com/user/profile/67b9cc34000000000e013517" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Rednote-小红书-e93c49"></a>
 - [孙韬-联合发起者](https://github.com/fengju0213) (Datawhale 成员、CAMEL-AI, 第九章内容和校对)  
 - [姜舒凡-联合发起者](https://github.com/Tsumugii24)（Datawhale 成员, 章节习题设计和校对）
 - [黄佩林-Datawhale意向成员](https://github.com/HeteroCat) (Agent 开发工程师, 第五章内容贡献者)
