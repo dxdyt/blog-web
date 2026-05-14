@@ -1,9 +1,9 @@
 ---
 title: How-To-Secure-A-Linux-Server
-date: 2025-11-08T12:21:54+08:00
+date: 2026-05-14T14:47:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754780349763-e3a598db827b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754780349763-e3a598db827b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774589704706-673acb50ba0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774589704706-673acb50ba0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
 ---
 
 # [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
@@ -528,6 +528,8 @@ SSH is a door into your server. This is especially true if you are opening ports
 
     **Note**: SSH does not like duplicate contradicting settings. For example, if you have `ChallengeResponseAuthentication no` and then `ChallengeResponseAuthentication yes`, SSH will respect the first one and ignore the second. Your `/etc/ssh/sshd_config` file may already have some of the settings/lines below. To avoid issues you will need to manually go through your `/etc/ssh/sshd_config` file and address any duplicate contradicting settings. 
 
+	**Note:** If you are running OpenSSH 9.1 or later, uncomment the `RequiredRSASize 3072` line in the configuration below. This enforces a minimum RSA key size of 3072 bits and will reject smaller RSA keys during authentication. This only affects RSA keys. If you use ED25519 or ECDSA keys, you are not affected. You can check your key type and size with `ssh-keygen -l -f ~/.ssh/id_rsa`. On older OpenSSH versions, leave the line commented out as it will prevent sshd from starting.
+   
     ```
     ########################################################################################################
     # start settings from https://infosec.mozilla.org/guidelines/openssh#modern-openssh-67 as of 2019-01-01
@@ -562,9 +564,6 @@ SSH is a door into your server. This is especially true if you are opening ports
     # Log sftp level file access (read/write/etc.) that would not be easily logged otherwise.
     Subsystem sftp  internal-sftp -f AUTHPRIV -l INFO
 
-    # only use the newer, more secure protocol
-    Protocol 2
-
     # disable X11 forwarding as X11 is very insecure
     # you really shouldn't be running X on a server anyway
     X11Forwarding no
@@ -585,12 +584,21 @@ SSH is a door into your server. This is especially true if you are opening ports
     UseDNS yes
 
     Compression no
+    
+    # TCP keepalive is spoofable (runs outside the encrypted channel)
+	# Use ClientAlive instead (runs inside the encrypted channel)
     TCPKeepAlive no
+    
     AllowAgentForwarding no
     PermitRootLogin no
 
     # don't allow .rhosts or /etc/hosts.equiv
     HostbasedAuthentication no
+
+    # OpenSSH 9.1 and later
+    # Enforce a minimum RSA key size of 3072 bits
+    # https://www.keylength.com/en/compare/
+    # RequiredRSASize 3072
 
     # https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/115
     HashKnownHosts yes
@@ -601,8 +609,8 @@ SSH is a door into your server. This is especially true if you are opening ports
     |Setting|Valid Values|Example|Description|Notes|
     |--|--|--|--|--|
     |<a name="AllowGroups"></a>**AllowGroups**|local UNIX group name|`AllowGroups sshusers`|group to allow SSH access to||
-    |**ClientAliveCountMax**|number|`ClientAliveCountMax 0`|maximum number of client alive messages sent without response||
-    |**ClientAliveInterval**|number of seconds|`ClientAliveInterval 300`|timeout in seconds before a response request||
+    |**ClientAliveCountMax**|number|`ClientAliveCountMax 3`|maximum number of client alive messages sent without response||
+    |**ClientAliveInterval**|number of seconds|`ClientAliveInterval 15`|timeout in seconds before a response request||
     |**ListenAddress**|space separated list of local addresses|<ul><li>`ListenAddress 0.0.0.0`</li><li>`ListenAddress 192.168.1.100`</li></ul>|local addresses `sshd` should listen on|See [Issue #1](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/1) for important details.|
     |**LoginGraceTime**|number of seconds|`LoginGraceTime 30`|time in seconds before login times-out||
     |**MaxAuthTries**|number|`MaxAuthTries 2`|maximum allowed attempts to login||
@@ -641,8 +649,8 @@ SSH is a door into your server. This is especially true if you are opening ports
     > x11displayoffset 10
     > maxauthtries 2
     > maxsessions 2
-    > clientaliveinterval 300
-    > clientalivecountmax 0
+    > clientaliveinterval 15
+    > clientalivecountmax 3
     > streamlocalbindmask 0177
     > permitrootlogin no
     > ignorerhosts yes
@@ -1003,6 +1011,7 @@ Many security protocols leverage the time. If your system time is incorrect, it 
 #### How It Works
 
 NTP stands for Network Time Protocol. In the context of this guide, an NTP client on the server is used to update the server time with the official time pulled from official servers. Check https://www.pool.ntp.org/en/ for all of the public NTP servers.
+> **Note:** Starting with **Debian 13 (Trixie)**, the classic `ntp` package has been removed. Running `sudo apt install ntp` will fail with *"Package ntp has no installation candidate"*. Since this guide only uses NTP as a **client** (to sync the server's clock), the recommended approach on Debian 13+ is to use `systemd-timesyncd`, which is already pre-installed and requires no additional packages. See the [Debian 13+ steps](#debian-13-trixie-and-later-systemd-timesyncd) below.
 
 #### Goals
 
@@ -1018,6 +1027,76 @@ NTP stands for Network Time Protocol. In the context of this guide, an NTP clien
 
 #### Steps
 
+##### Debian 13 (Trixie) and later: systemd-timesyncd
+
+`systemd-timesyncd` is a lightweight SNTP client that is already included in Debian. Unlike the full `ntpd` daemon, it does not listen on any port, which makes it a smaller attack surface. For the purposes of this guide - keeping your server's clock in sync - it is all you need.
+
+1. Enable NTP synchronization:
+
+    ``` bash
+    sudo timedatectl set-ntp true
+    ```
+
+1. Verify it is working:
+
+    ``` bash
+    timedatectl status
+    ```
+
+    You should see `NTP service: active` and `System clock synchronized: yes` in the output.
+
+1. Configure trusted NTP servers. Make a backup of the configuration file and then edit it:
+
+    ``` bash
+    sudo cp --archive /etc/systemd/timesyncd.conf /etc/systemd/timesyncd.conf-COPY-$(date +"%Y%m%d%H%M%S")
+    ```
+
+    Edit `/etc/systemd/timesyncd.conf` and uncomment/set the `[Time]` section:
+
+    ```
+    [Time]
+    NTP=pool.ntp.org
+    FallbackNTP=0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org
+    ```
+
+    [For the lazy](#editing-configuration-files---for-the-lazy):
+
+    ``` bash
+    sudo sed -i -r -e "s/^#?NTP=.*$/NTP=pool.ntp.org         # added by $(whoami) on $(date +"%Y-%m-%d @ %H:%M:%S")/" /etc/systemd/timesyncd.conf
+    sudo sed -i -r -e "s/^#?FallbackNTP=.*$/FallbackNTP=0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org         # added by $(whoami) on $(date +"%Y-%m-%d @ %H:%M:%S")/" /etc/systemd/timesyncd.conf
+    ```
+
+1. Restart the service to apply the changes:
+
+    ``` bash
+    sudo systemctl restart systemd-timesyncd
+    ```
+
+1. Check the synchronization status:
+
+    ``` bash
+    timedatectl timesync-status
+    ```
+
+    > ```
+    >        Server: 108.61.56.35 (pool.ntp.org)
+    > Poll interval: 32s (min: 32s; max: 34min 8s)
+    >          Leap: normal
+    >       Version: 4
+    >       Stratum: 2
+    >     Reference: C342F10A
+    >     Precision: 1us (2^0)
+    >  Root distance: 24.054ms (max: 5s)
+    >        Offset: +2.156ms
+    >         Delay: 48.567ms
+    >        Jitter: 1.452ms
+    >  Packet count: 3
+    > ```
+
+##### Debian 12 (Bookworm) and earlier: ntp package
+
+> **Note:** These steps apply to **Debian 12 and earlier** only. On Debian 13+, the `ntp` package is no longer available -- use the [systemd-timesyncd steps](#debian-13-trixie-and-later-systemd-timesyncd) above instead.
+
 1. Install ntp.
 
     On Debian based systems:
@@ -1029,7 +1108,7 @@ NTP stands for Network Time Protocol. In the context of this guide, an NTP clien
 1. Make a backup of the NTP client's configuration file `/etc/ntp.conf`:
 
     ``` bash
-    sudo cp --archive /etc/ntpsec/ntp.conf /etc/ntpsec/ntp.conf-COPY-$(date +"%Y%m%d%H%M%S")
+    sudo cp --archive /etc/ntp.conf /etc/ntp.conf-COPY-$(date +"%Y%m%d%H%M%S")
     ```
 
 1. The default configuration, at least on Debian, is already pretty secure. The only thing we'll want to make sure is we're the `pool` directive and not any `server` directives. The `pool` directive allows the NTP client to stop using a server if it is unresponsive or serving bad time. Do this by commenting out all `server` directives and adding the below to `/etc/ntp.conf`.
@@ -1588,7 +1667,7 @@ You can create rules by explicitly specifying the ports or with application conf
     sudo ufw default deny incoming comment 'deny all incoming traffic'
     ```
 
-1. Obviously we want SSH connections in:
+1. Obviously we want SSH connections in. Using limit instead of allow will automatically deny connections from an IP address if it attempts to initiate 6 or more connections within a 30-second window:
 
     ``` bash
     sudo ufw limit in ssh comment 'allow SSH connections in'
@@ -1881,7 +1960,7 @@ And, since we're already using [UFW](#ufw-uncomplicated-firewall) so we'll follo
     -A FORWARD -j LOG --log-tcp-options --log-prefix "[IPTABLES] "
     ```
 
-    **Note**: We're adding a log prefix to all the iptables logs. We'll need this for [seperating iptables logs to their own file](#ns-separate-iptables-log-file).
+    **Note**: We're adding a log prefix to all the iptables logs. We'll need this for [separating iptables logs to their own file](#separate-iptables-log-file).
 
     For example:
 
@@ -2964,11 +3043,12 @@ From [https://cisofy.com/lynis/](https://cisofy.com/lynis/):
     On Debian based systems, using CISOFY's community software repository:
 
     ``` bash
-    sudo apt install apt-transport-https ca-certificates host
-    sudo wget -O - https://packages.cisofy.com/keys/cisofy-software-public.key | sudo apt-key add -
-    sudo echo "deb https://packages.cisofy.com/community/lynis/deb/ stable main" | sudo tee /etc/apt/sources.list.d/cisofy-lynis.list
-    sudo apt update
-    sudo apt install lynis host
+	sudo apt install ca-certificates host
+	sudo mkdir -p /etc/apt/keyrings
+	wget -O - https://packages.cisofy.com/keys/cisofy-software-public.key | sudo gpg --dearmor -o /etc/apt/keyrings/cisofy-lynis.gpg
+	echo "deb [signed-by=/etc/apt/keyrings/cisofy-lynis.gpg] https://packages.cisofy.com/community/lynis/deb/ stable main" | sudo tee /etc/apt/sources.list.d/cisofy-lynis.list
+	sudo apt update
+	sudo apt install lynis
     ```
 
 1. Update it:
@@ -3489,8 +3569,6 @@ Well I will SIMPLIFY this method, to only output email using Google Mail account
     #tls_key_file [file]
     #tls_cert_file [file]
     tls_certcheck on
-    tls_force_sslv3 on
-    tls_min_dh_prime_bits 512
     #tls_priorities [priorities]
     #dsn_notify (off|condition)
     #dsn_return (off|amount)

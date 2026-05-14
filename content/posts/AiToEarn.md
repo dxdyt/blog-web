@@ -1,9 +1,9 @@
 ---
 title: AiToEarn
-date: 2026-05-13T14:48:01+08:00
+date: 2026-05-14T14:46:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778392120781-a6b2b55dc12a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778392120781-a6b2b55dc12a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762119594597-de01cfd19a07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762119594597-de01cfd19a07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
 ---
 
 # [yikart/AiToEarn](https://github.com/yikart/AiToEarn)
@@ -20,10 +20,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1778392120781-a6b2b55dc1
 
 **Monetize · Publish · Engage · Create —— 一站式平台。**
 
-AiToEarn 通过 **AI 自动化**，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。
+AiToEarn 通过 **AI Agent自动化**，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。
 
 支持渠道：
-抖音、小红书（Rednote）、快手、哔哩哔哩、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn
+抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、微信公众号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn
 
 ## 🚀 快速使用 AiToEarn（5 种方式）
 
@@ -90,7 +90,7 @@ AiToEarn 最核心的目标：**帮助每一位创作者赚钱**。
 
 一键将内容分发到全球 10+ 主流平台，告别逐个平台手动发布。
 
-- **全网分发**：覆盖抖音、快手、B站、小红书、TikTok、YouTube、Facebook、Instagram、Threads、X（Twitter）、Pinterest、LinkedIn
+- **全网分发**：覆盖抖音、快手、B站、小红书、视频号、微信公众号、TikTok、YouTube、Facebook、Instagram、Threads、X（Twitter）、Pinterest、LinkedIn
 - **日历排期**：像排日程一样统一规划所有平台的内容发布时间
 
 <img src="presentation/publish-cn.png" width="30%"> <img src="presentation/channel-cn.png" width="30%">

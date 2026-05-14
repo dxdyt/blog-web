@@ -1,9 +1,9 @@
 ---
 title: agentmemory
-date: 2026-05-13T14:46:55+08:00
+date: 2026-05-14T14:45:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774689221657-601698fc0b6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774689221657-601698fc0b6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758499947613-545e373b2ee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758499947613-545e373b2ee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
 ---
 
 # [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)
@@ -467,6 +467,30 @@ The agentmemory entry is the **same MCP server block** across every host that us
 
 **Sandboxed MCP clients** (Flatpak / Snap / restrictive containers) that can't reach the host's `localhost`: also set `"AGENTMEMORY_FORCE_PROXY": "1"` in the `env` block, and point `AGENTMEMORY_URL` at a route the sandbox can actually reach (e.g. your LAN IP). See [#234](https://github.com/rohitg00/agentmemory/issues/234) for the diagnostic walkthrough.
 
+### Programmatic access (Python / Rust / Node)
+
+agentmemory registers its core operations as iii functions (`mem::remember`, `mem::observe`, `mem::context`, `mem::smart-search`, `mem::forget`). Any language with an iii SDK can call them directly over `ws://localhost:49134` — no separate REST client per language.
+
+```bash
+pip install iii-sdk         # Python
+cargo add iii-sdk           # Rust
+npm  install iii-sdk        # Node
+```
+
+```python
+from iii import register_worker
+
+iii = register_worker("ws://localhost:49134")
+iii.connect()
+
+iii.trigger({
+    "function_id": "mem::smart-search",
+    "payload": {"project": "demo", "query": "how do tokens refresh"},
+})
+```
+
+Worked example: [`examples/python/`](examples/python/) (quickstart + observation/recall flow). REST on `:3111` remains available for hosts without an iii runtime.
+
 ### From source
 
 ```bash
@@ -653,6 +677,8 @@ Triple-stream retrieval combining three signals:
 | **Graph** | Knowledge graph traversal via entity matching | Entities detected in query |
 
 Fused with Reciprocal Rank Fusion (RRF, k=60) and session-diversified (max 3 results per session).
+
+BM25 tokenizes Greek, Cyrillic, Hebrew, Arabic, and accented Latin out of the box. For Chinese / Japanese / Korean memories, install the optional segmenters (`npm install @node-rs/jieba tiny-segmenter`) to split CJK runs into word-level tokens; without them, agentmemory soft-falls to whole-run tokenization and prints a one-time hint on stderr.
 
 ### Embedding providers
 

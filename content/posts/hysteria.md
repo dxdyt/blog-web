@@ -1,9 +1,9 @@
 ---
 title: hysteria
-date: 2026-05-13T14:47:11+08:00
+date: 2026-05-14T14:47:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg2NTQ3OTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774589704706-673acb50ba0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774589704706-673acb50ba0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
 ---
 
 # [apernet/hysteria](https://github.com/apernet/hysteria)
