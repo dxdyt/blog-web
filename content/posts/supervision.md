@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2025-09-28T12:21:52+08:00
+date: 2026-05-15T14:55:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757743066599-193b467c35f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757743066599-193b467c35f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774493501214-3eec01cc2f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774493501214-3eec01cc2f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
@@ -26,15 +26,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1757743066599-193b467c35
 
 [![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision)
 [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision)
-[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision)
-[![license](https://img.shields.io/pypi/l/supervision)](https://github.com/roboflow/supervision/blob/main/LICENSE.md)
+[![license](https://img.shields.io/pypi/l/supervision)](LICENSE.md)
 [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision)
+[![codecov](https://codecov.io/gh/roboflow/supervision/graph/badge.svg?token=HMNJ5FVZ36)](https://codecov.io/gh/roboflow/supervision)
+
+[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision)
 [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb)
 [![gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roboflow/Annotators)
 [![discord](https://img.shields.io/discord/1159501506232451173?logo=discord&label=discord&labelColor=fff&color=5865f2&link=https%3A%2F%2Fdiscord.gg%2FGbfgXGJ8Bk)](https://discord.gg/GbfgXGJ8Bk)
-[![built-with-material-for-mkdocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-  <div align="center">
+<div align="center">
     <a href="https://trendshift.io/repositories/124"  target="_blank"><img src="https://trendshift.io/api/badge/repositories/124" alt="roboflow%2Fsupervision | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   </div>
 
@@ -42,7 +43,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1757743066599-193b467c35
 
 ## 👋 hello
 
-**We write your reusable computer vision tools.** Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
+**We are your essential toolkit for computer vision.** From data loading to real-time zone counting, we provide the building blocks so you can focus on building applications around your models. 🤝
 
 ## 💻 install
 
@@ -59,17 +60,18 @@ Read more about conda, mamba, and installing from source in our [guide](https://
 
 ### models
 
-Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created [connectors](https://supervision.roboflow.com/latest/detection/core/#detections) for the most popular libraries like Ultralytics, Transformers, or MMDetection.
+Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created [connectors](https://supervision.roboflow.com/latest/detection/core/#detections) for the most popular libraries like Ultralytics, Transformers, MMDetection, or Inference. Other integrations, like `rfdetr`, already return `sv.Detections` directly.
+
+Install the optional dependencies for this example with `pip install pillow rfdetr`.
 
 ```python
-import cv2
 import supervision as sv
-from ultralytics import YOLO
+from PIL import Image
+from rfdetr import RFDETRSmall
 
-image = cv2.imread(...)
-model = YOLO("yolov8s.pt")
-result = model(image)[0]
-detections = sv.Detections.from_ultralytics(result)
+image = Image.open(...)
+model = RFDETRSmall()
+detections = model.predict(image, threshold=0.5)
 
 len(detections)
 # 5
@@ -80,21 +82,21 @@ len(detections)
 
 - inference
 
-  Running with [Inference](https://github.com/roboflow/inference) requires a [Roboflow API KEY](https://docs.roboflow.com/api-reference/authentication#retrieve-an-api-key).
+    Running with [Inference](https://github.com/roboflow/inference) requires a [Roboflow API KEY](https://docs.roboflow.com/api-reference/authentication#retrieve-an-api-key).
 
-  ```python
-  import cv2
-  import supervision as sv
-  from inference import get_model
+    ```python
+    import supervision as sv
+    from PIL import Image
+    from inference import get_model
 
-  image = cv2.imread(...)
-  model = get_model(model_id="yolov8s-640", api_key=<ROBOFLOW API KEY>)
-  result = model.infer(image)[0]
-  detections = sv.Detections.from_inference(result)
+    image = Image.open(...)
+    model = get_model(model_id="rfdetr-small", api_key="ROBOFLOW_API_KEY")
+    result = model.infer(image)[0]
+    detections = sv.Detections.from_inference(result)
 
-  len(detections)
-  # 5
-  ```
+    len(detections)
+    # 5
+    ```
 
 </details>
 
@@ -110,9 +112,7 @@ image = cv2.imread(...)
 detections = sv.Detections(...)
 
 box_annotator = sv.BoxAnnotator()
-annotated_frame = box_annotator.annotate(
-  scene=image.copy(),
-  detections=detections)
+annotated_frame = box_annotator.annotate(scene=image.copy(), detections=detections)
 ```
 
 https://github.com/roboflow/supervision/assets/26109316/691e219c-0565-4403-9218-ab5644f39bce
@@ -125,8 +125,8 @@ Supervision provides a set of [utils](https://supervision.roboflow.com/latest/da
 import supervision as sv
 from roboflow import Roboflow
 
-project = Roboflow().workspace(<WORKSPACE_ID>).project(<PROJECT_ID>)
-dataset = project.version(<PROJECT_VERSION>).download("coco")
+project = Roboflow().workspace("WORKSPACE_ID").project("PROJECT_ID")
+dataset = project.version("PROJECT_VERSION").download("coco")
 
 ds = sv.DetectionDataset.from_coco(
     images_directory_path=f"{dataset.location}/train",
@@ -134,10 +134,11 @@ ds = sv.DetectionDataset.from_coco(
 )
 
 path, image, annotation = ds[0]
-    # loads image on demand
+# loads image on demand
 
 for path, image, annotation in ds:
     # loads image on demand
+    pass
 ```
 
 <details close>
@@ -145,99 +146,99 @@ for path, image, annotation in ds:
 
 - load
 
-  ```python
-  dataset = sv.DetectionDataset.from_yolo(
-      images_directory_path=...,
-      annotations_directory_path=...,
-      data_yaml_path=...
-  )
+    ```python
+    dataset = sv.DetectionDataset.from_yolo(
+        images_directory_path=...,
+        annotations_directory_path=...,
+        data_yaml_path=...,
+    )
 
-  dataset = sv.DetectionDataset.from_pascal_voc(
-      images_directory_path=...,
-      annotations_directory_path=...
-  )
+    dataset = sv.DetectionDataset.from_pascal_voc(
+        images_directory_path=...,
+        annotations_directory_path=...,
+    )
 
-  dataset = sv.DetectionDataset.from_coco(
-      images_directory_path=...,
-      annotations_path=...
-  )
-  ```
+    dataset = sv.DetectionDataset.from_coco(
+        images_directory_path=...,
+        annotations_path=...,
+    )
+    ```
 
 - split
 
-  ```python
-  train_dataset, test_dataset = dataset.split(split_ratio=0.7)
-  test_dataset, valid_dataset = test_dataset.split(split_ratio=0.5)
+    ```python
+    train_dataset, test_dataset = dataset.split(split_ratio=0.7)
+    test_dataset, valid_dataset = test_dataset.split(split_ratio=0.5)
 
-  len(train_dataset), len(test_dataset), len(valid_dataset)
-  # (700, 150, 150)
-  ```
+    len(train_dataset), len(test_dataset), len(valid_dataset)
+    # (700, 150, 150)
+    ```
 
 - merge
 
-  ```python
-  ds_1 = sv.DetectionDataset(...)
-  len(ds_1)
-  # 100
-  ds_1.classes
-  # ['dog', 'person']
+    ```python
+    ds_1 = sv.DetectionDataset(...)
+    len(ds_1)
+    # 100
+    ds_1.classes
+    # ['dog', 'person']
 
-  ds_2 = sv.DetectionDataset(...)
-  len(ds_2)
-  # 200
-  ds_2.classes
-  # ['cat']
+    ds_2 = sv.DetectionDataset(...)
+    len(ds_2)
+    # 200
+    ds_2.classes
+    # ['cat']
 
-  ds_merged = sv.DetectionDataset.merge([ds_1, ds_2])
-  len(ds_merged)
-  # 300
-  ds_merged.classes
-  # ['cat', 'dog', 'person']
-  ```
+    ds_merged = sv.DetectionDataset.merge([ds_1, ds_2])
+    len(ds_merged)
+    # 300
+    ds_merged.classes
+    # ['cat', 'dog', 'person']
+    ```
 
 - save
 
-  ```python
-  dataset.as_yolo(
-      images_directory_path=...,
-      annotations_directory_path=...,
-      data_yaml_path=...
-  )
+    ```python
+    dataset.as_yolo(
+        images_directory_path=...,
+        annotations_directory_path=...,
+        data_yaml_path=...,
+    )
 
-  dataset.as_pascal_voc(
-      images_directory_path=...,
-      annotations_directory_path=...
-  )
+    dataset.as_pascal_voc(
+        images_directory_path=...,
+        annotations_directory_path=...,
+    )
 
-  dataset.as_coco(
-      images_directory_path=...,
-      annotations_path=...
-  )
-  ```
+    dataset.as_coco(
+        images_directory_path=...,
+        annotations_path=...,
+    )
+    ```
 
 - convert
 
-  ```python
-  sv.DetectionDataset.from_yolo(
-      images_directory_path=...,
-      annotations_directory_path=...,
-      data_yaml_path=...
-  ).as_pascal_voc(
-      images_directory_path=...,
-      annotations_directory_path=...
-  )
-  ```
+    ```python
+    sv.DetectionDataset.from_yolo(
+        images_directory_path=...,
+        annotations_directory_path=...,
+        data_yaml_path=...,
+    ).as_pascal_voc(
+        images_directory_path=...,
+        annotations_directory_path=...,
+    )
+    ```
 
 </details>
 
 ## 🎬 tutorials
 
-Want to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](https://github.com/roboflow/supervision/tree/develop/examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](https://supervision.roboflow.com/develop/cookbooks/)!
+Want to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](./examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](https://supervision.roboflow.com/develop/cookbooks/)!
 
 <br/>
 
 <p align="left">
-<a href="https://youtu.be/hAWpsIuem10" title="Dwell Time Analysis with Computer Vision | Real-Time Stream Processing"><img src="https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1" alt="Dwell Time Analysis with Computer Vision | Real-Time Stream Processing" width="300px" align="left" /></a>
+<a href="https://youtu.be/hAWpsIuem10" title="Dwell Time Analysis with Computer Vision | Real-Time Stream Processing"><img src="https://github.com/user-attachments/assets/014cffc7-72b3-4c0a-bb89-6de265b2c06b" alt="Dwell Time Analysis with Computer Vision | Real-Time Stream Processing" width="300px" align="left" /></a>
 <a href="https://youtu.be/hAWpsIuem10" title="Dwell Time Analysis with Computer Vision | Real-Time Stream Processing"><strong>Dwell Time Analysis with Computer Vision | Real-Time Stream Processing</strong></a>
 <div><strong>Created: 5 Apr 2024</strong></div>
 <br/>Learn how to use computer vision to analyze wait times and optimize processes. This tutorial covers object detection, tracking, and calculating time spent in designated zones. Use these techniques to improve customer experience in retail, traffic management, or other scenarios.</p>
@@ -245,7 +246,7 @@ Want to learn how to use Supervision? Explore our [how-to guides](https://superv
 <br/>
 
 <p align="left">
-<a href="https://youtu.be/uWP6UjDeZvY" title="Speed Estimation & Vehicle Tracking | Computer Vision | Open Source"><img src="https://github.com/SkalskiP/SkalskiP/assets/26109316/61a444c8-b135-48ce-b979-2a5ab47c5a91" alt="Speed Estimation & Vehicle Tracking | Computer Vision | Open Source" width="300px" align="left" /></a>
+<a href="https://youtu.be/uWP6UjDeZvY" title="Speed Estimation & Vehicle Tracking | Computer Vision | Open Source"><img src="https://github.com/user-attachments/assets/b16b8e21-dc6c-4a73-a678-2f7d5d374793" alt="Speed Estimation & Vehicle Tracking | Computer Vision | Open Source" width="300px" align="left" /></a>
 <a href="https://youtu.be/uWP6UjDeZvY" title="Speed Estimation & Vehicle Tracking | Computer Vision | Open Source"><strong>Speed Estimation & Vehicle Tracking | Computer Vision | Open Source</strong></a>
 <div><strong>Created: 11 Jan 2024</strong></div>
 <br/>Learn how to track and estimate the speed of vehicles using YOLO, ByteTrack, and Roboflow Inference. This comprehensive tutorial covers object detection, multi-object tracking, filtering detections, perspective transformation, speed estimation, visualization improvements, and more.</p>
@@ -266,7 +267,7 @@ Visit our [documentation](https://roboflow.github.io/supervision) page to learn 
 
 ## 🏆 contribution
 
-We love your input! Please see our [contributing guide](https://github.com/roboflow/supervision/blob/main/CONTRIBUTING.md) to get started. Thank you 🙏 to all our contributors!
+We love your input! Please see our [contributing guide](.github/CONTRIBUTING.md) to get started. Thank you 🙏 to all our contributors!
 
 <p align="center">
     <a href="https://github.com/roboflow/supervision/graphs/contributors">
