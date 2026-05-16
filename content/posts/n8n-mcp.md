@@ -1,9 +1,9 @@
 ---
 title: n8n-mcp
-date: 2026-05-05T14:16:17+08:00
+date: 2026-05-16T14:21:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774547588490-be85b3740512?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774547588490-be85b3740512?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778510093549-d20b562fad34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778510093549-d20b562fad34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
 ---
 
 # [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp)

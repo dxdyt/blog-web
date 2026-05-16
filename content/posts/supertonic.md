@@ -1,9 +1,9 @@
 ---
 title: supertonic
-date: 2026-05-15T14:55:49+08:00
+date: 2026-05-16T14:20:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1676290838559-9e3cf2999368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1676290838559-9e3cf2999368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
 ---
 
 # [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic)

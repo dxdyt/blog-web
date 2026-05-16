@@ -1,9 +1,9 @@
 ---
 title: telegraf
-date: 2026-05-15T14:55:42+08:00
+date: 2026-05-16T14:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1676290838559-9e3cf2999368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1676290838559-9e3cf2999368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777047023610-570a81998609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777047023610-570a81998609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg5MTI0MjJ8&ixlib=rb-4.1.0
 ---
 
 # [influxdata/telegraf](https://github.com/influxdata/telegraf)
