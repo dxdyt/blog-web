@@ -1,9 +1,9 @@
 ---
 title: Open-Generative-AI
-date: 2026-04-25T13:48:19+08:00
+date: 2026-05-17T14:43:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774800482872-8cdc39d5c409?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwOTYwNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776356678917-4f44b8c91a7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMDAxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776356678917-4f44b8c91a7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMDAxNzV8&ixlib=rb-4.1.0
 ---
 
 # [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)
