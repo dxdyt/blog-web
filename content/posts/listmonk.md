@@ -1,9 +1,9 @@
 ---
 title: listmonk
-date: 2023-08-07T12:16:40+08:00
+date: 2026-05-18T16:04:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1773751392423-212463aa28c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1773751392423-212463aa28c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
 ---
 
 # [knadh/listmonk](https://github.com/knadh/listmonk)
@@ -12,9 +12,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1689872330350-87e38c591b
 
 [![listmonk-logo](https://user-images.githubusercontent.com/547147/231084896-835dba66-2dfe-497c-ba0f-787564c0819e.png)](https://listmonk.app)
 
-listmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL (⩾ 12) database as its data store.
+listmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL database as its data store.
 
-[![listmonk-dashboard](https://user-images.githubusercontent.com/547147/134939475-e0391111-f762-44cb-b056-6cb0857755e3.png)](https://listmonk.app)
+[![listmonk-dashboard](https://github.com/user-attachments/assets/689b5fbb-dd25-4956-a36f-e3226a65f9c4)](https://listmonk.app)
 
 Visit [listmonk.app](https://listmonk.app) for more info. Check out the [**live demo**](https://demo.listmonk.app).
 
@@ -22,43 +22,35 @@ Visit [listmonk.app](https://listmonk.app) for more info. Check out the [**live 
 
 ### Docker
 
-The latest image is available on DockerHub at [`listmonk/listmonk:latest`](https://hub.docker.com/r/listmonk/listmonk/tags?page=1&ordering=last_updated&name=latest). Use the sample [docker-compose.yml](https://github.com/knadh/listmonk/blob/master/docker-compose.yml) to run manually or use the helper script. 
+The latest image is available on DockerHub at [`listmonk/listmonk:latest`](https://hub.docker.com/r/listmonk/listmonk/tags?page=1&ordering=last_updated&name=latest).
+Download and use the sample [docker-compose.yml](https://github.com/knadh/listmonk/blob/master/docker-compose.yml).
 
-#### Demo
 
-```bash
-mkdir listmonk-demo && cd listmonk-demo
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-demo.sh)"
+```shell
+# Download the compose file to the current directory.
+curl -LO https://github.com/knadh/listmonk/raw/master/docker-compose.yml
+
+# Run the services in the background.
+docker compose up -d
 ```
+Visit `http://localhost:9000`
 
-DO NOT use this demo setup in production.
-
-#### Production
-
-```bash
-mkdir listmonk && cd listmonk
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-prod.sh)"
-```
-Visit `http://localhost:9000`.
-
-**NOTE**: Always examine the contents of shell scripts before executing them.
-
-See [installation docs](https://listmonk.app/docs/installation).
+See [installation docs](https://listmonk.app/docs/installation)
 
 __________________
 
 ### Binary
 - Download the [latest release](https://github.com/knadh/listmonk/releases) and extract the listmonk binary.
-- `./listmonk --new-config` to generate config.toml. Then, edit the file.
+- `./listmonk --new-config` to generate config.toml. Edit it.
 - `./listmonk --install` to setup the Postgres DB (or `--upgrade` to upgrade an existing DB. Upgrades are idempotent and running them multiple times have no side effects).
-- Run `./listmonk` and visit `http://localhost:9000`.
+- Run `./listmonk` and visit `http://localhost:9000`
 
-See [installation docs](https://listmonk.app/docs/installation).
+See [installation docs](https://listmonk.app/docs/installation)
 __________________
 
 
 ## Developers
-listmonk is a free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the [developer setup](https://listmonk.app/docs/developer-setup). The backend is written in Go and the frontend is Vue with Buefy for UI. 
+listmonk is free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the [developer setup](https://listmonk.app/docs/developer-setup). The backend is written in Go and the frontend is Vue with Buefy for UI. 
 
 
 ## License

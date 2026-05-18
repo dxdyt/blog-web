@@ -1,9 +1,9 @@
 ---
 title: scientific-agent-skills
-date: 2026-05-17T14:43:09+08:00
+date: 2026-05-18T16:03:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775112862811-29f3adb7f990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMDAxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775112862811-29f3adb7f990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMDAxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777377772858-f9a04561ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777377772858-f9a04561ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
 ---
 
 # [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)

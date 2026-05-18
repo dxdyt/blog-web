@@ -1,9 +1,9 @@
 ---
 title: shannon
-date: 2026-04-23T14:05:32+08:00
+date: 2026-05-18T16:03:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773847408152-4e06dec54cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773847408152-4e06dec54cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY5MjQyOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776811816271-9104cac2188c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776811816271-9104cac2188c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
 ---
 
 # [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)
@@ -54,7 +54,6 @@ Shannon identified 20+ vulnerabilities in OWASP Juice Shop, including authentica
 - **Reproducible Proof-of-Concept Exploits**: The final report contains only proven, exploitable findings with copy-and-paste PoCs. Vulnerabilities that cannot be exploited are not reported.
 - **OWASP Vulnerability Coverage**: Identifies and validates Injection, XSS, SSRF, and Broken Authentication/Authorization, with additional categories in development.
 - **Code-Aware Dynamic Testing**: Analyzes source code to guide attack strategy, then validates findings with live browser and CLI-based exploits against the running application.
-- **Integrated Security Tooling**: Leverages Nmap, Subfinder, WhatWeb, and Schemathesis during reconnaissance and discovery phases.
 - **Parallel Processing**: Vulnerability analysis and exploitation phases run concurrently across all attack categories.
 
 ## Product Line
@@ -384,8 +383,20 @@ cp configs/example-config.yaml ./my-app-config.yaml
 ##### Basic Configuration Structure
 
 ```yaml
-# Optional: describe your target environment (max 500 chars)
+# Describe your target environment (optional, max 500 chars)
 description: "Next.js e-commerce app on PostgreSQL. Local dev environment — .env files contain local-only credentials, not deployed to production."
+
+# Limit which vulnerability classes run end-to-end (optional, default: all five)
+# vuln_classes: [injection, xss, auth, authz, ssrf]
+
+# Skip the exploitation phase (optional, default: "true")
+# exploit: "false"
+
+# Free-form rules of engagement (optional)
+# rules_of_engagement: |
+#   - No password brute-force; cap login attempts at 5 per account.
+#   - Throttle to under 5 requests per second per endpoint; back off 60s on any 429.
+#   - Use placeholders like [order_id] in deliverables — no real data values.
 
 authentication:
   login_type: form
@@ -405,15 +416,28 @@ authentication:
     value: "/dashboard"
 
 rules:
+  # Supported types: url_path, subdomain, domain, method, header, parameter, code_path
   avoid:
     - description: "AI should avoid testing logout functionality"
-      type: path
-      url_path: "/logout"
+      type: url_path
+      value: "/logout"
+
+    # code_path values are repo-relative file paths or globs (e.g. "src/auth.ts", "src/vendor/**").
+    # - description: "Out-of-scope vendored libraries"
+    #   type: code_path
+    #   value: "src/vendor/**"
 
   focus:
     - description: "AI should emphasize testing API endpoints"
-      type: path
-      url_path: "/api"
+      type: url_path
+      value: "/api"
+
+# Filters applied by the report agent when assembling the final report (optional).
+# report:
+#   min_severity: low                   # drop findings below this severity (low | medium | high | critical)
+#   min_confidence: low                 # drop findings below this confidence (low | medium | high)
+#   guidance: |
+#     Drop findings about missing security headers and rate-limit gaps.
 ```
 
 Run with:
@@ -434,6 +458,13 @@ npx @keygraph/shannon start -u https://example.com -r /path/to/repo -c ./my-app-
 #### TOTP Setup for 2FA
 
 If your application uses two-factor authentication, simply add the TOTP secret to your config file. The AI will automatically generate the required codes during testing.
+
+#### Adaptive Thinking (Opus 4.6/4.7)
+
+Claude decides when and how deeply to reason on Opus 4.6 and 4.7. Enabled by default whenever a tier resolves to one of these models.
+
+- **npx mode** — `npx @keygraph/shannon setup` prompts you during the wizard.
+- **Local mode** — set `CLAUDE_ADAPTIVE_THINKING=false` in `.env` (or as an exported env var) to disable.
 
 #### Subscription Plan Rate Limits
 
@@ -463,7 +494,7 @@ export AWS_REGION=us-east-1
 export AWS_BEARER_TOKEN_BEDROCK=your-bearer-token
 export ANTHROPIC_SMALL_MODEL=us.anthropic.claude-haiku-4-5-20251001-v1:0
 export ANTHROPIC_MEDIUM_MODEL=us.anthropic.claude-sonnet-4-6
-export ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-6
+export ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-7
 ```
 
 <details>
@@ -475,12 +506,12 @@ AWS_REGION=us-east-1
 AWS_BEARER_TOKEN_BEDROCK=your-bearer-token
 ANTHROPIC_SMALL_MODEL=us.anthropic.claude-haiku-4-5-20251001-v1:0
 ANTHROPIC_MEDIUM_MODEL=us.anthropic.claude-sonnet-4-6
-ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-6
+ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-7
 ```
 
 </details>
 
-Shannon uses three model tiers: **small** (`claude-haiku-4-5-20251001`) for summarization, **medium** (`claude-sonnet-4-6`) for security analysis, and **large** (`claude-opus-4-6`) for deep reasoning. Set `ANTHROPIC_SMALL_MODEL`, `ANTHROPIC_MEDIUM_MODEL`, and `ANTHROPIC_LARGE_MODEL` to the Bedrock model IDs for your region.
+Shannon uses three model tiers: **small** (`claude-haiku-4-5-20251001`) for summarization, **medium** (`claude-sonnet-4-6`) for security analysis, and **large** (`claude-opus-4-7`) for deep reasoning. Set `ANTHROPIC_SMALL_MODEL`, `ANTHROPIC_MEDIUM_MODEL`, and `ANTHROPIC_LARGE_MODEL` to the Bedrock model IDs for your region.
 
 ### Google Vertex AI
 
@@ -501,7 +532,7 @@ export ANTHROPIC_VERTEX_PROJECT_ID=your-gcp-project-id
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-sa-key.json
 export ANTHROPIC_SMALL_MODEL=claude-haiku-4-5@20251001
 export ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
-export ANTHROPIC_LARGE_MODEL=claude-opus-4-6
+export ANTHROPIC_LARGE_MODEL=claude-opus-4-7
 ```
 
 <details>
@@ -514,7 +545,7 @@ ANTHROPIC_VERTEX_PROJECT_ID=your-gcp-project-id
 GOOGLE_APPLICATION_CREDENTIALS=./credentials/google-sa-key.json
 ANTHROPIC_SMALL_MODEL=claude-haiku-4-5@20251001
 ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
-ANTHROPIC_LARGE_MODEL=claude-opus-4-6
+ANTHROPIC_LARGE_MODEL=claude-opus-4-7
 ```
 
 </details>
@@ -541,7 +572,7 @@ export ANTHROPIC_AUTH_TOKEN=your-auth-token
 # Optionally override model tiers (defaults are used if not set)
 export ANTHROPIC_SMALL_MODEL=claude-haiku-4-5-20251001
 export ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
-export ANTHROPIC_LARGE_MODEL=claude-opus-4-6
+export ANTHROPIC_LARGE_MODEL=claude-opus-4-7
 ```
 
 <details>
@@ -552,7 +583,7 @@ ANTHROPIC_BASE_URL=https://your-proxy.example.com
 ANTHROPIC_AUTH_TOKEN=your-auth-token
 ANTHROPIC_SMALL_MODEL=claude-haiku-4-5-20251001
 ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
-ANTHROPIC_LARGE_MODEL=claude-opus-4-6
+ANTHROPIC_LARGE_MODEL=claude-opus-4-7
 ```
 
 </details>
@@ -722,8 +753,7 @@ Shannon uses a multi-agent architecture that combines white-box source code anal
 ```
         ┌──────────────────────┐
         │   Pre-Reconnaissance │
-        │  (nmap, subfinder,   │
-        │  whatweb, code scan) │
+        │   (source code scan) │
         └──────────┬───────────┘
                    │
                    ▼
@@ -766,7 +796,7 @@ Each scan runs in its own ephemeral Docker container (`docker run --rm`) with a 
 
 #### **Phase 1: Pre-Reconnaissance**
 
-External scanning using nmap, subfinder, and whatweb to fingerprint the target's infrastructure and tech stack. Simultaneously performs source code analysis to identify the application framework, entry points, and potential attack surface from the codebase.
+Performs source code analysis to identify the application framework, entry points, and potential attack surface from the codebase. Builds the foundational architectural intelligence that all subsequent agents depend on.
 
 #### **Phase 2: Reconnaissance**
 

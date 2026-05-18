@@ -1,9 +1,9 @@
 ---
 title: ai-agents-for-beginners
-date: 2026-04-24T14:08:21+08:00
+date: 2026-05-18T16:04:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775206352570-10538a3e5093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzcwMTA4MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1726930095108-3737074d0f42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1726930095108-3737074d0f42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
@@ -81,7 +81,7 @@ The code examples in these exercises utilize Microsoft Agent Framework with Azur
 
 This course uses the following AI Agent frameworks and services from Microsoft:
 
-- [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framewrok)
+- [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Azure AI Foundry Agent Service V2](https://aka.ms/ai-agents-beginners/ai-agent-service)
 
 Some code samples also support alternative OpenAI-compatible providers such as [MiniMax](https://platform.minimaxi.com/), which offers large-context models (up to 204K tokens). See the [Course Setup](./00-course-setup/README.md) for configuration details.
@@ -122,7 +122,7 @@ Do you have suggestions or found spelling or code errors? [Raise an issue](https
 | Building Computer Use Agents (CUA)           | [Link](./15-browser-use/README.md)     |                                                            | [Link](https://docs.browser-use.com/examples/templates/playwright-integration)         |
 | Deploying Scalable Agents                    | Coming Soon                            |                                                            |                                                                                        |
 | Creating Local AI Agents                     | Coming Soon                               |                                                            |                                                                                        |
-| Securing AI Agents                           | Coming Soon                               |                                                            |                                                                                        |
+| Securing AI Agents                           | [Link](./18-securing-ai-agents/README.md)  |                                                            | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 
 ## 🎒 Other Courses
 
