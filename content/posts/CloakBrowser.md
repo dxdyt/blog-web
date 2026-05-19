@@ -1,9 +1,9 @@
 ---
 title: CloakBrowser
-date: 2026-05-15T14:56:17+08:00
+date: 2026-05-19T15:44:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770752986377-1982c76424e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770752986377-1982c76424e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4MjgwODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1723952776525-f47783050edf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1723952776525-f47783050edf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
 ---
 
 # [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser)
@@ -138,7 +138,7 @@ Open [http://localhost:8080](http://localhost:8080). Create a profile. Click **L
 
 ---
 
-## Latest: v0.3.26 (Chromium 146.0.7680.177.4)
+## Latest: v0.3.28 (Chromium 146.0.7680.177.4)
 
 - **`launch_context_async()`** — async counterpart to `launch_context()`. Forwards kwargs to `browser.new_context()` for `storage_state`, `permissions`, `extra_http_headers` without a persistent profile folder.
 - **JS `contextOptions` escape hatch** — forward arbitrary options (including `storageState`) to Playwright's `newContext()` from `launchContext()` / `launchPersistentContext()`.
@@ -381,9 +381,16 @@ ctx.close()  # profile saved
 
 # Next run — cookies, localStorage restored automatically
 ctx = launch_persistent_context("./my-profile", headless=False)
+
+# Load Chrome extensions
+ctx = launch_persistent_context(
+    "./my-profile",
+    headless=False,
+    extension_paths=["./my-extension"],
+)
 ```
 
-Supports all the same options as `launch_context()`: `proxy`, `user_agent`, `viewport`, `locale`, `timezone`, `color_scheme`, `geoip`.
+Supports all the same options as `launch_context()`: `proxy`, `user_agent`, `viewport`, `locale`, `timezone`, `color_scheme`, `geoip`, `extension_paths`.
 
 Async version: `launch_persistent_context_async()`.
 
@@ -1206,4 +1213,9 @@ Issues and PRs welcome. If something isn't working, [open an issue](https://gith
 - [@eofreternal](https://github.com/eofreternal) — humanConfig type fix, humanized method option types
 - [@manaskarra](https://github.com/manaskarra) — iframe scope fix for humanized frame actions, GeoIP timeout guard
 - [@Youhai020616](https://github.com/Youhai020616) — SOCKS5 credential encoding logging
-- [@AlexTech314](https://github.com/AlexTech314) — AWS Lambda integration
+- [@AlexTech314](https://github.com/AlexTech314) — AWS Lambda integration, cold-start hardening
+- [@dgtlmoon](https://github.com/dgtlmoon) — graceful pw.stop() cleanup
+- [@zackycodes](https://github.com/zackycodes) — Chrome extension loading
+- [@aaronjmars](https://github.com/aaronjmars) — security fixes (shell injection, dep bumps)
+- [@Seryiza](https://github.com/Seryiza) — Nix/NixOS flake
+- [@245678000000](https://github.com/245678000000) — package-lock sync

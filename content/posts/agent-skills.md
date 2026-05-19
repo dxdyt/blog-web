@@ -1,9 +1,9 @@
 ---
 title: agent-skills
-date: 2026-05-18T16:03:18+08:00
+date: 2026-05-19T15:44:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774986435886-81b25b2da50e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774986435886-81b25b2da50e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1771846340715-e5f379d91ad9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1771846340715-e5f379d91ad9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
 ---
 
 # [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)

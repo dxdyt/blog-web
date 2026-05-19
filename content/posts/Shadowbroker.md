@@ -1,9 +1,9 @@
 ---
 title: Shadowbroker
-date: 2026-05-18T16:03:08+08:00
+date: 2026-05-19T15:44:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777377772858-f9a04561ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777377772858-f9a04561ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778222238831-3acf481f9fcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778222238831-3acf481f9fcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
 ---
 
 # [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker)
@@ -71,12 +71,25 @@ ShadowBroker includes an optional Shodan connector for operator-supplied API acc
 
 ## ⚡ Quick Start (Docker)
 
+### From GitHub (default — uses GHCR images)
+
 ```bash
 git clone https://github.com/bigbodycobain/Shadowbroker.git
 cd Shadowbroker
 docker compose pull
 docker compose up -d
 ```
+
+### From GitLab (uses GitLab Container Registry)
+
+```bash
+git clone https://gitlab.com/bigbodycobain/Shadowbroker.git
+cd Shadowbroker
+docker compose -f docker-compose.yml -f docker-compose.gitlab.yml pull
+docker compose -f docker-compose.yml -f docker-compose.gitlab.yml up -d
+```
+
+Both paths produce identical containers — same source, same CI, same images byte-for-byte. Pick whichever ecosystem you already use.
 
 Open `http://localhost:3000` to view the dashboard! *(Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/) or Docker Engine)*
 
@@ -146,8 +159,13 @@ helm repo update
 
 **2. Install the Chart:**
 ```bash
-# Install from the local helm/chart directory
+# Default — pulls images from GHCR
 helm install shadowbroker ./helm/chart --create-namespace --namespace shadowbroker
+
+# GitLab registry variant
+helm install shadowbroker ./helm/chart --create-namespace --namespace shadowbroker \
+  -f helm/chart/values.yaml \
+  -f helm/chart/values-gitlab.yaml
 ```
 
 **3. Key Features:**

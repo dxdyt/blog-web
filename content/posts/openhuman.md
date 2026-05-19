@@ -1,9 +1,9 @@
 ---
 title: openhuman
-date: 2026-05-18T16:02:31+08:00
+date: 2026-05-19T15:43:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776811816271-9104cac2188c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776811816271-9104cac2188c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
 ---
 
 # [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
