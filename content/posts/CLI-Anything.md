@@ -1,9 +1,9 @@
 ---
 title: CLI-Anything
-date: 2026-05-19T15:44:01+08:00
+date: 2026-05-20T15:41:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777216092678-ab3cac218f80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777216092678-ab3cac218f80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)

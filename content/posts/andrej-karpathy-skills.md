@@ -1,12 +1,12 @@
 ---
 title: andrej-karpathy-skills
-date: 2026-05-06T14:30:06+08:00
+date: 2026-05-20T15:42:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777342767198-6e42b5f61299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwNDg4OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
 ---
 
-# [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
+# [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 
 # Karpathy-Inspired Claude Code Guidelines
 

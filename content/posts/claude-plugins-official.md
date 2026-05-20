@@ -1,9 +1,9 @@
 ---
 title: claude-plugins-official
-date: 2026-03-16T13:49:51+08:00
+date: 2026-05-20T15:42:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771510252676-1fa1bcbd7c16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771510252676-1fa1bcbd7c16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2NDAwOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774939234686-492c27d81383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774939234686-492c27d81383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
@@ -23,7 +23,7 @@ A curated directory of high-quality plugins for Claude Code.
 
 Plugins can be installed directly from this marketplace via Claude Code's plugin system.
 
-To install, run `/plugin install {plugin-name}@claude-plugin-directory`
+To install, run `/plugin install {plugin-name}@claude-plugins-official`
 
 or browse for the plugin in `/plugin > Discover`
 

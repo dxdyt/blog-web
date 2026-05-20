@@ -1,9 +1,9 @@
 ---
 title: 12-factor-agents
-date: 2026-05-19T15:45:03+08:00
+date: 2026-05-20T15:43:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775521211256-6e5280fd11d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775521211256-6e5280fd11d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769788873237-fbd659d9a9f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769788873237-fbd659d9a9f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
 ---
 
 # [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents)
