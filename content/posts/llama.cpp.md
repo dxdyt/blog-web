@@ -1,9 +1,9 @@
 ---
 title: llama.cpp
-date: 2026-05-19T15:44:22+08:00
+date: 2026-05-21T15:53:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777303799010-d062e096c5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkxNzY2MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778880509934-0ab4843d9ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778880509934-0ab4843d9ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
 ---
 
 # [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)

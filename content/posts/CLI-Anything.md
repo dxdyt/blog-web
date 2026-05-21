@@ -1,9 +1,9 @@
 ---
 title: CLI-Anything
-date: 2026-05-20T15:41:48+08:00
+date: 2026-05-21T15:51:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777216092678-ab3cac218f80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777216092678-ab3cac218f80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776715139556-f7d420661a89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776715139556-f7d420661a89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
@@ -59,6 +59,19 @@ CLI-Anything: Bridging the Gap Between AI Agents and the World's Software</stron
 
 > Thanks to all invaluable efforts from the community! More updates continuously on the way everyday..
 
+- **2026-05-20** 🎛️ **Rekordbox CLI** merged (#252) with guarded SQLCipher write paths, backup-required forced writes, smoke coverage, and root skill sync. 📚 **Calibre CLI** merged (#223) with library/search/metadata/conversion/export workflows, 41 unit tests, real-Calibre E2E evidence, and root skill validation. 🧊 **3MF CLI** merged (#209) with mesh inspection, hole resizing, repair, comparison, and preserved triangle attributes. 🎙️ **MiniMax CLI** merged (#189) with chat/TTS workflows, JSON-safe model/voice listing, REPL quote handling, and smoke/E2E coverage. 🎮 **UEAtelier** joined the registry (#297) as an Unreal Editor MCP self-extension workbench with a Python CLI proxy.
+
+- **2026-05-19** 🛠️ Existing harnesses got a quality/security pass — **Zoom** downloads recordings from direct URLs (#294), **Obsidian** search now uses the Local REST API vendor content types (#289), **LibreOffice** headless conversion is more robust on macOS (#290), and XML/SVG/ODF/MLT/MusicXML/CSL parsing now routes untrusted input through `defusedxml` (#296).
+
+- **2026-05-18** 📈 README presentation refreshed with the Trendshift badge and centered project header polish (#285, #286), keeping the landing section focused on discovery and project momentum.
+
+- **2026-05-17** 🌐 **CLI-Hub** registry handling was hardened (#281) — registry entries are now copied before `_source` tagging, preventing cached or mocked registry data from being mutated in place.
+
+- **2026-05-16** 🔧 **n8n** received the REPL banner crash fix that later merged into main (#280), restoring the no-subcommand interactive startup path with regression coverage.
+
+<details>
+<summary>Earlier news (Apr 10–18)</summary>
+
 - **2026-04-18** 🧩 **All SKILL.md files are now being unified under the top-level `skills/` directory** — every CLI skill can be installed from one canonical source with `npx skills add HKUDS/CLI-Anything --skill <skill-name> -g -y`. We also added root-skill validation CI, synced contribution / PR docs and REPL skill-path hints to the new layout, and refreshed the **CLI-Hub** install-first frontend around the new `npx skills` flow.
 
 - **2026-04-17** 🌐 **CLI-Hub** received another install UX pass — public registry metadata and skill coverage were tightened, visit counting was corrected, and the web hub was further refined. 🧪 **Shotcut** render output duration was fixed (#92). 📝 **SKILL** contribution paths were corrected for the new docs flow (#224), and the skill generator now safely handles empty intros (#203).
@@ -76,6 +89,8 @@ CLI-Anything: Bridging the Gap Between AI Agents and the World's Software</stron
 - **2026-04-11** 🔗 **n8n CLI** merged (#188) — workflow automation harness for self-hosted automation flows. 🔧 **Exa CLI** fix (#205) added the `x-exa-integration` header for usage tracking. 📦 **CLI-Hub** also gained its PyPI auto-publish workflow and package refresh pipeline.
 
 - **2026-04-10** 📦 **CLI-Hub package manager** launched — `pip install cli-anything-hub` to browse, search, install, update, and uninstall CLI-Anything harnesses from one command. The web Hub also shipped its first install-focused frontend refresh and "Empower yourself" toolkit card.
+
+</details>
 
 <details>
 <summary>Earlier news (Apr 1–9)</summary>
@@ -890,6 +905,13 @@ Each application received complete, production-ready CLI interfaces — not demo
 <td align="center">✅ <a href="zotero/agent-harness/">New</a></td>
 </tr>
 <tr>
+<td align="center"><strong>📖 <a href="calibre/agent-harness/">Calibre</a></strong></td>
+<td>E-book Library Management</td>
+<td><code>cli-anything-calibre</code></td>
+<td>calibredb + ebook-convert + ebook-meta</td>
+<td align="center">✅ <a href="calibre/agent-harness/">58</a></td>
+</tr>
+<tr>
 <td align="center"><strong>📝 <a href="mubu/agent-harness/">Mubu</a></strong></td>
 <td>Knowledge Management &amp; Outlining</td>
 <td><code>cli-anything-mubu</code></td>
@@ -1086,12 +1108,19 @@ Each application received complete, production-ready CLI interfaces — not demo
 <td align="center">✅ 22</td>
 </tr>
 <tr>
+<td align="center"><strong>🔩 <a href="3MF/agent-harness/">3MF</a></strong></td>
+<td>Mesh geometry editor for 3D printing</td>
+<td><code>cli-anything-3mf</code></td>
+<td>numpy, scipy, trimesh</td>
+<td align="center">✅ 50</td>
+</tr>
+<tr>
 <td align="center" colspan="4"><strong>Total</strong></td>
-<td align="center"><strong>✅ 2,280</strong></td>
+<td align="center"><strong>✅ 2,330</strong></td>
 </tr>
 </table>
 
-> **100% pass rate** across all 2,280 tests — 1,682 unit tests + 579 end-to-end tests + 19 Node.js tests.
+> **100% pass rate** across all 2,330 tests — 1,732 unit tests + 579 end-to-end tests + 19 Node.js tests.
 
 ---
 
@@ -1135,8 +1164,9 @@ lldb           27 passed  ✅   (23 unit + 4 e2e)
 nsight-graphics 51 passed ✅   (46 unit/CLI + 5 local e2e)
 unrealinsights 50 passed  ✅   (49 unit + 1 e2e, 9 backend-gated e2e skipped)
 cloudanalyzer  14 passed  ✅   (7 unit + 7 e2e)
+3mf            50 passed  ✅   (50 unit)
 ──────────────────────────────────────────────────────────────────────────────
-TOTAL        2,280 passed  ✅   100% pass rate
+TOTAL        2,330 passed  ✅   100% pass rate
 ```
 
 ---
@@ -1193,6 +1223,7 @@ cli-anything/
 ├── 📄 libreoffice/agent-harness/        # LibreOffice CLI (158 tests)
 ├── 📧 mailchimp/agent-harness/          # Mailchimp Marketing API CLI (303 commands, 36 unit tests)
 ├── 📚 zotero/agent-harness/             # Zotero CLI (new, write import support)
+├── 📖 calibre/agent-harness/            # Calibre CLI (58 tests: 38 unit + 20 E2E)
 ├── 📝 mubu/agent-harness/               # Mubu CLI (96 tests)
 ├── 📹 obs-studio/agent-harness/         # OBS Studio CLI (153 tests)
 ├── 📱 nslogger/agent-harness/           # NSLogger CLI (139 tests)
@@ -1221,6 +1252,7 @@ cli-anything/
 ├── ☁️ cloudcompare/agent-harness/       # CloudCompare CLI (88 tests)
 ├── 🔍 exa/agent-harness/               # Exa CLI (40 tests)
 └── ⛅ cloudanalyzer/agent-harness/      # CloudAnalyzer CLI (14 tests)
+└── 🔩 3MF/agent-harness/               # 3MF Mesh Editor CLI (50+ tests)
 ```
 
 Each `agent-harness/` contains an installable Python package under `cli_anything.<software>/` with Click CLI, core modules, utils (including `repl_skin.py` and backend wrapper), and comprehensive tests.
