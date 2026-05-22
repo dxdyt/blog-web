@@ -1,9 +1,9 @@
 ---
 title: streambert
-date: 2026-05-21T15:52:40+08:00
+date: 2026-05-22T15:45:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776779399573-0c19831317df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776811805307-a0e0289c672f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776811805307-a0e0289c672f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
 ---
 
 # [truelockmc/streambert](https://github.com/truelockmc/streambert)

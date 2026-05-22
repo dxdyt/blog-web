@@ -1,9 +1,9 @@
 ---
 title: OpenWA
-date: 2026-05-21T15:52:34+08:00
+date: 2026-05-22T15:44:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778159113854-42eb9df3f3b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778159113854-42eb9df3f3b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777086000918-b0f1582e222a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777086000918-b0f1582e222a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
 ---
 
 # [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA)

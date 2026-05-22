@@ -1,9 +1,9 @@
 ---
 title: ai-engineering-from-scratch
-date: 2026-05-21T15:51:52+08:00
+date: 2026-05-22T15:44:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772289239033-ea8155b3cf2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772289239033-ea8155b3cf2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778798816305-8072029e1088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778798816305-8072029e1088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
 ---
 
 # [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
@@ -875,7 +875,7 @@ Codex, OpenClaw, Hermes, or any MCP-compatible agent. Real tools, not homework.
 
 ### Install every course skill into your agent
 
-The repo ships 373 skills and 99 prompts under `phases/**/outputs/`.
+The repo ships 378 skills and 99 prompts under `phases/**/outputs/`.
 `scripts/install_skills.py` walks every artifact, parses YAML frontmatter, and
 copies the matching files into a target directory in the layout your agent
 expects.
@@ -1065,24 +1065,6 @@ Twitter/X is the #1 acquisition channel.
 
 Full rate card, hard rules, pricing anchors, and reach data: [SPONSORS.md](SPONSORS.md).
 Sign up via [GitHub Sponsors](https://github.com/sponsors/rohitg00).
-
-```
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## From the same author
-
-The curriculum teaches the primitives. These repositories ship them in production:
-memory, reasoning, knowledge protocol, agent-skill toolchain, and an agent-workflow
-patterns library.
-
-| Repo | Stars | What it is |
-|---|---|---|
-| [agentmemory](https://github.com/rohitg00/agentmemory) | ![stars](https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&label=%E2%98%85&color=3553ff&labelColor=fafaf5) | Persistent memory for AI coding agents. The state surface from Phase 14, productionized. |
-| [agentbrain](https://github.com/rohitg00/agentbrain) | ![stars](https://img.shields.io/github/stars/rohitg00/agentbrain?style=flat-square&label=%E2%98%85&color=3553ff&labelColor=fafaf5) | Evidence-first operating system for agents. Reasoning + verification surfaces, end-to-end. |
-| [akbp](https://github.com/rohitg00/akbp) | ![stars](https://img.shields.io/github/stars/rohitg00/akbp?style=flat-square&label=%E2%98%85&color=3553ff&labelColor=fafaf5) | Agent Knowledge Base Protocol. Handoff + knowledge layer between sessions and across agents. |
-| [skillkit](https://github.com/rohitg00/skillkit) | ![stars](https://img.shields.io/github/stars/rohitg00/skillkit?style=flat-square&label=%E2%98%85&color=3553ff&labelColor=fafaf5) | Universal CLI to install skills across 32 AI coding agents (Claude, Cursor, Codex, OpenClaw, Hermes, ...). |
-| [pro-workflow](https://github.com/rohitg00/pro-workflow) | ![stars](https://img.shields.io/github/stars/rohitg00/pro-workflow?style=flat-square&label=%E2%98%85&color=3553ff&labelColor=fafaf5) | Battle-tested Claude Code workflows. 8 patterns from power users: self-correction, parallel worktrees, split memory, learning logs. |
 
 ```
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒

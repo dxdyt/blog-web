@@ -1,9 +1,9 @@
 ---
 title: academic-research-skills
-date: 2026-05-21T15:51:25+08:00
+date: 2026-05-22T15:45:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776549821153-070eaa245bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776549821153-070eaa245bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkzNDk4NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1770041638325-d53de3f936c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1770041638325-d53de3f936c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
 ---
 
 # [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
