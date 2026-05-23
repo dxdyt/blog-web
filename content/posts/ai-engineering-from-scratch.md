@@ -1,9 +1,9 @@
 ---
 title: ai-engineering-from-scratch
-date: 2026-05-22T15:44:19+08:00
+date: 2026-05-23T14:32:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778798816305-8072029e1088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778798816305-8072029e1088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776518535233-0aa2517549ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776518535233-0aa2517549ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
 ---
 
 # [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
@@ -130,7 +130,7 @@ cd ai-engineering-from-scratch
 python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
 
-**Option C — find your level *(recommended)*.** Skip ahead intelligently. Inside Claude, Cursor, Codex, OpenClaw, Hermes, or any agent with SkillKit installed:
+**Option C — find your level *(recommended)*.** Skip ahead intelligently. Inside Claude, Cursor, Codex, OpenClaw, Hermes, or any agent with the curriculum skills installed:
 
 ```bash
 /find-your-level
@@ -151,7 +151,7 @@ ls phases/03-deep-learning-core/05-loss-functions/outputs/
 - You can write code (any language; Python helps).
 - You want to understand how AI **actually works**, not just call APIs.
 
-### Built-in agent skills (SkillKit / Claude, Cursor, Codex, OpenClaw, Hermes)
+### Built-in agent skills (Claude, Cursor, Codex, OpenClaw, Hermes)
 
 | Skill | What it does |
 |---|---|
@@ -182,8 +182,8 @@ Other curricula end with *"congratulations, you learned X."* Each lesson here en
 </tr>
 </table>
 
-> Install the lot with [SkillKit](https://github.com/rohitg00/skillkit). Real tools, not
-> homework. By the end of the curriculum, you have a portfolio of 435 artifacts you actually
+> Install the lot with `python3 scripts/install_skills.py`. Real tools, not homework.
+> By the end of the curriculum, you have a portfolio of 435 artifacts you actually
 > understand because you built them.
 
 ### FIG_002 · A worked sample
@@ -547,7 +547,7 @@ Twenty phases. Click any phase to expand its lesson list.
 </details>
 
 <details id="phase-11">
-<summary><b>Phase 11 — LLM Engineering</b> &nbsp;<code>15 lessons</code>&nbsp; <em>Put LLMs to work in production.</em></summary>
+<summary><b>Phase 11 — LLM Engineering</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Put LLMs to work in production.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
@@ -567,6 +567,8 @@ Twenty phases. Click any phase to expand its lesson list.
 | 13 | [Building a Production LLM App](phases/11-llm-engineering/13-production-app/) | Build | Python |
 | 14 | [Model Context Protocol (MCP)](phases/11-llm-engineering/14-model-context-protocol/) | Build | Python |
 | 15 | [Prompt Caching & Context Caching](phases/11-llm-engineering/15-prompt-caching/) | Build | Python |
+| 16 | [LangGraph: State Machines for Agents](phases/11-llm-engineering/16-langgraph-state-machines/) | Build | Python |
+| 17 | [Agent Framework Tradeoffs](phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Learn | Python |
 
 </details>
 
@@ -870,7 +872,7 @@ outputs/
 └── skills/       SKILL.md files for AI coding agents
 ```
 
-Install them with [SkillKit](https://github.com/rohitg00/skillkit). Plug them into Claude, Cursor,
+Install them with `python3 scripts/install_skills.py`. Plug them into Claude, Cursor,
 Codex, OpenClaw, Hermes, or any MCP-compatible agent. Real tools, not homework.
 
 ### Install every course skill into your agent
@@ -881,11 +883,11 @@ copies the matching files into a target directory in the layout your agent
 expects.
 
 ```bash
-python3 scripts/install_skills.py ~/.claude/skills                 # every skill, SkillKit layout
+python3 scripts/install_skills.py ~/.claude/skills                 # every skill, nested layout
 python3 scripts/install_skills.py ./out --type all                 # skills + prompts + agents
 python3 scripts/install_skills.py ./out --phase 14                 # one phase only
 python3 scripts/install_skills.py ./out --tag rag                  # filter by tag
-python3 scripts/install_skills.py ./out --layout flat              # flat files instead of SkillKit
+python3 scripts/install_skills.py ./out --layout flat              # flat files
 python3 scripts/install_skills.py ./out --dry-run                  # preview without writing
 python3 scripts/install_skills.py ./out --force                    # overwrite existing files
 ```
@@ -898,7 +900,7 @@ phase. Pick the layout your agent reads:
 
 | `--layout`  | Path written |
 |---|---|
-| `skillkit`  | `<target>/<name>/SKILL.md` (Claude / Cursor / SkillKit) |
+| `skills`    | `<target>/<name>/SKILL.md` (Claude / Cursor convention) |
 | `by-phase`  | `<target>/phase-NN/<name>.md` |
 | `flat`      | `<target>/<name>.md` |
 

@@ -1,9 +1,9 @@
 ---
 title: nn-zero-to-hero
-date: 2025-08-29T12:22:35+08:00
+date: 2026-05-23T14:34:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755605889798-7b33d0477768?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755605889798-7b33d0477768?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777903675826-069af4c6cf49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777903675826-069af4c6cf49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
 ---
 
 # [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero)
