@@ -1,9 +1,9 @@
 ---
 title: ai-engineering-from-scratch
-date: 2026-05-23T14:32:59+08:00
+date: 2026-05-24T15:20:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776518535233-0aa2517549ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776518535233-0aa2517549ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1776684012353-787d693dda8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1776684012353-787d693dda8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
 ---
 
 # [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)

@@ -1,9 +1,9 @@
 ---
 title: multica
-date: 2026-05-22T15:44:55+08:00
+date: 2026-05-24T15:21:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1770041638325-d53de3f936c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1770041638325-d53de3f936c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk0MzU3ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775866542374-49dfd5f7aa78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775866542374-49dfd5f7aa78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
 ---
 
 # [multica-ai/multica](https://github.com/multica-ai/multica)
@@ -197,3 +197,5 @@ make dev
 `make dev` auto-detects your environment (main checkout or worktree), creates the env file, installs dependencies, sets up the database, runs migrations, and starts all services.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full development workflow, worktree support, testing, and troubleshooting.
+
+An iOS mobile client lives in [`apps/mobile/`](apps/mobile/) — see its [README](apps/mobile/README.md) for how to build it onto your own iPhone.
