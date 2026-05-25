@@ -1,9 +1,9 @@
 ---
 title: andrej-karpathy-skills
-date: 2026-05-24T15:20:33+08:00
+date: 2026-05-25T16:20:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779032667524-1fe4a25f3770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779032667524-1fe4a25f3770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
 ---
 
 # [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)

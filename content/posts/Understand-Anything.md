@@ -1,9 +1,9 @@
 ---
 title: Understand-Anything
-date: 2026-05-24T15:19:55+08:00
+date: 2026-05-25T16:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779184638442-fcbd65b0437a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779184638442-fcbd65b0437a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778352890441-6f0aa52003e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778352890441-6f0aa52003e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
 ---
 
 # [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
@@ -216,6 +216,8 @@ The installer clones the repo to `~/.understand-anything/repo` and creates the r
 ### Cursor
 
 Cursor auto-discovers the plugin via `.cursor-plugin/plugin.json` when this repo is cloned. No manual installation needed — just clone and open in Cursor.
+
+If auto-discovery doesn't pick it up, install it manually: open **Cursor Settings → Plugins**, paste `https://github.com/Lum1104/Understand-Anything` into the search field, and add it from there.
 
 ### VS Code + GitHub Copilot
 

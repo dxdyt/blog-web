@@ -1,9 +1,9 @@
 ---
 title: claude-plugins-official
-date: 2026-05-24T15:20:04+08:00
+date: 2026-05-25T16:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776684012353-787d693dda8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776684012353-787d693dda8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777052854737-7893f50de539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777052854737-7893f50de539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)

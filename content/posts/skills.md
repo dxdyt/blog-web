@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-05-24T15:20:40+08:00
+date: 2026-05-25T16:21:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779184638442-fcbd65b0437a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779184638442-fcbd65b0437a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778084708646-b0807a20da19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778084708646-b0807a20da19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
 ---
 
 # [dotnet/skills](https://github.com/dotnet/skills)
