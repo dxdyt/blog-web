@@ -1,9 +1,9 @@
 ---
 title: codegraph
-date: 2026-05-25T16:20:45+08:00
+date: 2026-05-26T15:44:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777277539243-17e4f2c41aaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777277539243-17e4f2c41aaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778301981932-3a047a01eacd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778301981932-3a047a01eacd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
 ---
 
 # [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)
@@ -145,8 +145,9 @@ The gains scale with codebase size: on large repos the agent answers from the in
 | **Full-Text Search** | Find code by name instantly across your entire codebase, powered by FTS5 |
 | **Impact Analysis** | Trace callers, callees, and the full impact radius of any symbol before making changes |
 | **Always Fresh** | File watcher uses native OS events (FSEvents/inotify/ReadDirectoryChangesW) with debounced auto-sync — the graph stays current as you code, zero config |
-| **19+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Swift, Kotlin, Dart, Lua, Luau, Svelte, Liquid, Pascal/Delphi |
+| **20+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Objective-C, Swift, Kotlin, Dart, Lua, Luau, Svelte, Liquid, Pascal/Delphi |
 | **Framework-aware Routes** | Recognizes web-framework routing files and links URL patterns to their handlers across 14 frameworks |
+| **Mixed iOS / React Native / Expo** | Closes cross-language flows that static parsing misses: Swift ↔ ObjC bridging, React Native legacy bridge + TurboModules + Fabric view components, native → JS event emitters, Expo Modules |
 | **100% Local** | No data leaves your machine. No API keys. No external services. SQLite database only |
 
 ---
@@ -171,6 +172,35 @@ CodeGraph detects web-framework routing files and emits `route` nodes linked by 
 | **ASP.NET** | `[HttpGet("/x")]` attributes on action methods |
 | **Vapor** | `app.get("x", use: handler)` |
 | **React Router** / **SvelteKit** | Route component nodes |
+
+---
+
+## Mixed iOS / React Native / Expo bridging
+
+Real iOS and React Native codebases live across multiple languages — a Swift caller invokes an Objective-C selector that's been auto-bridged, a JS file calls into a native module via the React Native bridge, a JSX component delegates to a native view manager. Static tree-sitter extraction stops at each language boundary. CodeGraph bridges them so `trace`, `callers`, `callees`, and `impact` connect end-to-end across the gap.
+
+| Boundary | JS / Swift side | Native side | How |
+|---|---|---|---|
+| **Swift → ObjC** | Swift `obj.foo(bar:)` | ObjC selector `-fooWithBar:` | `@objc` auto-bridging rules (including init/property/protocol forms) + Cocoa preposition prefixes (`With`/`For`/`By`/`In`/`On`/`At`/…) |
+| **ObjC → Swift** | ObjC `[obj fooWithBar:]` | Swift `@objc func foo(bar:)` | Reverse-bridge name candidates; verifies `@objc` exposure from source |
+| **React Native legacy bridge** | JS `NativeModules.X.fn(...)` | ObjC `RCT_EXPORT_METHOD` / `RCT_REMAP_METHOD` · Java/Kotlin `@ReactMethod` | Parses macro/annotation declarations to build a JS-name → native-method map |
+| **React Native TurboModules** | JS `import M from './NativeM'; M.fn(...)` | Native impl matching the Codegen spec | Treats the `Native<X>.ts` spec interface as ground truth |
+| **RN native → JS events** | JS `new NativeEventEmitter(...).addListener('e', cb)` | ObjC `[self sendEventWithName:@"e" body:...]` · Swift `sendEvent(withName: "e", ...)` · Java/Kotlin `.emit("e", ...)` | Synthesized cross-language event channel keyed by literal event name |
+| **Expo Modules** | JS `requireNativeModule('X').fn(...)` | Swift / Kotlin `Module { Name("X"); AsyncFunction("fn") { ... } }` | Parses the Expo DSL literals; synthetic method nodes resolve via existing name-match |
+| **Fabric view components** | JSX `<MyView prop={v}/>` | TS Codegen spec + native impl class | Spec → `component` node; convention-based name+suffix lookup (`View`/`ComponentView`/`Manager`/`ViewManager`) bridges to native |
+| **Legacy Paper view managers** | JSX `<MyView prop={v}/>` | ObjC `RCT_EXPORT_VIEW_PROPERTY` · Java/Kotlin `@ReactProp` | Same as Fabric — Paper-era declarations also produce `component` + `property` nodes |
+
+**Validated on real codebases** (small + medium + large for each bridge):
+
+| Bridge | Small | Medium | Large |
+|---|---|---|---|
+| Swift ↔ ObjC | [Charts](https://github.com/danielgindi/Charts) | [realm-swift](https://github.com/realm/realm-swift) | [Wikipedia-iOS](https://github.com/wikimedia/wikipedia-ios) |
+| RN legacy bridge | [AsyncStorage](https://github.com/react-native-async-storage/async-storage) | [react-native-svg](https://github.com/software-mansion/react-native-svg) | [react-native-firebase](https://github.com/invertase/react-native-firebase) |
+| RN native → JS events | [RNGeolocation](https://github.com/Agontuk/react-native-geolocation-service) | — | react-native-firebase |
+| Expo Modules | expo-haptics | expo-camera | expo SDK sweep (7 packages) |
+| Fabric / Paper views | [react-native-segmented-control](https://github.com/react-native-segmented-control/segmented-control) | [react-native-screens](https://github.com/software-mansion/react-native-screens) | [react-native-skia](https://github.com/Shopify/react-native-skia) |
+
+Each bridge emits edges tagged `provenance:'heuristic'` with `metadata.synthesizedBy:` set to a stable channel name (e.g. `swift-objc-bridge`, `rn-event-channel`, `fabric-native-impl`, `expo-module-extract`), so the agent can tell at a glance how a hop got into the graph.
 
 ---
 
@@ -431,23 +461,25 @@ cg.close();
 
 ## Configuration
 
-There isn't any — CodeGraph is zero-config. It indexes every file whose
-extension maps to a [supported language](#supported-languages) and **respects
-your `.gitignore`**: in git repos via git itself, and in non-git projects by
-reading `.gitignore` files directly (root and nested, the same way git would).
+There isn't any — CodeGraph is zero-config, with **no config file** to write or
+keep in sync. Language support is automatic from the file extension; there's
+nothing to wire up per language.
 
-What that means in practice:
+What it skips out of the box:
 
-- Anything git ignores — `node_modules`, build output, secrets in `.env` — is
-  never indexed. **To keep something out of the graph, add it to `.gitignore`.**
-- There's no config file to write or keep in sync, and nothing to wire up per
-  language: support is automatic from the file extension.
-- Files larger than 1 MB are skipped (generated bundles, minified JS, vendored
-  blobs) — they cost parse budget for no useful symbols.
+- **Dependency, build, and cache directories** — `node_modules`, `vendor`,
+  `dist`, `build`, `target`, `.venv`, `Pods`, `.next`, and the like across every
+  [supported stack](#supported-languages) — so the graph is your code, not
+  third-party noise. This holds even with no `.gitignore`.
+- **Anything in your `.gitignore`** — honored in git repos via git, and in
+  non-git projects by reading `.gitignore` directly (root and nested).
+- **Files larger than 1 MB** — generated bundles, minified JS, vendored blobs.
 
-> Committed files that aren't gitignored *are* indexed, even under `vendor/` or a
-> committed `dist/`. If you commit a dependency or build directory you don't want
-> in the graph, add it to `.gitignore`.
+To keep something else out, add it to `.gitignore`. To pull a default-excluded
+directory back **in** (say you really do want a vendored dependency indexed),
+add a negation — `!vendor/`. The defaults apply uniformly, so committing a
+dependency or build directory doesn't force it into the graph; the `.gitignore`
+negation is the explicit opt-in.
 
 ## Supported Platforms
 
@@ -488,6 +520,7 @@ the MCP server and writing its instructions file:
 | Ruby | `.rb` | Full support |
 | C | `.c`, `.h` | Full support |
 | C++ | `.cpp`, `.hpp`, `.cc` | Full support |
+| Objective-C | `.m`, `.mm`, `.h` | Partial support (classes, protocols, methods, `@property`, `#import`, message sends; `.mm` ObjC++ may parse incompletely) |
 | Swift | `.swift` | Full support |
 | Kotlin | `.kt`, `.kts` | Full support |
 | Scala | `.scala`, `.sc` | Full support (classes, traits, methods, type aliases, Scala 3 enums) |
@@ -512,7 +545,7 @@ the MCP server and writing its instructions file:
 
 **MCP server not connecting** — Ensure the project is initialized/indexed, verify the path in your MCP config, and check that `codegraph serve --mcp` works from the command line.
 
-**Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't excluded by config patterns.
+**Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't inside a `.gitignore`d or default-excluded directory (e.g. `node_modules`, `dist`).
 
 ## Star History
 

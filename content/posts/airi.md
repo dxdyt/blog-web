@@ -1,9 +1,9 @@
 ---
 title: airi
-date: 2026-03-30T13:59:07+08:00
+date: 2026-05-26T15:45:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773613707312-5fff9c27abfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773613707312-5fff9c27abfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTAyNjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778301981932-3a047a01eacd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778301981932-3a047a01eacd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
 ---
 
 # [moeru-ai/airi](https://github.com/moeru-ai/airi)
@@ -42,7 +42,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1773613707312-5fff9c27ab
 
 <p float="left" align="center">
   <!-- readme-section:release-binary-windows -->
-  <a href="https://github.com/moeru-ai/airi/releases/download/v0.9.0-alpha.34/AIRI-0.9.0-alpha.34-windows-x64-setup.exe">
+  <a href="https://github.com/moeru-ai/airi/releases/download/v0.10.2/AIRI-0.10.2-windows-x64-setup.exe">
     <picture>
       <source
         width="33%"
@@ -58,7 +58,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1773613707312-5fff9c27ab
     </picture>
   </a>
   <!-- readme-section:release-binary-macos -->
-  <a href="https://github.com/moeru-ai/airi/releases/download/v0.9.0-alpha.34/AIRI-0.9.0-alpha.34-darwin-arm64.dmg">
+  <a href="https://github.com/moeru-ai/airi/releases/download/v0.10.2/AIRI-0.10.2-darwin-arm64.dmg">
     <picture>
       <source
         width="33%"
@@ -178,6 +178,7 @@ Therefore, this project, AIRI, offers another possibility here: **let you own yo
 
 ## DevLogs We Posted & Recent Updates
 
+- [DevLog @ 2026.03.23](https://airi.moeru.ai/docs/en/blog/DevLog-2026.03.23/) on March 23, 2026
 - [DevLog @ 2026.03.14](https://airi.moeru.ai/docs/en/blog/DevLog-2026.03.14/) on March 14, 2026
 - [DevLog @ 2026.02.16](https://airi.moeru.ai/docs/en/blog/DevLog-2026.02.16/) on February 16, 2026
 - [DevLog @ 2026.01.01](https://airi.moeru.ai/docs/en/blog/DevLog-2026.01.01/) on January 1, 2026
@@ -194,9 +195,9 @@ Unlike the other AI driven VTuber open source projects, アイリ was built with
 > [!TIP]
 > Worrying about the performance drop since we are using Web related technologies?
 >
-> Don't worry, while Web browser version is meant to give an insight about how much we can push and do inside browsers, and webviews, we will never fully rely on this, the desktop version of AIRI is capable of using native [NVIDIA CUDA](https://developer.nvidia.com/cuda-toolkit) and [Apple Metal](https://developer.apple.com/metal/) by default (thanks to HuggingFace & beloved [candle](https://github.com/huggingface/candle) project), without any complex dependency managements, considering the tradeoff, it was partially powered by Web technologies for graphics, layouts, animations, and the WIP plugin systems for everyone to integrate things.
+> Don't worry, while the Web browser version is meant to give an insight into how much we can push and do inside browsers and webviews, we will never fully rely on this. The desktop version of AIRI is capable of using native [NVIDIA CUDA](https://developer.nvidia.com/cuda-toolkit) and [Apple Metal](https://developer.apple.com/metal/) by default (thanks to HuggingFace & the beloved [candle](https://github.com/huggingface/candle) project), without any complex dependency management. Considering the tradeoff, it is partially powered by Web technologies for graphics, layouts, animations, and the WIP plugin system for everyone to integrate things.
 
-This means that **アイリ is capable of running on modern browsers and devices** and even on mobile devices (already done with PWA support). This brings a lot of possibilities for us (the developers) to build and extend the power of アイリ VTuber to the next level, while still leaving the flexibilities for users to enable features that requires TCP connections or other non-Web technologies such as connecting to a Discord voice channel or playing Minecraft and Factorio with friends.
+This means that **アイリ is capable of running on modern browsers and devices** and even on mobile devices (already done with PWA support). This brings a lot of possibilities for us (the developers) to build and extend the power of アイリ VTuber to the next level, while still leaving the flexibility for users to enable features that require TCP connections or other non-Web technologies such as connecting to a Discord voice channel or playing Minecraft and Factorio with friends.
 
 > [!NOTE]
 >
@@ -329,7 +330,7 @@ pnpm dev:docs
 
 ### Publish
 
-Please update the version in `Cargo.toml` after running `bumpp`:
+Run `bumpp` to update the monorepo version:
 
 ```shell
 npx bumpp --no-commit --no-tag
@@ -368,6 +369,7 @@ npx bumpp --no-commit --no-tag
 - [x] [Tencent Cloud](https://cloud.tencent.com/document/product/1729)
 - [ ] [Sparks](https://www.xfyun.cn/doc/spark/Web.html) (PR welcome)
 - [ ] [Volcano Engine](https://www.volcengine.com/experience/ark?utm_term=202502dsinvite&ac=DSASUQY5&rc=2QXCA1VI) (PR welcome)
+- [x] [Xiaomi Mimo](https://platform.xiaomimimo.com)
 
 ## Sub-projects Born from This Project
 
@@ -378,7 +380,6 @@ npx bumpp --no-commit --no-tag
 - [WebAI: Realtime Voice Chat](https://github.com/proj-airi/webai-realtime-voice-chat): Full example of implementing ChatGPT's realtime voice from scratch with VAD + STT + LLM + TTS.
 - [`@proj-airi/drizzle-duckdb-wasm`](https://github.com/moeru-ai/airi/tree/main/packages/drizzle-duckdb-wasm/README.md): Drizzle ORM driver for DuckDB WASM
 - [`@proj-airi/duckdb-wasm`](https://github.com/moeru-ai/airi/tree/main/packages/duckdb-wasm/README.md): Easy to use wrapper for `@duckdb/duckdb-wasm`
-- [`tauri-plugin-mcp`](https://github.com/moeru-ai/airi/blob/main/crates/tauri-plugin-mcp/README.md): A Tauri plugin for interacting with MCP servers.
 - [AIRI Factorio](https://github.com/moeru-ai/airi-factorio): Allow AIRI to play Factorio.
 - [AIRI DomeKeeper](https://github.com/proj-airi/game-playing-ai-dome-keeper): Allow AIRI to play DomeKeeper.
 - [Factorio RCON API](https://github.com/nekomeowww/factorio-rcon-api): RESTful API wrapper for Factorio headless server console
@@ -460,7 +461,6 @@ flowchart TD
   XSAI --> F_AGENT
   XSAI --> MC_AGENT
 
-  Core --> TauriMCP("@proj-airi/tauri-plugin-mcp")
   Memory_PGVector("@proj-airi/memory-pgvector") --> Memory
 
   style Core fill:#f9d4d4,stroke:#333,stroke-width:1px

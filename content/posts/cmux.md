@@ -1,9 +1,9 @@
 ---
 title: cmux
-date: 2026-05-25T16:21:07+08:00
+date: 2026-05-26T15:44:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778443693420-5f945f8ab36f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778443693420-5f945f8ab36f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
 ---
 
 # [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)

@@ -1,9 +1,9 @@
 ---
 title: FinceptTerminal
-date: 2026-05-24T15:20:27+08:00
+date: 2026-05-26T15:44:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2MDcxODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
 ---
 
 # [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)

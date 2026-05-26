@@ -1,9 +1,9 @@
 ---
 title: knowledge-work-plugins
-date: 2026-05-25T16:20:12+08:00
+date: 2026-05-26T15:43:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779032667524-1fe4a25f3770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779032667524-1fe4a25f3770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
