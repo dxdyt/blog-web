@@ -1,9 +1,9 @@
 ---
 title: awesome-free-apps
-date: 2026-05-26T15:45:17+08:00
+date: 2026-05-27T16:03:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778648185777-a16f70110e29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778648185777-a16f70110e29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
 ---
 
 # [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps)
@@ -31,7 +31,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1778648185777-a16f70110e
 
 ## Contents
 
-<!-- AF-TOC : Thursday, March 26, 2026 at 06:32:49 PM UTC -->
+<!-- AF-TOC : Tuesday, May 26, 2026 at 07:53:21 AM UTC -->
 
 - [Audio](#audio)
   - [Audio Players](#audio-players)
@@ -293,6 +293,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1778648185777-a16f70110e
 - [DBeaver](https://dbeaver.io) - Universal database tool for SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more. 🪟 🍎 🐧 ⭐
 - [Beekeeper Studio](https://beekeeperstudio.io) - Modern, lightweight SQL client supporting MySQL, Postgres, SQLite, SQL Server, etc. 🪟 🍎 🐧
 - [DB Browser for SQLite](https://sqlitebrowser.org) - Visual tool for creating, browsing, and editing SQLite database files. 🪟 🍎 🐧 [🟢](https://github.com/sqlitebrowser/sqlitebrowser)
+- [DearSQL](https://dearsql.dev) - Lightweight native database client built with Dear ImGui, supporting SQL and NoSQL databases. 🪟 🍎 🐧 [🟢](https://github.com/dunkbing/dearsql)
 
 ### Network Analysis
 
@@ -404,6 +405,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1778648185777-a16f70110e
 - [Simplenote](https://simplenote.com) - Minimalist note-taking app that syncs across devices. 🪟 🍎 🐧 [🟢](https://github.com/Automattic/simplenote-electron)
 - [qnote](https://github.com/Omibranch/qnote) - Minimal frameless notepad with Markdown preview, real PDF export via Typst, OCR via Tesseract, and automatic version history. 🐧 [🟢](https://github.com/Omibranch/qnote)
 - [fylepad](https://fylepad.vercel.app) - Lightweight notepad with powerful rich-text editing. 🪟 🍎 🐧 [🟢](https://github.com/imrofayel/fylepad)
+- [plumio](https://plumio.app) - Privacy-first, open-source, self-hostable notes-taking app. 🪟 🍎 🐧 [🟢](https://github.com/albertasaftei/plumio)
 
 ## Text Editors
 

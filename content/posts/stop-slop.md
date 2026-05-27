@@ -1,9 +1,9 @@
 ---
 title: stop-slop
-date: 2026-05-26T15:45:27+08:00
+date: 2026-05-27T16:03:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778534617838-3df52dab5387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778534617838-3df52dab5387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
 ---
 
 # [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)

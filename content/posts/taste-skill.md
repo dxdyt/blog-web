@@ -1,9 +1,9 @@
 ---
 title: taste-skill
-date: 2026-05-26T15:44:56+08:00
+date: 2026-05-27T16:03:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778648185777-a16f70110e29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778648185777-a16f70110e29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
 ---
 
 # [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
@@ -68,6 +68,24 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-fro
 ```
 
 You can also copy any `SKILL.md` into your project or paste it into ChatGPT / Codex conversations.
+
+### Updating from the previous version
+
+The default `taste-skill` (install name `design-taste-frontend`) is now **v2 (experimental)**, a substantial rewrite of the original v1. If you already have v1 installed, just re-run the install command and you will be upgraded:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
+```
+
+The install name did not change, so no script updates are needed. The newer SKILL.md replaces the older one in place.
+
+If you depend on the exact behavior of v1 and want to pin to it explicitly:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend-v1"
+```
+
+See [CHANGELOG.md](CHANGELOG.md) for the full v1 to v2 diff and the rationale.
 
 ## Skills
 

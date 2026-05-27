@@ -1,9 +1,9 @@
 ---
 title: Understand-Anything
-date: 2026-05-26T15:43:31+08:00
+date: 2026-05-27T16:02:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777033481363-96640776ae62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk3ODE0MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778534617838-3df52dab5387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778534617838-3df52dab5387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
 ---
 
 # [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
