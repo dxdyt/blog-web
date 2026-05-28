@@ -1,9 +1,9 @@
 ---
 title: awesome-free-apps
-date: 2026-05-27T16:03:58+08:00
+date: 2026-05-28T15:58:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779144641011-95e8b477acd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4Njg5NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779071267081-3b4d5d884388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk5NTQ5OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779071267081-3b4d5d884388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk5NTQ5OTd8&ixlib=rb-4.1.0
 ---
 
 # [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps)
@@ -240,6 +240,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1779144641011-95e8b477ac
 - [ScreenPlay](https://github.com/kelteseth/ScreenPlay) - Wallpaper and widget engine. 🪟 🐧 🟢
 - [Variety](https://github.com/varietywalls/variety) - Wallpaper changer with features for downloading and managing wallpapers. 🐧 🟢
 - [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Port of macOS Mojave Dynamic Desktop feature to Windows. 🪟 🟢
+- [Sucrose](https://github.com/Taiizor/Sucrose) - Versatile wallpaper engine bringing life to your desktop with a wide range of interactive themes. 🪟 🟢
 
 ## Data Management
 
