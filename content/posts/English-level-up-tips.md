@@ -1,9 +1,9 @@
 ---
 title: English-level-up-tips
-date: 2026-05-29T15:55:47+08:00
+date: 2026-05-30T14:45:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778063368822-40ca850c69d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778063368822-40ca850c69d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774273184279-2e0525893336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774273184279-2e0525893336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
 ---
 
 # [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)

@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2026-05-29T15:55:00+08:00
+date: 2026-05-30T14:44:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779801852397-3c9fec843c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779801852397-3c9fec843c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764268972884-d9cb970a1a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764268972884-d9cb970a1a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -171,7 +171,7 @@ docker-compose up
 
 #### ② 访问Web界面
 
-打开浏览器，访问 http://0.0.0.0:8501
+打开浏览器，访问 http://127.0.0.1:8501
 
 #### ③ 访问API文档
 
@@ -235,15 +235,13 @@ pip install -r requirements.txt
 
 ###### Windows
 
-```shell
-uv run streamlit run ./webui/Main.py --browser.gatherUsageStats=False
+```powershell
+.\webui.bat
 ```
 
-如果你已经手动激活了虚拟环境，也可以直接执行：
-
-```bat
-webui.bat
-```
+在 CMD 中也可以执行 `webui.bat`。
+`webui.bat` 会优先使用项目 `.venv` 或一键包内置 Python；如果没有找到项目 Python，但已安装 `uv`，会自动切换为 `uv run streamlit`。
+如需允许局域网内其他设备访问 WebUI，可以先执行 `set MPT_WEBUI_HOST=0.0.0.0`，再运行 `webui.bat`。
 
 ###### MacOS or Linux
 

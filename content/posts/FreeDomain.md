@@ -1,9 +1,9 @@
 ---
 title: FreeDomain
-date: 2026-05-29T15:55:37+08:00
+date: 2026-05-30T14:45:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777489967696-4a161b3926bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777489967696-4a161b3926bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777914190124-8d691afde94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777914190124-8d691afde94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
 ---
 
 # [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)
