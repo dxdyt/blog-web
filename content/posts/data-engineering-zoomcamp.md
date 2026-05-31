@@ -1,9 +1,9 @@
 ---
 title: data-engineering-zoomcamp
-date: 2026-05-30T14:45:56+08:00
+date: 2026-05-31T15:46:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778546978358-da7b89845f5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778546978358-da7b89845f5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778704822016-24f082b69eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778704822016-24f082b69eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)

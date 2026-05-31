@@ -1,9 +1,9 @@
 ---
 title: plugins
-date: 2026-05-30T14:44:47+08:00
+date: 2026-05-31T15:45:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777914190124-8d691afde94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777914190124-8d691afde94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289935157-f64bc178b47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289935157-f64bc178b47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [cursor/plugins](https://github.com/cursor/plugins)

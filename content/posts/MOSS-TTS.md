@@ -1,9 +1,9 @@
 ---
 title: MOSS-TTS
-date: 2026-05-29T15:56:41+08:00
+date: 2026-05-31T15:46:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779859795530-407b75c5d3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779859795530-407b75c5d3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAwNDEyOTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778704822016-24f082b69eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778704822016-24f082b69eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)

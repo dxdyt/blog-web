@@ -1,9 +1,9 @@
 ---
 title: stable-worldmodel
-date: 2026-05-30T14:45:01+08:00
+date: 2026-05-31T15:46:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777432033552-5b34be22ae46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777432033552-5b34be22ae46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel)

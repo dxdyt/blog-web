@@ -1,9 +1,9 @@
 ---
 title: compound-engineering-plugin
-date: 2026-05-30T14:44:25+08:00
+date: 2026-05-31T15:45:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAxMjM0NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778400599089-af77d9a2c916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778400599089-af77d9a2c916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)

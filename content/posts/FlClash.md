@@ -1,9 +1,9 @@
 ---
 title: FlClash
-date: 2024-08-28T12:19:40+08:00
+date: 2026-05-31T15:46:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723507450975-006bd40d87de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723507450975-006bd40d87de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1768210837703-6fe5f5afbaa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768210837703-6fe5f5afbaa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
 ---
 
 # [chen08209/FlClash](https://github.com/chen08209/FlClash)
@@ -16,13 +16,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1723507450975-006bd40d87
 
 ## FlClash
 
-<p style="text-align: left;">
-    <img alt="stars" src="https://img.shields.io/github/stars/chen08209/FlClash?style=flat-square&logo=github"/>
-    <img alt="downloads" src="https://img.shields.io/github/downloads/chen08209/FlClash/total"/>
-    <a href="LICENSE">
-        <img alt="license" src="https://img.shields.io/github/license/chen08209/FlClash"/>
-    </a>
-</p>
+[![Downloads](https://img.shields.io/github/downloads/chen08209/FlClash/total?style=flat-square&logo=github)](https://github.com/chen08209/FlClash/releases/)[![Last Version](https://img.shields.io/github/release/chen08209/FlClash/all.svg?style=flat-square)](https://github.com/chen08209/FlClash/releases/)[![License](https://img.shields.io/github/license/chen08209/FlClash?style=flat-square)](LICENSE)
+
+[![Channel](https://img.shields.io/badge/Telegram-Channel-blue?style=flat-square&logo=telegram)](https://t.me/FlClash)
 
 A multi-platform proxy client based on ClashMeta, simple and easy to use, open-source and ad-free.
 
@@ -48,13 +44,32 @@ on Mobile:
 
 ✨ Support subscription link, Dark mode
 
+## Use
+
+### Linux
+
+⚠️ Make sure to install the following dependencies before using them
+
+   ```bash
+    sudo apt-get install libayatana-appindicator3-dev
+    sudo apt-get install libkeybinder-3.0-dev
+   ```
+
+### Android
+
+Support the following actions
+
+   ```bash
+    com.follow.clash.action.START
+    
+    com.follow.clash.action.STOP
+    
+    com.follow.clash.action.TOGGLE
+   ```
+
 ## Download
 
 <a href="https://chen08209.github.io/FlClash-fdroid-repo/repo?fingerprint=789D6D32668712EF7672F9E58DEEB15FBD6DCEEC5AE7A4371EA72F2AAE8A12FD"><img alt="Get it on F-Droid" src="snapshots/get-it-on-fdroid.svg" width="200px"/></a> <a href="https://github.com/chen08209/FlClash/releases"><img alt="Get it on GitHub" src="snapshots/get-it-on-github.svg" width="200px"/></a>
-
-## Contact
-
-[Telegram](https://t.me/+G-veVtwBOl4wODc1)
 
 ## Build
 
@@ -69,50 +84,52 @@ on Mobile:
 
     - android
 
-        1. Install  `Android SDK` ,  `Android NDK`
+        1. Install `Android SDK`, `Android NDK`
 
-        2. Set `ANDROID_NDK` environment variables
-
-        3. Run Build script
-
-           ```bash
-           dart .\setup.dart android
-           ```
-
-    - windows
-
-        1. You need a windows client
-
-        2. Install  `Gcc`，`Inno Setup`
+        2. Set `ANDROID_NDK` environment variable
 
         3. Run build script
 
            ```bash
-           dart .\setup.dart	
+           dart setup.dart android
+           ```
+
+    - windows
+
+        1. Requires a Windows client
+
+        2. Install `GCC`, `Inno Setup`
+
+        3. Run build script
+
+           ```bash
+           dart setup.dart windows
            ```
 
     - linux
 
-        1. You need a linux client
+        1. Requires a Linux client
 
-        2. Run build script
+        2. Dependencies are auto-installed by setup script, or manually:
+           ```bash
+           sudo apt-get install -y libayatana-appindicator3-dev libkeybinder-3.0-dev
+           ```
+
+        3. Run build script
 
            ```bash
-           dart .\setup.dart	
+           dart setup.dart linux
            ```
 
     - macOS
 
-        1. You need a macOS client
+        1. Requires a macOS client
 
         2. Run build script
 
            ```bash
-           dart .\setup.dart	
+           dart setup.dart macos
            ```
-           
-
-    
 
 ## Star
 
