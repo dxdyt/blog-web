@@ -1,9 +1,9 @@
 ---
 title: supermemory
-date: 2026-03-26T13:41:39+08:00
+date: 2026-06-01T17:26:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773754371144-9dcb02249c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773754371144-9dcb02249c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777903676196-47f9c75ce5c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777903676196-47f9c75ce5c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
 ---
 
 # [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1773754371144-9dcb02249c
 </p>
 
 <p align="center">
-  <strong>State-of-the-art memory and context engine for AI.</strong>
+  <strong>State-of-the-art memory and context engine for AI. And yes - you can use it as a company/personal brain.</strong>
 </p>
 
 <p align="center">
@@ -105,7 +105,7 @@ It also comes with an agent embedded inside, which we call Nova.
 
 ### Supermemory Plugins
 
-Supermemory comes built with Plugins for Claude Code, OpenCode and OpenClaw.
+Supermemory comes built with Plugins for Claude Code, OpenCode, OpenClaw, and Hermes.
 
 <img width="844" height="484" alt="image" src="https://github.com/user-attachments/assets/ecb879a2-8652-495d-9228-f305a97ba603" />
 
@@ -116,6 +116,7 @@ You can find them here:
 - Openclaw plugin: https://github.com/supermemoryai/openclaw-supermemory
 - Claude code plugin: https://github.com/supermemoryai/claude-supermemory
 - OpenCode plugin: https://github.com/supermemoryai/opencode-supermemory
+- Hermes agent (Supermemory memory provider): https://github.com/NousResearch/hermes-agent
 
 ### MCP - Quick install
 
@@ -147,7 +148,7 @@ Memory is scoped with **projects** (container tags) so you can separate work and
 
 ### Supported clients
 
-**Claude Desktop** · **Cursor** · **Windsurf** · **VS Code** · **Claude Code** · **OpenCode** · **OpenClaw**
+**Claude Desktop** · **Cursor** · **Windsurf** · **VS Code** · **Claude Code** · **OpenCode** · **OpenClaw** · **Hermes**
 
 The MCP server is open source — [view the source](https://supermemory.ai/docs/supermemory-mcp/mcp).
 
@@ -241,7 +242,7 @@ Drop-in wrappers for every major AI framework:
 ```typescript
 // Vercel AI SDK
 import { withSupermemory } from "@supermemory/tools/ai-sdk";
-const model = withSupermemory(openai("gpt-4o"), "user_123");
+const model = withSupermemory(openai("gpt-4o"), { containerTag: "user_123", customId: "conv-1" });
 
 // Mastra
 import { withSupermemory } from "@supermemory/tools/mastra";

@@ -1,9 +1,9 @@
 ---
 title: train-llm-from-scratch
-date: 2026-05-31T15:46:32+08:00
+date: 2026-06-01T17:26:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777925118898-d895eed4c8d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777925118898-d895eed4c8d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778084401179-282263a7e928?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778084401179-282263a7e928?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
 ---
 
 # [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch)

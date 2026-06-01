@@ -1,9 +1,9 @@
 ---
 title: markitdown
-date: 2026-05-31T15:45:05+08:00
+date: 2026-06-01T17:25:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777432033552-5b34be22ae46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777432033552-5b34be22ae46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/markitdown](https://github.com/microsoft/markitdown)
