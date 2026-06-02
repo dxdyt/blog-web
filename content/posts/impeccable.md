@@ -1,67 +1,91 @@
 ---
 title: impeccable
-date: 2026-03-11T13:12:17+08:00
+date: 2026-06-02T16:37:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772475329864-e30a2f1278c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772475329864-e30a2f1278c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyMDU4NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778409445285-2c63c0c2ecca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778409445285-2c63c0c2ecca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
 ---
 
 # [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
 
 # Impeccable
 
-The vocabulary you didn't know you needed. 1 skill, 17 commands, and curated anti-patterns for impeccable frontend design.
+The vocabulary you didn't know you needed. 1 skill, 23 commands, and curated anti-patterns for impeccable frontend design.
 
 > **Quick start:** Visit [impeccable.style](https://impeccable.style) to download ready-to-use bundles.
 
 ## Why Impeccable?
 
-Anthropic created [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design), a skill that guides Claude toward better UI design. Impeccable builds on that foundation with deeper expertise and more control.
+Anthropic's [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) was the first widely-used design skill for Claude. Impeccable started from there.
 
-Every LLM learned from the same generic templates. Without guidance, you get the same predictable mistakes: Inter font, purple gradients, cards nested in cards, gray text on colored backgrounds.
+Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile above every heading.
 
-Impeccable fights that bias with:
-- **An expanded skill** with 7 domain-specific reference files ([view source](source/skills/frontend-design/))
-- **17 steering commands** to audit, review, polish, distill, animate, and more
-- **Curated anti-patterns** that explicitly tell the AI what NOT to do
+Impeccable adds:
+- **7 domain reference files** ([view source](skill/)). Typography, color, motion, spatial, interaction, responsive, UX writing. Load on every command, alongside a brand-vs-product register that adjusts the defaults.
+- **23 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`, and more.
+- **27 deterministic anti-pattern rules** plus a 12-rule LLM critique pass. CLI and browser extension run the deterministic ones with no LLM and no API key. Each is tied to specific design guidance the skill teaches against.
 
 ## What's Included
 
-### The Skill: frontend-design
+### The Skill: impeccable
 
-A comprehensive design skill with 7 domain-specific references ([view skill](source/skills/frontend-design/SKILL.md)):
+A comprehensive design skill with 7 domain-specific references ([view skill](skill/SKILL.src.md)):
 
 | Reference | Covers |
 |-----------|--------|
-| [typography](source/skills/frontend-design/reference/typography.md) | Type systems, font pairing, modular scales, OpenType |
-| [color-and-contrast](source/skills/frontend-design/reference/color-and-contrast.md) | OKLCH, tinted neutrals, dark mode, accessibility |
-| [spatial-design](source/skills/frontend-design/reference/spatial-design.md) | Spacing systems, grids, visual hierarchy |
-| [motion-design](source/skills/frontend-design/reference/motion-design.md) | Easing curves, staggering, reduced motion |
-| [interaction-design](source/skills/frontend-design/reference/interaction-design.md) | Forms, focus states, loading patterns |
-| [responsive-design](source/skills/frontend-design/reference/responsive-design.md) | Mobile-first, fluid design, container queries |
-| [ux-writing](source/skills/frontend-design/reference/ux-writing.md) | Button labels, error messages, empty states |
+| [typography](skill/reference/typography.md) | Type systems, font pairing, modular scales, OpenType |
+| [color-and-contrast](skill/reference/color-and-contrast.md) | OKLCH, tinted neutrals, dark mode, accessibility |
+| [spatial-design](skill/reference/spatial-design.md) | Spacing systems, grids, visual hierarchy |
+| [motion-design](skill/reference/motion-design.md) | Easing curves, staggering, reduced motion |
+| [interaction-design](skill/reference/interaction-design.md) | Forms, focus states, loading patterns |
+| [responsive-design](skill/reference/responsive-design.md) | Mobile-first, fluid design, container queries |
+| [ux-writing](skill/reference/ux-writing.md) | Button labels, error messages, empty states |
 
-### 17 Commands
+### 23 Commands
+
+All commands are accessed through `/impeccable`:
 
 | Command | What it does |
 |---------|--------------|
-| `/teach-impeccable` | One-time setup: gather design context, save to config |
-| `/audit` | Run technical quality checks (a11y, performance, responsive) |
-| `/critique` | UX design review: hierarchy, clarity, emotional resonance |
-| `/normalize` | Align with design system standards |
-| `/polish` | Final pass before shipping |
-| `/distill` | Strip to essence |
-| `/clarify` | Improve unclear UX copy |
-| `/optimize` | Performance improvements |
-| `/harden` | Error handling, i18n, edge cases |
-| `/animate` | Add purposeful motion |
-| `/colorize` | Introduce strategic color |
-| `/bolder` | Amplify boring designs |
-| `/quieter` | Tone down overly bold designs |
-| `/delight` | Add moments of joy |
-| `/extract` | Pull into reusable components |
-| `/adapt` | Adapt for different devices |
-| `/onboard` | Design onboarding flows |
+| `/impeccable craft` | Full shape-then-build flow with visual iteration |
+| `/impeccable init` | One-time setup: gather design context, write PRODUCT.md and DESIGN.md, configure live mode, recommend next steps |
+| `/impeccable document` | Generate root DESIGN.md from existing project code |
+| `/impeccable extract` | Pull reusable components and tokens into the design system |
+| `/impeccable shape` | Plan UX/UI before writing code |
+| `/impeccable critique` | UX design review: hierarchy, clarity, emotional resonance |
+| `/impeccable audit` | Run technical quality checks (a11y, performance, responsive) |
+| `/impeccable polish` | Final pass, design system alignment, and shipping readiness |
+| `/impeccable bolder` | Amplify boring designs |
+| `/impeccable quieter` | Tone down overly bold designs |
+| `/impeccable distill` | Strip to essence |
+| `/impeccable harden` | Error handling, i18n, text overflow, edge cases |
+| `/impeccable onboard` | First-run flows, empty states, activation paths |
+| `/impeccable animate` | Add purposeful motion |
+| `/impeccable colorize` | Introduce strategic color |
+| `/impeccable typeset` | Fix font choices, hierarchy, sizing |
+| `/impeccable layout` | Fix layout, spacing, visual rhythm |
+| `/impeccable delight` | Add moments of joy |
+| `/impeccable overdrive` | Add technically extraordinary effects |
+| `/impeccable clarify` | Improve unclear UX copy |
+| `/impeccable adapt` | Adapt for different devices |
+| `/impeccable optimize` | Performance improvements |
+| `/impeccable live` | Visual variant mode: iterate on elements in the browser |
+
+Use `/impeccable pin <command>` to create standalone shortcuts (e.g., `pin audit` creates `/audit`).
+
+#### Usage Examples
+
+```
+/impeccable audit blog           # Audit blog hub + post pages
+/impeccable critique landing     # UX design review
+/impeccable polish settings      # Final pass before shipping
+/impeccable harden checkout      # Add error handling + edge cases
+```
+
+Or use `/impeccable` directly with a description:
+```
+/impeccable redo this hero section
+```
 
 ### Anti-Patterns
 
@@ -79,11 +103,23 @@ Visit [impeccable.style](https://impeccable.style#casestudies) to see before/aft
 
 ## Installation
 
-### Option 1: Download from Website (Recommended)
+### Option 1: CLI installer (Recommended)
+
+From the root of your project, run:
+
+```bash
+npx impeccable skills install
+```
+
+This auto-detects your harness and writes the build compiled for it to the right location (`.claude/skills/`, `.cursor/skills/`, etc.). Works with Cursor, Claude Code, Gemini CLI, Codex CLI, and every other supported tool. Reload your harness afterward.
+
+Claude Code users can alternatively install the plugin with `/plugin marketplace add pbakaus/impeccable`. The general-purpose `npx skills add pbakaus/impeccable` also works, though it installs one shared build for all harnesses rather than the one compiled for yours.
+
+### Option 2: Download from Website
 
 Visit [impeccable.style](https://impeccable.style), download the ZIP for your tool, and extract to your project.
 
-### Option 2: Copy from Repository
+### Option 3: Copy from Repository
 
 **Cursor:**
 ```bash
@@ -105,6 +141,16 @@ cp -r dist/claude-code/.claude your-project/
 cp -r dist/claude-code/.claude/* ~/.claude/
 ```
 
+**OpenCode:**
+```bash
+cp -r dist/opencode/.opencode your-project/
+```
+
+**Pi:**
+```bash
+cp -r dist/pi/.pi your-project/
+```
+
 **Gemini CLI:**
 ```bash
 cp -r dist/gemini/.gemini your-project/
@@ -119,35 +165,112 @@ cp -r dist/gemini/.gemini your-project/
 
 **Codex CLI:**
 ```bash
-cp -r dist/codex/.codex/* ~/.codex/
+# Project-local
+cp -r dist/agents/.agents your-project/
+
+# Or user-wide
+mkdir -p ~/.agents/skills
+cp -r dist/agents/.agents/skills/* ~/.agents/skills/
+```
+
+> The asset-producer subagent ships nested inside the skill's own `agents/` folder, which Codex auto-discovers. No separate `.codex/agents/` copy is needed.
+
+**GitHub Copilot:**
+```bash
+cp -r dist/github/.github your-project/
+```
+
+**Trae:**
+```bash
+# Trae China (domestic version)
+cp -r dist/trae/.trae-cn/skills/* ~/.trae-cn/skills/
+
+# Trae International
+cp -r dist/trae/.trae/skills/* ~/.trae/skills/
+```
+
+> **Note:** Trae has two versions with different config directories:
+> - **Trae China**: `~/.trae-cn/skills/`
+> - **Trae International**: `~/.trae/skills/`
+>
+> After copying, restart Trae IDE to activate the skills.
+
+**Rovo Dev:**
+```bash
+# Project-specific
+cp -r dist/rovo-dev/.rovodev your-project/
+
+# Or global (applies to all projects)
+cp -r dist/rovo-dev/.rovodev/skills/* ~/.rovodev/skills/
+```
+
+**Qoder:**
+```bash
+# Project-specific
+cp -r dist/qoder/.qoder your-project/
+
+# Or global (applies to all projects)
+cp -r dist/qoder/.qoder/skills/* ~/.qoder/skills/
 ```
 
 ## Usage
 
-Once installed, use commands in your AI harness:
+Once installed, every command runs through the single `/impeccable` skill:
 
 ```
-/audit           # Find issues
-/normalize       # Fix inconsistencies
-/polish          # Final cleanup
-/distill         # Remove complexity
+/impeccable audit        # Find issues
+/impeccable polish       # Final cleanup
+/impeccable distill      # Remove complexity
+/impeccable critique     # Full design review
 ```
+
+Type `/impeccable` alone to see the full command list.
 
 Most commands accept an optional argument to focus on a specific area:
 
 ```
-/audit header
-/polish checkout-form
+/impeccable audit the header
+/impeccable polish the checkout form
 ```
 
-**Note:** Codex CLI uses a different syntax: `/prompts:audit`, `/prompts:polish`, etc.
+If you reach for one command often, pin it with `/impeccable pin audit` to get `/audit` as a standalone shortcut.
+
+**Note:** Codex uses skills here, not `/prompts:` commands. Open `/skills` or type `$impeccable`. Repo-local installs live in `.agents/skills/`; user-wide installs live in `~/.agents/skills/`. GitHub Copilot uses `.github/skills/`. Restart the tool if a newly installed skill does not appear.
+
+## CLI
+
+Impeccable includes a standalone CLI for detecting anti-patterns without an AI harness:
+
+```bash
+npx impeccable detect src/                   # scan a directory
+npx impeccable detect index.html             # scan an HTML file
+npx impeccable detect https://example.com    # scan a URL (Puppeteer)
+npx impeccable detect --fast --json .        # regex-only, JSON output
+```
+
+The detector catches 24 issues across AI slop (side-tab borders, purple gradients, bounce easing, dark glows) and general design quality (line length, cramped padding, small touch targets, skipped headings, and more).
 
 ## Supported Tools
 
 - [Cursor](https://cursor.com)
 - [Claude Code](https://claude.ai/code)
+- [OpenCode](https://opencode.ai)
+- [Pi](https://pi.dev)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - [Codex CLI](https://github.com/openai/codex)
+- [VS Code Copilot](https://code.visualstudio.com)
+- [Kiro](https://kiro.dev)
+- [Trae](https://trae.ai)
+- [Rovo Dev](https://www.atlassian.com/software/rovo)
+- [Qoder](https://qoder.com)
+
+## Community & Ecosystem
+
+Join the community and ecosystem conversations:
+
+- GitHub Discussions: file bugs, request features, and help newcomers.
+- [Impeccable on npm](https://www.npmjs.com/package/impeccable): grab the CLI, follow releases, and star the package.
+- Follow @pbakaus on Twitter for release notes, sample lint reports, and video highlights of new rules.
 
 ## Contributing
 
@@ -157,7 +280,7 @@ See [DEVELOP.md](DEVELOP.md) for contributor guidelines and build instructions.
 
 Apache 2.0. See [LICENSE](LICENSE).
 
-The frontend-design skill builds on [Anthropic's original](https://github.com/anthropics/skills/tree/main/skills/frontend-design). See [NOTICE.md](NOTICE.md) for attribution.
+The impeccable skill builds on [Anthropic's original frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design). See [NOTICE.md](NOTICE.md) for attribution.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: TradingAgents
-date: 2026-05-05T14:15:37+08:00
+date: 2026-06-02T16:37:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1775980167814-6155503d497b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1775980167814-6155503d497b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778004930342-91a0353fc283?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778004930342-91a0353fc283?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
 ---
 
 # [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
@@ -38,7 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1775980167814-6155503d49
 # TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ## News
-- [2026-04] **TradingAgents v0.2.4** released with structured-output agents (Research Manager, Trader, Portfolio Manager), LangGraph checkpoint resume, persistent decision log, DeepSeek/Qwen/GLM/Azure provider support, Docker, and a Windows UTF-8 encoding fix. See [CHANGELOG.md](CHANGELOG.md) for the full list.
+- [2026-05] **TradingAgents v0.2.5** released with the grounded Sentiment Analyst, GPT-5.5 etc. model coverage, Qwen/GLM/MiniMax dual-region support, `TRADINGAGENTS_*` env-var configurability with API-key auto-detection, remote Ollama support, non-US alpha benchmarks, and ticker path-traversal hardening. See [CHANGELOG.md](CHANGELOG.md) for the full list.
+- [2026-04] **TradingAgents v0.2.4** released with structured-output agents (Research Manager, Trader, Portfolio Manager), LangGraph checkpoint resume, persistent decision log, DeepSeek/Qwen/GLM/Azure provider support, Docker, and a Windows UTF-8 encoding fix.
 - [2026-03] **TradingAgents v0.2.3** released with multi-language support, GPT-5.4 family models, unified model catalog, backtesting date fidelity, and proxy support.
 - [2026-03] **TradingAgents v0.2.2** released with GPT-5.4/Gemini 3.1/Claude 4.6 model coverage, five-tier rating scale, OpenAI Responses API, Anthropic effort control, and cross-platform stability.
 - [2026-02] **TradingAgents v0.2.0** released with multi-provider LLM support (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x) and improved system architecture.
@@ -74,11 +75,11 @@ TradingAgents is a multi-agent trading framework that mirrors the dynamics of re
 
 > TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](https://tauric.ai/disclaimer/)
 
-Our framework decomposes complex trading tasks into specialized roles. This ensures the system achieves a robust, scalable approach to market analysis and decision-making.
+Our framework decomposes complex trading tasks into specialized roles.
 
 ### Analyst Team
 - Fundamentals Analyst: Evaluates company financials and performance metrics, identifying intrinsic values and potential red flags.
-- Sentiment Analyst: Analyzes social media and public sentiment using sentiment scoring algorithms to gauge short-term market mood.
+- Sentiment Analyst: Aggregates news headlines, StockTwits, and Reddit chatter into a single sentiment read to gauge short-term market mood.
 - News Analyst: Monitors global news and macroeconomic indicators, interpreting the impact of events on market conditions.
 - Technical Analyst: Utilizes technical indicators (like MACD and RSI) to detect trading patterns and forecast price movements.
 
@@ -94,7 +95,7 @@ Our framework decomposes complex trading tasks into specialized roles. This ensu
 </p>
 
 ### Trader Agent
-- Composes reports from the analysts and researchers to make informed trading decisions. It determines the timing and magnitude of trades based on comprehensive market insights.
+- Composes reports from the analysts and researchers to make informed trading decisions, determining the timing and magnitude of trades.
 
 <p align="center">
   <img src="assets/trader.png" width="70%" style="display: inline-block; margin: 0 2%;">
@@ -152,15 +153,19 @@ export GOOGLE_API_KEY=...          # Google (Gemini)
 export ANTHROPIC_API_KEY=...       # Anthropic (Claude)
 export XAI_API_KEY=...             # xAI (Grok)
 export DEEPSEEK_API_KEY=...        # DeepSeek
-export DASHSCOPE_API_KEY=...       # Qwen (Alibaba DashScope)
-export ZHIPU_API_KEY=...           # GLM (Zhipu)
+export DASHSCOPE_API_KEY=...       # Qwen — International (dashscope-intl.aliyuncs.com)
+export DASHSCOPE_CN_API_KEY=...    # Qwen — China (dashscope.aliyuncs.com)
+export ZHIPU_API_KEY=...           # GLM via Z.AI (international)
+export ZHIPU_CN_API_KEY=...        # GLM via BigModel (China, open.bigmodel.cn)
+export MINIMAX_API_KEY=...         # MiniMax — Global (api.minimax.io, M2.x, 204K ctx)
+export MINIMAX_CN_API_KEY=...      # MiniMax — China (api.minimaxi.com, M2.x, 204K ctx)
 export OPENROUTER_API_KEY=...      # OpenRouter
 export ALPHA_VANTAGE_API_KEY=...   # Alpha Vantage
 ```
 
 For enterprise providers (e.g. Azure OpenAI, AWS Bedrock), copy `.env.enterprise.example` to `.env.enterprise` and fill in your credentials.
 
-For local models, configure Ollama with `llm_provider: "ollama"` in your config.
+For local models, configure Ollama with `llm_provider: "ollama"`. The default endpoint is `http://localhost:11434/v1`; set `OLLAMA_BASE_URL` to point at a remote `ollama-serve`. Pull models with `ollama pull <name>`, and pick "Custom model ID" in the CLI for any model not listed by default.
 
 Alternatively, copy `.env.example` to `.env` and fill in your keys:
 ```bash
@@ -175,6 +180,16 @@ tradingagents          # installed command
 python -m cli.main     # alternative: run directly from source
 ```
 You will see a screen where you can select your desired tickers, analysis date, LLM provider, research depth, and more.
+
+### Markets and tickers
+
+TradingAgents works with any market Yahoo Finance covers, using the exchange-suffixed ticker. Company identity and the alpha benchmark resolve automatically per market.
+
+- US: `AAPL`, `SPY`
+- Hong Kong: `0700.HK` · Tokyo: `7203.T` · London: `AZN.L`
+- India: `RELIANCE.NS`, `.BO` · Canada: `.TO` · Australia: `.AX`
+- China A-shares: Shanghai `.SS`, Shenzhen `.SZ` (e.g. `600519.SS` for Kweichow Moutai)
+- Crypto: `BTC-USD`, `ETH-USD`
 
 <p align="center">
   <img src="assets/cli/cli_init.png" width="100%" style="display: inline-block; margin: 0 2%;">
@@ -194,7 +209,7 @@ An interface will appear showing results as they load, letting you track the age
 
 ### Implementation Details
 
-We built TradingAgents with LangGraph to ensure flexibility and modularity. The framework supports multiple LLM providers: OpenAI, Google, Anthropic, xAI, DeepSeek, Qwen (Alibaba DashScope), GLM (Zhipu), OpenRouter, Ollama for local models, and Azure OpenAI for enterprise.
+We built TradingAgents with LangGraph to ensure flexibility and modularity. The framework supports multiple LLM providers: OpenAI, Google, Anthropic, xAI, DeepSeek, Qwen (Alibaba DashScope, international and China endpoints), GLM (Zhipu), MiniMax (global + China), OpenRouter, Ollama for local models, and Azure OpenAI for enterprise.
 
 ### Python Usage
 
@@ -218,8 +233,8 @@ from tradingagents.graph.trading_graph import TradingAgentsGraph
 from tradingagents.default_config import DEFAULT_CONFIG
 
 config = DEFAULT_CONFIG.copy()
-config["llm_provider"] = "openai"        # openai, google, anthropic, xai, deepseek, qwen, glm, openrouter, ollama, azure
-config["deep_think_llm"] = "gpt-5.4"     # Model for complex reasoning
+config["llm_provider"] = "openai"        # openai, google, anthropic, xai, deepseek, qwen, qwen-cn, glm, glm-cn, minimax, minimax-cn, openrouter, ollama, azure
+config["deep_think_llm"] = "gpt-5.5"     # Model for complex reasoning
 config["quick_think_llm"] = "gpt-5.4-mini" # Model for quick tasks
 config["max_debate_rounds"] = 2
 
@@ -258,11 +273,31 @@ ta = TradingAgentsGraph(config=config)
 _, decision = ta.propagate("NVDA", "2026-01-15")
 ```
 
+## Reproducibility
+
+TradingAgents is LLM-driven, so two runs of the same ticker and date can differ. This is expected for a research tool built on language models, not a defect. The variation comes from a few distinct sources, and it helps to separate them.
+
+Language model sampling is non-deterministic. Even at a fixed temperature, providers do not guarantee byte-identical output across calls, and reasoning models (the default GPT-5.x family, and any thinking-mode model) vary the most because their internal reasoning is itself sampled.
+
+Live data moves. News, StockTwits, and Reddit return different content as time passes, so a run today sees different inputs than a run last week even for the same historical trade date. Pin the analysis date to hold the price and indicator window fixed, but the social and news sources still reflect "now".
+
+To reduce variation you can lower the sampling temperature. Set `temperature` in your config (or `TRADINGAGENTS_TEMPERATURE` in `.env`); lower values make models that honor it more repeatable. Reasoning models largely ignore temperature, so for tighter reproducibility pair a low temperature with a non-reasoning model such as `gpt-4.1`.
+
+```python
+config = DEFAULT_CONFIG.copy()
+config["llm_provider"] = "openai"
+config["deep_think_llm"] = "gpt-4.1"      # non-reasoning model honors temperature
+config["quick_think_llm"] = "gpt-4.1"
+config["temperature"] = 0.0
+```
+
+What does not vary anymore: the analyzed company identity is resolved deterministically from the ticker before any agent runs, and the market analyst grounds exact price and indicator claims in a verified data snapshot. Earlier reports of "different companies" or fabricated price levels across runs are addressed by these two mechanisms.
+
+Backtest results are not guaranteed to match any published figure. Returns depend on the model, the temperature, the date range, data quality, and the sampling above. Treat the framework as a research scaffold for studying multi-agent analysis, not as a strategy with a fixed, replicable return.
+
 ## Contributing
 
-We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or suggesting a new feature, your input helps make this project better. If you are interested in this line of research, please consider joining our open-source financial AI research community [Tauric Research](https://tauric.ai/).
-
-Past contributions, including code, design feedback, and bug reports, are credited per release in [`CHANGELOG.md`](CHANGELOG.md).
+Contributions are welcome: bug fixes, documentation, and feature ideas; past contributions are credited per release in [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Citation
 

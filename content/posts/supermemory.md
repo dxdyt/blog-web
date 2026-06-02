@@ -1,9 +1,9 @@
 ---
 title: supermemory
-date: 2026-06-01T17:26:25+08:00
+date: 2026-06-02T16:37:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777903676196-47f9c75ce5c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777903676196-47f9c75ce5c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzMDU5MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778409445285-2c63c0c2ecca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778409445285-2c63c0c2ecca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
 ---
 
 # [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)

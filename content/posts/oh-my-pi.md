@@ -1,9 +1,9 @@
 ---
 title: oh-my-pi
-date: 2026-05-23T14:33:52+08:00
+date: 2026-06-02T16:38:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1776727484601-0109cf91c3a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1776727484601-0109cf91c3a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk1MTc5NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778222238831-3acf481f9fcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778222238831-3acf481f9fcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
 ---
 
 # [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)
@@ -63,6 +63,21 @@ mise use -g github:can1357/oh-my-pi
 ```
 
 macOS · Linux · Windows · bun ≥ 1.3.14
+
+### Shell completions
+
+`omp` generates its own completion scripts for **bash**, **zsh**, and **fish** from the live command/flag metadata, so they never drift from the actual CLI. Subcommands, flags, and enum values complete statically; model names (`--model`, `--smol`, `--slow`, `--plan`) resolve against the bundled model catalog and `--resume` against your on-disk sessions.
+
+```sh
+# zsh — add to ~/.zshrc (or write the output into a file on your $fpath)
+eval "$(omp completions zsh)"
+
+# bash — add to ~/.bashrc
+eval "$(omp completions bash)"
+
+# fish
+omp completions fish > ~/.config/fish/completions/omp.fish
+```
 
 ## Every tool, _benchmaxxed_.
 
@@ -208,7 +223,6 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 
 - `bash` — workspace shell, with optional PTY or background-job dispatch.
 - `eval` — persistent Python and JavaScript cells with shared prelude and tool re-entry.
-- `recipe` — invoke a target from a detected task runner — bun, just, make, cargo.
 - `ssh` — one remote command against a configured host.
 
 **Code intelligence**
@@ -243,11 +257,10 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 
 **Misc**
 
-- `calc` — deterministic arithmetic — no model in the loop.
 - `resolve` — apply or discard a queued preview action.
 - `search_tool_bm25` — BM25 over the hidden tool index; activates top matches mid-session.
 
-Setting-gated, off by default: `github`, `calc`, `inspect_image`, `render_mermaid`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
+Setting-gated, off by default: `github`, `inspect_image`, `render_mermaid`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
 
 [Full reference →](https://omp.sh/docs/tools)
 
@@ -261,13 +274,13 @@ Auth tags below: `oauth` signs in with your provider account, `plan` routes thro
 
 Direct APIs and gateways. Mix providers per role.
 
-Anthropic `oauth` · OpenAI · OpenAI Codex `oauth` · Google Gemini · Google Antigravity `oauth` · xAI · Mistral · Groq · Cerebras · Fireworks · Together · Hugging Face · NVIDIA · OpenRouter · Synthetic · Vercel AI Gateway · Cloudflare AI Gateway · Perplexity `oauth`
+Anthropic `oauth` · OpenAI · OpenAI Codex `oauth` · Google Gemini · Google Antigravity `oauth` · xAI · Mistral · Groq · Cerebras · Fireworks · Together · Hugging Face · NVIDIA · OpenRouter · Synthetic · Vercel AI Gateway · Cloudflare AI Gateway · Wafer Serverless · Perplexity `oauth`
 
 ### Coding plans
 
 Subscription-routed. `/login` attaches the session.
 
-Cursor `oauth` · GitHub Copilot `oauth` · GitLab Duo · Kimi Code `plan` · Moonshot · MiniMax Coding Plan `plan` · MiniMax Coding Plan CN `plan` · Alibaba Coding Plan `plan` · Qwen Portal · Z.AI / GLM Coding Plan `plan` · Xiaomi MiMo · Qianfan · NanoGPT · Venice · Kilo · ZenMux · OpenCode Go · OpenCode Zen
+Cursor `oauth` · GitHub Copilot `oauth` · GitLab Duo · Kimi Code `plan` · Moonshot · MiniMax Coding Plan `plan` · MiniMax Coding Plan CN `plan` · Alibaba Coding Plan `plan` · Qwen Portal · Z.AI / GLM Coding Plan `plan` · Xiaomi MiMo · Qianfan · NanoGPT · Venice · Kilo · ZenMux · Wafer Pass `plan` · OpenCode Go · OpenCode Zen
 
 ### Run it yourself
 
