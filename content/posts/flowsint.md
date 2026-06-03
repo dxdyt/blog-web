@@ -1,25 +1,37 @@
 ---
 title: flowsint
-date: 2026-02-01T13:22:18+08:00
+date: 2026-06-03T16:54:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767087369372-050f391ff8ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767087369372-050f391ff8ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njk5MjMyNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779800975457-05df26c34676?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779800975457-05df26c34676?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
 ---
 
 # [reconurge/flowsint](https://github.com/reconurge/flowsint)
 
 # Flowsint
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](./LICENSE)
 [![Ethical Software](https://img.shields.io/badge/ethical-use-blue.svg)](./ETHICS.md)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20coffee-support-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dextmorgn)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/P5P01W3GPJ)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/aST9HMQr)
+
 
 Flowsint is an open-source OSINT graph exploration tool designed for ethical investigation, transparency, and verification.
 
 **Ethics:** Please read [ETHICS.md](./ETHICS.md) for responsible use guidelines.
 
 <img width="1439" height="899" alt="hero-dark" src="https://github.com/user-attachments/assets/01eb128e-bef4-486e-9276-c4da58f829ae" />
-<img width="1511" height="946" alt="Capture d’écran 2026-01-13 à 09 15 58" src="https://github.com/user-attachments/assets/d1a9eca6-9ec4-4402-93f4-303c3dc30de1" />
-<img width="1511" height="948" alt="Capture d’écran 2026-01-13 à 09 19 45" src="https://github.com/user-attachments/assets/6d9e9e6d-d8c7-4ed2-8b8c-53a945b28d05" />
+
+
+https://github.com/user-attachments/assets/eaabfa81-d7b3-414d-8cf7-f69b4e37bab6
+
+
+https://github.com/user-attachments/assets/7457d94a-cf1d-4a97-949f-f9b1d8d92644
+
+
+https://github.com/user-attachments/assets/65c3f26e-7132-4853-be45-21b8933688bd
+
 
 ## Contributing
 
@@ -216,19 +228,19 @@ Each module has its own (incomplete) test suite:
 ```bash
 # Test core module
 cd flowsint-core
-poetry run pytest
+uv run pytest
 
 # Test types module
 cd ../flowsint-types
-poetry run pytest
+uv run pytest
 
 # Test enrichers module
 cd ../flowsint-enrichers
-poetry run pytest
+uv run pytest
 
 # Test API module
 cd ../flowsint-api
-poetry run pytest
+uv run pytest
 ```
 
 ## Contributing
@@ -260,3 +272,7 @@ It was created to assist:
 
 Any misuse of this software is strictly prohibited and goes against the ethical principles defined in [ETHICS.md](./ETHICS.md).
 
+## ❤️ Support
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20coffee-support-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dextmorgn)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/P5P01W3GPJ)

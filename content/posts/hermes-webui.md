@@ -1,9 +1,9 @@
 ---
 title: hermes-webui
-date: 2026-06-02T16:37:07+08:00
+date: 2026-06-03T16:54:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779202568356-a8239fd66d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779202568356-a8239fd66d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAzODk0MTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763365716252-b34f6e500bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
 ---
 
 # [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)

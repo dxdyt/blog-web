@@ -1,9 +1,9 @@
 ---
 title: production-agentic-rag-course
-date: 2026-03-23T13:39:04+08:00
+date: 2026-06-03T16:55:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773556663208-a03e86597258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773556663208-a03e86597258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQyNDQzMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779087753821-4d0b2090dbc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779087753821-4d0b2090dbc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
 ---
 
 # [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
@@ -110,7 +110,7 @@ uv sync
 docker compose up --build -d
 
 # 5. Verify everything works
-curl http://localhost:8000/health
+curl http://localhost:8000/api/v1/health
 ```
 
 ### **📚 Weekly Learning Path**
