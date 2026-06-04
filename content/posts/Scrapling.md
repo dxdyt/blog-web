@@ -1,9 +1,9 @@
 ---
 title: Scrapling
-date: 2026-06-03T16:54:46+08:00
+date: 2026-06-04T16:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779799882207-2282d7c8ffae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779799882207-2282d7c8ffae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778175164681-8c6bc52533b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778175164681-8c6bc52533b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
 ---
 
 # [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
@@ -199,7 +199,7 @@ MySpider().start()
       </a>
     </td>
     <td>
-    <a href="https://9proxy.com/pricing?tab=traffic&utm_source=Github&utm_campaign=D4vinci" target="_blank">9Proxy</a> provides residential proxies from just $0.015/IP or $0.68/GB. 20M+ IPs across 90+ countries. Sticky or rotating sessions, managed from desktop or mobile app.
+    <a href="https://9proxy.com/pricing?tab=traffic&utm_source=Github&utm_campaign=D4vinci" target="_blank">9Proxy</a> provides residential proxies from just $0.018/IP or $0.68/GB. 20M+ IPs across 90+ countries. Sticky or rotating sessions, managed from desktop or mobile app.
     </td>
   </tr>
   <tr>

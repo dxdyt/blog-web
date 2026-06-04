@@ -1,9 +1,9 @@
 ---
 title: supermemory
-date: 2026-06-03T16:55:28+08:00
+date: 2026-06-04T16:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778174739838-8f154a589ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778174739838-8f154a589ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779446183287-4c75bbaae734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
 ---
 
 # [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
@@ -31,6 +31,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1778174739838-8f154a589e
   <a href="https://www.npmjs.com/package/supermemory"><img src="https://img.shields.io/npm/v/supermemory?style=flat-square&color=blue" alt="npm" /></a>
   <a href="https://pypi.org/project/supermemory/"><img src="https://img.shields.io/pypi/v/supermemory?style=flat-square&color=blue" alt="pypi" /></a>
   <a href="https://supermemory.ai/docs"><img src="https://img.shields.io/badge/docs-supermemory.ai-blue?style=flat-square" alt="docs" /></a>
+</p>
+
+<p align="center">
+  <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 ---

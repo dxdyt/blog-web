@@ -1,9 +1,9 @@
 ---
 title: trivy
-date: 2026-03-25T13:24:09+08:00
+date: 2026-06-04T16:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772630204917-5e649dcb0d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772630204917-5e649dcb0d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ0MTYxNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778222013873-cedbf72df0d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778222013873-cedbf72df0d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
 ---
 
 # [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
@@ -82,7 +82,7 @@ trivy image python:3.4-alpine
 <details>
 <summary>Result</summary>
 
-https://user-images.githubusercontent.com/1161307/171013513-95f18734-233d-45d3-aaf5-d6aec687db0e.mov
+https://github.com/user-attachments/assets/af1c11e7-d9c5-48af-8e05-cb34dfd6352a
 
 </details>
 
@@ -93,7 +93,7 @@ trivy fs --scanners vuln,secret,misconfig myproject/
 <details>
 <summary>Result</summary>
 
-https://user-images.githubusercontent.com/1161307/171013917-b1f37810-f434-465c-b01a-22de036bd9b3.mov
+https://github.com/user-attachments/assets/6b3894b7-77c5-4ffc-ac94-ffe6648a30dc
 
 </details>
 

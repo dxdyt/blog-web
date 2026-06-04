@@ -1,9 +1,9 @@
 ---
 title: airllm
-date: 2026-01-24T12:36:15+08:00
+date: 2026-06-04T16:21:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766430677995-a60227a65a3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766430677995-a60227a65a3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkyMjkyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1775312766921-61f840e3d6f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1775312766921-61f840e3d6f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
 ---
 
 # [lyogavin/airllm](https://github.com/lyogavin/airllm)

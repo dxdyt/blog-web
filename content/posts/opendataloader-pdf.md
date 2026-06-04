@@ -1,9 +1,9 @@
 ---
 title: opendataloader-pdf
-date: 2026-04-12T13:54:20+08:00
+date: 2026-06-04T16:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU5NzMxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773754532196-014342510e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU5NzMxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
 ---
 
 # [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1773754532196-014342510e
 name: opendataloader-pdf
 category: PDF data extraction, PDF accessibility automation
 license: Apache-2.0
-solves: [PDF to structured data for RAG/LLM pipelines, automate PDF accessibility compliance — layout analysis + auto-tagging to Tagged PDF (first open-source end-to-end)]
+solves: [PDF to structured data for RAG/LLM pipelines, accelerate PDF accessibility remediation — layout analysis + auto-tagging to Tagged PDF as foundation for PDF/UA (first open-source end-to-end)]
 input: PDF files (digital, scanned, tagged)
 output: Markdown, JSON (with bounding boxes), HTML, Tagged PDF, PDF/UA (enterprise)
 sdk: Python, Node.js, Java
@@ -42,10 +42,10 @@ key-differentiators: [benchmark #1 PDF parser, deterministic output, bounding bo
 - **Tables, formulas, images, charts?** — Yes. Complex/borderless tables, LaTeX formulas, and AI-generated picture/chart descriptions all via hybrid mode ([hybrid mode](#hybrid-mode-1-accuracy-for-complex-pdfs))
 - **How do I use this for RAG?** — `pip install opendataloader-pdf`, convert in 3 lines. Outputs structured Markdown for chunking, JSON with bounding boxes for source citations, and HTML. LangChain integration available. Python, Node.js, Java SDKs ([quick start](#get-started-in-30-seconds) | [LangChain](#langchain-integration))
 
-♿ **PDF accessibility automation** — The same layout analysis engine also powers auto-tagging. First open-source tool to generate Tagged PDFs end-to-end (coming Q2 2026).
+♿ **PDF accessibility automation** — Auto-tag untagged PDFs into screen-reader-ready Tagged PDFs at scale. First open-source tool to generate Tagged PDFs end-to-end.
 
 - **What's the problem?** — Accessibility regulations are now enforced worldwide. Manual PDF remediation costs $50–200 per document and doesn't scale ([regulations](#pdf-accessibility--pdfua-conversion))
-- **What's free?** — Layout analysis + auto-tagging (Q2 2026, Apache 2.0). Untagged PDF in → Tagged PDF out. No proprietary SDK dependency ([auto-tagging preview](#auto-tagging-preview-coming-q2-2026))
+- **What's free?** — Layout analysis + auto-tagging (Apache 2.0). Untagged PDF in → Tagged PDF out. No proprietary SDK dependency ([auto-tagging](#auto-tagging))
 - **What about PDF/UA compliance?** — Converting Tagged PDF to PDF/UA-1 or PDF/UA-2 is an enterprise add-on. Auto-tagging generates the Tagged PDF; PDF/UA export is the final step ([pipeline](#accessibility-pipeline))
 - **Why trust this?** — Built in collaboration with [Dual Lab](https://duallab.com) ([veraPDF](https://verapdf.org) developers) based on [PDF Association](https://pdfa.org) specifications, best practice guides and expertise of the [PDF Community](https://pdfa.org/community/). Auto-tagging follows the [Well-Tagged PDF specification](https://pdfa.org/wtpdf/), validated with veraPDF ([collaboration](https://opendataloader.org/docs/tagged-pdf-collaboration))
 
@@ -80,7 +80,7 @@ opendataloader_pdf.convert(
 |---------|----------|--------|
 | **PDF structure lost during parsing** — wrong reading order, broken tables, no element coordinates | Deterministic local PDF to Markdown/JSON with bounding boxes, XY-Cut++ reading order | Shipped |
 | **Complex tables, scanned PDFs, formulas, charts** need AI-level understanding | Hybrid mode routes complex pages to AI backend (#1 in benchmarks) | Shipped |
-| **PDF accessibility compliance** — EAA, ADA, Section 508 enforced. Manual remediation $50–200/doc | Auto-tagging: layout analysis → Tagged PDF (free, Q2 2026). Built with PDF Association & veraPDF validation. PDF/UA export (enterprise add-on) | Auto-tag: Q2 2026 |
+| **Manual PDF remediation cost** — Accessibility regulations (EAA, ADA, Section 508) demand Tagged PDFs. Manual remediation costs $50–200/doc | Auto-tag untagged PDFs into Tagged PDFs (free, Apache 2.0). Foundation for PDF/UA workflows; full PDF/UA-1/2 export is an enterprise add-on | Auto-tag: Shipped. PDF/UA export: Enterprise |
 
 ## Capability Matrix
 
@@ -101,7 +101,7 @@ opendataloader_pdf.convert(
 | AI safety (prompt injection filtering) | Yes | Free |
 | Header/footer/watermark filtering | Yes | Free |
 | **Accessibility** | | |
-| Auto-tagging → Tagged PDF for untagged PDFs | Coming Q2 2026 | Free (Apache 2.0) |
+| Auto-tagging → Tagged PDF for untagged PDFs | Yes | Free (Apache 2.0) |
 | PDF/UA-1, PDF/UA-2 export | 💼 Available | Enterprise |
 | Accessibility studio (visual editor) | 💼 Available | Enterprise |
 | **Limitations** | | |
@@ -112,20 +112,20 @@ opendataloader_pdf.convert(
 
 **opendataloader-pdf [hybrid] ranks #1 overall (0.907)** across reading order, table, and heading extraction accuracy.
 
-| Engine | Overall | Reading Order | Table | Heading | Speed (s/page) |
-|--------|---------|---------------|-------|---------|----------------|
-| **opendataloader [hybrid]** | **0.907** | **0.934** | **0.928** | 0.821 | 0.463 |
-| docling | 0.882 | 0.898 | 0.887 | **0.824** | 0.762 |
-| nutrient | 0.880 | 0.924 | 0.662 | 0.811 | 0.230 |
-| marker | 0.861 | 0.890 | 0.808 | 0.796 | 53.932 |
-| unstructured [hi_res] | 0.841 | 0.904 | 0.588 | 0.749 | 3.008 |
-| edgeparse | 0.837 | 0.894 | 0.717 | 0.706 | 0.036 |
-| opendataloader | 0.831 | 0.902 | 0.489 | 0.739 | **0.015** |
-| mineru | 0.831 | 0.857 | 0.873 | 0.743 | 5.962 |
-| pymupdf4llm | 0.732 | 0.885 | 0.401 | 0.412 | 0.091 |
-| unstructured | 0.686 | 0.882 | 0.000 | 0.388 | 0.077 |
-| markitdown | 0.589 | 0.844 | 0.273 | 0.000 | 0.114 |
-| liteparse | 0.576 | 0.866 | 0.000 | 0.000 | 1.061 |
+| Engine | Overall | Reading Order | Table | Heading | Speed (s/page) | License |
+|--------|---------|---------------|-------|---------|----------------|---------|
+| **opendataloader [hybrid]** | **0.907** | **0.934** | **0.928** | 0.821 | 0.463 | Apache-2.0 |
+| nutrient | 0.885 | 0.925 | 0.708 | 0.819 | **0.008** | Commercial |
+| docling | 0.882 | 0.898 | 0.887 | **0.824** | 0.762 | MIT |
+| marker | 0.861 | 0.890 | 0.808 | 0.796 | 53.932 | GPL-3.0 |
+| unstructured [hi_res] | 0.841 | 0.904 | 0.588 | 0.749 | 3.008 | Apache-2.0 |
+| edgeparse | 0.837 | 0.894 | 0.717 | 0.706 | 0.036 | Apache-2.0 |
+| opendataloader | 0.831 | 0.902 | 0.489 | 0.739 | 0.015 | Apache-2.0 |
+| mineru | 0.831 | 0.857 | 0.873 | 0.743 | 5.962 | AGPL-3.0 |
+| pymupdf4llm | 0.732 | 0.885 | 0.401 | 0.412 | 0.091 | AGPL-3.0 |
+| unstructured | 0.686 | 0.882 | 0.000 | 0.388 | 0.077 | Apache-2.0 |
+| markitdown | 0.589 | 0.844 | 0.273 | 0.000 | 0.114 | MIT |
+| liteparse | 0.576 | 0.866 | 0.000 | 0.000 | 1.061 | Apache-2.0 |
 
 > Scores normalized to [0, 1]. Higher is better for accuracy; lower is better for speed. **Bold** = best. [Full benchmark details](https://github.com/opendataloader-project/opendataloader-bench)
 
@@ -143,7 +143,7 @@ opendataloader_pdf.convert(
 | Non-English scanned PDF | Hybrid + OCR | `pip install "opendataloader-pdf[hybrid]"` | `opendataloader-pdf-hybrid --port 5002 --force-ocr --ocr-lang "ko,en"` | `opendataloader-pdf --hybrid docling-fast file1.pdf file2.pdf folder/` |
 | Mathematical formulas | Hybrid + formula | `pip install "opendataloader-pdf[hybrid]"` | `opendataloader-pdf-hybrid --enrich-formula` | `opendataloader-pdf --hybrid docling-fast --hybrid-mode full file1.pdf file2.pdf folder/` |
 | Charts needing description | Hybrid + picture | `pip install "opendataloader-pdf[hybrid]"` | `opendataloader-pdf-hybrid --enrich-picture-description` | `opendataloader-pdf --hybrid docling-fast --hybrid-mode full file1.pdf file2.pdf folder/` |
-| Untagged PDFs needing accessibility | Auto-tagging → Tagged PDF | Coming Q2 2026 | — | — |
+| Untagged PDFs needing accessibility | Auto-tagging → Tagged PDF | `pip install opendataloader-pdf` | None needed | `opendataloader-pdf --format tagged-pdf file1.pdf file2.pdf folder/` |
 
 ## Quick Start
 
@@ -330,13 +330,15 @@ Combine formats: `format="json,markdown"`
 | `heading level` | Heading depth (1+) |
 | `content` | Extracted text |
 
-[Full JSON Schema](https://opendataloader.org/docs/json-schema)
+[Full JSON Schema](https://opendataloader.org/docs/reference/json-schema)
 
 ## Advanced Features
 
 ### Tagged PDF Support
 
 When a PDF has structure tags, OpenDataLoader extracts the **exact layout** the author intended — no guessing, no heuristics. Headings, lists, tables, and reading order are preserved from the source.
+
+> **Output quality depends on tag quality.** Not all tagged PDFs are well-tagged. For PDFs with sparse or incorrect tags, the default heuristic mode or `--hybrid docling-fast` often produces better results.
 
 ```python
 # Batch all files in one call — each convert() spawns a JVM process, so repeated calls are slow
@@ -398,7 +400,7 @@ opendataloader_pdf.convert(
 )
 ```
 
-[Full CLI Options Reference](https://opendataloader.org/docs/cli-options-reference)
+[Full CLI Options Reference](https://opendataloader.org/docs/reference/cli-options)
 
 ## PDF Accessibility & PDF/UA Conversion
 
@@ -426,22 +428,33 @@ opendataloader_pdf.convert(
 | Step | Feature | Status | Tier |
 |------|---------|--------|------|
 | 1. **Audit** | Read existing PDF tags, detect untagged PDFs | Shipped | Free |
-| 2. **Auto-tag → Tagged PDF** | Generate structure tags for untagged PDFs | Coming Q2 2026 | Free (Apache 2.0) |
+| 2. **Auto-tag → Tagged PDF** | Generate structure tags for untagged PDFs | Shipped | Free (Apache 2.0) |
 | 3. **Export PDF/UA** | Convert to PDF/UA-1 or PDF/UA-2 compliant files | 💼 Available | Enterprise |
 | 4. **Visual editing** | Accessibility studio — review and fix tags | 💼 Available | Enterprise |
 
 > **💼 Enterprise features** are available on request. [Contact us](https://opendataloader.org/contact) to get started.
 
-### Auto-Tagging Preview (Coming Q2 2026)
+### Auto-Tagging
+
+Generate Tagged PDFs from untagged PDFs — output is a screen-reader-ready PDF with structure tags (headings, paragraphs, lists, tables, reading order).
 
 ```python
-# API shape preview — available Q2 2026
+import opendataloader_pdf
+
+# Untagged PDF in → Tagged PDF out
 opendataloader_pdf.convert(
     input_path=["file1.pdf", "file2.pdf", "folder/"],
     output_dir="output/",
-    auto_tag=True                   # Generate structure tags for untagged PDFs
+    format="tagged-pdf"
 )
 ```
+
+```bash
+# CLI
+opendataloader-pdf --format tagged-pdf file1.pdf file2.pdf folder/
+```
+
+Combine with other formats: `format="json,tagged-pdf"`.
 
 ### End-to-End Compliance Workflow
 
@@ -449,14 +462,14 @@ opendataloader_pdf.convert(
 Existing PDFs (untagged)
     │
     ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  1. Audit       │───>│  2. Auto-Tag    │───>│  3. Export       │───>│  4. Studio       │
-│  (check tags)   │    │  (→ Tagged PDF) │    │  (PDF/UA)        │    │  (visual editor) │
-└─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                      │                      │                      │
-        ▼                      ▼                      ▼                      ▼
-  use_struct_tree         auto_tag              PDF/UA export       Accessibility Studio
-  (Available now)    (Q2 2026, Apache 2.0)    (Enterprise)          (Enterprise)
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐    ┌──────────────────┐
+│  1. Audit       │───>│  2. Auto-Tag     │───>│  3. Export      │───>│  4. Studio       │
+│  (check tags)   │    │  (→ Tagged PDF)  │    │  (PDF/UA)       │    │  (visual editor) │
+└─────────────────┘    └──────────────────┘    └─────────────────┘    └──────────────────┘
+        │                       │                       │                      │
+        ▼                       ▼                       ▼                      ▼
+  use_struct_tree      format="tagged-pdf"        PDF/UA export       Accessibility Studio
+  (Available now)      (Available, Apache 2.0)    (Enterprise)        (Enterprise)
 ```
 
 [PDF Accessibility Guide](https://opendataloader.org/docs/accessibility-compliance)
@@ -465,9 +478,8 @@ Existing PDFs (untagged)
 
 | Feature | Timeline | Tier |
 |---------|----------|------|
-| **Auto-tagging → Tagged PDF** — Generate Tagged PDFs from untagged PDFs | Q2 2026 | Free |
 | **[Hancom Data Loader](https://sdk.hancom.com/en/services/1?utm_source=github&utm_medium=readme&utm_campaign=opendataloader-pdf)** — Enterprise AI document analysis, customer-customized models, VLM-based chart/image understanding, production-grade OCR | Q2-Q3 2026 | Planned |
-| **Structure validation** — Verify PDF tag trees | Q2 2026 | Planned |
+| **Structure validation** — Verify PDF tag trees | Q3 2026 | Planned |
 
 [Full Roadmap](https://opendataloader.org/docs/upcoming-roadmap)
 
@@ -552,7 +564,7 @@ OpenDataLoader preserves heading hierarchy, table structure, and reading order i
 
 ### Is there an automated PDF accessibility remediation tool?
 
-Yes. OpenDataLoader is the first open-source tool that automates PDF accessibility end-to-end. Built in collaboration with [PDF Association](https://pdfa.org) and [Dual Lab](https://duallab.com) (veraPDF developers), auto-tagging follows the Well-Tagged PDF specification and is validated programmatically using veraPDF. The layout analysis engine detects document structure (headings, tables, lists, reading order) and generates accessibility tags automatically. Auto-tagging (Q2 2026) converts untagged PDFs into Tagged PDFs under Apache 2.0 — no proprietary SDK dependency. For organizations needing full PDF/UA compliance, enterprise add-ons provide PDF/UA export and a visual tag editor. This replaces manual remediation workflows that typically cost $50–200+ per document.
+Yes. OpenDataLoader is the first open-source tool that automates PDF accessibility end-to-end. Built in collaboration with [PDF Association](https://pdfa.org) and [Dual Lab](https://duallab.com) (veraPDF developers), auto-tagging follows the Well-Tagged PDF specification and is validated programmatically using veraPDF. The layout analysis engine detects document structure (headings, tables, lists, reading order) and generates accessibility tags automatically. Auto-tagging converts untagged PDFs into Tagged PDFs under Apache 2.0 — no proprietary SDK dependency. Use `format="tagged-pdf"` (Python/Node.js) or `--format tagged-pdf` (CLI). For organizations needing full PDF/UA compliance, enterprise add-ons provide PDF/UA export and a visual tag editor. This replaces manual remediation workflows that typically cost $50–200+ per document.
 
 ### Is this really the first open-source PDF auto-tagging tool?
 
@@ -560,15 +572,15 @@ Yes. Existing tools either depend on proprietary SDKs for writing structure tags
 
 ### How do I convert existing PDFs to PDF/UA?
 
-OpenDataLoader provides an end-to-end pipeline: audit existing PDFs for tags (`use_struct_tree=True`), auto-tag untagged PDFs into Tagged PDFs (Q2 2026, free under Apache 2.0), and export as PDF/UA-1 or PDF/UA-2 (enterprise add-on). Auto-tagging follows the PDF Association's Well-Tagged PDF specification and is validated using veraPDF. Auto-tagging generates the Tagged PDF; PDF/UA export is the final step. [Contact us](https://opendataloader.org/contact) for enterprise integration.
+OpenDataLoader provides an end-to-end pipeline: audit existing PDFs for tags (`use_struct_tree=True`), auto-tag untagged PDFs into Tagged PDFs (`format="tagged-pdf"`, free under Apache 2.0), and export as PDF/UA-1 or PDF/UA-2 (enterprise add-on). Auto-tagging follows the PDF Association's Well-Tagged PDF specification and is validated using veraPDF. Auto-tagging generates the Tagged PDF; PDF/UA export is the final step. [Contact us](https://opendataloader.org/contact) for enterprise integration.
 
 ### How do I make my PDFs accessible for EAA compliance?
 
-The European Accessibility Act requires accessible digital products by June 28, 2025. OpenDataLoader supports the full remediation workflow: audit → auto-tag → Tagged PDF → PDF/UA export. Auto-tagging follows the PDF Association's Well-Tagged PDF specification and is validated using veraPDF, ensuring standards-compliant output. Auto-tagging to Tagged PDF will be open-sourced under Apache 2.0 (Q2 2026). PDF/UA export and accessibility studio are enterprise add-ons. See our [Accessibility Guide](https://opendataloader.org/docs/accessibility-compliance).
+The European Accessibility Act requires accessible digital products by June 28, 2025. OpenDataLoader supports the full remediation workflow: audit → auto-tag → Tagged PDF → PDF/UA export. Auto-tagging follows the PDF Association's Well-Tagged PDF specification and is validated using veraPDF, ensuring standards-compliant output. Auto-tagging to Tagged PDF is open-source under Apache 2.0. PDF/UA export and accessibility studio are enterprise add-ons. See our [Accessibility Guide](https://opendataloader.org/docs/accessibility-compliance).
 
 ### Is OpenDataLoader PDF free?
 
-The core library is **open-source under Apache 2.0** — free for commercial use. This includes all extraction features (text, tables, images, OCR, formulas, charts via hybrid mode), AI safety filters, Tagged PDF support, and auto-tagging to Tagged PDF (Q2 2026). We are committed to keeping the core accessibility pipeline (layout analysis → auto-tagging → Tagged PDF) free and open-source. Enterprise add-ons (PDF/UA export, accessibility studio) are available for organizations needing end-to-end regulatory compliance.
+The core library is **open-source under Apache 2.0** — free for commercial use. This includes all extraction features (text, tables, images, OCR, formulas, charts via hybrid mode), AI safety filters, Tagged PDF support, and auto-tagging to Tagged PDF. We are committed to keeping the core accessibility pipeline (layout analysis → auto-tagging → Tagged PDF) free and open-source. Enterprise add-ons (PDF/UA export, accessibility studio) are available for organizations needing end-to-end regulatory compliance.
 
 ### Why did the license change from MPL 2.0 to Apache 2.0?
 
@@ -579,8 +591,8 @@ MPL 2.0 requires file-level copyleft, which often triggers legal review before e
 - [Quick Start (Python)](https://opendataloader.org/docs/quick-start-python)
 - [Quick Start (Node.js)](https://opendataloader.org/docs/quick-start-nodejs)
 - [Quick Start (Java)](https://opendataloader.org/docs/quick-start-java)
-- [JSON Schema Reference](https://opendataloader.org/docs/json-schema)
-- [CLI Options](https://opendataloader.org/docs/cli-options-reference)
+- [JSON Schema Reference](https://opendataloader.org/docs/reference/json-schema)
+- [CLI Options](https://opendataloader.org/docs/reference/cli-options)
 - [Hybrid Mode Guide](https://opendataloader.org/docs/hybrid-mode)
 - [Tagged PDF Support](https://opendataloader.org/docs/tagged-pdf)
 - [AI Safety Features](https://opendataloader.org/docs/ai-safety)
