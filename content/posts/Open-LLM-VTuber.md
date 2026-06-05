@@ -1,9 +1,9 @@
 ---
 title: Open-LLM-VTuber
-date: 2026-06-04T16:21:18+08:00
+date: 2026-06-05T16:06:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778132950295-e544f63940cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778132950295-e544f63940cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA1NjExOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778063368772-45ba0cdbd794?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778063368772-45ba0cdbd794?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
 ---
 
 # [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)

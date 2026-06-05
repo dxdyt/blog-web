@@ -1,9 +1,9 @@
 ---
 title: flowsint
-date: 2026-06-03T16:54:59+08:00
+date: 2026-06-05T16:07:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779800975457-05df26c34676?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779800975457-05df26c34676?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA0NzY4NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779044991834-1dae6cee029a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779044991834-1dae6cee029a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
 ---
 
 # [reconurge/flowsint](https://github.com/reconurge/flowsint)
@@ -41,6 +41,8 @@ Flowsint is still in early development and definetly needs the help of the commu
 
 Don't want to read ? Got it. Here's your install instructions:
 
+### Linux / macOS
+
 #### 1. Install pre-requisites
 
 - Docker
@@ -53,6 +55,35 @@ git clone https://github.com/reconurge/flowsint.git
 cd flowsint
 make prod
 ```
+
+### Windows
+
+No Make needed. Works in both **Command Prompt (cmd)** and **PowerShell**.
+
+#### 1. Install pre-requisites
+
+- [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) (make sure it is **running** before the next step)
+- Git
+
+#### 2. Clone and set up environment files
+
+```bat
+git clone https://github.com/reconurge/flowsint.git
+cd flowsint
+
+copy .env.example .env
+copy .env.example flowsint-api\.env
+copy .env.example flowsint-core\.env
+copy .env.example flowsint-app\.env
+```
+
+#### 3. Build and start
+
+```bat
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+### First login
 
 Then go to [http://localhost:5173/register](http://localhost:5173/register) and create an account. There are no credentials or account by default.
 
@@ -154,10 +185,17 @@ flowsint-types (types)
 
 ### Run
 
-Make sure you have **Make** installed.
+**Linux / macOS** (requires **Make**):
 
 ```bash
 make dev
+```
+
+**Windows** (cmd or PowerShell, no Make — create the `.env` files first, see [Get started](#windows)):
+
+```bat
+docker compose -f docker-compose.dev.yml up -d --build
+docker compose -f docker-compose.dev.yml logs -f
 ```
 
 ### Development
