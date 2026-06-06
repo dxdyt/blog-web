@@ -1,9 +1,9 @@
 ---
 title: ECC
-date: 2026-06-05T16:05:44+08:00
+date: 2026-06-06T14:51:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777997271952-4fa8fec2ffa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777997271952-4fa8fec2ffa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779871121331-c641fa415aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA3Mjg2Nzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779871121331-c641fa415aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA3Mjg2Nzd8&ixlib=rb-4.1.0
 ---
 
 # [affaan-m/ECC](https://github.com/affaan-m/ECC)

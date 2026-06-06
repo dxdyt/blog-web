@@ -1,9 +1,9 @@
 ---
 title: openclaw-windows-node
-date: 2026-06-05T16:06:59+08:00
+date: 2026-06-06T14:53:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779044991834-1dae6cee029a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779044991834-1dae6cee029a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA2NDY3MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1768970052519-3560f0f704c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA3Mjg2Nzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1768970052519-3560f0f704c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA3Mjg2Nzd8&ixlib=rb-4.1.0
 ---
 
 # [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node)
