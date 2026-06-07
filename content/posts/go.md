@@ -1,9 +1,9 @@
 ---
 title: go
-date: 2025-12-07T12:33:39+08:00
+date: 2026-06-07T15:55:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755018237474-747894d4128a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755018237474-747894d4128a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778084765767-e676ef3a2beb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778084765767-e676ef3a2beb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
 ---
 
 # [golang/go](https://github.com/golang/go)
