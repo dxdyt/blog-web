@@ -1,9 +1,9 @@
 ---
 title: goose
-date: 2026-05-08T13:57:28+08:00
+date: 2026-06-08T16:54:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777260266053-fe618c38129c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777260266053-fe618c38129c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyMTk3NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778159131506-8d826e5f08f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778159131506-8d826e5f08f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
 ---
 
 # [aaif-goose/goose](https://github.com/aaif-goose/goose)
@@ -24,6 +24,7 @@ _your native open source AI agent — desktop app, CLI, and API — for code, wo
   <a href="https://github.com/aaif-goose/goose/actions/workflows/ci.yml"
      ><img src="https://img.shields.io/github/actions/workflow/status/aaif-goose/goose/ci.yml?branch=main" alt="CI"></a>
   <a href="https://insights.linuxfoundation.org/project/goose"><img src="https://insights.linuxfoundation.org/api/badge/health-score?project=goose"></a>
+  <a href="https://repology.org/project/goose-cli/versions"><img src="https://repology.org/badge/tiny-repos/goose-cli.svg" alt="Packaging status"></a>
 </p>
 </div>
 

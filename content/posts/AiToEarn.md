@@ -1,9 +1,9 @@
 ---
 title: AiToEarn
-date: 2026-05-14T14:46:04+08:00
+date: 2026-06-08T16:54:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762119594597-de01cfd19a07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762119594597-de01cfd19a07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NDExMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777752612222-fe07691f2be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777752612222-fe07691f2be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
 ---
 
 # [yikart/AiToEarn](https://github.com/yikart/AiToEarn)
@@ -23,7 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1762119594597-de01cfd19a
 AiToEarn 通过 **AI Agent自动化**，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。
 
 支持渠道：
-抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、微信公众号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn
+抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn
 
 ## 🚀 快速使用 AiToEarn（5 种方式）
 
@@ -39,6 +39,7 @@ AiToEarn 通过 **AI Agent自动化**，帮助 OPC（一人公司）、创作者
 
 ## 最新动态
 
+- **2026-05-21**: [2.4 version](https://github.com/yikart/AiToEarn/releases/tag/v2.4.0) — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。
 - **2026-04-20**: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。
 - **2026-03-26**: [2.1 version](https://www.aitoearn.ai/) — 内容交易市场上线；新增 OpenClaw（龙虾）支持，可在龙虾中直接使用 AiToEarn；新增 MCP 协议支持，可在 Claude、Cursor 等任何支持 MCP 的 Agent 或大模型中使用 AiToEarn。
 - **2026-02-07**: [1.8.0 version](https://www.aitoearn.ai/)，新增线下商户推广解决方案，支持餐厅、零售店、民宿、美容美发、健身房等多种线下业态，将线下推广活动转化为可执行的线上传播任务，通过内容发布与用户参与机制，帮助门店获取更多线上曝光和到店流量。
@@ -276,7 +277,7 @@ docker compose up -d
 ```yaml
 RELAY_SERVER_URL: https://aitoearn.ai/api
 RELAY_API_KEY: 你的API-Key
-RELAY_CALLBACK_URL: http://127.0.0.1:8080/api/plat/relay-callback
+RELAY_CALLBACK_URL: http://localhost:8080/api/plat/relay-callback
 ```
 
 然后重启：`docker compose restart aitoearn-server`
