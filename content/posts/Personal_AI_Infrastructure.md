@@ -1,9 +1,9 @@
 ---
 title: Personal_AI_Infrastructure
-date: 2026-06-07T15:54:55+08:00
+date: 2026-06-09T15:48:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777806665249-d1a7d03fcff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777806665249-d1a7d03fcff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780251766735-621cb4cbafe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780251766735-621cb4cbafe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
 ---
 
 # [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)

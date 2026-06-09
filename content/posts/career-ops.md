@@ -1,9 +1,9 @@
 ---
 title: career-ops
-date: 2026-06-07T15:56:00+08:00
+date: 2026-06-09T15:48:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780436935760-bf92c364776a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780436935760-bf92c364776a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA4MTg4NjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
 ---
 
 # [santifer/career-ops](https://github.com/santifer/career-ops)
@@ -23,25 +23,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1780436935760-bf92c36477
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/25195" target="_blank"><img src="https://trendshift.io/api/badge/repositories/25195" alt="santifer/career-ops | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/25195" target="_blank"><img src="https://trendshift.io/api/badge/repositories/25195" alt="santifer%2Fcareer-ops | Trendshift" style="width: 245px; height: 54px; vertical-align: middle;" width="245" height="54"/></a>
+  &nbsp;&nbsp;
+  <a href="https://www.producthunt.com/products/santifer-io?utm_source=badge-featured&utm_medium=badge" target="_blank"><img src="docs/press/producthunt.svg" alt="Career-Ops on Claude | Product Hunt" style="width: 206px; height: 54px; vertical-align: middle;" width="206" height="54"/></a>
 </p>
 
-<p align="center"><sub>Featured in</sub></p>
+<p align="center"><sub>FEATURED IN</sub></p>
 
 <p align="center">
-  <a href="https://wired.com.gr/article/to-ai-ergaleio-pou-fernei-epanastasi-ston-tropo-pou-psachnoume-douleia/" rel="noopener noreferrer nofollow">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/press/wired-dark.svg">
-      <img src="docs/press/wired.svg" alt="WIRED" height="32">
-    </picture>
-  </a>
+  <a href="https://wired.com.gr/article/to-ai-ergaleio-pou-fernei-epanastasi-ston-tropo-pou-psachnoume-douleia/" rel="noopener noreferrer nofollow"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/press/wired-dark.svg"><img src="docs/press/wired.svg" alt="WIRED" height="32"></picture></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.businessinsider.com/how-i-built-tool-filter-job-listings-landed-head-ai-2026-4" rel="noopener noreferrer nofollow">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/press/business-insider-dark.svg">
-      <img src="docs/press/business-insider.svg" alt="Business Insider" height="32">
-    </picture>
-  </a>
+  <a href="https://www.businessinsider.com/how-i-built-tool-filter-job-listings-landed-head-ai-2026-4" rel="noopener noreferrer nofollow"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/press/business-insider-dark.svg"><img src="docs/press/business-insider.svg" alt="Business Insider" height="32"></picture></a>
 </p>
 
 ---

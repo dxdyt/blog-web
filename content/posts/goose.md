@@ -1,9 +1,9 @@
 ---
 title: goose
-date: 2026-06-08T16:54:41+08:00
+date: 2026-06-09T15:49:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778159131506-8d826e5f08f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778159131506-8d826e5f08f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779029314445-b20031dfd4e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779029314445-b20031dfd4e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
 ---
 
 # [aaif-goose/goose](https://github.com/aaif-goose/goose)

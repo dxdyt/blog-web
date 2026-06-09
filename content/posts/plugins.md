@@ -1,9 +1,9 @@
 ---
 title: plugins
-date: 2026-06-08T16:55:19+08:00
+date: 2026-06-09T15:48:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780053643403-d1fcec304648?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780053643403-d1fcec304648?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
 ---
 
 # [openai/plugins](https://github.com/openai/plugins)
