@@ -1,9 +1,9 @@
 ---
 title: career-ops
-date: 2026-06-09T15:48:30+08:00
+date: 2026-06-10T16:08:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778476363356-16bff6be79b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780246019959-32977d5b6dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780246019959-32977d5b6dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
 ---
 
 # [santifer/career-ops](https://github.com/santifer/career-ops)
@@ -24,7 +24,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1778476363356-16bff6be79
 
 <p align="center">
   <a href="https://trendshift.io/repositories/25195" target="_blank"><img src="https://trendshift.io/api/badge/repositories/25195" alt="santifer%2Fcareer-ops | Trendshift" style="width: 245px; height: 54px; vertical-align: middle;" width="245" height="54"/></a>
-  &nbsp;&nbsp;
+</p>
+
+<p align="center">
   <a href="https://www.producthunt.com/products/santifer-io?utm_source=badge-featured&utm_medium=badge" target="_blank"><img src="docs/press/producthunt.svg" alt="Career-Ops on Claude | Product Hunt" style="width: 206px; height: 54px; vertical-align: middle;" width="206" height="54"/></a>
 </p>
 
@@ -44,7 +46,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1778476363356-16bff6be79
 
 <p align="center"><strong>740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed</strong></p>
 
-<p align="center"><a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a></p>
+<p align="center">
+  <a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/santifer/career-ops/releases/latest"><img src="https://img.shields.io/badge/release-v1.9.0-2ea44f?style=for-the-badge&labelColor=2b3137" alt="Latest release"></a>
+</p>
 
 <p align="center">
   <sub>Built with</sub><br>
@@ -86,7 +94,7 @@ Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored
 | Feature                  | Description                                                                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Auto-Pipeline**        | Paste a URL, get a full evaluation + PDF + tracker entry                                                                                 |
-| **6-Block Evaluation**   | Role summary, CV match, level strategy, comp research, personalization, interview prep (STAR+R)                                          |
+| **6-Block Evaluation**   | Role summary, CV match, level strategy, comp research, personalization, interview prep (STAR+R) -- plus a Block G posting-legitimacy check that flags scams and ghost jobs |
 | **Interview Story Bank** | Accumulates STAR+Reflection stories across evaluations -- 5-10 master stories that answer any behavioral question                        |
 | **Negotiation Scripts**  | Salary negotiation frameworks, geographic discount pushback, competing offer leverage                                                    |
 | **ATS PDF Generation**   | Keyword-injected CVs with Space Grotesk + DM Sans design                                                                                 |
@@ -98,34 +106,36 @@ Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored
 
 ## Quick Start
 
+**Fastest way — one command:**
+
 ```bash
-# 1. Clone and install
+npx @santifer/career-ops init
+```
+
+> 💡 `npx` ships with [Node.js](https://nodejs.org) — it runs the installer once,
+> without installing anything globally. No Node yet? Install it first.
+> (Already using a Claude Code / Gemini / Codex CLI? Then you already have it.)
+
+This clones the latest release into `./career-ops` and installs dependencies. Then:
+
+```bash
+cd career-ops
+claude   # or gemini / codex / qwen / opencode — open your AI CLI here
+```
+
+**On first launch, career-ops walks you through setup — your CV, profile and target roles — just by chatting. Nothing to edit by hand.**
+
+<details>
+<summary><b>Prefer to set it up manually? (git clone)</b></summary>
+
+```bash
 git clone https://github.com/santifer/career-ops.git
 cd career-ops && npm install
-npx playwright install chromium   # Required for PDF generation
-
-# 2. Check setup
-npm run doctor                     # Validates all prerequisites
-
-# 3. Configure
-cp config/profile.example.yml config/profile.yml  # Edit with your details
-cp templates/portals.example.yml portals.yml       # Customize companies
-
-# 4. Add your CV
-# Create cv.md in the project root with your CV in markdown
-
-# 5. Personalize with Claude
-claude   # Open Claude Code in this directory
-
-# Then ask Claude to adapt the system to you:
-# "Change the archetypes to backend engineering roles"
-# "Translate the modes to English"
-# "Add these 5 companies to portals.yml"
-# "Update my profile with this CV I'm pasting"
-
-# 6. Start using
-# Paste a job URL or run /career-ops
+npx playwright install chromium   # only needed for PDF generation
+claude   # open your AI CLI — it onboards you on first launch
 ```
+
+</details>
 
 > **The system is designed to be customized by Claude itself.** Modes, archetypes, scoring weights, negotiation scripts -- just ask Claude to change them. It reads the same files it uses, so it knows exactly what to edit.
 

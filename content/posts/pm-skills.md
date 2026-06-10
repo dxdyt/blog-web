@@ -1,9 +1,9 @@
 ---
 title: pm-skills
-date: 2026-06-09T15:48:36+08:00
+date: 2026-06-10T16:08:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780046526874-7773810c588d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780046526874-7773810c588d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777989111080-edced8b0ef27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777989111080-edced8b0ef27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
 ---
 
 # [phuryn/pm-skills](https://github.com/phuryn/pm-skills)

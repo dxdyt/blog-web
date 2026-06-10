@@ -1,9 +1,9 @@
 ---
 title: opencv
-date: 2026-06-08T16:54:01+08:00
+date: 2026-06-10T16:07:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778084401179-282263a7e928?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778084401179-282263a7e928?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5MDg4Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779862946979-d17bcaa0c3f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779862946979-d17bcaa0c3f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
 ---
 
 # [opencv/opencv](https://github.com/opencv/opencv)

@@ -1,9 +1,9 @@
 ---
 title: turbovec
-date: 2026-06-09T15:47:52+08:00
+date: 2026-06-10T16:06:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780046526874-7773810c588d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780046526874-7773810c588d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778701984778-1a17c6300064?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778701984778-1a17c6300064?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
 ---
 
 # [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
@@ -47,8 +47,8 @@ index.add(more_vectors)
 
 scores, indices = index.search(query, k=10)
 
-index.write("my_index.tq")
-loaded = TurboQuantIndex.load("my_index.tq")
+index.write("my_index.tv")
+loaded = TurboQuantIndex.load("my_index.tv")
 ```
 
 Need stable ids that survive deletes? Use `IdMapIndex`:
@@ -110,7 +110,7 @@ cargo add turbovec
 ```rust
 use turbovec::TurboQuantIndex;
 
-let mut index = TurboQuantIndex::new(1536, 4);
+let mut index = TurboQuantIndex::new(1536, 4).unwrap();
 index.add(&vectors);
 let results = index.search(&queries, 10);
 index.write("index.tv").unwrap();
@@ -122,8 +122,8 @@ For stable external ids that survive deletes:
 ```rust
 use turbovec::IdMapIndex;
 
-let mut index = IdMapIndex::new(1536, 4);
-index.add_with_ids(&vectors, &[1001, 1002, 1003]);
+let mut index = IdMapIndex::new(1536, 4).unwrap();
+index.add_with_ids(&vectors, &[1001, 1002, 1003]).unwrap();
 let (scores, ids) = index.search(&queries, 10);
 index.remove(1002);
 index.write("index.tvim").unwrap();
