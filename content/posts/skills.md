@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-06-09T15:47:58+08:00
+date: 2026-06-11T16:47:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778439995277-bd7e1b95c257?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778439995277-bd7e1b95c257?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778085266316-e0c584d6240e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778085266316-e0c584d6240e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
 ---
 
 # [google/skills](https://github.com/google/skills)
@@ -49,6 +49,13 @@ repo to install.
     - [Operational excellence](./skills/cloud/google-cloud-waf-operational-excellence)
     - [Performance optimization](./skills/cloud/google-cloud-waf-performance-optimization)
     - [Sustainability](./skills/cloud/google-cloud-waf-sustainability)
+
+## Additional Google skills
+
+-   [**Flutter Skills**](https://github.com/flutter/skills)
+-   [**Dart Skills**](https://github.com/dart-lang/skills)
+
+
 
 ## Support
 

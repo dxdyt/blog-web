@@ -1,9 +1,9 @@
 ---
 title: last30days-skill
-date: 2026-06-10T16:06:43+08:00
+date: 2026-06-11T16:46:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780519123579-2088d9560826?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780519123579-2088d9560826?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
 ---
 
 # [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)

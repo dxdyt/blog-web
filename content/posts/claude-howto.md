@@ -1,9 +1,9 @@
 ---
 title: claude-howto
-date: 2026-06-09T15:49:31+08:00
+date: 2026-06-11T16:47:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODA5OTEyNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
 ---
 
 # [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)
