@@ -1,16 +1,16 @@
 ---
 title: fanqiang
-date: 2024-04-02T12:16:48+08:00
+date: 2026-06-12T16:27:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709911784111-5e424d2de998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709911784111-5e424d2de998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1778403283539-9e67927cfda2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778403283539-9e67927cfda2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
 ---
 
 # [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
 
 # 翻墙-科学上网、翻墙工具、翻墙教程项目库
 
-*   [热点禁闻](https://github.com/jsvpn/jsproxy/tree/dev#tt)
+*   [翻墙新闻-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)
 *   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)
 *   [安卓翻墙APP教程](https://github.com/bannedbook/fanqiang/tree/master/android)
 *   [Chrome一键翻墙包](https://github.com/bannedbook/fanqiang/wiki/Chrome%E4%B8%80%E9%94%AE%E7%BF%BB%E5%A2%99%E5%8C%85)
