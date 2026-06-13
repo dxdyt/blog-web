@@ -1,9 +1,9 @@
 ---
 title: PowerToys
-date: 2026-04-30T14:27:58+08:00
+date: 2026-06-13T15:47:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774262836107-0d75bca4135f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1MzAzNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774262836107-0d75bca4135f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1MzAzNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777818591003-8dc9cffdf68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777818591003-8dc9cffdf68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/PowerToys](https://github.com/microsoft/PowerToys)
@@ -57,21 +57,7 @@ But to get started quickly, choose one of the installation methods below:
 <summary><strong>Download the .exe file from GitHub</strong></summary>
 <br/>
 
-Go to the [PowerToys GitHub releases](https://aka.ms/installPowerToys), select **Assets** to reveal the installation files, and choose the one that matches your architecture and install scope. For most devices, that would be _x64 per-user_.
-
-<!-- items that need to be updated release to release -->
-[github-next-release-work]: https://github.com/microsoft/PowerToys/issues?q=is%3Aissue+milestone%3A%22PowerToys+0.100%22
-[ptUserX64]: https://github.com/microsoft/PowerToys/releases/download/v0.99.0/PowerToysUserSetup-0.99.0-x64.exe
-[ptUserArm64]: https://github.com/microsoft/PowerToys/releases/download/v0.99.0/PowerToysUserSetup-0.99.0-arm64.exe
-[ptMachineX64]: https://github.com/microsoft/PowerToys/releases/download/v0.99.0/PowerToysSetup-0.99.0-x64.exe
-[ptMachineArm64]: https://github.com/microsoft/PowerToys/releases/download/v0.99.0/PowerToysSetup-0.99.0-arm64.exe
-
-| Description | Filename |
-| --- | --- |
-| Per user - x64       | [PowerToysUserSetup-0.99.0-x64.exe][ptUserX64] |
-| Per user - ARM64     | [PowerToysUserSetup-0.99.0-arm64.exe][ptUserArm64] |
-| Machine wide - x64   | [PowerToysSetup-0.99.0-x64.exe][ptMachineX64] |
-| Machine wide - ARM64 | [PowerToysSetup-0.99.0-arm64.exe][ptMachineArm64] |
+Go to the [PowerToys GitHub releases](https://aka.ms/installPowerToys), scroll down and select **Assets** to reveal the installation files, and choose the one that matches your architecture and install scope. For most devices, that would be _x64 per-user_.
 
 </details>
 
@@ -116,7 +102,7 @@ There are [community driven install methods](https://learn.microsoft.com/windows
 
 [![What's new image](doc/images/readme/Release-Banner.png)](https://github.com/microsoft/PowerToys/releases)
 
-To see what's new, check out the [release notes](https://github.com/microsoft/PowerToys/releases/tag/v0.99.0).
+To see what's new, check out the [release notes](https://github.com/microsoft/PowerToys/releases/).
 
 ## 🛣️ Roadmap
 
@@ -141,3 +127,4 @@ The application logs basic diagnostic data (telemetry). For more privacy informa
 [oss-CLA]: https://cla.opensource.microsoft.com
 [oss-conduct-code]: CODE_OF_CONDUCT.md
 [community-link]: COMMUNITY.md
+[github-next-release-work]: https://github.com/microsoft/PowerToys/issues?q=is%3Aissue+milestone%3A%22PowerToys+0.100%22

@@ -1,9 +1,9 @@
 ---
 title: mattermost
-date: 2026-06-12T16:27:23+08:00
+date: 2026-06-13T15:46:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778343303023-c6404b185480?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778343303023-c6404b185480?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778011390422-a4d4bd8936a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778011390422-a4d4bd8936a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
 ---
 
 # [mattermost/mattermost](https://github.com/mattermost/mattermost)

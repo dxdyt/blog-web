@@ -1,9 +1,9 @@
 ---
 title: agency-agents
-date: 2026-06-12T16:26:31+08:00
+date: 2026-06-13T15:47:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780908535048-bc463946e1ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780908535048-bc463946e1ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777948776160-5f591244857c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777948776160-5f591244857c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
 ---
 
 # [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)

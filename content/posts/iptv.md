@@ -1,9 +1,9 @@
 ---
 title: iptv
-date: 2026-03-24T13:23:47+08:00
+date: 2026-06-13T15:46:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771964427867-1b734fc7f5a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771964427867-1b734fc7f5a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQzMjk3MjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777818591003-8dc9cffdf68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777818591003-8dc9cffdf68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
 ---
 
 # [iptv-org/iptv](https://github.com/iptv-org/iptv)
