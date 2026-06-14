@@ -1,9 +1,9 @@
 ---
 title: SkillSpector
-date: 2026-06-12T16:25:38+08:00
+date: 2026-06-14T16:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778157054751-ff36538c0b19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778157054751-ff36538c0b19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779011595920-cc9c80d6f5f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
 ---
 
 # [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
@@ -56,6 +56,64 @@ make install
 make install-dev
 ```
 
+### Docker (no Python required)
+
+Run SkillSpector without installing Python by building it locally from the included [Dockerfile](Dockerfile). The image is based on the Docker Official Python `3.12-slim-bookworm` image.
+
+**Build the image:**
+
+```bash
+make docker-build
+# or: docker build -t skillspector .
+```
+
+**Scan a local directory** by mounting your current directory into `/scan`, the container's working directory:
+
+```bash
+docker run --rm -v "$PWD:/scan" skillspector scan ./my-skill/ --no-llm
+```
+
+**Scan with LLM analysis** by passing credentials with a local `.env` file:
+
+```bash
+cat > .env <<'EOF'
+SKILLSPECTOR_PROVIDER=anthropic
+ANTHROPIC_API_KEY=sk-ant-...
+EOF
+```
+
+```bash
+docker run --rm \
+  -v "$PWD:/scan" \
+  --env-file .env \
+  skillspector scan ./my-skill/
+```
+
+Or pass credentials directly from your shell environment:
+
+```bash
+docker run --rm \
+  -v "$PWD:/scan" \
+  -e SKILLSPECTOR_PROVIDER=anthropic \
+  -e ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
+  skillspector scan ./my-skill/
+```
+
+**Write a report to the host filesystem** by writing to the mounted directory:
+
+```bash
+docker run --rm \
+  -v "$PWD:/scan" \
+  skillspector scan ./my-skill/ --no-llm --format json --output report.json
+```
+
+**Optional alias** for repeated static scans:
+
+```bash
+alias skillspector-docker='docker run --rm -v "$PWD:/scan" skillspector'
+skillspector-docker scan ./my-skill/ --no-llm
+```
+
 ### Basic Usage
 
 ```bash
@@ -97,7 +155,7 @@ local OpenAI-compatible servers (Ollama, vLLM, llama.cpp) and managed
 inference gateways.
 
 | Provider (`SKILLSPECTOR_PROVIDER`) | Credential env var | Endpoint | Default model |
-|----------|----|----|----|
+| ---------- | ---- | ---- | ---- |
 | `openai` | `OPENAI_API_KEY` (+ optional `OPENAI_BASE_URL`) | api.openai.com (or any OpenAI-compatible URL) | `gpt-5.4` |
 | `anthropic` | `ANTHROPIC_API_KEY` | api.anthropic.com | `claude-opus-4-6` |
 | `nv_build` | `NVIDIA_INFERENCE_KEY` | build.nvidia.com | `deepseek-ai/deepseek-v4-flash` |

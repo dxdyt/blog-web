@@ -1,9 +1,9 @@
 ---
 title: agentsview
-date: 2026-06-12T16:26:53+08:00
+date: 2026-06-14T16:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780789594574-ddded51df725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780789594574-ddded51df725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778003586700-6300af8182f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778003586700-6300af8182f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
 ---
 
 # [kenn-io/agentsview](https://github.com/kenn-io/agentsview)

@@ -1,9 +1,9 @@
 ---
 title: system-prompts-and-models-of-ai-tools
-date: 2026-06-12T16:25:55+08:00
+date: 2026-06-14T16:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780328766286-23e6cb082cb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780328766286-23e6cb082cb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779380033776-ca3c5e64c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779380033776-ca3c5e64c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
 ---
 
 # [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
@@ -84,7 +84,7 @@ Sponsor the most comprehensive repository of AI system prompts and reach thousan
 
 ## Connect With Me
 
-- **X:** [NotLucknite](https://x.com/Lucknite)
+- **X:** [Lucknite](https://x.com/Lucknite)
 - **Discord**: `x1xhlol`
 - **Email**: `lucasvalbuena@pm.me`
 
