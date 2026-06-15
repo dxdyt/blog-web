@@ -1,9 +1,9 @@
 ---
 title: cypress
-date: 2025-09-21T12:22:05+08:00
+date: 2026-06-15T18:23:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757761479859-6e3bff9fe09e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757761479859-6e3bff9fe09e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780053643403-d1fcec304648?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780053643403-d1fcec304648?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
 ---
 
 # [cypress-io/cypress](https://github.com/cypress-io/cypress)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1757761479859-6e3bff9fe0
       <source media="(prefers-color-scheme: dark)"  srcset="./assets/cypress-logo-dark.png">
       <source media="(prefers-color-scheme: light)" srcset="./assets/cypress-logo-light.png">
       <img alt="Cypress Logo" src="./assets/cypress-logo-light.png">
-    </picture>    
+    </picture>
   </a>
 </p>
 <p align="center">
@@ -38,8 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1757761479859-6e3bff9fe0
   <a href="https://www.npmjs.com/package/cypress">
     <img src="https://img.shields.io/npm/dm/cypress.svg" alt="npm"/>
   </a>
-  <a href="https://gitter.im/cypress-io/cypress">
-    <img src="https://img.shields.io/gitter/room/cypress-io/cypress.svg" alt="Gitter chat"/>
+  <a href="https://on.cypress.io/discord">
+    <img src="https://img.shields.io/badge/chat-on%20Discord-brightgreen" alt="Discord chat"/>
   </a>
     <a href="https://stackshare.io/cypress">
     <img src="https://img.stackshare.io/misc/follow-on-stackshare-badge.svg" alt="StackShare"/>
@@ -67,26 +67,35 @@ or
 ```bash
 yarn add cypress --dev
 ```
+or
+```bash
+pnpm add cypress --save-dev
+```
 
-![installing-cli e1693232](https://user-images.githubusercontent.com/1271364/31740846-7bf607f0-b420-11e7-855f-41c996040d31.gif)
-
+![installing-cli e1693232](./assets/cypress-installation.gif)
 
 ## Contributing
 
-- [![CircleCI](https://circleci.com/gh/cypress-io/cypress/tree/develop.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress/tree/develop) - `develop` branch
-- [![CircleCI](https://circleci.com/gh/cypress-io/cypress/tree/master.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress/tree/master) - `master` branch
+[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
+[![CircleCI](https://circleci.com/gh/cypress-io/cypress/tree/develop.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress/tree/develop) -  `develop` branch
 
 Please see our [Contributing Guideline](./CONTRIBUTING.md) which explains repo organization, linting, testing, and other steps.
 
 ## License
 
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cypress-io/cypress/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cypress-io/cypress/blob/develop/LICENSE)
 
 This project is licensed under the terms of the [MIT license](/LICENSE).
 
 ## Badges
 
-Let the world know your project is using Cypress.io to test with this cool badge
+Configure a badge for your project's README to show your test status or test count in the [Cypress Cloud](https://www.cypress.io/cloud).
+
+[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
+
+[![cypress](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/count/ypt4pf/develop&style=flat&logo=cypress)](https://cloud.cypress.io/projects/ypt4pf/runs)
+
+Or let the world know your project is using Cypress with the badge below.
 
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 

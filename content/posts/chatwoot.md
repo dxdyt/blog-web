@@ -1,9 +1,9 @@
 ---
 title: chatwoot
-date: 2026-06-14T16:15:37+08:00
+date: 2026-06-15T18:23:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780182309635-990aea44c255?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780182309635-990aea44c255?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE0MjQ5MTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780037125316-88b66997ddfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780037125316-88b66997ddfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
 ---
 
 # [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
