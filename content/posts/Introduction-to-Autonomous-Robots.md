@@ -1,9 +1,9 @@
 ---
 title: Introduction-to-Autonomous-Robots
-date: 2026-06-15T18:24:06+08:00
+date: 2026-06-16T17:26:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780672823810-313b985ff276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780672823810-313b985ff276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MTg5NTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780592657995-60f814efa4a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780592657995-60f814efa4a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots)

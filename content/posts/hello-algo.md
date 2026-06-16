@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2025-02-08T12:19:12+08:00
+date: 2026-06-16T17:25:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736754079614-8b43bcba9926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba9926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1780789594340-3e2506752cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780789594340-3e2506752cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)
@@ -21,9 +21,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba99
 
 <p align="center">
   <a href="https://www.hello-algo.com/">
-    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" width="145"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" height="45"></a>
   <a href="https://github.com/krahets/hello-algo/releases">
-    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_dark.svg" width="145"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_epub_dark.svg" height="45"></a>
 </p>
 
 <p align="center">
@@ -53,6 +53,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba99
   <a href="https://github.com/krahets/hello-algo/blob/main/zh-hant/README.md">繁體中文</a>
   ｜
   <a href="https://github.com/krahets/hello-algo/blob/main/en/README.md">English</a>
+  ｜
+  <a href="https://github.com/krahets/hello-algo/blob/main/ja/README.md">日本語</a>
+  ｜
+  <a href="https://github.com/krahets/hello-algo/blob/main/ru/README.md">Русский</a>
 </p>
 
 ## 关于本书
@@ -75,13 +79,24 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba99
 >
 > **—— 李沐，亚马逊资深首席科学家**
 
+## 鸣谢
+
+<p align="left">
+  <a href="https://go.warp.dev/hello-algo">
+    <img src="https://github.com/warpdotdev/brand-assets/blob/main/Github/Sponsor/Warp-Github-LG-02.png" alt="Warp-Github-LG-02" width="500"></a>
+</p>
+
+[Warp is built for coding with multiple AI agents.](https://go.warp.dev/hello-algo)
+
+强烈推荐 Warp 终端，高颜值 + 好用的 AI，体验非常棒！
+
 ## 贡献
 
 本开源书仍在持续更新之中，欢迎您参与本项目，一同为读者提供更优质的学习内容。
 
 - [内容修正](https://www.hello-algo.com/chapter_appendix/contribution/)：请您协助修正或在评论区指出语法错误、内容缺失、文字歧义、无效链接或代码 bug 等问题。
 - [代码转译](https://github.com/krahets/hello-algo/issues/15)：期待您贡献各种语言代码，已支持 Python、Java、C++、Go、JavaScript 等 12 门编程语言。
-- [中译英](https://github.com/krahets/hello-algo/issues/914)：诚邀您加入我们的翻译小组，成员主要来自计算机相关专业、英语专业和英文母语者。
+- 翻译审阅：欢迎您参与本项目的多语言翻译与校对工作，帮助更多读者用母语学习数据结构与算法。
 
 欢迎您提出宝贵意见和建议，如有任何问题请提交 Issues 或微信联系 `krahets-jyd` 。
 
