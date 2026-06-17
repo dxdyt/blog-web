@@ -1,9 +1,9 @@
 ---
 title: meshery
-date: 2026-06-16T17:25:42+08:00
+date: 2026-06-17T17:01:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777670999393-cf5a69a58de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777670999393-cf5a69a58de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2MDE5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780833563155-397982ea66c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2ODY4Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780833563155-397982ea66c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2ODY4Njl8&ixlib=rb-4.1.0
 ---
 
 # [meshery/meshery](https://github.com/meshery/meshery)
