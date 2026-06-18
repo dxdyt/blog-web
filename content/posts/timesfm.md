@@ -1,9 +1,9 @@
 ---
 title: timesfm
-date: 2026-04-04T13:20:55+08:00
+date: 2026-06-18T16:47:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773398348702-500c3d26a6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773398348702-500c3d26a6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUyODAwMzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
 ---
 
 # [google-research/timesfm](https://github.com/google-research/timesfm)
@@ -19,8 +19,10 @@ model developed by Google Research for time-series forecasting.
 *   All checkpoints:
     [TimesFM Hugging Face Collection](https://huggingface.co/collections/google/timesfm-release-66e4be5fdb56e960c1e482a6).
 *   [Google Research blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/).
-*   [TimesFM in BigQuery](https://cloud.google.com/bigquery/docs/timesfm-model):
-    an official Google product.
+*   TimesFM in Google 1P Products:
+    *   [BigQuery ML](https://cloud.google.com/bigquery/docs/timesfm-model): Enterprise level SQL queries for scalability and reliability.
+    *   [Google Sheets](https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html): For your daily spreadsheet. 
+    *   [Vertex Model Garden](https://pantheon.corp.google.com/vertex-ai/publishers/google/model-garden/timesfm): Dockerized endpoint for agentic calling.
 
 This open version is not an officially supported Google product.
 
@@ -31,6 +33,17 @@ This open version is not an officially supported Google product.
 -   1.0 and 2.0: relevant code archived in the sub directory `v1`. You can `pip
     install timesfm==1.3.0` to install an older version of this package to load
     them.
+## Update - June 5, 2026
+
+Updated PyPI to `timesfm=2.0.0`. See [Install](https://github.com/google-research/timesfm#from-pypi).
+
+## Update - Apr. 9, 2026
+
+Added fine-tuning example using HuggingFace Transformers + PEFT (LoRA) — see
+[`timesfm-forecasting/examples/finetuning/`](timesfm-forecasting/examples/finetuning/).
+Also added unit tests (`tests/`) and incorporated several community fixes.
+
+Shoutout to [@kashif](https://github.com/kashif) and [@darkpowerxo](https://github.com/darkpowerxo). 
 
 ## Update - Mar. 19, 2026
 
@@ -54,14 +67,28 @@ Comparing to TimesFM 2.0, this new 2.5 model:
 -   gets rid of the `frequency` indicator.
 -   has a couple of new forecasting flags.
 
-Along with the model upgrade we have also upgraded the inference API. This repo
-will be under construction over the next few weeks to
+Since the Sept. 2025 launch, the following improvements have been completed:
 
-1.  add support for an upcoming Flax version of the model (faster inference).
-2.  add back covariate support.
-3.  populate more docstrings, docs and notebook.
+1.  ✅ Flax version of the model for faster inference.
+2.  ✅ Covariate support via XReg (see Oct. 2025 update).
+3.  ✅ Documentation, examples, and agent skill (see `timesfm-forecasting/`).
+4.  ✅ Fine-tuning example with LoRA via HuggingFace Transformers + PEFT (see `timesfm-forecasting/examples/finetuning/`).
+5.  ✅ Unit tests for core layers, configs, and utilities (see `tests/`).
 
 ### Install
+
+#### From `PyPI`
+
+```shell
+# Install the package with torch
+pip install timesfm[torch]
+# Or with Flax
+pip install timesfm[flax]
+# And when XReg is needed
+pip install timesfm[xreg]
+```
+
+#### Local Install
 
 1.  Clone the repository:
     ```shell
@@ -81,7 +108,7 @@ will be under construction over the next few weeks to
     uv pip install -e .[torch]
     # Or with flax
     uv pip install -e .[flax]
-    # Or XReg is needed
+    # And when XReg is needed
     uv pip install -e .[xreg]
     ```
 

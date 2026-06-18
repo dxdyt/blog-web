@@ -1,84 +1,73 @@
 ---
 title: continue
-date: 2025-06-18T12:28:14+08:00
+date: 2026-06-18T16:47:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749390002163-0d151e3550d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749390002163-0d151e3550d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
 
-<div align="center">
-
-![Continue logo](media/readme.png)
-
-</div>
-
 <h1 align="center">Continue</h1>
 
-<div align="center">
-
-**[Continue](https://docs.continue.dev) enables developers to create, share, and use custom AI code assistants with our
-open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
-and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions
-and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue.dev)**
-
-</div>
+<p align="center">Pioneering open-source coding agent</p>
 
 <div align="center">
 
-<a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
-</a>
-<a target="_blank" href="https://docs.continue.dev" style="background:none">
-    <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
-</a>
-<a target="_blank" href="https://changelog.continue.dev" style="background:none">
-    <img src="https://img.shields.io/badge/changelog-%96EFF3" style="height: 22px;" />
-</a>
-<a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
-    <img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
-</a>
-
-<p></p>
-
-## Agent
-
-[Agent](https://continue.dev/docs/agent/how-to-use-it) enables you to make more substantial changes to your codebase
-
-![agent](docs/static/img/agent.gif)
-
-## Chat
-
-[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave
-the IDE
-
-![chat](docs/static/img/chat.gif)
-
-## Autocomplete
-
-[Autocomplete](https://continue.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
-
-![autocomplete](docs/static/img/autocomplete.gif)
-
-## Edit
-
-[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current
-file
-
-![edit](docs/static/img/edit.gif)
+<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" /></a>
+<a href="https://docs.continue.dev"><img src="https://img.shields.io/badge/Docs-docs.continue.dev-blue" /></a>
+<a href="https://github.com/continuedev/continue/releases"><img src="https://img.shields.io/badge/Changelog-GitHub_Releases-blue" /></a>
 
 </div>
 
-## Getting Started
+<p align="center">
+  <img src="media/github-readme.png" alt="Banner" />
+</p>
 
-Learn about how to install and use Continue in the docs [here](https://continue.dev/docs/getting-started/install)
+## What is Continue?
 
-## Contributing
+> _Note: The `continuedev/continue` repository is no longer actively maintained and is read-only for all users._
 
-Read the [contributing guide](https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md), and
-join [#contribute on Discord](https://discord.gg/vapESyrFmJ).
+Continue is a coding agent available as a [CLI](#cli), [VS Code extension](#vs-code), and [JetBrains plugin](#jetbrains).
+
+## Documentation
+
+To learn how to configure Continue, how it works, and how to customize it, check out the [Continue Docs](https://docs.continue.dev).
+
+## Final 2.0.0 Release
+
+We polished Continue and did a final 2.0.0 release of the VS Code extension, CLI, and JetBrains plugin.
+
+This included removing anonymous telemetry, pulling out authentication, squashing bugs, and more.
+
+### VS Code
+
+[![VS Code Marketplace](https://img.shields.io/badge/VS_Code_Marketplace-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Continue.continue) [![OpenVSX Registry](https://img.shields.io/badge/OpenVSX_Registry-C160EF?logo=eclipseide&logoColor=white)](https://open-vsx.org/extension/Continue/continue) [![View source](https://img.shields.io/badge/View_source-181717?logo=github&logoColor=white)](extensions/vscode)
+
+### CLI
+
+[![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/@continuedev/cli) [![View source](https://img.shields.io/badge/View_source-181717?logo=github&logoColor=white)](extensions/cli)
+
+### JetBrains
+
+> _Note: We recommend using the Continue CLI instead of the JetBrains plugin._
+
+[![GitHub Releases](https://img.shields.io/badge/GitHub_Releases-181717?logo=github&logoColor=white)](https://github.com/continuedev/continue/releases) [![View source](https://img.shields.io/badge/View_source-181717?logo=github&logoColor=white)](extensions/intellij)
+
+## Contributors
+
+Thank you to the entire Continue community for helping us create a pioneering coding agent.
+
+What we built together pushed the boundaries of what AI developer tooling could be.
+
+We hope this codebase continues to serve as a foundation for others.
+
+## Code friends
+
+<a href="https://github.com/continuedev/continue/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=continuedev/continue&max=500" />
+</a>
 
 ## License
 
-[Apache 2.0 © 2023-2024 Continue Dev, Inc.](./LICENSE)
+Apache 2.0 © 2023-2026 Continue Dev, Inc.

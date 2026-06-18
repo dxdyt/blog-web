@@ -1,9 +1,9 @@
 ---
 title: universal-android-debloater-next-generation
-date: 2026-06-17T17:02:12+08:00
+date: 2026-06-18T16:48:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1773072525900-e29326544c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2ODY4Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1773072525900-e29326544c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2ODY4Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
 ---
 
 # [Universal-Debloater-Alliance/universal-android-debloater-next-generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
