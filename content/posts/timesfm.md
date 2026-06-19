@@ -1,9 +1,9 @@
 ---
 title: timesfm
-date: 2026-06-18T16:47:26+08:00
+date: 2026-06-19T17:04:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779591550867-16a29791874e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778705055353-36a6d65bd86b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778705055353-36a6d65bd86b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [google-research/timesfm](https://github.com/google-research/timesfm)
