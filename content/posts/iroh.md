@@ -1,9 +1,9 @@
 ---
 title: iroh
-date: 2026-06-19T17:04:54+08:00
+date: 2026-06-20T15:50:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
 ---
 
 # [n0-computer/iroh](https://github.com/n0-computer/iroh)

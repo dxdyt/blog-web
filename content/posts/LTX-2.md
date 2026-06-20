@@ -1,9 +1,9 @@
 ---
 title: LTX-2
-date: 2026-06-19T17:06:27+08:00
+date: 2026-06-20T15:51:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777829999062-917dd30ad425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777829999062-917dd30ad425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
 ---
 
 # [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2)

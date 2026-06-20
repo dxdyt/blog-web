@@ -1,9 +1,9 @@
 ---
 title: flue
-date: 2026-06-19T17:05:37+08:00
+date: 2026-06-20T15:50:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780833563329-85b54baf1f91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780833563329-85b54baf1f91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
 ---
 
 # [withastro/flue](https://github.com/withastro/flue)

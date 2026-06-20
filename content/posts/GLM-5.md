@@ -1,9 +1,9 @@
 ---
 title: GLM-5
-date: 2026-06-19T17:05:14+08:00
+date: 2026-06-20T15:50:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777829999062-917dd30ad425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777829999062-917dd30ad425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781428269398-0c044f7060c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781428269398-0c044f7060c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
 ---
 
 # [zai-org/GLM-5](https://github.com/zai-org/GLM-5)
@@ -85,6 +85,7 @@ GLM-5.2 supports deployment with the following frameworks. Feel free to try them
 - [vLLM](https://github.com/vllm-project/vllm) (v0.23.0+) — see [recipes](https://recipes.vllm.ai/zai-org/GLM-5.2)
 - [Transformers](https://github.com/huggingface/transformers) (v0.5.12+) — see [transformers docs](https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/glm_moe_dsa.md)
 - [KTransformers](https://github.com/kvcache-ai/ktransformers) (v0.5.12+) — see [tutorial](https://github.com/kvcache-ai/ktransformers/blob/main/doc/en/kt-kernel/GLM-5.2-Tutorial.md)
+- [Unsloth](https://github.com/unslothai/unsloth) (v0.1.47-beta+) — see [guide](https://unsloth.ai/docs/models/glm-5.2)
 - For deployment on the `Ascend NPU` platform, inference frameworks such as vLLM-Ascend, xLLM and SGLang are supported — see [here](example/ascend.md).
 
 GLM-5 supports controlling the thinking budget through the `reasoning_effort` parameter, which accepts two levels: `max` and `high`. **`max` is the default** — if `reasoning_effort` is left unset (or set to any value other than `high`), the model runs at `Max`. To use the `High` level, you must explicitly pass `reasoning_effort="high"`. For default scenarios such as benchmark/leaderboard reproduction, keep `Max` (no setting required); only set `reasoning_effort="high"` when you specifically want the `High` level. Thinking can be turned off entirely by setting `enable_thinking=false`.

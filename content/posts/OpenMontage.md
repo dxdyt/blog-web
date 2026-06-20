@@ -1,9 +1,9 @@
 ---
 title: OpenMontage
-date: 2026-06-18T16:49:00+08:00
+date: 2026-06-20T15:50:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779992177087-9a0cbda22250?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779992177087-9a0cbda22250?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3NzIzOTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
 ---
 
 # [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
