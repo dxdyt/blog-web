@@ -1,9 +1,9 @@
 ---
 title: headroom
-date: 2026-06-20T15:50:22+08:00
+date: 2026-06-21T16:33:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780789593541-6e814b4d5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780789593541-6e814b4d5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781357087497-0df2563025f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781357087497-0df2563025f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [chopratejas/headroom](https://github.com/chopratejas/headroom)

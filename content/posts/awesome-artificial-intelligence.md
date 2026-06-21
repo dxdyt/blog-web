@@ -1,9 +1,9 @@
 ---
 title: awesome-artificial-intelligence
-date: 2026-06-19T17:06:21+08:00
+date: 2026-06-21T16:34:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777997271952-4fa8fec2ffa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777997271952-4fa8fec2ffa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777903676073-960338365e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777903676073-960338365e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)

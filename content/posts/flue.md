@@ -1,9 +1,9 @@
 ---
 title: flue
-date: 2026-06-20T15:50:42+08:00
+date: 2026-06-21T16:34:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779464433091-5b7fcd0b7a96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777502371926-e887a283d6e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777502371926-e887a283d6e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [withastro/flue](https://github.com/withastro/flue)
@@ -14,7 +14,7 @@ Not another SDK. Build autonomous agents and powerful AI workflows with Flue's p
 
 ```ts
 // agents/triage.ts
-import { createAgent, type AgentRouteHandler } from '@flue/runtime';
+import { defineAgent, type AgentRouteHandler } from '@flue/runtime';
 import { local } from '@flue/runtime/node';
 import triage from '../skills/triage/SKILL.md' with { type: 'skill' };
 import verify from '../skills/verify/SKILL.md' with { type: 'skill' };
@@ -33,7 +33,7 @@ export const route: AgentRouteHandler = async (_c, next) => next();
 
 // Compose the complete harness your agent needs to do real work,
 // complete with virtual, local, or remote container sandbox.
-export default createAgent(() => ({
+export default defineAgent(() => ({
   model: 'anthropic/claude-sonnet-4-6',
   tools: [...githubTools],
   skills: [triage, verify],

@@ -1,9 +1,9 @@
 ---
 title: palmier-pro
-date: 2026-06-20T15:49:50+08:00
+date: 2026-06-21T16:32:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781853330027-bbabc95d3577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781853330027-bbabc95d3577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777502371926-e887a283d6e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777502371926-e887a283d6e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)

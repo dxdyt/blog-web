@@ -1,9 +1,9 @@
 ---
 title: turso
-date: 2025-12-15T12:41:10+08:00
+date: 2026-06-21T16:33:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763959172796-4b09f0031e85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763959172796-4b09f0031e85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [tursodatabase/turso](https://github.com/tursodatabase/turso)
@@ -48,11 +48,13 @@ Turso Database is an in-process SQL database written in Rust, compatible with SQ
 ## Features and Roadmap
 
 * **SQLite compatibility** for SQL dialect, file formats, and the C API [see [document](COMPAT.md) for details]
+* **`BEGIN CONCURRENT`** for improved write throughput using multi-version concurrency control (MVCC).
 * **Change data capture (CDC)** for real-time tracking of database changes.
 * **Multi-language support** for
-  * [Go](https://github.com/tursodatabase/turso-go)
+  * [Go](bindings/go)
   * [JavaScript](bindings/javascript)
   * [Java](bindings/java)
+  * [.NET](bindings/dotnet)
   * [Python](bindings/python)
   * [Rust](bindings/rust)
   * [WebAssembly](bindings/javascript)
@@ -63,9 +65,10 @@ Turso Database is an in-process SQL database written in Rust, compatible with SQ
 
 The database has the following experimental features:
 
-* **`BEGIN CONCURRENT`** for improved write throughput using multi-version concurrency control (MVCC).
 * **Encryption at rest** for protecting the data locally.
-* **Incremental computation** using DBSP for incremental view mainatenance and query subscriptions.
+* **Incremental computation** using DBSP for incremental view maintenance and query subscriptions.
+* **Full-Text-Search** powered by the awesome [tantivy](https://github.com/quickwit-oss/tantivy) library
+* **Multi-process WAL coordination** via the `.tshm` sidecar for cross-process WAL readers and writers.
 
 The following features are on our current roadmap:
 
@@ -184,15 +187,15 @@ print(res.fetchone())
 <br>
 
 ```console
-go get github.com/tursodatabase/turso-go
-go install github.com/tursodatabase/turso-go
+go get turso.tech/database/tursogo
+go install turso.tech/database/tursogo
 ```
 
 Example usage:
 ```go
 import (
     "database/sql"
-    _ "github.com/tursodatabase/turso-go"
+    _ "turso.tech/database/tursogo"
 )
 
 conn, _ = sql.Open("turso", "sqlite.db")
@@ -210,6 +213,36 @@ for rows.Next() {
 }
 ```
 </details>
+
+
+<details>
+
+<summary>️#️⃣ .NET</summary>
+<br>
+
+Example usage:
+```cs
+using Turso;
+
+using var connection = new TursoConnection("Data Source=:memory:");
+connection.Open();
+
+connection.ExecuteNonQuery("CREATE TABLE t(a, b)");
+var rowsAffected = connection.ExecuteNonQuery("INSERT INTO t(a, b) VALUES (1, 2), (3, 4)");
+Console.WriteLine($"RowsAffected: {rowsAffected}");
+
+using var command = connection.CreateCommand();
+command.CommandText = "SELECT * FROM t";
+using var reader = command.ExecuteReader();
+while (reader.Read())
+{
+    var a = reader.GetInt32(0);
+    var b = reader.GetInt32(1);
+    Console.WriteLine($"Value1: {a}, Value2: {b}");
+}
+```
+</details>
+
 
 <details>
 
@@ -399,30 +432,11 @@ EOF
 
 We'd love to have you contribute to Turso Database! Please check out the [contribution guide] to get started.
 
-### Found a data corruption bug? Get up to $1,000.00
-
-SQLite is loved because it is the most reliable database in the world. The next evolution of SQLite has
-to match or surpass this level of reliability. Turso is built with [Deterministic Simulation Testing](simulator/)
-from the ground up, and is also tested by [Antithesis](https://antithesis.com).
-
-Even during Alpha, if you find a bug that leads to a data corruption and demonstrate
-how our simulator failed to catch it, you can get up to $1,000.00. As the project matures we will
-increase the size of the prize, and the scope of the bugs.
-
-List of rewarded cases:
-
-* B-Tree interior cell replacement issue in btrees with depth >=3 ([#2106](https://github.com/tursodatabase/turso/issues/2106))
-* Don't allow autovacuum to be flipped on non-empty databases ([#3830](https://github.com/tursodatabase/turso/pull/3830))
-
-More details [here](https://turso.algora.io).
-
-Turso core staff are not eligible.
-
 ## FAQ
 
 ### Is Turso Database ready for production use?
 
-Turso Database is currently under heavy development and is **not** ready for production use.
+Turso powers production apps today. That includes [Turso Cloud](https://turso.tech/signup), the [Kin AI assistant](https://mykin.ai/), and [Spice.ai](https://github.com/spiceai/spiceai). However, it is still under active development and for mission-critical applications, caution is advised. Independent backups are encouraged. Turso is extensively tested by a collection of tools including a native Deterministic Simulation Testing suite and [Antithesis](https://antithesis.com), so we are generally confident in the end result. But our bar is SQLite-level reliability, and we will still recommend caution until we are confident it meets that bar.
 
 ### How is Turso Database different from Turso's libSQL?
 
@@ -434,6 +448,7 @@ Rewriting SQLite in Rust started as an unassuming experiment, and due to its inc
 
 * Pekka Enberg, Sasu Tarkoma, Jon Crowcroft Ashwin Rao (2024). Serverless Runtime / Database Co-Design With Asynchronous I/O. In _EdgeSys ‘24_. [[PDF]](https://penberg.org/papers/penberg-edgesys24.pdf)
 * Pekka Enberg, Sasu Tarkoma, and Ashwin Rao (2023). Towards Database and Serverless Runtime Co-Design. In _CoNEXT-SW ’23_. [[PDF](https://penberg.org/papers/penberg-conext-sw-23.pdf)] [[Slides](https://penberg.org/papers/penberg-conext-sw-23-slides.pdf)]
+* Alperen Keles, Ethan Chou, Harrison Goldstein, Leonidas Lampropoulos (2026). DIRT: Database-Integrated Random Testing. In _DBTest '26_. [[PDF]](https://arxiv.org/pdf/2604.16373)
 
 ## License
 

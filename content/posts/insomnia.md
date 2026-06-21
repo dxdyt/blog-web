@@ -1,9 +1,9 @@
 ---
 title: insomnia
-date: 2026-06-20T15:51:11+08:00
+date: 2026-06-21T16:33:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779372371052-b2b3f32154c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE5NDE3NzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778546978204-2fe29201b929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778546978204-2fe29201b929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [Kong/insomnia](https://github.com/Kong/insomnia)

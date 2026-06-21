@@ -1,9 +1,9 @@
 ---
 title: jcode
-date: 2026-05-05T14:16:24+08:00
+date: 2026-06-21T16:34:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763998861274-50ad8e2a182c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763998861274-50ad8e2a182c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
 ---
 
 # [1jehuang/jcode](https://github.com/1jehuang/jcode)
@@ -12,11 +12,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1763998861274-50ad8e2a18
 
 # jcode
 
-[![Latest Release](https://img.shields.io/github/v/release/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/releases)
-[![License](https://img.shields.io/github/license/1jehuang/jcode?style=flat-square)](LICENSE)
+[![Latest Release](https://badgen.net/github/release/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-blue?style=flat-square)](https://github.com/1jehuang/jcode/releases)
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/commits/master)
-[![GitHub Stars](https://img.shields.io/github/stars/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/stargazers)
+[![Last Commit](https://badgen.net/github/last-commit/1jehuang/jcode/master?icon=github)](https://github.com/1jehuang/jcode/commits/master)
+[![GitHub Stars](https://badgen.net/github/stars/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/stargazers)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)
 
 The next generation coding agent harness to raise the skill ceiling. <br>
 Built for multi-session workflows, infinite customizability, and performance. 
@@ -117,6 +118,11 @@ jcode is built to be as performant and resource efficient as possible. Every met
             <td align="right"><strong>386.6 MB</strong></td>
             <td align="right"><strong>13.9× more RAM</strong></td>
           </tr>
+          <tr>
+            <td><strong>Antigravity CLI</strong></td>
+            <td align="right"><strong>243.7 MB</strong></td>
+            <td align="right"><strong>8.8× more RAM</strong></td>
+          </tr>
         </tbody>
       </table>
     </td>
@@ -172,6 +178,11 @@ jcode is built to be as performant and resource efficient as possible. Every met
             <td align="right"><strong>2300.6 MB</strong></td>
             <td align="right"><strong>19.7× more RAM</strong></td>
           </tr>
+          <tr>
+            <td><strong>Antigravity CLI</strong></td>
+            <td align="right"><strong>1021.2 MB</strong></td>
+            <td align="right"><strong>8.7× more RAM</strong></td>
+          </tr>
         </tbody>
       </table>
     </td>
@@ -187,6 +198,7 @@ jcode is built to be as performant and resource efficient as possible. Every met
 | Tool | Time to first frame | Range | Comparison |
 |---|---:|---:|---:|
 | **jcode** | **14.0 ms** | 10.1–19.3 ms | baseline |
+| **Antigravity CLI** | **383.5 ms** | 363.1–415.4 ms | **27.4× slower** |
 | **pi** | **590.7 ms** | 369.6–934.8 ms | **42.2× slower** |
 | **Codex CLI** | **882.8 ms** | 742.3–1640.9 ms | **63.1× slower** |
 | **OpenCode** | **1035.9 ms** | 922.5–1104.4 ms | **74.0× slower** |
@@ -199,12 +211,13 @@ jcode is built to be as performant and resource efficient as possible. Every met
 Measured on this Linux machine across 10 interactive PTY launches.
 
 ### Time to first input
-(time until typed probe text appears on the rendered screen.)
+(time until typed probe text appears on the rendered screen; Antigravity uses its internal input-ready log marker because the sign-in screen suppresses probe echo.)
 <div align="center">
 
 | Tool | Time to first input | Range | Comparison |
 |---|---:|---:|---:|
 | **jcode** | **48.7 ms** | 30.3–62.7 ms | baseline |
+| **Antigravity CLI** | **383.7 ms** | 363.4–415.7 ms | **7.9× slower** |
 | **pi** | **596.4 ms** | 373.9–955.2 ms | **12.2× slower** |
 | **Codex CLI** | **905.8 ms** | 760.1–1675.7 ms | **18.6× slower** |
 | **OpenCode** | **1047.9 ms** | 931.1–1116.9 ms | **21.5× slower** |
@@ -214,7 +227,7 @@ Measured on this Linux machine across 10 interactive PTY launches.
 
 </div>
 
-Measured on this Linux machine across 10 interactive PTY launches.
+Measured on this Linux machine across 10 interactive PTY launches. Antigravity CLI was unauthenticated for this run; its sign-in screen rendered normally and emitted an internal `CLI ready for user input` marker, but did not echo the typed probe.
 
 ### Additional clients / memory scaling
 
@@ -230,6 +243,7 @@ Measured on this Linux machine across 10 interactive PTY launches.
 | **GitHub Copilot CLI** | **~158.1 MB** | **16.0× more RAM** |
 | **Cursor Agent** | **~157.5 MB** | **15.9× more RAM** |
 | **Claude Code** | **~212.7 MB** | **21.5× more RAM** |
+| **Antigravity CLI** | **~86.4 MB** | **8.7× more RAM** |
 
 </div>
 versions tested for this corrected memory rerun:
@@ -241,6 +255,7 @@ versions tested for this corrected memory rerun:
 - `GitHub Copilot CLI 1.0.24` for the 1-session rerun, `GitHub Copilot CLI 1.0.27` for the 10-session rerun
 - `Cursor Agent 2026.04.08-a41fba1`
 - `Claude Code 2.1.86 (Claude Code)`
+- `Antigravity CLI 1.0.0`
 
 <div align="center">
 
@@ -338,6 +353,35 @@ For custom OpenAI-compatible endpoints, jcode now prompts for the API base and s
 
 If you prefer to configure things by editing files instead of using the login UI, jcode supports both a custom OpenAI-compatible endpoint config and MCP config files.
 
+#### OpenAI-compatible providers
+
+Many hosted services speak the standard OpenAI `/v1/chat/completions` API. jcode talks to them through one shared OpenAI-compatible provider, so you can use almost any such endpoint without waiting for a dedicated integration.
+
+There are two ways to set one up:
+
+- **Built-in named profiles** — jcode ships ready-made profiles for several popular OpenAI-compatible services. Log in by id and jcode fills in the base URL and key environment variable for you:
+
+  ```bash
+  jcode login --provider <profile-id>
+  # for example:
+  jcode login --provider openrouter
+  jcode login --provider deepseek
+  jcode login --provider opencode      # OpenCode Zen
+  jcode login --provider moonshotai
+  ```
+
+  Built-in OpenAI-compatible profile ids include: `openrouter`, `deepseek`, `zai`, `kimi`, `moonshotai`, `opencode` (OpenCode Zen), `opencode-go`, `302ai`, `baseten`, `cortecs`, `huggingface`, `nebius`, `scaleway`, `stackit`, and `firmware`. Each profile only sets the endpoint and key variable; you still pick the model with `/model` (or `--model`). Run `jcode login` with no provider to see the interactive list.
+
+- **Any other endpoint** — point jcode at an arbitrary OpenAI-compatible API (hosted or local) with `jcode login --provider openai-compatible` or the scriptable `jcode provider add` command described below.
+
+Useful environment overrides for these endpoints:
+
+- `JCODE_STREAM_IDLE_TIMEOUT_SECS` — raise the streaming idle timeout (default 180s) for slow reasoning models that think silently before emitting tokens. Also settable as `[provider] stream_idle_timeout_secs` in `config.toml`.
+- Per-model `context_window` (alias `context_limit`) in a `[[providers.<name>.models]]` entry — set the context window when the endpoint has no usable `/v1/models` response, so jcode does not fall back to the generic 200k default.
+- `extra_body` — inject non-standard top-level fields into every chat/completions request body for backends that require them. See [Extra request-body fields](#extra-request-body-fields-extra_body) below.
+
+For details on self-hosting, local runtimes, and the exact config file shape, see below.
+
 #### Self-hosted OpenAI-compatible endpoints, including vLLM
 
 For agents and scripts, the preferred path is the one-shot provider profile command. It writes a named profile to `~/.jcode/config.toml`, stores secrets in jcode's private app config directory when requested, and prints exact run/validation commands:
@@ -368,6 +412,22 @@ jcode provider add local-vllm \
   --set-default
 ```
 
+Built-in local profiles are available for the common desktop/local runtimes:
+
+```bash
+# Ollama: start the local server and install a model first.
+ollama pull llama3.2
+jcode login --provider ollama
+jcode --provider ollama --model llama3.2 run 'hello'
+
+# LM Studio: start the Local Server, load a chat model, then use the exact
+# model identifier shown by LM Studio or by curl http://localhost:1234/v1/models.
+jcode login --provider lmstudio
+jcode --provider lmstudio --model '<model-id>' run 'hello'
+```
+
+Ollama and LM Studio both expose OpenAI-compatible `/v1/models` and `/v1/chat/completions` endpoints. jcode uses streaming chat completions, function/tool calling, and OpenAI-style image content for vision-capable local models. If a local server requires a token, enter it during `jcode login` or create a named profile with `--api-key-stdin`.
+
 Useful flags:
 
 - `--api-key-env NAME`: reference an existing environment variable instead of storing a key.
@@ -394,6 +454,32 @@ default_model = "my-model-id"
 id = "my-model-id"
 context_window = 128000
 ```
+
+##### Extra request-body fields (`extra_body`)
+
+Some OpenAI-compatible backends require non-standard top-level request fields. For example, NVIDIA NIM DeepSeek-V4 reasoning models (`deepseek-ai/deepseek-v4-flash`, `deepseek-ai/deepseek-v4-pro`) only enable thinking when the request includes `chat_template_kwargs`; without it they reply without reasoning (or, for some deployments, hang). jcode lets you inject arbitrary top-level fields two ways.
+
+1. Per named profile, via `extra_body` in `config.toml` (a TOML table merged verbatim into the JSON body):
+
+   ```toml
+   [providers.my-nim]
+   type = "openai-compatible"
+   base_url = "https://integrate.api.nvidia.com/v1"
+   api_key_env = "NVIDIA_API_KEY"
+   default_model = "deepseek-ai/deepseek-v4-flash"
+
+   [providers.my-nim.extra_body.chat_template_kwargs]
+   thinking = true
+   reasoning_effort = "high"
+   ```
+
+2. For built-in profiles (e.g. `nvidia-nim`) or any endpoint, via the `JCODE_OPENAI_EXTRA_BODY` environment variable (a JSON object string). It can live in the provider's env file (`~/.config/jcode/nvidia-nim.env`) next to the API key:
+
+   ```bash
+   JCODE_OPENAI_EXTRA_BODY={"chat_template_kwargs":{"thinking":true,"reasoning_effort":"high"}}
+   ```
+
+Keys from `extra_body` are merged last and override any jcode-generated body field with the same name (`JCODE_OPENAI_EXTRA_BODY` wins over the config `extra_body` on key collisions). Invalid values are logged and ignored rather than failing the request.
 
 The custom OpenAI-compatible provider reads overrides from environment variables or from an env file in jcode's app config directory. On Linux this is usually `~/.config/jcode/`, so the default file is usually:
 
@@ -675,6 +761,7 @@ Set up jcode on this machine for me.
    - OpenRouter: `OPENROUTER_API_KEY`
    - Fireworks: `~/.config/jcode/fireworks.env`, `FIREWORKS_API_KEY`
    - MiniMax: `~/.config/jcode/minimax.env`, `MINIMAX_API_KEY`
+   - NVIDIA NIM: `~/.config/jcode/nvidia-nim.env`, `NVIDIA_API_KEY`
    - Alibaba Cloud Coding Plan: existing jcode config/env if present
 5. Prefer whichever provider is already configured and verify it with `jcode auth-test --all-configured` or a provider-specific auth test when appropriate.
 6. Only if no usable provider is already configured, guide me through the minimal manual step needed:
@@ -685,6 +772,7 @@ Set up jcode on this machine for me.
    - Azure OpenAI: `jcode login --provider azure`
    - Fireworks: `jcode login --provider fireworks`
    - MiniMax: `jcode login --provider minimax`
+   - NVIDIA NIM: `jcode login --provider nvidia-nim`
    - Alibaba Cloud Coding Plan: `jcode login --provider alibaba-coding-plan`
    - OpenRouter: help me set `OPENROUTER_API_KEY`
    - Anthropic direct API: help me set `ANTHROPIC_API_KEY`
@@ -699,6 +787,15 @@ This is intended to be a copy-paste bootstrap prompt for jcode itself or any oth
 
 ```bash
 # macOS & Linux
+curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
+```
+
+On Termux, install the glibc runtime and `patchelf` first so the installer can
+patch the downloaded Linux binary to Termux's glibc dynamic linker and create a
+launcher that avoids Termux's `LD_PRELOAD` shim:
+
+```bash
+pkg install glibc patchelf
 curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
 ```
 
@@ -747,5 +844,6 @@ scripts/install_release.sh
 | **Linux** x86_64 / aarch64 | Fully supported |
 | **macOS** Apple Silicon & Intel | Supported |
 | **Windows** x86_64 | Supported (native + WSL2) |
+| **Termux** aarch64 / x86_64 | Supported with `pkg install glibc patchelf` |
 
 </div>
