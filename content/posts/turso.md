@@ -1,9 +1,9 @@
 ---
 title: turso
-date: 2026-06-21T16:33:14+08:00
+date: 2026-06-22T17:47:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779107940287-3344f421a1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779107940287-3344f421a1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
 ---
 
 # [tursodatabase/turso](https://github.com/tursodatabase/turso)

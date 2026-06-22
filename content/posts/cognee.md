@@ -1,9 +1,9 @@
 ---
 title: cognee
-date: 2026-04-17T14:03:31+08:00
+date: 2026-06-22T17:48:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774033729158-8684a9e0699e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774033729158-8684a9e0699e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY0MDU3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779107940287-3344f421a1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779107940287-3344f421a1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
 ---
 
 # [topoteretes/cognee](https://github.com/topoteretes/cognee)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1774033729158-8684a9e069
 
   <br />
 
-  Cognee - Build AI memory with a Knowledge Engine that learns
+  Cognee - The Open-Source AI Memory Platform for Agents
 
   <p align="center">
   <a href="https://www.youtube.com/watch?v=8hmqS2Y5RVQ&t=13s">Demo</a>
@@ -47,10 +47,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1774033729158-8684a9e069
   </a>
 </p>
 
-Use our knowledge engine to build personalized and dynamic memory for AI Agents.
+Cognee is the open-source AI memory platform that gives AI agents persistent long-term memory across sessions. Ingest data in any format, build a self-hosted knowledge graph, and let every agent recall, connect, and act with full context
 
   <p align="center">
-  🌐 Available Languages
+  🌐 This README is also available in:
   :
   <!-- Keep these links. Translations will automatically update with the README. -->
   <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=de">Deutsch</a> |
@@ -69,14 +69,12 @@ Use our knowledge engine to build personalized and dynamic memory for AI Agents.
 </div>
 </div>
 
-
+📄 Read the research paper: [Optimizing the Interface Between Knowledge Graphs and LLMs for Complex Reasoning](https://arxiv.org/abs/2505.24478) — Markovic et al., 2025
 
 
 ## About Cognee
 
-Cognee is an open-source knowledge engine that lets you ingest data in any format or structure and continuously learns to provide the right context for AI agents. It combines vector search, graph databases and cognitive science approaches to make your documents both searchable by meaning and connected by relationships as they change and evolve.
-
-
+Cognee is an open-source AI memory platform for AI Agents. Ingest data in any format, and Cognee continuously builds a self-hosted knowledge graph that gives your agents persistent long-term memory across sessions. Cognee combines vector embeddings, graph reasoning, and cognitive-science-grounded ontology generation to make documents both searchable by meaning and connected by relationships that evolve as your knowledge does.
 
 :star: _Help us reach more developers and grow the cognee community. Star this repo!_
 
@@ -87,11 +85,10 @@ Cognee is an open-source knowledge engine that lets you ingest data in any forma
 ✴️ _Available as a plugin for your Claude Code — [claude-code-plugin](https://github.com/topoteretes/cognee-integrations/tree/main/integrations/claude-code)_
 
 
-Cognee memory plugin
-
 
 ### Why use Cognee:
 
+- Easily Build Company Brain - unify data from various sources in one place and enable Agents with your domain knowledge
 - Knowledge infrastructure — unified ingestion, graph/vector search, runs locally, ontology grounding, multimodal
 - Persistent and Learning Agents - learn from feedback, context management, cross-agent knowledge sharing
 - Reliable and Trustworthy Agents - agentic user/tenant isolation, traceability, OTEL collector, audit traits
@@ -114,7 +111,7 @@ Let’s try Cognee in just a few lines of code.
 
 ### Prerequisites
 
-- Python 3.10 to 3.13
+- Python 3.10 to 3.14
 
 ### Step 1: Install Cognee
 
@@ -183,6 +180,53 @@ To open the local UI, run:
 cognee-cli -ui
 ```
 
+> **Note:** The MCP server launched by `cognee-cli -ui` runs inside a Docker container.
+> Docker Desktop, Colima, or any OCI-compatible runtime with a working `docker` CLI is
+> required. See [Docker & Colima Setup](docs/docker-colima-setup.md) for details.
+
+## Run with Docker
+
+Prefer containers? Cognee publishes prebuilt images to Docker Hub on every push to `main`:
+[`cognee/cognee`](https://hub.docker.com/r/cognee/cognee) (the API server) and
+[`cognee/cognee-mcp`](https://hub.docker.com/r/cognee/cognee-mcp) (the MCP server).
+
+### Option A — Docker Compose (build from source)
+
+Clone the repo, create a `.env` with at least `LLM_API_KEY`, then:
+
+```bash
+cp .env.template .env   # then edit .env and set LLM_API_KEY
+
+# Start the API server (http://localhost:8000)
+docker compose up
+
+# Optional profiles (combine as needed):
+docker compose --profile ui up        # + frontend on http://localhost:3000
+docker compose --profile mcp up       # + MCP server on http://localhost:8001
+docker compose --profile postgres up  # + Postgres/PGVector
+docker compose --profile neo4j up     # + Neo4j
+```
+
+> The `cognee` and `cognee-mcp` services publish different host ports (`8000` vs `8001`),
+> so you can run both at once.
+
+### Option B — Pull the prebuilt image (no clone required)
+
+```bash
+# Create a minimal .env in the current directory
+echo 'LLM_API_KEY="YOUR_OPENAI_API_KEY"' > .env
+
+# API server
+docker run --env-file ./.env -p 8000:8000 --rm -it cognee/cognee:main
+
+# MCP server (HTTP transport)
+docker pull cognee/cognee-mcp:main
+docker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main
+```
+
+See the [MCP server README](cognee-mcp/README.md) for SSE/stdio transports, optional
+extras, and MCP client configuration.
+
 ## Use with AI Agents
 
 ### Claude Code
@@ -213,26 +257,6 @@ export COGNEE_API_KEY="ck_..."
 ```
 
 The plugin hooks into Claude Code's lifecycle — `SessionStart` initializes memory, `PostToolUse` captures actions, `UserPromptSubmit` injects relevant context, `PreCompact` preserves memory across context resets, and `SessionEnd` bridges session data into the permanent graph.
-
-### Hermes Agent
-
-Enable Cognee as the memory provider in [Hermes Agent](https://github.com/NousResearch/hermes-agent) for session-aware knowledge graph memory with auto-routing recall.
-
-**Setup:**
-
-```yaml
-# ~/.hermes/config.yaml
-memory:
-  provider: cognee
-```
-
-```bash
-export LLM_API_KEY="your-openai-key"
-hermes  # start chatting — session memory and graph persistence are automatic
-```
-
-Or run `hermes memory setup` and select Cognee. For Cognee Cloud, set `COGNEE_SERVICE_URL` and `COGNEE_API_KEY` in `~/.hermes/.env`.
-
 
 ### Connect to Cognee Cloud
 

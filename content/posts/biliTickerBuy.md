@@ -1,9 +1,9 @@
 ---
 title: biliTickerBuy
-date: 2025-06-30T12:34:10+08:00
+date: 2026-06-22T17:48:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1546803073-23568b8c98e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1546803073-23568b8c98e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778844648458-129cfdf980a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778844648458-129cfdf980a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
 ---
 
 # [mikumifa/biliTickerBuy](https://github.com/mikumifa/biliTickerBuy)
@@ -34,43 +34,35 @@ featuredImagePreview: https://images.unsplash.com/photo-1546803073-23568b8c98e6?
 </p>
 <a href="https://trendshift.io/repositories/11145" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11145" alt="mikumifa%2FbiliTickerBuy | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-这是一个开源免费，简单易用的B站会员购辅助工具
+这是一个开源免费，简单易用的 B 站会员购辅助工具
+
 </div>
-
-
-
-
-
 
 ## 💻 快速安装
 
-[下载链接](https://github.com/mikumifa/biliTickerBuy/releases) 
+请查看完整的 [安装指南](./docs/installation.md)。
 
 ## 👀 使用说明书
+
 前往飞书： https://n1x87b5cqay.feishu.cn/wiki/Eg4xwt3Dbiah02k1WqOcVk2YnMd
 
 ## ❗ 项目问题
 
-程序使用问题： [点此链接前往discussions](https://github.com/mikumifa/biliTickerBuy/discussions)
+程序使用问题： [点此链接前往 discussions](https://github.com/mikumifa/biliTickerBuy/discussions)
 
-反馈程序BUG或者提新功能建议： [点此链接向项目提出反馈BUG](https://github.com/mikumifa/biliTickerBuy/issues/new/choose)
+反馈程序 BUG 或者提新功能建议： [点此链接向项目提出反馈 BUG](https://github.com/mikumifa/biliTickerBuy/issues/new/choose)
 
+## Related Work
+
+Skill版本：https://github.com/mikumifa/biliTickerSkill
+
+分布式版本：https://github.com/mikumifa/biliTickerStorm
 
 ## 📩 免责声明
-
 本项目遵循 MIT License 许可协议，仅供个人学习与研究使用。请勿将本项目用于任何商业牟利行为，亦严禁用于任何形式的代抢、违法行为或违反相关平台规则的用途。由此产生的一切后果均由使用者自行承担，与本人无关。
-
 若您 fork 或使用本项目，请务必遵守相关法律法规与目标平台规则。
-
-## 💡 关于访问频率与并发控制
-本项目在设计时严格遵循「非侵入式」原则，避免对目标服务器（如 Bilibili）造成任何干扰。
-
-所有网络请求的时间间隔均由用户自行配置，默认值模拟正常用户的手动操作速度。程序默认单线程运行，无并发任务。遇到请求失败时，程序会进行有限次数的重试，并在重试之间加入适当的延时，避免形成高频打点。项目完全依赖平台公开接口及网页结构，不含风控规避、API劫持等破坏性手段。
-
 ## 🛡️ 平台尊重声明
-
-本程序设计时已尽可能控制请求频率，避免对 Bilibili 服务器造成任何明显负载或影响。项目仅作为学习用途，不具备大规模、高并发的能力，亦无任何恶意行为或干扰服务的企图。
-
+本项目在设计时严格遵循「非侵入式」原则，避免对目标服务器（如 Bilibili）造成任何干扰。
 如本项目中存在侵犯 Bilibili 公司合法权益的内容，请通过邮箱 [1055069518@qq.com](mailto:1055069518@qq.com) 与我联系，我将第一时间下架相关内容并删除本仓库。对此造成的不便，我深表歉意，感谢您的理解与包容。
 
 ## 🤩 项目贡献者
@@ -83,4 +75,3 @@ featuredImagePreview: https://images.unsplash.com/photo-1546803073-23568b8c98e6?
 ## ⭐️ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mikumifa/biliTickerBuy&type=Date)](https://www.star-history.com/#mikumifa/biliTickerBuy&Date)
-
