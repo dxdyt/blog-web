@@ -1,9 +1,9 @@
 ---
 title: Stirling-PDF
-date: 2025-12-30T12:39:45+08:00
+date: 2026-06-23T15:49:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780789594659-06738d73854b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780789594659-06738d73854b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
 ---
 
 # [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)

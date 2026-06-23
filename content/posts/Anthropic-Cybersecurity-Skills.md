@@ -1,9 +1,9 @@
 ---
 title: Anthropic-Cybersecurity-Skills
-date: 2026-06-22T17:48:04+08:00
+date: 2026-06-23T15:48:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781825151996-fbf98d267c9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781825151996-fbf98d267c9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779785654826-e7c84d0d71ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779785654826-e7c84d0d71ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
 ---
 
 # [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
@@ -20,10 +20,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1781825151996-fbf98d267c
 
 [![GARS-2026 Survey](https://img.shields.io/badge/GARS--2026-Take%20the%20Survey-E8B84B?style=for-the-badge&logo=googleforms&logoColor=black)](https://mahipal.engineer/survey?utm_source=github_badge&utm_medium=readme&utm_campaign=gars2026)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-754-brightgreen?style=flat-square)](#whats-inside--26-security-domains)
+[![Skills](https://img.shields.io/badge/skills-817-brightgreen?style=flat-square)](#whats-inside--29-security-domains)
 [![Frameworks](https://img.shields.io/badge/frameworks-6-orange?style=flat-square)](#six-frameworks-one-skill-library)
 [![MITRE F3](https://img.shields.io/badge/MITRE-F3_v1.1-blue?style=flat-square)](https://ctid.mitre.org/fraud/)
-[![Domains](https://img.shields.io/badge/domains-26-9cf?style=flat-square)](#whats-inside--26-security-domains)
+[![Domains](https://img.shields.io/badge/domains-29-9cf?style=flat-square)](#whats-inside--29-security-domains)
 [![Platforms](https://img.shields.io/badge/platforms-26%2B-blueviolet?style=flat-square)](#compatible-platforms)
 [![GitHub stars](https://img.shields.io/github/stars/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/network/members)
@@ -34,9 +34,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1781825151996-fbf98d267c
 [![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-compatible-blueviolet?style=flat)](https://github.com/NousResearch/hermes-agent)
 
 
-**754 production-grade cybersecurity skills · 26 security domains · 5 framework mappings · 26+ AI platforms**
+**817 production-grade cybersecurity skills · 29 security domains · 6 framework mappings · 26+ AI platforms**
 
-[Get Started](#quick-start) · [What's Inside](#whats-inside--26-security-domains) · [Frameworks](#five-frameworks-one-skill-library) · [Platforms](#compatible-platforms) · [Contributing](#contributing)
+[Get Started](#quick-start) · [What's Inside](#whats-inside--29-security-domains) · [Frameworks](#five-frameworks-one-skill-library) · [Platforms](#compatible-platforms) · [Contributing](#contributing)
 
 </div>
 
@@ -48,7 +48,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1781825151996-fbf98d267c
 
 A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch Kerberoasting, and how to scope a cloud breach across three providers. **Your AI agent doesn't — unless you give it these skills.**
 
-This repo contains **754 structured cybersecurity skills** spanning **26 security domains**, each following the [agentskills.io](https://agentskills.io) open standard.  Every skill is mapped to **six industry frameworks** — MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, MITRE D3FEND, NIST AI RMF, and the MITRE Fight Fraud Framework (F3) — making this the only open-source skills library with unified cross-framework coverage.  Clone it, point your agent at it, and your next security investigation gets expert-level guidance in seconds.
+This repo contains **817 structured cybersecurity skills** spanning **29 security domains**, each following the [agentskills.io](https://agentskills.io) open standard.  Every skill is mapped to **six industry frameworks** — MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, MITRE D3FEND, NIST AI RMF, and the MITRE Fight Fraud Framework (F3) — making this the only open-source skills library with unified cross-framework coverage.  Clone it, point your agent at it, and your next security investigation gets expert-level guidance in seconds.
 
 ## Six frameworks, one skill library
 
@@ -153,47 +153,50 @@ Existing security tool repos give you wordlists, payloads, or exploit code. None
 
 **Anthropic Cybersecurity Skills** is not a collection of scripts or checklists. It is an **AI-native knowledge base** built from the ground up for the agentskills.io standard  — YAML frontmatter for sub-second discovery, structured Markdown for step-by-step execution, and reference files for deep technical context.  Every skill encodes real practitioner workflows, not generated summaries. 
 
-## What's inside — 26 security domains
+## What's inside — 29 security domains
 
 | Domain | Skills | Key capabilities |
 |---|---|---|
-| Cloud Security | 60 | AWS, Azure, GCP hardening · CSPM · cloud forensics |
-| Threat Hunting | 55 | Hypothesis-driven hunts · LOTL detection · behavioral analytics |
-| Threat Intelligence | 50 | STIX/TAXII · MISP · feed integration · actor profiling |
+| Cloud Security | 66 | AWS, Azure, GCP hardening · CSPM · cloud attack emulation · cloud forensics |
+| Threat Hunting | 58 | Hypothesis-driven hunts · LOTL detection · EVTX hunting · fleet hunting |
+| Threat Intelligence | 52 | STIX/TAXII · MISP · OpenCTI · feed integration · actor profiling |
+| Network Security | 43 | IDS/IPS · firewall rules · VLAN segmentation · traffic analysis |
 | Web Application Security | 42 | OWASP Top 10 · SQLi · XSS · SSRF · deserialization |
-| Network Security | 40 | IDS/IPS · firewall rules · VLAN segmentation · traffic analysis |
+| Digital Forensics | 41 | Disk imaging · memory forensics · Hayabusa/KAPE/Plaso timelines |
 | Malware Analysis | 39 | Static/dynamic analysis · reverse engineering · sandboxing |
-| Digital Forensics | 37 | Disk imaging · memory forensics · timeline reconstruction |
-| Security Operations | 36 | SIEM correlation · log analysis · alert triage |
-| Identity & Access Management | 35 | IAM policies · PAM · zero trust identity · Okta · SailPoint |
-| SOC Operations | 33 | Playbooks · escalation workflows · metrics · tabletop exercises |
-| Container Security | 30 | K8s RBAC · image scanning · Falco · container forensics |
+| Identity & Access Management | 37 | Entra ID/ROADtools · device-code phishing · PAM · zero trust identity |
+| SOC Operations | 35 | Playbooks · escalation workflows · Graph-log detection · tabletop exercises |
+| Red Teaming | 33 | ADCS/Certipy · BloodHound CE · Sliver/Havoc C2 · NTLM relay |
+| Container Security | 33 | K8s RBAC · image scanning · Falco · container escape |
+| Security Operations | 28 | SIEM correlation · log analysis · alert triage |
 | OT/ICS Security | 28 | Modbus · DNP3 · IEC 62443 · historian defense · SCADA |
 | API Security | 28 | GraphQL · REST · OWASP API Top 10 · WAF bypass |
+| Incident Response | 26 | Breach containment · ransomware response · IR playbooks |
 | Vulnerability Management | 25 | Nessus · scanning workflows · patch prioritization · CVSS |
-| Incident Response | 25 | Breach containment · ransomware response · IR playbooks |
-| Red Teaming | 24 | Full-scope engagements · AD attacks · phishing simulation |
-| Penetration Testing | 23 | Network · web · cloud · mobile · wireless pentesting |
+| Penetration Testing | 21 | Network · web · cloud · mobile · NetExec lateral movement |
+| DevSecOps | 18 | CI/CD security · Trivy IaC/image scanning · code signing |
+| Zero Trust Architecture | 17 | BeyondCorp · CISA maturity model · microsegmentation |
 | Endpoint Security | 17 | EDR · LOTL detection · fileless malware · persistence hunting |
-| DevSecOps | 17 | CI/CD security · code signing · Terraform auditing |
-| Phishing Defense | 16 | Email authentication · BEC detection · phishing IR |
-| Cryptography | 14 | TLS · Ed25519 · certificate transparency · key management |
-| Zero Trust Architecture | 13 | BeyondCorp · CISA maturity model · microsegmentation |
-| Mobile Security | 12 | Android/iOS analysis · mobile pentesting · MDM forensics |
-| Ransomware Defense | 7 | Precursor detection · response · recovery · encryption analysis |
-| Compliance & Governance | 5 | CIS benchmarks · SOC 2 · regulatory frameworks |
-| Deception Technology | 2 | Honeytokens · breach detection canaries |
+| Cryptography | 16 | TLS · Ed25519 · post-quantum migration · key management |
+| Phishing Defense | 15 | Email authentication · BEC detection · phishing IR |
+| AI Security | 14 | LLM red-teaming (garak/PyRIT) · prompt injection · MCP/agentic security · guardrails |
+| Mobile Security | 13 | Android/iOS analysis · mobile pentesting · MDM forensics |
+| Ransomware Defense | 13 | Precursor detection · response · recovery · encryption analysis |
+| Compliance & Governance | 9 | NIST 800-30/RMF · CMMC · HIPAA · TPRM · CIS benchmarks |
+| Supply Chain Security | 8 | SBOMs · dependency confusion · malicious-package triage · SLSA/Sigstore |
+| Deception Technology | 6 | Honeytokens · canarytokens · breach detection |
+| Hardware & Firmware Security | 4 | CHIPSEC/UEFI audit · Secure Boot bypass · TPM attestation · bootkit hunting |
 
 ## How AI agents use these skills
 
-Each skill costs **~30 tokens to scan** (frontmatter only)  and **500–2,000 tokens to fully load** (complete workflow). This progressive disclosure architecture lets agents search all 754 skills in a single pass without blowing context windows. 
+Each skill costs **~30 tokens to scan** (frontmatter only)  and **500–2,000 tokens to fully load** (complete workflow). This progressive disclosure architecture lets agents search all 817 skills in a single pass without blowing context windows. 
 
 ```
 User prompt: "Analyze this memory dump for signs of credential theft"
 
 Agent's internal process:
 
-  1. Scans 754 skill frontmatters (~30 tokens each)
+  1. Scans 817 skill frontmatters (~30 tokens each)
      → identifies 12 relevant skills by matching tags, description, domain
 
   2. Loads top 3 matches:
@@ -381,7 +384,7 @@ All platforms that support the [agentskills.io](https://agentskills.io) standard
 |---|---|---|
 | [v1.0.0](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0) | March 11, 2026 | 734 skills · 26 domains · MITRE ATT&CK + NIST CSF 2.0 mapping · ATT&CK Navigator layer |
 
-Skills have continued to grow on `main` since v1.0.0 — the library now contains **754 skills** with **5-framework mapping**  (MITRE ATLAS, D3FEND, and NIST AI RMF added post-release).  Check [Releases](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases) for the latest tagged version.
+Skills have continued to grow on `main` since v1.0.0 — the library now contains **817 skills** with **6-framework mapping**  (MITRE ATLAS, D3FEND, NIST AI RMF, and the MITRE Fight Fraud Framework added post-release).  Check [Releases](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases) for the latest tagged version.
 
 ## Contributing
 
@@ -414,7 +417,7 @@ If you use this project in research or publications:
   year         = {2026},
   url          = {https://github.com/mukul975/Anthropic-Cybersecurity-Skills},
   license      = {Apache-2.0},
-  note         = {754 structured cybersecurity skills for AI agents,
+  note         = {817 structured cybersecurity skills for AI agents,
                   mapped to MITRE ATT\&CK, NIST CSF 2.0, MITRE ATLAS,
                   MITRE D3FEND, and NIST AI RMF}
 }

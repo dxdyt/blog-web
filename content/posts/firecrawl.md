@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2025-08-22T12:21:32+08:00
+date: 2026-06-23T15:50:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753189198501-307a6accabdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753189198501-307a6accabdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
 ---
 
 # [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
@@ -15,107 +15,424 @@ featuredImagePreview: https://images.unsplash.com/photo-1753189198501-307a6accab
     height="200"
   >
 </h3>
+
 <div align="center">
-    <a href="https://github.com/firecrawl/firecrawl/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/firecrawl/firecrawl" alt="License">
-</a>
-    <a href="https://pepy.tech/project/firecrawl-py">
-  <img src="https://static.pepy.tech/badge/firecrawl-py" alt="Downloads">
-</a>
-<a href="https://GitHub.com/firecrawl/firecrawl/graphs/contributors">
-  <img src="https://img.shields.io/github/contributors/firecrawl/firecrawl.svg" alt="GitHub Contributors">
-</a>
-<a href="https://firecrawl.dev">
-  <img src="https://img.shields.io/badge/Visit-firecrawl.dev-orange" alt="Visit firecrawl.dev">
-</a>
+  <a href="https://github.com/firecrawl/firecrawl/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/firecrawl/firecrawl" alt="License">
+  </a>
+  <a href="https://pepy.tech/project/firecrawl-py">
+    <img src="https://static.pepy.tech/badge/firecrawl-py" alt="Downloads">
+  </a>
+  <a href="https://GitHub.com/firecrawl/firecrawl/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/firecrawl/firecrawl.svg" alt="GitHub Contributors">
+  </a>
+  <a href="https://firecrawl.dev">
+    <img src="https://img.shields.io/badge/Visit-firecrawl.dev-orange" alt="Visit firecrawl.dev">
+  </a>
 </div>
+
 <div>
   <p align="center">
-    <a href="https://twitter.com/firecrawl_dev">
+    <a href="https://twitter.com/firecrawl">
       <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" />
     </a>
     <a href="https://www.linkedin.com/company/104100957">
       <img src="https://img.shields.io/badge/Follow%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Follow on LinkedIn" />
     </a>
-    <a href="https://discord.com/invite/gSmWdAkdwd">
+    <a href="https://discord.gg/firecrawl">
       <img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord" />
     </a>
   </p>
 </div>
 
-# 🔥 Firecrawl
+---
 
-Empower your AI apps with clean data from any website. Featuring advanced scraping, crawling, and data extraction capabilities.
+# **🔥 Firecrawl**
 
-_This repository is in development, and we’re still integrating custom modules into the mono repo. It's not fully ready for self-hosted deployment yet, but you can run it locally._
+**The API to search, scrape, and interact with the web at scale. 🔥** The web context API to find sources, extract content, and turn it into clean Markdown or structured data your agents can ship with. Open source and available as a [hosted service](https://firecrawl.dev/?ref=github).
 
-## What is Firecrawl?
-
-[Firecrawl](https://firecrawl.dev?ref=github) is an API service that takes a URL, crawls it, and converts it into clean markdown or structured data. We crawl all accessible subpages and give you clean data for each. No sitemap required. Check out our [documentation](https://docs.firecrawl.dev).
-
-_Pst. hey, you, join our stargazers :)_
+_Pst. Hey, you, join our stargazers :)_
 
 <a href="https://github.com/firecrawl/firecrawl">
   <img src="https://img.shields.io/github/stars/firecrawl/firecrawl.svg?style=social&label=Star&maxAge=2592000" alt="GitHub stars">
 </a>
 
-## How to use it?
+---
 
-We provide an easy to use API with our hosted version. You can find the playground and documentation [here](https://firecrawl.dev/playground). You can also self host the backend if you'd like.
+## Why Firecrawl?
 
-Check out the following resources to get started:
-- [x] **API**: [Documentation](https://docs.firecrawl.dev/api-reference/introduction)
-- [x] **SDKs**: [Python](https://docs.firecrawl.dev/sdks/python), [Node](https://docs.firecrawl.dev/sdks/node)
-- [x] **LLM Frameworks**: [Langchain (python)](https://python.langchain.com/docs/integrations/document_loaders/firecrawl/), [Langchain (js)](https://js.langchain.com/docs/integrations/document_loaders/web_loaders/firecrawl), [Llama Index](https://docs.llamaindex.ai/en/latest/examples/data_connectors/WebPageDemo/#using-firecrawl-reader), [Crew.ai](https://docs.crewai.com/), [Composio](https://composio.dev/tools/firecrawl/all), [PraisonAI](https://docs.praison.ai/firecrawl/), [Superinterface](https://superinterface.ai/docs/assistants/functions/firecrawl), [Vectorize](https://docs.vectorize.io/integrations/source-connectors/firecrawl)
-- [x] **Low-code Frameworks**: [Dify](https://dify.ai/blog/dify-ai-blog-integrated-with-firecrawl), [Langflow](https://docs.langflow.org/), [Flowise AI](https://docs.flowiseai.com/integrations/langchain/document-loaders/firecrawl), [Cargo](https://docs.getcargo.io/integration/firecrawl), [Pipedream](https://pipedream.com/apps/firecrawl/)
-- [x] **Community SDKs**: [Go](https://docs.firecrawl.dev/sdks/go), [Rust](https://docs.firecrawl.dev/sdks/rust)
-- [x] **Others**: [Zapier](https://zapier.com/apps/firecrawl/integrations), [Pabbly Connect](https://www.pabbly.com/connect/integrations/firecrawl/)
-- [ ] Want an SDK or Integration? Let us know by opening an issue.
+- **Industry-leading reliability**: Covers 96% of the web, including JS-heavy pages — no proxy headaches, just clean data ([see benchmarks](https://www.firecrawl.dev/blog/the-worlds-best-web-data-api-v25))
+- **Blazingly fast**: P95 latency of 3.4s across millions of pages, built for real-time agents and dynamic apps
+- **LLM-ready output**: Clean markdown, structured JSON, screenshots, and more — spend fewer tokens, build better AI apps
+- **We handle the hard stuff**: Rotating proxies, orchestration, rate limits, JS-blocked content, and more — zero configuration
+- **Agent ready**: Connect Firecrawl to any AI agent or MCP client with a single command
+- **Media parsing**: Parse and extract content from web-hosted PDFs, DOCX, and more
+- **Actions**: Click, scroll, write, wait, and press before extracting content
+- **Open source**: Developed transparently and collaboratively — [join our community](https://github.com/firecrawl/firecrawl)
 
-To run locally, refer to guide [here](https://github.com/firecrawl/firecrawl/blob/main/CONTRIBUTING.md).
+---
 
-### API Key
+## Feature Overview
 
-To use the API, you need to sign up on [Firecrawl](https://firecrawl.dev) and get an API key.
+**Core Endpoints**
 
-### Features
+| Feature | Description |
+|---------|-------------|
+| [**Search**](#search) | Search the web and get full page content from results |
+| [**Scrape**](#scrape) | Convert any URL to markdown, HTML, screenshots, or structured JSON |
+| [**Interact**](#interact) | Scrape a page, then interact with it using AI prompts or code |
 
-- [**Scrape**](#scraping): scrapes a URL and get its content in LLM-ready format (markdown, structured data via [LLM Extract](#llm-extraction-beta), screenshot, html)
-- [**Crawl**](#crawling): scrapes all the URLs of a web page and return content in LLM-ready format
-- [**Map**](#map): input a website and get all the website urls - extremely fast
-- [**Search**](#search): search the web and get full content from results
-- [**Extract**](#extract): get structured data from single page, multiple pages or entire websites with AI.
+**More**
 
-### Powerful Capabilities
-- **LLM-ready formats**: markdown, structured data, screenshot, HTML, links, metadata
-- **The hard stuff**: proxies, anti-bot mechanisms, dynamic content (js-rendered), output parsing, orchestration
-- **Customizability**: exclude tags, crawl behind auth walls with custom headers, max crawl depth, etc...
-- **Media parsing**: pdfs, docx, images
-- **Reliability first**: designed to get the data you need - no matter how hard it is
-- **Actions**: click, scroll, input, wait and more before extracting data
-- **Batching (New)**: scrape thousands of URLs at the same time with a new async endpoint.
+| Feature | Description |
+|---------|-------------|
+| [**Agent**](#agent) | Automated data gathering, just describe what you need |
+| [**Crawl**](#crawl) | Scrape all URLs of a website with a single request |
+| [**Map**](#map) | Discover all URLs on a website instantly |
+| [**Batch Scrape**](#batch-scrape) | Scrape thousands of URLs asynchronously |
 
-You can find all of Firecrawl's capabilities and how to use them in our [documentation](https://docs.firecrawl.dev)
+---
 
-### Crawling
+## Quick Start
 
-Used to crawl a URL and all accessible subpages. This submits a crawl job and returns a job ID to check the status of the crawl.
+Sign up at [firecrawl.dev](https://firecrawl.dev) to get your API key. Try the [playground](https://firecrawl.dev/playground) to test it out.
 
-```bash
-curl -X POST https://api.firecrawl.dev/v2/crawl \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer fc-YOUR_API_KEY' \
-    -d '{
-      "url": "https://docs.firecrawl.dev",
-      "limit": 10,
-      "scrapeOptions": {
-        "formats": ["markdown", "html"]
-      }
-    }'
+### Search
+
+Search the web and get full content from results.
+
+```python
+from firecrawl import Firecrawl
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+search_result = app.search("firecrawl", limit=5)
 ```
 
-Returns a crawl job id and the url to check the status of the crawl.
+<details>
+<summary><b>Node.js / cURL / CLI</b></summary>
 
+**Node.js**
+```javascript
+import { Firecrawl } from 'firecrawl';
+
+const app = new Firecrawl({apiKey: "fc-YOUR_API_KEY"});
+
+app.search("firecrawl", { limit: 5 })
+```
+
+**cURL**
+```bash
+curl -X POST 'https://api.firecrawl.dev/v2/search' \
+-H 'Authorization: Bearer fc-YOUR_API_KEY' \
+-H 'Content-Type: application/json' \
+-d '{
+  "query": "firecrawl",
+  "limit": 5
+}'
+```
+
+**CLI**
+```bash
+firecrawl search "firecrawl" --limit 5
+```
+</details>
+
+Output:
+```json
+[
+  {
+    "url": "https://firecrawl.dev",
+    "title": "Firecrawl",
+    "markdown": "Turn websites into..."
+  },
+  {
+    "url": "https://docs.firecrawl.dev",
+    "title": "Firecrawl Docs",
+    "markdown": "# Getting Started..."
+  }
+]
+```
+
+### Scrape
+
+Get LLM-ready data from any website — markdown, JSON, screenshots, and more.
+
+```python
+from firecrawl import Firecrawl
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+result = app.scrape('firecrawl.dev')
+```
+
+<details>
+<summary><b>Node.js / cURL / CLI</b></summary>
+
+**Node.js**
+```javascript
+import { Firecrawl } from 'firecrawl';
+
+const app = new Firecrawl({ apiKey: "fc-YOUR_API_KEY" });
+
+app.scrape('firecrawl.dev')
+```
+
+**cURL**
+```bash
+curl -X POST 'https://api.firecrawl.dev/v2/scrape' \
+-H 'Authorization: Bearer fc-YOUR_API_KEY' \
+-H 'Content-Type: application/json' \
+-d '{
+  "url": "firecrawl.dev"
+}'
+```
+
+**CLI**
+```bash
+firecrawl scrape https://firecrawl.dev
+firecrawl https://firecrawl.dev --only-main-content
+```
+</details>
+
+Output:
+```
+# Firecrawl
+
+Firecrawl helps AI systems search, scrape, and interact with the web.
+
+## Features
+- Search: Find information across the web
+- Scrape: Clean data from any page
+- Interact: Click, navigate, and operate pages
+- Agent: Autonomous data gathering
+```
+
+### Interact
+
+Scrape a page, then interact with it using AI prompts or code.
+
+```python
+from firecrawl import Firecrawl
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+result = app.scrape("https://amazon.com")
+scrape_id = result.metadata.scrape_id
+
+app.interact(scrape_id, prompt="Search for 'mechanical keyboard'")
+app.interact(scrape_id, prompt="Click the first result")
+```
+
+<details>
+<summary><b>Node.js / cURL / CLI</b></summary>
+
+**Node.js**
+```javascript
+import { Firecrawl } from 'firecrawl';
+
+const app = new Firecrawl({apiKey: "fc-YOUR_API_KEY"});
+
+const result = await app.scrape("https://amazon.com");
+
+await app.interact(result.metadata.scrapeId, {
+  prompt: "Search for 'mechanical keyboard'"
+});
+await app.interact(result.metadata.scrapeId, {
+  prompt: "Click the first result"
+});
+```
+
+**cURL**
+```bash
+# 1. Scrape the page
+curl -X POST 'https://api.firecrawl.dev/v2/scrape' \
+-H 'Authorization: Bearer fc-YOUR_API_KEY' \
+-H 'Content-Type: application/json' \
+-d '{"url": "https://amazon.com"}'
+
+# 2. Interact with the page (use scrapeId from step 1)
+curl -X POST 'https://api.firecrawl.dev/v2/scrape/SCRAPE_ID/interact' \
+-H 'Authorization: Bearer fc-YOUR_API_KEY' \
+-H 'Content-Type: application/json' \
+-d '{"prompt": "Search for mechanical keyboard"}'
+```
+
+**CLI**
+```bash
+firecrawl scrape https://amazon.com
+firecrawl interact exec --prompt "Search for 'mechanical keyboard'"
+firecrawl interact exec --prompt "Click the first result"
+```
+</details>
+
+Output:
+```json
+{
+  "success": true,
+  "output": "Keyboard available at $100",
+  "liveViewUrl": "https://liveview.firecrawl.dev/..."
+}
+```
+
+---
+
+## Power Your Agent
+
+Connect Firecrawl to any AI agent or MCP client in minutes.
+
+### Skill
+
+Give your agent easy access to real-time web data with one command.
+
+```bash
+npx -y firecrawl-cli@latest init --all --browser
+```
+
+Restart your agent after installing. Works with [Claude Code](https://claude.ai/code), [Antigravity](https://antigravity.google), [OpenCode](https://opencode.ai), and more.
+
+### MCP
+
+Connect any MCP-compatible client to the web in seconds.
+
+```json
+{
+  "mcpServers": {
+    "firecrawl-mcp": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+### Agent Onboarding
+
+Are you an AI agent? Fetch this skill to sign up your user, get an API key, and start building with Firecrawl.
+
+```bash
+curl -s https://firecrawl.dev/agent-onboarding/SKILL.md
+```
+
+See the [Skill + CLI documentation](https://docs.firecrawl.dev/sdks/cli) for all available commands. For MCP, see [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server).
+
+---
+
+## More Endpoints
+
+### Agent
+
+**The easiest way to get data from the web.** Describe what you need, and our AI agent searches, navigates, and retrieves it. No URLs required.
+
+Agent is the evolution of our `/extract` endpoint: faster, more reliable, and doesn't require you to know the URLs upfront.
+```bash
+curl -X POST 'https://api.firecrawl.dev/v2/agent' \
+  -H 'Authorization: Bearer fc-YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "prompt": "Find the pricing plans for Notion"
+  }'
+```
+
+Response:
+```json
+{
+  "success": true,
+  "data": {
+    "result": "Notion offers the following pricing plans:\n\n1. Free - $0/month...\n2. Plus - $10/seat/month...\n3. Business - $18/seat/month...",
+    "sources": ["https://www.notion.so/pricing"]
+  }
+}
+```
+
+#### Agent with Structured Output
+
+Use a schema to get structured data:
+```python
+from firecrawl import Firecrawl
+from pydantic import BaseModel, Field
+from typing import List, Optional
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+class Founder(BaseModel):
+    name: str = Field(description="Full name of the founder")
+    role: Optional[str] = Field(None, description="Role or position")
+
+class FoundersSchema(BaseModel):
+    founders: List[Founder] = Field(description="List of founders")
+
+result = app.agent(
+    prompt="Find the founders of Firecrawl",
+    schema=FoundersSchema
+)
+
+print(result.data)
+```
+```json
+{
+  "founders": [
+    {"name": "Eric Ciarla", "role": "Co-founder"},
+    {"name": "Nicolas Camara", "role": "Co-founder"},
+    {"name": "Caleb Peffer", "role": "Co-founder"}
+  ]
+}
+```
+
+#### Agent with URLs (Optional)
+
+Focus the agent on specific pages:
+```python
+result = app.agent(
+    urls=["https://docs.firecrawl.dev", "https://firecrawl.dev/pricing"],
+    prompt="Compare the features and pricing information"
+)
+```
+
+#### Model Selection
+
+Choose between two models based on your needs:
+
+| Model | Cost | Best For |
+|-------|------|----------|
+| `spark-1-mini` (default) | 60% cheaper | Most tasks |
+| `spark-1-pro` | Standard | Complex research, critical data gathering |
+```python
+result = app.agent(
+    prompt="Compare enterprise features across Firecrawl, Apify, and ScrapingBee",
+    model="spark-1-pro"
+)
+```
+
+
+**When to use Pro:**
+- Comparing data across multiple websites
+- Extracting from sites with complex navigation or auth
+- Research tasks where the agent needs to explore multiple paths
+- Critical data where accuracy is paramount
+
+Learn more about Spark models in our [Agent documentation](https://docs.firecrawl.dev/features/agent).
+
+### Crawl
+
+Crawl an entire website and get content from all pages.
+```bash
+curl -X POST 'https://api.firecrawl.dev/v2/crawl' \
+  -H 'Authorization: Bearer fc-YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "url": "https://docs.firecrawl.dev",
+    "limit": 100,
+    "scrapeOptions": {
+      "formats": ["markdown"]
+    }
+  }'
+```
+
+Returns a job ID:
 ```json
 {
   "success": true,
@@ -124,542 +441,331 @@ Returns a crawl job id and the url to check the status of the crawl.
 }
 ```
 
-### Check Crawl Job
-
-Used to check the status of a crawl job and get its result.
-
+#### Check Crawl Status
 ```bash
-curl -X GET https://api.firecrawl.dev/v2/crawl/123-456-789 \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -X GET 'https://api.firecrawl.dev/v2/crawl/123-456-789' \
+  -H 'Authorization: Bearer fc-YOUR_API_KEY'
 ```
-
 ```json
 {
   "status": "completed",
-  "total": 36,
-  "creditsUsed": 36,
-  "expiresAt": "2024-00-00T00:00:00.000Z",
+  "total": 50,
+  "completed": 50,
+  "creditsUsed": 50,
   "data": [
     {
-      "markdown": "[Firecrawl Docs home page![light logo](https://mintlify.s3-us-west-1.amazonaws.com/firecrawl/logo/light.svg)!...",
-      "html": "<!DOCTYPE html><html lang=\"en\" class=\"js-focus-visible lg:[--scroll-mt:9.5rem]\" data-js-focus-visible=\"\">...",
-      "metadata": {
-        "title": "Build a 'Chat with website' using Groq Llama 3 | Firecrawl",
-        "language": "en",
-        "sourceURL": "https://docs.firecrawl.dev/learn/rag-llama3",
-        "description": "Learn how to use Firecrawl, Groq Llama 3, and Langchain to build a 'Chat with your website' bot.",
-        "ogLocaleAlternate": [],
-        "statusCode": 200
-      }
+      "markdown": "# Page Title\n\nContent...",
+      "metadata": {"title": "Page Title", "sourceURL": "https://..."}
     }
   ]
 }
 ```
 
-### Scraping
-
-Used to scrape a URL and get its content in the specified formats.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/scrape \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "url": "https://docs.firecrawl.dev",
-      "formats" : ["markdown", "html"]
-    }'
-```
-
-Response:
-
-```json
-{
-  "success": true,
-  "data": {
-    "markdown": "Launch Week I is here! [See our Day 2 Release 🚀](https://www.firecrawl.dev/blog/launch-week-i-day-2-doubled-rate-limits)[💥 Get 2 months free...",
-    "html": "<!DOCTYPE html><html lang=\"en\" class=\"light\" style=\"color-scheme: light;\"><body class=\"__variable_36bd41 __variable_d7dc5d font-inter ...",
-    "metadata": {
-      "title": "Home - Firecrawl",
-      "description": "Firecrawl crawls and converts any website into clean markdown.",
-      "language": "en",
-      "keywords": "Firecrawl,Markdown,Data,Mendable,Langchain",
-      "robots": "follow, index",
-      "ogTitle": "Firecrawl",
-      "ogDescription": "Turn any website into LLM-ready data.",
-      "ogUrl": "https://www.firecrawl.dev/",
-      "ogImage": "https://www.firecrawl.dev/og.png?123",
-      "ogLocaleAlternate": [],
-      "ogSiteName": "Firecrawl",
-      "sourceURL": "https://firecrawl.dev",
-      "statusCode": 200
-    }
-  }
-}
-```
+**Note:** The [SDKs](#sdks) handle polling automatically for a better developer experience.
 
 ### Map
 
-Used to map a URL and get urls of the website. This returns most links present on the website.
-
-```bash cURL
-curl -X POST https://api.firecrawl.dev/v2/map \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "url": "https://firecrawl.dev"
-    }'
+Discover all URLs on a website instantly.
+```bash
+curl -X POST 'https://api.firecrawl.dev/v2/map' \
+  -H 'Authorization: Bearer fc-YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{"url": "https://firecrawl.dev"}'
 ```
 
 Response:
-
 ```json
 {
   "success": true,
   "links": [
-    { "url": "https://firecrawl.dev", "title": "Firecrawl", "description": "Firecrawl is a tool that allows you to crawl a website and get the data you need." },
-    { "url": "https://www.firecrawl.dev/pricing", "title": "Firecrawl Pricing", "description": "Firecrawl Pricing" },
-    { "url": "https://www.firecrawl.dev/blog", "title": "Firecrawl Blog", "description": "Firecrawl Blog" },
-    { "url": "https://www.firecrawl.dev/playground", "title": "Firecrawl Playground", "description": "Firecrawl Playground" },
-    { "url": "https://www.firecrawl.dev/smart-crawl", "title": "Firecrawl Smart Crawl", "description": "Firecrawl Smart Crawl" }
+    {"url": "https://firecrawl.dev", "title": "Firecrawl", "description": "Turn websites into LLM-ready data"},
+    {"url": "https://firecrawl.dev/pricing", "title": "Pricing", "description": "Firecrawl pricing plans"},
+    {"url": "https://firecrawl.dev/blog", "title": "Blog", "description": "Firecrawl blog"}
   ]
 }
 ```
 
-#### Map with search
+#### Map with Search
 
-Map with `search` param allows you to search for specific urls inside a website.
-
-```bash cURL
-curl -X POST https://api.firecrawl.dev/v2/map \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "url": "https://firecrawl.dev",
-      "search": "docs"
-    }'
-```
-
-Response will be an ordered list from the most relevant to the least relevant.
-
-```json
-{
-  "success": true,
-  "links": [
-    { "url": "https://docs.firecrawl.dev", "title": "Firecrawl Docs", "description": "Firecrawl Docs" },
-    { "url": "https://docs.firecrawl.dev/sdks/python", "title": "Firecrawl Python SDK", "description": "Firecrawl Python SDK" },
-    { "url": "https://docs.firecrawl.dev/learn/rag-llama3", "title": "Firecrawl RAG Llama 3", "description": "Firecrawl RAG Llama 3" }
-  ]
-}
-```
-
-### Search
-
-Search the web and get full content from results
-
-Firecrawl’s search API allows you to perform web searches and optionally scrape the search results in one operation.
-
-- Choose specific output formats (markdown, HTML, links, screenshots)
-- Search the web with customizable parameters (language, country, etc.)
-- Optionally retrieve content from search results in various formats
-- Control the number of results and set timeouts
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/search \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer fc-YOUR_API_KEY" \
-  -d '{
-    "query": "what is firecrawl?",
-    "limit": 5
-  }'
-```
-
-#### Response
-
-```json
-{
-  "success": true,
-  "data": [
-    {
-      "url": "https://firecrawl.dev",
-      "title": "Firecrawl | Home Page",
-      "description": "Turn websites into LLM-ready data with Firecrawl"
-    },
-    {
-      "url": "https://docs.firecrawl.dev",
-      "title": "Documentation | Firecrawl",
-      "description": "Learn how to use Firecrawl in your own applications"
-    }
-  ]
-}
-```
-
-#### With content scraping
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/search \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer fc-YOUR_API_KEY" \
-  -d '{
-    "query": "what is firecrawl?",
-    "limit": 5,
-    "scrapeOptions": {
-      "formats": ["markdown", "links"]
-    }
-  }'
-```
-
-### Extract (Beta)
-
-Get structured data from entire websites with a prompt and/or a schema.
-
-You can extract structured data from one or multiple URLs, including wildcards:
-
-Single Page:
-Example: https://firecrawl.dev/some-page
-
-Multiple Pages / Full Domain
-Example: https://firecrawl.dev/*
-
-When you use /*, Firecrawl will automatically crawl and parse all URLs it can discover in that domain, then extract the requested data.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/extract \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "urls": [
-        "https://firecrawl.dev/*", 
-        "https://docs.firecrawl.dev/", 
-        "https://www.ycombinator.com/companies"
-      ],
-      "prompt": "Extract the company mission, whether it is open source, and whether it is in Y Combinator from the page.",
-      "schema": {
-        "type": "object",
-        "properties": {
-          "company_mission": {
-            "type": "string"
-          },
-          "is_open_source": {
-            "type": "boolean"
-          },
-          "is_in_yc": {
-            "type": "boolean"
-          }
-        },
-        "required": [
-          "company_mission",
-          "is_open_source",
-          "is_in_yc"
-        ]
-      }
-    }'
-```
-
-```json
-{
-  "success": true,
-  "id": "44aa536d-f1cb-4706-ab87-ed0386685740",
-  "urlTrace": []
-}
-```
-
-If you are using the sdks, it will auto pull the response for you:
-
-```json
-{
-  "success": true,
-  "data": {
-    "company_mission": "Firecrawl is the easiest way to extract data from the web. Developers use us to reliably convert URLs into LLM-ready markdown or structured data with a single API call.",
-    "supports_sso": false,
-    "is_open_source": true,
-    "is_in_yc": true
-  }
-}
-```
-
-### LLM Extraction (Beta)
-
-Used to extract structured data from scraped pages.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/scrape \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{
-    "url": "https://www.mendable.ai/",
-    "formats": [
-      {
-        "type": "json",
-        "schema": {
-          "type": "object",
-          "properties": {
-            "company_mission": { "type": "string" },
-            "supports_sso": { "type": "boolean" },
-            "is_open_source": { "type": "boolean" },
-            "is_in_yc": { "type": "boolean" }
-          }
-        }
-      }
-    ]
-  }'
-```
-
-```json
-{
-  "success": true,
-  "data": {
-    "content": "Raw Content",
-    "metadata": {
-      "title": "Mendable",
-      "description": "Mendable allows you to easily build AI chat applications. Ingest, customize, then deploy with one line of code anywhere you want. Brought to you by SideGuide",
-      "robots": "follow, index",
-      "ogTitle": "Mendable",
-      "ogDescription": "Mendable allows you to easily build AI chat applications. Ingest, customize, then deploy with one line of code anywhere you want. Brought to you by SideGuide",
-      "ogUrl": "https://mendable.ai/",
-      "ogImage": "https://mendable.ai/mendable_new_og1.png",
-      "ogLocaleAlternate": [],
-      "ogSiteName": "Mendable",
-      "sourceURL": "https://mendable.ai/"
-    },
-    "json": {
-      "company_mission": "Train a secure AI on your technical resources that answers customer and employee questions so your team doesn't have to",
-      "supports_sso": true,
-      "is_open_source": false,
-      "is_in_yc": true
-    }
-  }
-}
-```
-
-### Extracting without a schema (New)
-
-You can now extract without a schema by just passing a `prompt` to the endpoint. The llm chooses the structure of the data.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/scrape \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "url": "https://docs.firecrawl.dev/",
-      "formats": [
-        {
-          "type": "json",
-          "prompt": "Extract the company mission from the page."
-        }
-      ]
-    }'
-```
-
-### Interacting with the page with Actions (Cloud-only)
-
-Firecrawl allows you to perform various actions on a web page before scraping its content. This is particularly useful for interacting with dynamic content, navigating through pages, or accessing content that requires user interaction.
-
-Here is an example of how to use actions to navigate to google.com, search for Firecrawl, click on the first result, and take a screenshot.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/scrape \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-        "url": "google.com",
-        "formats": ["markdown"],
-        "actions": [
-            {"type": "wait", "milliseconds": 2000},
-            {"type": "click", "selector": "textarea[title=\"Search\"]"},
-            {"type": "wait", "milliseconds": 2000},
-            {"type": "write", "text": "firecrawl"},
-            {"type": "wait", "milliseconds": 2000},
-            {"type": "press", "key": "ENTER"},
-            {"type": "wait", "milliseconds": 3000},
-            {"type": "click", "selector": "h3"},
-            {"type": "wait", "milliseconds": 3000},
-            {"type": "screenshot"}
-        ]
-    }'
-```
-
-### Batch Scraping Multiple URLs (New)
-
-You can now batch scrape multiple URLs at the same time. It is very similar to how the /crawl endpoint works. It submits a batch scrape job and returns a job ID to check the status of the batch scrape.
-
-```bash
-curl -X POST https://api.firecrawl.dev/v2/batch/scrape \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer YOUR_API_KEY' \
-    -d '{
-      "urls": ["https://docs.firecrawl.dev", "https://docs.firecrawl.dev/sdks/overview"],
-      "formats" : ["markdown", "html"]
-    }'
-```
-
-
-
-## Using Python SDK
-
-### Installing Python SDK
-
-```bash
-pip install firecrawl-py
-```
-
-### Crawl a website
-
+Find specific URLs within a site:
 ```python
 from firecrawl import Firecrawl
 
-firecrawl = Firecrawl(api_key="fc-YOUR_API_KEY")
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
 
-# Scrape a website (returns a Document)
-doc = firecrawl.scrape(
+result = app.map("https://firecrawl.dev", search="pricing")
+# Returns URLs ordered by relevance to "pricing"
+```
+
+### Batch Scrape
+
+Scrape multiple URLs at once:
+```python
+from firecrawl import Firecrawl
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+job = app.batch_scrape([
     "https://firecrawl.dev",
-    formats=["markdown", "html"],
-)
+    "https://docs.firecrawl.dev",
+    "https://firecrawl.dev/pricing"
+], formats=["markdown"])
+
+for doc in job.data:
+    print(doc.metadata.source_url)
+```
+
+---
+
+## SDKs
+
+Our SDKs provide a convenient way to use all Firecrawl features and automatically handle polling for async operations.
+
+### Python
+
+Install the SDK:
+```bash
+pip install firecrawl-py
+```
+```python
+from firecrawl import Firecrawl
+
+app = Firecrawl(api_key="fc-YOUR_API_KEY")
+
+# Scrape a single URL
+doc = app.scrape("https://firecrawl.dev", formats=["markdown"])
 print(doc.markdown)
 
-# Crawl a website
-response = firecrawl.crawl(
-    "https://firecrawl.dev",
-    limit=100,
-    scrape_options={"formats": ["markdown", "html"]},
-    poll_interval=30,
-)
-print(response)
+# Use the Agent for autonomous data gathering
+result = app.agent(prompt="Find the founders of Stripe")
+print(result.data)
+
+# Crawl a website (automatically waits for completion)
+docs = app.crawl("https://docs.firecrawl.dev", limit=50)
+for doc in docs.data:
+    print(doc.metadata.source_url, doc.markdown[:100])
+
+# Search the web
+results = app.search("best AI data tools 2024", limit=10)
+print(results)
 ```
 
-### Extracting structured data from a URL
+### Node.js
 
-With LLM extraction, you can easily extract structured data from any URL. We support pydantic schemas to make it easier for you too. Here is how you to use it:
-
-```python
-from pydantic import BaseModel, Field
-from typing import List
-
-class Article(BaseModel):
-    title: str
-    points: int
-    by: str
-    commentsURL: str
-
-class TopArticles(BaseModel):
-    top: List[Article] = Field(..., description="Top 5 stories")
-
-# Use JSON format with a Pydantic schema
-doc = firecrawl.scrape(
-    "https://news.ycombinator.com",
-    formats=[{"type": "json", "schema": TopArticles}],
-)
-print(doc.json)
-```
-
-## Using the Node SDK
-
-### Installation
-
-To install the Firecrawl Node SDK, you can use npm:
-
+Install the SDK:
 ```bash
-npm install @mendable/firecrawl-js
+npm install firecrawl
+```
+```javascript
+import { Firecrawl } from 'firecrawl';
+
+const app = new Firecrawl({ apiKey: 'fc-YOUR_API_KEY' });
+
+// Scrape a single URL
+const doc = await app.scrape('https://firecrawl.dev', { formats: ['markdown'] });
+console.log(doc.markdown);
+
+// Use the Agent for autonomous data gathering
+const result = await app.agent({ prompt: 'Find the founders of Stripe' });
+console.log(result.data);
+
+// Crawl a website (automatically waits for completion)
+const docs = await app.crawl('https://docs.firecrawl.dev', { limit: 50 });
+docs.data.forEach(doc => {
+    console.log(doc.metadata.sourceURL, doc.markdown.substring(0, 100));
+});
+
+// Search the web
+const results = await app.search('best AI data tools 2024', { limit: 10 });
+results.data.web.forEach(result => {
+    console.log(`${result.title}: ${result.url}`);
+});
 ```
 
-### Usage
+### Java
 
-1. Get an API key from [firecrawl.dev](https://firecrawl.dev)
-2. Set the API key as an environment variable named `FIRECRAWL_API_KEY` or pass it as a parameter to the `Firecrawl` class.
+Add the dependency ([Gradle/Maven](https://docs.firecrawl.dev/sdks/java#installation)):
+```groovy
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
 
-```js
-import Firecrawl from '@mendable/firecrawl-js';
+dependencies {
+    implementation 'com.github.firecrawl:firecrawl-java-sdk:2.0'
+}
+```
+```java
+import dev.firecrawl.client.FirecrawlClient;
+import dev.firecrawl.model.*;
 
-const firecrawl = new Firecrawl({ apiKey: 'fc-YOUR_API_KEY' });
+FirecrawlClient client = new FirecrawlClient(
+    System.getenv("FIRECRAWL_API_KEY"), null, null
+);
 
-// Scrape a website
-const doc = await firecrawl.scrape('https://firecrawl.dev', {
-  formats: ['markdown', 'html'],
-});
-console.log(doc);
+// Scrape a single URL
+ScrapeParams scrapeParams = new ScrapeParams();
+scrapeParams.setFormats(new String[]{"markdown"});
+FirecrawlDocument doc = client.scrapeURL("https://firecrawl.dev", scrapeParams);
+System.out.println(doc.getMarkdown());
 
-// Crawl a website
-const response = await firecrawl.crawl('https://firecrawl.dev', {
-  limit: 100,
-  scrapeOptions: { formats: ['markdown', 'html'] },
-});
-console.log(response);
+// Use the Agent for autonomous data gathering
+AgentParams agentParams = new AgentParams("Find the founders of Stripe");
+AgentResponse start = client.createAgent(agentParams);
+AgentStatusResponse result = client.getAgentStatus(start.getId());
+System.out.println(result.getData());
+
+// Crawl a website (polls until completion)
+CrawlParams crawlParams = new CrawlParams();
+crawlParams.setLimit(50);
+CrawlStatusResponse job = client.crawlURL("https://docs.firecrawl.dev", crawlParams, null, 10);
+for (FirecrawlDocument page : job.getData()) {
+    System.out.println(page.getMetadata().get("sourceURL"));
+}
+
+// Search the web
+SearchParams searchParams = new SearchParams("best AI data tools 2024");
+searchParams.setLimit(10);
+SearchResponse results = client.search(searchParams);
+for (SearchResult r : results.getResults()) {
+    System.out.println(r.getTitle() + ": " + r.getUrl());
+}
 ```
 
+### Elixir
 
-### Extracting structured data from a URL
+Add the dependency:
+```elixir
+def deps do
+  [
+    {:firecrawl, "~> 1.0"}
+  ]
+end
+```
+```elixir
+# Scrape a URL
+{:ok, response} = Firecrawl.scrape_and_extract_from_url(
+  url: "https://firecrawl.dev",
+  formats: ["markdown"]
+)
 
-With LLM extraction, you can easily extract structured data from any URL. We support zod schema to make it easier for you too. Here is how to use it:
+# Crawl a website
+{:ok, response} = Firecrawl.crawl_urls(
+  url: "https://docs.firecrawl.dev",
+  limit: 50
+)
 
-```js
-import Firecrawl from '@mendable/firecrawl-js';
-import { z } from 'zod';
+# Search the web
+{:ok, response} = Firecrawl.search_and_scrape(
+  query: "best AI data tools 2024",
+  limit: 10
+)
 
-const firecrawl = new Firecrawl({ apiKey: 'fc-YOUR_API_KEY' });
-
-// Define schema to extract contents into
-const schema = z.object({
-  top: z
-    .array(
-      z.object({
-        title: z.string(),
-        points: z.number(),
-        by: z.string(),
-        commentsURL: z.string(),
-      })
-    )
-    .length(5)
-    .describe('Top 5 stories on Hacker News'),
-});
-
-// Use the v2 extract API with direct Zod schema support
-const extractRes = await firecrawl.extract({
-  urls: ['https://news.ycombinator.com'],
-  schema,
-  prompt: 'Extract the top 5 stories',
-});
-
-console.log(extractRes);
+# Map URLs
+{:ok, response} = Firecrawl.map_urls(url: "https://example.com")
 ```
 
-## Open Source vs Cloud Offering
+### Rust
 
-Firecrawl is open source available under the AGPL-3.0 license. 
+Add the dependency:
+```toml
+[dependencies]
+firecrawl = "2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+```
+```rust
+use firecrawl::{Client, ScrapeOptions, Format, CrawlOptions};
 
-To deliver the best possible product, we offer a hosted version of Firecrawl alongside our open-source offering. The cloud solution allows us to continuously innovate and maintain a high-quality, sustainable service for all users.
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let client = Client::new("fc-YOUR_API_KEY")?;
 
-Firecrawl Cloud is available at [firecrawl.dev](https://firecrawl.dev) and offers a range of features that are not available in the open source version:
+    // Scrape a URL
+    let document = client.scrape("https://firecrawl.dev", None).await?;
+    println!("{:?}", document.markdown);
 
-![Open Source vs Cloud Offering](https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png)
+    // Crawl a website
+    let options = CrawlOptions {
+        limit: Some(50),
+        ..Default::default()
+    };
+    let result = client.crawl("https://docs.firecrawl.dev", options).await?;
+    println!("Crawled {} pages", result.data.len());
 
+    // Search the web
+    let response = client.search("best web scraping tools 2024", None).await?;
+    println!("{:?}", response.data);
+
+    Ok(())
+}
+```
+
+### Community SDKs
+
+- [Go SDK](https://github.com/firecrawl/firecrawl/tree/main/apps/go-sdk)
+
+---
+
+## Integrations
+
+**Agents & AI Tools**
+- [Firecrawl Skill](https://docs.firecrawl.dev/sdks/cli)
+- [Firecrawl CLI Skills](https://github.com/firecrawl/cli#agent-skills)
+- [Firecrawl Workflows](https://github.com/firecrawl/firecrawl-workflows)
+- [Firecrawl MCP](https://github.com/mendableai/firecrawl-mcp-server)
+
+**Platforms**
+- [Lovable](https://docs.lovable.dev/integrations/firecrawl)
+- [Zapier](https://zapier.com/apps/firecrawl/integrations)
+- [n8n](https://n8n.io/integrations/firecrawl/)
+
+[View all integrations →](https://www.firecrawl.dev/integrations)
+
+**Missing your favorite tool?** [Open an issue](https://github.com/mendableai/firecrawl/issues) and let us know!
+
+---
+
+## Resources
+
+- [Documentation](https://docs.firecrawl.dev)
+- [API Reference](https://docs.firecrawl.dev/api-reference/introduction)
+- [Playground](https://firecrawl.dev/playground)
+- [Changelog](https://firecrawl.dev/changelog)
+
+---
+
+## Open Source vs Cloud
+
+Firecrawl is open source under the AGPL-3.0 license. The cloud version at [firecrawl.dev](https://firecrawl.dev) includes additional features:
+
+![Open Source vs Cloud](https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png)
+
+To run locally, see the [Contributing Guide](https://github.com/firecrawl/firecrawl/blob/main/CONTRIBUTING.md). To self-host, see [Self-Hosting Guide](https://docs.firecrawl.dev/contributing/self-host).
+
+---
 
 ## Contributing
 
-We love contributions! Please read our [contributing guide](CONTRIBUTING.md) before submitting a pull request. If you'd like to self-host, refer to the [self-hosting guide](SELF_HOST.md).
+We love contributions! Please read our [Contributing Guide](https://github.com/firecrawl/firecrawl/blob/main/CONTRIBUTING.md) before submitting a pull request.
 
-_It is the sole responsibility of the end users to respect websites' policies when scraping, searching and crawling with Firecrawl. Users are advised to adhere to the applicable privacy policies and terms of use of the websites prior to initiating any scraping activities. By default, Firecrawl respects the directives specified in the websites' robots.txt files when crawling. By utilizing Firecrawl, you expressly agree to comply with these conditions._
-
-## Contributors
+### Contributors
 
 <a href="https://github.com/firecrawl/firecrawl/graphs/contributors">
   <img alt="contributors" src="https://contrib.rocks/image?repo=firecrawl/firecrawl"/>
 </a>
 
-## License Disclaimer
+---
 
-This project is primarily licensed under the GNU Affero General Public License v3.0 (AGPL-3.0), as specified in the LICENSE file in the root directory of this repository. However, certain components of this project are licensed under the MIT License. Refer to the LICENSE files in these specific directories for details.
+## License
 
-Please note:
+This project is primarily licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). The SDKs and some UI components are licensed under the MIT License. See the LICENSE files in specific directories for details.
 
-- The AGPL-3.0 license applies to all parts of the project unless otherwise specified.
-- The SDKs and some UI components are licensed under the MIT License. Refer to the LICENSE files in these specific directories for details.
-- When using or contributing to this project, ensure you comply with the appropriate license terms for the specific component you are working with.
+---
 
-For more details on the licensing of specific components, please refer to the LICENSE files in the respective directories or contact the project maintainers.
-
+**It is the sole responsibility of end users to respect websites' policies when scraping.** Users are advised to adhere to applicable privacy policies and terms of use. By default, Firecrawl respects robots.txt directives. By using Firecrawl, you agree to comply with these conditions.
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
+  <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+    ↑ Back to Top ↑
+  </a>
 </p>

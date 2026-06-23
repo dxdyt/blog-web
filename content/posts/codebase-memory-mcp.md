@@ -1,9 +1,9 @@
 ---
 title: codebase-memory-mcp
-date: 2026-06-22T17:47:57+08:00
+date: 2026-06-23T15:49:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779662756198-c05bdff9c7c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779662756198-c05bdff9c7c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780789594659-06738d73854b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780789594659-06738d73854b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
 ---
 
 # [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
