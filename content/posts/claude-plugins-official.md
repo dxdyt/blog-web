@@ -1,9 +1,9 @@
 ---
 title: claude-plugins-official
-date: 2026-05-25T16:20:06+08:00
+date: 2026-06-24T15:40:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777052854737-7893f50de539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777052854737-7893f50de539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk2OTcxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779285691595-318197a9181a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779285691595-318197a9181a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
@@ -51,6 +51,37 @@ plugin-name/
 ├── skills/              # Skill definitions (optional)
 └── README.md            # Documentation
 ```
+
+## Skill-bundle plugins
+
+When a plugin's source repository ships skills (`SKILL.md` files) without a `.claude-plugin/plugin.json` manifest, the marketplace entry can declare the skills directly using `strict: false` and an explicit `skills` array.
+
+```json
+{
+  "name": "example-bundle",
+  "description": "Brief description of the bundled skills.",
+  "author": { "name": "Author Name" },
+  "category": "development",
+  "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/example-org/sdk.git",
+    "path": "packages/agent-skills",
+    "ref": "main",
+    "sha": "<commit sha>"
+  },
+  "strict": false,
+  "skills": [
+    "./skill-a",
+    "./skill-b",
+    "./skill-c"
+  ],
+  "homepage": "https://github.com/example-org/sdk"
+}
+```
+
+Each path in `skills` is relative to `source.path` and points at a directory containing a `SKILL.md`. Paths can reach deeper than a single level — for example, `["./libA/skill-1", "./libB/skill-2"]` exposes a curated subset across multiple library subdirectories. Each skill is registered as `<plugin-name>:<skill-name>` in Claude Code.
+
+For the underlying schema, see [Strict mode](https://code.claude.com/docs/en/plugin-marketplaces) in the marketplace documentation.
 
 ## License
 
