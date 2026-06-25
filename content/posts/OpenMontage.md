@@ -1,9 +1,9 @@
 ---
 title: OpenMontage
-date: 2026-06-24T15:39:25+08:00
+date: 2026-06-25T15:40:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781795095622-ca97592f416a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781795095622-ca97592f416a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781461241820-a32cf22e10dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781461241820-a32cf22e10dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
 ---
 
 # [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
@@ -23,6 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1781795095622-ca97592f41
   <a href="#pipelines">Pipelines</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
   <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
+  <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
   <a href="AGENT_GUIDE.md">Agent Guide</a>
 </p>
 

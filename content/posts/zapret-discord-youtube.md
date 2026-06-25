@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2026-05-05T14:16:49+08:00
+date: 2026-06-25T15:41:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1774460261319-cdd3b2363143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc5NjE3MTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780856036092-1ef0934f3f55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780856036092-1ef0934f3f55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -46,7 +46,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1774460261319-cdd3b23631
 1. Включите Secure DNS
     * В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию)
     * В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту", затем "Выбрать поставщика" и вписать URL поставщика вручную, например можно использовать `https://dns.google/dns-query` (т.к. поставщик Cloudflare может быть заблокирован)
-    * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
+    * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://remontka.pro/dns-over-https-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
+    * Если у вас роутер Keenetic, включите в настройках роутера опцию "Транзит запросов". Отключение этой опции может привести к проблемам при настройке и использовании Secure DNS на компьютере
 
 2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
 
@@ -172,9 +173,26 @@ sc delete название_из_первого_шага
 - Если Discord и в браузере не работает, убедитесь что вы настроили Secure DNS, и после этого ещё раз пробуйте все стратегии. Бывает такое, что на одной стратегии YouTube работает, а Discord нет.
 - См. также [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
 
+### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968804.png" height=18 /> Telegram
+
+- Используйте программу [tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy)
+- Или используйте бесплатные MTProto прокси из интернета
+
+### Не работают игры
+
+Есть много разных игр. Исследовать и чинить каждую из них нет возможности.
+
+Наиболее универсальный рецепт такой:
+- через `service.bat` обновите ipset и включите `Game Filter`
+- если это не поможет, то попробуйте также включить настройку `ipset any`
+
+Но помните, что при включении `ipset any` появятся проблемы с открытием многих сайтов. Чтобы этого избежать, не используйте `ipset any` на постоянной основе. Вместо этого нужно выяснить все IP адреса, которые используются игрой, и добавить их в `ipset-all.txt`
+
+Если и это не помогло, создайте ветку обсуждений в разделе [Discussions](https://github.com/Flowseal/zapret-discord-youtube/discussions) (не в issues) и ждите помощи от других игроков.
+
 ### Не нашли своей проблемы
 
-* Создайте её [тут](https://github.com/Flowseal/zapret-discord-youtube/issues)
+- Создайте её [тут](https://github.com/Flowseal/zapret-discord-youtube/issues)
 
 ## 🗒️Добавление адресов прочих ресурсов
 
