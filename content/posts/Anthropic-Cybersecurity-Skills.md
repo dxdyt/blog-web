@@ -1,9 +1,9 @@
 ---
 title: Anthropic-Cybersecurity-Skills
-date: 2026-06-24T15:39:43+08:00
+date: 2026-06-26T15:52:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780631347046-2ea68653b9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780631347046-2ea68653b9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyODY3NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
 ---
 
 # [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)

@@ -1,9 +1,9 @@
 ---
 title: design.md
-date: 2026-06-25T15:41:49+08:00
+date: 2026-06-26T15:51:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780580811640-4ec9aa7c027f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780580811640-4ec9aa7c027f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1560015534-cee980ba7e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1560015534-cee980ba7e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
 ---
 
 # [google-labs-code/design.md](https://github.com/google-labs-code/design.md)
