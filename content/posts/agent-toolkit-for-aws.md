@@ -1,9 +1,9 @@
 ---
 title: agent-toolkit-for-aws
-date: 2026-06-26T15:52:38+08:00
+date: 2026-06-27T14:52:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1560015534-cee980ba7e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1560015534-cee980ba7e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
 ---
 
 # [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)
@@ -90,7 +90,7 @@ Add the AWS MCP Server to your Kiro MCP configuration (`.kiro/settings/mcp.json`
     "aws": {
       "command": "uvx",
       "args": [
-        "mcp-proxy-for-aws@1.6.2",
+        "mcp-proxy-for-aws@1.6.3",
         "https://aws-mcp.us-east-1.api.aws/mcp",
         "--metadata", "AWS_REGION=us-west-2"
       ]
@@ -99,7 +99,7 @@ Add the AWS MCP Server to your Kiro MCP configuration (`.kiro/settings/mcp.json`
 }
 ```
 
-> **Note:** It is recommended to pin to a specific version (e.g., `@1.6.2`) to ensure reproducible behavior and protect against supply chain risks. We recommend regularly checking [PyPI](https://pypi.org/project/mcp-proxy-for-aws/) for new stable versions and updating accordingly.
+> **Note:** It is recommended to pin to a specific version (e.g., `@1.6.3`) to ensure reproducible behavior and protect against supply chain risks. We recommend regularly checking [PyPI](https://pypi.org/project/mcp-proxy-for-aws/) for new stable versions and updating accordingly.
 
 Then install skills from this repository:
 

@@ -1,9 +1,9 @@
 ---
 title: no-mistakes
-date: 2026-06-25T15:42:06+08:00
+date: 2026-06-27T14:51:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781461241820-a32cf22e10dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781461241820-a32cf22e10dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIzNzMyNDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
 ---
 
 # [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes)
@@ -44,7 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1781461241820-a32cf22e10
 Push to `no-mistakes` instead of `origin`, and it spins up a disposable worktree, runs an AI-driven validation pipeline, forwards the branch to the configured push target only after every check passes, and opens a clean PR automatically.
 
 - **Non-blocking** - the pipeline runs in an isolated worktree without disrupting your work.
-- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, or `acp:<target>` via `acpx`.
+- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, `copilot`, or `acp:<target>` via `acpx`.
 - **Agent-native** - `/no-mistakes` lets your coding agent do a task and gate it, or gate existing committed work: it runs the pipeline, has the pipeline apply safe fixes, and escalates the rest to you.
 - **Human stays in charge** - auto-fix or review findings, your call.
 - **Clean PRs by default** - push, open PR, watch CI, and auto-fix failures in one shot.

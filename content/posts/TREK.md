@@ -1,9 +1,9 @@
 ---
 title: TREK
-date: 2026-06-26T15:51:59+08:00
+date: 2026-06-27T14:52:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778274632479-a5a8986921f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778274632479-a5a8986921f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777932761491-1e49000ec3b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777932761491-1e49000ec3b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
 ---
 
 # [mauriceboe/TREK](https://github.com/mauriceboe/TREK)

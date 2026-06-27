@@ -1,9 +1,9 @@
 ---
 title: grafana
-date: 2024-11-08T12:19:38+08:00
+date: 2026-06-27T14:51:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1779952369141-319d17bd03eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779952369141-319d17bd03eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
 ---
 
 # [grafana/grafana](https://github.com/grafana/grafana)
@@ -14,7 +14,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1729205388533-b0b6691711
 The open-source platform for monitoring and observability
 
 [![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
-[![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://drone.grafana.net/grafana/grafana)
 [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
 
 Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
@@ -46,14 +45,16 @@ If you're interested in contributing to the Grafana project:
 - Explore our [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
 - Look through our [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
 
+> Share your contributor experience in our [feedback survey](https://gra.fan/ome) to help us improve.
+
 ## Get involved
 
-- Follow [@grafana on Twitter](https://twitter.com/grafana/).
+- Follow [@grafana on X (formerly Twitter)](https://x.com/grafana/).
 - Read and subscribe to the [Grafana blog](https://grafana.com/blog/).
 - If you have a specific question, check out our [discussion forums](https://community.grafana.com/).
 - For general discussions, join us on the [official Slack](https://slack.grafana.com) team.
 
-This project is tested with [BrowserStack](https://www.browserstack.com/)
+This project is tested with [BrowserStack](https://www.browserstack.com/).
 
 ## License
 

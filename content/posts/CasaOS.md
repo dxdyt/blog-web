@@ -1,9 +1,9 @@
 ---
 title: CasaOS
-date: 2026-06-26T15:52:55+08:00
+date: 2026-06-27T14:53:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780955420595-cf6a4cc9d1ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780955420595-cf6a4cc9d1ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782174177388-aba4d448c2db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782174177388-aba4d448c2db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
 ---
 
 # [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
