@@ -1,9 +1,9 @@
 ---
 title: ai-berkshire
-date: 2026-06-27T14:52:32+08:00
+date: 2026-06-28T15:50:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780323241887-8efcb9b85c71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780323241887-8efcb9b85c71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
 ---
 
 # [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
@@ -16,9 +16,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1780323241887-8efcb9b85c
 >
 > 用 AI 重新定义投资研究的深度与效率。
 
-**AI Berkshire** 是一套基于 [Claude Code](https://claude.ai/code) 的投资研究 Skill 合集，将巴菲特、芒格、段永平、李录四位价值投资大师的方法论系统化、结构化，通过 AI Agent 实现专业级投资研究。
+**AI Berkshire** 是一套同时兼容 Claude Code 与 Codex 的投资研究 Skill 合集，将巴菲特、芒格、段永平、李录四位价值投资大师的方法论系统化、结构化，通过 AI Agent 实现专业级投资研究。
 
-一个人 + Claude = 一个投研团队。
+一个人 + Claude Code / Codex = 一个投研团队。
 
 ---
 
@@ -178,7 +178,7 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 
 ---
 
-## Skills 一览（16个）
+## Skills 一览（18个）
 
 ### 🔬 深度研究类
 
@@ -204,6 +204,7 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 | [`/industry-research`](skills/industry-research.md) | 产业链全景扫描 | 研究一个行业的全部投资机会（按产业链环节切片） |
 | [`/industry-funnel`](skills/industry-funnel.md) | 行业漏斗筛选 | 全市场 → 粗筛 ≤10 家 → 终选 3 家深度分析 |
 | [`/quality-screen`](skills/quality-screen.md) | 去劣筛选（7条硬指标） | 快速排除非一流公司，支持个股/行业/指数/主题批量筛 |
+| [`/bottleneck-hunter`](skills/bottleneck-hunter.md) | 供应链瓶颈猎手 | 从超级趋势出发，寻找产业链物理瓶颈和套利机会 |
 | [`/investment-checklist`](skills/investment-checklist.md) | 巴菲特买入前 Checklist | 六关快速筛选，10分钟决定是否值得深入 |
 
 ### 📈 持仓管理类
@@ -220,28 +221,71 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 |-------|------|---------|
 | [`/dyp-ask`](skills/dyp-ask.md) | 段永平问答 | 以段永平的方式思考任何问题——商业、投资、人生 |
 | [`/financial-data`](skills/financial-data.md) | 财务数据获取与交叉验证规范 | 确保关键数据来自2个独立来源，误差>1%告警 |
+| [`/wechat-article`](skills/wechat-article.md) | 微信公众号文章 | 作者、编辑、读者三Agent协作，产出可发布文章 |
 
 ---
 
 ## 快速开始
 
-### 1. 安装 Claude Code
+### 1. 安装 AI 客户端
+
+本仓库保留同一套 canonical workflow，并分别提供 Claude Code commands 与 Codex skills。按你使用的客户端安装即可。
+
+Claude Code 用户：
 
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
+Codex 用户：
+
+```bash
+# macOS / Linux
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+
+# 或使用 npm
+npm install -g @openai/codex
+
+# 或使用 Homebrew
+brew install --cask codex
+
+# 验证安装
+codex --version
+```
+
+Windows 用户可使用官方 PowerShell 安装命令：`powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"`。
+
+如果 `codex --version` 能正常输出版本号，就可以继续安装本项目的 Codex skills。
+
 ### 2. 安装 Skills
 
-将 `skills/` 目录下的 `.md` 文件复制到你的 Claude Code commands 目录：
+Claude Code 用户安装：
 
 ```bash
 # 克隆仓库
 git clone https://github.com/xbtlin/ai-berkshire.git
 
 # 复制 skills 到 Claude Code 全局 commands 目录
-cp ai-berkshire/skills/*.md ~/.claude/commands/
+cd ai-berkshire
+./scripts/install-claude-commands.sh
 ```
+
+Codex 用户安装：
+
+```bash
+# 克隆仓库
+git clone https://github.com/xbtlin/ai-berkshire.git
+
+# 生成并安装 Codex skills 到 ~/.codex/skills
+cd ai-berkshire
+./scripts/install-codex-skills.sh
+
+# 可选：安装 Codex slash prompts 到 ~/.codex/prompts
+# 用于获得接近 Claude Code 的 /investment-research 体验
+./scripts/install-codex-prompts.sh
+```
+
+仓库同时维护三套入口：`skills/*.md` 是 Claude Code command 源文件；`codex-skills/*/SKILL.md` 是 Codex skill 包，由 `scripts/sync-codex-skills.py` 从 `skills/*.md` 生成；`codex-prompts/*.md` 是可选的 Codex slash prompt 兼容层。
 
 ### 3. 使用
 
@@ -263,6 +307,7 @@ cp ai-berkshire/skills/*.md ~/.claude/commands/
 /industry-research 核电
 /industry-funnel AI算力
 /quality-screen 恒生指数成分股
+/bottleneck-hunter AI基础设施
 /investment-checklist 茅台, 英伟达, 苹果
 
 # 持仓管理
@@ -272,6 +317,23 @@ cp ai-berkshire/skills/*.md ~/.claude/commands/
 
 # 思维工具
 /dyp-ask 拼多多的护城河到底在哪里？
+/wechat-article 大模型OPD技术解读
+```
+
+在 Codex 中安装后重启 Codex，然后直接按 skill 名称描述任务，例如：
+
+```text
+使用 investment-research 研究腾讯
+使用 earnings-review 分析 PDD 2025年报
+使用 industry-funnel 筛选 AI算力
+使用 bottleneck-hunter 扫描 AI基础设施瓶颈
+使用 wechat-article 写大模型OPD技术解读
+```
+
+如果安装了 Codex slash prompts，重启 Codex 后也可以在 `/` 菜单里搜索这些 prompt。Codex 官方的 custom prompt 入口通常显示为 `prompts:<name>`，例如：
+
+```text
+/prompts:investment-research 腾讯
 ```
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: keycloak
-date: 2025-10-18T12:21:22+08:00
+date: 2026-06-28T15:52:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758567088839-15860fb2a081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758567088839-15860fb2a081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780182309636-6b3eba4f37f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780182309636-6b3eba4f37f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
 ---
 
 # [keycloak/keycloak](https://github.com/keycloak/keycloak)
@@ -78,9 +78,16 @@ Before contributing to Keycloak, please read our [contributing guidelines](CONTR
 
 Joining a [community meeting](https://www.keycloak.org/community) is a great way to get involved and help shape the future of Keycloak.
 
+## Code of Conduct
+
+We are committed to providing a safe, welcoming, and constructive environment for all Keycloak contributors and users.
+To protect this space, we actively enforce our [Code of Conduct](https://github.com/keycloak/.github/blob/main/CODE_OF_CONDUCT.md).
+If you wish to report an incident or appeal a moderation decision, please email `keycloak-coc@googlegroups.com`.
+
 ## Other Keycloak Projects
 
 * [Keycloak](https://github.com/keycloak/keycloak) - Keycloak Server and Java adapters
+* [Keycloak Client](https://github.com/keycloak/keycloak-client) - Keycloak client libraries
 * [Keycloak QuickStarts](https://github.com/keycloak/keycloak-quickstarts) - QuickStarts for getting started with Keycloak
 * [Keycloak Node.js Connect](https://github.com/keycloak/keycloak-nodejs-connect) - Node.js adapter for Keycloak
 

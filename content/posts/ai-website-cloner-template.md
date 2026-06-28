@@ -1,9 +1,9 @@
 ---
 title: ai-website-cloner-template
-date: 2026-06-27T14:53:25+08:00
+date: 2026-06-28T15:51:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779952369141-319d17bd03eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779952369141-319d17bd03eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781194894983-3bb424de9f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781194894983-3bb424de9f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
 ---
 
 # [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)

@@ -1,9 +1,9 @@
 ---
 title: gstack
-date: 2026-06-27T14:53:09+08:00
+date: 2026-06-28T15:51:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780323241887-8efcb9b85c71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780323241887-8efcb9b85c71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI1NDMwNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
 ---
 
 # [garrytan/gstack](https://github.com/garrytan/gstack)
