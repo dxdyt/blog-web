@@ -1,9 +1,9 @@
 ---
 title: ai-berkshire
-date: 2026-06-28T15:50:32+08:00
+date: 2026-06-29T16:58:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780228725486-cfd6f7a651e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2MzMwMTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780662751207-a57696f6a46a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780662751207-a57696f6a46a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
 ---
 
 # [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)

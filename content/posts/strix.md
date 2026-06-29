@@ -1,9 +1,9 @@
 ---
 title: strix
-date: 2026-03-26T13:41:53+08:00
+date: 2026-06-29T16:59:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1772470684953-9f6ff5e4f9c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1772470684953-9f6ff5e4f9c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ1MDM2MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1769016760743-eb89fdfdd32e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1769016760743-eb89fdfdd32e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
 ---
 
 # [usestrix/strix](https://github.com/usestrix/strix)
@@ -42,9 +42,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1772470684953-9f6ff5e4f9
 </div>
 
 
-
 > [!TIP]
-> **New!** Strix integrates seamlessly with GitHub Actions and CI/CD pipelines. Automatically scan for vulnerabilities on every pull request and block insecure code before it reaches production!
+> **New!** Strix integrates seamlessly with GitHub Actions and CI/CD pipelines. Automatically scan for vulnerabilities on every pull request and block insecure code before it reaches production - [Get started with no setup required](https://app.strix.ai).
 
 ---
 
@@ -178,11 +177,17 @@ strix --target https://your-app.com --instruction "Perform authenticated testing
 # Multi-target testing (source code + deployed app)
 strix -t https://github.com/org/app -t https://your-app.com
 
+# White-box source-aware scan (local repository)
+strix --target ./app-directory --scan-mode standard
+
 # Focused testing with custom instructions
 strix --target api.your-app.com --instruction "Focus on business logic flaws and IDOR vulnerabilities"
 
 # Provide detailed instructions through file (e.g., rules of engagement, scope, exclusions)
 strix --target api.your-app.com --instruction-file ./instruction.md
+
+# Force PR diff-scope against a specific base branch
+strix -n --target ./ --scan-mode quick --scope-mode diff --diff-base origin/main
 ```
 
 ### Headless Mode
@@ -208,6 +213,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Install Strix
         run: curl -sSL https://strix.ai/install | bash
@@ -219,6 +226,11 @@ jobs:
 
         run: strix -n -t ./ --scan-mode quick
 ```
+
+> [!TIP]
+> In CI pull request runs, Strix automatically scopes quick reviews to changed files.
+> If diff-scope cannot resolve, ensure checkout uses full history (`fetch-depth: 0`) or pass
+> `--diff-base` explicitly.
 
 ### Configuration
 
