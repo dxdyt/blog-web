@@ -1,9 +1,9 @@
 ---
 title: simplex-chat
-date: 2026-06-29T16:57:48+08:00
+date: 2026-06-30T15:52:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778165657501-558e29e5e0c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778165657501-558e29e5e0c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
 ---
 
 # [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)
@@ -16,7 +16,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1778165657501-558e29e5e0
 
 | 30/03/2023 | EN, [FR](/docs/lang/fr/README.md), [CZ](/docs/lang/cs/README.md), [PL](/docs/lang/pl/README.md) |
 
-<img src="images/simplex-chat-logo.svg" alt="SimpleX logo" width="100%">
+<img src="images/github-banner.jpg" alt="SimpleX logo" width="100%">
+
+Invest in SimpleX Chat. [Register now](https://simplexchat.typeform.com/crowdfunding).
 
 # SimpleX - the first messaging platform that has no user identifiers of any kind - 100% private by design!
 

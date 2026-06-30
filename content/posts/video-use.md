@@ -1,9 +1,9 @@
 ---
 title: video-use
-date: 2026-06-29T16:59:16+08:00
+date: 2026-06-30T15:54:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781355959989-67b652fc21d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781355959989-67b652fc21d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
 ---
 
 # [browser-use/video-use](https://github.com/browser-use/video-use)

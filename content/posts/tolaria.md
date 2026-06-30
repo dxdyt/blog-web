@@ -1,9 +1,9 @@
 ---
 title: tolaria
-date: 2026-06-13T15:46:35+08:00
+date: 2026-06-30T15:54:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778011390422-a4d4bd8936a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778011390422-a4d4bd8936a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEzMzY3NDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777472251147-4018c1f3dcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777472251147-4018c1f3dcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
 ---
 
 # [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria)

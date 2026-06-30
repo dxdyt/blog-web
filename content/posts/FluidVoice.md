@@ -1,9 +1,9 @@
 ---
 title: FluidVoice
-date: 2026-06-29T16:58:39+08:00
+date: 2026-06-30T15:53:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779395568262-addcd1e9ffd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779395568262-addcd1e9ffd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780580940878-248a6ad4b626?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780580940878-248a6ad4b626?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
 ---
 
 # [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)

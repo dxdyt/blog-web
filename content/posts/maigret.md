@@ -1,9 +1,9 @@
 ---
 title: maigret
-date: 2026-06-12T16:25:48+08:00
+date: 2026-06-30T15:53:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778343303023-c6404b185480?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778343303023-c6404b185480?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEyNTI3MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778409556507-a5da4d1cf220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778409556507-a5da4d1cf220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
 ---
 
 # [soxoj/maigret](https://github.com/soxoj/maigret)
@@ -16,8 +16,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1778343303023-c6404b1854
         <img alt="PyPI version badge for Maigret" src="https://img.shields.io/pypi/v/maigret?style=flat-square" />
     </a>
     <a href="https://pepy.tech/project/maigret">
-      <img alt="Downloads/month" src="https://static.pepy.tech/badge/maigret/month" />
       <img alt="Total downloads" src="https://static.pepy.tech/badge/maigret" />
+      <img alt="Downloads/month" src="https://static.pepy.tech/badge/maigret/month" />
+    </a>
+  </div>
+  <div>
+    <a href="https://github.com/soxoj/maigret">
+        <img alt="View count for Maigret project" src="https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square" />
     </a>
     <a href="https://github.com/soxoj/maigret">
         <img alt="Minimum Python version required: 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square" />
@@ -25,13 +30,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1778343303023-c6404b1854
     <a href="https://github.com/soxoj/maigret/blob/main/LICENSE">
         <img alt="License badge for Maigret" src="https://img.shields.io/github/license/soxoj/maigret?style=flat-square" />
     </a>
-    <a href="https://github.com/soxoj/maigret">
-        <img alt="View count for Maigret project" src="https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square" />
-    </a>
   </div>
   <br>
   <div>
     <img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" height="300" alt="Maigret logo"/>
+  </div>
+  <br>
+  <div>
+    <a href="https://codewiki.google/github.com/soxoj/maigret">
+        <img alt="Ask Code Wiki about Maigret" src="https://img.shields.io/badge/Code_Wiki-ask_about_repo-yellow?logo=googlegemini" />
+    </a>
+    <a href="https://deepwiki.com/soxoj/maigret">
+        <img alt="Ask DeepWiki about Maigret" src="https://img.shields.io/badge/DeepWiki-ask_about_repo-yellow" />
+    </a>
   </div>
   <br>
   <div>
@@ -44,32 +55,43 @@ featuredImagePreview: https://images.unsplash.com/photo-1778343303023-c6404b1854
 
 ## Sponsors
 
-<table>
-  <tr>
-    <td width="250" align="center">
-      <a href="https://www.rapidproxy.io/?ref=soxoj">
-        <img src="https://github.com/user-attachments/assets/1b4ad463-c6eb-448b-8e14-5792ee3d4181" height="100px" alt="RapidProxy" />
-      </a>
-    </td>
-    <td>
-      <a href="https://www.rapidproxy.io/?ref=soxoj"><b>RapidProxy</b></a> provides high-performance residential proxies for Twitter scraping, Selenium automation, and web data extraction.<br>
-      90M+ IPs • Smart rotation • Anti-block • Non-expiring traffic<br>
-      <b>Special Offer:</b> Try it free — Plans from $0.65/GB. Use code <code>RAPID10</code> for 10% off.
-    </td>
-  </tr>
-  <tr>
-    <td width="250" align="center">
-      <a href="https://vaultproxies.net/?utm_source=maigret&utm_medium=readme">
-        <img src="https://i.imgur.com/TF165pP.gif" width="180" alt="VaultProxies" />
-      </a>
-    </td>
-    <td>
-      <a href="https://vaultproxies.net/?utm_source=maigret&utm_medium=readme"><b>VaultProxies</b></a> — The proxy network ops teams reach for when they're tired of getting throttled, flagged, or guessed.<br>
-      Enterprise-grade rotation • High uptime • Throttle-resistant routing<br>
-      <b>Special Offer:</b> Plans from $1/GB — as low as $0.50/GB. Use code <code>50OFF</code> for 50% off.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://www.rapidproxy.io/?ref=soxoj">
+    <img src="https://github.com/user-attachments/assets/1b4ad463-c6eb-448b-8e14-5792ee3d4181" width="220" alt="RapidProxy">
+  </a>
+</p>
+
+<p>
+  <a href="https://www.rapidproxy.io/?ref=soxoj"><b>RapidProxy</b></a> provides high-performance residential proxies for Twitter scraping, Selenium automation, and web data extraction.<br>
+  90M+ IPs • Smart rotation • Anti-block • Non-expiring traffic<br>
+  <b>Special Offer:</b> Try it free — Plans from $0.65/GB. Use code <code>RAPID10</code> for 10% off.
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://vaultproxies.net/?utm_source=maigret&utm_medium=readme">
+    <img src="https://i.imgur.com/TF165pP.gif" width="320" alt="VaultProxies">
+  </a>
+</p>
+
+<p>
+  <a href="https://vaultproxies.net/?utm_source=maigret&utm_medium=readme"><b>VaultProxies</b></a> — The proxy network ops teams reach for when they're tired of getting throttled, flagged, or guessed.<br>
+  Enterprise-grade rotation • High uptime • Throttle-resistant routing<br>
+  <b>Special Offer:</b> Plans from $1/GB — as low as $0.50/GB. Use code <code>50OFF</code> for 50% off.
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://9proxy.com/?utm_source=Github&utm_campaign=obscura">
+    <img src="https://i.imgur.com/FleHdvu.gif" width="250" alt="9Proxy">
+  </a>
+</p>
+
+<p>
+  <a href="https://9proxy.com/?utm_source=Github&utm_campaign=obscura"><b>9Proxy</b></a> provides residential proxies from just <b>$0.018/IP or $0.68/GB</b>. 20M+ IPs across 90+ countries. Sticky or rotating sessions, managed from desktop or mobile app.
+</p>
 
 ## Contents
 
@@ -241,6 +263,7 @@ maigret user --json ndjson   # newline-delimited JSON (also: --json simple)
 maigret user --csv
 maigret user --txt
 maigret user --graph         # interactive D3 graph (HTML)
+maigret user --neo4j         # Neo4j Cypher script (graph database)
 
 # search on sites marked with tags photo & dating
 maigret user --tags photo,dating
@@ -258,6 +281,8 @@ maigret user1 user2 user3 -a
 # AI-assisted investigation summary (needs OPENAI_API_KEY)
 maigret user --ai
 ```
+
+`--neo4j` writes a `*_neo4j.cypher` script of the results graph; import it with `cypher-shell -u neo4j -p <password> < report_user_neo4j.cypher` or paste it into the Neo4j Browser. Re-imports are idempotent. See the [Neo4j export docs](https://maigret.readthedocs.io/en/latest/command-line-options.html#neo4j-export).
 
 Run `maigret --help` for all options. Docs: [CLI options](https://maigret.readthedocs.io/en/latest/command-line-options.html), [more examples](https://maigret.readthedocs.io/en/latest/usage-examples.html). Running into 403s or timeouts? See [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
