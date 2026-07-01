@@ -1,16 +1,16 @@
 ---
 title: supervision
-date: 2026-06-11T16:47:26+08:00
+date: 2026-07-01T16:13:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779464433263-35e2c02d1cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779464433263-35e2c02d1cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780879792553-0abf87e569a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780879792553-0abf87e569a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
 
 <div align="center">
   <p>
-    <a align="center" href="" target="https://supervision.roboflow.com">
+    <a align="center" href="https://supervision.roboflow.com" target="_blank">
       <img
         width="100%"
         src="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529"
@@ -34,13 +34,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1779464433263-35e2c02d1c
 
 </div>
 
-## 👋 hello
+<details>
+<summary><strong>📑 Table of Contents</strong></summary>
+
+- [👋 Hello](#-hello)
+- [💻 Install](#-install)
+- [🔥 Quickstart](#-quickstart)
+    - [Models](#models)
+    - [Annotators](#annotators)
+    - [Datasets](#datasets)
+- [🎬 Tutorials](#-tutorials)
+- [💜 Built with Supervision](#-built-with-supervision)
+- [📚 Documentation](#-documentation)
+- [🏆 Contribution](#-contribution)
+
+</details>
+
+## 👋 Hello
 
 **We are your essential toolkit for computer vision.** From data loading to real-time zone counting, we provide the building blocks so you can focus on building applications around your models. 🤝
 
-## 💻 install
+## 💻 Install
 
-Pip install the supervision package in a [**Python>=3.9**](https://www.python.org/) environment.
+Pip install the supervision package in a [**Python>=3.10**](https://www.python.org/) environment.
 
 ```bash
 pip install supervision
@@ -48,9 +64,9 @@ pip install supervision
 
 Read more about conda, mamba, and installing from source in our [guide](https://roboflow.github.io/supervision/).
 
-## 🔥 quickstart
+## 🔥 Quickstart
 
-### models
+### Models
 
 Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created [connectors](https://supervision.roboflow.com/latest/detection/core/#detections) for the most popular libraries like Ultralytics, Transformers, MMDetection, or Inference. Other integrations, like `rfdetr`, already return `sv.Detections` directly.
 
@@ -61,7 +77,7 @@ import supervision as sv
 from PIL import Image
 from rfdetr import RFDETRSmall
 
-image = Image.open(...)
+image = Image.open("path/to/image.jpg")
 model = RFDETRSmall()
 detections = model.predict(image, threshold=0.5)
 
@@ -81,7 +97,7 @@ len(detections)
     from PIL import Image
     from inference import get_model
 
-    image = Image.open(...)
+    image = Image.open("path/to/image.jpg")
     model = get_model(model_id="rfdetr-small", api_key="ROBOFLOW_API_KEY")
     result = model.infer(image)[0]
     detections = sv.Detections.from_inference(result)
@@ -92,7 +108,7 @@ len(detections)
 
 </details>
 
-### annotators
+### Annotators
 
 Supervision offers a wide range of highly customizable [annotators](https://supervision.roboflow.com/latest/detection/annotators/), allowing you to compose the perfect visualization for your use case.
 
@@ -100,7 +116,8 @@ Supervision offers a wide range of highly customizable [annotators](https://supe
 import cv2
 import supervision as sv
 
-image = cv2.imread(...)
+image = cv2.imread("path/to/image.jpg")
+# Assuming detections are obtained from a model
 detections = sv.Detections(...)
 
 box_annotator = sv.BoxAnnotator()
@@ -109,7 +126,7 @@ annotated_frame = box_annotator.annotate(scene=image.copy(), detections=detectio
 
 https://github.com/roboflow/supervision/assets/26109316/691e219c-0565-4403-9218-ab5644f39bce
 
-### datasets
+### Datasets
 
 Supervision provides a set of [utils](https://supervision.roboflow.com/latest/datasets/core/) that allow you to load, split, merge, and save datasets in one of the supported formats.
 
@@ -133,7 +150,7 @@ for path, image, annotation in ds:
     pass
 ```
 
-<details close>
+<details>
 <summary>👉 more dataset utils</summary>
 
 - load
@@ -223,7 +240,7 @@ for path, image, annotation in ds:
 
 </details>
 
-## 🎬 tutorials
+## 🎬 Tutorials
 
 Want to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](./examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](https://supervision.roboflow.com/develop/cookbooks/)!
 
@@ -243,7 +260,7 @@ Want to learn how to use Supervision? Explore our [how-to guides](https://superv
 <div><strong>Created: 11 Jan 2024</strong></div>
 <br/>Learn how to track and estimate the speed of vehicles using YOLO, ByteTrack, and Roboflow Inference. This comprehensive tutorial covers object detection, multi-object tracking, filtering detections, perspective transformation, speed estimation, visualization improvements, and more.</p>
 
-## 💜 built with supervision
+## 💜 Built with Supervision
 
 Did you build something cool using supervision? [Let us know!](https://github.com/roboflow/supervision/discussions/categories/built-with-supervision)
 
@@ -253,11 +270,11 @@ https://github.com/roboflow/supervision/assets/26109316/c9436828-9fbf-4c25-ae8c-
 
 https://github.com/roboflow/supervision/assets/26109316/3ac6982f-4943-4108-9b7f-51787ef1a69f
 
-## 📚 documentation
+## 📚 Documentation
 
 Visit our [documentation](https://roboflow.github.io/supervision) page to learn how supervision can help you build computer vision applications faster and more reliably.
 
-## 🏆 contribution
+## 🏆 Contribution
 
 We love your input! Please see our [contributing guide](.github/CONTRIBUTING.md) to get started. Thank you 🙏 to all our contributors!
 
@@ -268,8 +285,6 @@ We love your input! Please see our [contributing guide](.github/CONTRIBUTING.md)
 </p>
 
 <br>
-
-<div align="center">
 
 <div align="center">
       <a href="https://youtube.com/roboflow">
@@ -305,6 +320,7 @@ We love your input! Please see our [contributing guide](.github/CONTRIBUTING.md)
             src="https://media.roboflow.com/notebooks/template/icons/purple/forum.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633584"
             width="3%"
           />
+      </a>
       <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
       <a href="https://blog.roboflow.com">
           <img
@@ -312,6 +328,4 @@ We love your input! Please see our [contributing guide](.github/CONTRIBUTING.md)
             width="3%"
           />
       </a>
-      </a>
   </div>
-</div>

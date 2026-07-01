@@ -1,9 +1,9 @@
 ---
 title: cupp
-date: 2026-01-19T12:52:32+08:00
+date: 2026-07-01T16:12:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765834082631-bb4373ecafef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765834082631-bb4373ecafef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTgyODd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781727935114-e8d84a3ff861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781727935114-e8d84a3ff861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [Mebus/cupp](https://github.com/Mebus/cupp)

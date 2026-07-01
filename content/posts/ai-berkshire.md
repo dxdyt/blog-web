@@ -1,9 +1,9 @@
 ---
 title: ai-berkshire
-date: 2026-06-30T15:53:52+08:00
+date: 2026-07-01T16:12:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780547300423-c6a539738adb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780547300423-c6a539738adb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
@@ -256,6 +256,18 @@ codex --version
 Windows 用户可使用官方 PowerShell 安装命令：`powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"`。
 
 如果 `codex --version` 能正常输出版本号，就可以继续安装本项目的 Codex skills。
+
+#### 减少授权确认
+
+这些 skills 会频繁调用工具，Claude Code 默认会逐次请求授权确认。这个行为来自 Claude Code 客户端权限机制，不是本仓库可以修改的默认设置。
+
+如果你信任当前 workflow，并且在可信环境中运行，可以用 Claude Code 的跳过权限确认模式启动：
+
+```bash
+claude --dangerously-skip-permissions
+```
+
+注意：该模式会关闭 Claude Code 的工具审批保护，只应在你信任仓库、命令和工作目录的情况下使用。
 
 ### 2. 安装 Skills
 

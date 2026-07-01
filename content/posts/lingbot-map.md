@@ -1,9 +1,9 @@
 ---
 title: lingbot-map
-date: 2026-06-29T16:58:21+08:00
+date: 2026-07-01T16:14:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780740461515-739cd488ba18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780740461515-739cd488ba18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI3MjM0NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780163930838-1502715c3bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780163930838-1502715c3bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)

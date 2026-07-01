@@ -1,9 +1,9 @@
 ---
 title: simplex-chat
-date: 2026-06-30T15:52:52+08:00
+date: 2026-07-01T16:13:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780380069585-4703916d9ea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780380069585-4703916d9ea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)

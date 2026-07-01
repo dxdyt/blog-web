@@ -1,9 +1,9 @@
 ---
 title: video-use
-date: 2026-06-30T15:54:00+08:00
+date: 2026-07-01T16:12:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780418495588-57224367ed82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781921131594-60ee85815968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [browser-use/video-use](https://github.com/browser-use/video-use)
@@ -17,6 +17,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1780418495588-57224367ed
 Introducing **video-use** — edit videos with Claude Code. 100% open source.
 
 Drop raw footage in a folder, chat with Claude Code, get `final.mp4` back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus.
+
+Try video-use in [Browser Use Cloud](https://cloud.browser-use.com/v4?utm_campaign=video-use-use-in-cloud&utm_source=github).
 
 ## What it does
 

@@ -1,9 +1,9 @@
 ---
 title: free-for-dev
-date: 2026-06-30T15:53:35+08:00
+date: 2026-07-01T16:13:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780833563186-f38fca3fece7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780833563186-f38fca3fece7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780995174800-4b7b8802b680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780995174800-4b7b8802b680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
 ---
 
 # [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
@@ -99,6 +99,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
     * Cloud Build - 120 build-minutes per day
     * [Google Colab](https://colab.research.google.com/) - Free Jupyter Notebooks development environment.
     * [Kaggle](https://www.kaggle.com/) - Jupyter Notebooks with 4 CPU cores and 30 GB RAM computational environment without any weekly usage limits. With Phone number verification - 1 Nvidia Tesla P100 GPU or 2x Nvidia Tesla T4 GPU can be added with usage limit of 30 GPU hours/week for free. With Identity verification - 1 TPU v3-8 with 96 CPU cores and 330 GB RAM is available with usage limit of 20 hours/week for free. Check [Technical Specifications](https://www.kaggle.com/docs/notebooks#technical-specifications) for more details.
+    * [ChromeRemoteDesktop](https://remotedesktop.google.com/) - Free remote desktop app with practically no limit on number of devices, owned by Google so needs a Google account.
     * [Google Gemini API](https://ai.google.dev/) - Get free access to Gemini 1.5 Pro and Gemini 1.5 Flash models. The free tier offers 15 requests per minute, 1,500 requests per day, and 1 million tokens per minute.
     * Full, detailed list - https://cloud.google.com/free
 
