@@ -1,9 +1,9 @@
 ---
 title: tolaria
-date: 2026-06-30T15:54:24+08:00
+date: 2026-07-02T15:32:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777472251147-4018c1f3dcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777472251147-4018c1f3dcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria)
@@ -21,6 +21,47 @@ Tolaria is a desktop app for macOS, Windows, and Linux for managing **markdown k
 Personally, I use it to **run my life** (hey 👋 [Luca here](http://x.com/lucaronin)). I have a massive workspace of 10,000+ notes, which are the result of my [Refactoring](https://refactoring.fm/) work + a ton of personal journaling and *second braining*.
 
 <img width="1000" height="656" alt="1776506856823-CleanShot_2026-04-18_at_12 06 57_2x" src="https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38" />
+
+## Sponsors
+
+Tolaria is supported by a small panel of tools that help keep the project healthy, tested, and ready for AI-assisted development. I use these tools every day.
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.codacy.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/codacy-light.svg">
+          <img src="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/codacy-dark.svg" alt="Codacy" height="32">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://codescene.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/codescene-light.svg">
+          <img src="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/codescene-dark.svg" alt="CodeScene" height="32">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://circleci.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/circleci-light.svg">
+          <img src="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/circleci-dark.svg" alt="CircleCI" height="32">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://getunblocked.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/unblocked-light.svg">
+          <img src="https://raw.githubusercontent.com/refactoringhq/tolaria/main/site/public/landing/sponsors/unblocked-dark.svg" alt="Unblocked" height="32">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Walkthroughs
 

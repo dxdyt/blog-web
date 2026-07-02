@@ -1,9 +1,9 @@
 ---
 title: FluidVoice
-date: 2026-07-01T16:12:22+08:00
+date: 2026-07-02T15:33:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777047023579-5007a6d402bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777047023579-5007a6d402bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780541027382-cf422369bdaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780541027382-cf422369bdaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)
@@ -25,6 +25,9 @@ Open source voice-to-text dictation app for macOS with on-device AI enhancement.
 **Install with Homebrew:** `brew install --cask fluidvoice`
 
 **Manual download:** [latest release](https://github.com/altic-dev/FluidVoice/releases/latest)
+
+> [!NOTE]
+> FluidVoice is on macOS today. **iOS and Windows are on the way** — join the waitlist to get notified when we launch: **[altic.dev/fluid/waitlist](https://www.altic.dev/fluid/waitlist)**
 
 > [!IMPORTANT]
 > This project is free and open source under GPLv3. If FluidVoice is useful to you, please star the repository — it helps visibility and keeps development going.

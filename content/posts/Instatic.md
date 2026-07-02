@@ -1,9 +1,9 @@
 ---
 title: Instatic
-date: 2026-07-01T16:13:40+08:00
+date: 2026-07-02T15:33:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777047023579-5007a6d402bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777047023579-5007a6d402bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic)
@@ -15,6 +15,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1777047023579-5007a6d402
 **Own your site. Love building it.**
 
 A self-hosted CMS where the visual editor, content engine, and publisher all live in one Bun server — and the pages it ships are clean enough to read in view-source.
+
+<p>
+  <a href="https://trendshift.io/repositories/66792?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-66792" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/66792" alt="CoreBunch/Instatic | Trendshift" width="250" height="55">
+  </a>
+</p>
 
 [![Release](https://img.shields.io/github/v/release/corebunch/instatic?color=black&labelColor=black)](https://github.com/corebunch/instatic/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black?labelColor=black&color=blue)](LICENSE)

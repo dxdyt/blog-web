@@ -1,9 +1,9 @@
 ---
 title: astryx
-date: 2026-07-01T16:13:54+08:00
+date: 2026-07-02T15:31:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781795485048-3d98b53632db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781795485048-3d98b53632db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780589613719-5642667970ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [facebook/astryx](https://github.com/facebook/astryx)

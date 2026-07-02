@@ -1,9 +1,9 @@
 ---
 title: council-of-high-intelligence
-date: 2026-06-30T15:54:13+08:00
+date: 2026-07-02T15:32:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778409556507-a5da4d1cf220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778409556507-a5da4d1cf220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4MDU5NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence)

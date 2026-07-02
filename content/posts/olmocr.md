@@ -1,9 +1,9 @@
 ---
 title: olmocr
-date: 2025-10-31T12:23:28+08:00
+date: 2026-07-02T15:31:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759012036404-975090ca1f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759012036404-975090ca1f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779838386666-6d110f33079b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
 ---
 
 # [allenai/olmocr](https://github.com/allenai/olmocr)
@@ -195,58 +195,113 @@ We also ship a comprehensive benchmark suite covering over 7,000 test cases acro
 
 ### Installation
 
-Requirements:
- - Recent NVIDIA GPU (tested on RTX 4090, L40S, A100, H100) with at least 15 GB of GPU RAM
- - 30GB of free disk space
+#### System Dependencies
 
 You will need to install poppler-utils and additional fonts for rendering PDF images.
 
-Install dependencies (Ubuntu/Debian)
+Install dependencies (Ubuntu/Debian):
 ```bash
 sudo apt-get update
 sudo apt-get install poppler-utils ttf-mscorefonts-installer msttcorefonts fonts-crosextra-caladea fonts-crosextra-carlito gsfonts lcdf-typetools
 ```
 
+#### Python Installation
+
 Set up a conda environment and install olmocr. The requirements for running olmOCR
 are difficult to install in an existing python environment, so please do make a clean python environment to install into.
+
 ```bash
 conda create -n olmocr python=3.11
 conda activate olmocr
+```
 
-# For CPU-only operations, ex running the benchmark
-pip install olmocr[bench]
+Choose the installation option that matches your use case:
 
-# For actually converting the files with your own GPU
-pip install olmocr[gpu]  --extra-index-url https://download.pytorch.org/whl/cu128
+**Option 1: Remote Inference (Lightweight)**
+
+If you plan to use a remote vLLM server with the `--server` flag, install the base package:
+```bash
+pip install olmocr
+```
+This avoids installing heavy GPU dependencies like PyTorch (~2GB+).
+
+**Option 2: Local GPU Inference**
+
+Requirements:
+ - Recent NVIDIA GPU (tested on RTX 4090, L40S, A100, H100) with at least 12 GB of GPU RAM
+ - 30GB of free disk space
+
+For running inference with your own GPU:
+```bash
+pip install olmocr[gpu] --extra-index-url https://download.pytorch.org/whl/cu128
 
 # Recommended: Install flash infer for faster inference on GPU
 pip install https://download.pytorch.org/whl/cu128/flashinfer/flashinfer_python-0.2.5%2Bcu128torch2.7-cp38-abi3-linux_x86_64.whl
 ```
 
-### Local Usage Example
+**Option 3: Beaker Cluster Execution**
 
-For quick testing, try the [web demo](https://olmocr.allen.ai/). To run locally, a GPU is required, as inference is powered by [sglang](https://github.com/sgl-project/sglang) under the hood.
+For submitting jobs to Beaker clusters with the `--beaker` flag:
+```bash
+pip install olmocr[beaker]
+```
 
-Convert a Single PDF:
+**Option 4: Benchmark Suite**
+
+For running the olmOCR benchmark suite:
+```bash
+pip install olmocr[bench]
+```
+
+**Combined Installation**
+
+You can combine multiple options:
+```bash
+# GPU + Beaker support
+pip install olmocr[gpu,beaker] --extra-index-url https://download.pytorch.org/whl/cu128
+
+# GPU + Benchmark support
+pip install olmocr[gpu,bench] --extra-index-url https://download.pytorch.org/whl/cu128
+```
+
+**Troubleshooting**
+
+If you run into errors about `too many open files`, update your ulimit:
+```bash
+ulimit -n 65536
+```
+
+### Usage Examples
+
+For quick testing, try the [web demo](https://olmocr.allen.ai/).
+
+**Convert a Single PDF (Local GPU):**
 ```bash
 # Download a sample PDF
 curl -o olmocr-sample.pdf https://olmocr.allenai.org/papers/olmocr_3pg_sample.pdf
 
 # Convert it to markdown
-python -m olmocr.pipeline ./localworkspace --markdown --pdfs olmocr-sample.pdf
+olmocr ./localworkspace --markdown --pdfs olmocr-sample.pdf
 ```
 
-Convert an Image file:
+**Convert an Image file:**
 ```bash
-python -m olmocr.pipeline ./localworkspace --markdown --pdfs random_page.png
+olmocr ./localworkspace --markdown --pdfs random_page.png
 ```
 
-Convert Multiple PDFs:
+**Convert Multiple PDFs:**
 ```bash
-python -m olmocr.pipeline ./localworkspace --markdown --pdfs tests/gnarly_pdfs/*.pdf
+olmocr ./localworkspace --markdown --pdfs tests/gnarly_pdfs/*.pdf
 ```
 
-With the addition of the `--markdown` flag, results will be stored as markdown files inside of `./localworkspace/markdown/`. 
+**Use Remote Inference Server:**
+```bash
+olmocr ./localworkspace --server http://remote-server:8000/v1 --model allenai/olmOCR-2-7B-1025-FP8 --markdown --pdfs *.pdf
+```
+
+With the `--markdown` flag, results will be stored as markdown files inside of `./localworkspace/markdown/`.
+
+> **Note:** You can also use `python -m olmocr.pipeline` instead of `olmocr` if you prefer. 
 
 #### Viewing Results
 
@@ -264,16 +319,25 @@ olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models
 
 ### Using an Inference Provider or External Server
 
-If you have a vLLM server already running elsewhere (or any inference platform implementing the OpenAI API), you can point olmOCR to use it instead of spawning a local instance:
+If you have a vLLM server already running elsewhere (or any inference platform implementing the OpenAI API), you can point olmOCR to use it instead of spawning a local instance.
 
+**Installation for Remote Inference:**
 ```bash
-# Use external vLLM server instead of local one
-python -m olmocr.pipeline ./localworkspace --server http://remote-server:8000/v1 --markdown --pdfs tests/gnarly_pdfs/*.pdf
+# Lightweight installation - no GPU dependencies needed
+pip install olmocr
 ```
 
-The served model name should be `olmocr`. An example vLLM launch command would be:
+**Using an External Server:**
 ```bash
-vllm serve allenai/olmOCR-2-7B-1025-FP8 --served-model-name olmocr --max-model-len 16384
+# Use external vLLM server instead of local one
+olmocr ./localworkspace --server http://remote-server:8000/v1 --model allenai/olmOCR-2-7B-1025-FP8 --markdown --pdfs tests/gnarly_pdfs/*.pdf
+```
+
+The served model name in vLLM needs to match the value provided in `--model`.
+
+**Example vLLM Server Launch:**
+```bash
+vllm serve allenai/olmOCR-2-7B-1025-FP8 --max-model-len 16384
 ```
 
 #### Verified External Providers
@@ -282,14 +346,16 @@ We have tested `olmOCR-2-7B-1025-FP8` on these external model providers and conf
 
 |                                                                             | $/1M Input tokens | $/1M Output tokens | Example Command                                                                                                                                                                |
 |-----------------------------------------------------------------------------|-------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Cirrascale](https://ai2endpoints.cirrascale.ai/models/overview)            | $0.07             | $0.15              | `python -m olmocr.pipeline ./localworkspace1 --server https://ai2endpoints.cirrascale.ai/api --api_key sk-XXXXXXX --model olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf`     |
-| [DeepInfra](https://deepinfra.com/)                                         | $0.09             | $0.19              | `python -m olmocr.pipeline ./localworkspace1 --server https://api.deepinfra.com/v1/openai --api_key DfXXXXXXX --model allenai/olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf` |
-| [Parasail](https://www.saas.parasail.io/serverless?name=olmocr-7b-1025-fp8) | $0.10             | $0.20              | `python -m olmocr.pipeline ./localworkspace1 --server https://api.parasail.io/v1 --api_key psk-XXXXX --model allenai/olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf`          |
+| [Cirrascale](https://ai2endpoints.cirrascale.ai/models/overview)            | $0.07             | $0.15              | `olmocr ./workspace --server https://ai2endpoints.cirrascale.ai/api --api_key sk-XXXXXXX --workers 1 --max_concurrent_requests 20 --model olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf`     |
+| [DeepInfra](https://deepinfra.com/)                                         | $0.09             | $0.19              | `olmocr ./workspace --server https://api.deepinfra.com/v1/openai --api_key DfXXXXXXX --workers 1 --max_concurrent_requests 20 --model allenai/olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf` |
+| [Parasail](https://www.saas.parasail.io/serverless?name=olmocr-7b-1025-fp8) | $0.10             | $0.20              | `olmocr ./workspace --server https://api.parasail.io/v1 --api_key psk-XXXXX --workers 1 --max_concurrent_requests 20 --model allenai/olmOCR-2-7B-1025 --pdfs tests/gnarly_pdfs/*.pdf`          |
 
 
 Notes on arguments
 - `--server`: Defines the OpenAI-compatible endpoint: ex `https://api.deepinfra.com/v1/openai`
 - `--api_key`: Your API key, bassed in via Authorization Bearer HTTP header
+- `--max_concurrent_requests`: Max concurrent requests that will be in-flight to the inference provider at one time
+- `--workers`: Max number of page groups that will be processed at once. You may want to set this to `1` so that you finish one group of stuff before moving on.
 - `--pages_per_group`: You may want a smaller number of pages per group as many external provides have lower concurrent request limits
 - `--model`: The model identifier, ex. `allenai/olmOCR-2-7B-1025`, different providers have different names, and if you run locally, you can use `olmocr`
 - Other arguments work the same as with local inference
@@ -297,64 +363,83 @@ Notes on arguments
 
 ### Multi-node / Cluster Usage
 
-If you want to convert millions of PDFs, using multiple nodes running in parallel, then olmOCR supports
-reading your PDFs from AWS S3, and coordinating work using an AWS S3 output bucket.
+If you want to convert millions of PDFs using multiple nodes running in parallel, olmOCR supports
+reading PDFs from AWS S3 and coordinating work using an AWS S3 output bucket.
 
-For example, you can start this command on your first worker node, and it will set up
-a simple work queue in your AWS bucket and start converting PDFs.
-
+**Start the first worker node:**
 ```bash
-python -m olmocr.pipeline s3://my_s3_bucket/pdfworkspaces/exampleworkspace --pdfs s3://my_s3_bucket/jakep/gnarly_pdfs/*.pdf
+olmocr s3://my_s3_bucket/pdfworkspaces/exampleworkspace --pdfs s3://my_s3_bucket/jakep/gnarly_pdfs/*.pdf
 ```
 
-Now on any subsequent nodes, just run this and they will start grabbing items from the same workspace queue.
+This sets up a simple work queue in your AWS bucket and starts converting PDFs.
+
+**On subsequent worker nodes:**
 ```bash
-python -m olmocr.pipeline s3://my_s3_bucket/pdfworkspaces/exampleworkspace
+olmocr s3://my_s3_bucket/pdfworkspaces/exampleworkspace
 ```
 
-If you are at Ai2 and want to linearize millions of PDFs efficiently using [beaker](https://www.beaker.org), just add the `--beaker`
-flag. This will prepare the workspace on your local machine, and then launch N GPU workers in the cluster to start
-converting PDFs.
+They will automatically start grabbing items from the same workspace queue.
 
-For example:
+#### Using Beaker for Cluster Execution
+
+If you are at Ai2 and want to linearize millions of PDFs efficiently using [beaker](https://www.beaker.org), install with Beaker support:
+
 ```bash
-python -m olmocr.pipeline s3://my_s3_bucket/pdfworkspaces/exampleworkspace --pdfs s3://my_s3_bucket/jakep/gnarly_pdfs/*.pdf --beaker --beaker_gpus 4
+pip install olmocr[gpu,beaker] --extra-index-url https://download.pytorch.org/whl/cu128
+```
+
+Then use the `--beaker` flag to prepare the workspace locally and launch N GPU workers in the cluster:
+
+```bash
+olmocr s3://my_s3_bucket/pdfworkspaces/exampleworkspace --pdfs s3://my_s3_bucket/jakep/gnarly_pdfs/*.pdf --beaker --beaker_gpus 4
 ```
 
 
 ### Using Docker
 
-Pull the Docker image.
+Pull the Docker image (large, includes the model, ~30GB):
+```bash
+docker pull alleninstituteforai/olmocr:latest-with-model
+```
+
+For advanced users who want to manage their own model downloads, we also provide a base image without the model:
 ```bash
 docker pull alleninstituteforai/olmocr:latest
 ```
 
-To run the container interactively:
+#### Quick Start - Process PDFs
+
+Process a single PDF in your current directory:
 ```bash
-docker run -it --gpus all --name olmocr_container alleninstituteforai/olmocr:latest /bin/bash
+docker run --gpus all \
+  -v $(pwd):/workspace \
+  alleninstituteforai/olmocr:latest-with-model \
+  -c "olmocr /workspace/output --markdown --pdfs /workspace/sample.pdf"
 ```
 
-If you want to access your local files inside the container, use volume mounting:
+Process multiple PDFs:
 ```bash
-docker run -it --gpus all \
-  -v /path/to/your/local/files:/local_files \
-  --name olmocr_container \
-  alleninstituteforai/olmocr:latest /bin/bash
+docker run --gpus all \
+  -v /path/to/pdfs:/input \
+  -v /path/to/output:/output \
+  alleninstituteforai/olmocr:latest-with-model \
+  -c "olmocr /output --markdown --pdfs /input/*.pdf"
 ```
 
-All dependencies are already installed. Once you’re inside the container, you can run olmOCR commands. For example:
+#### Interactive Mode
 
+Run the container interactively for exploration and debugging:
 ```bash
-curl -o olmocr-sample.pdf https://olmocr.allenai.org/papers/olmocr_3pg_sample.pdf
-
-python -m olmocr.pipeline ./localworkspace --markdown --pdfs olmocr-sample.pdf
+docker run -it --gpus all alleninstituteforai/olmocr:latest-with-model
 ```
-> You can also visit our Docker repository on [Docker Hub](https://hub.docker.com/r/alleninstituteforai/olmocr).
 
-### Full documentation for the pipeline
+> Visit our Docker repository on [Docker Hub](https://hub.docker.com/r/alleninstituteforai/olmocr) for more information.
 
+### Full Documentation
+
+To see all available options:
 ```bash
-python -m olmocr.pipeline --help
+olmocr --help
 usage: pipeline.py [-h] [--pdfs [PDFS ...]] [--model MODEL] [--workspace_profile WORKSPACE_PROFILE] [--pdf_profile PDF_PROFILE] [--pages_per_group PAGES_PER_GROUP] [--max_page_retries MAX_PAGE_RETRIES] [--max_page_error_rate MAX_PAGE_ERROR_RATE] [--workers WORKERS]
                    [--apply_filter] [--stats] [--markdown] [--target_longest_image_dim TARGET_LONGEST_IMAGE_DIM] [--target_anchor_text_len TARGET_ANCHOR_TEXT_LEN] [--guided_decoding] [--gpu-memory-utilization GPU_MEMORY_UTILIZATION] [--max_model_len MAX_MODEL_LEN]
                    [--tensor-parallel-size TENSOR_PARALLEL_SIZE] [--data-parallel-size DATA_PARALLEL_SIZE] [--port PORT] [--server SERVER] [--beaker] [--beaker_workspace BEAKER_WORKSPACE] [--beaker_cluster BEAKER_CLUSTER] [--beaker_gpus BEAKER_GPUS] [--beaker_priority BEAKER_PRIORITY]
@@ -422,7 +507,7 @@ There are some nice reusable pieces of the code that may be useful for your own 
  - Basic filtering by language and SEO spam removal - [filter.py](https://github.com/allenai/olmocr/blob/main/olmocr/filter/filter.py)
  - SFT Finetuning code for Qwen2.5-VL - [train.py](https://github.com/allenai/olmocr/blob/main/olmocr/train/train.py)
  - GRPO RL Trainer - [grpo_train.py](https://github.com/allenai/olmocr/blob/main/olmocr/train/grpo_train.py)
- - Synthetic data generation - [mine_html_templates.py](https://github.com/allenai/olmocr/blob/main/olmocr/bench/synth/mine_html_templates.py)
+ - Synthetic data generation - [mine_html_templates.py](https://github.com/allenai/olmocr/blob/main/olmocr/synth/mine_html_templates.py)
  - Processing millions of PDFs through a finetuned model using VLLM - [pipeline.py](https://github.com/allenai/olmocr/blob/main/olmocr/pipeline.py)
  - Viewing [Dolma docs](https://github.com/allenai/dolma) created from PDFs - [dolmaviewer.py](https://github.com/allenai/olmocr/blob/main/olmocr/viewer/dolmaviewer.py)
 
