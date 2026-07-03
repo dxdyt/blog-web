@@ -1,9 +1,9 @@
 ---
 title: checkout
-date: 2025-08-13T12:31:30+08:00
+date: 2026-07-03T15:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754732494172-5c1d2db8230c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754732494172-5c1d2db8230c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782177386922-1c1ecf67a6ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782177386922-1c1ecf67a6ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
 ---
 
 # [actions/checkout](https://github.com/actions/checkout)
