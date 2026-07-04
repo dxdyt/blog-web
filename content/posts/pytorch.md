@@ -1,9 +1,9 @@
 ---
 title: pytorch
-date: 2026-07-03T15:21:03+08:00
+date: 2026-07-04T14:47:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781458378182-0d946f4988cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781458378182-0d946f4988cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782248726548-295c806b59db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782248726548-295c806b59db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
 ---
 
 # [pytorch/pytorch](https://github.com/pytorch/pytorch)

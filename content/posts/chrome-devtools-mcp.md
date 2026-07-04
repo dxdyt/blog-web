@@ -1,9 +1,9 @@
 ---
 title: chrome-devtools-mcp
-date: 2026-07-03T15:20:01+08:00
+date: 2026-07-04T14:46:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781520943978-cd5eed535c35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781520943978-cd5eed535c35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782935749635-561e44af67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782935749635-561e44af67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
 ---
 
 # [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
@@ -524,13 +524,14 @@ If you run into any issues, checkout our [troubleshooting guide](./docs/troubles
   - [`take_snapshot`](docs/tool-reference.md#take_snapshot)
   - [`screencast_start`](docs/tool-reference.md#screencast_start)
   - [`screencast_stop`](docs/tool-reference.md#screencast_stop)
-- **Memory** (10 tools)
+- **Memory** (11 tools)
   - [`take_heapsnapshot`](docs/tool-reference.md#take_heapsnapshot)
   - [`close_heapsnapshot`](docs/tool-reference.md#close_heapsnapshot)
   - [`compare_heapsnapshots`](docs/tool-reference.md#compare_heapsnapshots)
   - [`get_heapsnapshot_class_nodes`](docs/tool-reference.md#get_heapsnapshot_class_nodes)
   - [`get_heapsnapshot_details`](docs/tool-reference.md#get_heapsnapshot_details)
   - [`get_heapsnapshot_dominators`](docs/tool-reference.md#get_heapsnapshot_dominators)
+  - [`get_heapsnapshot_duplicate_strings`](docs/tool-reference.md#get_heapsnapshot_duplicate_strings)
   - [`get_heapsnapshot_edges`](docs/tool-reference.md#get_heapsnapshot_edges)
   - [`get_heapsnapshot_retainers`](docs/tool-reference.md#get_heapsnapshot_retainers)
   - [`get_heapsnapshot_retaining_paths`](docs/tool-reference.md#get_heapsnapshot_retaining_paths)

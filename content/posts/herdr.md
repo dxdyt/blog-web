@@ -1,9 +1,9 @@
 ---
 title: herdr
-date: 2026-07-02T15:32:48+08:00
+date: 2026-07-04T14:47:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780541027382-cf422369bdaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780541027382-cf422369bdaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI5Nzc0NjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780789594736-45b2b0bae2ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780789594736-45b2b0bae2ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
 ---
 
 # [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)
@@ -17,6 +17,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1780541027382-cf422369bd
 
 <p align="center">
   <a href="https://herdr.dev">herdr.dev</a> · <a href="#install">install</a> · <a href="#quick-start">quick start</a> · <a href="#supported-agents">supported agents</a> · <a href="https://herdr.dev/docs/">docs</a> · <a href="https://herdr.dev/docs/socket-api/">socket api</a> · <a href="#sponsors">sponsor</a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/32084" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/32084" alt="herdr was #1 GitHub Trending repository of the day on Jun 30, 2026" width="250" height="55" />
+  </a>
 </p>
 
 ---

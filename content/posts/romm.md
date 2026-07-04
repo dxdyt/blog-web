@@ -1,9 +1,9 @@
 ---
 title: romm
-date: 2025-06-29T12:34:43+08:00
+date: 2026-07-04T14:46:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744840281929-e67c2276a874?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744840281929-e67c2276a874?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780928151886-1300577687e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780928151886-1300577687e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
 ---
 
 # [rommapp/romm](https://github.com/rommapp/romm)
@@ -11,38 +11,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1744840281929-e67c2276a8
 <!-- trunk-ignore-all(markdownlint/MD033) -->
 <!-- trunk-ignore(markdownlint/MD041) -->
 <div align="center">
-
   <img src=".github/resources/isotipo.png" height="180px" width="auto" alt="romm logo">
-  <br />
-  <img src=".github/resources/logotipo.png" height="45px" width="auto" alt="romm logotype">
 
   <h3 style="font-size: 25px;">
-    A beautiful, powerful, self-hosted rom manager.
+    A beautiful, powerful, self-hosted ROM manager and player.
   </h3>
-  <br/>
 
+[![discord-badge-img]][discord-badge]
+[![docs-badge-img]][docs]
 [![license-badge-img]][license-badge]
 [![release-badge-img]][release-badge]
 [![docker-pulls-badge-img]][docker-pulls-badge]
 
-[![discord-badge-img]][discord-badge]
-[![docs-badge-img]][docs]
-
   </div>
 </div>
-
-# Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-  - [Features](#features)
-  - [Preview](#preview)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Technical Support](#technical-support)
-- [Project Support](#project-support)
-- [Our Friends](#our-friends)
 
 # Overview
 
@@ -50,13 +32,13 @@ RomM (ROM Manager) allows you to scan, enrich, browse and play your game collect
 
 ## Features
 
-- Scans and enhance your game library with metadata from [IGDB][igdb-api], [Screenscraper][screenscraper-api] and [MobyGames][mobygames-api]
-- Fetch custom arwork from [SteamGridDB][steamgriddb-api]
+- Scan and enhance your game library with metadata from [IGDB][igdb-api], [Screenscraper][screenscraper-api] and [MobyGames][mobygames-api]
+- Fetch custom artwork from [SteamGridDB][steamgriddb-api]
 - Display your achievements from [Retroachievements][retroachievements-api]
 - Metadata available for [400+ platforms][docs-supported-platforms]
 - Play games directly from the browser using [EmulatorJS][docs-emulatorjs] and [RuffleRS][docs-rufflers]
 - Share your library with friends with limited access and permissions
-- Official apps for [Playnite][playnite-app] and [muOS][muos-app]
+- Official apps for [Playnite][playnite-app], [Android][argosy-launcher] and [CFWs][grout]
 - Supports multi-disk games, DLCs, mods, hacks, patches, and manuals
 - Parse and filter by [tags][docs-tag-support] in filenames
 - View, upload, update, and delete games from any modern web browser
@@ -67,38 +49,61 @@ RomM (ROM Manager) allows you to scan, enrich, browse and play your game collect
 | :------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 | <img src=".github/resources/screenshots/preview-desktop.webp" alt="desktop preview" /> | <img style="width: 325px; aspect-ratio: auto;" src=".github/resources/screenshots/preview-mobile.webp" alt="mobile preview" /> |
 
-# Installation
+## Installation
 
 To start using RomM, check out the [Quick Start Guide][docs-quick-start-guide] in the docs. If you are having issues with RomM, please review the page for [troubleshooting steps][docs-troubleshooting].
 
-# Contributing
+## Contributing
 
 To contribute to RomM, please check [Contribution Guide](./CONTRIBUTING.md).
 
-# Community
+## Community
 
 Here are a few projects maintained by members of our community. Please note that the RomM team does not regularly review their source code.
 
-- [romm-comm][romm-comm-discord-bot]: Discord Bot by @idio-sync
-- [DeckRommSync][deck-romm-sync]: SteamOS downloader and sync by @PeriBluGaming
-- [RommBrowser][romm-browser]: An electron client for RomM by @smurflabs
-- CasaOS app via the [BigBear App Store][big-bear-casaos]
+### Mobile
+
+- 🔷 [Argosy][argosy-launcher]: Native client for installing and launching games by [@tmgast](https://github.com/tmgast)
+- [romm-ios-app][romm-ios-app]: Native iOS app by [@ilyas-hallak](https://github.com/ilyas-hallak)
+- [romm-mobile][romm-mobile]: Android (and soon iOS) app by [@mattsays](https://github.com/mattsays)
+
+### Desktop
+
+- 🔷 [Playnite plugin][playnite-app]: Library plugin for Playnite by [@gantoine](https://github.com/gantoine)
+- [RommBrowser][romm-browser]: Electron client by [@smurflabs](https://github.com/smurflabs)
+- [RetroArch Sync][romm-retroarch-sync]: Sync RetroArch library with RomM by [@Covin90](https://github.com/Covin90)
+- [RomMate][rommate]: Desktop app for browsing your collection by [@brenoprata10](https://github.com/brenoprata10)
+- [romm-client][romm-client]: Desktop client by [@chaun14](https://github.com/chaun14)
+
+### Handhelds
+
+- 🔷 [Grout][grout]: Download client for muOS and NextUI by [@BrandonKowalski](https://github.com/BrandonKowalski)
+- [DeckRommSync][deck-romm-sync]: SteamOS downloader and syncer by [@PeriBluGaming](https://github.com/PeriBluGaming)
+- [SwitchRomM][switch-romm]: Homebrew NRO for Switch by [@Shalasere](https://github.com/Shalasere)
+
+### Other
+
+- [romm-comm][romm-comm-discord-bot]: Discord bot by [@idio-sync](https://github.com/idio-sync)
+- [GGRequestz][ggrequestz]: Game discovery and request tool by [@XTREEMMAK](https://github.com/XTREEMMAK)
+- [Syncthing sync][syncthing-sync]: Small tool to push a Syncthing library to RomM by [@amn-96](https://github.com/amn-96)
+
+[🔷] Official first-party app
 
 Join us on Discord, where you can ask questions, submit ideas, get help, showcase your collection, and discuss RomM with other users.
 
 [![discord-invite-img]][discord-invite]
 
-# Technical Support
+## Technical Support
 
 If you have any issues with RomM, please [open an issue](https://github.com/rommapp/romm/issues/new) in this repository.
 
-# Project Support
+## Financial Support
 
-Consider supporting the development of this project on Open Collective.
+Consider supporting the development of this project on Open Collective. All funds will be used to cover the costs of hosting, development, and maintenance of RomM.
 
 [![oc-donate-img]][oc-donate]
 
-# Our Friends
+## Our Friends
 
 Here are a few projects that we think you might like:
 
@@ -107,7 +112,20 @@ Here are a few projects that we think you might like:
 - [ES-DE Frontend](https://es-de.org/): Emulator frontend for Linux, macOS and Windows
 - [Gaseous](https://github.com/gaseous-project/gaseous-server): Another ROM manager with web-based emulator
 - [Retrom](https://github.com/JMBeresford/retrom): A centralized game library/collection management service
+- [Drop](https://droposs.org/): Steam-like experience for DRM-free games
+- [LanCommander](https://lancommander.app/): Digital game platform for PC games
 - [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/): An app for managing ROMs in Steam
+
+<div align="center">
+  <br />
+  <div dir="auto">
+    <a href="https://news.ycombinator.com/item?id=44247964" target="_blank"><img src=".github/resources/hackernews-badge.svg" width="250px" alt="hackernews badge"></a>
+    &nbsp;
+    <a href="https://selfh.st/survey/2025-results/" target="_blank"><img src=".github/resources/selfhst-badge.svg" width="250px" alt="selfh.st badge"></a>
+    &nbsp;
+    <span><img src=".github/resources/aikido-badge.png" alt="Aikido Security Audit Report" height="58" /></span>
+  </div>
+</div>
 
 <!-- docs links -->
 
@@ -124,7 +142,7 @@ Here are a few projects that we think you might like:
 [license-badge-img]: https://img.shields.io/github/license/rommapp/romm?style=for-the-badge&color=a32d2a
 [license-badge]: LICENSE
 [release-badge-img]: https://img.shields.io/github/v/release/rommapp/romm?style=for-the-badge
-[release-badge]: https://github.com/rommapp/romm/releases
+[release-badge]: https://github.com/rommapp/romm/releases/latest
 [discord-badge-img]: https://img.shields.io/badge/discord-7289da?style=for-the-badge
 [discord-badge]: https://discord.gg/P5HtHnhUDH
 [docs-badge-img]: https://img.shields.io/badge/docs-736e9b?style=for-the-badge
@@ -145,9 +163,17 @@ Here are a few projects that we think you might like:
 [mobygames-api]: https://docs.romm.app/latest/Getting-Started/Metadata-Providers/#mobygames
 [steamgriddb-api]: https://docs.romm.app/latest/Getting-Started/Metadata-Providers/#steamgriddb
 [retroachievements-api]: https://docs.romm.app/latest/Getting-Started/Metadata-Providers/#retroachievements
-[big-bear-casaos]: https://github.com/bigbeartechworld/big-bear-casaos
 [romm-comm-discord-bot]: https://github.com/idio-sync/romm-comm
 [deck-romm-sync]: https://github.com/PeriBluGaming/DeckRommSync-Standalone
+[switch-romm]: https://github.com/Shalasere/SwitchRomM
 [romm-browser]: https://github.com/smurflabs/RommBrowser/
 [playnite-app]: https://github.com/rommapp/playnite-plugin
-[muos-app]: https://github.com/rommapp/muos-app
+[ggrequestz]: https://github.com/XTREEMMAK/ggrequestz
+[syncthing-sync]: https://github.com/amn-96/romm_syncthing_sync
+[romm-mobile]: https://github.com/mattsays/romm-mobile
+[romm-client]: https://github.com/chaun14/romm-client
+[romm-retroarch-sync]: https://github.com/Covin90/romm-retroarch-sync
+[rommate]: https://github.com/brenoprata10/rommate
+[grout]: https://github.com/rommapp/grout
+[romm-ios-app]: https://github.com/ilyas-hallak/romm-ios-app
+[argosy-launcher]: https://github.com/rommapp/argosy-launcher
