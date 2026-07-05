@@ -1,9 +1,9 @@
 ---
 title: strix
-date: 2026-07-04T14:45:59+08:00
+date: 2026-07-05T15:24:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782248726548-295c806b59db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782248726548-295c806b59db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781265728781-03950ed9b773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781265728781-03950ed9b773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
 ---
 
 # [usestrix/strix](https://github.com/usestrix/strix)

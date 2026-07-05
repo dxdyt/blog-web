@@ -1,9 +1,9 @@
 ---
 title: page-agent
-date: 2026-06-26T15:52:50+08:00
+date: 2026-07-05T15:24:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780955420595-cf6a4cc9d1ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780955420595-cf6a4cc9d1ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI0NjAyODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780580826043-b58d42386891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780580826043-b58d42386891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/page-agent](https://github.com/alibaba/page-agent)
@@ -62,8 +62,8 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 | Mirrors | URL                                                                                 |
 | ------- | ----------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.10.0/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.10.0/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.11.0/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.11.0/files/dist/iife/page-agent.demo.js |
 
 Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)`.
 

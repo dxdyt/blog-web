@@ -1,9 +1,9 @@
 ---
 title: agentskills
-date: 2026-07-04T14:47:51+08:00
+date: 2026-07-05T15:25:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782935749635-561e44af67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782935749635-561e44af67c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNDc1NTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780511441318-aed6b423d877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780511441318-aed6b423d877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
 ---
 
 # [agentskills/agentskills](https://github.com/agentskills/agentskills)

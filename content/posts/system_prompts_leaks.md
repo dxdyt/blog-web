@@ -1,9 +1,9 @@
 ---
 title: system_prompts_leaks
-date: 2026-06-22T17:48:37+08:00
+date: 2026-07-05T15:25:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781902835009-a1042ade0cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781902835009-a1042ade0cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIxMjE2MTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781466340509-08201b7796af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781466340509-08201b7796af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
 ---
 
 # [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
@@ -28,8 +28,9 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | What | Date | Link |
 |------|------|------|
+| **Claude Sonnet 5** | July 1, 2026 | [System prompt](Anthropic/claude-sonnet-5.md) |
+| **Claude Design (Opus 4.8 — full prompt + 48 tools + 16 skills + 9 starter sources)** | June 26, 2026 | [System prompt](Anthropic/claude-design.md) |
 | **GitHub Copilot for macOS (app)** | June 18, 2026 | [System prompt](Microsoft/copilot-macos-app.md) |
-| **Claude Design (full built-in skills)** | June 18, 2026 | [System prompt](Anthropic/claude-design.md) |
 | **GPT-5.5 Codex (full prompt)** | June 18, 2026 | [System prompt](OpenAI/Codex/gpt-5.5.md) |
 | **Claude Fable 5** | June 9, 2026 | [System prompt](Anthropic/claude-fable-5.md) · [Diff vs Opus 4.8](https://www.diffchecker.com/QJn9jFNk/) |
 | **Claude Opus 4.8** | June 9, 2026 | [System prompt](Anthropic/claude-opus-4.8.md) · [Official](Anthropic/Official/2026-05-28-claude-opus-4.8.md) |
@@ -54,6 +55,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 |-------|--------|
 | **Claude Fable 5** | [**System prompt**](Anthropic/claude-fable-5.md) |
 | **Claude Opus 4.8** | [**System prompt**](Anthropic/claude-opus-4.8.md) |
+| **Claude Sonnet 5** | [**System prompt**](Anthropic/claude-sonnet-5.md) |
 | **Claude Code (Opus 4.8)** | [**System prompt**](Anthropic/Claude%20Code/claude-code-opus-4.8.md) |
 | **Claude Opus 4.7** | [**System prompt**](Anthropic/claude-opus-4.7.md) |
 | **Claude Code (Opus 4.6)** | [**System prompt**](Anthropic/Claude%20Code/claude-code-opus-4.6.md) |
