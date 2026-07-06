@@ -1,9 +1,9 @@
 ---
 title: page-agent
-date: 2026-07-05T15:24:38+08:00
+date: 2026-07-06T16:19:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780580826043-b58d42386891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780580826043-b58d42386891?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782236836440-3d3f2e619351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782236836440-3d3f2e619351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/page-agent](https://github.com/alibaba/page-agent)

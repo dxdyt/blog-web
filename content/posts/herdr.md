@@ -1,9 +1,9 @@
 ---
 title: herdr
-date: 2026-07-05T15:25:34+08:00
+date: 2026-07-06T16:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781591272000-f7f4f0c386b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781591272000-f7f4f0c386b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782236836427-44b95888dfce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782236836427-44b95888dfce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
 ---
 
 # [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)

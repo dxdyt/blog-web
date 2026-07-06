@@ -1,9 +1,9 @@
 ---
 title: meetily
-date: 2026-07-05T15:25:03+08:00
+date: 2026-07-06T16:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyMzYyNTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782236836440-3d3f2e619351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782236836440-3d3f2e619351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
 ---
 
 # [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
