@@ -1,9 +1,9 @@
 ---
 title: last30days-skill
-date: 2026-06-11T16:46:09+08:00
+date: 2026-07-07T15:37:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777841525069-c41553d8f4bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODExNjc1MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782421756697-f89429831e48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782421756697-f89429831e48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
@@ -14,6 +14,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1777841525069-c41553d8f4
   <a href="https://github.com/mvanhorn/last30days-skill">
     <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/coverage-%E2%89%A560%25-brightgreen" alt="Coverage ≥60%" />
   <br/>
   <a href="https://trendshift.io/repositories/21997" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
@@ -80,7 +82,7 @@ If you're meeting with a CEO, have you read all their tweets and YouTube transcr
 | **Threads** | The post-Twitter text layer. Conversations from creators and brands. |
 | **Pinterest** | Visual discovery. Pins, saves, and comments on products and ideas. |
 | **Bluesky** | The decentralized social layer. AT Protocol posts from the post-Twitter migration. |
-| **Perplexity** | Grounded web search with citations via Sonar Pro. |
+| **Perplexity** | Grounded Sonar synthesis, raw Search API rows, and Deep Research. |
 | **Web** | The editorial coverage, the blog comparisons. One signal of many, not the only one. |
 
 Community contributors keep adding more. Truth Social, Xiaohongshu (RED), and others are in the engine with more on the way.
@@ -92,6 +94,8 @@ The synthesis ranks by what real people actually engaged with. Social relevancy,
 ## What people actually use it for
 
 **Before a meeting.** `/last30days Peter Steinberger` - joined OpenAI's Codex team, fighting Anthropic's ban on third-party agents, 23 PRs merged at 85% merge rate on GitHub, building LobsterOS for cross-device agent control. r/ClaudeCode: "Ever since OpenClaw released, it was widely known that if you run it through anything other than the API, you were gonna get banned eventually" (227 upvotes). That's not on LinkedIn.
+
+**To read hiring signals.** `/last30days Listen Labs --hiring-signals` - current jobs and careers pages become cited evidence for focus shifts: hiring into enterprise security, customer success, infrastructure, or product expansion. The report says what the hiring appears to signal, not what the roadmap will ship.
 
 **When something drops.** `/last30days Kanye West` - UK blocked his visa, Wireless Festival canceled, sponsors fled. But BULLY debuted #2 on Billboard. Fantano came back from his "Yay sabbatical" to review it (653K views). SoFi Homecoming brought out Lauryn Hill and Travis Scott for 44 songs. Polymarket: "Will Kanye tweet again?" 86% Yes. 23 Reddit threads, 17 YouTube videos, 86K upvotes.
 
@@ -165,8 +169,8 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 - **YouTube transcripts that actually work.** Widened candidate pool 3x past music videos to reach talk/review content with captions.
 - **TikTok, Instagram, Threads.** All three activate automatically once `SCRAPECREATORS_API_KEY` is set — same key, same per-call cost. Suppress any of them with `EXCLUDE_SOURCES=tiktok,instagram,threads` (any comma-separated subset).
 - **Pinterest.** Per-query opt-in (visual pins, narrow utility): the model passes `--search=pinterest` for the runs that need it. Requires `SCRAPECREATORS_API_KEY`.
-- **YouTube + TikTok comments.** Persistent opt-in via `INCLUDE_SOURCES=youtube_comments,tiktok_comments` because each video pulls N extra ScrapeCreators calls on top of the base search. Surface top comments with vote counts the same way Reddit does.
-- **Perplexity Sonar.** Grounded web search with citations via OpenRouter. Add `OPENROUTER_API_KEY` and `INCLUDE_SOURCES=perplexity` (it's a separate paid API — opt-in keeps you from being surprise-billed).
+- **YouTube comments + transcript fallback.** Both activate automatically once `SCRAPECREATORS_API_KEY` is set, the same default-on backup tier. Transcripts only fall back to ScrapeCreators when yt-dlp fails (no credit spent on success); comments are bounded to the top few videos (~3 extra calls per run). Suppress comments with `EXCLUDE_SOURCES=youtube_comments`. **TikTok comments** stay opt-in via `INCLUDE_SOURCES=tiktok_comments`. Surface top comments with vote counts the same way Reddit does.
+- **Perplexity Sonar / Search API / Deep Research.** Grounded web search via direct Perplexity (`PERPLEXITY_API_KEY`) or OpenRouter Sonar fallback (`OPENROUTER_API_KEY`). Add one of those keys plus `INCLUDE_SOURCES=perplexity` (it's a separate paid API - opt-in keeps you from being surprise-billed). Direct Perplexity can return Sonar synthesis, raw ranked Search API rows, or both.
 - **Polymarket noise filtering.** Common-word disambiguation prevents "Apple" from matching "Will Apple release a car?"
 - **Resilient Reddit.** Timeout budgets and runtime fallback. One slow thread doesn't kill the whole run.
 - **Fun judge v2.** Humor scoring baked into the narrative. Reddit's cleverest one-liners mixed into the synthesis where they fit, not dumped in a separate section.
@@ -181,8 +185,9 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 | Surface | Install | Updates |
 |---------|---------|---------|
 | **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |
-| **Codex, Cursor, Copilot, Gemini CLI, GitHub Copilot, or any of 50+ [Agent Skills](https://agentskills.io) hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
-| **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via Settings > Capabilities > Skills > + | Re-download and re-upload |
+| **Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
+| **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via claude.ai > Customize > Skills > + > Create skill > Upload a skill | Re-download and re-upload |
+| **Claude Desktop** | [Download the `.mcpb` for your platform](https://github.com/mvanhorn/last30days-skill/releases/latest) and drag into Settings > Extensions | Re-download and drag the new bundle in |
 | **OpenClaw** | `clawhub install last30days-official` | `clawhub update last30days-official` |
 
 ### Claude Code (recommended)
@@ -211,6 +216,8 @@ npx skills add mvanhorn/last30days-skill -g
 
 The `-g` (global) flag installs to your user directory so the skill is available across all projects. Without `-g`, `npx skills` installs project-locally into `./.skills/` (committed with the repo). For a research-the-world tool, global is what you want.
 
+Codex desktop and other folder-mode hosts can work in ordinary folders as well as Git repos. Before first research, ask the host agent to run the bundled `scripts/last30days.py --preflight` from the loaded skill directory; in a source checkout, the equivalent command is `python3 skills/last30days/scripts/last30days.py --preflight`. It shows the config source, browser-cookie plan, planned writes, optional commands, and ignored project config without reading cookies, writing files, or running research.
+
 By default this installs for whichever harness `npx skills` detects. To target a specific one (or multiple):
 
 ```bash
@@ -237,16 +244,40 @@ List and remove with `npx skills list -g` and `npx skills remove last30days -g`.
 ### claude.ai (web)
 
 1. [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) from the latest release
-2. Go to [claude.ai Settings > Capabilities > Skills](https://claude.ai/settings/capabilities)
-3. Click the `+` button in the Skills panel and drop the file in
+2. Go to [claude.ai > Customize > Skills](https://claude.ai/customize/skills)
+3. Click the `+` button in the Skills panel > click on `Create skill` > `Upload a skill` and browse/drop the file in
 
 Enable "Code execution and file creation" under Capabilities first — skills won't run without it.
+
+### Claude Desktop
+
+Claude Desktop installs `/last30days` as an MCP server via a `.mcpb` bundle (a one-click Model Context Protocol package).
+
+1. Go to the [latest release](https://github.com/mvanhorn/last30days-skill/releases/latest) and download the `.mcpb` for your platform:
+   - macOS Apple Silicon: `last30days-pp-mcp-darwin-arm64.mcpb`
+   - macOS Intel: `last30days-pp-mcp-darwin-amd64.mcpb`
+   - Linux x86_64: `last30days-pp-mcp-linux-amd64.mcpb`
+2. Open Claude Desktop, go to Settings > Extensions, and drag the file in.
+3. When prompted, paste API keys for the sources you want to enable. Every field is optional — the engine degrades to web-only mode if you skip them all. Keys are stored in your OS keychain.
+4. Restart Claude Desktop. Ask Claude to "research Peter Steinberger" or any topic and it will call the `research` tool.
+
+**Host requirement:** Python 3.12+ on PATH. The bundle ships the engine source but uses your local Python interpreter. Install from [python.org](https://www.python.org/downloads/) on Windows; macOS and most Linux distros ship a compatible version.
+
+**Keys don't sync with the Code skill.** Claude Desktop and Claude Code maintain separate credential stores by design. If you already configured `~/.config/last30days/.env` for the Code skill, you'll re-enter the same keys here once.
+
+Windows support is deferred until per-platform manifest entry points are sorted out; track in a follow-up issue.
 
 ### OpenClaw
 
 ```bash
 clawhub install last30days-official
 ```
+
+For X/Twitter action workflows outside `/last30days` research, such as posting
+tweets or replies, follower export, media handling, monitors, and giveaway
+draws, use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) as the companion
+OpenClaw plugin. TweetClaw is maintained by Xquik-dev and is listed only as an
+optional companion path, not a last30days dependency or endorsement.
 
 ### Manual (developer)
 
@@ -266,11 +297,11 @@ These platforms don't have relationships with each other. X doesn't know what Re
 | Sources | What you need | Cost |
 |---------|---------------|------|
 | Reddit (with comments) + HN + Polymarket + GitHub | Nothing | Free |
-| X / Twitter | Log into x.com in any browser | Free |
+| X / Twitter | Log into x.com in any browser, or set `XQUIK_API_KEY` / `XAI_API_KEY` | Browser cookies are free; keys are provider-specific |
 | YouTube | `brew install yt-dlp` | Free |
 | Bluesky | App password from bsky.app | Free |
-| TikTok + Instagram + Threads + Pinterest + YouTube comments | ScrapeCreators key | 100 free credits, then PAYG |
-| Perplexity Sonar | OpenRouter key | Pay as you go |
+| TikTok + Instagram + Threads + Pinterest + YouTube comments | ScrapeCreators key | 10,000 free calls, then PAYG |
+| Perplexity Sonar / Search API / Deep Research | Perplexity key, or OpenRouter key as Sonar fallback | Pay as you go |
 | Web search | Brave Search key | 2,000 free queries/month |
 
 ### macOS Keychain (optional)
@@ -291,13 +322,15 @@ skills/last30days/scripts/setup-keychain.sh --delete XAI_API_KEY
 
 Items are stored under service name `last30days-<KEY>` for the current user. On non-Darwin platforms the loader is a no-op, so there is no behaviour change for Linux/Windows users.
 
+Already have keys under different Keychain service names? Set the non-secret `LAST30DAYS_KEYCHAIN_ALIASES` mapping described in [CONFIGURATION.md](CONFIGURATION.md#reusing-existing-macos-keychain-items) instead of copying secrets.
+
 See [CONFIGURATION.md](CONFIGURATION.md) for the full per-source key matrix, reasoning provider priority, and web-search backend priority.
 
 ## Configuration
 
 Two things you'll likely want to know on day one:
 
-**Where research files are saved.** `LAST30DAYS_MEMORY_DIR` defaults to `~/Documents/Last30Days/` (Windows: `C:\Users\<you>\Documents\Last30Days\`). Override by setting that env var to any path in your shell, or `--save-dir <path>` per run. Use `--save-suffix=<name>` to keep multiple variations of the same topic separate (e.g. per client). Each run produces `<slug>-raw[-suffix].md`.
+**Where research files are saved.** `LAST30DAYS_MEMORY_DIR` defaults to `~/Documents/Last30Days/` (Windows: `C:\Users\<you>\Documents\Last30Days\`). Override by setting that env var to any path in your shell, or `--save-dir <path>` per run. Use `--output <file>` when you need the rendered result at an exact path, using the format selected by `--emit`. Use `--save-suffix=<name>` to keep multiple variations of the same topic separate (e.g. per client). Each `--save-dir` run produces `<slug>-raw[-suffix].md`. Run `python3 skills/last30days/scripts/last30days.py --preflight` to review planned writes before a research run.
 
 **Trend monitoring across runs.** The default mode produces a fresh markdown snapshot per run. To accumulate findings over time, add `--store` to persist into a SQLite database, then use [`scripts/watchlist.py`](skills/last30days/scripts/watchlist.py) for scheduled runs (with optional Slack / webhook delivery on new findings) and [`scripts/briefing.py`](skills/last30days/scripts/briefing.py) for daily / weekly digests. The full cadence pattern is in [CONFIGURATION.md](CONFIGURATION.md#trend-monitoring-store--watchlist--briefings).
 
@@ -327,7 +360,7 @@ MIT license. No tracking. No analytics. Your research stays on your machine. 1,0
 
 Built with Python 3.12+, yt-dlp, Node.js (vendored Bird client for X search), and ScrapeCreators API. v3 engine architecture by [@j-sperling](https://github.com/j-sperling).
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the full list of community contributors and [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## Star History
 

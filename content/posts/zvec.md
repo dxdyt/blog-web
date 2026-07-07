@@ -1,9 +1,9 @@
 ---
 title: zvec
-date: 2026-06-19T17:05:31+08:00
+date: 2026-07-07T15:38:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777900057023-e1fae8e9e3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777900057023-e1fae8e9e3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/zvec](https://github.com/alibaba/zvec)

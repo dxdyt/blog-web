@@ -1,9 +1,9 @@
 ---
 title: claude-skills
-date: 2026-07-06T16:19:25+08:00
+date: 2026-07-07T15:37:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780753883481-d563e0a4f4cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780753883481-d563e0a4f4cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780662751207-a57696f6a46a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780662751207-a57696f6a46a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
@@ -21,9 +21,9 @@ The most comprehensive open-source library of Claude Code skills and agent plugi
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Skills](https://img.shields.io/badge/Skills-355-brightgreen?style=for-the-badge)](#skills-overview)
-[![Agents](https://img.shields.io/badge/Agents-97-blue?style=for-the-badge)](#agents)
+[![Agents](https://img.shields.io/badge/Agents-99-blue?style=for-the-badge)](#agents)
 [![Personas](https://img.shields.io/badge/Personas-7-purple?style=for-the-badge)](#personas)
-[![Commands](https://img.shields.io/badge/Commands-103-orange?style=for-the-badge)](#commands)
+[![Commands](https://img.shields.io/badge/Commands-109-orange?style=for-the-badge)](#commands)
 [![Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=for-the-badge)](https://github.com/alirezarezvani/claude-skills/stargazers)
 [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1?style=for-the-badge)](https://getskillcheck.com)
 

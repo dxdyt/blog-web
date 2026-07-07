@@ -1,9 +1,9 @@
 ---
 title: CodexBar
-date: 2026-07-06T16:21:29+08:00
+date: 2026-07-07T15:38:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782236836427-44b95888dfce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782236836427-44b95888dfce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [steipete/CodexBar](https://github.com/steipete/CodexBar)

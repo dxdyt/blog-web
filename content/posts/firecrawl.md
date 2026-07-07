@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2026-06-23T15:50:06+08:00
+date: 2026-07-07T15:38:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)

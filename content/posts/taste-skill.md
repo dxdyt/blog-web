@@ -1,9 +1,9 @@
 ---
 title: taste-skill
-date: 2026-07-06T16:19:18+08:00
+date: 2026-07-07T15:37:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781438462458-b31a330b4904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781438462458-b31a330b4904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMzMjU5MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
 ---
 
 # [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
