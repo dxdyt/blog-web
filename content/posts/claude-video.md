@@ -1,9 +1,9 @@
 ---
 title: claude-video
-date: 2026-07-07T15:37:51+08:00
+date: 2026-07-08T14:28:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782807909041-a8557ce3b03e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782807909041-a8557ce3b03e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
 ---
 
 # [bradautomates/claude-video](https://github.com/bradautomates/claude-video)

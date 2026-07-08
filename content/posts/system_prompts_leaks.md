@@ -1,9 +1,9 @@
 ---
 title: system_prompts_leaks
-date: 2026-07-07T15:36:41+08:00
+date: 2026-07-08T14:27:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763310100020-87988ddf2a27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
 ---
 
 # [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
