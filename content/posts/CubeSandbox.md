@@ -1,9 +1,9 @@
 ---
 title: CubeSandbox
-date: 2026-07-08T14:27:30+08:00
+date: 2026-07-09T15:37:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781748806274-b4111e828eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781748806274-b4111e828eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780316215777-29743c661cd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780316215777-29743c661cd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)

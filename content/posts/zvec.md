@@ -1,9 +1,9 @@
 ---
 title: zvec
-date: 2026-07-07T15:38:17+08:00
+date: 2026-07-09T15:36:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780721929528-5ccc507563c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0MDk3OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782848796146-58d56169bc96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782848796146-58d56169bc96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/zvec](https://github.com/alibaba/zvec)
@@ -109,7 +109,7 @@ collection.insert([
 
 # Search by vector similarity
 results = collection.query(
-    zvec.VectorQuery("embedding", vector=[0.4, 0.3, 0.3, 0.1]),
+    zvec.Query(field_name="embedding", vector=[0.4, 0.3, 0.3, 0.1]),
     topk=10
 )
 

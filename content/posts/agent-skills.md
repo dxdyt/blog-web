@@ -1,9 +1,9 @@
 ---
 title: agent-skills
-date: 2026-07-08T14:27:07+08:00
+date: 2026-07-09T15:35:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780425161734-1b1275e2104a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780425161734-1b1275e2104a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
@@ -169,7 +169,20 @@ Use agent definitions from `agents/` as Copilot personas and skill content in `.
 </details>
 
 <details>
-<summary><b>Codex / Other Agents</b></summary>
+<summary><b>Codex</b></summary>
+
+Install as a native Codex plugin (Codex CLI v0.122+):
+
+```bash
+codex plugin marketplace add addyosmani/agent-skills
+```
+
+Codex reads the root `skills/` directory directly through `.codex-plugin/plugin.json`. Once installed, invoke skills in chat using `@` (e.g., `@spec-driven-development`). See [docs/codex-setup.md](docs/codex-setup.md) for local installation and troubleshooting.
+
+</details>
+
+<details>
+<summary><b>Other Agents</b></summary>
 
 Skills are plain Markdown - they work with any agent that accepts system prompts or instruction files. See [docs/getting-started.md](docs/getting-started.md).
 

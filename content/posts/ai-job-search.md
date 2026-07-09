@@ -1,9 +1,9 @@
 ---
 title: ai-job-search
-date: 2026-07-08T14:26:49+08:00
+date: 2026-07-09T15:35:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777723970320-c02a42427e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777723970320-c02a42427e64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758024834021-f39d8db6b071?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758024834021-f39d8db6b071?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
@@ -14,9 +14,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1777723970320-c02a42427e
 
 # AI Job Search
 
+[![CI](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml/badge.svg)](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml)
+
 An AI-powered job application framework built on [Claude Code](https://claude.com/claude-code). Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews.
 
 > Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.
+
+<p align="center">
+  <i>Did this save you a Sunday of cover-letter writing? Consider a coffee.<br>
+  Did it land you the job? Maybe two.</i> ☕
+</p>
 
 <p align="center">
   <a href="https://ko-fi.com/madslorentzen">
@@ -51,7 +58,7 @@ The framework encodes career guidance best practices, including structured evalu
 - [Claude Code](https://claude.com/claude-code) (CLI)
 - Python 3.10+
 - [Bun](https://bun.sh) (for Danish job search CLI tools)
-- LaTeX distribution with `lualatex` and `xelatex`: [TeX Live](https://tug.org/texlive/) or [MiKTeX](https://miktex.org/). The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`.
+- LaTeX distribution with `lualatex` and `xelatex`: [TeX Live](https://tug.org/texlive/), [MacTeX](https://tug.org/mactex/), [TinyTeX](https://yihui.org/tinytex/), or [MiKTeX](https://miktex.org/). The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`. If using a minimal TeX install such as TinyTeX or BasicTeX, install the extra packages listed in [SETUP.md](SETUP.md#minimal-tex-install-tinytexbasictex).
 - Optional: `pdftotext` from [poppler](https://poppler.freedesktop.org/) (macOS: `brew install poppler`, Debian/Ubuntu: `apt install poppler-utils`, Windows: `choco install poppler`) — used by `/apply`'s ATS parseability check on the compiled CV. If missing, the check degrades gracefully to a visual keyword review.
 
 ## Quick start
@@ -64,6 +71,19 @@ cd ai-job-search
 ```
 
 ### 2. Install job search tools
+
+PowerShell:
+
+```powershell
+$tools = @("jobbank-search", "jobdanmark-search", "jobindex-search", "jobnet-search", "linkedin-search")
+foreach ($tool in $tools) {
+  Set-Location ".agents/skills/$tool/cli"
+  bun install
+  Set-Location "..\..\..\.."
+}
+```
+
+Bash / zsh / Git Bash:
 
 ```bash
 cd .agents/skills/jobbank-search/cli && bun install && cd ../../../..
@@ -109,8 +129,9 @@ This runs the full workflow: evaluate fit, draft CV + cover letter, review with 
 
 ## Other commands
 
-`/setup`, `/scrape`, and `/apply` form the core workflow. Six more commands extend it once your profile is in place:
+`/setup`, `/scrape`, and `/apply` form the core workflow. Seven more commands extend it once your profile is in place:
 
+- **`/interview`** preps you for a scheduled interview on a tracked application. It builds a stage-specific prep pack from the application's archive (the exact posting, the CV and cover letter the interviewer actually read, feedback recorded from earlier rounds), researches the company and interviewers with a verify-before-use rule, maps likely questions to your STAR examples, and offers a mock interview following the roleplay protocol in `07-interview-prep.md`. Gaps get honest bridge answers, never invented experience.
 - **`/outcome`** records what happened to an application - interview stages, offers, rejections, silence. It archives the submitted CV, cover letter, and posting text into `documents/applications/<company>_<role>/`, keeps `outcome.md` in the format `/setup` Path A parses, and updates the tracker. Once a few applications resolve, it points you back to `/setup` to calibrate the fit framework from what actually got interviews.
 - **`/rank`** bridges `/scrape` and `/apply`: it batch-scores all newly scraped postings against the fit framework (parallel agents fetch each posting and score the five evaluation dimensions) and returns a ranked shortlist with honest per-job strengths and gaps. Deal-breakers veto, deadlines get urgency flags, dead postings get marked expired. Pick a number and it hands off to the full `/apply` workflow.
 - **`/expand`** enriches your profile by scanning public sources you've already linked in it (GitHub repos, portfolio site, Kaggle, Google Scholar) and looking up syllabi for named courses and certifications. Discovered competencies are added to your profile with a source tag. Useful right after `/setup` to surface skills that documents alone don't make explicit.
@@ -134,6 +155,7 @@ ai-job-search/
 │   │   ├── add-portal.md              # /add-portal generate a job-portal search skill for your market
 │   │   ├── rank.md                    # /rank triage scraped jobs into a ranked shortlist
 │   │   ├── outcome.md                 # /outcome record application results, archive materials
+│   │   ├── interview.md               # /interview stage-specific prep pack + mock interview
 │   │   └── reset.md                   # /reset wipe profile data or documents folder
 │   ├── skills/
 │   │   ├── job-application-assistant/  # Core application skill
@@ -158,6 +180,7 @@ ai-job-search/
 │   └── main_example.tex               # moderncv LaTeX template
 ├── cover_letters/
 │   ├── cover.cls                      # Custom cover letter LaTeX class
+│   ├── cover_example.tex              # Example cover letter (structural reference + CI smoke test)
 │   └── OpenFonts/                     # Lato + Raleway fonts
 ├── templates/                         # Custom templates registered via /add-template
 │   └── README.md                      # Folder layout instructions
@@ -168,9 +191,12 @@ ai-job-search/
 │   ├── diplomas/                      # Degree certificates and transcripts
 │   ├── references/                    # Reference letters
 │   └── applications/                  # Past application records (<company>_<role>/)
+├── .github/workflows/ci.yml           # CI: LaTeX smoke compiles, skill lint, CLI typechecks
 ├── salary_lookup.py                   # Salary benchmarking tool (BYO data)
 ├── tools/
 │   ├── convert_salary_excel.py        # Convert salary Excel to JSON
+│   ├── lint_skills.py                 # CI lint for skills, commands, settings.json
+│   ├── security_guards.py             # CI guards: permission allowlist, gitignore rules, manifests
 │   └── README_SALARY_TOOL.md          # Salary tool setup instructions
 ├── job_scraper/                       # Scraper state (seen jobs, results)
 ├── upskill/                           # /upskill report output (markdown reports per run)
@@ -255,6 +281,8 @@ The four Danish CLI tools in `.agents/skills/` (Jobbank, Jobdanmark, Jobindex, J
 
 Give it your local job board's URL. The command investigates the portal (search-URL pattern, result-page structure, robots.txt/access rules), scaffolds a CLI skill with the same structure, commands, and output contract as the shipped ones, and test-runs a live query before registering anything. Auth-walled portals are declined, and portals with restrictive terms get a prominent personal-use-only warning in the generated skill. The generated skill is market-specific and lives in your fork; the generator itself is the universal part.
 
+Maintaining a fork adapted to your market or language? Add it to the [Community forks & adaptations](https://github.com/MadsLorentzen/ai-job-search/discussions/78) thread so others can find it.
+
 For a **country-agnostic** starting point, the repo also includes **`linkedin-search`** — a job-search skill built on LinkedIn's public, unauthenticated `jobs-guest` endpoints. It is field-agnostic, has **zero runtime dependencies** (runs with just `bun`), and takes the search location as an explicit flag, so it works for any market out of the box (`-l "Berlin, Germany"`, `-l "Mumbai, Maharashtra, India"`, `-l "Remote"`, …). It is intended for **personal use only** — automated access is against LinkedIn's Terms of Service, so keep volume low. See `.agents/skills/linkedin-search/SKILL.md`.
 
 ### Salary benchmarking
@@ -291,6 +319,10 @@ The framework supports two distinct modes of job searching:
 - **Latent opportunity discovery:** By analyzing your full history (not just job titles, but the actual work you did), the system can surface career paths you haven't considered. Transferable skills that map to unexpected industries, patterns in what you enjoyed or excelled at, or emerging roles that combine your domain expertise with new technology.
 
 To get the most from this, invest time during `/setup` in describing not just your experience, but what energized you, what drained you, and what you'd want more of. This context directly shapes how the system evaluates fit and which roles it surfaces during `/scrape`.
+
+## Contributing
+
+Thinking about a PR? Read [CONTRIBUTING.md](CONTRIBUTING.md) first - it explains what gets merged, what lives in forks, and why.
 
 ## Acknowledgements
 

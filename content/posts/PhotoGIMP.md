@@ -1,9 +1,9 @@
 ---
 title: PhotoGIMP
-date: 2026-05-20T15:43:11+08:00
+date: 2026-07-09T15:37:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777042575928-366908c3ee3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777042575928-366908c3ee3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkyNjI4OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289325999-0583c98396ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289325999-0583c98396ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP)

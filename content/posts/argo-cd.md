@@ -1,9 +1,9 @@
 ---
 title: argo-cd
-date: 2024-03-09T12:16:29+08:00
+date: 2026-07-09T15:36:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708026652083-3820f6242817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708026652083-3820f6242817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1782848796146-58d56169bc96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782848796146-58d56169bc96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [argoproj/argo-cd](https://github.com/argoproj/argo-cd)
@@ -17,19 +17,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1708026652083-3820f62428
 [![Integration tests](https://github.com/argoproj/argo-cd/workflows/Integration%20tests/badge.svg?branch=master)](https://github.com/argoproj/argo-cd/actions?query=workflow%3A%22Integration+tests%22)
 [![codecov](https://codecov.io/gh/argoproj/argo-cd/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-cd)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4486/badge)](https://bestpractices.coreinfrastructure.org/projects/4486)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/argoproj/argo-cd/badge)](https://api.securityscorecards.dev/projects/github.com/argoproj/argo-cd)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fargoproj%2Fargo-cd.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fargoproj%2Fargo-cd?ref=badge_shield)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/argoproj/argo-cd/badge)](https://scorecard.dev/viewer/?uri=github.com/argoproj/argo-cd)
 
 **Social:**
 [![Twitter Follow](https://img.shields.io/twitter/follow/argoproj?style=social)](https://twitter.com/argoproj)
 [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join-slack)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-argoproj-blue.svg?logo=linkedin)](https://www.linkedin.com/company/argoproj/)
+[![Bluesky](https://img.shields.io/badge/Bluesky-argoproj-blue.svg?style=social&logo=bluesky)](https://bsky.app/profile/argoproj.bsky.social)
 
 # Argo CD - Declarative Continuous Delivery for Kubernetes
 
 ## What is Argo CD?
 
-Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
+Argo CD is a declarative GitOps continuous delivery tool for Kubernetes.
 
 ![Argo CD UI](docs/assets/argocd-ui.gif)
 
@@ -55,7 +55,7 @@ Check live demo at https://cd.apps.argoproj.io/.
 
  You can reach the Argo CD community and developers via the following channels:
 
-* Q & A : [Github Discussions](https://github.com/argoproj/argo-cd/discussions)
+* Q & A : [GitHub Discussions](https://github.com/argoproj/argo-cd/discussions)
 * Chat : [The #argo-cd Slack channel](https://argoproj.github.io/community/join-slack)
 * Contributors Office Hours: [Every Thursday](https://calendar.google.com/calendar/u/0/embed?src=argoproj@gmail.com) | [Agenda](https://docs.google.com/document/d/1xkoFkVviB70YBzSEa4bDnu-rUZ1sIFtwKKG1Uw8XsY8)
 * User Community meeting: [First Wednesday of the month](https://calendar.google.com/calendar/u/0/embed?src=argoproj@gmail.com) | [Agenda](https://docs.google.com/document/d/1ttgw98MO45Dq7ZUHpIiOIEfbyeitKHNfMjbY5dLLMKQ)
@@ -67,7 +67,7 @@ Participation in the Argo CD project is governed by the [CNCF Code of Conduct](h
 ### Blogs and Presentations
 
 1. [Awesome-Argo: A Curated List of Awesome Projects and Resources Related to Argo](https://github.com/terrytangyuan/awesome-argo)
-1. [Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](https://akuity.io/blog/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argocd-kubecon-china-2021/)
+1. [Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](https://akuity.io/blog/secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argocd/)
 1. [GitOps Without Pipelines With ArgoCD Image Updater](https://youtu.be/avPUQin9kzU)
 1. [Combining Argo CD (GitOps), Crossplane (Control Plane), And KubeVela (OAM)](https://youtu.be/eEcgn_gU3SM)
 1. [How to Apply GitOps to Everything - Combining Argo CD and Crossplane](https://youtu.be/yrj4lmScKHQ)

@@ -1,9 +1,9 @@
 ---
 title: OfficeCLI
-date: 2026-07-08T14:28:03+08:00
+date: 2026-07-09T15:36:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782807909041-a8557ce3b03e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782807909041-a8557ce3b03e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
@@ -263,7 +263,7 @@ OfficeCLI is self-contained. The capabilities below ship inside the binary — *
 
 #### Rendering engine — high-fidelity, built-in
 
-OfficeCLI's keystone: a from-scratch, high-fidelity HTML rendering engine that lets an AI agent *see* the rendered document instead of guessing from the DOM. It covers shapes, charts (trendlines, error bars, waterfall, candlestick, sparklines), equations (OMML → MathJax-compatible), 3D `.glb` models via Three.js, morph transitions, slide zoom, and shape effects. Per-page PNG screenshots are produced by piping the rendered HTML through a headless browser. Three modes:
+OfficeCLI's keystone: a from-scratch, high-fidelity HTML rendering engine that lets an AI agent *see* the rendered document instead of guessing from the DOM. It covers shapes, charts (trendlines, error bars, waterfall, candlestick, sparklines), equations (OMML → LaTeX, rendered with KaTeX), 3D `.glb` models via Three.js, morph transitions, slide zoom, and shape effects. Per-page PNG screenshots are produced by piping the rendered HTML through a headless browser. Three modes:
 
 - **`view html`** — standalone HTML file, assets inlined. Open in any browser.
 - **`view screenshot`** — per-page PNG, ready for multimodal agents to read.

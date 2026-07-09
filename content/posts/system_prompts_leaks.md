@@ -1,9 +1,9 @@
 ---
 title: system_prompts_leaks
-date: 2026-07-08T14:27:23+08:00
+date: 2026-07-09T15:36:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781902834597-25a42a64b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1772289325999-0583c98396ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1772289325999-0583c98396ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
 ---
 
 # [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
@@ -18,7 +18,6 @@ The purpose of this repo is to document the System Prompt instructions for all t
   <img alt="ChatGPT leaking its system prompt after being asked to repeat all of the above" src=".github/banner-light.png">
 </picture>
 
-[![GitHub Views per Week](https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/traffic/traffic-system_prompts_leaks/views_per_week.svg)](https://github.com/asgeirtj/system_prompts_leaks)
 ![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
 
@@ -263,8 +262,6 @@ The purpose of this repo is to document the System Prompt instructions for all t
 ![a](https://badgen.net/email/asgeirtj/gmail.com)
 [![X](https://img.shields.io/badge/@asgeirtj-black?logo=x&logoColor=white)](https://x.com/asgeirtj)
 
-
-## Growth
 
 ## Star History
 
