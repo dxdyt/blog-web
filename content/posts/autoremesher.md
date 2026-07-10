@@ -1,9 +1,9 @@
 ---
 title: autoremesher
-date: 2026-07-09T15:37:25+08:00
+date: 2026-07-10T15:34:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778402056038-a437ba87db74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM1ODI1Mjd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780857774274-079152a315f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780857774274-079152a315f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
 ---
 
 # [huxingyi/autoremesher](https://github.com/huxingyi/autoremesher)

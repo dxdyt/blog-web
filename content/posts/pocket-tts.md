@@ -1,9 +1,9 @@
 ---
 title: pocket-tts
-date: 2026-07-08T14:28:18+08:00
+date: 2026-07-10T15:34:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780789593647-445af655d35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780789593647-445af655d35e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0OTIwMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781468217416-6312674f03b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781468217416-6312674f03b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
 ---
 
 # [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)
