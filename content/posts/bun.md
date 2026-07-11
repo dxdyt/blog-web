@@ -1,9 +1,9 @@
 ---
 title: bun
-date: 2026-05-18T16:02:54+08:00
+date: 2026-07-11T14:11:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778402620479-64bb441d5826?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778402620479-64bb441d5826?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwOTEzNDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
 ---
 
 # [oven-sh/bun](https://github.com/oven-sh/bun)
@@ -36,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1778402620479-64bb441d58
 
 Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun`.
 
-At its core is the _Bun runtime_, a fast JavaScript runtime designed as **a drop-in replacement for Node.js**. It's written in Zig and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
+At its core is the _Bun runtime_, a fast JavaScript runtime designed as **a drop-in replacement for Node.js**. It's written in Rust and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
 
 ```bash
 bun run index.tsx             # TS and JSX supported out-of-the-box

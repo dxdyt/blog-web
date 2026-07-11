@@ -1,9 +1,9 @@
 ---
 title: grpc
-date: 2024-02-08T12:18:48+08:00
+date: 2026-07-11T14:13:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706091843782-8629c9163299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706091843782-8629c9163299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1780789594806-bab25c649181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780789594806-bab25c649181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
 ---
 
 # [grpc/grpc](https://github.com/grpc/grpc)
@@ -65,7 +65,8 @@ Contributions are welcome!
 
 Please read [How to contribute](CONTRIBUTING.md) which will guide you through
 the entire workflow of how to build the source code, how to run the tests, and
-how to contribute changes to the gRPC codebase. The "How to contribute" document
+how to contribute changes to the gRPC codebase. For detailed C++ build instructions,
+see [Building from source](BUILDING.md). The "How to contribute" document
 also contains info on how the contribution process works and contains best
 practices for creating contributions.
 

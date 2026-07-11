@@ -1,9 +1,9 @@
 ---
 title: OfficeCLI
-date: 2026-07-10T15:33:49+08:00
+date: 2026-07-11T14:13:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781468217416-6312674f03b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781468217416-6312674f03b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2Njg4MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1774889966081-f9b08bf77884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
 ---
 
 # [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
