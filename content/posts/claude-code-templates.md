@@ -1,9 +1,9 @@
 ---
 title: claude-code-templates
-date: 2026-07-11T14:13:01+08:00
+date: 2026-07-12T14:31:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783410079079-a60cb566e7ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783410079079-a60cb566e7ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM3NTAyODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782233941435-7d4c3cdac42a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782233941435-7d4c3cdac42a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
 ---
 
 # [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
@@ -164,7 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **🐛 Issues**: [GitHub Issues](https://github.com/davila7/claude-code-templates/issues)
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/davila7/claude-code-templates.svg?variant=adaptive)](https://starchart.cc/davila7/claude-code-templates)
+[![Stargazers over time](docs/star-history.svg)](https://www.aitmpl.com/component/skill/git/star-history-chart)
 
 ---
 

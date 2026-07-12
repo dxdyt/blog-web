@@ -1,9 +1,9 @@
 ---
 title: plugins
-date: 2026-06-10T16:08:19+08:00
+date: 2026-07-12T14:32:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1778175164681-8c6bc52533b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1778175164681-8c6bc52533b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODEwNzg3OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782217193744-bed098daf981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782217193744-bed098daf981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
 ---
 
 # [openai/plugins](https://github.com/openai/plugins)
@@ -16,6 +16,10 @@ Each plugin lives under `plugins/<name>/` with a required
 `.codex-plugin/plugin.json` manifest and optional companion surfaces such as
 `skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`,
 `hooks.json`, `assets/`, and other supporting files.
+
+The default marketplace lives at `.agents/plugins/marketplace.json` and points
+at the standard `plugins/` directory. API key login users have a separate
+marketplace at `.agents/plugins/api_marketplace.json`.
 
 Highlighted richer examples in this repo include:
 

@@ -1,9 +1,9 @@
 ---
 title: aspnetcore
-date: 2026-06-19T17:06:15+08:00
+date: 2026-07-12T14:33:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780568176418-2f7255dbf125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780568176418-2f7255dbf125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE4NTk4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
 ---
 
 # [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore)
