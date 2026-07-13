@@ -1,9 +1,9 @@
 ---
 title: FlClash
-date: 2026-05-31T15:46:22+08:00
+date: 2026-07-13T14:53:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1768210837703-6fe5f5afbaa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1768210837703-6fe5f5afbaa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODAyMTM0OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782235796440-16b1d5682d5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782235796440-16b1d5682d5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [chen08209/FlClash](https://github.com/chen08209/FlClash)
@@ -70,6 +70,13 @@ Support the following actions
 ## Download
 
 <a href="https://chen08209.github.io/FlClash-fdroid-repo/repo?fingerprint=789D6D32668712EF7672F9E58DEEB15FBD6DCEEC5AE7A4371EA72F2AAE8A12FD"><img alt="Get it on F-Droid" src="snapshots/get-it-on-fdroid.svg" width="200px"/></a> <a href="https://github.com/chen08209/FlClash/releases"><img alt="Get it on GitHub" src="snapshots/get-it-on-github.svg" width="200px"/></a>
+
+### Homebrew
+
+```bash
+brew tap chen08209/tap
+brew install --cask flclash
+```
 
 ## Build
 

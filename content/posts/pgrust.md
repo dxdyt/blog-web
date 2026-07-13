@@ -1,9 +1,9 @@
 ---
 title: pgrust
-date: 2026-07-12T14:33:37+08:00
+date: 2026-07-13T14:53:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782825955433-cce9fe38a62d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782825955433-cce9fe38a62d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [malisper/pgrust](https://github.com/malisper/pgrust)

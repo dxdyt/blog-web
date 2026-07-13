@@ -1,9 +1,9 @@
 ---
 title: claude-cookbooks
-date: 2026-07-12T14:34:03+08:00
+date: 2026-07-13T14:52:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777932761319-51b0964425ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782139334420-8c73ac5e7d62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782139334420-8c73ac5e7d62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)

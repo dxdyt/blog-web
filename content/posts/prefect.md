@@ -1,9 +1,9 @@
 ---
 title: prefect
-date: 2024-11-12T12:19:22+08:00
+date: 2026-07-13T14:52:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730200775166-48ba71b65ee2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730200775166-48ba71b65ee2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect)

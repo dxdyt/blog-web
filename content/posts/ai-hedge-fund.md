@@ -1,9 +1,9 @@
 ---
 title: ai-hedge-fund
-date: 2026-04-16T14:01:15+08:00
+date: 2026-07-13T14:52:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771957585146-e76c62faf663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771957585146-e76c62faf663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYzMTkyMzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783763625078-e015b4b42a92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783763625078-e015b4b42a92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
@@ -11,6 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1771957585146-e76c62faf6
 # AI Hedge Fund
 
 This is a proof of concept for an AI-powered hedge fund.  The goal of this project is to explore the use of AI to make trading decisions.  This project is for **educational** purposes only and is not intended for real trading or investment.
+
+> **🚧 The project is evolving.** We're rebuilding it into a persistent, always-on AI hedge fund — a *fund* as a first-class entity you can backtest, paper-trade, and (opt-in) run live, with the investor agents reimagined as pluggable, backtestable "alpha models." Read the **[Vision →](VISION.md)** and the **[Roadmap →](ROADMAP.md)**.
 
 This system employs several agents working together:
 

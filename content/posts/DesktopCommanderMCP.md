@@ -1,9 +1,9 @@
 ---
 title: DesktopCommanderMCP
-date: 2026-07-12T14:32:33+08:00
+date: 2026-07-13T14:51:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780689978409-05bfc1c95f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780689978409-05bfc1c95f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM4Mzc4ODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782241595252-cc3d4a01ff61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
 ---
 
 # [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
