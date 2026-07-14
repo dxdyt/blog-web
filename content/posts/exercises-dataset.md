@@ -1,9 +1,9 @@
 ---
 title: exercises-dataset
-date: 2026-07-03T15:19:35+08:00
+date: 2026-07-14T14:10:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781458378182-0d946f4988cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781458378182-0d946f4988cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNjMxNDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755018237674-2407f21f2b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755018237674-2407f21f2b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
 ---
 
 # [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset)
@@ -12,46 +12,44 @@ featuredImagePreview: https://images.unsplash.com/photo-1781458378182-0d946f4988
 
 # 💪 Exercises Dataset
 
-**A developer setup wizard + structured, multilingual exercise dataset — scaffold your own exercise app backend (DB schema, API code, LLM prompt) over 1,324 exercises with category, body-part, equipment, target and muscle-group data and step-by-step instructions in 6 languages (English, Spanish, Italian, Turkish, Russian, Chinese). Exercise media is not included.**
+<p>
+  <img src="videos/0025-EIeI8Vf.gif" width="120" alt="barbell bench press" />
+  <img src="videos/0043-qXTaZnJ.gif" width="120" alt="barbell full squat" />
+  <img src="videos/0032-ila4NZS.gif" width="120" alt="barbell deadlift" />
+  <img src="videos/0652-lBDjFxJ.gif" width="120" alt="pull-up" />
+  <img src="videos/0294-NbVPDMW.gif" width="120" alt="dumbbell biceps curl" />
+  <img src="videos/0334-DsgkuIt.gif" width="120" alt="dumbbell lateral raise" />
+</p>
+
+**A comprehensive, ready-to-use fitness exercise dataset with 1,324 exercises — each with an animation GIF, 180×180 thumbnail image, category, body-part, equipment, target and muscle-group data, and step-by-step instructions in 9 languages (English, Spanish, Italian, Turkish, Russian, Chinese, Hindi, Polish, Korean).**
 
 [![Exercises](https://img.shields.io/badge/Exercises-1324-blue?style=flat-square)](data/exercises.json)
-[![Languages](https://img.shields.io/badge/Languages-6-green?style=flat-square)](#-overview)
-[![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)](data/exercises.json)
-[![Media](https://img.shields.io/badge/Media-not%20included-lightgrey?style=flat-square)](#-notice--exercise-media-is-not-included)
+[![Animation GIFs](https://img.shields.io/badge/Animation%20GIFs-1324-brightgreen?style=flat-square)](videos/)
+[![Thumbnails](https://img.shields.io/badge/Thumbnails-1324-orange?style=flat-square)](images/)
+[![Languages](https://img.shields.io/badge/Languages-9-green?style=flat-square)](#-overview)
+[![Mobile App](https://img.shields.io/badge/App-LogPress-111111?style=flat-square&logo=react)](https://github.com/hasaneyldrm/logpress-public)
+[![License](https://img.shields.io/badge/License-MIT%20%2B%20media%20terms-blue?style=flat-square)](LICENSE)
 
 </div>
 
----
-
-## ⚠️ Notice — exercise media is not included
-
-> **This repository is a developer setup wizard and structured exercise dataset.** The exercise **media (thumbnail images and animation GIFs) is not included here.**
->
-> There are **multiple, conflicting ownership claims** over this media, so it is **not redistributed in this repository.** Each record keeps a `media_id` (the original ExerciseDB media reference); the dataset itself ships exercise metadata and multilingual instruction translations (EN, ES, IT, TR, RU, ZH).
->
-> **If you are the rights holder of this media, please [open an issue](../../issues) or contact the maintainer.**
+> **📱 Powers the [LogPress](https://github.com/hasaneyldrm/logpress-public) app** — an AI-assisted workout tracker; this dataset is its exercise data layer. Building your own fitness app? Drop it straight into your backend.
 
 ---
 
-## 📦 Data Source & Attribution
+## 📦 Data Source
 
-The base exercise **data** in this repository originates from **[ExerciseDB v1 by AscendAPI](https://oss.exercisedb.dev)** ([API docs](https://oss.exercisedb.dev/docs)), obtained via a [Kaggle re-host by *omarxadel*](https://www.kaggle.com/datasets/omarxadel/fitness-exercises-dataset).
+**This repository provides:**
 
-The associated **media (images & animation GIFs) is _not_ included** in this repository — see the [notice](#-notice--exercise-media-is-not-included) above. Each record's `media_id` is the original ExerciseDB v1 media id (e.g. `2gPfomN`); the official CDN serves the corresponding asset at `static.exercisedb.dev/media/{media_id}.gif` for anyone entitled to use it.
-
-**Added in this repository** on top of the base data:
-
-- 🇪🇸 Spanish, 🇮🇹 Italian, 🇹🇷 Turkish, 🇷🇺 Russian, and 🇨🇳 Chinese translations of the instructions
+- 1,324 exercises with category, body-part, equipment, target and muscle-group data
+- an animation GIF + 180×180 thumbnail for every exercise (media © [Gym visual](https://gymvisual.com/) — see [License](#-license--use))
+- step-by-step instructions in 9 languages (🇬🇧 English, 🇪🇸 Spanish, 🇮🇹 Italian, 🇹🇷 Turkish, 🇷🇺 Russian, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇵🇱 Polish, 🇰🇷 Korean)
 - the interactive browser (`index.html`) and developer setup guide (`setup.html`)
-- formatting and cleanup
-
-> Original-source attribution was added following issue [#5](../../issues/5) (thanks to [@shinkaidev](https://github.com/shinkaidev) for the report). If you are a rights holder and want anything removed or clarified, please [open an issue](../../issues).
 
 ---
 
 ## 📋 Table of Contents
 
-- [Data Source & Attribution](#-data-source--attribution)
+- [Data Source](#-data-source)
 - [Overview](#-overview)
 - [Interactive Browser & Developer Setup](#-interactive-browser--developer-setup)
 - [File Structure](#-file-structure)
@@ -83,8 +81,8 @@ Each exercise entry contains:
 | Muscle Group | Supporting / synergist muscles |
 | Equipment | Equipment required (or `body weight` for bodyweight) |
 | Instructions | Step-by-step instructions for each exercise |
-| Available Languages | 🇬🇧 English · 🇪🇸 Spanish · 🇮🇹 Italian · 🇹🇷 Turkish · 🇷🇺 Russian · 🇨🇳 Chinese |
-| Media ID | Reference id of the original ExerciseDB media (the media itself is **not** bundled — see [notice](#-notice--exercise-media-is-not-included)) |
+| Available Languages | 🇬🇧 English · 🇪🇸 Spanish · 🇮🇹 Italian · 🇹🇷 Turkish · 🇷🇺 Russian · 🇨🇳 Chinese · 🇮🇳 Hindi · 🇵🇱 Polish · 🇰🇷 Korean |
+| Media | 180×180 thumbnail (`image`) + animation GIF (`gif_url`) per exercise — media © Gym visual, see [License](#-license--use) |
 
 ---
 
@@ -92,7 +90,7 @@ Each exercise entry contains:
 
 This repository includes two ready-to-use HTML tools — no server required, just open in a browser.
 
-> **Note:** since the media is not bundled, the browser displays exercise **metadata and instructions** only; thumbnail and GIF slots are empty.
+> **Note:** the browser displays each exercise's 180×180 thumbnail and animation GIF alongside its metadata and instructions.
 
 ### `index.html` — Exercise Browser
 
@@ -100,7 +98,7 @@ A fully client-side exercise explorer with:
 - Live search across all 1,324 exercises
 - Filter by category, equipment, and target muscle
 - Infinite scroll grid
-- Click any card to see full details and instructions in English, Spanish, Italian, Turkish, Russian, or Chinese
+- Click any card to see full details and instructions in English, Spanish, Italian, Turkish, Russian, Chinese, Hindi, Polish, or Korean
 
 ### `setup.html` — Developer Setup Guide
 
@@ -117,19 +115,24 @@ A step-by-step guide for integrating the dataset into your own application:
 ```
 exercises-dataset/
 ├── data/
-│   └── exercises.json       # Full dataset — 1,324 exercise records (JSON array)
+│   ├── exercises.json        # Full dataset — 1,324 exercise records (JSON array)
+│   └── exercises.schema.json # JSON Schema (2020-12) describing every record
+├── images/                  # 1,324 × 180×180 thumbnails  (© Gym visual)
+├── videos/                  # 1,324 × 180×180 animation GIFs  (© Gym visual)
 ├── index.html               # Interactive exercise browser (client-side, no server needed)
 ├── setup.html               # Developer setup guide (DB import + API integration)
+├── NOTICE.md                # Media attribution & license terms
 └── README.md
 ```
 
 ### Key Files
 
-- **`data/exercises.json`** — The primary data file. A JSON array of 1,324 exercise objects with all metadata. The `image` and `gif_url` fields are `null`; `media_id` holds the original ExerciseDB media reference.
+- **`data/exercises.json`** — The primary data file. A JSON array of 1,324 exercise objects with all metadata. `image` / `gif_url` point to the local 180×180 assets, and each record carries an `attribution` field; `media_id` holds the original media reference id.
+- **`data/exercises.schema.json`** — A [JSON Schema](https://json-schema.org/) (Draft 2020-12) that formally describes every field, its type and constraints. Use it to validate the dataset or your own additions with any standard JSON Schema validator.
+- **`images/`, `videos/`** — 180×180 thumbnails and animation GIFs (© [Gym visual](https://gymvisual.com/), used with permission).
 - **`index.html`** — Standalone exercise browser. Open directly in any modern browser.
 - **`setup.html`** — Developer guide for DB setup, API integration, and LLM-assisted backend generation.
-
-> **Media** (`images/`, `videos/`) is intentionally **not** part of this repository — see the [notice](#-notice--exercise-media-is-not-included).
+- **`LICENSE`, `NOTICE.md`** — MIT (code/data) + the Gym visual media terms.
 
 ---
 
@@ -138,7 +141,7 @@ exercises-dataset/
 | Metric | Count |
 |---|---|
 | Total Exercises | **1,324** |
-| Instruction Languages | **6** |
+| Instruction Languages | **9** |
 
 ### Exercises by Body Part
 
@@ -178,7 +181,7 @@ exercises-dataset/
 
 ## 🗂️ Data Schema
 
-Each record in `data/exercises.json` follows this structure:
+Each record in `data/exercises.json` follows this structure. A machine-readable [JSON Schema](data/exercises.schema.json) is also provided for validation.
 
 | Field | Type | Description |
 |---|---|---|
@@ -193,12 +196,17 @@ Each record in `data/exercises.json` follows this structure:
 | `instructions.tr` | `string` | Full step-by-step instructions in Turkish |
 | `instructions.ru` | `string` | Full step-by-step instructions in Russian |
 | `instructions.zh` | `string` | Full step-by-step instructions in Chinese |
+| `instructions.hi` | `string` | Full step-by-step instructions in Hindi |
+| `instructions.pl` | `string` | Full step-by-step instructions in Polish |
+| `instructions.ko` | `string` | Full step-by-step instructions in Korean |
+| `instruction_steps.<lang>` | `array[string]` | Same instructions split into an ordered array of steps, per language (`en`, `es`, `it`, `tr`, `ru`, `zh`, `hi`, `pl`, `ko`) |
 | `muscle_group` | `string` | Primary synergist muscle group |
 | `secondary_muscles` | `array[string]` | Additional muscles involved |
 | `target` | `string` | Primary target muscle (e.g. `"biceps"`, `"pectoralis major"`) |
-| `media_id` | `string` | Original ExerciseDB media reference id (e.g. `"2gPfomN"`) — media not bundled |
-| `image` | `null` | Reserved for a thumbnail path; `null` (media not included) |
-| `gif_url` | `null` | Reserved for an animation path; `null` (media not included) |
+| `media_id` | `string` | Original media reference id (e.g. `"2gPfomN"`) |
+| `image` | `string` | Path to the 180×180 thumbnail (e.g. `"images/0001-2gPfomN.jpg"`) |
+| `gif_url` | `string` | Path to the 180×180 animation GIF (e.g. `"videos/0001-2gPfomN.gif"`) |
+| `attribution` | `string` | Media copyright notice — `"© Gym visual — https://gymvisual.com/"` |
 | `created_at` | `string` | ISO 8601 timestamp of record creation |
 
 ### Sample Record
@@ -216,14 +224,18 @@ Each record in `data/exercises.json` follows this structure:
     "it": "Sdraiati sulla schiena con le ginocchia piegate e i piedi appoggiati a terra. ...",
     "tr": "Sırt üstü yatın, dizlerinizi bükün ve ayaklarınızı yere düz koyun. ...",
     "ru": "Лягте на спину, согните колени и поставьте ступни на землю. ...",
-    "zh": "平躺，膝盖弯曲，双脚平放在地上。..."
+    "zh": "平躺，膝盖弯曲，双脚平放在地上。...",
+    "hi": "अपने घुटनों को मोड़कर और पैरों को ज़मीन पर सपाट रखते हुए अपनी पीठ के बल लेट जाएँ।...",
+    "pl": "Połóż się płasko na plecach, ugnij kolana i oprzyj stopy płasko na pod ...",
+    "ko": "등을 바닥에 누워 무릎을 구부리고 발을 바닥에 붙입니다. ..."
   },
   "muscle_group": "hip flexors",
   "secondary_muscles": ["hip flexors", "lower back"],
   "target": "abs",
   "media_id": "2gPfomN",
-  "image": null,
-  "gif_url": null,
+  "image": "images/0001-2gPfomN.jpg",
+  "gif_url": "videos/0001-2gPfomN.gif",
+  "attribution": "© Gym visual — https://gymvisual.com/",
   "created_at": "2026-03-18T12:31:32.854798+00:00"
 }
 ```
@@ -232,9 +244,11 @@ Each record in `data/exercises.json` follows this structure:
 
 ## 🎬 Sample Exercises
 
-> Media is not bundled (see [notice](#-notice--exercise-media-is-not-included)); the `media_id` of each example is shown for reference.
+> Each example ships a 180×180 thumbnail (`image`) and animation GIF (`gif_url`), © [Gym visual](https://gymvisual.com/).
 
 ### 1 — Barbell Bench Press · Chest
+
+<img src="videos/0025-EIeI8Vf.gif" width="150" align="right" alt="Barbell Bench Press" />
 
 > **Equipment:** Barbell · **Target:** Pectorals · **Secondary:** Triceps, Shoulders · **Media ID:** `EIeI8Vf`
 
@@ -244,6 +258,8 @@ The Barbell Bench Press is the cornerstone of chest training and one of the "Big
 
 ### 2 — Barbell Deadlift · Upper Legs / Back
 
+<img src="videos/0032-ila4NZS.gif" width="150" align="right" alt="Barbell Deadlift" />
+
 > **Equipment:** Barbell · **Target:** Glutes · **Secondary:** Hamstrings, Lower Back · **Media ID:** `ila4NZS`
 
 The Barbell Deadlift is widely regarded as the ultimate full-body strength exercise. It engages virtually every major muscle in the posterior chain — glutes, hamstrings, and lower back — while also demanding significant contribution from the upper back, traps, and grip. Proper spinal alignment and bracing technique are critical for both performance and safety.
@@ -251,6 +267,8 @@ The Barbell Deadlift is widely regarded as the ultimate full-body strength exerc
 **Key cues:** Set up with the bar over your mid-foot. Hinge at the hips, grip just outside your legs, brace your core hard, and keep the bar in contact with your shins throughout the lift. Drive the floor away, lock out at the top by squeezing glutes and extending hips fully.
 
 ### 3 — Barbell Full Squat · Upper Legs
+
+<img src="videos/0043-qXTaZnJ.gif" width="150" align="right" alt="Barbell Full Squat" />
 
 > **Equipment:** Barbell · **Target:** Glutes · **Secondary:** Quadriceps, Hamstrings, Calves, Core · **Media ID:** `qXTaZnJ`
 
@@ -260,6 +278,8 @@ Often called "the king of all exercises," the Barbell Full Squat demands coordin
 
 ### 4 — Dumbbell Biceps Curl · Upper Arms
 
+<img src="videos/0294-NbVPDMW.gif" width="150" align="right" alt="Dumbbell Biceps Curl" />
+
 > **Equipment:** Dumbbell · **Target:** Biceps · **Secondary:** Forearms · **Media ID:** `NbVPDMW`
 
 The Dumbbell Biceps Curl is the most recognized isolation exercise for the arms. Training each side independently helps identify and correct strength imbalances between limbs. The supinated (palms-up) grip maximizes biceps contraction at the top of the movement.
@@ -268,6 +288,8 @@ The Dumbbell Biceps Curl is the most recognized isolation exercise for the arms.
 
 ### 5 — Pull-up · Back
 
+<img src="videos/0652-lBDjFxJ.gif" width="150" align="right" alt="Pull-up" />
+
 > **Equipment:** Body Weight · **Target:** Lats · **Secondary:** Biceps, Forearms · **Media ID:** `lBDjFxJ`
 
 The Pull-up is the gold standard bodyweight exercise for upper body pulling strength. It primarily develops the latissimus dorsi — creating the coveted V-taper — while heavily involving the biceps, rear deltoids, and core stabilizers. It scales from beginner (band-assisted) to advanced (weighted).
@@ -275,6 +297,8 @@ The Pull-up is the gold standard bodyweight exercise for upper body pulling stre
 **Key cues:** Dead hang from an overhand grip, shoulder-width or slightly wider. Initiate with your lats by depressing your shoulder blades, then pull your chest toward the bar. Lower fully between reps to maintain range of motion.
 
 ### 6 — Dumbbell Lateral Raise · Shoulders
+
+<img src="videos/0334-DsgkuIt.gif" width="150" align="right" alt="Dumbbell Lateral Raise" />
 
 > **Equipment:** Dumbbell · **Target:** Delts · **Secondary:** Traps · **Media ID:** `DsgkuIt`
 
@@ -318,6 +342,7 @@ print(ex["instructions"]["it"])  # Italian
 print(ex["instructions"]["tr"])  # Turkish
 print(ex["instructions"]["ru"])  # Russian
 print(ex["instructions"]["zh"])  # Chinese
+print(ex["instructions"]["hi"])  # Hindi
 ```
 
 ### Python — Load with Pandas
@@ -366,6 +391,9 @@ console.log(ex.instructions.it); // Italian
 console.log(ex.instructions.tr); // Turkish
 console.log(ex.instructions.ru); // Russian
 console.log(ex.instructions.zh); // Chinese
+console.log(ex.instructions.hi); // Hindi
+console.log(ex.instructions.pl); // Polish
+console.log(ex.instructions.ko); // Korean
 ```
 
 ### TypeScript — Type-safe Usage
@@ -384,6 +412,9 @@ interface Exercise {
     tr: string;
     ru: string;
     zh: string;
+    hi: string;
+    pl: string;
+    ko: string;
   };
   muscle_group: string;
   secondary_muscles: string[];
@@ -391,6 +422,7 @@ interface Exercise {
   media_id: string | null;
   image: string | null;
   gif_url: string | null;
+  attribution: string;
   created_at: string;
 }
 
@@ -405,9 +437,8 @@ console.log("First 6 exercises:", randomWorkout.map(e => e.name));
 
 ## 📄 License & Use
 
-This repository is a **developer setup wizard and structured exercise dataset** — exercise metadata and multilingual instruction translations. Exercise media is **not included**.
+This repository is a **developer setup wizard and structured exercise dataset** — exercise metadata, multilingual instruction translations, and 180×180 exercise media.
 
-- The base exercise data originates from **ExerciseDB v1** (see [Data Source & Attribution](#-data-source--attribution)); review [ExerciseDB's terms](https://oss.exercisedb.dev/docs) before any reuse.
-- **Exercise media (images & GIFs) is not included** in this repository — see the [notice](#-notice--exercise-media-is-not-included).
-- This repository does **not** claim ownership of the underlying exercise content.
-- If you are a rights holder and wish to have anything removed or clarified, please [open an issue](../../issues) or contact the maintainer.
+- **Code, tooling, dataset structure, and instruction text** are released under the [MIT License](LICENSE).
+- **Exercise media (images & GIFs) is © [Gym visual](https://gymvisual.com/)** and redistributed here **with permission**, at 180×180 resolution — see [`NOTICE.md`](NOTICE.md) and the media exception in [`LICENSE`](LICENSE). Keep the `© Gym visual — https://gymvisual.com/` attribution intact. Reuse is governed by [Gym visual's Terms & Conditions](https://gymvisual.com/content/3-terms-and-conditions-of-use); obtain your own license there before reusing the media.
+- This repository does **not** claim ownership of the underlying exercise content or media.
