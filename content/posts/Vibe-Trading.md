@@ -1,9 +1,9 @@
 ---
 title: Vibe-Trading
-date: 2026-07-14T14:09:47+08:00
+date: 2026-07-15T14:13:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783002933119-88146a5fce07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783002933119-88146a5fce07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)

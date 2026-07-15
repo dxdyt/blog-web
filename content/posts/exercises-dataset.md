@@ -1,9 +1,9 @@
 ---
 title: exercises-dataset
-date: 2026-07-14T14:10:34+08:00
+date: 2026-07-15T14:13:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755018237674-2407f21f2b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755018237674-2407f21f2b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779662272321-e1e8b5db21d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779662272321-e1e8b5db21d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
 ---
 
 # [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset)

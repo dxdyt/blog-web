@@ -1,9 +1,9 @@
 ---
 title: penpot
-date: 2026-06-23T15:48:59+08:00
+date: 2026-07-15T14:13:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781440619954-7bfa9d81e9e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781768094358-23394b2b2e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781768094358-23394b2b2e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
 ---
 
 # [penpot/penpot](https://github.com/penpot/penpot)

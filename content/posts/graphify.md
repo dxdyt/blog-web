@@ -1,9 +1,9 @@
 ---
 title: graphify
-date: 2026-07-14T14:10:27+08:00
+date: 2026-07-15T14:14:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783002933119-88146a5fce07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783002933119-88146a5fce07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
 ---
 
 # [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
@@ -845,8 +845,8 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for module responsibilities and how to ad
 ---
 
 <p align="center">
-  <a href="https://star-history.com/#safishamsi/graphify&Date">
-    <img src="https://api.star-history.com/svg?repos=safishamsi/graphify&type=Date" alt="Star History Chart" width="370"/>
+  <a href="https://star-history.com/#Graphify-Labs/graphify&Date">
+    <img src="https://api.star-history.com/svg?repos=Graphify-Labs/graphify&type=Date" alt="Star History Chart" width="370"/>
   </a>
 </p>
 
@@ -856,7 +856,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for module responsibilities and how to ad
 
 <p align="center">
   <a href="https://discord.gg/598Ad9zQZ"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
-  <a href="https://x.com/graphifyy"><img src="https://img.shields.io/badge/X-graphifyy-000000?logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://x.com/graphify"><img src="https://img.shields.io/badge/X-graphify-000000?logo=x&logoColor=white" alt="X"/></a>
   <a href="https://github.com/sponsors/safishamsi"><img src="https://img.shields.io/badge/sponsor-safishamsi-ea4aaa?logo=github-sponsors" alt="Sponsor"/></a>
   <a href="https://safishamsi.gumroad.com/l/qetvlo"><img src="https://img.shields.io/badge/Book-The%20Memory%20Layer-2ea44f?style=flat&logo=gitbook&logoColor=white" alt="The Memory Layer"/></a>
 </p>

@@ -1,9 +1,9 @@
 ---
 title: sharpemu
-date: 2026-07-13T14:53:17+08:00
+date: 2026-07-15T14:13:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783763625078-e015b4b42a92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783763625078-e015b4b42a92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM5MjU0OTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
 ---
 
 # [par274/sharpemu](https://github.com/par274/sharpemu)
@@ -132,3 +132,16 @@ Provided valuable references for filesystem handling and low-level C# implementa
 # License
 
 - [**GPL-2.0 license**](https://github.com/par274/sharpemu/blob/main/LICENSE)
+
+## Contributing
+
+Before opening an issue or pull request, please read our contribution guidelines:
+
+**[CONTRIBUTING.md](./CONTRIBUTING.md)**
+
+The guide covers:
+- Coding style and formatting
+- AI-assisted contributions
+- Pull request expectations
+- Testing guidelines
+- Legal and reverse engineering policy

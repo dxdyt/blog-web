@@ -1,0 +1,86 @@
+---
+title: maths-cs-ai-compendium
+date: 2026-07-15T14:14:25+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+---
+
+# [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
+
+# Maths, CS & AI Compendium
+
+<img src="images/logo.png" alt="Logo" style="border-radius: 30px; width: 100%;">
+
+**Read online**: [henryndubuaku.github.io/maths-cs-ai-compendium](https://henryndubuaku.github.io/maths-cs-ai-compendium/)
+
+## Overview
+Most textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners looking to deeply understand the stuff, not just survive an exam/interview. 
+
+## Background
+Over the past years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. Meanwhile I got in Y Combinator last year. So I'm sharing to everyone.
+
+## MCP Server
+This repo includes an MCP server that lets any AI assistant (Claude Code, Cursor, VS Code, etc.) use the compendium as a knowledge base. It requires a local clone of the repo. Comes with tools for educational purposes and example implementations.
+
+## Outline 
+
+| # | Chapter | Summary | Status |
+|---|---------|---------|--------|
+| 01 | [Vectors](chapter%2001%3A%20vectors/01.%20vector%20spaces.md) | Spaces, magnitude, direction, norms, metrics, dot/cross/outer products, basis, duality | Available |
+| 02 | [Matrices](chapter%2002%3A%20matrices/01.%20matrix%20properties.md) | Properties, special types, operations, linear transformations, decompositions (LU, QR, SVD) | Available |
+| 03 | [Calculus](chapter%2003%3A%20calculus/01.%20differential%20calculus.md) | Derivatives, integrals, multivariate calculus, Taylor approximation, optimisation and gradient descent | Available |
+| 04 | [Statistics](chapter%2004%3A%20statistics/01.%20fundamentals.md) | Descriptive measures, sampling, central limit theorem, hypothesis testing, confidence intervals | Available |
+| 05 | [Probability](chapter%2005%3A%20probability/01.%20counting.md) | Counting, conditional probability, distributions, Bayesian methods, information theory | Available |
+| 06 | [Machine Learning](chapter%2006%3A%20machine%20learning/01.%20classical%20machine%20learning.md) | Classical ML, gradient methods, deep learning, reinforcement learning, distributed training | Available |
+| 07 | [Computational Linguistics](chapter%2007%3A%20computational%20linguistics/01.%20linguistic%20foundations.md) | syntax, semantics, pragmatics, NLP, language models, RNNs, CNNs, attention, transformers, text diffusion, text OCR, MoE, SSMs, modern LLM architectures, NLP evaluation | Available |
+| 08 | [Computer Vision](chapter%2008%3A%20computer%20vision/01.%20image%20fundamentals.md) | image processing, object detection, segmentation, video processing, SLAM, CNNs, vision transformers, diffusion, flow matching, VR/AR | Available |
+| 09 | [Audio & Speech](chapter%2009%3A%20audio%20and%20speech/01.%20digital%20signal%20processing.md) | DSP, ASR, TTS, voice & acoustic activity detection, diarisation, source separation, active noise cancellation, wavenet, conformer | Available |
+| 10 | [Multimodal Learning](chapter%2010%3A%20multimodal%20learning/01.%20multimodal%20representations.md) | fusion strategies, contrastive learning, CLIP, VLMs, image/video tokenisation, cross-modal generation, unified architectures, world models | Available |
+| 11 | [Autonomous Systems](chapter%2011%3A%20autonomous%20systems/01.%20perception.md) | perception, robot learning, VLAs, self-driving cars, space robots | Available |
+| 12 | [Graph Neural Networks](chapter%2012%3A%20graph%20neural%20networks/01.%20geometric%20deep%20learning.md) | geometric deep learning, graph theory, GNNs, graph attention, Graph Transformers, 3D equivariant networks | Available |
+| 13 | [Computing & OS](chapter%2013%3A%20computing%20and%20OS/01.%20discrete%20maths.md) | discrete maths, computer architecture, operating systems, concurrency, parallelism, programming languages | Available |
+| 14 | [Data Structures & Algorithms](chapter%2014%3A%20data%20structures%20and%20algorithms/00.%20foundations.md) | Big O, recursion, backtracking, DP, arrays, hashing, linked lists, stacks, trees, graphs, sorting, binary search | Available |
+| 15 | [Production Software Engineering](chapter%2015%3A%20production%20software%20engineering/01.%20linux%20and%20CMD.md) | Linux, Git, codebase design, testing, CI/CD, Docker, model serving, MLOps, monitoring, best way to use coding agents | Available |
+| 16 | [SIMD & GPU Programming](chapter%2016%3A%20SIMD%20and%20GPU%20programming/00.%20why%20C%2B%2B%20and%20how%20ML%20frameworks%20work.md) | C++ for ML, how frameworks work, hardware fundamentals, ARM NEON/I8MM/SME2, x86 AVX, GPU/CUDA, Triton, TPUs, RISC-V, Vulkan, WebGPU | Available |
+| 17 | [AI Inference](chapter%2017%3A%20AI%20inference/01.%20quantisation.md) | quantisation, efficient architectures, serving and batching, edge inference, speculative decoding, cost optimisation | Available |
+| 18 | [ML Systems Design](chapter%2018%3A%20ML%20systems%20design/01.%20systems%20design%20fundamentals.md) | systems fundamentals, cloud computing, distributed systems, ML lifecycle, feature stores, A/B testing, recommendation/search/ads/fraud design examples | Available |
+
+## Foreword
+
+A newborn's brain is a newly initialised neural network, which trains from realworld data and experience into adulthood...until forever. Exceptional understanding of French with the flawless accent implies correct exposure to exceptional French and flawless accent. Similarly, great AI Researchers & engineers with excellent problem-skills imply quality knowledge consumed and exposure rich experience. 
+
+Now Kvashchev's experiment was a long-term Serbian study demonstrating that intensive, three-year training in creative problem-solving can significantly boost intelligence, particularly fluid intelligence, adding 10-15 IQ points. There is such a thing as having a natuarally high IQ, similar to how quality weight initialisations yield better training, evidenced by nature-vs-nurture experimental findings. 
+
+However, the only advantage a high-IQ individual really has is the ability to learn/recognise patterns faster. But using a repeated pattern makes any concept absolutely learnable. Charles Darwin was considered a very average, if not below-average, student by his teachers and father. He described himself as not being quick-witted, feeling like a "slow processor" who needed time to soak in data.
+
+Between 3-10yrs, I performed well academically, naturally grasping concepts without ever taking notes or revising. I got a bit cocky between 11-13 and dropped to the bottom half of an 80-student class with this technique. Now between 14-15, I began reading like a normal student, finishing 1st in my final secondary school semester. Early school curriculum works well with natural IQ but real-world talents are powered by quality knowledge consumption and execution intensity. 
+
+In fact, most students who perform well academically are just more studious, but the academic system is designed for fast learners. This compendium provides a rounded and well-connected flow of knowledge to facilitate better learning for the Darwins of the world. You only need elementary maths and basic python programming, everything else is picked up, just read and trust the process! 
+
+## How To Study Better 
+
+First semester at university, I took 17 modules at once, grades were not great for it, so I used a technique:
+
+**Phase 1**: Cumulative reading after classes 
+Read each material after class, before bed. The next lecture, start all over until the current end, then fill knowledge gaps with additional research. This allows your brain to connect the patterns. 
+
+**Phase 2**: Shadow reading before exams 
+Read each slide/note subtitle, close the book, then visualise and write an explanation for that concept. Only re-read what you missed, similar to masked-language modelling in machine learning. After the re-read, ultimately implement the concept in code after. You develop muscle memory for each concept. 
+
+This worked really well for my friends who were not very confident. In fact, one of these friends beat me in advanced engineering mathematics modeule, where we covered Hessians and Optimisation. She works at a big oil & gas firm today. The willingness of the soul matters more than the body we are working with (Rosenthal experiment).
+
+## Who is Henry Ndubuaku?
+
+Read the GitHub profile! 
+
+## Citation
+```bibtex
+@book{ndubuaku2025compendium,
+  title     = {Maths, CS & AI Compendium},
+  author    = {Henry Ndubuaku},
+  year      = {2026},
+  publisher = {GitHub},
+  url       = {https://github.com/HenryNdubuaku/maths-cs-ai-compendium}
+}
+```
