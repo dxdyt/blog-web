@@ -1,9 +1,9 @@
 ---
 title: marketingskills
-date: 2026-07-14T14:10:46+08:00
+date: 2026-07-16T14:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783159649878-f39b8e4f84bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783159649878-f39b8e4f84bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwMDkzNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
 ---
 
 # [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)

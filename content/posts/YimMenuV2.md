@@ -1,9 +1,9 @@
 ---
 title: YimMenuV2
-date: 2025-12-14T12:36:14+08:00
+date: 2026-07-16T14:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763827657709-b1bbc3c4945b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763827657709-b1bbc3c4945b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782020934325-cfe4cea4fd9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782020934325-cfe4cea4fd9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
 ---
 
 # [YimMenu/YimMenuV2](https://github.com/YimMenu/YimMenuV2)

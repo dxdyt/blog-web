@@ -1,9 +1,9 @@
 ---
 title: OpenCut
-date: 2026-07-15T14:13:01+08:00
+date: 2026-07-16T14:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779662272321-e1e8b5db21d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779662272321-e1e8b5db21d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
 ---
 
 # [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)

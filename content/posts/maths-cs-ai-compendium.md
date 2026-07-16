@@ -1,9 +1,9 @@
 ---
 title: maths-cs-ai-compendium
-date: 2026-07-15T14:14:25+08:00
+date: 2026-07-16T14:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782312670281-213546a4c1f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
 ---
 
 # [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
@@ -50,7 +50,7 @@ This repo includes an MCP server that lets any AI assistant (Claude Code, Cursor
 
 A newborn's brain is a newly initialised neural network, which trains from realworld data and experience into adulthood...until forever. Exceptional understanding of French with the flawless accent implies correct exposure to exceptional French and flawless accent. Similarly, great AI Researchers & engineers with excellent problem-skills imply quality knowledge consumed and exposure rich experience. 
 
-Now Kvashchev's experiment was a long-term Serbian study demonstrating that intensive, three-year training in creative problem-solving can significantly boost intelligence, particularly fluid intelligence, adding 10-15 IQ points. There is such a thing as having a natuarally high IQ, similar to how quality weight initialisations yield better training, evidenced by nature-vs-nurture experimental findings. 
+Now Kvashchev's experiment was a long-term Serbian study demonstrating that intensive, three-year training in creative problem-solving can significantly boost intelligence, particularly fluid intelligence, adding 10-15 IQ points. There is such a thing as having a naturally high IQ, similar to how quality weight initialisations yield better training, evidenced by nature-vs-nurture experimental findings. 
 
 However, the only advantage a high-IQ individual really has is the ability to learn/recognise patterns faster. But using a repeated pattern makes any concept absolutely learnable. Charles Darwin was considered a very average, if not below-average, student by his teachers and father. He described himself as not being quick-witted, feeling like a "slow processor" who needed time to soak in data.
 
@@ -68,7 +68,7 @@ Read each material after class, before bed. The next lecture, start all over unt
 **Phase 2**: Shadow reading before exams 
 Read each slide/note subtitle, close the book, then visualise and write an explanation for that concept. Only re-read what you missed, similar to masked-language modelling in machine learning. After the re-read, ultimately implement the concept in code after. You develop muscle memory for each concept. 
 
-This worked really well for my friends who were not very confident. In fact, one of these friends beat me in advanced engineering mathematics modeule, where we covered Hessians and Optimisation. She works at a big oil & gas firm today. The willingness of the soul matters more than the body we are working with (Rosenthal experiment).
+This worked really well for my friends who were not very confident. In fact, one of these friends beat me in advanced engineering mathematics module, where we covered Hessians and Optimisation. She works at a big oil & gas firm today. The willingness of the soul matters more than the body we are working with (Rosenthal experiment).
 
 ## Who is Henry Ndubuaku?
 
