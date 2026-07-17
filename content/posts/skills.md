@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2026-07-16T14:16:45+08:00
+date: 2026-07-17T14:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782240930962-fed13d7f53a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782240930962-fed13d7f53a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782730949732-d6ae36c9353c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782730949732-d6ae36c9353c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
 ---
 
 # [mattpocock/skills](https://github.com/mattpocock/skills)

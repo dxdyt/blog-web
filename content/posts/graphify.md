@@ -1,9 +1,9 @@
 ---
 title: graphify
-date: 2026-07-15T14:14:16+08:00
+date: 2026-07-17T14:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783628417381-f6be9614f208?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQwOTU5NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781712264729-e167c4779580?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781712264729-e167c4779580?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
 ---
 
 # [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)

@@ -1,9 +1,9 @@
 ---
 title: DeepTutor
-date: 2026-07-16T14:17:26+08:00
+date: 2026-07-17T14:15:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781379947450-cfecd2272322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781379947450-cfecd2272322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQxODI1Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777471369740-d9880ac8bbe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777471369740-d9880ac8bbe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
