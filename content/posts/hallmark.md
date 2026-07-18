@@ -1,9 +1,9 @@
 ---
 title: hallmark
-date: 2026-07-17T14:14:06+08:00
+date: 2026-07-18T14:04:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782944440232-e5d98ffeb11b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782944440232-e5d98ffeb11b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782741575084-7b8f4cb5934f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782741575084-7b8f4cb5934f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
 ---
 
 # [Nutlope/hallmark](https://github.com/Nutlope/hallmark)

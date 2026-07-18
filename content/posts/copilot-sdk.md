@@ -1,9 +1,9 @@
 ---
 title: copilot-sdk
-date: 2026-07-17T14:15:31+08:00
+date: 2026-07-18T14:05:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783228601233-d74b91f4c4b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783228601233-d74b91f4c4b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780211662775-fd0ab461fe0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780211662775-fd0ab461fe0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
 ---
 
 # [github/copilot-sdk](https://github.com/github/copilot-sdk)

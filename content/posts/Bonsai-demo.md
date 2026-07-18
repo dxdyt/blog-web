@@ -1,9 +1,9 @@
 ---
 title: Bonsai-demo
-date: 2026-07-17T14:14:35+08:00
+date: 2026-07-18T14:05:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782117623103-8cc07a38afe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782117623103-8cc07a38afe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783081312236-82cc1126d761?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783081312236-82cc1126d761?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
 ---
 
 # [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo)
@@ -265,6 +265,20 @@ $env:BONSAI_MODEL = "4B"
 ```bash
 source .venv/bin/activate
 ./scripts/run_mlx.sh -p "What is the capital of France?"
+```
+
+**Tested versions (reproducibility).** The released MLX weights are plain safetensors and need no runtime patches. The 1-bit packs need an MLX build with 1-bit quantization support: the [PrismML-Eng/mlx](https://github.com/PrismML-Eng/mlx) fork, branch `prism`, until [mlx#3161](https://github.com/ml-explore/mlx/pull/3161) merges upstream. The 2-bit ternary packs run on stock MLX. The released 27B packs were validated with:
+
+- Python 3.11
+- mlx fork branch `prism` at commit [`88c9c20`](https://github.com/PrismML-Eng/mlx/commit/88c9c205a50f)
+- `mlx-lm==0.31.2` (the version `setup.sh` pins)
+
+`setup.sh` builds the fork from the branch tip. To pin the exact validated runtime instead, clone and check out the commit before running setup; setup reuses an existing `./mlx` checkout:
+
+```bash
+git clone -b prism https://github.com/PrismML-Eng/mlx.git mlx
+git -C mlx checkout 88c9c20
+./setup.sh
 ```
 
 ### Chat Server
