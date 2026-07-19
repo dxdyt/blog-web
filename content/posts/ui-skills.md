@@ -1,9 +1,9 @@
 ---
 title: ui-skills
-date: 2026-07-17T14:15:40+08:00
+date: 2026-07-19T14:29:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764373618759-3e704f3d6181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764373618759-3e704f3d6181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQyNjg4MzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1778064545629-998d53e67088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1778064545629-998d53e67088?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
 ---
 
 # [ibelick/ui-skills](https://github.com/ibelick/ui-skills)

@@ -1,9 +1,9 @@
 ---
 title: lingbot-map
-date: 2026-07-01T16:14:16+08:00
+date: 2026-07-19T14:28:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780163930838-1502715c3bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780163930838-1502715c3bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI4OTM1MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1780995173877-3c5d1c63fcdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1780995173877-3c5d1c63fcdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
 ---
 
 # [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
@@ -70,6 +70,7 @@ LingBot-Map has focused on:
 
 ## 📰 News
 
+- **2026-06-28** — Fixed an SDPA KV cache bug. **The SDPA backend now performs better on long sequences**. We still recommend the FlashInfer backend for the best performance.
 - **2026-05-25** — 📊 **Evaluation benchmark released**. We released the evaluation scripts for KITTI and Oxford Spires — see [benchmark/](benchmark/) for the pipeline, and run [`preprocess/oxford.py`](preprocess/oxford.py) to prepare Oxford Spires data before evaluation.
 - **2026-04-29** — 📹 **Long-video demo released**. We released a very-long-video example (~25 000 frames, 13-minute indoor walkthrough) rendered with the offline pipeline — see [Worked Example](#worked-example--long-indoor-walkthrough-25-000-frames-13-minutes) for the command, flag rationale, and rendered output.
 - **2026-04-27** — 🚀 **LingBot-Map accelerated**. Pull the latest `main` and run `python demo.py --compile ...` or `python gct_profile.py --backend flashinfer --dtype bf16 --compile` to verify on your hardware.
@@ -92,7 +93,7 @@ LingBot-Map has focused on:
 - ✅ Release demo scripts
   - ✅ Indoor long-video demo ([Featured indoor walkthrough](#-featured-indoor-walkthrough-25-000-frames-13-minutes))
   - ✅ Outdoor long-video demo
-  - ✅ LingBot-World demo
+  - ✅ LingBot-World demo ([Worked example](#worked-example--lingbot-world-scenes))
   - ✅ Aerial long-video demo
 
 ---
@@ -143,8 +144,8 @@ pip install -e ".[vis]"
 
 | Model Name | Huggingface Repository | ModelScope Repository | Description |
 | :--- | :--- | :--- | :--- |
-| lingbot-map-long | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Better suited for long sequences and large scale scenes (Recommend). |
-| lingbot-map | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Balanced checkpoint — trade off all-around performance across short and long sequences. |
+| lingbot-map-long | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Better suited for long sequences and large scale scenes. |
+| lingbot-map | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Balanced checkpoint (used in paper, benchmark and offline demo) — trade off all-around performance across short and long sequences. |
 | lingbot-map-stage1 | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Stage-1 training checkpoint of lingbot-map — can be loaded into the VGGT model for bidirectional inference (c2w). |
 
 > 🚧 **Coming soon:** we're training an stronger model that supports longer sequences — stay tuned.
@@ -387,7 +388,7 @@ This builds `voxel_morton_ext` and `frustum_cull_ext` in place — both are impo
     --model_path /path/to/lingbot-map.pt \
     --config demo_render/config/indoor.yaml \
     --mode windowed --window_size 128 \
-    --keyframe_interval 13 --overlap_keyframes 8 \
+    --keyframe_interval 10 --overlap_keyframes 8 \
     --sky_mask_dir /data/outputs/sky_masks \
     --sky_mask_visualization_dir /data/outputs/sky_mask_viz \
     --camera_vis default --keyframes_only_points \
@@ -397,13 +398,12 @@ This builds `voxel_morton_ext` and `frustum_cull_ext` in place — both are impo
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4f5e555-22a8-4cc9-b380-dfde5fe1c809" />
 
-
 Flag-by-flag rationale:
 
 | Flag | Why it's there |
 |---|---|
 | `--mode windowed --window_size 128` | Sliding-window inference is required once the sequence exceeds the ~320-frame RoPE training range; each window resets the KV cache. **`window_size` counts KV-cache slots, not actual frames** — the first `num_scale_frames` (=8) slots hold the scale frames and the remaining `128 − 8 = 120` slots hold keyframes. With `keyframe_interval = 13`, one window therefore covers `8 + 120 × 13 = 1568` actual frames. |
-| `--keyframe_interval 13` | Cache only every 13th frame as a keyframe. Non-keyframes still emit per-frame predictions but don't grow the KV cache|
+| `--keyframe_interval 10` | Cache only every 10th frame as a keyframe. Non-keyframes still emit per-frame predictions but don't grow the KV cache|
 | `--overlap_keyframes 8` | Adjacent windows share 8 keyframes of context, resolved internally to `max(num_scale_frames, 8 × keyframe_interval) = 8 × 13 = 104` actual frames of overlap. Recommended whenever `keyframe_interval > 1`, to keep cross-window pose alignment stable. |
 | `--config demo_render/config/indoor.yaml` | Seed render/scene/camera/overlay defaults from the indoor preset (short depth, tighter follow cam). Any CLI flag the user explicitly passes still overrides the YAML value. |
 | `--sky_mask_dir` / `--sky_mask_visualization_dir` | Persist sky masks and their side-by-side visualizations to disk so subsequent reruns reuse them instead of re-running ONNX segmentation. (The render pipeline only consumes them when sky masking is enabled — by the YAML preset or by `--mask_sky`.) |
@@ -412,11 +412,83 @@ Flag-by-flag rationale:
 | `--frame_tag --frame_tag_position top_right` | Stamp a `<i> / <N> Frames` counter in the top-right corner of the MP4. |
 | `--save_predictions` | Persist per-frame NPZs alongside the MP4. Useful for inspection or for re-rendering with different camera/overlay settings later. |
 
+
+Replacing keyframe_interval = 10 with image_stride = 10 speeds up rendering. Then, comment out the camera follow section in demo_render/config/indoor.yaml and set the birdeye's ranges to [2000, 2500] to reproduce the indoor fly-through effect shown in the demo:
+
+<img width="3822" height="1080" alt="image" src="https://github.com/user-attachments/assets/5581d2b2-cb86-4187-a13d-46ac9a22ce99" />
+
+
+
+### Worked Example — outdoor drive scene
+
+**Dataset:** Download the example video from [robbyant/lingbot-map-demo](https://huggingface.co/datasets/robbyant/lingbot-map-demo/tree/main) on Hugging Face.
+
+```bash
+    python demo_render/batch_demo.py \
+    --video_path /data/demo_videos/drive_frames.mp4 \
+    --output_folder /data/outputs/drive/ \
+    --model_path /path/to/lingbot-map.pt \
+    --config demo_render/config/outdoor_drive.yaml \
+    --mode windowed --window_size 128 \
+    --max_non_keyframe_gap 100 --overlap_keyframes 8 \
+    --image_stride 1 \
+    --sky_mask_dir /data/outputs/sky_masks \
+    --sky_mask_visualization_dir /data/outputs/sky_mask_viz \
+    --camera_vis default --keyframes_only_points \
+    --frame_tag --frame_tag_position top_right \
+    --save_predictions
+```
+
+<img width="3822" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c26afdb-6bb8-4d20-a7e0-f5a220382662" />
+
+
+What differs from the indoor walkthrough above:
+
+| Flag | Why it's there |
+|---|---|
+| `--config demo_render/config/outdoor_drive.yaml` | Seed defaults from the outdoor preset: sky masking enabled, deeper render range (`max_depth: 250`), and a follow cam tuned for vehicle trajectories with a final birdeye reveal. |
+| `--image_stride 1` | Use every video frame. Increase it to subsample long or high-FPS drive footage. |
+| `--max_non_keyframe_gap 100` | Upper bound on consecutive non-keyframes before a keyframe is forced. Only active with flow-based keyframe selection (`--flow_threshold > 0`); in the default fixed-interval mode it has no effect. |
+
+The remaining flags (`--mode windowed --window_size 128`, `--overlap_keyframes 8`, sky-mask caching, overlays, `--save_predictions`) carry over unchanged from the indoor example — see the flag-by-flag table above.
+
+### Worked Example — LingBot-World scenes
+
+Reconstruct videos generated by LingBot-World, our world model — the same pipeline works on generated footage out of the box.
+
+**Dataset:** Download the example videos (`lingbo_world_frames.mp4`, `lingbo_world2_frames.mp4`) from [robbyant/lingbot-map-demo](https://huggingface.co/datasets/robbyant/lingbot-map-demo/tree/main) on Hugging Face.
+
+```bash
+    python demo_render/batch_demo.py \
+    --video_path /data/demo_videos/lingbo_world_frames.mp4 \
+    --output_folder /data/outputs/lingbo_world/ \
+    --model_path /path/to/lingbot-map.pt \
+    --config demo_render/config/outdoor_drive.yaml \
+    --mode windowed --window_size 128 \
+    --max_non_keyframe_gap 100 --overlap_keyframes 8 \
+    --image_stride 1 \
+    --sky_mask_dir /data/outputs/sky_masks \
+    --sky_mask_visualization_dir /data/outputs/sky_mask_viz \
+    --camera_vis default --keyframes_only_points \
+    --frame_tag --frame_tag_position top_right \
+    --save_predictions
+```
+
+For the second clip, run the same command with `--video_path /data/demo_videos/lingbo_world2_frames.mp4 --output_folder /data/outputs/lingbo_world2/` (and separate `--sky_mask_dir` / `--sky_mask_visualization_dir` folders if you want to keep the cached masks apart).
+
+All flags are identical to the [outdoor drive scene](#worked-example--outdoor-drive-scene) above — only the input video and output folder change. See the drive scene and indoor walkthrough tables for the flag-by-flag rationale.
+
+<img width="3736" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f60d505-1407-482c-9b5d-57c7145c0b7d" />
+
+<img width="1200" height="339" alt="image" src="https://github.com/user-attachments/assets/e62bedaa-1e61-40b3-8fea-01c8a15355f0" />
+
+
+
 ### Camera Path (YAML)
 
 The virtual camera path is described by the `camera.segments` list in the YAML preset passed via `--config`. Edit the YAML to design your own shot — no need to touch CLI flags.
 
-Built-in presets live in `demo_render/config/`: `default.yaml`, `indoor.yaml`, `indoor_overview.yaml`, `outdoor_large.yaml`, `outdoor_large_overview.yaml`, `surrounding.yaml`, `lingbo_world.yaml`. Copy one and edit the `camera:` block.
+Built-in presets live in `demo_render/config/`: `default.yaml`, `indoor.yaml`, `outdoor_drive.yaml`. Copy one and edit the `camera:` block.
 
 #### YAML structure
 

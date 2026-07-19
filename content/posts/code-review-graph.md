@@ -1,9 +1,9 @@
 ---
 title: code-review-graph
-date: 2026-07-18T14:05:38+08:00
+date: 2026-07-19T14:29:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783602451856-3a0955689fe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783602451856-3a0955689fe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQzNTQ2Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1781613977723-cc97e7cdff85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1781613977723-cc97e7cdff85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
 ---
 
 # [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)

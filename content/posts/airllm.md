@@ -1,9 +1,9 @@
 ---
 title: airllm
-date: 2026-06-23T15:50:18+08:00
+date: 2026-07-19T14:29:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1780631347046-2ea68653b9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1780631347046-2ea68653b9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIyMDA5MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783255247971-978f89975b30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783255247971-978f89975b30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
 ---
 
 # [lyogavin/airllm](https://github.com/lyogavin/airllm)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1780631347046-2ea68653b9
 [**Example notebooks**](#example-python-notebook) | 
 [**FAQ**](#faq)
 
-**AirLLM** optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning. And you can run **405B Llama3.1** on **8GB vram** now.
+**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **405B Llama 3.1** on **8GB**, and **DeepSeek-V3 (671B)** on **~12GB**.
 
 <a href="https://github.com/lyogavin/airllm/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>
 [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)
@@ -38,9 +38,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1780631347046-2ea68653b9
 
 * [Best AI Facial Expression Editor](https://crazyfaceai.com)
 
-* [Bloome — build & run AI agent teams in the cloud, zero setup](https://bloome.im/login?ref=G6BYnov0)
+* [Bloome — build & run AI agent teams in the cloud, zero setup](https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606)
 
 ## Updates
+[2026/06] **v3.0**: FP8 model support + the latest models. Run **DeepSeek-V3 (671B) on ~12GB** and **Qwen3-235B on ~3GB**, plus Qwen3, Llama 3.x/4, DeepSeek V2/V3, Phi-4, Gemma and more — all through a single `AutoModel`.
+
 [2024/08/20] v2.11.0: Support Qwen2.5
 
 [2024/08/18] v2.10.1 Support CPU inference. Support non sharded models. Thanks @NavodPeiris for the great work! 
@@ -67,7 +69,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1780631347046-2ea68653b9
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lyogavin/airllm&type=Timeline)](https://star-history.com/#lyogavin/airllm&Timeline)
+<a href="https://star-history.com/#lyogavin/airllm&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/star-history-dark.png">
+    <img alt="Star History Chart" src="assets/star-history.png">
+  </picture>
+</a>
 
 ## Table of Contents
 
@@ -100,11 +107,15 @@ Then, initialize AirLLMLlama2, pass in the huggingface repo ID of the model bein
 from airllm import AutoModel
 
 MAX_LENGTH = 128
-# could use hugging face model repo id:
-model = AutoModel.from_pretrained("garage-bAInd/Platypus2-70B-instruct")
+# just pass a hugging face repo id — works with almost any popular model:
+model = AutoModel.from_pretrained("Qwen/Qwen3-32B")
 
-# or use model's local path...
-#model = AutoModel.from_pretrained("/home/ubuntu/.cache/huggingface/hub/models--garage-bAInd--Platypus2-70B-instruct/snapshots/b585e74bcaae02e52665d9ac6d23f4d0dbc81a0f")
+# go bigger with the exact same one line:
+#model = AutoModel.from_pretrained("Qwen/Qwen3-235B-A22B")     # 235B, runs in ~3GB
+#model = AutoModel.from_pretrained("deepseek-ai/DeepSeek-V3")  # 671B, runs in ~12GB
+
+# or use a model's local path...
+#model = AutoModel.from_pretrained("/home/ubuntu/.cache/huggingface/hub/models--Qwen--Qwen3-32B/snapshots/...")
 
 input_text = [
         'What is the capital of United States?',
@@ -265,6 +276,27 @@ model.tokenizer.decode(generation_output.sequences[0])
 
 
 
+## Supported Models
+
+AirLLM works out of the box with **virtually every popular open LLM** — just pass its Hugging Face ID to `AutoModel.from_pretrained(...)`. That covers all the major families:
+
+**Llama** (2 / 3 / 3.1 / 3.3 / 4) · **Qwen** (1 / 2 / 2.5 / 3, including MoE and FP8) · **DeepSeek** (V2 / V3 / R1) · **Mistral & Mixtral** · **Phi** · **Gemma** · **ChatGLM** · **Baichuan** · **InternLM** · **Yi** — and most new models the day they're released.
+
+### Tiny GPU, huge models
+
+The trick: AirLLM only ever keeps **one layer on the GPU at a time**, so the VRAM you need depends on the model's layer size — not its total size. That's how a 671B model fits on a hobbyist card:
+
+| Model | Size | GPU VRAM |
+|---|---|---|
+| Qwen3 / Mistral / Phi (≈8B) | 8B | **~1–2 GB** |
+| Qwen3-30B / Mixtral (MoE) | 30–47B | **~1–3 GB** |
+| Qwen3-235B (MoE) | 235B | **~3 GB** |
+| Llama 3.x 70B (full precision) | 70B | **~4 GB** |
+| Llama 3.1 405B | 405B | **~8 GB** |
+| DeepSeek-V3 | **671B** | **~12 GB** |
+
+Same one line of code for all of them — no special setup.
+
 ## Acknowledgement
 
 A lot of the code are based on SimJeg's great work in the Kaggle exam competition. Big shoutout to SimJeg:
@@ -341,7 +373,7 @@ BibTex entry:
 
 ## Sponsors
 
-<a href="https://bloome.im/login?ref=G6BYnov0">
+<a href="https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606">
   <img src="https://github.com/lyogavin/airllm/blob/main/assets/bloome.png?raw=true" alt="Bloome — Run AI Agent Teams in the Cloud" width="50%" />
 </a>
 
@@ -349,7 +381,7 @@ BibTex entry:
 
 Bloome is an AI-agent IM platform: build and run AI agent teams in the cloud with zero setup. Add a skill as an agent in a group chat, run it in one click from web or mobile, and share it with your team — think of it as a group chat where your AI assistants are teammates you can @mention and assign tasks to.
 
-👉 Try Bloome: https://bloome.im/login?ref=G6BYnov0
+👉 Try [Bloome](https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606)
 
 
 ## Contribution 
