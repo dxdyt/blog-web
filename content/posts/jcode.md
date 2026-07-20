@@ -1,9 +1,9 @@
 ---
 title: jcode
-date: 2026-06-21T16:34:47+08:00
+date: 2026-07-20T14:45:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1779175731718-6068f854e853?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODIwMzA3Njd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783473855377-5dc01c0fbd80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783473855377-5dc01c0fbd80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
 ---
 
 # [1jehuang/jcode](https://github.com/1jehuang/jcode)
@@ -30,7 +30,7 @@ Built for multi-session workflows, infinite customizability, and performance.
 
 <br>
 
-[Features](#features) · [Install](#installation) · [Quick Start](#quick-start) · [Further Reading](#further-reading) · [Contributing](CONTRIBUTING.md)
+[Website](https://jcode.sh) · [Features](#features) · [Install](#installation) · [Quick Start](#quick-start) · [Further Reading](#further-reading) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -44,10 +44,15 @@ Built for multi-session workflows, infinite customizability, and performance.
 
 ```bash
 # macOS & Linux
-curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
+curl -fsSL https://jcode.sh/install | bash
 ```
 
-Need Windows, Homebrew, source builds, provider setup, or tell your agent to set it up for you?
+```powershell
+# Windows 11 (PowerShell 5.1+)
+irm https://jcode.sh/install.ps1 | iex
+```
+
+Need Homebrew, source builds, provider setup, or want an agent to set it up for you?
 [Jump to detailed installation](#detailed-installation).
 
 ---
@@ -511,15 +516,19 @@ Primary config files:
 - `~/.jcode/mcp.json` for global MCP servers
 - `.jcode/mcp.json` for project-local MCP servers
 
-Compatibility fallback:
+Claude Code compatibility:
 
-- `.claude/mcp.json`
+- `~/.claude.json` (Claude Code's user config): top-level `mcpServers`, plus per-project servers under `projects.<abs_path>.mcpServers` for the current directory
+- `.mcp.json` at the repo root (Claude Code's project config)
+- `.claude/mcp.json` (legacy fallback)
+
+Both the canonical `mcpServers` key and jcode's historical `servers` key are accepted. jcode currently supports stdio (command-based) servers only; HTTP/SSE entries (`"type": "http"`/`"sse"`) are recognized and skipped with a log line.
 
 Example MCP config:
 
 ```json
 {
-  "servers": {
+  "mcpServers": {
     "filesystem": {
       "command": "/path/to/mcp-server",
       "args": ["--root", "/workspace"],
@@ -530,7 +539,7 @@ Example MCP config:
 }
 ```
 
-On first run, jcode also tries to import MCP servers from `~/.claude/mcp.json` and `~/.codex/config.toml` if `~/.jcode/mcp.json` does not exist yet.
+On first run, jcode also tries to import MCP servers from `~/.claude.json` (falling back to the legacy `~/.claude/mcp.json`) and `~/.codex/config.toml` if `~/.jcode/mcp.json` does not exist yet.
 
 For headless or SSH sessions, OAuth-style providers support `jcode login --provider <provider> --no-browser` (alias: `--headless`) so jcode prints the auth URL/QR and falls back to manual code or callback paste instead of trying to launch a local browser.
 
@@ -710,8 +719,8 @@ Notes:
 - [Memory Architecture](docs/MEMORY_ARCHITECTURE.md)
 - [Swarm Architecture](docs/SWARM_ARCHITECTURE.md)
 - [Server Architecture](docs/SERVER_ARCHITECTURE.md)
-- [iOS Client Notes](docs/IOS_CLIENT.md)
 - [Safety System](docs/SAFETY_SYSTEM.md)
+- [Sponsored Discovery Sponsor Onboarding](docs/SPONSORED_DISCOVERY_SPONSOR_ONBOARDING.md)
 - [Windows Notes](docs/WINDOWS.md)
 - [Wrappers and Shell Integration](docs/WRAPPERS.md)
 - [Refactoring Notes](docs/REFACTORING.md)
@@ -734,10 +743,10 @@ Set up jcode on this machine for me.
      brew install jcode
 
    - macOS or Linux via install script:
-     curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
+     curl -fsSL https://jcode.sh/install | bash
 
    - Windows PowerShell:
-     irm https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.ps1 | iex
+     irm https://jcode.sh/install.ps1 | iex
 
    - From source if the above paths are not appropriate:
      git clone https://github.com/1jehuang/jcode.git
@@ -787,7 +796,7 @@ This is intended to be a copy-paste bootstrap prompt for jcode itself or any oth
 
 ```bash
 # macOS & Linux
-curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
+curl -fsSL https://jcode.sh/install | bash
 ```
 
 On Termux, install the glibc runtime and `patchelf` first so the installer can
@@ -796,13 +805,23 @@ launcher that avoids Termux's `LD_PRELOAD` shim:
 
 ```bash
 pkg install glibc patchelf
-curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.sh | bash
+curl -fsSL https://jcode.sh/install | bash
 ```
 
 ```powershell
-# Windows (PowerShell)
-irm https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/install.ps1 | iex
+# Windows 11 x64 or ARM64 (PowerShell 5.1+)
+irm https://jcode.sh/install.ps1 | iex
 ```
+
+The Windows installer selects the correct architecture and verifies the download
+against the release's `SHA256SUMS`. Alacritty and the optional global launch
+hotkey require explicit consent and are not installed by default. See
+[Windows support, security, Defender, and SmartScreen notes](docs/WINDOWS.md).
+
+If a release does not contain a matching Windows asset, the installer stops
+instead of unexpectedly starting a long compilation. An explicit source build
+is available with `-BuildFromSource` and requires Git, Rust, and Visual Studio
+2022 Build Tools with the **Desktop development with C++** workload.
 
 ### macOS via Homebrew
 
@@ -836,6 +855,24 @@ Then symlink to your PATH:
 ```bash
 scripts/install_release.sh
 ```
+
+### Uninstall
+
+Removes installed binaries and the launcher but keeps your config, auth, and
+sessions so a clean reinstall picks up where you left off:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/uninstall.sh | bash -s -- --yes
+```
+
+For a full wipe of everything including config, auth, sessions, logs, and
+memory (useful for recovering from a broken install):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scripts/uninstall.sh | bash -s -- --purge --yes
+```
+
+Add `--dry-run` to preview what would be removed without deleting anything.
 
 ### Platform Support
 

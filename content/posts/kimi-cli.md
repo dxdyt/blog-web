@@ -1,9 +1,9 @@
 ---
 title: kimi-cli
-date: 2026-07-19T14:30:05+08:00
+date: 2026-07-20T14:45:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782804208330-d728c77ec581?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782804208330-d728c77ec581?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ0NDI1MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1784323991531-3f6e681c095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1784323991531-3f6e681c095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
 ---
 
 # [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli)

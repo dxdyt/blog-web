@@ -1,28 +1,12 @@
 ---
 title: cs-self-learning
-date: 2025-11-07T12:23:23+08:00
+date: 2026-07-20T14:46:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760592150478-0d6ad3a4d412?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760592150478-0d6ad3a4d412?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782313809673-c106aeb7b3a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782313809673-c106aeb7b3a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
 ---
 
 # [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
-
-<div align="center" markdown="1">
-   <sup>Special thanks to:</sup>
-   <br>
-   <a href="https://go.warp.dev/cs-self-learning">
-      <img alt="Warp sponsorship" width="400" src="https://github.com/warpdotdev/brand-assets/blob/main/Github/Sponsor/Warp-Github-LG-02.png">
-   </a>
-
-### [Warp, built for coding with multiple AI agents](https://go.warp.dev/cs-self-learning)
-
-[Available for MacOS, Linux, & Windows](https://go.warp.dev/cs-self-learning)
-<br>
-
-</div>
-
----
 
 <div align="center">
   <img src=./docs/images/title.png >
