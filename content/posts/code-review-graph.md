@@ -1,14 +1,16 @@
 ---
 title: code-review-graph
-date: 2026-07-20T14:44:28+08:00
+date: 2026-07-21T14:26:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784323991531-3f6e681c095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784323991531-3f6e681c095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
 ---
 
 # [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 
 <h1 align="center">code-review-graph</h1>
+
+<a href="https://trendshift.io/repositories/23329?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-23329" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/23329" alt="tirth8205%2Fcode-review-graph | Trendshift" width="250" height="55"/></a>
 
 <p align="center">
   <strong>Stop burning tokens. Start reviewing smarter.</strong>

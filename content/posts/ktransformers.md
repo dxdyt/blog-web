@@ -1,9 +1,9 @@
 ---
 title: ktransformers
-date: 2026-07-20T14:44:34+08:00
+date: 2026-07-21T14:27:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1771771425345-ea40b23e8220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1771771425345-ea40b23e8220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1777632609446-c13a0d0ce10c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1777632609446-c13a0d0ce10c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
 ---
 
 # [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers)

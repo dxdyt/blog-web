@@ -1,9 +1,9 @@
 ---
 title: voicebox
-date: 2026-07-20T14:44:50+08:00
+date: 2026-07-21T14:27:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782315363391-bff53f732e11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782315363391-bff53f732e11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
 ---
 
 # [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
@@ -280,7 +280,8 @@ Use cases: agent dev loops (dictate a question, hear the answer in a cloned voic
 | Platform                 | Backend        | Notes                                          |
 | ------------------------ | -------------- | ---------------------------------------------- |
 | macOS (Apple Silicon)    | MLX (Metal)    | 4-5x faster via Neural Engine                  |
-| Windows / Linux (NVIDIA) | PyTorch (CUDA) | Auto-downloads CUDA binary from within the app |
+| Windows (NVIDIA)         | PyTorch (CUDA) | Auto-downloads CUDA binary from within the app |
+| Linux (NVIDIA)           | PyTorch (CUDA) | Use a local/remote Python backend with CUDA PyTorch |
 | Linux (AMD)              | PyTorch (ROCm) | Auto-configures HSA_OVERRIDE_GFX_VERSION       |
 | Windows (any GPU)        | DirectML       | Universal Windows GPU support                  |
 | Intel Arc                | IPEX/XPU       | Intel discrete GPU acceleration                |

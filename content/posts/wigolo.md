@@ -1,9 +1,9 @@
 ---
 title: wigolo
-date: 2026-07-20T14:44:56+08:00
+date: 2026-07-21T14:28:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1782315363391-bff53f732e11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1782315363391-bff53f732e11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ1Mjk4NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
 ---
 
 # [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo)
@@ -26,10 +26,14 @@ Local-first web intelligence for AI agents — **no keys, no cloud, no metered b
 [![MCP](https://img.shields.io/badge/MCP-server-7c3aed)](https://modelcontextprotocol.io)
 [![license](https://img.shields.io/badge/license-AGPL--3.0-2563eb)](#license)
 [![status](https://img.shields.io/badge/status-public%20beta-b7791f)](#beta--feedback)
+[![follow on X](https://img.shields.io/badge/follow-%40yourtowhid-000000?logo=x&logoColor=white)](https://x.com/yourtowhid)
 
 <a href="https://trendshift.io/repositories/79424?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-79424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/79424" alt="wigolo on Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/79424?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-79424" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/79424/daily?language=TypeScript" alt="KnockOutEZ%2Fwigolo | Trendshift" width="250" height="55"/></a>
 
 [Quickstart](#quickstart) · [Tools](#tools) · [Why wigolo](#why-its-different) · [Benchmark](#benchmark) · [Docs](docs/README.md) · [Examples](examples/README.md) · [Feedback](#beta--feedback) · [FAQ](#faq)
+
+New features and updates ship steadily. Follow <a href="https://x.com/yourtowhid"><b>@yourtowhid on X</b></a> for all of it and new ways to use wigolo, and reach out there for collaborations or feedback · also on <a href="https://www.linkedin.com/in/yourtowhid/">LinkedIn</a>
 
 </div>
 
@@ -259,7 +263,7 @@ One note for self-hosters: some challenge-protected sites score IP reputation, s
 <a href="https://www.star-history.com/#KnockOutEZ/wigolo&Date">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KnockOutEZ/wigolo/star-chart/star-history-dark.svg">
-<img alt="wigolo GitHub stars over time" src="https://raw.githubusercontent.com/KnockOutEZ/wigolo/star-chart/star-history.svg" width="720">
+<img alt="wigolo GitHub stars over time" src="https://raw.githubusercontent.com/KnockOutEZ/wigolo/star-chart/star-history.svg" width="880">
 </picture>
 </a>
 
@@ -418,6 +422,6 @@ Bug reports, feature requests, and PRs are all welcome; see **[CONTRIBUTING.md](
 wigolo is free and actively maintained, and it's meant to stay that way.
 If it saves you a metered search bill, a ⭐, a sharp issue, or a **[☕ coffee](https://buymeacoffee.com/knockoutez)** helps keep it sustainable.
 
-<sub>Built and maintained by <a href="https://github.com/KnockOutEZ">@KnockOutEZ</a> · <a href="mailto:ktowhid20@gmail.com">ktowhid20@gmail.com</a></sub>
+<sub>Built and maintained by <a href="https://github.com/KnockOutEZ">@KnockOutEZ</a> · <a href="mailto:ktowhid20@gmail.com">ktowhid20@gmail.com</a> · <a href="https://x.com/yourtowhid">X</a> · <a href="https://www.linkedin.com/in/yourtowhid/">LinkedIn</a></sub>
 
 </div>
