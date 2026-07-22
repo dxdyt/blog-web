@@ -1,9 +1,9 @@
 ---
 title: Ontology-Playground
-date: 2026-07-21T14:28:56+08:00
+date: 2026-07-22T14:28:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781638259915-01ddac8cb096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781638259915-01ddac8cb096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783716549682-5f945bb5f47e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783716549682-5f945bb5f47e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/Ontology-Playground](https://github.com/microsoft/Ontology-Playground)

@@ -1,9 +1,9 @@
 ---
 title: openship
-date: 2026-07-21T14:28:48+08:00
+date: 2026-07-22T14:27:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1784146930851-91cf7237f39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1784146930851-91cf7237f39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
 ---
 
 # [oblien/openship](https://github.com/oblien/openship)

@@ -1,9 +1,9 @@
 ---
 title: Hyprland
-date: 2025-07-23T12:41:51+08:00
+date: 2026-07-22T14:28:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1779792829852-92a3e1e051b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1779792829852-92a3e1e051b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
 ---
 
 # [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
@@ -136,9 +136,9 @@ easy IPC, much more QoL stuff than other compositors and more...
 
 <!----------------------------------{ Images }--------------------------------->
 
-[Preview A]: https://i.ibb.co/XxFY75Mk/greerggergerhtrytghjnyhjn.png
-[Preview B]: https://i.ibb.co/C1yTb0r/falf.png
-[Preview C]: https://i.ibb.co/2Yc4q835/hyprland-preview-b.png
+[Preview A]: ./assets/prev1.png
+[Preview B]: ./assets/prev2.png
+[Preview C]: ./assets/prev3.png
 
 
 <!----------------------------------{ Badges }--------------------------------->

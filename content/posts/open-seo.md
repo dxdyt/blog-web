@@ -1,9 +1,9 @@
 ---
 title: open-seo
-date: 2026-07-21T14:28:00+08:00
+date: 2026-07-22T14:27:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783828704146-303e99169d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783828704146-303e99169d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
 ---
 
 # [every-app/open-seo](https://github.com/every-app/open-seo)

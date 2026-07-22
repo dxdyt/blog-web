@@ -1,9 +1,9 @@
 ---
 title: wigolo
-date: 2026-07-21T14:28:26+08:00
+date: 2026-07-22T14:29:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784146929766-3d69334d602d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783828704146-303e99169d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783828704146-303e99169d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
 ---
 
 # [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo)
