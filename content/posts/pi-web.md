@@ -1,9 +1,9 @@
 ---
 title: pi-web
-date: 2026-07-22T14:28:41+08:00
+date: 2026-07-23T14:30:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1777799589789-fa55d10cf81d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1777799589789-fa55d10cf81d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783373315969-75c9f17ddae0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783373315969-75c9f17ddae0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
 ---
 
 # [agegr/pi-web](https://github.com/agegr/pi-web)
@@ -45,6 +45,28 @@ pi-web --no-open                # do not open the browser automatically
 
 PORT=8080 pi-web                # environment variable is also supported
 PI_WEB_NO_OPEN=1 pi-web         # useful when running as a background service
+```
+
+## HTTP Proxy
+
+Pi Web reads the standard `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables for server-side model and API requests.
+
+On macOS or Linux:
+
+```bash
+HTTP_PROXY=http://127.0.0.1:7890 \
+HTTPS_PROXY=http://127.0.0.1:7890 \
+NO_PROXY=localhost,127.0.0.1 \
+npx @agegr/pi-web@latest
+```
+
+On Windows PowerShell:
+
+```powershell
+$env:HTTP_PROXY = "http://127.0.0.1:7890"
+$env:HTTPS_PROXY = "http://127.0.0.1:7890"
+$env:NO_PROXY = "localhost,127.0.0.1"
+npx @agegr/pi-web@latest
 ```
 
 ## Features
@@ -109,6 +131,7 @@ components/
   FileExplorer.tsx    # file tree
   FileViewer.tsx      # source, diff, image, audio, PDF, DOCX preview
 lib/
+  http-dispatcher.ts  # HTTP(S) proxy setup for server-side fetch
   rpc-manager.ts      # AgentSessionWrapper lifecycle and global registry
   session-reader.ts   # parses .jsonl session files and branch contexts
   normalize.ts        # normalizes toolCall field names
@@ -123,4 +146,5 @@ hooks/
   useTheme.ts         # theme switching
 bin/
   pi-web.js           # npm CLI entrypoint
+instrumentation.ts    # initializes the server HTTP dispatcher
 ```

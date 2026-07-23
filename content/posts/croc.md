@@ -1,9 +1,9 @@
 ---
 title: croc
-date: 2026-07-22T14:28:51+08:00
+date: 2026-07-23T14:29:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783716549682-5f945bb5f47e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783716549682-5f945bb5f47e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783595926259-36b085f276d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
 ---
 
 # [schollz/croc](https://github.com/schollz/croc)

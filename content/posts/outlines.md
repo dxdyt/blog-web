@@ -1,9 +1,9 @@
 ---
 title: outlines
-date: 2026-07-22T14:29:05+08:00
+date: 2026-07-23T14:31:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783273234319-4733bd1db575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783273234319-4733bd1db575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782813633028-c10e507db7d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782813633028-c10e507db7d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
 ---
 
 # [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)

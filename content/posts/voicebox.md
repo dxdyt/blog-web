@@ -1,9 +1,9 @@
 ---
 title: voicebox
-date: 2026-07-21T14:27:38+08:00
+date: 2026-07-23T14:29:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783211645401-44ddd7605256?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ2MTUyMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1784323921011-2379eafda3c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1784323921011-2379eafda3c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
 ---
 
 # [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
