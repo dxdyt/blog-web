@@ -1,9 +1,9 @@
 ---
 title: RuView
-date: 2026-07-23T14:29:11+08:00
+date: 2026-07-24T14:26:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784493693882-9131805b1804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784493693882-9131805b1804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783232952209-f465316d4730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783232952209-f465316d4730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
 ---
 
 # [ruvnet/RuView](https://github.com/ruvnet/RuView)

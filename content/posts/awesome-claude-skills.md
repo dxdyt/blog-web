@@ -1,9 +1,9 @@
 ---
 title: awesome-claude-skills
-date: 2026-07-23T14:30:13+08:00
+date: 2026-07-24T14:25:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1781647752875-c9366004276b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1781647752875-c9366004276b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1783733319585-339a3ba70739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1783733319585-339a3ba70739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
 ---
 
 # [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)

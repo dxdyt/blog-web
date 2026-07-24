@@ -1,9 +1,9 @@
 ---
 title: text-to-cad
-date: 2026-07-22T14:27:10+08:00
+date: 2026-07-24T14:25:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784146930851-91cf7237f39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784146930851-91cf7237f39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3MDE1ODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782177385908-3478affab036?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782177385908-3478affab036?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
 ---
 
 # [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)

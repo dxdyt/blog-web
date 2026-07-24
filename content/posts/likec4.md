@@ -1,9 +1,9 @@
 ---
 title: likec4
-date: 2026-07-23T14:29:34+08:00
+date: 2026-07-24T14:26:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1784323921011-2379eafda3c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1784323921011-2379eafda3c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1784601680720-6f9f42e552b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1784601680720-6f9f42e552b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
 ---
 
 # [likec4/likec4](https://github.com/likec4/likec4)

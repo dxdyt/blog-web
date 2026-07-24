@@ -1,9 +1,9 @@
 ---
 title: pi-web
-date: 2026-07-23T14:30:30+08:00
+date: 2026-07-24T14:26:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1783373315969-75c9f17ddae0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1783373315969-75c9f17ddae0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ3ODgxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1782177385908-3478affab036?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1782177385908-3478affab036?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODQ4NzQyNzl8&ixlib=rb-4.1.0
 ---
 
 # [agegr/pi-web](https://github.com/agegr/pi-web)
